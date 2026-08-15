@@ -16,7 +16,7 @@ The current implementation is pushed to the private repository [acdcpc/prakash-P
 | Clinical tools | Drug dosing, scores, POCUS documentation, pathways, Emergency Mode, and High-Risk Infusions |
 | Child health | Milestones, Nepal immunization, growth links, M-CHAT prompts, and disease-library metadata |
 | Evidence updates | Dated, source-linked “What’s New in Pediatrics” feed for Nepal and global sources |
-| Tests | `npm test` currently passes 15 tests, including 325 Emergency Mode simulation cases |
+| Tests | `npm test` currently passes 23 tests, including 325 Emergency Mode simulation cases and Teddy Bear seed/review integrity checks |
 | Build | `npm run build` passes |
 | Lint | `npm run lint` passes with 0 errors and existing warnings |
 
@@ -240,13 +240,15 @@ The repository uses source links and dated metadata for AHA/AAP resuscitation re
 
 The PAHS high-risk infusion document is fully represented as 29 structured records, but the records should not be considered clinically validated merely because they are parsed. The application visibly flags source ambiguities and requires verification of local concentrations, dose ranges, routes, compatibility, pump-library values, monitoring, and escalation procedures.
 
-The private Teddy Bear ingestion utility is run with:
+The authorized full Teddy Bear workflow is run with:
 
 ```bash
-npm run ingest:drugs -- /path/to/authorized/Teddybear.pdf
+npm run ingest:drugs -- /authorized/path/Teddybear.pdf .clinical-private/drug-reference
+npm run compile:drugs -- .clinical-private/drug-reference/source.txt .clinical-private/drug-reference/monograph-index.json .clinical-private/teddy_bear_monographs_seed.sql
+cp .clinical-private/teddy_bear_monographs_seed.sql sql/teddy_bear_monographs_seed.sql
 ```
 
-The output must remain private and gitignored. Full copyrighted monograph text is not committed to the repository.
+With the institution’s stated permission, the private repository now contains the full-text SQL seed for the 1,561 extracted records and the `teddy_bear_monographs` table migration. The authenticated `/teddy-bear-review` route loads the full content through Supabase RLS. All records begin as pending clinical verification and are not automatically promoted into calculator data. See [`docs/TEDDY_BEAR_INTEGRATION.md`](docs/TEDDY_BEAR_INTEGRATION.md) for the apply order and team review process.
 
 ## Testing and quality checks
 
@@ -260,7 +262,7 @@ npm run lint
 
 The current suite includes weight-based drug dose boundary tests, maximum-dose tests, malformed-input tests, high-risk infusion metadata coverage, minute-to-hour conversions, final-concentration safeguards, and volume-based infusion calculations.
 
-The current repository has **15 passing tests**, including the Emergency Mode age/weight simulation, a passing production build, and zero lint errors. Existing lint warnings in older application files remain technical-debt items and should be addressed before a regulated production release.
+The current repository has **23 passing tests**, including the Emergency Mode age/weight simulation, Teddy Bear full-content seed/review integrity checks, a passing production build, and zero lint errors. Existing lint warnings in older application files remain technical-debt items and should be addressed before a regulated production release.
 
 ## Security and privacy
 
@@ -293,6 +295,7 @@ The application does not yet provide a fully validated offline PWA, signed medic
 | [`docs/EMERGENCY_GUIDELINES.md`](docs/EMERGENCY_GUIDELINES.md) | Nepal/global emergency-guideline source review and integration status |
 | [`docs/PAHS_INTEGRATION_AUDIT.md`](docs/PAHS_INTEGRATION_AUDIT.md) | 29-row PAHS parsing and repository coverage audit |
 | [`docs/PHI_SECURITY_REVIEW.md`](docs/PHI_SECURITY_REVIEW.md) | Emergency simulation, RLS review, storage findings, and remediation recommendations |
+| [`docs/TEDDY_BEAR_INTEGRATION.md`](docs/TEDDY_BEAR_INTEGRATION.md) | Full authorized Teddy Bear extraction, private seed, review workflow, and clinical promotion safeguards |
 | [`sql/security_hardening.sql`](sql/security_hardening.sql) | Unit-scoped RLS, private image storage, signed-URL policies, and clinical audit events |
 | [`docs/SUPABASE_PRODUCTION_MIGRATION.md`](docs/SUPABASE_PRODUCTION_MIGRATION.md) | Production migration, signed-URL, RLS, audit verification, and rollback checklist |
 | [`docs/PEDIATRIC_UPDATES.md`](docs/PEDIATRIC_UPDATES.md) | Pediatric research/news feed editorial notes |

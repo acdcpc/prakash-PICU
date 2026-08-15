@@ -31,7 +31,7 @@ npm run lint
 npm run ingest:drugs -- /authorized/path/Teddybear.pdf
 ```
 
-`npm test` runs every `tests/*.test.mjs` file. At the current handoff point, 20 tests pass, including 325 age-band and weight simulation cases plus signed-URL and clinical-audit constraint checks. `npm run build` passes. `npm run lint` passes with zero errors and existing warnings in older files. Do not describe warnings as errors, but do not increase their number without reason.
+`npm test` runs every `tests/*.test.mjs` file. At the current handoff point, 23 tests pass, including 325 age-band and weight simulation cases, signed-URL and clinical-audit constraint checks, and Teddy Bear full-content seed/review integrity checks. `npm run build` passes. `npm run lint` passes with zero errors and existing warnings in older files. Do not describe warnings as errors, but do not increase their number without reason.
 
 ## Application architecture
 
@@ -98,11 +98,11 @@ Volume-based entries such as `mL/kg/hr` can calculate without a concentration fi
 
 The repository links to AHA/AAP CPR/PALS, SCCM PANDEM, the 2026 Surviving Sepsis Campaign pediatric guideline, Nepal MoHP ARDS guidance, NEPAS updates, WHO growth standards, Nepal immunization data, NICE, AAP/IAP/NEPAS hubs, and ASHP Teddy Bear information.
 
-The Teddy Bear book is copyrighted. The repository may contain a private ingestion utility and an authorized local index, but it must not commit or redistribute the full monograph text. Do not paste full copyrighted tables into public source files. Clinical references should be represented by metadata, short summaries, dates, and links unless the institution has a license permitting more.
+The institution has stated that it has permission to store and redistribute the full Teddy Bear content privately. The repository now contains `sql/teddy_bear_monographs.sql`, the generated `sql/teddy_bear_monographs_seed.sql`, and the authenticated `/teddy-bear-review` route. Keep the seed in the private repository only; never place it in public static hosting, client bundles, analytics, logs, screenshots, or public object storage. Every row remains pending clinical verification and must be reviewed before any promotion into calculator data.
 
 ## Patient privacy and security rules
 
-`sql/security_hardening.sql` is the optional production-hardening migration. Follow `docs/SUPABASE_PRODUCTION_MIGRATION.md` before applying it; the checklist covers staging, backups, unit membership seeding, legacy image migration, signed-URL expiry, negative RLS tests, audit constraints, rollout, and rollback. It adds `unit_memberships`, a required `patients.unit_name`, unit-scoped policies for patient records, a private `patient-images` bucket with signed-URL policies, and the append-only `clinical_audit_events` table. The institution must review and seed approved unit memberships before applying it. Existing public image objects and legacy `storage_url` rows require a reviewed migration.
+`sql/teddy_bear_monographs.sql` must be applied after `sql/security_hardening.sql`, followed by the authorized `sql/teddy_bear_monographs_seed.sql` import. `sql/security_hardening.sql` is the optional production-hardening migration. Follow `docs/SUPABASE_PRODUCTION_MIGRATION.md` before applying it; the checklist covers staging, backups, unit membership seeding, legacy image migration, signed-URL expiry, negative RLS tests, audit constraints, rollout, and rollback. It adds `unit_memberships`, a required `patients.unit_name`, unit-scoped policies for patient records, a private `patient-images` bucket with signed-URL policies, and the append-only `clinical_audit_events` table. The institution must review and seed approved unit memberships before applying it. Existing public image objects and legacy `storage_url` rows require a reviewed migration.
 
 `src/lib/clinicalAudit.js` writes PHI-minimized events for Emergency Mode calculations, Emergency Mode self-rechecks, and High-Risk Infusions same-doctor final re-checks. Events are written only for authenticated users and accept only a UUID-shaped optional patient identifier. The audit helper deliberately whitelists metadata fields and must not be expanded to accept names, free text, diagnoses, or other PHI.
 
@@ -127,14 +127,21 @@ Firebase Analytics is optional. It must remain disabled until explicit Firebase 
 | `docs/PRODUCT_BENCHMARK.md` | Worldwide pediatric-app benchmark and rationale for UX improvements |
 | `docs/EMERGENCY_GUIDELINES.md` | Emergency guidance sources, dates, Nepal/global status, and governance notes |
 | `docs/PAHS_INTEGRATION_AUDIT.md` | 29-row source-to-dataset coverage audit |
+| `docs/TEDDY_BEAR_INTEGRATION.md` | Full authorized Teddy Bear extraction, import order, review workflow, and promotion safeguards |
 | `docs/PEDIATRIC_UPDATES.md` | Editorial notes for the pediatric research/news feed |
 | `research/high_risk_infusions_extracted.md` | Extracted PAHS source text for auditability |
 | `research/emergency_guideline_sources.md` | Verified emergency-guidance research notes |
 | `src/data/highRiskInfusions.js` | Structured high-risk infusion records and rate function |
+| `src/data/teddyBearReviewIndex.js` | Metadata-only fallback for 1,561 monograph headings |
 | `src/data/emergencyGuidance.js` | Dated Nepal/global emergency-guidance cards |
 | `src/lib/clinicalTools.js` | Drug records, scores, algorithms, references, and dose calculator |
 | `tests/clinicalTools.test.mjs` | Drug dose calculation tests |
 | `tests/highRiskInfusions.test.mjs` | Infusion calculation and 29-entry completeness tests |
+| `scripts/ingest-teddy-bear.mjs` | Extracts an authorized PDF to private local text and heading index |
+| `scripts/compile-teddy-bear-sql.mjs` | Compiles private full text into the authorized Supabase seed |
+| `sql/teddy_bear_monographs.sql` | Private monograph schema, review fields, RLS, and approval gate |
+| `sql/teddy_bear_monographs_seed.sql` | Authorized full-text seed for private institutional Supabase use |
+| `src/pages/drugReview/TeddyBearReview.jsx` | Authenticated full-text monograph review workflow |
 
 ## Required workflow for future changes
 

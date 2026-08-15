@@ -31,6 +31,7 @@ const ChildHealth = lazy(() => import('./pages/childHealth/ChildHealth'));
 const PediatricUpdates = lazy(() => import('./pages/updates/PediatricUpdates'));
 const EmergencyMode = lazy(() => import('./pages/emergency/EmergencyMode'));
 const HighRiskInfusions = lazy(() => import('./pages/highRiskInfusions/HighRiskInfusions'));
+const TeddyBearReview = lazy(() => import('./pages/drugReview/TeddyBearReview'));
 
 function Loader() {
   return <div className="loader"><div className="spinner"></div> Loading…</div>;
@@ -77,6 +78,7 @@ export default function App() {
           <Route path="/pediatric-updates" element={<PediatricUpdates />} />
           <Route path="/emergency" element={<EmergencyMode />} />
           <Route path="/high-risk-infusions" element={<HighRiskInfusions />} />
+          <Route path="/teddy-bear-review" element={<TeddyBearReview />} />
           <Route path="/education-hub" element={<PrivateEducation />} />
           <Route path="/export" element={<ExportCenter />} />
           <Route path="/admin" element={<AdminPanel />} />

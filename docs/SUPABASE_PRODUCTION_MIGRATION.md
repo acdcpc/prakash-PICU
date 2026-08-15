@@ -39,11 +39,13 @@ Run the existing migrations first, if not already applied:
 sql/migration.sql
 sql/subscriptions.sql
 sql/security_hardening.sql
+sql/teddy_bear_monographs.sql
+sql/teddy_bear_monographs_seed.sql
 ```
 
 Review the SQL in the Supabase SQL editor before execution. The hardening migration contains `DROP POLICY` statements for the old broad policy names and creates replacement policies. It is intentionally not a blind rollback script.
 
-After the schema migration succeeds, seed approved unit memberships using a separately reviewed statement. Do not commit UUIDs to the repository:
+After the schema migration succeeds, apply `sql/teddy_bear_monographs.sql` and then run the authorized `sql/teddy_bear_monographs_seed.sql` file in the same private Supabase project. Verify that 1,561 rows are present and that every row has `review_status = 'pending-clinical-verification'` before opening the review route. Then seed approved unit memberships using a separately reviewed statement. Do not commit UUIDs to the repository:
 
 ```sql
 INSERT INTO public.unit_memberships (user_id, unit_name)
@@ -111,6 +113,19 @@ ORDER BY tablename, policyname;
 ```
 
 The negative access tests must confirm that an authenticated doctor who is not an active member of a patient’s unit cannot select, insert, update, or delete that patient’s rows, cannot list the patient’s image objects, cannot obtain a signed URL for them, and cannot read that patient’s audit events.
+
+## Teddy Bear content verification
+
+Run the following checks after the private monograph schema and seed are applied:
+
+```sql
+SELECT count(*) AS monograph_count,
+       count(*) FILTER (WHERE review_status = 'pending-clinical-verification') AS pending_count,
+       count(*) FILTER (WHERE content IS NULL OR length(content) = 0) AS empty_content_count
+FROM public.teddy_bear_monographs;
+```
+
+The expected initial result is 1,561 rows, 1,561 pending rows, and zero empty-content rows. Confirm that the authenticated `/teddy-bear-review` route can search headings, open full content, save review metadata, and does not expose the table through a public route. Approval must not automatically modify Emergency Mode or Clinical Tools dose data.
 
 ## Audit-event verification
 
