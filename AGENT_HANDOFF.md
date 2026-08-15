@@ -31,7 +31,7 @@ npm run lint
 npm run ingest:drugs -- /authorized/path/Teddybear.pdf
 ```
 
-`npm test` runs every `tests/*.test.mjs` file. At the current handoff point, 12 tests pass. `npm run build` passes. `npm run lint` passes with zero errors and existing warnings in older files. Do not describe warnings as errors, but do not increase their number without reason.
+`npm test` runs every `tests/*.test.mjs` file. At the current handoff point, 15 tests pass, including 325 age-band and weight simulation cases. `npm run build` passes. `npm run lint` passes with zero errors and existing warnings in older files. Do not describe warnings as errors, but do not increase their number without reason.
 
 ## Application architecture
 
@@ -62,7 +62,7 @@ The dashboard has quick actions and an evidence-watch shortcut. Emergency Mode u
 
 ### Emergency Mode
 
-Emergency Mode stores only a local weight context for convenience, provides rapid drug selection and a calculated reference amount, links to PALS equipment, Clinical Tools, High-Risk Infusions, and evidence updates, and includes a safety acknowledgement. It must remain clearly labeled as reference-only.
+Emergency Mode stores the current weight only in React memory for the active session; it no longer persists that context in browser storage, provides rapid drug selection and a calculated reference amount, links to PALS equipment, Clinical Tools, High-Risk Infusions, and evidence updates, and includes a safety acknowledgement. It must remain clearly labeled as reference-only.
 
 The code in `src/lib/clinicalTools.js` exports `calculateDrugDose(drug, weight)`. It rejects missing, non-positive, non-finite, or malformed inputs and enforces an optional maximum. The Emergency Mode display distinguishes dose units such as `mg/dose` from infusion units such as `mcg/min`.
 
@@ -102,7 +102,7 @@ The Teddy Bear book is copyrighted. The repository may contain a private ingesti
 
 ## Patient privacy and security rules
 
-Never put names, patient IDs, diagnoses, phone numbers, email addresses, images, or clinical narratives into analytics events, URLs, public logs, tests, screenshots, fixtures, or committed files. Local storage is not an appropriate long-term patient record. Any feature that moves clinical content from local storage into Supabase needs explicit patient binding, audit logging, access controls, and privacy review.
+Never put names, patient IDs, diagnoses, phone numbers, email addresses, images, or clinical narratives into analytics events, URLs, public logs, tests, screenshots, fixtures, or committed files. Local storage is not an appropriate long-term patient record. The only current browser-persisted values are non-PHI drug favorites and recent-drug preferences; POCUS drafts and Emergency Mode weight are session-memory only. Any feature that moves clinical content from local storage into Supabase needs explicit patient binding, audit logging, access controls, and privacy review.
 
 Supabase RLS is the security boundary. Do not rely only on React route guards. Do not commit `.env`, service-role keys, payment secrets, passwords, or administrator credentials. Payment credentials must never be collected or stored by the frontend.
 

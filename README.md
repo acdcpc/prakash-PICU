@@ -16,7 +16,7 @@ The current implementation is pushed to the private repository [acdcpc/prakash-P
 | Clinical tools | Drug dosing, scores, POCUS documentation, pathways, Emergency Mode, and High-Risk Infusions |
 | Child health | Milestones, Nepal immunization, growth links, M-CHAT prompts, and disease-library metadata |
 | Evidence updates | Dated, source-linked “What’s New in Pediatrics” feed for Nepal and global sources |
-| Tests | `npm test` currently passes 12 tests |
+| Tests | `npm test` currently passes 15 tests, including 325 Emergency Mode simulation cases |
 | Build | `npm run build` passes |
 | Lint | `npm run lint` passes with 0 errors and existing warnings |
 
@@ -58,7 +58,7 @@ The completeness audit is documented in [`docs/PAHS_INTEGRATION_AUDIT.md`](docs/
 
 ### POCUS documentation
 
-The POCUS workflow supports structured drafts for lung, heart, cranium, VExUS, bronchoscopy, vascular access, and transcranial Doppler studies. Drafts include indication, views/protocol, findings, limitations, supervision, and follow-up. Current drafts are local-device drafts and do not constitute a validated image archive or diagnostic report system.
+The POCUS workflow supports structured drafts for lung, heart, cranium, VExUS, bronchoscopy, vascular access, and transcranial Doppler studies. Drafts include indication, views/protocol, findings, limitations, supervision, and follow-up. Current POCUS drafts are held in memory for the active session only and do not constitute a validated image archive or diagnostic report system.
 
 ### Child Health and Kapoori-ka parity
 
@@ -259,11 +259,11 @@ npm run lint
 
 The current suite includes weight-based drug dose boundary tests, maximum-dose tests, malformed-input tests, high-risk infusion metadata coverage, minute-to-hour conversions, final-concentration safeguards, and volume-based infusion calculations.
 
-The current repository has **12 passing tests**, a passing production build, and zero lint errors. Existing lint warnings in older application files remain technical-debt items and should be addressed before a regulated production release.
+The current repository has **15 passing tests**, including the Emergency Mode age/weight simulation, a passing production build, and zero lint errors. Existing lint warnings in older application files remain technical-debt items and should be addressed before a regulated production release.
 
 ## Security and privacy
 
-Patient data must remain in institution-controlled Supabase infrastructure. Do not place patient-identifying data in analytics, local-storage drafts, source code, test fixtures, public URLs, or screenshots. Local POCUS drafts and Emergency Mode weight context are convenience features and require an institutional privacy review before production use.
+Patient data must remain in institution-controlled Supabase infrastructure. Do not place patient-identifying data in analytics, local-storage drafts, source code, test fixtures, public URLs, or screenshots. POCUS drafts and Emergency Mode weight context are held in memory for the active session only; they are not encrypted browser storage and are not a substitute for secure patient-bound persistence. Favorites and recent-drug preferences are the only current browser-persisted data and contain drug names rather than patient information. These behaviors still require institutional privacy review before production use.
 
 Production deployment should add audit logging for clinical actions, session timeout, device controls, backup/restore procedures, access reviews, secure headers, dependency scanning, error monitoring without PHI, and a formal incident-response plan.
 
@@ -291,6 +291,7 @@ The application does not yet provide a fully validated offline PWA, signed medic
 | [`docs/PRODUCT_BENCHMARK.md`](docs/PRODUCT_BENCHMARK.md) | Worldwide pediatric-tool benchmark and design decisions |
 | [`docs/EMERGENCY_GUIDELINES.md`](docs/EMERGENCY_GUIDELINES.md) | Nepal/global emergency-guideline source review and integration status |
 | [`docs/PAHS_INTEGRATION_AUDIT.md`](docs/PAHS_INTEGRATION_AUDIT.md) | 29-row PAHS parsing and repository coverage audit |
+| [`docs/PHI_SECURITY_REVIEW.md`](docs/PHI_SECURITY_REVIEW.md) | Emergency simulation, RLS review, storage findings, and remediation recommendations |
 | [`docs/PEDIATRIC_UPDATES.md`](docs/PEDIATRIC_UPDATES.md) | Pediatric research/news feed editorial notes |
 | [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) | Detailed instructions for future agents and maintainers |
 
