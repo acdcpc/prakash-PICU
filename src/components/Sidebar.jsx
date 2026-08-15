@@ -2,7 +2,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import {
   LayoutDashboard, Users, Droplets, Pill, FlaskConical,
-  StickyNote, Image, Calculator, BookOpen, Download, Settings, LogOut, Stethoscope, CreditCard, Baby, Newspaper
+  StickyNote, Image, Calculator, BookOpen, Download, Settings, LogOut, Stethoscope, CreditCard, Baby, Newspaper, Siren
 } from 'lucide-react';
 
 const NAV_ITEMS = [
@@ -16,6 +16,7 @@ const NAV_ITEMS = [
     { id: 'subscription', label: 'Subscription & Payment', icon: CreditCard, path: '/subscription' },
     { id: 'child-health', label: 'Child Health', icon: Baby, path: '/child-health' },
     { id: 'pediatric-updates', label: "What’s New", icon: Newspaper, path: '/pediatric-updates' },
+    { id: 'emergency', label: 'Emergency Mode', icon: Siren, path: '/emergency' },
     { id: 'education', label: 'Education Hub', icon: BookOpen, path: '/education-hub' },
     { id: 'export', label: 'Export Centre', icon: Download, path: '/export' },
   ]},
@@ -25,7 +26,7 @@ const NAV_ITEMS = [
 ];
 
 const TITLE_MAP = {
-  dashboard: 'Dashboard', patients: 'Patients', calculators: 'Calculators', 'clinical-tools': 'Clinical Tools', subscription: 'Subscription & Payment', 'child-health': 'Child Health', 'pediatric-updates': "What’s New",
+  dashboard: 'Dashboard', patients: 'Patients', calculators: 'Calculators', 'clinical-tools': 'Clinical Tools', subscription: 'Subscription & Payment', 'child-health': 'Child Health', 'pediatric-updates': "What’s New", emergency: 'Emergency Mode',
   education: 'Education Hub', export: 'Export Centre', admin: 'Admin Panel',
   fluidBalance: 'Fluid Balance', drugs: 'Drug Library', investigations: 'Investigations',
   notes: 'Clinical Notes', images: 'Patient Images',
