@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import { HIGH_RISK_INFUSIONS, getInfusionRate } from '../src/data/highRiskInfusions.js';
 
 test('high-risk infusion records have safety metadata', () => {
-  assert.ok(HIGH_RISK_INFUSIONS.length >= 20);
+  assert.equal(HIGH_RISK_INFUSIONS.length, 29);
+  const expected = ['Epinephrine', 'Norepinephrine', 'Dopamine', 'Dobutamine', 'Vasopressin', 'Milrinone', 'Midazolam', 'Morphine', 'Propofol', 'Ketamine', 'Dexmedetomidine', 'Fentanyl', 'Vecuronium', 'Amiodarone', 'Labetalol', 'Potassium chloride', 'Sodium bicarbonate', 'Calcium gluconate 10%', 'Mannitol 20%', 'Hypertonic saline 3%', 'Heparin line infusion', 'Magnesium sulfate', 'Regular insulin', 'Furosemide continuous infusion', 'Nitroprusside', 'Nicardipine', 'Octreotide', 'Pantoprazole', 'N-acetylcysteine'];
+  assert.deepEqual(HIGH_RISK_INFUSIONS.map((item) => item.name), expected);
   for (const infusion of HIGH_RISK_INFUSIONS) {
     assert.ok(infusion.id && infusion.name && infusion.category);
     assert.ok(infusion.doseUnit && Number.isFinite(infusion.min) && Number.isFinite(infusion.max));
