@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
-import { Users, Bed, AlertTriangle, TrendingUp, Plus } from 'lucide-react';
+import { Users, Bed, AlertTriangle, TrendingUp, Plus, Pill, Activity, Newspaper, Baby } from 'lucide-react';
 
 export default function Dashboard() {
   const { profile } = useAuth();
@@ -29,6 +29,9 @@ export default function Dashboard() {
 
   return (
     <div>
+      <div className="dashboard-welcome"><div><p className="eyebrow">Clinician command centre</p><h2>{profile?.unit_name || 'Pediatric Care'} overview</h2><p className="text-muted">Start with the patient list, a rapid calculator, or the latest evidence watch.</p></div><div className="quick-actions"><button className="btn btn-primary" onClick={() => navigate('/clinical-tools')}><Activity size={15} /> Clinical Tools</button><button className="btn btn-ghost" onClick={() => navigate('/pediatric-updates')}><Newspaper size={15} /> What’s New</button></div></div>
+      <div className="quick-launch-grid"><button className="quick-launch" onClick={() => navigate('/patients/new')}><Plus size={18} /><span><strong>Add patient</strong><small>Start a bedside record</small></span></button><button className="quick-launch" onClick={() => navigate('/clinical-tools')}><Pill size={18} /><span><strong>Drug & scores</strong><small>Shared age / weight context</small></span></button><button className="quick-launch" onClick={() => navigate('/child-health')}><Baby size={18} /><span><strong>Child health</strong><small>Growth, vaccines, milestones</small></span></button></div>
+
       <div className="stats-grid">
         <div className="stat-card">
           <div className="stat-num">{active}</div>
