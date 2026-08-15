@@ -1,0 +1,45 @@
+export const EMERGENCY_GUIDANCE_LAST_REVIEWED = '2026-08-15';
+
+export const EMERGENCY_GUIDANCE = [
+  {
+    id: 'ssc-pediatric-sepsis-2026',
+    region: 'Global',
+    date: '2026-03-23',
+    status: 'Current 2026 guideline',
+    title: 'Surviving Sepsis Campaign: children 2026',
+    summary: 'The 2026 guideline covers pediatric sepsis and septic shock and reports 61 statements, including new and updated recommendations across initial evaluation, antimicrobials, fluids, vasoactive support, ventilation, monitoring, organ support, and follow-up.',
+    source: 'Society of Critical Care Medicine',
+    url: 'https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-the-management-of-sepsis-and-septic-shock-in',
+  },
+  {
+    id: 'aha-pals-2025',
+    region: 'Global',
+    date: '2025-10-22',
+    status: 'Current reference in 2026',
+    title: 'AHA/AAP 2025 CPR, BLS, and PALS guidelines',
+    summary: 'AHA states that the official 2025 CPR and ECC guidelines are based on the current comprehensive review of resuscitation science, systems, protocols, and education. Use the official PALS/BLS guidance and local training requirements for resuscitation care.',
+    source: 'American Heart Association',
+    url: 'https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines',
+  },
+  {
+    id: 'nepal-ards-2021',
+    region: 'Nepal',
+    date: '2021-01-01',
+    status: 'Nepal national reference; verify revision status',
+    title: 'Nepal National Guideline on Acute Respiratory Distress Syndrome',
+    summary: 'The Government of Nepal Ministry of Health and Population guideline provides a national ARDS framework including diagnosis, oxygen therapy, HFNC, ventilation, and critical-care management. The published document is from 2021 and must be checked against newer local and international guidance.',
+    source: 'Government of Nepal, Ministry of Health and Population',
+    url: 'https://heoc.mohp.gov.np/guidelines-publications/national-guideline-on-acute-respiratory/download',
+  },
+  {
+    id: 'nepas-emergency-standards-2026',
+    region: 'Nepal',
+    date: '2026-04-01',
+    status: 'Professional-society update; not a treatment guideline',
+    title: 'NEPAS 2026 emergency-care and standardization priorities',
+    summary: 'NEPAS describes strengthening clinical standards, emergency care, standard treatment guidelines, emergency medical triage, and an e-paediatric drug formulary as current organizational priorities. Its April 2026 newsletter also describes resuscitation-manikin support for NCPR, PALS, and skills training.',
+    source: 'Nepal Paediatric Society',
+    url: 'https://nepas.org.np/about-us/',
+    secondaryUrl: 'https://nepas.org.np/wp-content/uploads/2026/04/ANKUR-NEWSLETTER-VOL-4-Issue-9-C2.pdf',
+  },
+];

@@ -1,7 +1,8 @@
 export const CLINICAL_REFERENCES = [
-  { id: 'aha-pals-2025', label: 'AHA 2025 Pediatric Advanced Life Support', url: 'https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-advanced-life-support' },
+  { id: 'aha-pals-2025', label: 'AHA/AAP CPR, BLS, and PALS 2025', url: 'https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines' },
   { id: 'sccm-pandem', label: 'SCCM PANDEM Guidelines for Infants and Children', url: 'https://www.sccm.org/clinical-resources/guidelines/guidelines/pandem-guidelines-for-infants-and-children' },
-  { id: 'sccm-ped-sepsis', label: 'Surviving Sepsis Campaign: Children', url: 'https://www.sccm.org/clinical-resources/surviving-sepsis-campaign-guidelines-2020' },
+  { id: 'sccm-ped-sepsis', label: 'Surviving Sepsis Campaign: Children 2026', url: 'https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-the-management-of-sepsis-and-septic-shock-in' },
+  { id: 'nepal-ards-2021', label: 'Nepal National ARDS Guideline 2021 — revision status required', url: 'https://heoc.mohp.gov.np/guidelines-publications/national-guideline-on-acute-respiratory/download' },
   { id: 'who-growth', label: 'WHO Child Growth Standards', url: 'https://www.who.int/tools/child-growth-standards' },
   { id: 'nepal-immunization', label: 'Nepal routine and delayed immunization schedules', url: 'https://fwd.gov.np/gallery-detail/routine-immunization-and-delayed-immunization-schedule-1751942697' },
   { id: 'nice-asthma', label: 'NICE asthma guidance', url: 'https://www.nice.org.uk/guidance/ng80' },
@@ -44,7 +45,7 @@ export const POCUS_TOPICS = ['Lung', 'Heart', 'Cranium', 'Venous excess (VExUS)'
 export const ALGORITHMS = [
   { title: 'PALS emergency algorithms', description: 'Weight-based emergency preparation, arrest, bradycardia, tachycardia, and post-arrest workflow.', reference: 'aha-pals-2025' },
   { title: 'Pediatric septic shock', description: 'Recognition, perfusion assessment, antimicrobials, fluids, vasoactive support, and reassessment prompts.', reference: 'sccm-ped-sepsis' },
-  { title: 'Pediatric ARDS', description: 'Structured severity, respiratory support, monitoring, and escalation checklist for local protocol adaptation.', reference: 'sccm-ped-sepsis' },
+  { title: 'Pediatric ARDS', description: 'Structured severity, respiratory support, monitoring, and escalation checklist for local protocol adaptation.', reference: 'nepal-ards-2021' },
   { title: 'Asthma exacerbation', description: 'Severity assessment, bronchodilator/steroid pathway, response reassessment, and escalation prompts.', reference: 'nice-asthma' },
   { title: 'Seizure and refractory seizure', description: 'Time-based seizure response checklist with weight-based medication lookup and specialist escalation.', reference: 'aha-pals-2025' },
   { title: 'Shock pathways', description: 'Hypovolemic, distributive, cardiogenic, obstructive, and mixed shock assessment prompts.', reference: 'sccm-ped-sepsis' },
@@ -56,8 +57,11 @@ export function getReference(id) {
 
 export function calculateDrugDose(drug, weight) {
   const numericWeight = Number(weight);
-  if (!drug || !Number.isFinite(numericWeight) || numericWeight <= 0) return null;
-  const amount = drug.dose * numericWeight;
-  const capped = drug.max ? Math.min(amount, drug.max) : amount;
-  return { raw: amount, capped, cappedByMax: capped !== amount };
+  const numericDose = Number(drug?.dose);
+  const numericMax = Number(drug?.max);
+  if (!drug || !Number.isFinite(numericWeight) || numericWeight <= 0 || !Number.isFinite(numericDose) || numericDose <= 0) return null;
+  const amount = numericDose * numericWeight;
+  const hasMaximum = Number.isFinite(numericMax) && numericMax > 0;
+  const capped = hasMaximum ? Math.min(amount, numericMax) : amount;
+  return { raw: amount, capped, cappedByMax: hasMaximum && capped < amount };
 }

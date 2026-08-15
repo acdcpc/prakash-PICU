@@ -592,3 +592,13 @@ tr:hover { background: #f8fafc; }
 .algorithm-steps label { display: flex; gap: 8px; align-items: flex-start; padding: 8px 0; font-size: .8rem; border-bottom: 1px solid var(--border); cursor: pointer; }
 .algorithm-steps label.done { color: var(--text-secondary); text-decoration: line-through; }
 .algorithm-steps input { accent-color: var(--teal); margin-top: 2px; }
+
+/* ── Emergency guidance feed ── */
+.emergency-guidance { margin-bottom: 14px; }
+.guidance-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; }
+.guidance-item { padding: 13px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-card); }
+.guidance-item-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; color: var(--text-secondary); font-size: .74rem; }
+.guidance-item h4 { margin: 9px 0 5px; color: var(--navy); font-size: .95rem; }
+.guidance-item p { color: var(--text-secondary); font-size: .78rem; }
+.guidance-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.guidance-item small { display: block; margin-top: 8px; }
