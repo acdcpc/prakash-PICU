@@ -83,6 +83,15 @@ OurPICU is a single-application clinical tool for managing PICU patients, tracki
 - Drug information: route, frequency, max dose, preparation instructions
 - Per-patient medication tracking
 
+### Clinical Tools Workspace
+- Shared pediatric patient context for age, weight, sex, diagnosis, and renal/dialysis status
+- Searchable alphabetized drug-reference starter set with weight-based calculations, maximum-dose caps, renal/dialysis prompts, and Teddy Bear-linked citations
+- Structured COMFORT-B, SOS-PD, PSSS, SBS, RASS, NIPS, CRIES, FLACC, FACES, CAPD, and pCAM-ICU assessment prompts
+- POCUS learning/documentation topics for lung, heart, cranium, VExUS, bronchoscopy, vascular access, and transcranial Doppler
+- Guideline-linked pathways for PALS emergencies, pediatric sepsis, pediatric ARDS, asthma, seizures, and shock
+
+All clinical tools are decision-support aids. They require verification against current institutional protocols, licensed references, patient-specific data, and supervising clinician judgment.
+
 ### Medical Calculators (10 tools)
 | Calculator | Use |
 |---|---|
@@ -356,32 +365,19 @@ Excel exports use SheetJS (xlsx library). Three export modes:
 
 ## Admin Account Setup
 
-**Pre-configured admin account:**
-- Email: `thisispratha@gmail.com`
-- Password: `Nmc@123456`
+**Admin account setup:**
 
-**Step 1** — Create the user (choose one method):
+Create an administrator using a secure, organization-controlled email address through the normal signup flow or Supabase Dashboard. Do not commit passwords, access tokens, or real administrator emails to this repository.
 
-**Method A: In-app signup** (recommended)
-1. Open the app → click "Create Account"
-2. Sign up with email `thisispratha@gmail.com` and password `Nmc@123456`
-3. Verify email if required (check Supabase Auth settings)
+After the user has been created, promote the account from the Supabase SQL Editor using its user ID or a locally supplied environment variable:
 
-**Method B: Supabase Dashboard**
-1. Go to Authentication → Users → Add User
-2. Email: `thisispratha@gmail.com`, Password: `Nmc@123456`
-3. Check "Auto Confirm User"
-
-**Step 2** — Promote to admin:
-
-Run this in Supabase SQL Editor:
 ```sql
 UPDATE public.profiles
 SET role = 'admin'
-WHERE id IN (SELECT id FROM auth.users WHERE email = 'thisispratha@gmail.com');
+WHERE id = '<approved-user-uuid>';
 ```
 
-**Step 3** — Verify: Log in with the admin account. The "Admin Panel" link should appear in the sidebar.
+Verify by signing in and confirming that the Admin Panel appears. Rotate any credentials that may previously have been present in repository history.
 
 ---
 

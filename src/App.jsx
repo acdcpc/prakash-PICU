@@ -23,6 +23,7 @@ const CalculatorHome = lazy(() => import('./pages/calculators/CalculatorHome'));
 const ExportCenter = lazy(() => import('./pages/export/ExportCenter'));
 const AdminPanel = lazy(() => import('./pages/admin/AdminPanel'));
 const PrivateEducation = lazy(() => import('./pages/education/PrivateEducation'));
+const ClinicalTools = lazy(() => import('./pages/clinical/ClinicalTools'));
 
 function Loader() {
   return <div className="loader"><div className="spinner"></div> Loading…</div>;
@@ -56,6 +57,7 @@ export default function App() {
           <Route path="/patients/:id/notes" element={<ClinicalNotes />} />
           <Route path="/patients/:id/images" element={<Images />} />
           <Route path="/calculators" element={<CalculatorHome />} />
+          <Route path="/clinical-tools" element={<ClinicalTools />} />
           <Route path="/education-hub" element={<PrivateEducation />} />
           <Route path="/export" element={<ExportCenter />} />
           <Route path="/admin" element={<AdminPanel />} />

@@ -261,11 +261,7 @@ CREATE TRIGGER trg_patients_updated BEFORE UPDATE ON public.patients FOR EACH RO
 -- ============================================================
 --  ADMIN USER SETUP
 -- ============================================================
--- After running this migration:
--- 1. Sign up in the app with: thisispratha@gmail.com / Nmc@123456
--- 2. Then run this to promote to admin:
---    UPDATE public.profiles SET role = 'admin' WHERE id IN (SELECT id FROM auth.users WHERE email = 'thisispratha@gmail.com');
--- Alternatively, create the admin user via Supabase Dashboard → Authentication → Add User:
---    Email: thisispratha@gmail.com
---    Password: Nmc@123456
---    Then: UPDATE public.profiles SET role = 'admin' WHERE id = '<uuid-from-dashboard>';
+-- After running this migration, create an administrator through the normal signup flow
+-- or Supabase Dashboard using an organization-controlled account. Never commit credentials.
+-- Then promote the approved account:
+--    UPDATE public.profiles SET role = 'admin' WHERE id = '<approved-user-uuid>';
