@@ -1,375 +1,223 @@
-# OurPICU — Pediatric ICU Management System
+# prakash-PICU — Pediatric Intensive Care Unit Platform
 
-A comprehensive PICU (Pediatric Intensive Care Unit) management application built with **React + Vite** and powered by **Supabase**.
+**prakash-PICU** is a React/Vite and Supabase application for pediatric intensive-care documentation, bedside reference, clinical calculations, child-health workflows, and clinician education. It was originally developed for Patan Academy of Health Sciences in Nepal and has been expanded into a doctor-centered PICU platform with Emergency Mode, high-risk infusion reference workflows, source-linked pediatric updates, and structured clinical documentation.
 
-> Originally developed for Patan Academy of Health Sciences, Nepal.
+> **Clinical safety boundary:** This application is a clinical reference and documentation aid. It is not an autonomous prescribing system, a substitute for a signed clinical order, a pharmacy monograph, a local hospital protocol, or professional judgment. Clinical content must be versioned, reviewed, approved, and maintained by the responsible institution before bedside deployment.
 
----
+## Current status
 
-## Table of Contents
+The current implementation is pushed to the private repository [acdcpc/prakash-PICU](https://github.com/acdcpc/prakash-PICU). The latest completed change is the same-doctor two-step confirmation workflow for high-risk infusions.
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Supabase Setup](#supabase-setup)
-- [Environment Variables](#environment-variables)
-- [Database Schema](#database-schema)
-- [Authentication](#authentication)
-- [Permissions (RLS)](#permissions-rls)
-- [Medical Calculators](#medical-calculators)
-- [Export](#export)
-- [Admin Account Setup](#admin-account-setup)
-- [Customization Guide](#customization-guide)
-- [License](#license)
-
----
-
-## Overview
-
-OurPICU is a single-application clinical tool for managing PICU patients, tracking fluid balance, calculating drug dosages, recording investigations, and running evidence-based clinical scores. It replaces a previous Firebase-based version with Supabase for better SQL support, Row-Level Security, and self-hosted capabilities.
-
-**Key design decisions:**
-- React/Vite SPA for maintainable, component-based architecture
-- Supabase Auth (email/password + Google OAuth + Magic Links)
-- Supabase PostgreSQL for structured, relational data
-- Supabase Storage for patient images (500KB limit)
-- Row-Level Security (RLS) for proper access control (replaces hardcoded email whitelist)
-
----
-
-## Features
-
-### Public Site
-- Landing page with app introduction
-- Education Hub: embedded YouTube videos, teaching notes, scored MCQs
-- About page
-
-### Authentication & Authorization
-- Email/password sign-in and sign-up
-- Google OAuth sign-in
-- Magic link (passwordless) sign-in
-- Role-based access: `admin`, `doctor`, `nurse`, `viewer`
-- RLS policies enforce permissions at database level
-
-### Dashboard
-- Bed occupancy overview (active/total/alerts)
-- FO% (Fluid Overload) visual alerts
-- Quick-add patient button
-
-### Patient Management
-- Add/discharge patients with bed assignment
-- Patient detail view with metadata summary
-- Fluid balance tracking per patient
-- Medication administration records
-- Lab investigations tracking
-- Clinical notes (progress, ward rounds, procedures, nursing)
-- Image upload (radiology, ultrasound, clinical photos)
-
-### Fluid Balance
-- ISL (Insensible Fluid Loss) age-based calculator
-- Ventilation adjustment (HFNC, MV humidified, MV HME)
-- Fever correction (+12% per °C above 37)
-- CRRT adjustment
-- Daily I/O tracking with input/drain breakdown
-- Cumulative FO% calculation
-- 14-day history table
-- Color-coded FO% alerts (green/amber/red)
-
-### Drug Library
-- 15+ pre-loaded PICU emergency and routine drugs
-- Weight-based dose calculation
-- Drug information: route, frequency, max dose, preparation instructions
-- Per-patient medication tracking
-
-### Clinical Tools Workspace
-- Shared pediatric patient context for age, weight, sex, diagnosis, and renal/dialysis status
-- Searchable alphabetized drug-reference starter set with weight-based calculations, maximum-dose caps, renal/dialysis prompts, and Teddy Bear-linked citations
-- Structured COMFORT-B, SOS-PD, PSSS, SBS, RASS, NIPS, CRIES, FLACC, FACES, CAPD, and pCAM-ICU assessment prompts
-- POCUS learning/documentation topics for lung, heart, cranium, VExUS, bronchoscopy, vascular access, and transcranial Doppler
-- Guideline-linked pathways for PALS emergencies, pediatric sepsis, pediatric ARDS, asthma, seizures, and shock
-
-All clinical tools are decision-support aids. They require verification against current institutional protocols, licensed references, patient-specific data, and supervising clinician judgment.
-
-### Medical Calculators (10 tools)
-| Calculator | Use |
+| Area | Current state |
 |---|---|
-| ISL Calculator | Insensible fluid loss with vent/fever/CRRT adjustments |
-| Drug Dose Calculator | Weight-based dosing with preparation instructions |
-| Ventilator Settings | Initial vent settings by age and indication |
-| PELOD-2 | Pediatric mortality prediction score |
-| RAI (Renal Angina Index) | AKI risk stratification |
-| Nutrition (Schofield) | Caloric, protein, fluid targets; enteral/parenteral |
-| PALS Emergency | Emergency drug doses and equipment sizes |
-| PRISM-IV | Pediatric Risk of Mortality score |
-| Phoenix Sepsis Score | 2024 pediatric sepsis criteria |
-| **Growth Chart** | WHO/CDC growth percentiles — weight, height, head circumference, BMI by age & sex |
+| Frontend | React 19 + Vite 6 single-page application |
+| Backend | Supabase Auth, PostgreSQL, Storage, RLS, and SQL migrations |
+| Primary users | Doctors and PICU clinicians; high-risk infusion signoff is doctor-only |
+| Clinical tools | Drug dosing, scores, POCUS documentation, pathways, Emergency Mode, and High-Risk Infusions |
+| Child health | Milestones, Nepal immunization, growth links, M-CHAT prompts, and disease-library metadata |
+| Evidence updates | Dated, source-linked “What’s New in Pediatrics” feed for Nepal and global sources |
+| Tests | `npm test` currently passes 12 tests |
+| Build | `npm run build` passes |
+| Lint | `npm run lint` passes with 0 errors and existing warnings |
 
-### Export Centre
-- Export all active patients to Excel (.xlsx)
-- Export single patient with all sub-records (fluid balance, drugs, labs, notes)
-- Date-range export for fluid balance across patients
-- Uses SheetJS (xlsx) library
+## Core capabilities
 
-### Admin Panel (`admin` role only)
-- Profile management
-- PICU settings (unit name, bed count)
-- Drug library CRUD
-- Education content management (videos, notes, MCQs)
-- Social media links
+### Patient and PICU management
 
----
+The authenticated application supports patient admission and discharge, bed assignment, patient detail views, fluid-balance tracking, medication records, laboratory investigations, clinical notes, procedures, image metadata, and Excel exports. Fluid-balance workflows include insensible fluid loss, ventilation adjustment, fever correction, CRRT adjustment, daily input/output recording, cumulative fluid-overload percentage, history tables, and alert colors.
 
-## Tech Stack
+### Clinical calculators
+
+The calculator centre includes ISL, drug dose, ventilator settings, PELOD-2, Renal Angina Index, nutrition, PALS emergency preparation, PRISM-IV, Phoenix Sepsis Score, and growth-chart tools. The calculators run client-side and display clinical safety disclaimers. They should be validated against current local protocols before clinical use.
+
+### Clinical Tools workspace
+
+`/clinical-tools` provides shared pediatric context for age, weight, sex, diagnosis, renal status, and dialysis/CRRT status. It contains a searchable starter drug-reference set with maximum-dose caps, renal/dialysis prompts, Teddy Bear reference links, scoring prompts for sedation, delirium, and pain, guideline-linked algorithms, and POCUS topic documentation.
+
+Drug lookup supports favorites and recents. Dose calculations reject invalid or non-finite weights, enforce maximum-dose caps, and show route, frequency, source, and safety notes. The application does not copy the full copyrighted Teddy Bear book into the repository. The private ingestion utility can index a supplied local PDF for authorized local use.
+
+### Emergency Mode
+
+`/emergency` is optimized for rapid scanning under pressure. It provides persistent local weight context, rapid dose selection, equipment and pathway links, a forced verification acknowledgement, a four-step emergency checklist, and current source-linked Nepal/global guidance. It also links directly to High-Risk Infusions.
+
+### PICU High-Risk Infusions
+
+`/high-risk-infusions` contains the fully audited high-risk infusion dataset extracted from the supplied `FINALHIghRiskInfusionsPAHS.docx` reference.
+
+The source contains 29 rows, and all 29 are represented in `src/data/highRiskInfusions.js`. Coverage includes vasopressors/inotropes, sedation/neuromuscular blockade, miscellaneous high-alert drugs, electrolytes, metabolic agents, neurocritical therapies, and endocrine infusions.
+
+The workflow is tailored for this doctor-only application:
+
+1. The prescribing doctor enters their name/designation and completes the **first check**, confirming indication, target dose, concentration, route, duration, and monitoring.
+2. Immediately before starting the infusion or changing the rate, the same prescribing doctor completes a separate **final re-check**, reconfirming patient identity, weight, allergies, final concentration, pump rate, route, line, and monitoring.
+3. The page remains in **Signoff required** state until the calculation is valid, the dose is within range, the prescribing doctor is identified, and both checks are confirmed.
+
+There is no nurse signoff and no second-doctor requirement in the current workflow. For non-volume-based infusions, a pharmacy- or protocol-verified **final prepared concentration** must be entered; the stock ampoule concentration is not silently treated as the final pump concentration. Entries with ambiguity, neonatal-specific preparation, incomplete dilution, or possible unit transcription issues are visibly flagged.
+
+The completeness audit is documented in [`docs/PAHS_INTEGRATION_AUDIT.md`](docs/PAHS_INTEGRATION_AUDIT.md), and the extracted source is retained in [`research/high_risk_infusions_extracted.md`](research/high_risk_infusions_extracted.md).
+
+### POCUS documentation
+
+The POCUS workflow supports structured drafts for lung, heart, cranium, VExUS, bronchoscopy, vascular access, and transcranial Doppler studies. Drafts include indication, views/protocol, findings, limitations, supervision, and follow-up. Current drafts are local-device drafts and do not constitute a validated image archive or diagnostic report system.
+
+### Child Health and Kapoori-ka parity
+
+`/child-health` includes milestone content, Nepal routine and delayed immunization data, growth-chart links, M-CHAT screening prompts, WHO growth references, and disease-library metadata. The content is organized as clinician support and must be checked against current national and institutional guidance.
+
+### What’s New in Pediatrics
+
+`/pediatric-updates` provides a dated, source-linked feed with Nepal and global filters, category filters, search, concise clinical relevance, and direct source links. The current feed includes verified updates from NEPAS, UNICEF Nepal, WHO, AAP, and other open institutional or research sources. The feed is manually reviewed and statically versioned; it is not an unsupervised live search or automatic clinical protocol importer.
+
+### Subscription and payments
+
+`/subscription` provides a Supabase-backed subscription and payment-request foundation with plan selection, monthly/yearly options, provider configuration status, transaction references, manual review, and administrator activation. The repository includes `sql/subscriptions.sql` with tables, indexes, RLS policies, and an activation-code RPC.
+
+Live provider checkout, signed webhooks, refunds, reconciliation, idempotency, and payment compliance require organization-owned provider accounts and server-side integration. No card credentials should be collected by the client application.
+
+### Analytics
+
+Firebase Analytics is optional and disabled unless explicit environment configuration is present. Route and product events are designed to exclude patient names, identifiers, diagnosis, contact details, and other patient-identifying data. Analytics consent, institutional privacy review, and retention policy are required before activation.
+
+## Routes
+
+| Route | Purpose |
+|---|---|
+| `/` | Public landing page |
+| `/education` | Public education page |
+| `/about` | Public about page |
+| `/dashboard` | Authenticated PICU dashboard |
+| `/patients` | Patient list |
+| `/patients/new` | Add a patient |
+| `/patients/:id` | Patient detail |
+| `/patients/:id/fluid-balance` | Patient fluid balance |
+| `/patients/:id/drugs` | Patient medications |
+| `/patients/:id/investigations` | Patient investigations |
+| `/patients/:id/notes` | Clinical notes |
+| `/patients/:id/images` | Patient images |
+| `/calculators` | Medical calculator centre |
+| `/clinical-tools` | Clinical tools workspace |
+| `/emergency` | Rapid pediatric Emergency Mode |
+| `/high-risk-infusions` | PAHS high-risk infusion reference and same-doctor two-step confirmation |
+| `/subscription` | Subscription and payment-request workflow |
+| `/child-health` | Kapoori-ka parity child-health workspace |
+| `/pediatric-updates` | Nepal/global pediatric evidence and news feed |
+| `/education-hub` | Private education hub |
+| `/export` | Excel export centre |
+| `/admin` | Admin-only management panel |
+
+## Technology stack
 
 | Layer | Technology |
 |---|---|
 | Frontend | React 19, Vite 6 |
 | Routing | React Router 7 |
-| Backend | Supabase (PostgreSQL) |
-| Auth | Supabase Auth (email, Google OAuth, Magic Link) |
-| Storage | Supabase Storage |
-| Excel Export | SheetJS (xlsx) |
-| Growth Charts | WHO/CDC LMS reference data |
+| Backend | Supabase PostgreSQL, Auth, Storage, and RLS |
+| Analytics | Optional Firebase Web SDK adapter |
+| Export | SheetJS (`xlsx`) |
 | Icons | Lucide React |
-| Fonts | DM Sans, DM Serif Display (Google Fonts) |
+| Styling | Project design tokens and responsive CSS in `src/index.css` |
+| Testing | Node.js native test runner |
+| Drug ingestion | Node.js private local indexing utility |
 
----
+## Project structure
 
-## Project Structure
-
-```
-ourpicu-app/
-├── public/
-│   └── favicon.svg
+```text
+prakash-PICU/
+├── docs/
+│   ├── EMERGENCY_GUIDELINES.md
+│   ├── PAHS_INTEGRATION_AUDIT.md
+│   ├── PRODUCT_BENCHMARK.md
+│   ├── PRODUCT_FEATURES.md
+│   └── PEDIATRIC_UPDATES.md
+├── research/
+│   ├── emergency_guideline_sources.md
+│   ├── high_risk_infusions_extracted.md
+│   ├── pediatric_updates_sources.md
+│   └── product_benchmark_sources.md
+├── scripts/
+│   └── ingest-teddy-bear.mjs
 ├── sql/
-│   └── migration.sql          # Full database migration (tables + RLS + triggers + admin seed)
+│   ├── migration.sql
+│   └── subscriptions.sql
 ├── src/
-│   ├── lib/
-│   │   └── supabase.js        # Supabase client initialization
-│   ├── context/
-│   │   └── AuthContext.jsx    # Auth provider with all auth methods
 │   ├── components/
-│   │   ├── AppLayout.jsx      # Private app layout (sidebar + content)
-│   │   ├── PublicLayout.jsx   # Public site layout (header + content)
-│   │   └── Sidebar.jsx        # Navigation sidebar
+│   ├── context/
+│   ├── data/
+│   │   ├── emergencyGuidance.js
+│   │   ├── highRiskInfusions.js
+│   │   └── pediatricUpdates.js
+│   ├── lib/
+│   │   ├── analytics.js
+│   │   ├── clinicalTools.js
+│   │   ├── diseaseLibrary.js
+│   │   └── supabase.js
 │   ├── pages/
-│   │   ├── auth/
-│   │   │   ├── Login.jsx
-│   │   │   └── Signup.jsx
-│   │   ├── public/
-│   │   │   ├── Home.jsx
-│   │   │   ├── Education.jsx
-│   │   │   └── About.jsx
-│   │   ├── dashboard/
-│   │   │   └── Dashboard.jsx
-│   │   ├── patients/
-│   │   │   ├── PatientList.jsx
-│   │   │   ├── PatientDetail.jsx
-│   │   │   └── PatientForm.jsx
-│   │   ├── fluidBalance/
-│   │   │   └── FluidBalance.jsx
-│   │   ├── drugs/
-│   │   │   └── DrugLibrary.jsx
-│   │   ├── investigations/
-│   │   │   └── Investigations.jsx
-│   │   ├── notes/
-│   │   │   ├── ClinicalNotes.jsx
-│   │   │   └── Images.jsx
 │   │   ├── calculators/
-│   │   │   ├── CalculatorHome.jsx
-│   │   │   ├── ISLCalc.jsx
-│   │   │   ├── DrugCalc.jsx
-│   │   │   ├── VentCalc.jsx
-│   │   │   ├── PELODCalc.jsx
-│   │   │   ├── RAICalc.jsx
-│   │   │   ├── NutritionCalc.jsx
-│   │   │   ├── PALSCalc.jsx
-│   │   │   ├── PRISMCalc.jsx
-│   │   │   ├── PhoenixCalc.jsx
-│   │   │   └── GrowthChartCalc.jsx
-│   │   ├── education/
-│   │   │   └── PrivateEducation.jsx
-│   │   ├── export/
-│   │   │   └── ExportCenter.jsx
-│   │   └── admin/
-│   │       └── AdminPanel.jsx
-│   ├── App.jsx                 # Router configuration
-│   ├── main.jsx                # Entry point
-│   └── index.css               # Complete design system CSS
+│   │   ├── childHealth/
+│   │   ├── clinical/
+│   │   ├── emergency/
+│   │   ├── highRiskInfusions/
+│   │   ├── pediatricUpdates/
+│   │   ├── subscription/
+│   │   └── ...
+│   ├── App.jsx
+│   └── index.css
+├── tests/
+│   ├── clinicalTools.test.mjs
+│   └── highRiskInfusions.test.mjs
 ├── .env.example
-├── index.html
-├── vite.config.js
+├── .gitignore
 ├── package.json
 └── README.md
 ```
 
----
-
-## Getting Started
+## Getting started
 
 ### Prerequisites
-- Node.js 18+
-- A Supabase project (free tier works)
 
-### Installation
+Use Node.js 18 or newer and an organization-controlled Supabase project. Node.js 22 is used in the current development environment.
+
+### Install and run
 
 ```bash
-# Clone the repo
-git clone <repo-url>
-cd ourpicu-app
-
-# Install dependencies
+git clone https://github.com/acdcpc/prakash-PICU.git
+cd prakash-PICU
 npm install
-
-# Copy environment variables
 cp .env.example .env
-
-# Edit .env with your Supabase credentials
-# VITE_SUPABASE_URL=https://your-project.supabase.co
-# VITE_SUPABASE_ANON_KEY=***
-
-# Start development server
 npm run dev
 ```
 
-Open http://localhost:3000 in your browser.
+The development server uses the Vite configuration in the repository. The exact local port is printed by Vite when the server starts.
 
-### Production Build
+### Environment variables
 
-```bash
-npm run build
-# Output: dist/ folder, ready for deployment
-```
+Copy `.env.example` to `.env` and supply only organization-controlled values.
 
----
-
-## Supabase Setup
-
-### 1. Create Supabase Project
-Go to [supabase.com](https://supabase.com) → New Project → fill in details.
-
-### 2. Run Migration
-1. Open your Supabase project dashboard
-2. Go to **SQL Editor**
-3. Copy the contents of `sql/migration.sql`
-4. Paste and click **Run**
-
-This creates all tables, indexes, RLS policies, triggers, and the `user_role` enum.
-
-### 3. Configure Auth
-1. Go to **Authentication → Providers**
-2. Enable **Email** provider (default)
-3. To enable Google OAuth: enable **Google** provider, add Client ID/Secret
-4. To enable Magic Link: it's built into the Email provider (no extra config)
-
-### 4. Set Up Storage
-1. Go to **Storage**
-2. Create a new bucket named `patient-images`
-3. Set it to **Public**
-4. Set file size limit to **524288** (500KB)
-
-### 5. Set Up Admin Account
-See [Admin Account Setup](#admin-account-setup) below.
-
----
-
-## Environment Variables
-
-| Variable | Description |
+| Variable | Purpose |
 |---|---|
-| `VITE_SUPABASE_URL` | Your Supabase project URL (e.g., `https://abc123.supabase.co`) |
-| `VITE_SUPABASE_ANON_KEY` | Your Supabase anon/public key |
+| `VITE_SUPABASE_URL` | Supabase project URL |
+| `VITE_SUPABASE_ANON_KEY` | Supabase public anonymous key |
+| `VITE_FIREBASE_API_KEY` | Optional Firebase Analytics configuration |
+| `VITE_FIREBASE_AUTH_DOMAIN` | Optional Firebase Analytics configuration |
+| `VITE_FIREBASE_PROJECT_ID` | Optional Firebase Analytics configuration |
+| `VITE_FIREBASE_STORAGE_BUCKET` | Optional Firebase configuration |
+| `VITE_FIREBASE_MESSAGING_SENDER_ID` | Optional Firebase configuration |
+| `VITE_FIREBASE_APP_ID` | Optional Firebase Analytics configuration |
+| `VITE_STRIPE_PUBLISHABLE_KEY` | Optional provider-status configuration only; do not treat this as a complete payment integration |
+| `VITE_ESEWA_MERCHANT_CODE` | Optional provider-status configuration |
+| `VITE_KHALTI_PUBLIC_KEY` | Optional provider-status configuration |
 
-Get these from: Supabase Dashboard → Settings → API
+Never commit `.env`, service-role keys, private payment keys, passwords, patient data, or extracted copyrighted monograph text.
 
----
+## Supabase setup
 
-## Database Schema
-
-| Table | Purpose | Key Columns |
-|---|---|---|
-| `profiles` | User profiles, extends auth.users | role, full_name, designation, hospital, beds |
-| `education` | Single-row: videos[], teaching_notes[], mcqs[], social_media{} | All JSONB content |
-| `patients` | Core patient records | bed_number, age, weight, diagnosis, latest_fo, active |
-| `fluid_balance` | Daily fluid balance per patient | date, total_input, total_output, fluid_overload_pct, isl_daily |
-| `patient_drugs` | Medications per patient | drug_name, dose_per_kg, frequency, route |
-| `investigations` | Lab results per patient | date, lab_values (JSONB) |
-| `patient_notes` | Clinical notes per patient | text, type (progress/ward_round/procedure/nursing) |
-| `patient_images` | Uploaded image metadata | storage_url, type, description |
-| `calc_results` | Saved calculator results | type (vexus/prism/phoenix), data (JSONB) |
-| `drug_library` | Global drug reference | name, dose, max, freq, route, prep |
-
-### Storage Bucket
-
-| Bucket | Purpose | Limit |
-|---|---|---|
-| `patient-images` | Patient radiology/ultrasound/clinical images | 500KB per file |
-
----
-
-## Authentication
-
-All auth goes through Supabase Auth. Available methods:
-
-1. **Email/Password**: Standard sign-in/sign-up
-2. **Google OAuth**: One-click sign-in with Google account
-3. **Magic Link**: Passwordless — enter email, click link in inbox
-
-New users automatically get a `profiles` row with `doctor` role via the `handle_new_user()` trigger.
-
----
-
-## Permissions (RLS)
-
-Role-Based Access Control via PostgreSQL Row-Level Security:
-
-| Role | Permissions |
-|---|---|
-| `admin` | Full access: manage patients, drugs, education, settings, promote users |
-| `doctor` | Read/write patients and clinical data; cannot access admin panel |
-| `nurse` | Read/write clinical data; limited settings access |
-| `viewer` | Read-only access to patient data |
-
-All tables have RLS enabled. The admin panel UI is also gated at the React level (`isAdmin` check).
-
----
-
-## Medical Calculators
-
-All calculators run client-side (no backend needed). The clinical formulas are embedded in the React components.
-
-### Growth Chart Calculator
-Uses WHO/CDC reference data with LMS (Lambda-Mu-Sigma) methodology:
-- **Weight-for-age**: 0-19 years (boys & girls)
-- **Height-for-age**: 0-19 years (boys & girls)
-- **Head circumference-for-age**: 0-5 years (boys & girls)
-- **BMI-for-age**: 2-19 years (derived from weight & height z-scores)
-- Inputs: Date of Birth, Sex, Weight, Height, Head Circumference
-- Outputs: Z-score, Percentile, Clinical Category for each measurement
-
-**Disclaimer:** These calculators are clinical decision-support tools. They should not be used as the sole basis for clinical decisions. Always verify with institutional protocols and clinical judgment.
-
----
-
-## Export
-
-Excel exports use SheetJS (xlsx library). Three export modes:
-
-1. **All Patients**: Summary of all active patients
-2. **Single Patient**: Full export including fluid balance, drugs, labs, notes, and calc results
-3. **Date Range**: Fluid balance data across all patients within a date range
-
----
-
-## Admin Account Setup
-
-**Admin account setup:**
-
-Create an administrator using a secure, organization-controlled email address through the normal signup flow or Supabase Dashboard. Do not commit passwords, access tokens, or real administrator emails to this repository.
-
-After the user has been created, promote the account from the Supabase SQL Editor using its user ID or a locally supplied environment variable:
+1. Create a Supabase project controlled by the institution.
+2. Copy the project URL and anonymous key into `.env`.
+3. Run `sql/migration.sql` in the Supabase SQL Editor.
+4. Run `sql/subscriptions.sql` after the base migration.
+5. Enable the required Auth providers under Supabase Authentication.
+6. Create and configure the `patient-images` storage bucket according to institutional privacy policy.
+7. Create an administrator through the normal organization-controlled signup process and promote the approved user by UUID in the SQL Editor.
 
 ```sql
 UPDATE public.profiles
@@ -377,42 +225,77 @@ SET role = 'admin'
 WHERE id = '<approved-user-uuid>';
 ```
 
-Verify by signing in and confirming that the Admin Panel appears. Rotate any credentials that may previously have been present in repository history.
+Do not place administrator credentials in source code, SQL comments, documentation, seed files, or test fixtures.
 
----
+## Database and permissions
 
-## Customization Guide
+The core migration contains profiles, education, patients, fluid balance, patient drugs, investigations, clinical notes, patient images, calculator results, and the drug library. Subscription tables are defined separately in `sql/subscriptions.sql`.
 
-### Change Colors
-Edit CSS variables in `src/index.css` (lines starting with `--navy`, `--teal`, `--blue`, etc.).
+The existing role model includes `admin`, `doctor`, `nurse`, and `viewer` for database permissions. The current high-risk infusion page itself is intentionally a doctor-centered reference workflow and does not require nurse signoff. RLS remains the source of truth for data access; UI checks are not sufficient security controls.
 
-### Change Doctor Name / Hospital
-Via the Admin Panel → Profile tab, or directly in Supabase `profiles` table.
+## Clinical content and source governance
 
-### Add/Remove Drugs
-Via the Admin Panel → Drug Library tab, or directly in `drug_library` table.
+The repository uses source links and dated metadata for AHA/AAP resuscitation references, the 2026 Surviving Sepsis Campaign pediatric guideline, Nepal’s Ministry of Health ARDS guidance, NEPAS updates, WHO growth standards, Nepal immunization schedules, NICE guidance, AAP/IAP/NEPAS hubs, and ASHP Teddy Bear reference information.
 
-### Change Navigation
-Edit `NAV_ITEMS` array in `src/components/Sidebar.jsx`.
+The PAHS high-risk infusion document is fully represented as 29 structured records, but the records should not be considered clinically validated merely because they are parsed. The application visibly flags source ambiguities and requires verification of local concentrations, dose ranges, routes, compatibility, pump-library values, monitoring, and escalation procedures.
 
-### Add/Remove Calculators
-Edit the `CALCULATORS` array in `src/pages/calculators/CalculatorHome.jsx` and add/remove the corresponding component file.
+The private Teddy Bear ingestion utility is run with:
 
-### Deploy to Production
 ```bash
-npm run build
-# Deploy the dist/ folder to Vercel, Netlify, Cloudflare Pages, or any static host
+npm run ingest:drugs -- /path/to/authorized/Teddybear.pdf
 ```
 
-For Vercel: `vercel --prod` after installing Vercel CLI.
-For Netlify: drag `dist/` folder, or connect git repo with build command `npm run build`.
+The output must remain private and gitignored. Full copyrighted monograph text is not committed to the repository.
 
----
+## Testing and quality checks
 
-## License
+Run all checks before committing:
 
-MIT License. Free for academic and clinical use.
+```bash
+npm test
+npm run build
+npm run lint
+```
 
----
+The current suite includes weight-based drug dose boundary tests, maximum-dose tests, malformed-input tests, high-risk infusion metadata coverage, minute-to-hour conversions, final-concentration safeguards, and volume-based infusion calculations.
 
-*Built with ❤️ for Patan Academy of Health Sciences, Nepal.*
+The current repository has **12 passing tests**, a passing production build, and zero lint errors. Existing lint warnings in older application files remain technical-debt items and should be addressed before a regulated production release.
+
+## Security and privacy
+
+Patient data must remain in institution-controlled Supabase infrastructure. Do not place patient-identifying data in analytics, local-storage drafts, source code, test fixtures, public URLs, or screenshots. Local POCUS drafts and Emergency Mode weight context are convenience features and require an institutional privacy review before production use.
+
+Production deployment should add audit logging for clinical actions, session timeout, device controls, backup/restore procedures, access reviews, secure headers, dependency scanning, error monitoring without PHI, and a formal incident-response plan.
+
+## Deployment
+
+Build the static frontend with:
+
+```bash
+npm run build
+```
+
+Deploy `dist/` to an institution-approved static host such as Vercel, Netlify, Cloudflare Pages, or equivalent. Supabase remains an external backend service. Production configuration must use environment variables, HTTPS, domain allowlists, reviewed Auth redirect URLs, and institutional privacy/security approval.
+
+## Known limitations and required next work
+
+The current implementation is a strong clinician-reference and documentation foundation but is not a certified medical device. The highest-priority remaining work is clinical governance and production hardening: establish a pediatric editorial board, version every clinical record, create an approval and rollback process, reconcile all drug values with current local monographs and smart-pump libraries, implement auditable doctor order and re-check records, validate the payment provider server-side, add privacy-approved analytics consent, and complete security and usability testing with representative Nepal PICU clinicians.
+
+The application does not yet provide a fully validated offline PWA, signed medication orders, smart-pump integration, live payment webhooks, complete EHR interoperability, a validated diagnostic POCUS archive, or automatic guideline ingestion. These should be implemented only with appropriate clinical, legal, security, licensing, and institutional review.
+
+## Supporting documentation
+
+| Document | Purpose |
+|---|---|
+| [`docs/PRODUCT_FEATURES.md`](docs/PRODUCT_FEATURES.md) | Product setup, analytics, payment architecture, drug ingestion, and production boundaries |
+| [`docs/PRODUCT_BENCHMARK.md`](docs/PRODUCT_BENCHMARK.md) | Worldwide pediatric-tool benchmark and design decisions |
+| [`docs/EMERGENCY_GUIDELINES.md`](docs/EMERGENCY_GUIDELINES.md) | Nepal/global emergency-guideline source review and integration status |
+| [`docs/PAHS_INTEGRATION_AUDIT.md`](docs/PAHS_INTEGRATION_AUDIT.md) | 29-row PAHS parsing and repository coverage audit |
+| [`docs/PEDIATRIC_UPDATES.md`](docs/PEDIATRIC_UPDATES.md) | Pediatric research/news feed editorial notes |
+| [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) | Detailed instructions for future agents and maintainers |
+
+## License and clinical use
+
+The software license and the licenses of all incorporated datasets, references, media, and clinical content must be reviewed independently. The Teddy Bear reference is copyrighted and must not be redistributed without authorization. Clinical deployment requires institutional approval, clinical governance, privacy/security review, and local legal/regulatory review.
+
+Built for pediatric critical-care teams, with initial context from Patan Academy of Health Sciences, Nepal.
