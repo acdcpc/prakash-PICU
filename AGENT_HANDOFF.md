@@ -102,7 +102,12 @@ The Teddy Bear book is copyrighted. The repository may contain a private ingesti
 
 ## Patient privacy and security rules
 
-Never put names, patient IDs, diagnoses, phone numbers, email addresses, images, or clinical narratives into analytics events, URLs, public logs, tests, screenshots, fixtures, or committed files. Local storage is not an appropriate long-term patient record. The only current browser-persisted values are non-PHI drug favorites and recent-drug preferences; POCUS drafts and Emergency Mode weight are session-memory only. Any feature that moves clinical content from local storage into Supabase needs explicit patient binding, audit logging, access controls, and privacy review.
+`sql/security_hardening.sql` is the optional production-hardening migration. It adds `unit_memberships`, a required `patients.unit_name`, unit-scoped policies for patient records, a private `patient-images` bucket with signed-URL policies, and the append-only `clinical_audit_events` table. The institution must review and seed approved unit memberships before applying it. Existing public image objects and legacy `storage_url` rows require a reviewed migration.
+
+`src/lib/clinicalAudit.js` writes PHI-minimized events for Emergency Mode calculations, Emergency Mode self-rechecks, and High-Risk Infusions same-doctor final re-checks. Events are written only for authenticated users and accept only a UUID-shaped optional patient identifier. The audit helper deliberately whitelists metadata fields and must not be expanded to accept names, free text, diagnoses, or other PHI.
+
+
+Never put names, patient IDs, diagnoses, phone numbers, email addresses, images, or clinical narratives into analytics events, URLs, public logs, tests, screenshots, fixtures, or committed files. Local storage is not an appropriate long-term patient record. The only current browser-persisted values are non-PHI drug favorites and recent-drug preferences; POCUS drafts and Emergency Mode weight are session-memory only. Any feature that moves clinical content from local storage into Supabase needs explicit patient binding, audit logging, access controls, and privacy review. Patient images now use `storage_path` and one-hour `createSignedUrl` URLs; do not reintroduce `getPublicUrl` for the patient-images bucket.
 
 Supabase RLS is the security boundary. Do not rely only on React route guards. Do not commit `.env`, service-role keys, payment secrets, passwords, or administrator credentials. Payment credentials must never be collected or stored by the frontend.
 

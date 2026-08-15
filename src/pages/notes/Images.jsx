@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useAuth } from '../../context/AuthContext';
 import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { ArrowLeft, Upload } from 'lucide-react';
@@ -63,6 +64,7 @@ export default function Images() {
   const [desc, setDesc] = useState('');
   const [type, setType] = useState('Radiology');
   const [uploading, setUploading] = useState(false);
+  const { user } = useAuth();
 
   useEffect(() => {
     supabase.from('patients').select('*').eq('id', id).single().then(({ data }) => setPatient(data));
@@ -70,8 +72,14 @@ export default function Images() {
   }, [id]);
 
   async function loadImages() {
-    const { data } = await supabase.from('patient_images').select('*').eq('patient_id', id).order('created_at', { ascending: false });
-    setImages(data || []);
+    const { data, error } = await supabase.from('patient_images').select('*').eq('patient_id', id).order('created_at', { ascending: false });
+    if (error) { alert('Could not load images: ' + error.message); return; }
+    const withSignedUrls = await Promise.all((data || []).map(async (image) => {
+      if (!image.storage_path) return { ...image, signed_url: null };
+      const { data: signed, error: signedError } = await supabase.storage.from('patient-images').createSignedUrl(image.storage_path, 60 * 60);
+      return { ...image, signed_url: signedError ? null : signed?.signedUrl };
+    }));
+    setImages(withSignedUrls);
   }
 
   async function handleUpload(e) {
@@ -88,13 +96,10 @@ export default function Images() {
       const { error: uploadError } = await supabase.storage.from('patient-images').upload(filePath, file);
       if (uploadError) { alert('Upload error: ' + uploadError.message); setUploading(false); return; }
 
-      const { data: urlData } = supabase.storage.from('patient-images').getPublicUrl(filePath);
-      const url = urlData?.publicUrl;
-
-      if (url) {
-        await supabase.from('patient_images').insert({
-          patient_id: id, storage_url: url, description: desc, type, file_name: file.name,
-        });
+      if (filePath) {
+          await supabase.from('patient_images').insert({
+            patient_id: id, storage_path: filePath, description: desc, type, file_name: file.name, created_by: user?.id,
+          });
       }
 
       e.target.reset(); setDesc('');
@@ -135,9 +140,9 @@ export default function Images() {
           <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 12}}>
             {images.map(img => (
               <div key={img.id} style={{textAlign: 'center'}}>
-                <a href={img.storage_url} target="_blank" rel="noreferrer">
-                  <img src={img.storage_url} alt={img.description} style={{width:'100%', borderRadius: 8, border: '1px solid var(--border)'}} loading="lazy" />
-                </a>
+                {img.signed_url ? <a href={img.signed_url} target="_blank" rel="noreferrer">
+                  <img src={img.signed_url} alt={img.description || 'Patient image'} style={{width:'100%', borderRadius: 8, border: '1px solid var(--border)'}} loading="lazy" />
+                </a> : <div className="notice notice-warning">Image unavailable until its private storage path is migrated.</div>}
                 <p className="text-sm text-muted mt-2">{img.type}: {img.description || ''}</p>
               </div>
             ))}

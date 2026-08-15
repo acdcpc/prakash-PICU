@@ -215,9 +215,10 @@ Never commit `.env`, service-role keys, private payment keys, passwords, patient
 2. Copy the project URL and anonymous key into `.env`.
 3. Run `sql/migration.sql` in the Supabase SQL Editor.
 4. Run `sql/subscriptions.sql` after the base migration.
-5. Enable the required Auth providers under Supabase Authentication.
-6. Create and configure the `patient-images` storage bucket according to institutional privacy policy.
-7. Create an administrator through the normal organization-controlled signup process and promote the approved user by UUID in the SQL Editor.
+5. Review and run `sql/security_hardening.sql` with the institution’s Supabase administrator. Seed approved `unit_memberships` rows for each doctor and PICU unit.
+6. Enable the required Auth providers under Supabase Authentication.
+7. Confirm that `patient-images` is private and that patient image paths use the `patients/<patient-uuid>/...` convention; the application requests one-hour signed URLs.
+8. Create an administrator through the normal organization-controlled signup process and promote the approved user by UUID in the SQL Editor.
 
 ```sql
 UPDATE public.profiles
@@ -229,9 +230,9 @@ Do not place administrator credentials in source code, SQL comments, documentati
 
 ## Database and permissions
 
-The core migration contains profiles, education, patients, fluid balance, patient drugs, investigations, clinical notes, patient images, calculator results, and the drug library. Subscription tables are defined separately in `sql/subscriptions.sql`.
+The core migration contains profiles, education, patients, fluid balance, patient drugs, investigations, clinical notes, patient images, calculator results, and the drug library. Subscription tables are defined separately in `sql/subscriptions.sql`. The optional `sql/security_hardening.sql` migration adds unit memberships, unit-scoped patient-child-record policies, a private patient-image bucket with signed-URL policy support, and the append-only `clinical_audit_events` table.
 
-The existing role model includes `admin`, `doctor`, `nurse`, and `viewer` for database permissions. The current high-risk infusion page itself is intentionally a doctor-centered reference workflow and does not require nurse signoff. RLS remains the source of truth for data access; UI checks are not sufficient security controls.
+The existing role model includes `admin`, `doctor`, `nurse`, and `viewer` for database permissions. The current high-risk infusion page itself is intentionally a doctor-centered reference workflow and does not require nurse signoff. The hardening migration scopes patient data and image objects to active unit membership and provides audit-event policies. RLS remains the source of truth for data access; UI checks are not sufficient security controls.
 
 ## Clinical content and source governance
 
@@ -263,9 +264,9 @@ The current repository has **15 passing tests**, including the Emergency Mode ag
 
 ## Security and privacy
 
-Patient data must remain in institution-controlled Supabase infrastructure. Do not place patient-identifying data in analytics, local-storage drafts, source code, test fixtures, public URLs, or screenshots. POCUS drafts and Emergency Mode weight context are held in memory for the active session only; they are not encrypted browser storage and are not a substitute for secure patient-bound persistence. Favorites and recent-drug preferences are the only current browser-persisted data and contain drug names rather than patient information. These behaviors still require institutional privacy review before production use.
+Patient data must remain in institution-controlled Supabase infrastructure. The hardening migration changes patient images to a private bucket and the application uses one-hour signed URLs rather than public URLs. Existing public image objects and legacy rows require an institution-reviewed migration before production use. Do not place patient-identifying data in analytics, local-storage drafts, source code, test fixtures, public URLs, or screenshots. POCUS drafts and Emergency Mode weight context are held in memory for the active session only; they are not encrypted browser storage and are not a substitute for secure patient-bound persistence. Favorites and recent-drug preferences are the only current browser-persisted data and contain drug names rather than patient information. These behaviors still require institutional privacy review before production use.
 
-Production deployment should add audit logging for clinical actions, session timeout, device controls, backup/restore procedures, access reviews, secure headers, dependency scanning, error monitoring without PHI, and a formal incident-response plan.
+Emergency dose calculations, Emergency Mode self-rechecks, and High-Risk Infusions same-doctor final re-checks now write PHI-minimized `clinical_audit_events` when the user is authenticated and the hardening migration has been applied. Production deployment should still add audit review screens, retention policy, session timeout, device controls, backup/restore procedures, access reviews, secure headers, dependency scanning, error monitoring without PHI, and a formal incident-response plan.
 
 ## Deployment
 
@@ -292,6 +293,7 @@ The application does not yet provide a fully validated offline PWA, signed medic
 | [`docs/EMERGENCY_GUIDELINES.md`](docs/EMERGENCY_GUIDELINES.md) | Nepal/global emergency-guideline source review and integration status |
 | [`docs/PAHS_INTEGRATION_AUDIT.md`](docs/PAHS_INTEGRATION_AUDIT.md) | 29-row PAHS parsing and repository coverage audit |
 | [`docs/PHI_SECURITY_REVIEW.md`](docs/PHI_SECURITY_REVIEW.md) | Emergency simulation, RLS review, storage findings, and remediation recommendations |
+| [`sql/security_hardening.sql`](sql/security_hardening.sql) | Unit-scoped RLS, private image storage, signed-URL policies, and clinical audit events |
 | [`docs/PEDIATRIC_UPDATES.md`](docs/PEDIATRIC_UPDATES.md) | Pediatric research/news feed editorial notes |
 | [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) | Detailed instructions for future agents and maintainers |
 
