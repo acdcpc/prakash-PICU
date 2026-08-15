@@ -1,0 +1,47 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { normalizeAuditPatientId, sanitizeAuditMetadata } from '../src/lib/auditValidation.js';
+
+const migration = fs.readFileSync(new URL('../sql/security_hardening.sql', import.meta.url), 'utf8');
+const imagePage = fs.readFileSync(new URL('../src/pages/notes/Images.jsx', import.meta.url), 'utf8');
+const emergencyPage = fs.readFileSync(new URL('../src/pages/emergency/EmergencyMode.jsx', import.meta.url), 'utf8');
+const infusionPage = fs.readFileSync(new URL('../src/pages/highRiskInfusions/HighRiskInfusions.jsx', import.meta.url), 'utf8');
+
+test('security migration defines unit membership and audit constraints', () => {
+  assert.match(migration, /CREATE TABLE IF NOT EXISTS public\.unit_memberships/);
+  assert.match(migration, /CREATE TABLE IF NOT EXISTS public\.clinical_audit_events/);
+  assert.match(migration, /event_type TEXT NOT NULL CHECK \(event_type IN \('emergency_dose_calculated', 'emergency_self_recheck', 'high_risk_infusion_self_recheck'\)\)/);
+  assert.match(migration, /actor_id UUID NOT NULL REFERENCES auth\.users\(id\)/);
+  assert.match(migration, /patient_id UUID REFERENCES public\.patients\(id\) ON DELETE SET NULL/);
+  assert.match(migration, /actor_id = auth\.uid\(\)/);
+  assert.match(migration, /public\.is_unit_member\(unit_name\)/);
+});
+
+test('private image migration and client flow avoid public URLs', () => {
+  assert.match(migration, /UPDATE storage\.buckets SET public = false WHERE id = 'patient-images'/);
+  assert.match(migration, /CREATE POLICY patient_images_select ON storage\.objects/);
+  assert.match(migration, /CREATE POLICY patient_images_upload ON storage\.objects/);
+  assert.match(imagePage, /storage_path: filePath/);
+  assert.match(imagePage, /createSignedUrl\(image\.storage_path, 60 \* 60\)/);
+  assert.doesNotMatch(imagePage, /getPublicUrl/);
+});
+
+test('audit helper accepts only UUID-shaped patient references', () => {
+  const valid = '123e4567-e89b-12d3-a456-426614174000';
+  assert.equal(normalizeAuditPatientId(valid), valid);
+  assert.equal(normalizeAuditPatientId('bed-1'), null);
+  assert.equal(normalizeAuditPatientId('patient name'), null);
+  assert.equal(normalizeAuditPatientId(''), null);
+});
+
+test('audit metadata is allowlisted and excludes free text PHI fields', () => {
+  const safe = sanitizeAuditMetadata({ route: 'IV', indication: 'shock', reference: 'sccm-ped-sepsis', patientName: 'should-not-pass', diagnosis: 'should-not-pass', notes: 'should-not-pass' });
+  assert.deepEqual(safe, { route: 'IV', indication: 'shock', reference: 'sccm-ped-sepsis' });
+});
+
+test('clinical screens are wired to audit calculation and self-recheck events', () => {
+  assert.match(emergencyPage, /eventType: 'emergency_dose_calculated'/);
+  assert.match(emergencyPage, /eventType: 'emergency_self_recheck'/);
+  assert.match(infusionPage, /eventType: 'high_risk_infusion_self_recheck'/);
+});

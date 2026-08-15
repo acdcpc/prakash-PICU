@@ -1,14 +1,14 @@
 import supabase from './supabase';
+import { normalizeAuditPatientId, sanitizeAuditMetadata } from './auditValidation';
 
 const ALLOWED_EVENTS = new Set(['emergency_dose_calculated', 'emergency_self_recheck', 'high_risk_infusion_self_recheck']);
-const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 export async function logClinicalAudit({ actorId, eventType, patientId = null, unitName = 'PICU', drugName = null, infusionId = null, weightKg = null, targetDose = null, doseUnit = null, calculatedAmount = null, cappedByMax = null, finalConcentration = null, pumpRateMlHr = null, metadata = {} }) {
   if (!actorId || !ALLOWED_EVENTS.has(eventType)) return { error: new Error('Audit event is not eligible for client logging') };
-  const safeMetadata = Object.fromEntries(Object.entries(metadata).filter(([key, value]) => typeof key === 'string' && value !== undefined && value !== null && ['route', 'frequency', 'indication', 'reference', 'source', 'verification_stage'].includes(key)));
+  const safeMetadata = sanitizeAuditMetadata(metadata);
   const { error } = await supabase.from('clinical_audit_events').insert({
     event_type: eventType,
-    patient_id: UUID_PATTERN.test(String(patientId || '')) ? patientId : null,
+    patient_id: normalizeAuditPatientId(patientId),
     unit_name: unitName || 'PICU',
     actor_id: actorId,
     drug_name: drugName,

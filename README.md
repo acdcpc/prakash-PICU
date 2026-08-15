@@ -294,6 +294,7 @@ The application does not yet provide a fully validated offline PWA, signed medic
 | [`docs/PAHS_INTEGRATION_AUDIT.md`](docs/PAHS_INTEGRATION_AUDIT.md) | 29-row PAHS parsing and repository coverage audit |
 | [`docs/PHI_SECURITY_REVIEW.md`](docs/PHI_SECURITY_REVIEW.md) | Emergency simulation, RLS review, storage findings, and remediation recommendations |
 | [`sql/security_hardening.sql`](sql/security_hardening.sql) | Unit-scoped RLS, private image storage, signed-URL policies, and clinical audit events |
+| [`docs/SUPABASE_PRODUCTION_MIGRATION.md`](docs/SUPABASE_PRODUCTION_MIGRATION.md) | Production migration, signed-URL, RLS, audit verification, and rollback checklist |
 | [`docs/PEDIATRIC_UPDATES.md`](docs/PEDIATRIC_UPDATES.md) | Pediatric research/news feed editorial notes |
 | [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) | Detailed instructions for future agents and maintainers |
 

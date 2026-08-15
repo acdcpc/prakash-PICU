@@ -31,7 +31,7 @@ npm run lint
 npm run ingest:drugs -- /authorized/path/Teddybear.pdf
 ```
 
-`npm test` runs every `tests/*.test.mjs` file. At the current handoff point, 15 tests pass, including 325 age-band and weight simulation cases. `npm run build` passes. `npm run lint` passes with zero errors and existing warnings in older files. Do not describe warnings as errors, but do not increase their number without reason.
+`npm test` runs every `tests/*.test.mjs` file. At the current handoff point, 20 tests pass, including 325 age-band and weight simulation cases plus signed-URL and clinical-audit constraint checks. `npm run build` passes. `npm run lint` passes with zero errors and existing warnings in older files. Do not describe warnings as errors, but do not increase their number without reason.
 
 ## Application architecture
 
@@ -102,7 +102,7 @@ The Teddy Bear book is copyrighted. The repository may contain a private ingesti
 
 ## Patient privacy and security rules
 
-`sql/security_hardening.sql` is the optional production-hardening migration. It adds `unit_memberships`, a required `patients.unit_name`, unit-scoped policies for patient records, a private `patient-images` bucket with signed-URL policies, and the append-only `clinical_audit_events` table. The institution must review and seed approved unit memberships before applying it. Existing public image objects and legacy `storage_url` rows require a reviewed migration.
+`sql/security_hardening.sql` is the optional production-hardening migration. Follow `docs/SUPABASE_PRODUCTION_MIGRATION.md` before applying it; the checklist covers staging, backups, unit membership seeding, legacy image migration, signed-URL expiry, negative RLS tests, audit constraints, rollout, and rollback. It adds `unit_memberships`, a required `patients.unit_name`, unit-scoped policies for patient records, a private `patient-images` bucket with signed-URL policies, and the append-only `clinical_audit_events` table. The institution must review and seed approved unit memberships before applying it. Existing public image objects and legacy `storage_url` rows require a reviewed migration.
 
 `src/lib/clinicalAudit.js` writes PHI-minimized events for Emergency Mode calculations, Emergency Mode self-rechecks, and High-Risk Infusions same-doctor final re-checks. Events are written only for authenticated users and accept only a UUID-shaped optional patient identifier. The audit helper deliberately whitelists metadata fields and must not be expanded to accept names, free text, diagnoses, or other PHI.
 
