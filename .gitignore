@@ -29,3 +29,6 @@ dist-ssr
 
 # Supabase local state
 supabase/.temp/
+
+# Private copyrighted clinical reference output
+.clinical-private/

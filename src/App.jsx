@@ -1,6 +1,8 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useAuth } from './context/AuthContext';
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { trackPageView } from './lib/analytics';
 
 import PublicLayout from './components/PublicLayout';
 import AppLayout from './components/AppLayout';
@@ -24,9 +26,17 @@ const ExportCenter = lazy(() => import('./pages/export/ExportCenter'));
 const AdminPanel = lazy(() => import('./pages/admin/AdminPanel'));
 const PrivateEducation = lazy(() => import('./pages/education/PrivateEducation'));
 const ClinicalTools = lazy(() => import('./pages/clinical/ClinicalTools'));
+const Subscription = lazy(() => import('./pages/subscription/Subscription'));
+const ChildHealth = lazy(() => import('./pages/childHealth/ChildHealth'));
 
 function Loader() {
   return <div className="loader"><div className="spinner"></div> Loading…</div>;
+}
+
+function AnalyticsTracker() {
+  const location = useLocation();
+  useEffect(() => { trackPageView(location.pathname); }, [location.pathname]);
+  return null;
 }
 
 export default function App() {
@@ -35,6 +45,7 @@ export default function App() {
 
   return (
     <Suspense fallback={<Loader />}>
+      <AnalyticsTracker />
       <Routes>
         {/* Public routes */}
         <Route element={<PublicLayout />}>
@@ -58,6 +69,8 @@ export default function App() {
           <Route path="/patients/:id/images" element={<Images />} />
           <Route path="/calculators" element={<CalculatorHome />} />
           <Route path="/clinical-tools" element={<ClinicalTools />} />
+          <Route path="/subscription" element={<Subscription />} />
+          <Route path="/child-health" element={<ChildHealth />} />
           <Route path="/education-hub" element={<PrivateEducation />} />
           <Route path="/export" element={<ExportCenter />} />
           <Route path="/admin" element={<AdminPanel />} />
