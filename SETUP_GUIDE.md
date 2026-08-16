@@ -88,15 +88,7 @@ Single plan: **`full-access` — NPR 2,500 / year** (365 days). Defined in both 
    ```
 
    → use the same Supabase project as the app.
-3. **Create the `payment-screenshots` bucket** in Supabase Storage (private), and allow anon uploads to it with a storage policy, e.g.:
-
-   ```sql
-   -- Allow anyone to upload payment screenshots (they are just files, reviewed by admin)
-   CREATE POLICY "payment_screenshots_anon_upload" ON storage.objects
-     FOR INSERT WITH CHECK (bucket_id = 'payment-screenshots');
-   ```
-
-   (Adapt to your institution's policy — the admin views screenshots via signed URLs generated with the admin's session.)
+3. **Create the `payment-screenshots` bucket and its policies** by running the ready-to-paste file `sql/payment_screenshots.sql` in the SQL Editor. It creates the private bucket, allows anonymous uploads, and lets admins read objects to generate the review screenshots' signed URLs.
 4. **Replace the QR code** `public/payment-qr.png` with your own eSewa/Khalti QR. If you don't add one, the image hides itself gracefully.
 5. **Set the payment page URL** in `.env`:
 
