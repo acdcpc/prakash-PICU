@@ -633,3 +633,12 @@ tr:hover { background: #f8fafc; }
 
 .review-quick-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
 .review-quick-actions .btn { min-height: 42px; }
+
+/* ── Payment admin ── */
+.code-box {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 1.25rem; font-weight: 700; letter-spacing: 3px;
+  background: var(--bg); border: 2px dashed var(--navy);
+  padding: 16px; border-radius: 12px; margin: 8px 0; text-align: center;
+  color: var(--navy);
+}

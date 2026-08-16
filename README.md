@@ -70,7 +70,7 @@ The POCUS workflow supports structured drafts for lung, heart, cranium, VExUS, b
 
 ### Subscription and payments
 
-`/subscription` provides a Supabase-backed subscription and payment-request foundation with plan selection, monthly/yearly options, provider configuration status, transaction references, manual review, and administrator activation. The repository includes `sql/subscriptions.sql` with tables, indexes, RLS policies, and an activation-code RPC.
+`/subscription` provides a Supabase-backed subscription and payment system modeled on Kapoori-ka: a single NPR 2,500/year plan, external wallet/bank payment with screenshot submission from a hosted payment page, manual administrator verification, one-time activation-code redemption (SHA-256 hashed and rate-limited), and administrator activation. The repository includes `sql/subscriptions.sql` (plans, payments, activation codes, subscriptions, RLS, and the `redeem_activation_code` / `admin_void_codes` RPCs) plus `public/payment.html` for the hosted payment page.
 
 Live provider checkout, signed webhooks, refunds, reconciliation, idempotency, and payment compliance require organization-owned provider accounts and server-side integration. No card credentials should be collected by the client application.
 
@@ -203,9 +203,9 @@ Copy `.env.example` to `.env` and supply only organization-controlled values.
 | `VITE_FIREBASE_STORAGE_BUCKET` | Optional Firebase configuration |
 | `VITE_FIREBASE_MESSAGING_SENDER_ID` | Optional Firebase configuration |
 | `VITE_FIREBASE_APP_ID` | Optional Firebase Analytics configuration |
-| `VITE_STRIPE_PUBLISHABLE_KEY` | Optional provider-status configuration only; do not treat this as a complete payment integration |
-| `VITE_ESEWA_MERCHANT_CODE` | Optional provider-status configuration |
-| `VITE_KHALTI_PUBLIC_KEY` | Optional provider-status configuration |
+| `VITE_PAYMENT_PROVIDER` | Legacy optional provider-status configuration (manual review is the active flow) |
+| `VITE_PAYMENT_PUBLIC_KEY` | Legacy optional provider-status configuration |
+| `VITE_PAYMENT_WEB_URL` | URL of the hosted payment page (`public/payment.html`) that "Buy Premium" opens |
 
 Never commit `.env`, service-role keys, private payment keys, passwords, patient data, or extracted copyrighted monograph text.
 
@@ -214,11 +214,12 @@ Never commit `.env`, service-role keys, private payment keys, passwords, patient
 1. Create a Supabase project controlled by the institution.
 2. Copy the project URL and anonymous key into `.env`.
 3. Run `sql/migration.sql` in the Supabase SQL Editor.
-4. Run `sql/subscriptions.sql` after the base migration.
+4. Run `sql/subscriptions.sql` after the base migration (payment system: plans, payments, activation codes, subscriptions, RLS, and redemption RPCs).
 5. Review and run `sql/security_hardening.sql` with the institution’s Supabase administrator. Seed approved `unit_memberships` rows for each doctor and PICU unit.
-6. Enable the required Auth providers under Supabase Authentication.
+6. Enable the required Auth providers under Supabase Authentication (Email, plus Google if using Google sign-in).
 7. Confirm that `patient-images` is private and that patient image paths use the `patients/<patient-uuid>/...` convention; the application requests one-hour signed URLs.
-8. Create an administrator through the normal organization-controlled signup process and promote the approved user by UUID in the SQL Editor.
+8. Create the private `payment-screenshots` storage bucket and allow anonymous uploads to it (see `SETUP_GUIDE.md`). Deploy `public/payment.html` and set `VITE_PAYMENT_WEB_URL` in `.env`.
+9. Create an administrator through the normal organization-controlled signup process and promote the approved user by UUID in the SQL Editor.
 
 ```sql
 UPDATE public.profiles

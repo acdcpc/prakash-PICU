@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import supabase from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
+import PaymentAdmin from './PaymentAdmin';
 
 const ADMIN_TABS = [
   'Profile',
+  'Payments',
   'PICU Settings',
   'Drug Library',
   'Videos',
@@ -357,6 +359,9 @@ export default function AdminPanel() {
           </div>
         </div>
       )}
+
+      {/* ────── PAYMENTS ────── */}
+      {activeTab === 'Payments' && <PaymentAdmin />}
 
       {/* ────── PICU SETTINGS ────── */}
       {activeTab === 'PICU Settings' && (

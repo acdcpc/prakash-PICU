@@ -1,36 +1,188 @@
 import { useEffect, useState } from 'react';
-import { Check, CreditCard, ExternalLink, ShieldCheck } from 'lucide-react';
+import { BadgeCheck, Check, CreditCard, ExternalLink, KeyRound, ShieldCheck } from 'lucide-react';
 import supabase from '../../lib/supabase';
 import { trackEvent } from '../../lib/analytics';
 
+const PAYMENT_WEB_URL = import.meta.env.VITE_PAYMENT_WEB_URL || '';
+
 const FALLBACK_PLANS = [
-  { id: 'monthly', name: 'Monthly Clinical', description: 'Pediatric clinical workspace for one month.', price_npr: 200, duration_days: 30, features: ['Clinical Tools', 'Growth and immunization workspace', 'Guideline-linked pathways'] },
-  { id: 'yearly', name: 'Yearly Clinical', description: 'Full access for one year with priority content updates.', price_npr: 2000, duration_days: 365, features: ['Everything in Monthly', 'Expanded disease library', 'POCUS documentation workspace'] },
+  {
+    id: 'full-access',
+    name: 'PICU Full Access',
+    description: 'Full access to the PICU clinical workspace for one year.',
+    price_npr: 2500,
+    duration_days: 365,
+    features: [
+      'All clinical calculators',
+      'High-risk infusion reference',
+      'Emergency Mode',
+      'Clinical Tools workspace',
+      'Child health workspace',
+      'Pediatric updates',
+      'Excel exports',
+    ],
+  },
 ];
 
 export default function Subscription() {
   const [plans, setPlans] = useState(FALLBACK_PLANS);
-  const [selected, setSelected] = useState('yearly');
-  const [provider, setProvider] = useState(import.meta.env.VITE_PAYMENT_PROVIDER || 'manual_review');
-  const [reference, setReference] = useState('');
-  const [contact, setContact] = useState('');
-  const [message, setMessage] = useState('');
-  const [saving, setSaving] = useState(false);
+  const [subscription, setSubscription] = useState(null);
+  const [code, setCode] = useState('');
+  const [message, setMessage] = useState({ text: '', type: '' });
+  const [busy, setBusy] = useState(false);
 
   useEffect(() => {
-    supabase.from('subscription_plans').select('*').eq('active', true).order('price_npr').then(({ data }) => { if (data?.length) setPlans(data); });
+    supabase
+      .from('subscription_plans')
+      .select('*')
+      .eq('active', true)
+      .order('price_npr')
+      .then(({ data }) => { if (data?.length) setPlans(data); })
+      .catch(() => {});
+
+    supabase
+      .from('subscriptions')
+      .select('*')
+      .maybeSingle()
+      .then(({ data }) => { if (data) setSubscription(data); })
+      .catch(() => {});
   }, []);
 
-  const submit = async (event) => {
-    event.preventDefault();
-    const plan = plans.find((item) => item.id === selected);
-    setSaving(true); setMessage('');
-    const { data: { user } } = await supabase.auth.getUser();
-    const { error } = await supabase.from('payment_requests').insert({ user_id: user?.id || null, plan_id: plan.id, amount_npr: plan.price_npr, provider, reference: reference || null, contact_email: contact || user?.email || null, status: 'submitted' });
-    if (error) setMessage(error.message);
-    else { setMessage('Payment request submitted. An administrator must verify the payment before access is activated.'); trackEvent('subscription_request', { plan: plan.id, provider }); }
-    setSaving(false);
+  const isActive = subscription?.status === 'active';
+  const endsAt = subscription?.end_date ? new Date(subscription.end_date) : null;
+
+  const buy = () => {
+    if (!PAYMENT_WEB_URL) {
+      setMessage({
+        text: 'Payment page is not configured yet. Set VITE_PAYMENT_WEB_URL in .env (see SETUP_GUIDE.md).',
+        type: 'info',
+      });
+      return;
+    }
+    window.open(PAYMENT_WEB_URL, '_blank', 'noopener');
+    trackEvent('subscription_open_payment', {});
   };
 
-  return <div className="page-content"><div className="page-heading"><div><p className="eyebrow">Access management</p><h2>Subscription & Payment</h2><p className="text-muted">Choose a plan and submit a verifiable payment request. Live card or wallet charging requires a server-side provider account and webhook configuration.</p></div></div><div className="notice notice-warning"><ShieldCheck size={18} /><span>Payment data is handled as a request until an authorized administrator verifies the provider reference. Do not enter card numbers, passwords, or sensitive patient information here.</span></div><div className="clinical-grid">{plans.map((plan) => <button key={plan.id} className={`card clinical-item ${selected === plan.id ? 'selected' : ''}`} onClick={() => setSelected(plan.id)}><div className="card-body"><div className="flex jc-between items-c"><div><h3>{plan.name}</h3><p className="text-muted">{plan.description}</p></div><CreditCard size={22} /></div><div className="big-num">NPR {plan.price_npr.toLocaleString()}</div><p className="text-muted">{plan.duration_days} days</p><div>{(plan.features || []).map((feature) => <div key={feature} className="text-sm"><Check size={14} /> {feature}</div>)}</div></div></button>)}</div><form className="card mt-4" onSubmit={submit}><div className="card-head"><h3>Submit payment reference</h3><span className="badge badge-blue">{provider}</span></div><div className="card-body form-row"><div className="form-group"><label className="form-label">Payment method</label><select className="form-select" value={provider} onChange={(e) => setProvider(e.target.value)}><option value="manual_review">Manual review</option><option value="esewa">eSewa (provider setup required)</option><option value="khalti">Khalti (provider setup required)</option><option value="stripe">Stripe (provider setup required)</option></select></div><div className="form-group"><label className="form-label">Transaction/reference number</label><input className="form-input" value={reference} onChange={(e) => setReference(e.target.value)} placeholder="Optional until payment is made" /></div><div className="form-group"><label className="form-label">Contact email</label><input className="form-input" type="email" value={contact} onChange={(e) => setContact(e.target.value)} placeholder="For payment follow-up" /></div><button className="btn btn-primary" disabled={saving}>{saving ? 'Submitting…' : 'Submit request'}</button></div>{message && <div className="card-body"><div className="alert alert-info">{message}</div></div>}</form><div className="clinical-footnote">For production charging, configure a server-side payment adapter, signed webhooks, idempotency keys, refund handling, provider reconciliation, and merchant compliance. <a href="https://supabase.com/docs/guides/database/webhooks" target="_blank" rel="noreferrer">Webhook reference <ExternalLink size={12} /></a></div></div>;
+  const redeem = async (event) => {
+    event.preventDefault();
+    const clean = code.trim();
+    if (!clean) {
+      setMessage({ text: 'Please enter an activation code.', type: 'danger' });
+      return;
+    }
+    setBusy(true);
+    setMessage({ text: '', type: '' });
+    const { data, error } = await supabase.rpc('redeem_activation_code', { p_code: clean });
+    setBusy(false);
+    if (error) {
+      setMessage({ text: error.message, type: 'danger' });
+      return;
+    }
+    if (data?.error) {
+      setMessage({ text: data.error, type: 'danger' });
+      return;
+    }
+    setMessage({ text: 'Premium activated successfully! 🎉', type: 'success' });
+    setCode('');
+    trackEvent('subscription_redeem', { plan: data?.plan });
+    const { data: sub } = await supabase.from('subscriptions').select('*').maybeSingle();
+    if (sub) setSubscription(sub);
+  };
+
+  return (
+    <div className="page-content">
+      <div className="page-heading">
+        <div>
+          <p className="eyebrow">Access management</p>
+          <h2>Subscription & Payment</h2>
+          <p className="text-muted">
+            Pay via eSewa/Khalti/Fonepay/Bank, submit your transaction on the payment page,
+            then redeem the activation code sent by the administrator.
+          </p>
+        </div>
+      </div>
+
+      {isActive && (
+        <div className="notice notice-success mb-2">
+          <BadgeCheck size={18} />
+          <span>
+            Active — expires {endsAt ? endsAt.toLocaleDateString() : 'N/A'}
+            {subscription?.plan ? ` (${subscription.plan})` : ''}
+          </span>
+        </div>
+      )}
+
+      <div className="notice notice-warning mb-2">
+        <ShieldCheck size={18} />
+        <span>
+          Do not enter card numbers, passwords, or patient information on the payment page.
+          Payment is verified manually by an administrator before access is activated.
+        </span>
+      </div>
+
+      <div className="clinical-grid">
+        {plans.map((plan) => (
+          <div key={plan.id} className="card clinical-item">
+            <div className="card-body">
+              <div className="flex jc-between items-c">
+                <div>
+                  <h3>{plan.name}</h3>
+                  <p className="text-muted">{plan.description}</p>
+                </div>
+                <CreditCard size={22} />
+              </div>
+              <div className="big-num">NPR {Number(plan.price_npr).toLocaleString()}</div>
+              <p className="text-muted">{plan.duration_days} days</p>
+              <div>
+                {(plan.features || []).map((feature) => (
+                  <div key={feature} className="text-sm">
+                    <Check size={14} /> {feature}
+                  </div>
+                ))}
+              </div>
+              <button className="btn btn-primary mt-2" onClick={buy}>
+                Buy Premium
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <form className="card mt-4" onSubmit={redeem}>
+        <div className="card-head">
+          <h3>Redeem activation code</h3>
+          <KeyRound size={18} />
+        </div>
+        <div className="card-body form-row">
+          <div className="form-group">
+            <label className="form-label">Activation code</label>
+            <input
+              className="form-input"
+              value={code}
+              onChange={(e) => setCode(e.target.value)}
+              placeholder="XXXX-XXXX-XXXX"
+              autoCapitalize="characters"
+              autoCorrect="off"
+            />
+          </div>
+          <button className="btn btn-primary" disabled={busy || !code.trim()}>
+            {busy ? 'Redeeming…' : 'Redeem'}
+          </button>
+        </div>
+        {message.text && (
+          <div className="card-body">
+            <div className={`alert alert-${message.type}`}>{message.text}</div>
+          </div>
+        )}
+      </form>
+
+      <div className="clinical-footnote">
+        For production charging, configure a server-side payment adapter, signed webhooks,
+        idempotency keys, refund handling, provider reconciliation, and merchant compliance.{' '}
+        <a href="https://supabase.com/docs/guides/database/webhooks" target="_blank" rel="noreferrer">
+          Webhook reference <ExternalLink size={12} />
+        </a>
+      </div>
+    </div>
+  );
 }
