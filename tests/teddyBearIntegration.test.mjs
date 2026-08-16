@@ -29,4 +29,8 @@ test('Teddy Bear review route uses authenticated Supabase content and explicit a
   assert.match(reviewPage, /reviewer_id/);
   assert.match(reviewPage, /approved/);
   assert.match(reviewPage, /Full text is loaded from the authenticated private Supabase table/);
+  assert.match(reviewPage, /Approve reviewed record/);
+  assert.match(reviewPage, /Flag for clinical review/);
+  assert.match(reviewPage, /saveReview\('approved'\)/);
+  assert.match(reviewPage, /saveReview\('in-review'\)/);
 });

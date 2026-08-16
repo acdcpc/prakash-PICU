@@ -245,6 +245,7 @@ The authorized full Teddy Bear workflow is run with:
 ```bash
 npm run ingest:drugs -- /authorized/path/Teddybear.pdf .clinical-private/drug-reference
 npm run compile:drugs -- .clinical-private/drug-reference/source.txt .clinical-private/drug-reference/monograph-index.json .clinical-private/teddy_bear_monographs_seed.sql
+npm run audit:drugs -- .clinical-private/drug-reference/source.txt .clinical-private/drug-reference/monograph-index.json .clinical-private/teddy-audit
 cp .clinical-private/teddy_bear_monographs_seed.sql sql/teddy_bear_monographs_seed.sql
 ```
 
@@ -296,6 +297,7 @@ The application does not yet provide a fully validated offline PWA, signed medic
 | [`docs/PAHS_INTEGRATION_AUDIT.md`](docs/PAHS_INTEGRATION_AUDIT.md) | 29-row PAHS parsing and repository coverage audit |
 | [`docs/PHI_SECURITY_REVIEW.md`](docs/PHI_SECURITY_REVIEW.md) | Emergency simulation, RLS review, storage findings, and remediation recommendations |
 | [`docs/TEDDY_BEAR_INTEGRATION.md`](docs/TEDDY_BEAR_INTEGRATION.md) | Full authorized Teddy Bear extraction, private seed, review workflow, and clinical promotion safeguards |
+| [`docs/TEDDY_BEAR_DOSAGE_AUDIT.md`](docs/TEDDY_BEAR_DOSAGE_AUDIT.md) | Structural dose/unit audit results and clinical-review limits |
 | [`sql/security_hardening.sql`](sql/security_hardening.sql) | Unit-scoped RLS, private image storage, signed-URL policies, and clinical audit events |
 | [`docs/SUPABASE_PRODUCTION_MIGRATION.md`](docs/SUPABASE_PRODUCTION_MIGRATION.md) | Production migration, signed-URL, RLS, audit verification, and rollback checklist |
 | [`docs/PEDIATRIC_UPDATES.md`](docs/PEDIATRIC_UPDATES.md) | Pediatric research/news feed editorial notes |

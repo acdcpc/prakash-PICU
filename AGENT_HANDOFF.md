@@ -128,6 +128,7 @@ Firebase Analytics is optional. It must remain disabled until explicit Firebase 
 | `docs/EMERGENCY_GUIDELINES.md` | Emergency guidance sources, dates, Nepal/global status, and governance notes |
 | `docs/PAHS_INTEGRATION_AUDIT.md` | 29-row source-to-dataset coverage audit |
 | `docs/TEDDY_BEAR_INTEGRATION.md` | Full authorized Teddy Bear extraction, import order, review workflow, and promotion safeguards |
+| `docs/TEDDY_BEAR_DOSAGE_AUDIT.md` | Structural dosage/unit audit results and clinical-validation boundaries |
 | `docs/PEDIATRIC_UPDATES.md` | Editorial notes for the pediatric research/news feed |
 | `research/high_risk_infusions_extracted.md` | Extracted PAHS source text for auditability |
 | `research/emergency_guideline_sources.md` | Verified emergency-guidance research notes |
@@ -139,6 +140,7 @@ Firebase Analytics is optional. It must remain disabled until explicit Firebase 
 | `tests/highRiskInfusions.test.mjs` | Infusion calculation and 29-entry completeness tests |
 | `scripts/ingest-teddy-bear.mjs` | Extracts an authorized PDF to private local text and heading index |
 | `scripts/compile-teddy-bear-sql.mjs` | Compiles private full text into the authorized Supabase seed |
+| `scripts/audit-teddy-doses.mjs` | Scans all extracted segments for missing units and suspicious dose/concentration patterns |
 | `sql/teddy_bear_monographs.sql` | Private monograph schema, review fields, RLS, and approval gate |
 | `sql/teddy_bear_monographs_seed.sql` | Authorized full-text seed for private institutional Supabase use |
 | `src/pages/drugReview/TeddyBearReview.jsx` | Authenticated full-text monograph review workflow |
@@ -147,7 +149,7 @@ Firebase Analytics is optional. It must remain disabled until explicit Firebase 
 
 Before changing clinical behavior, read the relevant source and current local hospital protocol. If guidance is current or time-sensitive, research the authoritative source and save the URL, publication date, and summary in the appropriate `research/` or `docs/` file. Update the UI metadata and tests together.
 
-For every new calculation, add tests for normal weights, decimal weights, string browser input, zero, negative, missing, non-finite, maximum caps, unit conversions, and missing concentration. For every new route, update `App.jsx`, `Sidebar.jsx`, title mappings, and documentation.
+For every new calculation, add tests for normal weights, decimal weights, string browser input, zero, negative, missing, non-finite, maximum caps, unit conversions, and missing concentration. For Teddy Bear content, run `npm run audit:drugs` and treat every structural finding as a clinical-review candidate, never as an automatic correction. For every new route, update `App.jsx`, `Sidebar.jsx`, title mappings, and documentation.
 
 After code changes, run:
 

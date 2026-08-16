@@ -10,7 +10,8 @@
     "test": "node --test tests/*.test.mjs",
     "preview": "vite preview",
     "ingest:drugs": "node scripts/ingest-teddy-bear.mjs",
-    "compile:drugs": "node scripts/compile-teddy-bear-sql.mjs"
+    "compile:drugs": "node scripts/compile-teddy-bear-sql.mjs",
+    "audit:drugs": "node scripts/audit-teddy-doses.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.0",

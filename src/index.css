@@ -630,3 +630,6 @@ tr:hover { background: #f8fafc; }
 .monograph-content pre { max-height: 520px; overflow: auto; white-space: pre-wrap; padding: 14px; margin: 0; font: .82rem/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text); border-top: 1px solid var(--border); }
 @media (max-width: 900px) { .review-source-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .review-layout { grid-template-columns: 1fr; } .review-list { min-height: auto; } }
 @media (max-width: 620px) { .review-source-grid, .review-fields { grid-template-columns: 1fr; } .review-fields .form-group:last-child { grid-column: auto; } .review-pagination { flex-wrap: wrap; } }
+
+.review-quick-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
+.review-quick-actions .btn { min-height: 42px; }
