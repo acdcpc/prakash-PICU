@@ -16,6 +16,7 @@ The committed files are:
 | `scripts/compile-teddy-bear-sql.mjs` | Rebuilds the full-text SQL seed from the private source and index |
 | `src/pages/drugReview/TeddyBearReview.jsx` | Authenticated full-text review and verification workspace |
 | `src/data/teddyBearReviewIndex.js` | Metadata-only fallback index used while the private table is not installed |
+| `src/pages/calculators/DrugCalc.jsx` | Pediatric dose workspace with structured starter calculations and the complete indexed Teddy Bear reference browser |
 
 ## Apply order
 
@@ -35,7 +36,9 @@ Seed approved `unit_memberships` rows before opening the review route. The table
 
 Doctors open `/teddy-bear-review` after authentication and unit authorization. The page loads the full content from `teddy_bear_monographs`, supports heading search and pagination, displays the source segment, and provides structured fields for verified dose/regimen, unit, maximum dose, route/formulation, indication, renal/dialysis notes, and review notes.
 
-Every record begins with `pending-clinical-verification`. Saving a review records the authenticated reviewer, review time, and structured fields. Checking the approval control sets the record to `approved` in the review table, but **does not automatically promote it into Emergency Mode or the starter `DRUGS` calculator data**. Promotion must be a separate, versioned clinical-governance action.
+Every record begins with `pending-clinical-verification`. Saving a review records the authenticated reviewer, review time, and structured fields. Checking the approval control sets the record to `approved` in the review table, but **does not automatically promote it into Emergency Mode or the structured starter `DRUGS` calculator data**. Promotion must be a separate, versioned clinical-governance action.
+
+The `/calculators` drug workspace now exposes the complete **1,561-record metadata index** through a searchable Teddy Bear reference browser. Every indexed heading can open the authenticated review route, while the numeric dose panel remains limited to the explicitly structured starter reference set. This separation ensures that “all drugs are visible for review” does not become “all unverified prose is silently converted into a calculator.”
 
 ## Clinical verification requirements
 

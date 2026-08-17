@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { AlertTriangle, BookOpen, ChevronLeft, ChevronRight, ClipboardCheck, Search, ShieldCheck } from 'lucide-react';
 import { TEDDY_BEAR_REVIEW_INDEX, TEDDY_BEAR_REVIEW_SOURCE } from '../../data/teddyBearReviewIndex';
 import { useAuth } from '../../context/AuthContext';
@@ -21,6 +22,8 @@ function fromRow(row) {
 
 export default function TeddyBearReview() {
   const { user } = useAuth();
+  const [searchParams] = useSearchParams();
+  const requestedId = searchParams.get('source_id');
   const [records, setRecords] = useState([]);
   const [query, setQuery] = useState('');
   const [page, setPage] = useState(1);
@@ -34,9 +37,17 @@ export default function TeddyBearReview() {
     async function load() {
       const { data, error } = await supabase.from('teddy_bear_monographs').select('*').order('name').limit(2000);
       if (!active) return;
-      if (error) { setDbState('migration-required'); setRecords(TEDDY_BEAR_REVIEW_INDEX.map((item) => ({ ...item, content: '' }))); return; }
+      if (error) {
+        setDbState('migration-required');
+        const fallback = TEDDY_BEAR_REVIEW_INDEX.map((item) => ({ ...item, content: '' }));
+        setRecords(fallback);
+        if (requestedId && fallback.some((item) => item.id === requestedId)) setSelectedId(requestedId);
+        return;
+      }
       setDbState('ready');
-      setRecords((data || []).map(fromRow));
+      const nextRecords = (data || []).map(fromRow);
+      setRecords(nextRecords);
+      if (requestedId && nextRecords.some((item) => item.id === requestedId)) setSelectedId(requestedId);
     }
     load();
     return () => { active = false; };

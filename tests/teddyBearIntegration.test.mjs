@@ -6,6 +6,7 @@ import { TEDDY_BEAR_REVIEW_INDEX } from '../src/data/teddyBearReviewIndex.js';
 const schema = fs.readFileSync(new URL('../sql/teddy_bear_monographs.sql', import.meta.url), 'utf8');
 const seed = fs.readFileSync(new URL('../sql/teddy_bear_monographs_seed.sql', import.meta.url), 'utf8');
 const reviewPage = fs.readFileSync(new URL('../src/pages/drugReview/TeddyBearReview.jsx', import.meta.url), 'utf8');
+const drugCalcPage = fs.readFileSync(new URL('../src/pages/calculators/DrugCalc.jsx', import.meta.url), 'utf8');
 
 test('Teddy Bear metadata index contains the complete extracted heading count', () => {
   assert.equal(TEDDY_BEAR_REVIEW_INDEX.length, 1561);
@@ -21,6 +22,13 @@ test('Teddy Bear private schema and seed are review-gated', () => {
   assert.match(schema, /CREATE POLICY teddy_bear_update_reviewer/);
   assert.equal((seed.match(/'pending-clinical-verification'/g) || []).length, 1561);
   assert.match(seed, /INSERT INTO public\.teddy_bear_monographs \(source_id, name, source_file, source_offset, content, review_status\)/);
+});
+
+test('Teddy Bear dose calculator exposes the complete reference index without auto-promotion', () => {
+  assert.match(drugCalcPage, /TEDDY_BEAR_REVIEW_INDEX/);
+  assert.match(drugCalcPage, /All Teddy Bear monographs/);
+  assert.match(drugCalcPage, /not auto-calculated/);
+  assert.match(drugCalcPage, /teddy-bear-review\?source_id=/);
 });
 
 test('Teddy Bear review route uses authenticated Supabase content and explicit approval', () => {

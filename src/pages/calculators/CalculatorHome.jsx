@@ -14,7 +14,7 @@ import GrowthChartCalc from './GrowthChartCalc';
 
 const CALCULATORS = [
   { key: 'isl', title: 'ISL Calculator', desc: 'Insensible Fluid Loss & Fluid Overload assessment for PICU patients.', color: 'bg-blue', Component: ISLCalc },
-  { key: 'drug', title: 'Drug Dose Calculator', desc: 'Weight-based dosing for 30+ common PICU medications.', color: 'bg-teal', Component: DrugCalc },
+  { key: 'drug', title: 'Teddy Bear Drug Dose Calculator', desc: 'Weight-based starter references plus the complete authorized monograph index.', color: 'bg-teal', Component: DrugCalc },
   { key: 'vent', title: 'Ventilator Settings', desc: 'Initial vent settings, ETT sizing, and equipment guide by age.', color: 'bg-navy', Component: VentCalc },
   { key: 'pelod', title: 'PELOD-2 Score', desc: 'Pediatric Logistic Organ Dysfunction mortality prediction.', color: 'bg-red', Component: PELODCalc },
   { key: 'rai', title: 'Renal Angina Index', desc: 'RAI score and AKI risk stratification.', color: 'bg-amber', Component: RAICalc },
@@ -45,8 +45,8 @@ export default function CalculatorHome() {
 
   return (
     <div>
-      <h1 className="mb-3">PICU Calculators</h1>
-      <p className="text-muted mb-4">Clinical decision-support tools for the PICU.</p>
+      <h1 className="mb-3">Drugs & Scores</h1>
+      <p className="text-muted mb-4">Pediatric reference tools for dosing, assessment, emergency care, and growth follow-up.</p>
       <div className="stats-grid">
         {CALCULATORS.map(calc => (
           <div key={calc.key} className="stat-card card">
