@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import supabase from '../../lib/supabase';
-import { useAuth } from '../../context/AuthContext';
 import ISLCalc from './ISLCalc';
 import DrugCalc from './DrugCalc';
 import VentCalc from './VentCalc';
@@ -11,10 +9,12 @@ import PALSCalc from './PALSCalc';
 import PRISMCalc from './PRISMCalc';
 import PhoenixCalc from './PhoenixCalc';
 import GrowthChartCalc from './GrowthChartCalc';
+import ClinicalTools from '../clinical/ClinicalTools';
 
 const CALCULATORS = [
   { key: 'isl', title: 'ISL Calculator', desc: 'Insensible Fluid Loss & Fluid Overload assessment for PICU patients.', color: 'bg-blue', Component: ISLCalc },
   { key: 'drug', title: 'Teddy Bear Drug Dose Calculator', desc: 'Weight-based starter references plus the complete authorized monograph index.', color: 'bg-teal', Component: DrugCalc },
+  { key: 'scores', title: 'Drugs & Scores Workspace', desc: 'COMFORT-B, PSSS, RASS, SBS, pain, delirium, and bedside clinical prompts.', color: 'bg-purple', Component: ClinicalTools },
   { key: 'vent', title: 'Ventilator Settings', desc: 'Initial vent settings, ETT sizing, and equipment guide by age.', color: 'bg-navy', Component: VentCalc },
   { key: 'pelod', title: 'PELOD-2 Score', desc: 'Pediatric Logistic Organ Dysfunction mortality prediction.', color: 'bg-red', Component: PELODCalc },
   { key: 'rai', title: 'Renal Angina Index', desc: 'RAI score and AKI risk stratification.', color: 'bg-amber', Component: RAICalc },
@@ -26,7 +26,6 @@ const CALCULATORS = [
 ];
 
 export default function CalculatorHome() {
-  const { user, profile } = useAuth();
   const [activeCalc, setActiveCalc] = useState(null);
 
   if (activeCalc) {

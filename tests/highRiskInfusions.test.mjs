@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { HIGH_RISK_INFUSIONS, getInfusionRate } from '../src/data/highRiskInfusions.js';
+import { HIGH_RISK_INFUSIONS, getInfusionPreparation, getInfusionRate } from '../src/data/highRiskInfusions.js';
 
 test('high-risk infusion records have safety metadata', () => {
   assert.equal(HIGH_RISK_INFUSIONS.length, 29);
@@ -20,6 +20,17 @@ test('mcg/kg/min rate uses weight, minutes-to-hours conversion, and final concen
   assert.equal(result.amountPerHour, 60);
   assert.equal(result.rateMlHr, 300);
   assert.equal(result.concentration, 0.2);
+});
+
+test('source-template dilution calculates drug and diluent volumes', () => {
+  const morphine = HIGH_RISK_INFUSIONS.find((item) => item.id === 'morphine');
+  const result = getInfusionPreparation(morphine, 20, 0.005);
+  assert.equal(result.finalVolume, 24);
+  assert.equal(result.amountPerHour, 0.1);
+  assert.ok(Math.abs(result.requiredAmount - 2.4) < 1e-9);
+  assert.ok(Math.abs(result.stockVolume - 2.4) < 1e-9);
+  assert.ok(Math.abs(result.diluentVolume - 21.6) < 1e-9);
+  assert.equal(result.templateRateMlHr, 1);
 });
 
 test('mg/kg/hr rate uses weight and final concentration', () => {

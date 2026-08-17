@@ -74,7 +74,8 @@ export default function App() {
           <Route path="/calculators" element={<CalculatorHome />} />
           <Route path="/clinical-tools" element={<ClinicalTools />} />
           <Route path="/subscription" element={<Subscription />} />
-          <Route path="/child-health" element={<ChildHealth />} />
+          <Route path="/child-growth" element={<ChildHealth />} />
+          <Route path="/child-health" element={<Navigate to="/child-growth" replace />} />
           <Route path="/pediatric-updates" element={<PediatricUpdates />} />
           <Route path="/emergency" element={<EmergencyMode />} />
           <Route path="/high-risk-infusions" element={<HighRiskInfusions />} />

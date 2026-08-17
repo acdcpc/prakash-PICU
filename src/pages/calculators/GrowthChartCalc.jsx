@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import GrowthChart from '../../components/GrowthChart';
+import { adToNepali, nepaliToAd, isValidNepaliDate } from '../../lib/nepaliDate';
 
 // WHO/CDC Growth Reference Data (LMS parameters: L, M, S)
 // Weight-for-age (kg) — Boys 0-20 years (selected ages for interpolation)
@@ -257,6 +259,8 @@ function calcPercentile(measurement, ref) {
 
 export default function GrowthChartCalc() {
   const [dob, setDob] = useState('');
+  const [dobNepali, setDobNepali] = useState('');
+  const [dateMode, setDateMode] = useState('ad');
   const [sex, setSex] = useState('boy');
   const [weight, setWeight] = useState('');
   const [height, setHeight] = useState('');
@@ -272,8 +276,9 @@ export default function GrowthChartCalc() {
 
   function handleCalc(e) {
     e.preventDefault();
-    if (!dob) { alert('Please enter date of birth.'); return; }
-    const ageMo = ageInMonths(dob);
+    const resolvedDob = dateMode === 'bs' ? nepaliToAd(dobNepali) : dob;
+    if (!resolvedDob) { alert(dateMode === 'bs' && !isValidNepaliDate(dobNepali) ? 'Enter a valid Nepali date in YYYY-MM-DD format.' : 'Please enter date of birth.'); return; }
+    const ageMo = ageInMonths(resolvedDob);
     const results = [];
     const isBoy = sex === 'boy';
     const wtData = isBoy ? WHO_BOYS_WT : WHO_GIRLS_WT;
@@ -343,8 +348,10 @@ export default function GrowthChartCalc() {
         <div className="card-body">
           <form onSubmit={handleCalc}>
             <div className="form-group">
+              <div className="date-mode-tabs"><button type="button" className={dateMode === 'ad' ? 'active' : ''} onClick={() => setDateMode('ad')}>AD / Gregorian</button><button type="button" className={dateMode === 'bs' ? 'active' : ''} onClick={() => setDateMode('bs')}>BS / Nepali</button></div>
               <label className="form-label">Date of Birth *</label>
-              <input className="form-input" type="date" value={dob} onChange={e => setDob(e.target.value)} required />
+              {dateMode === 'ad' ? <input className="form-input" type="date" value={dob} onChange={e => setDob(e.target.value)} required /> : <input className="form-input" type="text" value={dobNepali} onChange={e => setDobNepali(e.target.value)} placeholder="YYYY-MM-DD · e.g. 2080-04-12" required />}
+              <p className="text-sm text-muted mt-1">{dateMode === 'ad' ? `Nepali date: ${adToNepali(dob) || '—'}` : `Converted AD date: ${nepaliToAd(dobNepali) || '—'}`}</p>
             </div>
             <div className="form-row">
               <div className="form-group">
@@ -390,6 +397,7 @@ export default function GrowthChartCalc() {
               <p className="text-muted">Enter at least one measurement to see percentiles.</p>
             ) : (
               <div>
+                <GrowthChart results={result.results} />
                 {result.results.map((r, i) => (
                   <div key={i} className="rbox mb-3" style={{ borderLeft: `4px solid ${r.category.includes('Normal') || r.category.includes('Healthy') ? 'var(--green)' : r.category.includes('Low') || r.category.includes('High') || r.category.includes('Overweight') ? 'var(--amber)' : 'var(--red)'}` }}>
                     <div className="flex jc-between items-c mb-2">

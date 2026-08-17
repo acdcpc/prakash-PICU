@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import { normalizeAuditPatientId, sanitizeAuditMetadata } from '../src/lib/auditValidation.js';
 
 const migration = fs.readFileSync(new URL('../sql/security_hardening.sql', import.meta.url), 'utf8');
+const pediatricWorkflow = fs.readFileSync(new URL('../sql/pediatric_clinician_workflow.sql', import.meta.url), 'utf8');
 const imagePage = fs.readFileSync(new URL('../src/pages/notes/Images.jsx', import.meta.url), 'utf8');
 const emergencyPage = fs.readFileSync(new URL('../src/pages/emergency/EmergencyMode.jsx', import.meta.url), 'utf8');
 const infusionPage = fs.readFileSync(new URL('../src/pages/highRiskInfusions/HighRiskInfusions.jsx', import.meta.url), 'utf8');
@@ -16,6 +17,16 @@ test('security migration defines unit membership and audit constraints', () => {
   assert.match(migration, /patient_id UUID REFERENCES public\.patients\(id\) ON DELETE SET NULL/);
   assert.match(migration, /actor_id = auth\.uid\(\)/);
   assert.match(migration, /public\.is_unit_member\(unit_name\)/);
+});
+
+test('pediatric workflow enforces owner-scoped patient records and removes bed requirements', () => {
+  assert.match(pediatricWorkflow, /ALTER TABLE public\.patients ALTER COLUMN bed_number DROP NOT NULL/);
+  assert.match(pediatricWorkflow, /ADD COLUMN IF NOT EXISTS source_type/);
+  assert.match(pediatricWorkflow, /ADD COLUMN IF NOT EXISTS date_of_birth_bs/);
+  assert.match(pediatricWorkflow, /created_by = auth\.uid\(\)/);
+  assert.match(pediatricWorkflow, /CREATE POLICY pts_select_owner/);
+  assert.match(pediatricWorkflow, /CREATE POLICY pts_delete_owner/);
+  assert.match(pediatricWorkflow, /CREATE POLICY fb_select_owner/);
 });
 
 test('private image migration and client flow avoid public URLs', () => {

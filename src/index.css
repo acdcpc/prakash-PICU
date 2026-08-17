@@ -6,27 +6,27 @@
 
 :root {
   /* Palette */
-  --navy: #1e3a5f;
-  --navy-light: #e8f0fe;
-  --teal: #0d9488;
-  --teal-light: #e6f7f5;
-  --blue: #2563eb;
-  --blue-light: #eff6ff;
-  --green: #16a34a;
-  --green-light: #f0fdf4;
-  --amber: #d97706;
-  --amber-light: #fffbeb;
-  --red: #dc2626;
-  --red-light: #fef2f2;
-  --purple: #7c3aed;
-  --purple-light: #f5f3ff;
+  --navy: #17324d;
+  --navy-light: #e8f6ff;
+  --teal: #0f9f9a;
+  --teal-light: #e6fbf7;
+  --blue: #2878d7;
+  --blue-light: #eaf4ff;
+  --green: #1b9b73;
+  --green-light: #eafaf3;
+  --amber: #e08b2e;
+  --amber-light: #fff7e8;
+  --red: #d65362;
+  --red-light: #fff0f2;
+  --purple: #8056c7;
+  --purple-light: #f4efff;
 
-  --bg: #f8fafc;
+  --bg: #f4f8fb;
   --bg-card: #ffffff;
-  --border: #e2e8f0;
-  --text: #1e293b;
-  --text-secondary: #64748b;
-  --muted: #94a3b8;
+  --border: #d8e6ef;
+  --text: #203548;
+  --text-secondary: #62798c;
+  --muted: #8ca1b0;
 
   --success: var(--green);
   --warn: var(--amber);
@@ -37,7 +37,7 @@
   --radius-lg: 14px;
   --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
   --shadow-md: 0 4px 6px rgba(0,0,0,.07), 0 2px 4px rgba(0,0,0,.06);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,.1), 0 4px 6px rgba(0,0,0,.05);
+  --shadow-lg: 0 16px 34px rgba(28, 74, 105, .12), 0 4px 10px rgba(28, 74, 105, .05);
 
   --sidebar-w: 260px;
   --topbar-h: 56px;
@@ -48,7 +48,7 @@
 html { font-size: 15px; scroll-behavior: smooth; }
 body {
   font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: var(--bg);
+  background: radial-gradient(circle at 90% -10%, #e4f7f3 0, transparent 34rem), radial-gradient(circle at -10% 20%, #eaf3ff 0, transparent 28rem), var(--bg);
   color: var(--text);
   line-height: 1.6;
   min-height: 100vh;
@@ -642,3 +642,35 @@ tr:hover { background: #f8fafc; }
   padding: 16px; border-radius: 12px; margin: 8px 0; text-align: center;
   color: var(--navy);
 }
+
+/* ── Pediatric clinician enhancements ── */
+.page-heading .eyebrow, .form-hero .eyebrow { color: var(--teal); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: .7rem; }
+.card { transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+.card:hover { border-color: #bdd8e4; box-shadow: var(--shadow-md); }
+.scale-switcher, .date-mode-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+.scale-switcher button, .date-mode-tabs button { border: 1px solid var(--border); background: var(--bg-card); color: var(--text-secondary); border-radius: 999px; padding: 7px 12px; font: inherit; font-size: .8rem; cursor: pointer; }
+.scale-switcher button:hover, .date-mode-tabs button:hover, .scale-switcher button.active, .date-mode-tabs button.active { background: var(--teal-light); color: var(--teal); border-color: var(--teal); font-weight: 700; }
+.scale-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 9px; margin-top: 12px; }
+.scale-option { display: flex; align-items: center; gap: 10px; text-align: left; padding: 11px; min-height: 54px; border: 1px solid var(--border); border-radius: var(--radius); background: #fbfdff; color: var(--text); cursor: pointer; font: inherit; transition: all .15s; }
+.scale-option:hover { transform: translateY(-1px); border-color: var(--teal); background: var(--teal-light); }
+.scale-option.selected { border-color: var(--teal); background: linear-gradient(135deg, var(--teal-light), #fff); box-shadow: 0 0 0 3px rgba(15,159,154,.12); }
+.scale-option-value { display: grid; place-items: center; min-width: 31px; height: 31px; border-radius: 10px; background: var(--navy-light); color: var(--navy); font-weight: 800; }
+.infusion-preparation-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 14px; padding: 14px; border-radius: var(--radius); background: linear-gradient(135deg, #f0fbf8, #f3f7ff); border: 1px solid #cfe9e4; }
+.infusion-preparation-grid div { display: flex; flex-direction: column; gap: 3px; }
+.infusion-preparation-grid span { color: var(--text-secondary); font-size: .75rem; }
+.infusion-preparation-grid strong { color: var(--navy); font-size: .9rem; }
+.growth-chart { width: 100%; overflow-x: auto; padding: 8px 0; }
+.growth-chart svg { display: block; width: 100%; min-width: 520px; height: auto; }
+.form-hero { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; }
+.form-hero-icon { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 16px; color: #fff; background: linear-gradient(135deg, var(--teal), var(--blue)); box-shadow: 0 10px 24px rgba(15,159,154,.2); }
+.notice { display: flex; gap: 9px; align-items: flex-start; }
+.notice svg { flex: 0 0 auto; margin-top: 2px; }
+.patient-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.patient-card { padding: 18px; }
+.patient-card-top, .patient-card-actions { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.patient-avatar { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 13px; color: var(--teal); background: var(--teal-light); }
+.patient-card h3 { margin-top: 14px; }
+.patient-card-meta { display: flex; justify-content: space-between; gap: 8px; padding: 12px 0; margin: 13px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); font-size: .8rem; }
+.patient-card-meta span { color: var(--text-secondary); }
+.danger-action { color: var(--red); }
+@media (max-width: 720px) { .infusion-preparation-grid { grid-template-columns: repeat(2, 1fr); } .form-hero { flex-direction: column; } }

@@ -37,6 +37,37 @@ export const HIGH_RISK_INFUSIONS = [
   { id: 'n-acetylcysteine', name: 'N-acetylcysteine', category: 'Miscellaneous high-risk infusion', concentration: null, concentrationUnit: '', doseUnit: 'mg/kg/hr', min: 25, max: 50, target: 50, standardVolume: null, preparation: 'Source: 200 mg/kg over 4 hours followed by 100 mg/kg over 16 hours; no dilution supplied in the source table.', monitoring: 'Indication, hepatic status, anaphylactoid reactions, infusion rate, local toxicology protocol.', sourceNote: 'No concentration or dilution was supplied; this record is reference-only and does not calculate a pump rate.' },
 ];
 
+function unitBase(value) {
+  const match = String(value || '').match(/^(mcg|mg|mEq|unit)/i);
+  return match ? match[1].toLowerCase() : null;
+}
+
+function convertConcentrationToDoseUnit(value, concentrationUnit, doseUnit) {
+  const concentrationBase = unitBase(concentrationUnit);
+  const doseBase = unitBase(doseUnit);
+  if (!concentrationBase || !doseBase || concentrationBase === doseBase) return concentrationBase === doseBase ? Number(value) : null;
+  if (concentrationBase === 'mg' && doseBase === 'mcg') return Number(value) * 1000;
+  if (concentrationBase === 'mcg' && doseBase === 'mg') return Number(value) / 1000;
+  return null;
+}
+
+export function getInfusionPreparation(infusion, weight, targetDose = infusion?.target) {
+  const w = Number(weight);
+  const dose = Number(targetDose);
+  const finalVolume = Number(infusion?.standardVolume);
+  const stockConcentration = Number(infusion?.concentration);
+  const isVolumeDose = infusion?.doseUnit?.startsWith('mL/');
+  if (!infusion || isVolumeDose || !Number.isFinite(w) || w <= 0 || !Number.isFinite(dose) || dose <= 0 || !Number.isFinite(finalVolume) || finalVolume <= 0 || !Number.isFinite(stockConcentration) || stockConcentration <= 0) return null;
+  const amountPerHour = dose * w * (infusion.doseUnit.includes('/min') ? 60 : 1);
+  const requiredAmount = amountPerHour * finalVolume;
+  const stockPerMl = convertConcentrationToDoseUnit(stockConcentration, infusion.concentrationUnit, infusion.doseUnit);
+  if (!Number.isFinite(stockPerMl) || stockPerMl <= 0) return null;
+  const stockVolume = requiredAmount / stockPerMl;
+  const diluentVolume = finalVolume - stockVolume;
+  if (diluentVolume < 0) return null;
+  return { finalVolume, amountPerHour, requiredAmount, stockVolume, diluentVolume, finalConcentration: amountPerHour, concentrationUnit: `${unitBase(infusion.doseUnit)}/mL`, templateRateMlHr: 1 };
+}
+
 export function getInfusionRate(infusion, weight, targetDose = infusion?.target, finalConcentration) {
   const w = Number(weight);
   const dose = Number(targetDose);

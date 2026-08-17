@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import supabase from '../../lib/supabase';
+import { deletePatientRecord } from '../../lib/patientRecords';
 import { ArrowLeft, Droplets, Pill, FlaskConical, StickyNote, Image, Calculator, LogOut } from 'lucide-react';
 
 const TABS = [
@@ -61,33 +62,30 @@ export default function PatientDetail() {
     setImages(data || []);
   }
 
-  async function handleDischarge() {
-    if (!confirm('Mark as discharged?')) return;
-    await supabase.from('patients').update({ active: false }).eq('id', id);
+  async function handleDelete() {
+    if (!confirm('Delete this private patient record and its associated clinical files? This cannot be undone.')) return;
+    const { error } = await deletePatientRecord(id);
+    if (error) { alert(`Unable to delete record: ${error.message}`); return; }
     navigate('/patients');
   }
 
   if (loading) return <div className="loader"><div className="spinner"></div> Loading…</div>;
   if (!patient) return <div className="alert alert-warn">Patient not found.</div>;
 
-  const fo = patient.latest_fo || 0;
-  const foClass = fo > 10 ? 'bg-red' : fo > 5 ? 'bg-amber' : 'bg-green';
-
   return (
     <div>
       <div className="flex jc-between items-c mb-3 flex-wrap gap-2">
         <div className="flex items-c gap-3">
           <button className="btn btn-ghost btn-sm" onClick={() => navigate('/patients')}><ArrowLeft size={16} /> Back</button>
-          <h3>Bed {patient.bed_number} — {patient.diagnosis || 'N/A'}</h3>
+          <h3>{patient.diagnosis || 'Pediatric record'}</h3>
         </div>
-        <button className="btn btn-danger btn-sm" onClick={handleDischarge}><LogOut size={14} /> Discharge</button>
+        <button className="btn btn-danger btn-sm" onClick={handleDelete}><LogOut size={14} /> Delete record</button>
       </div>
 
       <div className="flex gap-4 mb-3 flex-wrap">
         {[
-          ['Bed', patient.bed_number], ['Age', patient.age + ' years'], ['Weight', patient.weight + ' kg'],
-          ['Adm. Weight', (patient.admission_weight || patient.weight) + ' kg'], ['Diagnosis', patient.diagnosis || '—'],
-          ['Admitted', patient.admission_date || '—'], ['FO%', <span className={`badge ${foClass}`}>{fo.toFixed(1)}%</span>]
+          ['Source', patient.source_type || 'Clinical encounter'], ['Age', patient.age != null ? patient.age + ' years' : '—'], ['Weight', patient.weight != null ? patient.weight + ' kg' : '—'],
+          ['Diagnosis', patient.diagnosis || '—'], ['Encounter', patient.admission_date || '—'], ['Sex', patient.sex || '—']
         ].map(([label, value]) => (
           <div key={label} className="stat-card" style={{minWidth: 120, padding: '12px 16px'}}>
             <div className="stat-label" style={{fontSize: '.7rem'}}>{label}</div>
