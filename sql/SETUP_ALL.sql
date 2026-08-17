@@ -1,7 +1,13 @@
 -- ============================================================
 --  OurPICU — COMBINED ONE-PASTE DATABASE SETUP
 --  Paste this ENTIRE file into the Supabase SQL Editor and run ONCE.
---  Order: core schema -> payment system -> security hardening -> storage bucket -> grants
+--  Apply order:
+--    core schema -> payment -> security hardening -> storage bucket
+--    -> teddy bear monograph table -> record kind -> clinician workflow -> grants
+--  FULL-TEXT SEED: sql/teddy_bear_monographs_seed.sql (~3.4 MB) is applied
+--    SEPARATELY after this file — it is too large for the SQL Editor.
+--    Apply it right after the "TEDDY BEAR MONOGRAPH TABLE" section via the
+--    chunked import script before opening the review route.
 --  NOTE: do NOT also run the individual files separately after running this.
 -- ============================================================
 
@@ -662,7 +668,161 @@ CREATE POLICY payment_screenshots_admin_read ON storage.objects
   FOR SELECT TO authenticated
   USING (bucket_id = 'payment-screenshots' AND public.is_admin());
 
--- ───────────────────────── [5] ROLE GRANTS (sql/grants.sql) ─────────────────────────
+-- ───────────────────────── [5] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
+
+-- Private institutional Teddy Bear monograph review table.
+-- Apply after sql/migration.sql and sql/security_hardening.sql.
+-- Populate with the separately generated seed file only when the institution has authorization.
+
+CREATE TABLE IF NOT EXISTS public.teddy_bear_monographs (
+  source_id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  source_file TEXT NOT NULL,
+  source_offset INTEGER,
+  content TEXT NOT NULL,
+  review_status TEXT NOT NULL DEFAULT 'pending-clinical-verification' CHECK (review_status IN ('pending-clinical-verification', 'in-review', 'approved', 'rejected')),
+  verified_dose TEXT,
+  dose_unit TEXT,
+  maximum_dose TEXT,
+  route_formulation TEXT,
+  indication TEXT,
+  renal_dialysis_notes TEXT,
+  reviewer_id UUID REFERENCES auth.users(id),
+  reviewed_at TIMESTAMPTZ,
+  review_notes TEXT,
+  version TEXT NOT NULL DEFAULT '11th-edition',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+CREATE INDEX IF NOT EXISTS idx_teddy_bear_name ON public.teddy_bear_monographs USING gin (to_tsvector('english', name));
+CREATE INDEX IF NOT EXISTS idx_teddy_bear_status ON public.teddy_bear_monographs(review_status);
+ALTER TABLE public.teddy_bear_monographs ENABLE ROW LEVEL SECURITY;
+
+DROP POLICY IF EXISTS teddy_bear_select_unit ON public.teddy_bear_monographs;
+DROP POLICY IF EXISTS teddy_bear_update_reviewer ON public.teddy_bear_monographs;
+CREATE POLICY teddy_bear_select_unit ON public.teddy_bear_monographs FOR SELECT
+  USING (public.is_unit_member('PICU'));
+CREATE POLICY teddy_bear_update_reviewer ON public.teddy_bear_monographs FOR UPDATE
+  USING (public.is_unit_member('PICU') AND (review_status <> 'approved' OR reviewer_id = auth.uid() OR public.is_admin()))
+  WITH CHECK (public.is_unit_member('PICU') AND (reviewer_id = auth.uid() OR public.is_admin()));
+
+DROP TRIGGER IF EXISTS trg_teddy_bear_updated ON public.teddy_bear_monographs;
+CREATE TRIGGER trg_teddy_bear_updated BEFORE UPDATE ON public.teddy_bear_monographs FOR EACH ROW EXECUTE FUNCTION public.set_updated_at();
+
+-- Review status is deliberately separate from the clinical starter drug table.
+-- Promotion into approved calculator data must be a governed, human-reviewed process.
+
+-- ───────────────────────── [6] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
+
+-- Teddy Bear monograph review-queue classification.
+-- Adds a record_kind taxonomy so clinicians can filter to actual drug
+-- monographs instead of scrolling through abbreviations, front matter,
+-- table-of-contents lines, citation dates, and monograph sub-sections.
+--
+-- Apply after sql/teddy_bear_monographs.sql and the seed file.
+-- The backfill is a heuristic; institutions may override record_kind per row.
+
+ALTER TABLE public.teddy_bear_monographs
+  ADD COLUMN IF NOT EXISTS record_kind TEXT NOT NULL DEFAULT 'monograph';
+
+ALTER TABLE public.teddy_bear_monographs
+  DROP CONSTRAINT IF EXISTS teddy_bear_record_kind_check;
+ALTER TABLE public.teddy_bear_monographs
+  ADD CONSTRAINT teddy_bear_record_kind_check
+  CHECK (record_kind IN ('monograph', 'section', 'reference'));
+
+CREATE INDEX IF NOT EXISTS idx_teddy_bear_record_kind
+  ON public.teddy_bear_monographs(record_kind);
+
+-- Backfill classification.
+UPDATE public.teddy_bear_monographs SET record_kind = CASE
+  -- Table-of-contents dot-leader lines (e.g. "Drug.......................... 84").
+  WHEN name ~ '\.{4,}' THEN 'reference'
+  -- Front matter / editorial pages.
+  WHEN lower(name) ~ '^(society of|we have devoted|monographs|carolyn|tracy|kelley|a\. jill|stephanie|clinical pharmacy|clinical preceptor|university of texas|austin|about the|dedication|preface|table of contents|index of|brand and generic|acknowledg)' THEN 'reference'
+  -- Reference citation dates ("Accessed May 19, 2016." / standalone month-year lines).
+  WHEN lower(name) ~ '^(accessed|january|february|march|april|may|june|july|august|september|october|november|december)' THEN 'reference'
+  -- Monograph sub-sections (repeat across every drug monograph).
+  WHEN lower(name) ~ '^(brand names?|maximum|suitable diluents|dosage|iv[[:space:]]|other routes|continuous|intermittent|additives|infusion-related|medication|comments|preparation|contraindications)' THEN 'section'
+  -- Abbreviation list entries ("ABBR    expanded term").
+  WHEN name ~ '\s{2,}' THEN 'reference'
+  -- Everything else is a drug monograph title.
+  ELSE 'monograph'
+END;
+
+-- ───────────────────────── [7] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
+
+-- Pediatric clinician workflow migration
+-- Run after sql/security_hardening.sql and before using the redesigned patient workspace.
+-- Existing rows with NULL created_by remain hidden from ordinary users until the institution
+-- explicitly assigns ownership; do not bulk-assign PHI without governance approval.
+
+ALTER TABLE public.patients ALTER COLUMN bed_number DROP NOT NULL;
+ALTER TABLE public.patients ADD COLUMN IF NOT EXISTS source_type TEXT NOT NULL DEFAULT 'Other';
+ALTER TABLE public.patients ADD COLUMN IF NOT EXISTS date_of_birth DATE;
+ALTER TABLE public.patients ADD COLUMN IF NOT EXISTS date_of_birth_bs TEXT;
+ALTER TABLE public.patients DROP CONSTRAINT IF EXISTS patients_source_type_check;
+ALTER TABLE public.patients ADD CONSTRAINT patients_source_type_check CHECK (source_type IN ('OPD', 'Ward', 'Clinic', 'Referral', 'Other'));
+CREATE INDEX IF NOT EXISTS idx_patients_created_by ON public.patients(created_by, created_at DESC);
+
+CREATE OR REPLACE FUNCTION public.can_access_patient(target_patient UUID)
+RETURNS BOOLEAN
+LANGUAGE sql STABLE SECURITY DEFINER SET search_path = public
+AS $$
+  SELECT EXISTS (
+    SELECT 1 FROM public.patients p
+    WHERE p.id = target_patient
+      AND (p.created_by = auth.uid() OR public.is_admin())
+  );
+$$;
+
+DROP POLICY IF EXISTS pts_select_unit ON public.patients;
+DROP POLICY IF EXISTS pts_insert_unit ON public.patients;
+DROP POLICY IF EXISTS pts_update_unit ON public.patients;
+DROP POLICY IF EXISTS pts_delete_admin ON public.patients;
+CREATE POLICY pts_select_owner ON public.patients FOR SELECT USING (created_by = auth.uid() OR public.is_admin());
+CREATE POLICY pts_insert_owner ON public.patients FOR INSERT WITH CHECK (created_by = auth.uid());
+CREATE POLICY pts_update_owner ON public.patients FOR UPDATE
+  USING (created_by = auth.uid() OR public.is_admin())
+  WITH CHECK (created_by = auth.uid() OR public.is_admin());
+CREATE POLICY pts_delete_owner ON public.patients FOR DELETE USING (created_by = auth.uid() OR public.is_admin());
+
+-- Replace child-record policies so they inherit the same owner boundary.
+DROP POLICY IF EXISTS fb_select_unit ON public.fluid_balance;
+DROP POLICY IF EXISTS fb_insert_unit ON public.fluid_balance;
+DROP POLICY IF EXISTS fb_update_unit ON public.fluid_balance;
+CREATE POLICY fb_select_owner ON public.fluid_balance FOR SELECT USING (public.can_access_patient(patient_id));
+CREATE POLICY fb_insert_owner ON public.fluid_balance FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
+CREATE POLICY fb_update_owner ON public.fluid_balance FOR UPDATE USING (public.can_access_patient(patient_id)) WITH CHECK (public.can_access_patient(patient_id));
+
+DROP POLICY IF EXISTS pdr_select_unit ON public.patient_drugs;
+DROP POLICY IF EXISTS pdr_insert_unit ON public.patient_drugs;
+DROP POLICY IF EXISTS pdr_delete_unit ON public.patient_drugs;
+CREATE POLICY pdr_select_owner ON public.patient_drugs FOR SELECT USING (public.can_access_patient(patient_id));
+CREATE POLICY pdr_insert_owner ON public.patient_drugs FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
+CREATE POLICY pdr_delete_owner ON public.patient_drugs FOR DELETE USING (public.can_access_patient(patient_id));
+
+DROP POLICY IF EXISTS inv_select_unit ON public.investigations;
+DROP POLICY IF EXISTS inv_insert_unit ON public.investigations;
+CREATE POLICY inv_select_owner ON public.investigations FOR SELECT USING (public.can_access_patient(patient_id));
+CREATE POLICY inv_insert_owner ON public.investigations FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
+
+DROP POLICY IF EXISTS notes_select_unit ON public.patient_notes;
+DROP POLICY IF EXISTS notes_insert_unit ON public.patient_notes;
+CREATE POLICY notes_select_owner ON public.patient_notes FOR SELECT USING (public.can_access_patient(patient_id));
+CREATE POLICY notes_insert_owner ON public.patient_notes FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
+
+DROP POLICY IF EXISTS img_select_unit ON public.patient_images;
+DROP POLICY IF EXISTS img_insert_unit ON public.patient_images;
+CREATE POLICY img_select_owner ON public.patient_images FOR SELECT USING (public.can_access_patient(patient_id));
+CREATE POLICY img_insert_owner ON public.patient_images FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
+
+DROP POLICY IF EXISTS calc_select_unit ON public.calc_results;
+DROP POLICY IF EXISTS calc_insert_unit ON public.calc_results;
+CREATE POLICY calc_select_owner ON public.calc_results FOR SELECT USING (public.can_access_patient(patient_id));
+CREATE POLICY calc_insert_owner ON public.calc_results FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
+
+-- ───────────────────────── [8] ROLE GRANTS (sql/grants.sql) ─────────────────────────
 
 -- prakash-PICU — database role grants.
 --
@@ -679,3 +839,4 @@ GRANT ALL ON ALL FUNCTIONS IN SCHEMA public TO anon, authenticated, service_role
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO anon, authenticated, service_role;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON SEQUENCES TO anon, authenticated, service_role;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON FUNCTIONS TO anon, authenticated, service_role;
+
