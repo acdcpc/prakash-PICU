@@ -7,6 +7,7 @@ const schema = fs.readFileSync(new URL('../sql/teddy_bear_monographs.sql', impor
 const seed = fs.readFileSync(new URL('../sql/teddy_bear_monographs_seed.sql', import.meta.url), 'utf8');
 const reviewPage = fs.readFileSync(new URL('../src/pages/drugReview/TeddyBearReview.jsx', import.meta.url), 'utf8');
 const drugCalcPage = fs.readFileSync(new URL('../src/pages/calculators/DrugCalc.jsx', import.meta.url), 'utf8');
+const recordKindMigration = fs.readFileSync(new URL('../sql/teddy_bear_record_kind.sql', import.meta.url), 'utf8');
 
 test('Teddy Bear metadata index contains the complete extracted heading count', () => {
   assert.equal(TEDDY_BEAR_REVIEW_INDEX.length, 1561);
@@ -42,3 +43,13 @@ test('Teddy Bear review route uses authenticated Supabase content and explicit a
   assert.match(reviewPage, /saveReview\('approved'\)/);
   assert.match(reviewPage, /saveReview\('in-review'\)/);
 });
+
+test('Teddy Bear review queue is classifiable and filterable', () => {
+  assert.match(recordKindMigration, /ADD COLUMN IF NOT EXISTS record_kind/);
+  assert.match(recordKindMigration, /'monograph', 'section', 'reference'/);
+  assert.match(recordKindMigration, /ELSE 'monograph'/);
+  assert.match(reviewPage, /record_kind/);
+  assert.match(reviewPage, /kindFilter/);
+  assert.match(reviewPage, /Drug monographs/);
+});
+

@@ -12,6 +12,7 @@ The committed files are:
 |---|---|
 | `sql/teddy_bear_monographs.sql` | Creates the private monograph table, review fields, indexes, RLS, and approval-gated update policy |
 | `sql/teddy_bear_monographs_seed.sql` | Authorized full-text seed for the institution’s private Supabase database |
+| `sql/teddy_bear_record_kind.sql` | Classifies the review queue into `monograph` / `section` / `reference` so clinicians can filter to drug monographs only |
 | `scripts/ingest-teddy-bear.mjs` | Extracts a supplied authorized PDF into a private local source/index workspace |
 | `scripts/compile-teddy-bear-sql.mjs` | Rebuilds the full-text SQL seed from the private source and index |
 | `src/pages/drugReview/TeddyBearReview.jsx` | Authenticated full-text review and verification workspace |
@@ -28,6 +29,7 @@ sql/subscriptions.sql
 sql/security_hardening.sql
 sql/teddy_bear_monographs.sql
 sql/teddy_bear_monographs_seed.sql
+sql/teddy_bear_record_kind.sql
 ```
 
 Seed approved `unit_memberships` rows before opening the review route. The table is protected by RLS and is not intended to be accessible to public routes or unauthenticated users.
