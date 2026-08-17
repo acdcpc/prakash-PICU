@@ -250,7 +250,7 @@ npm run audit:drugs -- .clinical-private/drug-reference/source.txt .clinical-pri
 cp .clinical-private/teddy_bear_monographs_seed.sql sql/teddy_bear_monographs_seed.sql
 ```
 
-With the institution’s stated permission, the private repository now contains the full-text SQL seed for the 1,561 extracted records and the `teddy_bear_monographs` table migration. The authenticated `/teddy-bear-review` route loads the full content through Supabase RLS. All records begin as pending clinical verification and are not automatically promoted into calculator data. See [`docs/TEDDY_BEAR_INTEGRATION.md`](docs/TEDDY_BEAR_INTEGRATION.md) for the apply order and team review process.
+With the institution’s stated permission, the private repository now contains the full-text SQL seed for the 238 extracted records and the `teddy_bear_monographs` table migration. The authenticated `/teddy-bear-review` route loads the full content through Supabase RLS. All records begin as pending clinical verification and are not automatically promoted into calculator data. See [`docs/TEDDY_BEAR_INTEGRATION.md`](docs/TEDDY_BEAR_INTEGRATION.md) for the apply order and team review process.
 
 ## Testing and quality checks
 

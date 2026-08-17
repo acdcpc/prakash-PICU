@@ -133,7 +133,7 @@ Firebase Analytics is optional. It must remain disabled until explicit Firebase 
 | `research/high_risk_infusions_extracted.md` | Extracted PAHS source text for auditability |
 | `research/emergency_guideline_sources.md` | Verified emergency-guidance research notes |
 | `src/data/highRiskInfusions.js` | Structured high-risk infusion records and rate function |
-| `src/data/teddyBearReviewIndex.js` | Metadata-only fallback for 1,561 monograph headings |
+| `src/data/teddyBearReviewIndex.js` | Metadata-only fallback for 238 monograph headings |
 | `src/data/emergencyGuidance.js` | Dated Nepal/global emergency-guidance cards |
 | `src/lib/clinicalTools.js` | Drug records, scores, algorithms, references, and dose calculator |
 | `tests/clinicalTools.test.mjs` | Drug dose calculation tests |

@@ -32,3 +32,6 @@ supabase/.temp/
 
 # Private copyrighted clinical reference output
 .clinical-private/
+
+# Authorized private Teddy Bear PDF (copyrighted source; do not commit)
+/Teddy bear.pdf

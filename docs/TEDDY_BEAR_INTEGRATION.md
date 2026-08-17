@@ -4,7 +4,7 @@ The institution has stated that it has permission to store and redistribute the 
 
 ## Included content
 
-The supplied `Teddybear.pdf` was extracted with `pdftotext` into a private local workspace. The extraction produced **1,561 indexed headings** and approximately **3.42 million source characters**. The generated seed contains **1,561 non-overlapping source segments** associated with those headings. The compiler sorts source offsets before segmenting so content is not duplicated because of non-monotonic heading order.
+The supplied `Teddybear.pdf` was extracted with `pdftotext` into a private local workspace. The extraction produced **238 drug monographs** and approximately **3.42 million source characters**. The generated seed contains **238 non-overlapping source segments** associated with those headings. The compiler sorts source offsets before segmenting so content is not duplicated because of non-monotonic heading order.
 
 The committed files are:
 
@@ -40,7 +40,7 @@ Doctors open `/teddy-bear-review` after authentication and unit authorization. T
 
 Every record begins with `pending-clinical-verification`. Saving a review records the authenticated reviewer, review time, and structured fields. Checking the approval control sets the record to `approved` in the review table, but **does not automatically promote it into Emergency Mode or the structured starter `DRUGS` calculator data**. Promotion must be a separate, versioned clinical-governance action.
 
-The `/calculators` drug workspace now exposes the complete **1,561-record metadata index** through a searchable Teddy Bear reference browser. Every indexed heading can open the authenticated review route, while the numeric dose panel remains limited to the explicitly structured starter reference set. This separation ensures that “all drugs are visible for review” does not become “all unverified prose is silently converted into a calculator.”
+The `/calculators` drug workspace now exposes the complete **238-record monograph index** through a searchable Teddy Bear reference browser. Every indexed heading can open the authenticated review route, while the numeric dose panel remains limited to the explicitly structured starter reference set. This separation ensures that “all drugs are visible for review” does not become “all unverified prose is silently converted into a calculator.”
 
 ## Clinical verification requirements
 
@@ -62,4 +62,4 @@ The private source extraction remains in `.clinical-private/`. The committed see
 
 ## Verification status
 
-The current seed was generated from the attached PDF and checked for 1,561 records, non-overlapping source segmentation, and approximately 3.42 million covered source characters. This verifies extraction integrity, not clinical correctness. Clinical approval must be recorded by the institution before any record is used for prescribing or medication administration.
+The current seed was generated from the attached PDF and checked for 238 records, non-overlapping source segmentation, and approximately 3.42 million covered source characters. This verifies extraction integrity, not clinical correctness. Clinical approval must be recorded by the institution before any record is used for prescribing or medication administration.

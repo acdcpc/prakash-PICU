@@ -25,7 +25,7 @@ function row(item, position) {
 
 const header = `-- Generated from an institution-authorized Teddy Bear PDF.\n-- Full monograph content is intended for private institutional Supabase use only.\n-- Do not expose this table through public routes or public storage.\n-- Every row remains pending clinical verification until approved by the institution.\n\n`;
 const columns = '(source_id, name, source_file, source_offset, content, review_status)';
-const rows = orderedMonographs.map(row).join(',\\n');
+const rows = orderedMonographs.map(row).join(',\n');
 const sql = `${header}INSERT INTO public.teddy_bear_monographs ${columns}\nVALUES\n${rows}\nON CONFLICT (source_id) DO UPDATE SET\n  name = EXCLUDED.name,\n  source_file = EXCLUDED.source_file,\n  source_offset = EXCLUDED.source_offset,\n  content = EXCLUDED.content,\n  review_status = CASE WHEN public.teddy_bear_monographs.review_status = 'approved' THEN public.teddy_bear_monographs.review_status ELSE EXCLUDED.review_status END;\n`;
 writeFileSync(outputPath, sql);
 console.log(`Compiled ${orderedMonographs.length} full-text monograph rows to ${outputPath}`);

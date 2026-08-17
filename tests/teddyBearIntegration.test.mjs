@@ -9,8 +9,8 @@ const reviewPage = fs.readFileSync(new URL('../src/pages/drugReview/TeddyBearRev
 const drugCalcPage = fs.readFileSync(new URL('../src/pages/calculators/DrugCalc.jsx', import.meta.url), 'utf8');
 const recordKindMigration = fs.readFileSync(new URL('../sql/teddy_bear_record_kind.sql', import.meta.url), 'utf8');
 
-test('Teddy Bear metadata index contains the complete extracted heading count', () => {
-  assert.equal(TEDDY_BEAR_REVIEW_INDEX.length, 1561);
+test('Teddy Bear metadata index contains the complete drug monograph count', () => {
+  assert.equal(TEDDY_BEAR_REVIEW_INDEX.length, 238);
   assert.ok(TEDDY_BEAR_REVIEW_INDEX.every((item) => item.reviewStatus === 'pending-clinical-verification'));
   assert.ok(TEDDY_BEAR_REVIEW_INDEX.every((item) => Number.isInteger(item.sourceOffset) && item.sourceOffset >= 0));
 });
@@ -21,7 +21,7 @@ test('Teddy Bear private schema and seed are review-gated', () => {
   assert.match(schema, /review_status TEXT NOT NULL DEFAULT 'pending-clinical-verification'/);
   assert.match(schema, /CREATE POLICY teddy_bear_select_unit/);
   assert.match(schema, /CREATE POLICY teddy_bear_update_reviewer/);
-  assert.equal((seed.match(/'pending-clinical-verification'/g) || []).length, 1561);
+  assert.equal((seed.match(/'pending-clinical-verification'/g) || []).length, 238);
   assert.match(seed, /INSERT INTO public\.teddy_bear_monographs \(source_id, name, source_file, source_offset, content, review_status\)/);
 });
 

@@ -45,7 +45,7 @@ sql/teddy_bear_monographs_seed.sql
 
 Review the SQL in the Supabase SQL editor before execution. The hardening migration contains `DROP POLICY` statements for the old broad policy names and creates replacement policies. It is intentionally not a blind rollback script.
 
-After the schema migration succeeds, apply `sql/teddy_bear_monographs.sql` and then run the authorized `sql/teddy_bear_monographs_seed.sql` file in the same private Supabase project. Verify that 1,561 rows are present and that every row has `review_status = 'pending-clinical-verification'` before opening the review route. Then seed approved unit memberships using a separately reviewed statement. Do not commit UUIDs to the repository:
+After the schema migration succeeds, apply `sql/teddy_bear_monographs.sql` and then run the authorized `sql/teddy_bear_monographs_seed.sql` file in the same private Supabase project. Verify that 238 rows are present and that every row has `review_status = 'pending-clinical-verification'` before opening the review route. Then seed approved unit memberships using a separately reviewed statement. Do not commit UUIDs to the repository:
 
 ```sql
 INSERT INTO public.unit_memberships (user_id, unit_name)
@@ -125,7 +125,7 @@ SELECT count(*) AS monograph_count,
 FROM public.teddy_bear_monographs;
 ```
 
-The expected initial result is 1,561 rows, 1,561 pending rows, and zero empty-content rows. Confirm that the authenticated `/teddy-bear-review` route can search headings, open full content, save review metadata, and does not expose the table through a public route. Approval must not automatically modify Emergency Mode or Clinical Tools dose data.
+The expected initial result is 238 rows, 238 pending rows, and zero empty-content rows. Confirm that the authenticated `/teddy-bear-review` route can search headings, open full content, save review metadata, and does not expose the table through a public route. Approval must not automatically modify Emergency Mode or Clinical Tools dose data.
 
 ## Audit-event verification
 

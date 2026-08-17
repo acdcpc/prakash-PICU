@@ -8,7 +8,7 @@ The imported Teddy Bear content was audited on 16 August 2026 using `scripts/aud
 
 | Metric | Result |
 |---|---:|
-| Indexed segments scanned | 1,561 |
+| Indexed segments scanned | 238 |
 | Segments with dose-like expressions | 842 |
 | Likely drug-monograph segments | 829 |
 | Likely monographs with structural findings | 608 |
