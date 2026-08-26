@@ -1,27 +1,51 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import supabase from '../../lib/supabase';
-import * as XLSX from 'xlsx';
 import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { Share } from '@capacitor/share';
 import { Download } from 'lucide-react';
 
-// On native (Android/iOS) the browser download API doesn't work, so we write the
-// .xlsx to the app's Documents folder and open the native share sheet instead.
-async function downloadExcel(wb, filename) {
-  try {
-    const data = XLSX.write(wb, { bookType: 'xlsx', type: 'base64' });
-    if (Capacitor.isNativePlatform()) {
-      const safe = filename.replace(/[^a-zA-Z0-9._-]/g, '_');
-      await Filesystem.writeFile({ path: safe, data, directory: Directory.Documents });
-      const { uri } = await Filesystem.getUri({ path: safe, directory: Directory.Documents });
-      await Share.share({ url: uri, title: filename });
-    } else {
-      XLSX.writeFile(wb, filename);
-    }
-  } catch (err) {
-    alert('Export failed: ' + (err && err.message ? err.message : err));
+function csvCell(value) {
+  const text = value === null || value === undefined ? '' : String(value);
+  return /[",\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+}
+
+function rowsToCsv(rows) {
+  if (!rows.length) return 'No records found.\n';
+  const columns = [...new Set(rows.flatMap((row) => Object.keys(row)))];
+  return `${columns.map(csvCell).join(',')}\n${rows.map((row) => columns.map((column) => csvCell(row[column])).join(',')).join('\n')}\n`;
+}
+
+function bytesToBase64(bytes) {
+  let binary = '';
+  const chunkSize = 0x8000;
+  for (let index = 0; index < bytes.length; index += chunkSize) {
+    binary += String.fromCharCode(...bytes.subarray(index, index + chunkSize));
   }
+  return btoa(binary);
+}
+
+async function downloadCsv(rows, filename) {
+  const csv = rowsToCsv(rows);
+  const safe = filename.replace(/[^a-zA-Z0-9._-]/g, '_');
+  if (Capacitor.isNativePlatform()) {
+    const bytes = new TextEncoder().encode(csv);
+    await Filesystem.writeFile({ path: safe, data: bytesToBase64(bytes), directory: Directory.Documents });
+    const { uri } = await Filesystem.getUri({ path: safe, directory: Directory.Documents });
+    await Share.share({ url: uri, title: filename });
+    return;
+  }
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = safe;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+function patientLabel(patient) {
+  return [patient.source_type || 'Pediatric encounter', patient.diagnosis || 'No diagnosis recorded'].join(' — ');
 }
 
 export default function ExportCenter() {
@@ -33,141 +57,113 @@ export default function ExportCenter() {
   const [exporting, setExporting] = useState(false);
 
   useEffect(() => {
-    supabase.from('patients').select('id,bed_number,diagnosis').eq('active', true).order('bed_number')
-      .then(({ data }) => setPatients(data || []));
+    let active = true;
+    supabase.from('patients').select('id,diagnosis,source_type,created_at').order('created_at', { ascending: false })
+      .then(({ data }) => { if (active) setPatients(data || []); });
+    return () => { active = false; };
   }, []);
 
   async function exportAll() {
     setExporting(true);
-    const { data: pts } = await supabase.from('patients').select('*').eq('active', true);
-    if (!pts?.length) { alert('No active patients.'); setExporting(false); return; }
-    const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(pts.map(p => ({
-      Bed: p.bed_number, Age: p.age, Weight: p.weight,
-      'Adm.Wt': p.admission_weight, Diagnosis: p.diagnosis,
-      Admitted: p.admission_date, 'FO%': p.latest_fo,
-    }))), 'Patients');
-    await downloadExcel(wb, `OurPICU_All_Patients_${today}.xlsx`);
-    setExporting(false);
+    try {
+      const { data: pts, error } = await supabase.from('patients').select('id,source_type,sex,age,weight,height,diagnosis,admission_date,date_of_birth,date_of_birth_bs,created_at').order('created_at', { ascending: false });
+      if (error) throw error;
+      if (!pts?.length) { alert('No pediatric records found.'); return; }
+      await downloadCsv(pts.map((patient) => ({ Section: 'Patients', ...patient })), `PrakashPediatrics_All_Patients_${today}.csv`);
+    } catch (error) {
+      alert(`Export failed: ${error.message}`);
+    } finally {
+      setExporting(false);
+    }
   }
 
   async function exportSingle() {
-    if (!selPt) { alert('Select a patient.'); return; }
+    if (!selPt) { alert('Select a patient record.'); return; }
     setExporting(true);
-    const pid = selPt;
-    const { data: pt } = await supabase.from('patients').select('*').eq('id', pid).single();
-    if (!pt) { alert('Patient not found.'); setExporting(false); return; }
-
-    const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet([{
-      Bed: pt.bed_number, Age: pt.age, Weight: pt.weight,
-      'Adm.Weight': pt.admission_weight, Diagnosis: pt.diagnosis, Admitted: pt.admission_date,
-    }]), 'Patient Info');
-
     try {
+      const pid = selPt;
+      const { data: pt, error: patientError } = await supabase.from('patients').select('*').eq('id', pid).single();
+      if (patientError) throw patientError;
+      if (!pt) throw new Error('Patient record not found.');
+      const rows = [{ Section: 'Patient', ...pt }];
+
       const { data: fb } = await supabase.from('fluid_balance').select('*').eq('patient_id', pid).order('date');
-      if (fb?.length) XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(fb.map(d => ({
-        Date: d.date, Input: d.total_input, Output: d.total_output, Net: d.net_balance,
-        'ISL(mL)': d.isl_daily, 'FO%': d.fluid_overload_pct, Status: d.fo_status,
-      }))), 'Fluid Balance');
-    } catch (e) { console.error(e); }
+      fb?.forEach((record) => rows.push({ Section: 'Fluid balance', ...record }));
+      const { data: drugs } = await supabase.from('patient_drugs').select('*').eq('patient_id', pid).order('created_at');
+      drugs?.forEach((record) => rows.push({ Section: 'Drugs', ...record }));
+      const { data: investigations } = await supabase.from('investigations').select('*').eq('patient_id', pid).order('date');
+      investigations?.forEach((record) => rows.push({ Section: 'Investigations', ...record, lab_values: JSON.stringify(record.lab_values || {}) }));
+      const { data: notes } = await supabase.from('patient_notes').select('*').eq('patient_id', pid).order('created_at');
+      notes?.forEach((record) => rows.push({ Section: 'Clinical notes', ...record }));
 
-    try {
-      const { data: dr } = await supabase.from('patient_drugs').select('*').eq('patient_id', pid);
-      if (dr?.length) XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(dr.map(d => ({
-        Drug: d.drug_name, 'Dose/kg': d.dose_per_kg, Max: d.max_dose,
-        Freq: d.frequency, Route: d.route, Start: d.start_date,
-      }))), 'Drugs');
-    } catch (e) { console.error(e); }
-
-    try {
-      const { data: inv } = await supabase.from('investigations').select('*').eq('patient_id', pid);
-      const irows = [];
-      if (inv?.length) inv.forEach(d => {
-        Object.entries(d.lab_values || {}).forEach(([t, v]) => {
-          irows.push({ Date: d.date, Test: t, Value: v.value, Unit: v.unit });
-        });
-      });
-      if (irows.length) XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(irows), 'Investigations');
-    } catch (e) { console.error(e); }
-
-    try {
-      const { data: nt } = await supabase.from('patient_notes').select('*').eq('patient_id', pid).order('created_at');
-      if (nt?.length) XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(nt.map(d => ({
-        Date: new Date(d.created_at).toLocaleDateString('en-GB'),
-        Type: d.type, Note: d.text,
-      }))), 'Clinical Notes');
-    } catch (e) { console.error(e); }
-
-    const cleanDiag = (pt.diagnosis || 'Patient').replace(/[^a-zA-Z0-9-_ ]/g, '_');
-    await downloadExcel(wb, `Bed_${pt.bed_number}_${cleanDiag}_${today}.xlsx`);
-    setExporting(false);
+      const cleanLabel = patientLabel(pt).replace(/[^a-zA-Z0-9-_ ]/g, '_');
+      await downloadCsv(rows, `PrakashPediatrics_${cleanLabel}_${today}.csv`);
+    } catch (error) {
+      alert(`Export failed: ${error.message}`);
+    } finally {
+      setExporting(false);
+    }
   }
 
   async function exportRange() {
-    if (!from || !to) { alert('Select date range.'); return; }
+    if (!from || !to || from > to) { alert('Select a valid date range.'); return; }
     setExporting(true);
-    const wb = XLSX.utils.book_new();
-    const allFB = [];
-
-    for (const p of patients) {
-      try {
-        const { data: fb } = await supabase.from('fluid_balance').select('*').eq('patient_id', p.id).gte('date', from).lte('date', to);
-        fb?.forEach(d => allFB.push({
-          Bed: p.bed_number, Diagnosis: p.diagnosis, Date: d.date,
-          Input: d.total_input, Output: d.total_output, Net: d.net_balance,
-          'ISL(mL)': d.isl_daily, 'FO%': d.fluid_overload_pct, Status: d.fo_status,
-        }));
-      } catch (e) {}
+    try {
+      const rows = [];
+      for (const patient of patients) {
+        const { data: records, error } = await supabase.from('fluid_balance').select('*').eq('patient_id', patient.id).gte('date', from).lte('date', to).order('date');
+        if (error) throw error;
+        records?.forEach((record) => rows.push({ Section: 'Fluid balance', Patient: patientLabel(patient), ...record }));
+      }
+      await downloadCsv(rows.length ? rows : [{ Section: 'Fluid balance', Note: 'No records found for this date range.' }], `PrakashPediatrics_Range_${from}_to_${to}.csv`);
+    } catch (error) {
+      alert(`Export failed: ${error.message}`);
+    } finally {
+      setExporting(false);
     }
-    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(
-      allFB.length ? allFB : [{ Note: 'No data records found for this date range.' }]
-    ), 'Fluid Balance');
-    await downloadExcel(wb, `OurPICU_Range_${from}_to_${to}.xlsx`);
-    setExporting(false);
   }
 
   return (
     <div>
       <h3>Export Centre</h3>
-
+      <p className="text-muted">Exports are generated as CSV files and include only records permitted by your authenticated Supabase session.</p>
       <div className="flex gap-3 flex-wrap mt-3">
-        <div className="card" style={{flex: '1 1 300px'}}>
-          <div className="card-head"><h4>Export All Patients</h4></div>
+        <div className="card" style={{ flex: '1 1 300px' }}>
+          <div className="card-head"><h4>Export All Pediatric Records</h4></div>
           <div className="card-body">
-            <p className="text-sm text-muted mb-3">Download summary of all active patients</p>
+            <p className="text-sm text-muted mb-3">Download a summary of your pediatric records.</p>
             <button className="btn btn-blue btn-block" onClick={exportAll} disabled={exporting}>
-              <Download size={16} /> {exporting ? 'Exporting…' : 'Export All (.xlsx)'}
+              <Download size={16} /> {exporting ? 'Exporting…' : 'Export All (.csv)'}
             </button>
           </div>
         </div>
 
-        <div className="card" style={{flex: '1 1 300px'}}>
-          <div className="card-head"><h4>Export Single Patient</h4></div>
+        <div className="card" style={{ flex: '1 1 300px' }}>
+          <div className="card-head"><h4>Export One Patient Record</h4></div>
           <div className="card-body">
             <div className="form-group">
-              <select className="form-select" value={selPt} onChange={e => setSelPt(e.target.value)}>
-                <option value="">Select patient…</option>
-                {patients.map(p => <option key={p.id} value={p.id}>Bed {p.bed_number} — {p.diagnosis}</option>)}
+              <select className="form-select" value={selPt} onChange={(event) => setSelPt(event.target.value)}>
+                <option value="">Select patient record…</option>
+                {patients.map((patient) => <option key={patient.id} value={patient.id}>{patientLabel(patient)}</option>)}
               </select>
             </div>
-            <p className="text-sm text-muted mb-3">Includes FB, drugs, labs, notes</p>
+            <p className="text-sm text-muted mb-3">Includes patient data, fluid balance, drugs, investigations, and notes.</p>
             <button className="btn btn-teal btn-block" onClick={exportSingle} disabled={exporting || !selPt}>
-              <Download size={16} /> {exporting ? 'Exporting…' : 'Export Single (.xlsx)'}
+              <Download size={16} /> {exporting ? 'Exporting…' : 'Export Patient (.csv)'}
             </button>
           </div>
         </div>
 
-        <div className="card" style={{flex: '1 1 300px'}}>
-          <div className="card-head"><h4>Export by Date Range</h4></div>
+        <div className="card" style={{ flex: '1 1 300px' }}>
+          <div className="card-head"><h4>Export Fluid Balance Range</h4></div>
           <div className="card-body">
             <div className="form-row">
-              <div className="form-group"><label className="form-label">From</label><input className="form-input" type="date" value={from} onChange={e => setFrom(e.target.value)} /></div>
-              <div className="form-group"><label className="form-label">To</label><input className="form-input" type="date" value={to} onChange={e => setTo(e.target.value)} /></div>
+              <div className="form-group"><label className="form-label">From</label><input className="form-input" type="date" value={from} onChange={(event) => setFrom(event.target.value)} /></div>
+              <div className="form-group"><label className="form-label">To</label><input className="form-input" type="date" value={to} onChange={(event) => setTo(event.target.value)} /></div>
             </div>
-            <p className="text-sm text-muted mb-3">Fluid balance data across all patients</p>
+            <p className="text-sm text-muted mb-3">Fluid-balance records across your accessible patients.</p>
             <button className="btn btn-ghost btn-block" onClick={exportRange} disabled={exporting}>
-              <Download size={16} /> {exporting ? 'Exporting…' : 'Export Range (.xlsx)'}
+              <Download size={16} /> {exporting ? 'Exporting…' : 'Export Range (.csv)'}
             </button>
           </div>
         </div>

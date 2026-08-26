@@ -22,15 +22,19 @@ const sections = [
 
 const header = `-- ============================================================
 --  OurPICU — COMBINED ONE-PASTE DATABASE SETUP
---  Paste this ENTIRE file into the Supabase SQL Editor and run ONCE.
+--  FIRST INSTALL ONLY: paste this file into a staging Supabase project and run ONCE.
+--  Do NOT blindly rerun it on an existing production project; some base-schema
+--  objects are intentionally not repeat-safe. Use individual migrations for upgrades.
 --  Apply order:
 --    core schema -> payment -> security hardening -> storage bucket
 --    -> teddy bear monograph table -> record kind -> clinician workflow -> grants
 --  FULL-TEXT SEED: sql/teddy_bear_monographs_seed.sql (~3.4 MB) is applied
 --    SEPARATELY after this file — it is too large for the SQL Editor.
---    Apply it right after the "TEDDY BEAR MONOGRAPH TABLE" section via the
---    chunked import script before opening the review route.
---  NOTE: do NOT also run the individual files separately after running this.
+--    Apply it after this file with: DATABASE_URL=... npm run import:teddy-seed
+--    The importer runs psql with ON_ERROR_STOP and verifies 238 rows before
+--    opening the review route. Never paste the full seed into the SQL Editor.
+--  NOTE: do NOT also run the individual files separately after running this
+--  first-install file unless you are following the staged production checklist.
 -- ============================================================
 
 `;

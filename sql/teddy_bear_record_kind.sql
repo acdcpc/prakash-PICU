@@ -9,6 +9,11 @@
 ALTER TABLE public.teddy_bear_monographs
   ADD COLUMN IF NOT EXISTS record_kind TEXT NOT NULL DEFAULT 'monograph';
 
+-- Set this flag when an institution has reviewed and intentionally overridden
+-- the heuristic classification. Repeat backfills leave locked rows unchanged.
+ALTER TABLE public.teddy_bear_monographs
+  ADD COLUMN IF NOT EXISTS record_kind_locked BOOLEAN NOT NULL DEFAULT false;
+
 ALTER TABLE public.teddy_bear_monographs
   DROP CONSTRAINT IF EXISTS teddy_bear_record_kind_check;
 ALTER TABLE public.teddy_bear_monographs
@@ -32,4 +37,10 @@ UPDATE public.teddy_bear_monographs SET record_kind = CASE
   WHEN name ~ '\s{2,}' THEN 'reference'
   -- Everything else is a drug monograph title.
   ELSE 'monograph'
-END;
+END
+WHERE record_kind_locked = false;
+
+-- Example governed override:
+-- UPDATE public.teddy_bear_monographs
+-- SET record_kind = 'monograph', record_kind_locked = true
+-- WHERE source_id = '<reviewed-source-id>';

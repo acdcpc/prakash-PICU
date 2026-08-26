@@ -1,6 +1,6 @@
-import { Outlet, Link, useNavigate, useLocation } from 'react-router-dom';
+import { Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { Stethoscope, BookOpen, Info, LogIn } from 'lucide-react';
+import { Stethoscope, LogIn } from 'lucide-react';
 
 export default function PublicLayout() {
   const { user } = useAuth();

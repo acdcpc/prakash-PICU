@@ -1,14 +1,18 @@
 -- ============================================================
 --  OurPICU — COMBINED ONE-PASTE DATABASE SETUP
---  Paste this ENTIRE file into the Supabase SQL Editor and run ONCE.
+--  FIRST INSTALL ONLY: paste this file into a staging Supabase project and run ONCE.
+--  Do NOT blindly rerun it on an existing production project; some base-schema
+--  objects are intentionally not repeat-safe. Use individual migrations for upgrades.
 --  Apply order:
 --    core schema -> payment -> security hardening -> storage bucket
 --    -> teddy bear monograph table -> record kind -> clinician workflow -> grants
 --  FULL-TEXT SEED: sql/teddy_bear_monographs_seed.sql (~3.4 MB) is applied
 --    SEPARATELY after this file — it is too large for the SQL Editor.
---    Apply it right after the "TEDDY BEAR MONOGRAPH TABLE" section via the
---    chunked import script before opening the review route.
---  NOTE: do NOT also run the individual files separately after running this.
+--    Apply it after this file with: DATABASE_URL=... npm run import:teddy-seed
+--    The importer runs psql with ON_ERROR_STOP and verifies 238 rows before
+--    opening the review route. Never paste the full seed into the SQL Editor.
+--  NOTE: do NOT also run the individual files separately after running this
+--  first-install file unless you are following the staged production checklist.
 -- ============================================================
 
 -- ───────────────────────── [1] CORE SCHEMA (sql/migration.sql) ─────────────────────────
@@ -725,6 +729,11 @@ CREATE TRIGGER trg_teddy_bear_updated BEFORE UPDATE ON public.teddy_bear_monogra
 ALTER TABLE public.teddy_bear_monographs
   ADD COLUMN IF NOT EXISTS record_kind TEXT NOT NULL DEFAULT 'monograph';
 
+-- Set this flag when an institution has reviewed and intentionally overridden
+-- the heuristic classification. Repeat backfills leave locked rows unchanged.
+ALTER TABLE public.teddy_bear_monographs
+  ADD COLUMN IF NOT EXISTS record_kind_locked BOOLEAN NOT NULL DEFAULT false;
+
 ALTER TABLE public.teddy_bear_monographs
   DROP CONSTRAINT IF EXISTS teddy_bear_record_kind_check;
 ALTER TABLE public.teddy_bear_monographs
@@ -748,7 +757,13 @@ UPDATE public.teddy_bear_monographs SET record_kind = CASE
   WHEN name ~ '\s{2,}' THEN 'reference'
   -- Everything else is a drug monograph title.
   ELSE 'monograph'
-END;
+END
+WHERE record_kind_locked = false;
+
+-- Example governed override:
+-- UPDATE public.teddy_bear_monographs
+-- SET record_kind = 'monograph', record_kind_locked = true
+-- WHERE source_id = '<reviewed-source-id>';
 
 -- ───────────────────────── [7] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
 

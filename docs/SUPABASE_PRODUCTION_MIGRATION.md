@@ -33,7 +33,7 @@ This checklist applies to `sql/security_hardening.sql`. The migration changes PH
 
 ## Staging execution order
 
-Run the existing migrations first, if not already applied:
+Run the existing migrations first, if not already applied. `sql/SETUP_ALL.sql` is a first-install helper for staging, not a blindly repeatable production migration; use the individual files and record the applied commit SHA for existing projects.
 
 ```text
 sql/migration.sql
@@ -45,7 +45,15 @@ sql/teddy_bear_monographs_seed.sql
 
 Review the SQL in the Supabase SQL editor before execution. The hardening migration contains `DROP POLICY` statements for the old broad policy names and creates replacement policies. It is intentionally not a blind rollback script.
 
-After the schema migration succeeds, apply `sql/teddy_bear_monographs.sql` and then run the authorized `sql/teddy_bear_monographs_seed.sql` file in the same private Supabase project. Verify that 238 rows are present and that every row has `review_status = 'pending-clinical-verification'` before opening the review route. Then seed approved unit memberships using a separately reviewed statement. Do not commit UUIDs to the repository:
+After the schema migration succeeds, apply `sql/teddy_bear_monographs.sql`. The full-text seed is too large for the SQL Editor, so execute it from a trusted terminal with `psql` and the repository importer:
+
+```bash
+read -r -s DATABASE_URL
+export DATABASE_URL
+npm run import:teddy-seed -- sql/teddy_bear_monographs_seed.sql
+```
+
+The importer requires an SSL connection, stops on the first SQL error, and verifies exactly 238 full monograph rows with zero empty-content rows. Verify that rows are pending clinical verification before opening the review route. Then seed approved unit memberships using a separately reviewed statement. Do not commit UUIDs to the repository:
 
 ```sql
 INSERT INTO public.unit_memberships (user_id, unit_name)
@@ -125,7 +133,7 @@ SELECT count(*) AS monograph_count,
 FROM public.teddy_bear_monographs;
 ```
 
-The expected initial result is 238 rows, 238 pending rows, and zero empty-content rows. Confirm that the authenticated `/teddy-bear-review` route can search headings, open full content, save review metadata, and does not expose the table through a public route. Approval must not automatically modify Emergency Mode or Clinical Tools dose data.
+The expected initial result is 238 rows, 238 pending rows, and zero empty-content rows on a fresh import. If approved records already exist, the pending count will be lower because the seed intentionally preserves approved review status. Confirm that the authenticated `/teddy-bear-review` route can search headings, open full content, save review metadata, and does not expose the table through a public route. Approval must not automatically modify Emergency Mode or Clinical Tools dose data.
 
 ## Audit-event verification
 

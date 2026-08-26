@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
 import supabase from '../../lib/supabase';
-import { useAuth } from '../../context/AuthContext';
-
 export default function PrivateEducation() {
-  const { user } = useAuth();
   const [edu, setEdu] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('videos');
@@ -20,7 +17,6 @@ export default function PrivateEducation() {
   const videos = edu?.videos || [];
   const notes = edu?.teaching_notes || [];
   const mcqs = edu?.mcqs || [];
-  const sm = edu?.social_media || {};
 
   function scoreMCQs() {
     const answers = [];
