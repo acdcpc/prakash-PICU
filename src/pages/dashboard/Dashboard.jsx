@@ -1,17 +1,25 @@
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
+import { readOnboardingState } from '../../lib/onboarding';
 import { ArrowRight, Baby, Calculator, ClipboardPlus, HeartPulse, Newspaper, Plus, ShieldCheck, Sparkles, Users } from 'lucide-react';
 
 const QUICK_LINKS = [
-  { title: 'Add a patient', text: 'Start a private pediatric record from OPD, ward, clinic, or referral.', path: '/patients/new', icon: ClipboardPlus, tone: 'coral' },
-  { title: 'Drugs & scores', text: 'Use Teddy Bear-linked dosing and structured assessment scales.', path: '/calculators', icon: Calculator, tone: 'teal' },
-  { title: 'Child growth', text: 'Plot WHO growth measures and record Nepali dates.', path: '/child-growth', icon: Baby, tone: 'violet' },
+  { id: 'patient', title: 'Add a patient', text: 'Start a private pediatric record from OPD, ward, clinic, or referral.', path: '/patients/new', icon: ClipboardPlus, tone: 'coral' },
+  { id: 'dose', title: 'Drugs & scores', text: 'Use Teddy Bear-linked dosing and structured assessment scales.', path: '/calculators', icon: Calculator, tone: 'teal' },
+  { id: 'growth', title: 'Child growth', text: 'Plot WHO growth measures and record Nepali dates.', path: '/child-growth', icon: Baby, tone: 'violet' },
 ];
 
 export default function Dashboard() {
   const { profile, user } = useAuth();
   const navigate = useNavigate();
+  const preferredTools = readOnboardingState(user?.id)?.tools || [];
+  const quickLinks = [...QUICK_LINKS].sort((a, b) => {
+    const aIndex = preferredTools.indexOf(a.id);
+    const bIndex = preferredTools.indexOf(b.id);
+    return (aIndex < 0 ? 99 : aIndex) - (bIndex < 0 ? 99 : bIndex);
+  });
   const [patients, setPatients] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -38,7 +46,7 @@ export default function Dashboard() {
         <div className="welcome-art"><div className="orb orb-one" /><div className="orb orb-two" /><HeartPulse size={82} strokeWidth={1.2} /></div>
       </section>
 
-      <section className="dashboard-section"><div className="section-heading"><div><span className="eyebrow">Your everyday flow</span><h2>Start with what you need</h2></div><span className="section-note">Designed for a busy clinic</span></div><div className="quick-launch-grid">{QUICK_LINKS.map(({ title, text, path, icon: Icon, tone }) => <button key={title} className={`launch-card launch-${tone}`} onClick={() => navigate(path)}><span className="launch-icon"><Icon size={22} /></span><span><strong>{title}</strong><small>{text}</small></span><ArrowRight size={18} className="launch-arrow" /></button>)}</div></section>
+      <section className="dashboard-section"><div className="section-heading"><div><span className="eyebrow">Your everyday flow</span><h2>Start with what you need</h2></div><span className="section-note">Designed for a busy clinic</span></div><div className="quick-launch-grid">{quickLinks.map(({ title, text, path, icon: Icon, tone }) => <button key={title} className={`launch-card launch-${tone}`} onClick={() => navigate(path)}><span className="launch-icon"><Icon size={22} /></span><span><strong>{title}</strong><small>{text}</small></span><ArrowRight size={18} className="launch-arrow" /></button>)}</div></section>
 
       <section className="dashboard-columns"><div className="card dashboard-list-card"><div className="card-head"><div><span className="eyebrow">Private workspace</span><h3>Recent patients</h3></div><button className="btn btn-ghost btn-sm" onClick={() => navigate('/patients')}>View all <ArrowRight size={14} /></button></div><div className="card-body">{patients.length === 0 ? <div className="empty-state"><Users size={28} /><strong>Your patient list is ready</strong><p>Add a record to keep your clinical notes, medications, investigations, and follow-up in one place.</p><button className="btn btn-teal" onClick={() => navigate('/patients/new')}>Add first patient</button></div> : <div className="recent-patients">{patients.slice(0, 5).map((patient) => <button className="recent-patient" key={patient.id} onClick={() => navigate(`/patients/${patient.id}`)}><span className="patient-avatar"><Baby size={17} /></span><span><strong>{patient.diagnosis || 'Pediatric record'}</strong><small>{patient.age != null ? `${patient.age} years` : 'Age not recorded'} · {patient.weight != null ? `${patient.weight} kg` : 'Weight not recorded'} · {patient.source_type || 'Clinical encounter'}</small></span><ArrowRight size={16} /></button>)}</div>}</div></div><div className="card dashboard-trust-card"><div className="card-body"><div className="trust-icon"><ShieldCheck size={24} /></div><span className="eyebrow">Safety by design</span><h3>Reference first. Verify always.</h3><p>Clinical tools remain reference aids. Confirm indication, formulation, units, patient context, and local guidance before acting.</p><button className="text-button" onClick={() => navigate('/emergency')}>Open emergency reference <ArrowRight size={14} /></button></div></div></section>
     </div>

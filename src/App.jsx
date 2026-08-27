@@ -7,6 +7,8 @@ import { trackPageView } from './lib/analytics';
 import PublicLayout from './components/PublicLayout';
 import AppLayout from './components/AppLayout';
 import Login from './pages/auth/Login';
+import Onboarding from './pages/auth/Onboarding';
+import { hasCompletedOnboarding } from './lib/onboarding';
 
 const Home = lazy(() => import('./pages/public/Home'));
 const Education = lazy(() => import('./pages/public/Education'));
@@ -32,6 +34,12 @@ const PediatricUpdates = lazy(() => import('./pages/updates/PediatricUpdates'));
 const EmergencyMode = lazy(() => import('./pages/emergency/EmergencyMode'));
 const HighRiskInfusions = lazy(() => import('./pages/highRiskInfusions/HighRiskInfusions'));
 const TeddyBearReview = lazy(() => import('./pages/drugReview/TeddyBearReview'));
+
+function AuthenticatedLayout() {
+  const { user } = useAuth();
+  if (!hasCompletedOnboarding(user?.id)) return <Navigate to="/onboarding" replace />;
+  return <AppLayout />;
+}
 
 function Loader() {
   return <div className="loader"><div className="spinner"></div> Loading…</div>;
@@ -60,8 +68,10 @@ export default function App() {
           <Route path="/signup" element={<Navigate to="/login" />} />
         </Route>
 
+        <Route path="/onboarding" element={user ? <Onboarding /> : <Navigate to="/login" replace />} />
+
         {/* Private routes */}
-        <Route element={user ? <AppLayout /> : <Navigate to="/login" />}>
+        <Route element={user ? <AuthenticatedLayout /> : <Navigate to="/login" />}>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/patients" element={<PatientList />} />
           <Route path="/patients/new" element={<PatientForm />} />

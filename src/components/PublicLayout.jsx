@@ -14,7 +14,7 @@ export default function PublicLayout() {
       <header className="pub-header">
         <div className="pub-logo">
           <Stethoscope size={24} />
-          <h3>OurPICU</h3>
+          <h3>Prakash Pediatrics</h3>
         </div>
         <nav className="pub-nav">
           <button className={`pub-link ${isActive('/')}`} onClick={() => navigate('/')}>Home</button>
