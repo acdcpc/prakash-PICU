@@ -87,6 +87,14 @@ npm run build:neonate-index -- .clinical-private/harriet-lane/monograph-index.js
 cp .clinical-private/harriet-lane/teddy_bear_monographs_seed.sql sql/harriet_lane_monographs_seed.sql
 ```
 
+To import the seed into a hosted project through `psql` (recommended), reuse
+the shared importer with the Neonate seed file:
+
+```bash
+DATABASE_URL='postgresql://...?...sslmode=require' \
+  node scripts/import-teddy-bear-seed.mjs sql/harriet_lane_monographs_seed.sql
+```
+
 The private source extraction remains in `.clinical-private/`. The committed
 seed is institution-authorized content and must remain in the private repository
 with repository access restricted to approved users. Do not place it in public
