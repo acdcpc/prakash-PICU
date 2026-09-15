@@ -166,3 +166,20 @@ now sends the sanitised path.
 
 Note: append-only is an RLS guarantee; `service_role`/superuser can still
 delete, which is expected for a trusted backend role.
+
+## Payment submission integrity (`sql/payments_hardening.sql`)
+
+`payments_anon_insert` used `WITH CHECK (true)`, so anyone holding the
+publishable key could insert a row already marked `approved`, set
+`verified_by`, or attribute a payment to another user.
+
+Entitlement itself was already server-only — `subscriptions` has **no client
+INSERT/UPDATE policy**, `activation_codes` has no client access at all, and
+access is granted solely by the admin-generated code redeemed through the
+`SECURITY DEFINER` (search_path-pinned, rate-limited) `redeem_activation_code`
+RPC. The submission record is now trustworthy too: the insert policy requires
+`status = 'pending'`, no verifier fields, a positive amount, an active plan, and
+`user_id IS NULL OR user_id = auth.uid()`.
+
+Verified against the hosted database: a pending submission is accepted; a
+self-approved row, a zero amount, and an unknown plan are all rejected (42501).

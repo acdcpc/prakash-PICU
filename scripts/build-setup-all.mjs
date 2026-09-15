@@ -12,6 +12,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const sections = [
   { file: 'sql/migration.sql', title: 'CORE SCHEMA' },
   { file: 'sql/subscriptions.sql', title: 'PAYMENT SYSTEM' },
+  { file: 'sql/payments_hardening.sql', title: 'PAYMENT SUBMISSION HARDENING' },
   { file: 'sql/security_hardening.sql', title: 'SECURITY HARDENING' },
   { file: 'sql/security_rls_hardening.sql', title: 'RLS & LEAST-PRIVILEGE HARDENING' },
   { file: 'sql/storage_path_hardening.sql', title: 'PRIVATE IMAGE PATH HARDENING' },

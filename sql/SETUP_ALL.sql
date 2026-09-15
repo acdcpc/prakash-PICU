@@ -497,7 +497,35 @@ BEGIN
 END;
 $$;
 
--- ───────────────────────── [3] SECURITY HARDENING (sql/security_hardening.sql) ─────────────────────────
+-- ───────────────────────── [3] PAYMENT SUBMISSION HARDENING (sql/payments_hardening.sql) ─────────────────────────
+
+-- P0 security: payment submissions are client-writable only as pending records.
+-- Apply after sql/subscriptions.sql.
+--
+-- Rollback:
+--   DROP POLICY IF EXISTS payments_client_insert ON public.payments;
+--   CREATE POLICY payments_anon_insert ON public.payments FOR INSERT WITH CHECK (true);
+--
+-- Previously `payments_anon_insert` used WITH CHECK (true), so anyone with the
+-- publishable key could insert a row already marked approved, or attribute a
+-- payment to another user. Entitlement is never granted by a payment row (only
+-- an admin-generated activation code redeemed through redeem_activation_code
+-- grants access), but the submission record must still be trustworthy.
+
+DROP POLICY IF EXISTS payments_anon_insert ON public.payments;
+DROP POLICY IF EXISTS payments_client_insert ON public.payments;
+CREATE POLICY payments_client_insert ON public.payments FOR INSERT TO anon, authenticated
+  WITH CHECK (
+    status = 'pending'                                   -- never self-approve
+    AND verified_by IS NULL
+    AND verified_at IS NULL
+    AND amount > 0
+    AND rejection_reason IS NULL
+    AND (user_id IS NULL OR user_id = auth.uid())        -- cannot attribute to another user
+    AND EXISTS (SELECT 1 FROM public.subscription_plans sp WHERE sp.id = payments.plan AND sp.active)
+  );
+
+-- ───────────────────────── [4] SECURITY HARDENING (sql/security_hardening.sql) ─────────────────────────
 
 -- prakash-PICU security hardening migration
 -- Run after sql/migration.sql and review with the institution's Supabase administrator.
@@ -645,7 +673,7 @@ CREATE POLICY patient_images_delete ON storage.objects FOR DELETE TO authenticat
 -- Seed membership for an approved doctor through a separately reviewed statement:
 -- INSERT INTO public.unit_memberships (user_id, unit_name) VALUES ('<approved-user-uuid>', 'PICU');
 
--- ───────────────────────── [4] RLS & LEAST-PRIVILEGE HARDENING (sql/security_rls_hardening.sql) ─────────────────────────
+-- ───────────────────────── [5] RLS & LEAST-PRIVILEGE HARDENING (sql/security_rls_hardening.sql) ─────────────────────────
 
 -- P0 security: RLS + least-privilege hardening.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -722,7 +750,7 @@ CREATE POLICY profiles_update_self_or_admin ON public.profiles FOR UPDATE
   USING (auth.uid() = id OR public.is_admin())
   WITH CHECK (auth.uid() = id OR public.is_admin());
 
--- ───────────────────────── [5] PRIVATE IMAGE PATH HARDENING (sql/storage_path_hardening.sql) ─────────────────────────
+-- ───────────────────────── [6] PRIVATE IMAGE PATH HARDENING (sql/storage_path_hardening.sql) ─────────────────────────
 
 -- P0 security: strict patient-image storage path parsing.
 -- Apply after sql/security_hardening.sql (which creates the storage policies).
@@ -761,7 +789,7 @@ EXCEPTION WHEN invalid_text_representation THEN
 END;
 $$;
 
--- ───────────────────────── [6] APPEND-ONLY AUDIT HARDENING (sql/audit_hardening.sql) ─────────────────────────
+-- ───────────────────────── [7] APPEND-ONLY AUDIT HARDENING (sql/audit_hardening.sql) ─────────────────────────
 
 -- P0 security: append-only audit hardening (defence in depth).
 -- Apply after sql/security_hardening.sql.
@@ -808,7 +836,7 @@ DROP TRIGGER IF EXISTS trg_audit_metadata_keys ON public.clinical_audit_events;
 CREATE TRIGGER trg_audit_metadata_keys BEFORE INSERT ON public.clinical_audit_events
   FOR EACH ROW EXECUTE FUNCTION public.enforce_audit_metadata_keys();
 
--- ───────────────────────── [7] PAYMENT SCREENSHOTS BUCKET (sql/payment_screenshots.sql) ─────────────────────────
+-- ───────────────────────── [8] PAYMENT SCREENSHOTS BUCKET (sql/payment_screenshots.sql) ─────────────────────────
 
 -- prakash-PICU — storage bucket for the hosted payment page screenshots.
 --
@@ -835,7 +863,7 @@ CREATE POLICY payment_screenshots_admin_read ON storage.objects
   FOR SELECT TO authenticated
   USING (bucket_id = 'payment-screenshots' AND public.is_admin());
 
--- ───────────────────────── [8] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
+-- ───────────────────────── [9] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
 
 -- Private institutional Teddy Bear monograph review table.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -879,7 +907,7 @@ CREATE TRIGGER trg_teddy_bear_updated BEFORE UPDATE ON public.teddy_bear_monogra
 -- Review status is deliberately separate from the clinical starter drug table.
 -- Promotion into approved calculator data must be a governed, human-reviewed process.
 
--- ───────────────────────── [9] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
+-- ───────────────────────── [10] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
 
 -- Teddy Bear monograph review-queue classification.
 -- Adds a record_kind taxonomy so clinicians can filter to actual drug
@@ -928,7 +956,7 @@ WHERE record_kind_locked = false;
 -- SET record_kind = 'monograph', record_kind_locked = true
 -- WHERE source_id = '<reviewed-source-id>';
 
--- ───────────────────────── [10] NEONATE MONOGRAPH TABLE (HARRIET LANE) (sql/harriet_lane_monographs.sql) ─────────────────────────
+-- ───────────────────────── [11] NEONATE MONOGRAPH TABLE (HARRIET LANE) (sql/harriet_lane_monographs.sql) ─────────────────────────
 
 -- Private institutional Harriet Lane (Neonate) monograph review table.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -974,7 +1002,7 @@ CREATE TRIGGER trg_harriet_lane_updated BEFORE UPDATE ON public.harriet_lane_mon
 -- Review status is deliberately separate from the clinical starter drug table.
 -- Promotion into approved calculator data must be a governed, human-reviewed process.
 
--- ───────────────────────── [11] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
+-- ───────────────────────── [12] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
 
 -- Pediatric clinician workflow migration
 -- Run after sql/security_hardening.sql and before using the redesigned patient workspace.
@@ -1046,7 +1074,7 @@ DROP POLICY IF EXISTS calc_insert_unit ON public.calc_results;
 CREATE POLICY calc_select_owner ON public.calc_results FOR SELECT USING (public.can_access_patient(patient_id));
 CREATE POLICY calc_insert_owner ON public.calc_results FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
 
--- ───────────────────────── [12] ONBOARDING PREFERENCES (NON-PHI) (sql/onboarding_preferences.sql) ─────────────────────────
+-- ───────────────────────── [13] ONBOARDING PREFERENCES (NON-PHI) (sql/onboarding_preferences.sql) ─────────────────────────
 
 -- Server-backed, non-PHI onboarding preferences.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -1107,7 +1135,7 @@ REVOKE DELETE, TRUNCATE, REFERENCES, TRIGGER ON public.user_preferences FROM aut
 GRANT SELECT, INSERT, UPDATE ON public.user_preferences TO authenticated;
 GRANT ALL ON public.user_preferences TO service_role;
 
--- ───────────────────────── [13] ROLE GRANTS (sql/grants.sql) ─────────────────────────
+-- ───────────────────────── [14] ROLE GRANTS (sql/grants.sql) ─────────────────────────
 
 -- prakash-PICU — database role grants.
 --

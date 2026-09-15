@@ -39,3 +39,18 @@ test('a runnable RLS boundary audit exists and covers escalation + truncate', ()
   assert.match(auditScript, /TRUNCATE/);
   assert.match(auditScript, /ROLLBACK|rolled back/);
 });
+
+test('payment submissions cannot be self-approved or attributed to another user', () => {
+  const payments = fs.readFileSync(new URL('../sql/payments_hardening.sql', import.meta.url), 'utf8');
+  const subscriptions = fs.readFileSync(new URL('../sql/subscriptions.sql', import.meta.url), 'utf8');
+  assert.match(payments, /CREATE POLICY payments_client_insert ON public\.payments FOR INSERT TO anon, authenticated/);
+  assert.match(payments, /status = 'pending'/);
+  assert.match(payments, /verified_by IS NULL/);
+  assert.match(payments, /user_id IS NULL OR user_id = auth\.uid\(\)/);
+  assert.match(payments, /sp\.id = payments\.plan AND sp\.active/);
+  // entitlement comes only from the server-side redeem RPC
+  assert.match(subscriptions, /CREATE OR REPLACE FUNCTION public\.redeem_activation_code\(p_code TEXT\)/);
+  assert.match(subscriptions, /SECURITY DEFINER SET search_path = public/);
+  // clients have no INSERT/UPDATE path to subscriptions
+  assert.doesNotMatch(subscriptions, /CREATE POLICY \w+ ON public\.subscriptions FOR (INSERT|UPDATE)/);
+});
