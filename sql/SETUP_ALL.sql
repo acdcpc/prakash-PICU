@@ -722,7 +722,46 @@ CREATE POLICY profiles_update_self_or_admin ON public.profiles FOR UPDATE
   USING (auth.uid() = id OR public.is_admin())
   WITH CHECK (auth.uid() = id OR public.is_admin());
 
--- ───────────────────────── [5] PAYMENT SCREENSHOTS BUCKET (sql/payment_screenshots.sql) ─────────────────────────
+-- ───────────────────────── [5] PRIVATE IMAGE PATH HARDENING (sql/storage_path_hardening.sql) ─────────────────────────
+
+-- P0 security: strict patient-image storage path parsing.
+-- Apply after sql/security_hardening.sql (which creates the storage policies).
+--
+-- Rollback:
+--   CREATE OR REPLACE FUNCTION public.patient_id_from_storage_path(path text)
+--   RETURNS uuid LANGUAGE plpgsql IMMUTABLE AS $$
+--   BEGIN RETURN split_part(path, '/', 2)::uuid;
+--   EXCEPTION WHEN invalid_text_representation THEN RETURN NULL; END; $$;
+--
+-- The original function took any 2nd path segment as the patient id. This
+-- version requires the exact `patients/<uuid>/<file>` shape, rejects traversal
+-- and backslash paths, pins search_path, and returns NULL (=> policy denies)
+-- for anything malformed. The storage policies then apply can_access_patient()
+-- on the derived id, so cross-patient access still fails closed.
+
+CREATE OR REPLACE FUNCTION public.patient_id_from_storage_path(path text)
+RETURNS uuid
+LANGUAGE plpgsql
+IMMUTABLE
+SET search_path = public
+AS $$
+DECLARE
+  parts text[];
+BEGIN
+  IF path IS NULL OR path = '' THEN RETURN NULL; END IF;
+  IF strpos(path, chr(92)) > 0 THEN RETURN NULL; END IF;   -- no backslashes
+  IF left(path, 1) = '/' THEN RETURN NULL; END IF;          -- no absolute paths
+  IF strpos(path, '..') > 0 THEN RETURN NULL; END IF;       -- no traversal
+  parts := string_to_array(path, '/');
+  IF array_length(parts, 1) <> 3 THEN RETURN NULL; END IF;  -- exactly patients/<id>/<file>
+  IF parts[1] <> 'patients' THEN RETURN NULL; END IF;
+  RETURN parts[2]::uuid;
+EXCEPTION WHEN invalid_text_representation THEN
+  RETURN NULL;
+END;
+$$;
+
+-- ───────────────────────── [6] PAYMENT SCREENSHOTS BUCKET (sql/payment_screenshots.sql) ─────────────────────────
 
 -- prakash-PICU — storage bucket for the hosted payment page screenshots.
 --
@@ -749,7 +788,7 @@ CREATE POLICY payment_screenshots_admin_read ON storage.objects
   FOR SELECT TO authenticated
   USING (bucket_id = 'payment-screenshots' AND public.is_admin());
 
--- ───────────────────────── [6] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
+-- ───────────────────────── [7] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
 
 -- Private institutional Teddy Bear monograph review table.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -793,7 +832,7 @@ CREATE TRIGGER trg_teddy_bear_updated BEFORE UPDATE ON public.teddy_bear_monogra
 -- Review status is deliberately separate from the clinical starter drug table.
 -- Promotion into approved calculator data must be a governed, human-reviewed process.
 
--- ───────────────────────── [7] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
+-- ───────────────────────── [8] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
 
 -- Teddy Bear monograph review-queue classification.
 -- Adds a record_kind taxonomy so clinicians can filter to actual drug
@@ -842,7 +881,7 @@ WHERE record_kind_locked = false;
 -- SET record_kind = 'monograph', record_kind_locked = true
 -- WHERE source_id = '<reviewed-source-id>';
 
--- ───────────────────────── [8] NEONATE MONOGRAPH TABLE (HARRIET LANE) (sql/harriet_lane_monographs.sql) ─────────────────────────
+-- ───────────────────────── [9] NEONATE MONOGRAPH TABLE (HARRIET LANE) (sql/harriet_lane_monographs.sql) ─────────────────────────
 
 -- Private institutional Harriet Lane (Neonate) monograph review table.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -888,7 +927,7 @@ CREATE TRIGGER trg_harriet_lane_updated BEFORE UPDATE ON public.harriet_lane_mon
 -- Review status is deliberately separate from the clinical starter drug table.
 -- Promotion into approved calculator data must be a governed, human-reviewed process.
 
--- ───────────────────────── [9] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
+-- ───────────────────────── [10] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
 
 -- Pediatric clinician workflow migration
 -- Run after sql/security_hardening.sql and before using the redesigned patient workspace.
@@ -960,7 +999,7 @@ DROP POLICY IF EXISTS calc_insert_unit ON public.calc_results;
 CREATE POLICY calc_select_owner ON public.calc_results FOR SELECT USING (public.can_access_patient(patient_id));
 CREATE POLICY calc_insert_owner ON public.calc_results FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
 
--- ───────────────────────── [10] ONBOARDING PREFERENCES (NON-PHI) (sql/onboarding_preferences.sql) ─────────────────────────
+-- ───────────────────────── [11] ONBOARDING PREFERENCES (NON-PHI) (sql/onboarding_preferences.sql) ─────────────────────────
 
 -- Server-backed, non-PHI onboarding preferences.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -1021,7 +1060,7 @@ REVOKE DELETE, TRUNCATE, REFERENCES, TRIGGER ON public.user_preferences FROM aut
 GRANT SELECT, INSERT, UPDATE ON public.user_preferences TO authenticated;
 GRANT ALL ON public.user_preferences TO service_role;
 
--- ───────────────────────── [11] ROLE GRANTS (sql/grants.sql) ─────────────────────────
+-- ───────────────────────── [12] ROLE GRANTS (sql/grants.sql) ─────────────────────────
 
 -- prakash-PICU — database role grants.
 --

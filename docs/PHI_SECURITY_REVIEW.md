@@ -109,3 +109,38 @@ still readable.
   governance sign-off.
 - Session timeout/redirect allowlist, CSP/headers, dependency audit + secret
   scanning, and error-monitoring service remain (P0 security items 6–7).
+
+## Private patient-image paths (`sql/storage_path_hardening.sql`)
+
+The private `patient-images` bucket (public = false) stores only storage paths;
+signed URLs are short-lived (1 hour) and never public. The storage RLS policies
+derive the patient id from the object path via
+`public.patient_id_from_storage_path()` and then apply `can_access_patient()`.
+
+The original function took *any* second path segment as the patient id, so a
+wrong-prefix path (`other/<uuid>/…`) with an accessible patient id could pass.
+It now requires the exact `patients/<uuid>/<file>` shape, rejects backslashes,
+absolute paths, traversal (`..`), and nesting, pins `search_path`, and returns
+NULL (⇒ policy denies) for anything malformed.
+
+Client helper `src/lib/storagePaths.js` mirrors the same rules so malformed or
+cross-patient paths never reach `createSignedUrl`, and file names are sanitised
+(directory parts stripped, control characters and `..` removed, length capped).
+
+Verified against the hosted database and in unit tests:
+
+| Path | Result |
+|---|---|
+| `patients/<uuid>/1700000000000_x.png` | resolves to the uuid |
+| `patients/../etc/passwd` | NULL (denied) |
+| `patients/not-a-uuid/x.png` | NULL |
+| `patients/` (missing patient) | NULL |
+| `/patients/<uuid>/x.png` (absolute) | NULL |
+| `other/<uuid>/x.png` (wrong prefix) | NULL |
+| `patients/<uuid>/a/b.png` (nested) | NULL |
+| `patients\<uuid>\x.png` (backslashes) | NULL |
+
+`tests/storagePaths.test.mjs` covers malformed, traversal-like, cross-patient,
+and missing-patient inputs. `Images.jsx` now refuses to sign a path that does
+not belong to the patient being viewed, and reports upload/load failures inline
+instead of via `alert()`.

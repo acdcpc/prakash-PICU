@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
-import { ArrowLeft, Upload } from 'lucide-react';
+import { AlertTriangle, ArrowLeft, Upload } from 'lucide-react';
+import { buildPatientImagePath, isPathForPatient } from '../../lib/storagePaths';
 
 const IMG_TYPES = ['Radiology', 'Ultrasound', 'Clinical Photo', 'ECG', 'Other'];
 
@@ -64,6 +65,7 @@ export default function Images() {
   const [desc, setDesc] = useState('');
   const [type, setType] = useState('Radiology');
   const [uploading, setUploading] = useState(false);
+  const [error, setError] = useState('');
   const { user } = useAuth();
 
   useEffect(() => {
@@ -72,12 +74,17 @@ export default function Images() {
   }, [id]);
 
   async function loadImages() {
-    const { data, error } = await supabase.from('patient_images').select('*').eq('patient_id', id).order('created_at', { ascending: false });
-    if (error) { alert('Could not load images: ' + error.message); return; }
+    const { data, error: loadError } = await supabase.from('patient_images').select('*').eq('patient_id', id).order('created_at', { ascending: false });
+    if (loadError) { setError('We could not load this patient\u2019s images. Retry when you have a connection.'); return; }
+    setError('');
     const withSignedUrls = await Promise.all((data || []).map(async (image) => {
-      if (!image.storage_path) return { ...image, signed_url: null };
+      // Only request a signed URL for a path that genuinely belongs to the
+      // patient being viewed; anything else is refused client-side too.
+      if (!image.storage_path || !isPathForPatient(image.storage_path, id)) {
+        return { ...image, signed_url: null, path_rejected: Boolean(image.storage_path) };
+      }
       const { data: signed, error: signedError } = await supabase.storage.from('patient-images').createSignedUrl(image.storage_path, 60 * 60);
-      return { ...image, signed_url: signedError ? null : signed?.signedUrl };
+      return { ...image, signed_url: signedError ? null : signed?.signedUrl, path_rejected: false };
     }));
     setImages(withSignedUrls);
   }
@@ -88,13 +95,14 @@ export default function Images() {
     if (!original) return;
 
     setUploading(true);
+    setError('');
     try {
       // Resize/compress to max 500 KB before uploading.
       const file = await compressImageToMaxKB(original, 500);
 
-      const filePath = `patients/${id}/${Date.now()}_${file.name}`;
+      const filePath = buildPatientImagePath(id, file.name);
       const { error: uploadError } = await supabase.storage.from('patient-images').upload(filePath, file);
-      if (uploadError) { alert('Upload error: ' + uploadError.message); setUploading(false); return; }
+      if (uploadError) { setError('The image could not be uploaded. Check the file size and try again.'); setUploading(false); return; }
 
       if (filePath) {
           await supabase.from('patient_images').insert({
@@ -105,7 +113,7 @@ export default function Images() {
       e.target.reset(); setDesc('');
       loadImages();
     } catch (err) {
-      alert('Could not process image: ' + (err.message || 'unknown error'));
+      setError('This image could not be processed. Try a different file.');
     } finally {
       setUploading(false);
     }
@@ -116,6 +124,7 @@ export default function Images() {
       <button className="btn btn-ghost btn-sm mb-3" onClick={() => navigate(`/patients/${id}`)}><ArrowLeft size={16} /> Back</button>
       <h3>Patient Images — Bed {patient?.bed_number || '—'}</h3>
 
+      {error && <div className="notice notice-danger" role="alert"><AlertTriangle size={16} /><span>{error}</span></div>}
       <div className="card mt-3" style={{maxWidth: 500}}>
         <div className="card-head"><h4>Upload Image</h4></div>
         <div className="card-body">
@@ -142,7 +151,7 @@ export default function Images() {
               <div key={img.id} style={{textAlign: 'center'}}>
                 {img.signed_url ? <a href={img.signed_url} target="_blank" rel="noreferrer">
                   <img src={img.signed_url} alt={img.description || 'Patient image'} style={{width:'100%', borderRadius: 8, border: '1px solid var(--border)'}} loading="lazy" />
-                </a> : <div className="notice notice-warning">Image unavailable until its private storage path is migrated.</div>}
+                </a> : <div className="notice notice-warning">{img.path_rejected ? 'This image path does not belong to the patient being viewed, so it was not opened.' : 'Image unavailable until its private storage path is migrated.'}</div>}
                 <p className="text-sm text-muted mt-2">{img.type}: {img.description || ''}</p>
               </div>
             ))}
