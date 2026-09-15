@@ -15,6 +15,7 @@ const sections = [
   { file: 'sql/security_hardening.sql', title: 'SECURITY HARDENING' },
   { file: 'sql/security_rls_hardening.sql', title: 'RLS & LEAST-PRIVILEGE HARDENING' },
   { file: 'sql/storage_path_hardening.sql', title: 'PRIVATE IMAGE PATH HARDENING' },
+  { file: 'sql/audit_hardening.sql', title: 'APPEND-ONLY AUDIT HARDENING' },
   { file: 'sql/payment_screenshots.sql', title: 'PAYMENT SCREENSHOTS BUCKET' },
   { file: 'sql/teddy_bear_monographs.sql', title: 'TEDDY BEAR MONOGRAPH TABLE' },
   { file: 'sql/teddy_bear_record_kind.sql', title: 'TEDDY BEAR RECORD KIND' },

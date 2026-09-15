@@ -56,3 +56,25 @@ test('clinical screens are wired to audit calculation and self-recheck events', 
   assert.match(emergencyPage, /eventType: 'emergency_self_recheck'/);
   assert.match(infusionPage, /eventType: 'high_risk_infusion_self_recheck'/);
 });
+
+test('audit events are append-only and enforce an allowlisted metadata shape', () => {
+  const audit = fs.readFileSync(new URL('../sql/audit_hardening.sql', import.meta.url), 'utf8');
+  const hardening = fs.readFileSync(new URL('../sql/security_hardening.sql', import.meta.url), 'utf8');
+  // append-only: the table has no UPDATE/DELETE policies
+  assert.doesNotMatch(hardening, /clinical_audit_events FOR UPDATE/);
+  assert.doesNotMatch(hardening, /clinical_audit_events FOR DELETE/);
+  // defence in depth for free-text fields and metadata keys
+  assert.match(audit, /clinical_audit_drug_name_len/);
+  assert.match(audit, /clinical_audit_dose_unit_len/);
+  assert.match(audit, /CREATE OR REPLACE FUNCTION public\.enforce_audit_metadata_keys/);
+  assert.match(audit, /'route', 'frequency', 'indication', 'reference', 'source', 'verification_stage'/);
+  assert.match(audit, /CREATE TRIGGER trg_audit_metadata_keys BEFORE INSERT ON public\.clinical_audit_events/);
+});
+
+test('analytics never receives patient identifiers', () => {
+  const privacy = fs.readFileSync(new URL('../src/lib/analyticsPrivacy.js', import.meta.url), 'utf8');
+  const analytics = fs.readFileSync(new URL('../src/lib/analytics.js', import.meta.url), 'utf8');
+  assert.match(privacy, /sanitizeAnalyticsPath/);
+  assert.match(privacy, /:id/);
+  assert.match(analytics, /sanitizeAnalyticsPath\(page\)/);
+});

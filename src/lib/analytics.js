@@ -1,5 +1,6 @@
 import { getAnalytics, isSupported, logEvent } from 'firebase/analytics';
 import { initializeApp } from 'firebase/app';
+import { sanitizeAnalyticsPath, sanitizeAnalyticsParams } from './analyticsPrivacy';
 
 let analyticsPromise;
 
@@ -30,11 +31,11 @@ export async function getClinicalAnalytics() {
 export async function trackEvent(name, params = {}) {
   const analytics = await getClinicalAnalytics();
   if (!analytics) return false;
-  const safeParams = Object.fromEntries(Object.entries(params).filter(([key]) => !/patient|name|email|phone|diagnosis|address|id/i.test(key)));
-  logEvent(analytics, name, safeParams);
+  logEvent(analytics, name, sanitizeAnalyticsParams(params));
   return true;
 }
 
 export function trackPageView(page) {
-  return trackEvent('page_view', { page });
+  // Route paths can contain patient identifiers (e.g. /patients/<uuid>/notes).
+  return trackEvent('page_view', { page: sanitizeAnalyticsPath(page) });
 }

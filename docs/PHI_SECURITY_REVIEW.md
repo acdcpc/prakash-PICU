@@ -144,3 +144,25 @@ Verified against the hosted database and in unit tests:
 and missing-patient inputs. `Images.jsx` now refuses to sign a path that does
 not belong to the patient being viewed, and reports upload/load failures inline
 instead of via `alert()`.
+
+## Audit + analytics PHI minimisation (`sql/audit_hardening.sql`)
+
+`clinical_audit_events` is append-only at the RLS layer (SELECT + INSERT
+policies only; no UPDATE/DELETE). The client already allowlists metadata via
+`src/lib/auditValidation.js`, but the database no longer relies on the client:
+
+- `drug_name`, `dose_unit`, `infusion_id` are length-capped (120 / 40 / 80).
+- A `BEFORE INSERT` trigger rejects any `metadata` key outside
+  `route, frequency, indication, reference, source, verification_stage`
+  (`22023`) and the length checks raise `23514` — both verified against the
+  hosted database.
+
+**Analytics leak fixed:** `trackPageView` previously sent the raw route path, so
+patient identifiers reached Firebase (e.g. `/patients/<uuid>/notes`). New
+dependency-free `src/lib/analyticsPrivacy.js` strips query strings, replaces
+UUIDs with `:id` and long numbers with `:n`, caps length, drops PHI-named keys
+and identifier-shaped values, and keeps only primitive values. `trackPageView`
+now sends the sanitised path.
+
+Note: append-only is an RLS guarantee; `service_role`/superuser can still
+delete, which is expected for a trusted backend role.

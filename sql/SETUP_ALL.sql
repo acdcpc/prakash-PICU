@@ -761,7 +761,54 @@ EXCEPTION WHEN invalid_text_representation THEN
 END;
 $$;
 
--- ───────────────────────── [6] PAYMENT SCREENSHOTS BUCKET (sql/payment_screenshots.sql) ─────────────────────────
+-- ───────────────────────── [6] APPEND-ONLY AUDIT HARDENING (sql/audit_hardening.sql) ─────────────────────────
+
+-- P0 security: append-only audit hardening (defence in depth).
+-- Apply after sql/security_hardening.sql.
+--
+-- Rollback:
+--   DROP TRIGGER IF EXISTS trg_audit_metadata_keys ON public.clinical_audit_events;
+--   DROP FUNCTION IF EXISTS public.enforce_audit_metadata_keys();
+--   ALTER TABLE public.clinical_audit_events
+--     DROP CONSTRAINT IF EXISTS clinical_audit_drug_name_len,
+--     DROP CONSTRAINT IF EXISTS clinical_audit_dose_unit_len,
+--     DROP CONSTRAINT IF EXISTS clinical_audit_infusion_id_len;
+--
+-- The client already allowlists audit metadata, but the database must not rely
+-- on the client: free-text fields are length-capped and metadata keys must be
+-- on the allowlist, so PHI cannot be smuggled into an audit record.
+-- clinical_audit_events has SELECT + INSERT policies only (no UPDATE/DELETE),
+-- which keeps the table append-only at the RLS layer.
+
+ALTER TABLE public.clinical_audit_events DROP CONSTRAINT IF EXISTS clinical_audit_drug_name_len;
+ALTER TABLE public.clinical_audit_events ADD CONSTRAINT clinical_audit_drug_name_len
+  CHECK (drug_name IS NULL OR length(drug_name) <= 120);
+ALTER TABLE public.clinical_audit_events DROP CONSTRAINT IF EXISTS clinical_audit_dose_unit_len;
+ALTER TABLE public.clinical_audit_events ADD CONSTRAINT clinical_audit_dose_unit_len
+  CHECK (dose_unit IS NULL OR length(dose_unit) <= 40);
+ALTER TABLE public.clinical_audit_events DROP CONSTRAINT IF EXISTS clinical_audit_infusion_id_len;
+ALTER TABLE public.clinical_audit_events ADD CONSTRAINT clinical_audit_infusion_id_len
+  CHECK (infusion_id IS NULL OR length(infusion_id) <= 80);
+
+CREATE OR REPLACE FUNCTION public.enforce_audit_metadata_keys()
+RETURNS TRIGGER LANGUAGE plpgsql SET search_path = public AS $$
+DECLARE k text;
+BEGIN
+  IF NEW.metadata IS NULL THEN RETURN NEW; END IF;
+  FOR k IN SELECT jsonb_object_keys(NEW.metadata) LOOP
+    IF k NOT IN ('route', 'frequency', 'indication', 'reference', 'source', 'verification_stage') THEN
+      RAISE EXCEPTION 'Audit metadata key "%" is not allowlisted', k USING ERRCODE = '22023';
+    END IF;
+  END LOOP;
+  RETURN NEW;
+END;
+$$;
+
+DROP TRIGGER IF EXISTS trg_audit_metadata_keys ON public.clinical_audit_events;
+CREATE TRIGGER trg_audit_metadata_keys BEFORE INSERT ON public.clinical_audit_events
+  FOR EACH ROW EXECUTE FUNCTION public.enforce_audit_metadata_keys();
+
+-- ───────────────────────── [7] PAYMENT SCREENSHOTS BUCKET (sql/payment_screenshots.sql) ─────────────────────────
 
 -- prakash-PICU — storage bucket for the hosted payment page screenshots.
 --
@@ -788,7 +835,7 @@ CREATE POLICY payment_screenshots_admin_read ON storage.objects
   FOR SELECT TO authenticated
   USING (bucket_id = 'payment-screenshots' AND public.is_admin());
 
--- ───────────────────────── [7] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
+-- ───────────────────────── [8] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
 
 -- Private institutional Teddy Bear monograph review table.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -832,7 +879,7 @@ CREATE TRIGGER trg_teddy_bear_updated BEFORE UPDATE ON public.teddy_bear_monogra
 -- Review status is deliberately separate from the clinical starter drug table.
 -- Promotion into approved calculator data must be a governed, human-reviewed process.
 
--- ───────────────────────── [8] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
+-- ───────────────────────── [9] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
 
 -- Teddy Bear monograph review-queue classification.
 -- Adds a record_kind taxonomy so clinicians can filter to actual drug
@@ -881,7 +928,7 @@ WHERE record_kind_locked = false;
 -- SET record_kind = 'monograph', record_kind_locked = true
 -- WHERE source_id = '<reviewed-source-id>';
 
--- ───────────────────────── [9] NEONATE MONOGRAPH TABLE (HARRIET LANE) (sql/harriet_lane_monographs.sql) ─────────────────────────
+-- ───────────────────────── [10] NEONATE MONOGRAPH TABLE (HARRIET LANE) (sql/harriet_lane_monographs.sql) ─────────────────────────
 
 -- Private institutional Harriet Lane (Neonate) monograph review table.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -927,7 +974,7 @@ CREATE TRIGGER trg_harriet_lane_updated BEFORE UPDATE ON public.harriet_lane_mon
 -- Review status is deliberately separate from the clinical starter drug table.
 -- Promotion into approved calculator data must be a governed, human-reviewed process.
 
--- ───────────────────────── [10] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
+-- ───────────────────────── [11] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
 
 -- Pediatric clinician workflow migration
 -- Run after sql/security_hardening.sql and before using the redesigned patient workspace.
@@ -999,7 +1046,7 @@ DROP POLICY IF EXISTS calc_insert_unit ON public.calc_results;
 CREATE POLICY calc_select_owner ON public.calc_results FOR SELECT USING (public.can_access_patient(patient_id));
 CREATE POLICY calc_insert_owner ON public.calc_results FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
 
--- ───────────────────────── [11] ONBOARDING PREFERENCES (NON-PHI) (sql/onboarding_preferences.sql) ─────────────────────────
+-- ───────────────────────── [12] ONBOARDING PREFERENCES (NON-PHI) (sql/onboarding_preferences.sql) ─────────────────────────
 
 -- Server-backed, non-PHI onboarding preferences.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -1060,7 +1107,7 @@ REVOKE DELETE, TRUNCATE, REFERENCES, TRIGGER ON public.user_preferences FROM aut
 GRANT SELECT, INSERT, UPDATE ON public.user_preferences TO authenticated;
 GRANT ALL ON public.user_preferences TO service_role;
 
--- ───────────────────────── [12] ROLE GRANTS (sql/grants.sql) ─────────────────────────
+-- ───────────────────────── [13] ROLE GRANTS (sql/grants.sql) ─────────────────────────
 
 -- prakash-PICU — database role grants.
 --
