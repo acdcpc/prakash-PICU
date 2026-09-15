@@ -996,3 +996,16 @@ main:focus { outline: none; }
 .error-summary { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 3px; }
 .error-summary a { color: inherit; font-weight: 600; }
 [aria-invalid="true"] { border-color: var(--danger) !important; box-shadow: 0 0 0 3px rgba(192,69,59,.12); }
+
+/* Patient context header (patient subroutes) */
+.patient-context {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  margin-bottom: 14px; padding: 10px 14px;
+  border: 1px solid var(--border); border-left: 4px solid var(--teal);
+  border-radius: var(--radius-sm); background: linear-gradient(100deg, #f3faf8, #fffdfa);
+}
+.patient-context-back { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: .8rem; color: var(--navy); text-decoration: none; }
+.patient-context-back:hover { text-decoration: underline; }
+.patient-context-chip { padding: 3px 10px; border-radius: var(--radius-pill); background: var(--teal-light); color: #0a5f5b; font-size: .74rem; font-weight: 700; }
+.patient-context-title { font-size: .88rem; color: var(--navy); }
+.patient-context-warn { display: inline-flex; align-items: center; gap: 6px; color: var(--amber); font-size: .8rem; font-weight: 600; }

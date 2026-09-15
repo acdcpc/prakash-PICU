@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { ArrowLeft } from 'lucide-react';
 import { notifyError } from '../../lib/notifications';
+import PatientContextHeader from '../../components/PatientContextHeader';
 
 const DEFAULT_DRUGS = [
   { name:'Morphine', dose:'0.1 mg/kg', max:'10 mg', freq:'2-4h PRN', route:'IV/SC/PO', prep:'Dilute to 1 mg/mL in NS' },
@@ -58,6 +59,7 @@ export default function DrugLibrary() {
 
   return (
     <div>
+      <PatientContextHeader patientId={id} />
       <button className="btn btn-ghost btn-sm mb-3" onClick={() => navigate(`/patients/${id}`)}><ArrowLeft size={16} /> Back</button>
       <h3>Drug Library — Bed {patient?.bed_number || '—'}</h3>
 

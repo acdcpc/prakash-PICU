@@ -4,6 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { AlertTriangle, ArrowLeft, Upload } from 'lucide-react';
 import { buildPatientImagePath, isPathForPatient } from '../../lib/storagePaths';
+import PatientContextHeader from '../../components/PatientContextHeader';
 
 const IMG_TYPES = ['Radiology', 'Ultrasound', 'Clinical Photo', 'ECG', 'Other'];
 
@@ -121,6 +122,7 @@ export default function Images() {
 
   return (
     <div>
+      <PatientContextHeader patientId={id} />
       <button className="btn btn-ghost btn-sm mb-3" onClick={() => navigate(`/patients/${id}`)}><ArrowLeft size={16} /> Back</button>
       <h3>Patient Images — Bed {patient?.bed_number || '—'}</h3>
 

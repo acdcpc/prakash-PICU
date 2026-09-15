@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { ArrowLeft, Plus, Trash2 } from 'lucide-react';
 import { notifyError } from '../../lib/notifications';
+import PatientContextHeader from '../../components/PatientContextHeader';
 
 const VENT_OPTIONS = [
   { value: '', label: 'Spontaneous / Room air' },
@@ -127,6 +128,7 @@ export default function FluidBalance() {
 
   return (
     <div>
+      <PatientContextHeader patientId={id} />
       <button className="btn btn-ghost btn-sm mb-3" onClick={() => navigate(`/patients/${id}`)}>
         <ArrowLeft size={16} /> Back to Patient
       </button>

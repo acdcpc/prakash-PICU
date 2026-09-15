@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { ArrowLeft, Plus, Trash2 } from 'lucide-react';
 import { notifyError } from '../../lib/notifications';
+import PatientContextHeader from '../../components/PatientContextHeader';
 
 export default function Investigations() {
   const { id } = useParams();
@@ -39,6 +40,7 @@ export default function Investigations() {
 
   return (
     <div>
+      <PatientContextHeader patientId={id} />
       <button className="btn btn-ghost btn-sm mb-3" onClick={() => navigate(`/patients/${id}`)}><ArrowLeft size={16} /> Back</button>
       <h3>Investigations — Bed {patient?.bed_number || '—'}</h3>
 

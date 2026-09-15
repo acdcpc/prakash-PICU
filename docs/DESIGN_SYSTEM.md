@@ -65,3 +65,15 @@ diagnosis or percentile.
 
 Test at 320 / 360 / 390 / 430 px. Stack single-column on narrow widths,
 full-width buttons, never depend on hover for essential information.
+
+## Patient context
+
+Patient subroutes (imaging, drugs, investigations, notes, fluid balance) render
+`PatientContextHeader`, a compact region that always states:
+
+- where the clinician came from (back to the patient record or the patient list),
+- the minimum permitted context (source of care, sex, age, weight, clinical reason),
+- an explicit state when there is **no** patient context, when the record is
+  **not accessible**, or when context **could not be loaded**.
+
+The active patient is therefore never ambiguous on a patient-specific screen.

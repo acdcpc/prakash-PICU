@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { ArrowLeft } from 'lucide-react';
+import PatientContextHeader from '../../components/PatientContextHeader';
 
 const NOTE_TYPES = [
   { value: 'progress', label: 'Progress Note' },
@@ -40,6 +41,7 @@ export default function ClinicalNotes() {
 
   return (
     <div>
+      <PatientContextHeader patientId={id} />
       <button className="btn btn-ghost btn-sm mb-3" onClick={() => navigate(`/patients/${id}`)}><ArrowLeft size={16} /> Back</button>
       <h3>Clinical Notes — Bed {patient?.bed_number || '—'}</h3>
 
