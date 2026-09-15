@@ -37,3 +37,42 @@ This is safer than storing plaintext PHI in `localStorage`, but it is not encryp
 ## Current recommendations
 
 Before production PHI use, make the patient image bucket private, add patient/care-team/unit-scoped RLS, add explicit update/delete policies, remove anonymous payment inserts, test `SECURITY DEFINER` functions, add audit logging, review Auth session settings, and run a threat model with the hospital’s privacy/security lead. Do not add plaintext patient drafts to browser persistence.
+
+## Onboarding preferences (non-PHI, server-backed)
+
+`sql/onboarding_preferences.sql` adds `public.user_preferences`, which stores
+only non-clinical workspace preferences: care focus, quick-shelf tools, locale,
+onboarding status (`in_progress` / `completed` / `skipped` / `needs_update`),
+onboarding version, and safety-acknowledgement version. It must never hold
+patient identifiers, diagnoses, weights, images, or clinical free text.
+
+Controls implemented and verified against the hosted database:
+
+- RLS enabled; a clinician may `SELECT`/`INSERT`/`UPDATE` **only their own row**
+  (`user_id = auth.uid()`; admins may read).
+- No `DELETE` policy and explicit `REVOKE DELETE, TRUNCATE, REFERENCES, TRIGGER`
+  for `authenticated`, plus `REVOKE ALL` for `anon`. Hosted Supabase default
+  privileges grant `ALL` to `anon`/`authenticated` on new tables, and
+  **`TRUNCATE` is not protected by RLS**, so this revoke matters.
+- Local storage is used only as a first-paint optimisation and never as an
+  access-control decision; access remains session + RLS based.
+- Boundary tests (run against the hosted project, impersonating roles/`sub`):
+
+| Actor | Operation | Result |
+|---|---|---|
+| anon | SELECT | blocked (42501) |
+| self | SELECT | 1 row |
+| other user | SELECT | 0 rows |
+| other user | UPDATE another user's row | 0 rows |
+| other user | INSERT a row for another user | blocked (42501) |
+| self | DELETE | blocked (42501) |
+| self | TRUNCATE | blocked (42501) |
+
+### Unresolved institution-dependent decisions
+
+- Whether `anon` should hold any grant on new tables at all (the project-wide
+  `ALTER DEFAULT PRIVILEGES ... GRANT ALL ... TO anon` is broader than least
+  privilege and should be reviewed with the institution).
+- Session timeout / inactivity policy, auth redirect allowlist, CSP, and
+  error-monitoring service selection (P0 security items 6–7) remain to be
+  reviewed and configured before production.

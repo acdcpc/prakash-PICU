@@ -8,7 +8,7 @@ import PublicLayout from './components/PublicLayout';
 import AppLayout from './components/AppLayout';
 import Login from './pages/auth/Login';
 import Onboarding from './pages/auth/Onboarding';
-import { hasCompletedOnboarding } from './lib/onboarding';
+import OnboardingGate from './components/OnboardingGate';
 
 const Home = lazy(() => import('./pages/public/Home'));
 const Education = lazy(() => import('./pages/public/Education'));
@@ -35,11 +35,17 @@ const EmergencyMode = lazy(() => import('./pages/emergency/EmergencyMode'));
 const HighRiskInfusions = lazy(() => import('./pages/highRiskInfusions/HighRiskInfusions'));
 const TeddyBearReview = lazy(() => import('./pages/drugReview/TeddyBearReview'));
 const HarrietLaneReview = lazy(() => import('./pages/drugReview/HarrietLaneReview'));
+const Preferences = lazy(() => import('./pages/account/Preferences'));
 
 function AuthenticatedLayout() {
-  const { user } = useAuth();
-  if (!hasCompletedOnboarding(user?.id)) return <Navigate to="/onboarding" replace />;
-  return <AppLayout />;
+  // Access is granted by the authenticated session (see AuthContext) and
+  // Supabase RLS. OnboardingGate only decides whether to show the first-run
+  // preference flow; it never grants or removes access to clinical data.
+  return (
+    <OnboardingGate>
+      <AppLayout />
+    </OnboardingGate>
+  );
 }
 
 function Loader() {
@@ -85,6 +91,7 @@ export default function App() {
           <Route path="/calculators" element={<CalculatorHome />} />
           <Route path="/clinical-tools" element={<ClinicalTools />} />
           <Route path="/subscription" element={<Subscription />} />
+          <Route path="/preferences" element={<Preferences />} />
           <Route path="/child-growth" element={<ChildHealth />} />
           <Route path="/child-health" element={<Navigate to="/child-growth" replace />} />
           <Route path="/pediatric-updates" element={<PediatricUpdates />} />

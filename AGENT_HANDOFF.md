@@ -133,6 +133,10 @@ Firebase Analytics is optional. It must remain disabled until explicit Firebase 
 | `research/high_risk_infusions_extracted.md` | Extracted PAHS source text for auditability |
 | `research/emergency_guideline_sources.md` | Verified emergency-guidance research notes |
 | `src/data/highRiskInfusions.js` | Structured high-risk infusion records and rate function |
+| `sql/onboarding_preferences.sql` | Server-backed non-PHI onboarding preferences (care focus, quick shelf, locale, status/version) with self-only RLS |
+| `src/lib/onboarding.js` | Server-backed preferences: versioned, retryable, local cache is optimisation only |
+| `src/components/OnboardingGate.jsx` | First-run routing gate — never grants data access (session + RLS own that) |
+| `src/pages/account/Preferences.jsx` | Edit quick shelf / care focus later without repeating onboarding |
 | `src/data/teddyBearReviewIndex.js` | Metadata-only fallback for 238 monograph headings |
 | `src/data/emergencyGuidance.js` | Dated Nepal/global emergency-guidance cards |
 | `src/lib/clinicalTools.js` | Drug records, scores, algorithms, references, and dose calculator |

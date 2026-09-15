@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import {
   Activity, Baby, BookOpen, Calculator, ClipboardCheck, CreditCard, Download,
-  LayoutDashboard, LogOut, Newspaper, Settings, Siren, Syringe, Users,
+  LayoutDashboard, LogOut, Newspaper, Settings, Siren, SlidersHorizontal, Syringe, Users,
 } from 'lucide-react';
 
 const NAV_ITEMS = [
@@ -21,6 +21,7 @@ const NAV_ITEMS = [
     { id: 'education', label: 'Education Hub', icon: BookOpen, path: '/education-hub' },
   ]},
   { group: 'Account', items: [
+    { id: 'preferences', label: 'Preferences', icon: SlidersHorizontal, path: '/preferences' },
     { id: 'subscription', label: 'Subscription & Payment', icon: CreditCard, path: '/subscription' },
     { id: 'export', label: 'Export Centre', icon: Download, path: '/export' },
     { id: 'admin', label: 'Admin Panel', icon: Settings, path: '/admin', admin: true },
@@ -32,6 +33,7 @@ const TITLE_MAP = {
   'child-growth': 'Child Growth', 'child-health': 'Child Growth',
   'pediatric-updates': "What's New in Pediatrics", subscription: 'Subscription & Payment',
   emergency: 'Emergency Reference', 'high-risk-infusions': 'High-Risk Infusions',
+  preferences: 'Preferences',
   'teddy-bear-review': 'Teddy Bear Review',
   'neonate-review': 'Neonate Formulary', education: 'Education Hub', export: 'Export Centre',
   admin: 'Admin Panel', fluidBalance: 'Fluid Balance', drugs: 'Patient Drugs',

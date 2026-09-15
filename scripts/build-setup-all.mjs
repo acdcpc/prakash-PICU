@@ -18,6 +18,7 @@ const sections = [
   { file: 'sql/teddy_bear_record_kind.sql', title: 'TEDDY BEAR RECORD KIND' },
   { file: 'sql/harriet_lane_monographs.sql', title: 'NEONATE MONOGRAPH TABLE (HARRIET LANE)' },
   { file: 'sql/pediatric_clinician_workflow.sql', title: 'PEDIATRIC CLINICIAN WORKFLOW' },
+  { file: 'sql/onboarding_preferences.sql', title: 'ONBOARDING PREFERENCES (NON-PHI)' },
   { file: 'sql/grants.sql', title: 'ROLE GRANTS' },
 ];
 
