@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
 import { readOnboardingState } from '../../lib/onboarding';
-import { ArrowRight, Baby, Calculator, ClipboardPlus, HeartPulse, Newspaper, Plus, ShieldCheck, Sparkles, Users } from 'lucide-react';
+import { ArrowRight, Baby, Calculator, ClipboardPlus, Newspaper, Plus, ShieldCheck, Sparkles, Users } from 'lucide-react';
+import GrowthMotif from '../../components/GrowthMotif';
 
 const QUICK_LINKS = [
   { id: 'patient', title: 'Add a patient', text: 'Start a private pediatric record from OPD, ward, clinic, or referral.', path: '/patients/new', icon: ClipboardPlus, tone: 'coral' },
@@ -43,7 +44,7 @@ export default function Dashboard() {
           <p>One calm place for pediatric patient records, weight-based references, structured scores, and growth follow-up.</p>
           <div className="welcome-actions"><button className="btn btn-primary btn-lg" onClick={() => navigate('/patients/new')}><Plus size={17} /> Add patient</button><button className="btn btn-ghost btn-lg" onClick={() => navigate('/pediatric-updates')}><Newspaper size={17} /> What's new in pediatrics</button></div>
         </div>
-        <div className="welcome-art"><div className="orb orb-one" /><div className="orb orb-two" /><HeartPulse size={82} strokeWidth={1.2} /></div>
+        <div className="welcome-art"><div className="orb orb-one" /><div className="orb orb-two" /><GrowthMotif className="welcome-motif" /></div>
       </section>
 
       <section className="dashboard-section"><div className="section-heading"><div><span className="eyebrow">Your everyday flow</span><h2>Start with what you need</h2></div><span className="section-note">Designed for a busy clinic</span></div><div className="quick-launch-grid">{quickLinks.map(({ title, text, path, icon: Icon, tone }) => <button key={title} className={`launch-card launch-${tone}`} onClick={() => navigate(path)}><span className="launch-icon"><Icon size={22} /></span><span><strong>{title}</strong><small>{text}</small></span><ArrowRight size={18} className="launch-arrow" /></button>)}</div></section>
