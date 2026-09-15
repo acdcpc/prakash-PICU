@@ -1,0 +1,12 @@
+# Production security headers (Netlify / _headers format).
+# Verify against the real deployment before relying on them: the CSP must allow
+# only the origins this app actually uses (Vite bundle, Supabase, Google Fonts,
+# Firebase Analytics). Tighten or extend per the institution's policy.
+/*
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; img-src 'self' data: blob: https://*.supabase.co; media-src 'self' blob: https://*.supabase.co; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://www.google-analytics.com https://*.google-analytics.com https://firebaseinstallations.googleapis.com https://*.firebaseio.com; frame-src 'none'; upgrade-insecure-requests
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Cross-Origin-Opener-Policy: same-origin

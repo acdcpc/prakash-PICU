@@ -17,7 +17,9 @@
     "compile:neonate": "node scripts/compile-harriet-lane-sql.mjs",
     "build:neonate-index": "node scripts/build-harriet-lane-index.mjs",
     "setup:all": "node scripts/build-setup-all.mjs",
-    "audit:rls": "node scripts/audit-rls.mjs"
+    "audit:rls": "node scripts/audit-rls.mjs",
+    "audit:deps": "npm audit --audit-level=high",
+    "scan:secrets": "node scripts/scan-secrets.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.0",

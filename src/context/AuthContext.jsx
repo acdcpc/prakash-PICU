@@ -3,8 +3,18 @@ import supabase from '../lib/supabase';
 import { Capacitor } from '@capacitor/core';
 import { Browser } from '@capacitor/browser';
 import { App } from '@capacitor/app';
+import { resolveAuthRedirect, sanitizeAuthError, watchIdle, SESSION_IDLE_TIMEOUT_MS } from '../lib/session';
+import { clearCachedPreferences } from '../lib/onboarding';
 
 const DEEP_LINK = 'com.ourpicu.app://auth/callback';
+
+// Auth redirects are restricted to an allowlist (VITE_ALLOWED_AUTH_ORIGINS).
+// When unset (local/preview) the app falls back to its own origin.
+const WEB_REDIRECT = resolveAuthRedirect({
+  configured: import.meta.env.VITE_ALLOWED_AUTH_ORIGINS,
+  currentOrigin: typeof window !== 'undefined' ? window.location.origin : '',
+});
+const IDLE_MINUTES = Math.round(SESSION_IDLE_TIMEOUT_MS / 60000);
 
 const AuthContext = createContext(null);
 
@@ -71,7 +81,7 @@ export function AuthProvider({ children }) {
         await supabase.auth.setSession({ access_token, refresh_token }).catch(() => {});
         setAuthError('');
       } else if (error || error_description) {
-        setAuthError(error_description || error || 'Sign-in was cancelled or denied.');
+        setAuthError(sanitizeAuthError(error_description || error, 'Sign-in was cancelled or denied.'));
       }
       await Browser.close().catch(() => {});
     };
@@ -107,7 +117,7 @@ export function AuthProvider({ children }) {
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: isNative ? DEEP_LINK : window.location.origin,
+        redirectTo: isNative ? DEEP_LINK : WEB_REDIRECT,
         skipBrowserRedirect: true,
         queryParams: { access_type: 'offline', prompt: 'consent' },
       },
@@ -123,7 +133,7 @@ export function AuthProvider({ children }) {
   };
 
   const signInWithMagicLink = async (email) => {
-    const redirectTo = Capacitor.isNativePlatform() ? DEEP_LINK : window.location.origin;
+    const redirectTo = Capacitor.isNativePlatform() ? DEEP_LINK : WEB_REDIRECT;
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: { emailRedirectTo: redirectTo },
@@ -132,15 +142,31 @@ export function AuthProvider({ children }) {
   };
 
   const resetPassword = async (email) => {
-    const redirectTo = Capacitor.isNativePlatform() ? DEEP_LINK : window.location.origin;
+    const redirectTo = Capacitor.isNativePlatform() ? DEEP_LINK : WEB_REDIRECT;
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
       redirectTo,
     });
     if (error) throw error;
   };
 
-  const signOut = () => supabase.auth.signOut();
+  // Explicit sign-out: end the session, drop cached non-PHI preferences, and
+  // clear any auth error so nothing carries over to the next user.
+  const signOut = async (reason = '') => {
+    await supabase.auth.signOut().catch(() => {});
+    clearCachedPreferences(user?.id);
+    setProfile(null);
+    setUser(null);
+    setAuthError(reason);
+  };
   const clearAuthError = () => setAuthError('');
+
+  // Inactivity timeout: sign the clinician out rather than leaving a live PHI
+  // session unattended on a shared device.
+  useEffect(() => {
+    if (!user?.id) return undefined;
+    return watchIdle({ onIdle: () => { signOut(`You were signed out after ${IDLE_MINUTES} minutes of inactivity.`); } });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.id]);
 
   const value = {
     user, profile, loading, isAdmin, authError,
