@@ -133,6 +133,14 @@ Firebase Analytics is optional. It must remain disabled until explicit Firebase 
 | `research/high_risk_infusions_extracted.md` | Extracted PAHS source text for auditability |
 | `research/emergency_guideline_sources.md` | Verified emergency-guidance research notes |
 | `src/data/highRiskInfusions.js` | Structured high-risk infusion records and rate function |
+| `sql/security_rls_hardening.sql` | Blocks profile role/unit escalation; least-privilege grants; pinned search_path |
+| `sql/storage_path_hardening.sql` | Strict `patients/<uuid>/<file>` storage path parsing |
+| `sql/audit_hardening.sql` | Append-only audit; allowlisted metadata keys; field caps |
+| `sql/payments_hardening.sql` | Payment submissions cannot be self-approved |
+| `src/lib/session.js` | Auth redirect allowlist, idle sign-out, auth-error sanitising |
+| `src/lib/notifications.js` + `src/components/Notifications.jsx` | Accessible global notice stack (replaces alert()) |
+| `src/components/PatientContextHeader.jsx` | Explicit patient context on every patient subroute |
+| `docs/PRODUCTION_SECURITY.md`, `docs/ACCESSIBILITY_CHECKLIST.md`, `docs/VISUAL_REVIEW.md` | Production, a11y and visual-review checklists |
 | `sql/onboarding_preferences.sql` | Server-backed non-PHI onboarding preferences (care focus, quick shelf, locale, status/version) with self-only RLS |
 | `src/lib/onboarding.js` | Server-backed preferences: versioned, retryable, local cache is optimisation only |
 | `src/components/OnboardingGate.jsx` | First-run routing gate — never grants data access (session + RLS own that) |

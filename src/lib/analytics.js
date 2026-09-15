@@ -1,7 +1,7 @@
-import { getAnalytics, isSupported, logEvent } from 'firebase/analytics';
-import { initializeApp } from 'firebase/app';
 import { sanitizeAnalyticsPath, sanitizeAnalyticsParams } from './analyticsPrivacy';
 
+// Firebase Analytics is loaded lazily so it never lands in the main bundle
+// (it is only needed after the app has rendered and analytics is configured).
 let analyticsPromise;
 
 function firebaseConfig() {
@@ -21,17 +21,22 @@ export async function getClinicalAnalytics() {
   const config = firebaseConfig();
   const configured = Object.values(config).every(Boolean);
   if (!configured || typeof window === 'undefined') return null;
-  analyticsPromise = isSupported().then((supported) => {
-    if (!supported) return null;
-    return getAnalytics(initializeApp(config));
-  }).catch(() => null);
+  analyticsPromise = (async () => {
+    try {
+      const [{ initializeApp }, analytics] = await Promise.all([import('firebase/app'), import('firebase/analytics')]);
+      if (!(await analytics.isSupported())) return null;
+      return { instance: analytics.getAnalytics(initializeApp(config)), logEvent: analytics.logEvent };
+    } catch {
+      return null;
+    }
+  })();
   return analyticsPromise;
 }
 
 export async function trackEvent(name, params = {}) {
   const analytics = await getClinicalAnalytics();
   if (!analytics) return false;
-  logEvent(analytics, name, sanitizeAnalyticsParams(params));
+  analytics.logEvent(analytics.instance, name, sanitizeAnalyticsParams(params));
   return true;
 }
 

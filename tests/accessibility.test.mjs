@@ -41,7 +41,10 @@ test('reduced-motion and form error semantics are handled', () => {
   assert.match(css, /\.field-error/);
   assert.match(css, /\[aria-invalid="true"\]/);
   const form = read('src/pages/patients/PatientForm.jsx');
-  assert.match(form, /role="alert"/);
+  const summary = read('src/components/ErrorSummary.jsx');
+  assert.match(summary, /role="alert"/);
+  assert.match(summary, /error-summary/);
+  assert.match(form, /<ErrorSummary/);
   assert.match(form, /aria-invalid/);
   assert.match(form, /aria-describedby/);
   assert.match(form, /summaryRef\.current\?\.focus\(\)/);

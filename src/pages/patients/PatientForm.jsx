@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AlertTriangle, CalendarDays, ClipboardPlus, ShieldCheck } from 'lucide-react';
+import { CalendarDays, ClipboardPlus, ShieldCheck } from 'lucide-react';
+import ErrorSummary from '../../components/ErrorSummary';
 import { useAuth } from '../../context/AuthContext';
 import supabase from '../../lib/supabase';
 import { adToNepali, isValidNepaliDate, nepaliToAd } from '../../lib/nepaliDate';
@@ -47,7 +48,6 @@ export default function PatientForm() {
     navigate('/patients');
   }
 
-  const errorList = Object.entries(errors).filter(([, message]) => message);
   const fieldProps = (name, label) => ({
     'aria-invalid': errors[name] ? 'true' : undefined,
     'aria-describedby': errors[name] ? `${name}-error` : undefined,
@@ -61,15 +61,7 @@ export default function PatientForm() {
       <form className="card patient-form-card" onSubmit={handleSubmit} noValidate>
         <div className="card-head"><div><h3>Encounter details</h3><p className="text-muted">No bed assignment or occupancy information is required.</p></div><CalendarDays size={22} /></div>
         <div className="card-body">
-          {errorList.length > 0 && (
-            <div className="notice notice-danger" role="alert" tabIndex={-1} ref={summaryRef}>
-              <AlertTriangle size={18} />
-              <span>
-                <strong>{errorList.length === 1 ? 'One field needs attention' : `${errorList.length} fields need attention`}</strong>
-                <ul className="error-summary">{errorList.map(([name, message]) => <li key={name}><a href={`#field-${name}`}>{message}</a></li>)}</ul>
-              </span>
-            </div>
-          )}
+          <ErrorSummary errors={errors} summaryRef={summaryRef} />
           <div className="form-grid-3">
             <div className="form-group"><label className="form-label" htmlFor="field-source_type">Source of care *</label><select id="field-source_type" className="form-select" value={form.source_type} onChange={(e) => update('source_type', e.target.value)}><option>OPD</option><option>Ward</option><option>Clinic</option><option>Referral</option><option>Other</option></select></div>
             <div className="form-group"><label className="form-label" htmlFor="field-encounter_date">Encounter date</label><input id="field-encounter_date" className="form-input" type="date" value={form.encounter_date} onChange={(e) => update('encounter_date', e.target.value)} /></div>
