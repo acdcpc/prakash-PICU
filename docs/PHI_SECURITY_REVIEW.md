@@ -76,3 +76,36 @@ Controls implemented and verified against the hosted database:
 - Session timeout / inactivity policy, auth redirect allowlist, CSP, and
   error-monitoring service selection (P0 security items 6–7) remain to be
   reviewed and configured before production.
+
+## RLS & least-privilege hardening (`sql/security_rls_hardening.sql`)
+
+Applied after `sql/security_hardening.sql`. Three real vulnerabilities were
+found by auditing the hosted database and are now closed:
+
+| Finding | Severity | Fix |
+|---|---|---|
+| `profiles_update` used `USING (auth.uid() = id)` with no WITH CHECK, so any authenticated clinician could set `role='admin'` or change `unit_name` (**verified exploitable** via RLS impersonation) | Critical | `BEFORE UPDATE` trigger `trg_profiles_enforce_privileges` rejects non-admin changes to `role`/`unit_name`; server-side contexts (no JWT) are exempt so migrations/service_role still work |
+| Hosted Supabase default privileges granted `ALL` to `anon`/`authenticated` including **`TRUNCATE`, which RLS does not protect** (`anon` held TRUNCATE on `patients`) | Critical | `REVOKE TRUNCATE, REFERENCES, TRIGGER` on all tables + `ALTER DEFAULT PRIVILEGES` so future tables inherit the restriction; `REVOKE ALL` from `anon` on all clinical/staff tables |
+| `is_admin()` was `SECURITY DEFINER` with no fixed `search_path` (search_path hijacking risk) | High | Re-created with `SET search_path = public`; `set_updated_at` also pinned |
+| `profiles_select USING (true)` exposed every staff profile (incl. to `anon`) | Medium | Replaced with self / same-unit / admin scope |
+
+Retained deliberately: `anon` keeps `SELECT` on `subscription_plans` and
+`INSERT` on `payments` for the hosted payment page.
+
+### Automated boundary audit
+
+`npm run audit:rls` (requires `DATABASE_URL`) impersonates `anon`/`authenticated`
+with a JWT `sub`, mutating probes run in rolled-back transactions. Latest run
+against the hosted project: **8/8 checks passed** — anon denied on patients,
+monographs and profiles; cross-user preference read blocked; self role promotion
+and unit change denied; TRUNCATE not granted to client roles; public plan list
+still readable.
+
+### Unresolved / institution-dependent
+
+- `pediatric_clinician_workflow.sql` (owner-scoped patient RLS + `created_by`)
+  is **not yet applied** to the hosted project — patients currently use
+  unit-based RLS. Applying it changes the access model and needs clinical
+  governance sign-off.
+- Session timeout/redirect allowlist, CSP/headers, dependency audit + secret
+  scanning, and error-monitoring service remain (P0 security items 6–7).

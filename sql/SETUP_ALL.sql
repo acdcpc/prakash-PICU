@@ -645,7 +645,84 @@ CREATE POLICY patient_images_delete ON storage.objects FOR DELETE TO authenticat
 -- Seed membership for an approved doctor through a separately reviewed statement:
 -- INSERT INTO public.unit_memberships (user_id, unit_name) VALUES ('<approved-user-uuid>', 'PICU');
 
--- ───────────────────────── [4] PAYMENT SCREENSHOTS BUCKET (sql/payment_screenshots.sql) ─────────────────────────
+-- ───────────────────────── [4] RLS & LEAST-PRIVILEGE HARDENING (sql/security_rls_hardening.sql) ─────────────────────────
+
+-- P0 security: RLS + least-privilege hardening.
+-- Apply after sql/migration.sql and sql/security_hardening.sql.
+--
+-- Rollback:
+--   DROP TRIGGER IF EXISTS trg_profiles_enforce_privileges ON public.profiles;
+--   DROP FUNCTION IF EXISTS public.enforce_profile_privileges();
+--   DROP POLICY IF EXISTS profiles_select_self_or_unit ON public.profiles;
+--     CREATE POLICY profiles_select ON public.profiles FOR SELECT USING (true);
+--   DROP POLICY IF EXISTS profiles_update_self_or_admin ON public.profiles;
+--     CREATE POLICY profiles_update ON public.profiles FOR UPDATE USING (auth.uid() = id);
+--   -- re-grant privileges if the environment requires them.
+
+-- 1) Stop client-side privilege escalation on profiles.
+--    RLS alone cannot compare OLD/NEW, so a trigger blocks a non-admin from
+--    changing their own role or unit membership.
+CREATE OR REPLACE FUNCTION public.enforce_profile_privileges()
+RETURNS TRIGGER LANGUAGE plpgsql SECURITY DEFINER SET search_path = public AS $$
+BEGIN
+  -- Allow server-side contexts (migrations, service_role, SQL editor) which
+  -- have no JWT. Only authenticated clients are restricted.
+  IF auth.uid() IS NULL THEN RETURN NEW; END IF;
+  IF public.is_admin() THEN RETURN NEW; END IF;
+  IF NEW.role IS DISTINCT FROM OLD.role THEN
+    RAISE EXCEPTION 'Changing your role is not permitted.' USING ERRCODE = '42501';
+  END IF;
+  IF NEW.unit_name IS DISTINCT FROM OLD.unit_name THEN
+    RAISE EXCEPTION 'Changing your unit membership is not permitted.' USING ERRCODE = '42501';
+  END IF;
+  RETURN NEW;
+END;
+$$;
+DROP TRIGGER IF EXISTS trg_profiles_enforce_privileges ON public.profiles;
+CREATE TRIGGER trg_profiles_enforce_privileges BEFORE UPDATE ON public.profiles
+  FOR EACH ROW EXECUTE FUNCTION public.enforce_profile_privileges();
+
+-- 2) Every SECURITY DEFINER function must pin search_path.
+CREATE OR REPLACE FUNCTION public.is_admin()
+RETURNS BOOLEAN LANGUAGE sql STABLE SECURITY DEFINER SET search_path = public
+AS $$ SELECT role = 'admin'::user_role FROM public.profiles WHERE id = auth.uid(); $$;
+
+CREATE OR REPLACE FUNCTION public.set_updated_at()
+RETURNS TRIGGER LANGUAGE plpgsql SET search_path = public
+AS $$ BEGIN NEW.updated_at = now(); RETURN NEW; END; $$;
+
+-- 3) TRUNCATE / REFERENCES / TRIGGER are NOT protected by RLS. Hosted Supabase
+--    default privileges grant ALL to anon/authenticated, so revoke them and
+--    stop granting them on future tables.
+REVOKE TRUNCATE, REFERENCES, TRIGGER ON ALL TABLES IN SCHEMA public FROM anon, authenticated;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public REVOKE TRUNCATE, REFERENCES, TRIGGER ON TABLES FROM anon, authenticated;
+
+-- 4) anon must not hold table access to clinical or staff data. The only
+--    anonymous surfaces are the public plan list and the payment submission.
+REVOKE ALL ON public.patients, public.fluid_balance, public.patient_drugs,
+  public.investigations, public.patient_notes, public.patient_images,
+  public.calc_results, public.clinical_audit_events, public.teddy_bear_monographs,
+  public.harriet_lane_monographs, public.user_preferences, public.profiles,
+  public.activation_codes, public.subscriptions, public.unit_memberships
+  FROM anon;
+REVOKE DELETE ON public.payments FROM anon;
+GRANT SELECT ON public.subscription_plans TO anon;
+GRANT INSERT ON public.payments TO anon;
+
+-- 5) profiles SELECT least privilege: self, same unit, or admin.
+DROP POLICY IF EXISTS profiles_select ON public.profiles;
+DROP POLICY IF EXISTS profiles_select_self_or_unit ON public.profiles;
+CREATE POLICY profiles_select_self_or_unit ON public.profiles FOR SELECT
+  USING (auth.uid() = id OR public.is_admin() OR public.is_unit_member(unit_name));
+
+-- 6) profiles UPDATE: self (non-privileged columns only, enforced above) or admin.
+DROP POLICY IF EXISTS profiles_update ON public.profiles;
+DROP POLICY IF EXISTS profiles_update_self_or_admin ON public.profiles;
+CREATE POLICY profiles_update_self_or_admin ON public.profiles FOR UPDATE
+  USING (auth.uid() = id OR public.is_admin())
+  WITH CHECK (auth.uid() = id OR public.is_admin());
+
+-- ───────────────────────── [5] PAYMENT SCREENSHOTS BUCKET (sql/payment_screenshots.sql) ─────────────────────────
 
 -- prakash-PICU — storage bucket for the hosted payment page screenshots.
 --
@@ -672,7 +749,7 @@ CREATE POLICY payment_screenshots_admin_read ON storage.objects
   FOR SELECT TO authenticated
   USING (bucket_id = 'payment-screenshots' AND public.is_admin());
 
--- ───────────────────────── [5] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
+-- ───────────────────────── [6] TEDDY BEAR MONOGRAPH TABLE (sql/teddy_bear_monographs.sql) ─────────────────────────
 
 -- Private institutional Teddy Bear monograph review table.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -716,7 +793,7 @@ CREATE TRIGGER trg_teddy_bear_updated BEFORE UPDATE ON public.teddy_bear_monogra
 -- Review status is deliberately separate from the clinical starter drug table.
 -- Promotion into approved calculator data must be a governed, human-reviewed process.
 
--- ───────────────────────── [6] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
+-- ───────────────────────── [7] TEDDY BEAR RECORD KIND (sql/teddy_bear_record_kind.sql) ─────────────────────────
 
 -- Teddy Bear monograph review-queue classification.
 -- Adds a record_kind taxonomy so clinicians can filter to actual drug
@@ -765,7 +842,7 @@ WHERE record_kind_locked = false;
 -- SET record_kind = 'monograph', record_kind_locked = true
 -- WHERE source_id = '<reviewed-source-id>';
 
--- ───────────────────────── [7] NEONATE MONOGRAPH TABLE (HARRIET LANE) (sql/harriet_lane_monographs.sql) ─────────────────────────
+-- ───────────────────────── [8] NEONATE MONOGRAPH TABLE (HARRIET LANE) (sql/harriet_lane_monographs.sql) ─────────────────────────
 
 -- Private institutional Harriet Lane (Neonate) monograph review table.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -811,7 +888,7 @@ CREATE TRIGGER trg_harriet_lane_updated BEFORE UPDATE ON public.harriet_lane_mon
 -- Review status is deliberately separate from the clinical starter drug table.
 -- Promotion into approved calculator data must be a governed, human-reviewed process.
 
--- ───────────────────────── [8] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
+-- ───────────────────────── [9] PEDIATRIC CLINICIAN WORKFLOW (sql/pediatric_clinician_workflow.sql) ─────────────────────────
 
 -- Pediatric clinician workflow migration
 -- Run after sql/security_hardening.sql and before using the redesigned patient workspace.
@@ -883,7 +960,7 @@ DROP POLICY IF EXISTS calc_insert_unit ON public.calc_results;
 CREATE POLICY calc_select_owner ON public.calc_results FOR SELECT USING (public.can_access_patient(patient_id));
 CREATE POLICY calc_insert_owner ON public.calc_results FOR INSERT WITH CHECK (public.can_access_patient(patient_id) AND created_by = auth.uid());
 
--- ───────────────────────── [9] ONBOARDING PREFERENCES (NON-PHI) (sql/onboarding_preferences.sql) ─────────────────────────
+-- ───────────────────────── [10] ONBOARDING PREFERENCES (NON-PHI) (sql/onboarding_preferences.sql) ─────────────────────────
 
 -- Server-backed, non-PHI onboarding preferences.
 -- Apply after sql/migration.sql and sql/security_hardening.sql.
@@ -944,7 +1021,7 @@ REVOKE DELETE, TRUNCATE, REFERENCES, TRIGGER ON public.user_preferences FROM aut
 GRANT SELECT, INSERT, UPDATE ON public.user_preferences TO authenticated;
 GRANT ALL ON public.user_preferences TO service_role;
 
--- ───────────────────────── [10] ROLE GRANTS (sql/grants.sql) ─────────────────────────
+-- ───────────────────────── [11] ROLE GRANTS (sql/grants.sql) ─────────────────────────
 
 -- prakash-PICU — database role grants.
 --
