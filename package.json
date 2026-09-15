@@ -13,6 +13,9 @@
     "compile:drugs": "node scripts/compile-teddy-bear-sql.mjs",
     "audit:drugs": "node scripts/audit-teddy-doses.mjs",
     "import:teddy-seed": "node scripts/import-teddy-bear-seed.mjs",
+    "ingest:neonate": "node scripts/ingest-harriet-lane.mjs",
+    "compile:neonate": "node scripts/compile-harriet-lane-sql.mjs",
+    "build:neonate-index": "node scripts/build-harriet-lane-index.mjs",
     "setup:all": "node scripts/build-setup-all.mjs"
   },
   "dependencies": {

@@ -34,6 +34,7 @@ const PediatricUpdates = lazy(() => import('./pages/updates/PediatricUpdates'));
 const EmergencyMode = lazy(() => import('./pages/emergency/EmergencyMode'));
 const HighRiskInfusions = lazy(() => import('./pages/highRiskInfusions/HighRiskInfusions'));
 const TeddyBearReview = lazy(() => import('./pages/drugReview/TeddyBearReview'));
+const HarrietLaneReview = lazy(() => import('./pages/drugReview/HarrietLaneReview'));
 
 function AuthenticatedLayout() {
   const { user } = useAuth();
@@ -90,6 +91,7 @@ export default function App() {
           <Route path="/emergency" element={<EmergencyMode />} />
           <Route path="/high-risk-infusions" element={<HighRiskInfusions />} />
           <Route path="/teddy-bear-review" element={<TeddyBearReview />} />
+          <Route path="/neonate-review" element={<HarrietLaneReview />} />
           <Route path="/education-hub" element={<PrivateEducation />} />
           <Route path="/export" element={<ExportCenter />} />
           <Route path="/admin" element={<AdminPanel />} />

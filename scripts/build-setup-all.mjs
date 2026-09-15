@@ -16,6 +16,7 @@ const sections = [
   { file: 'sql/payment_screenshots.sql', title: 'PAYMENT SCREENSHOTS BUCKET' },
   { file: 'sql/teddy_bear_monographs.sql', title: 'TEDDY BEAR MONOGRAPH TABLE' },
   { file: 'sql/teddy_bear_record_kind.sql', title: 'TEDDY BEAR RECORD KIND' },
+  { file: 'sql/harriet_lane_monographs.sql', title: 'NEONATE MONOGRAPH TABLE (HARRIET LANE)' },
   { file: 'sql/pediatric_clinician_workflow.sql', title: 'PEDIATRIC CLINICIAN WORKFLOW' },
   { file: 'sql/grants.sql', title: 'ROLE GRANTS' },
 ];
@@ -27,7 +28,7 @@ const header = `-- ============================================================
 --  objects are intentionally not repeat-safe. Use individual migrations for upgrades.
 --  Apply order:
 --    core schema -> payment -> security hardening -> storage bucket
---    -> teddy bear monograph table -> record kind -> clinician workflow -> grants
+--    -> teddy bear monograph table -> record kind -> neonate monograph table -> clinician workflow -> grants
 --  FULL-TEXT SEED: sql/teddy_bear_monographs_seed.sql (~3.4 MB) is applied
 --    SEPARATELY after this file — it is too large for the SQL Editor.
 --    Apply it after this file with: DATABASE_URL=... npm run import:teddy-seed

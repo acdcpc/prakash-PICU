@@ -17,6 +17,7 @@ const NAV_ITEMS = [
     { id: 'emergency', label: 'Emergency Reference', icon: Siren, path: '/emergency' },
     { id: 'high-risk-infusions', label: 'High-Risk Infusions', icon: Syringe, path: '/high-risk-infusions' },
     { id: 'teddy-bear-review', label: 'Teddy Bear Review', icon: ClipboardCheck, path: '/teddy-bear-review' },
+    { id: 'neonate-review', label: 'Neonate Formulary', icon: Baby, path: '/neonate-review' },
     { id: 'education', label: 'Education Hub', icon: BookOpen, path: '/education-hub' },
   ]},
   { group: 'Account', items: [
@@ -31,7 +32,8 @@ const TITLE_MAP = {
   'child-growth': 'Child Growth', 'child-health': 'Child Growth',
   'pediatric-updates': "What's New in Pediatrics", subscription: 'Subscription & Payment',
   emergency: 'Emergency Reference', 'high-risk-infusions': 'High-Risk Infusions',
-  'teddy-bear-review': 'Teddy Bear Review', education: 'Education Hub', export: 'Export Centre',
+  'teddy-bear-review': 'Teddy Bear Review',
+  'neonate-review': 'Neonate Formulary', education: 'Education Hub', export: 'Export Centre',
   admin: 'Admin Panel', fluidBalance: 'Fluid Balance', drugs: 'Patient Drugs',
   investigations: 'Investigations', notes: 'Clinical Notes', images: 'Patient Images',
 };
