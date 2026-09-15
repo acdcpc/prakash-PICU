@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { ArrowLeft } from 'lucide-react';
+import { notifyError } from '../../lib/notifications';
 
 const DEFAULT_DRUGS = [
   { name:'Morphine', dose:'0.1 mg/kg', max:'10 mg', freq:'2-4h PRN', route:'IV/SC/PO', prep:'Dilute to 1 mg/mL in NS' },
@@ -43,7 +44,7 @@ export default function DrugLibrary() {
 
   async function handleAdd(e) {
     e.preventDefault();
-    if (!selDrug) { alert('Select a drug.'); return; }
+    if (!selDrug) { notifyError('Select a drug.'); return; }
     const drug = DEFAULT_DRUGS.find(d => d.name === selDrug);
     await supabase.from('patient_drugs').insert({
       patient_id: id, drug_name: selDrug,

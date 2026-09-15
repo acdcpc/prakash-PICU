@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { AlertTriangle, ExternalLink, HeartPulse, Search, ShieldCheck, Stethoscope, Star, Clock3 } from 'lucide-react';
 import { ALGORITHMS, CLINICAL_REFERENCES, DRUGS, POCUS_TOPICS, SCORE_DEFINITIONS, calculateDrugDose, getReference } from '../../lib/clinicalTools';
+import { notifyInfo } from '../../lib/notifications';
 
 const TABS = [
   ['drugs', 'Drug dosing'],
@@ -77,7 +78,7 @@ function PocusPanel() {
   const [topic, setTopic] = useState(POCUS_TOPICS[0]);
   const [form, setForm] = useState({ indication: '', views: '', findings: '', limitations: '', supervisor: '', followUp: '' });
   const update = (key, value) => setForm((current) => ({ ...current, [key]: value }));
-  const saveDraft = () => { alert('POCUS draft retained in memory for this session only. Secure patient-bound storage and audit integration are required before clinical deployment.'); };
+  const saveDraft = () => { notifyInfo('POCUS draft retained in memory for this session only. Secure patient-bound storage and audit integration are required before clinical deployment.'); };
   return <div><div className="clinical-grid mb-3">{POCUS_TOPICS.map((item) => <button className={`clinical-item ${topic === item ? 'selected' : ''}`} key={item} onClick={() => setTopic(item)}><HeartPulse size={22} /><span><strong>POCUS {item}</strong><small>Choose study type</small></span></button>)}</div><div className="card"><div className="card-head"><div><h3>POCUS {topic} documentation</h3><p className="text-muted">Record indication, acquisition, interpretation, limitations, and supervision. This session draft is not persisted to the browser and must not contain patient identifiers.</p></div><span className="badge badge-amber">Draft workflow</span></div><div className="card-body form-grid-3"><div className="form-group"><label className="form-label">Indication</label><input className="form-input" value={form.indication} onChange={(e) => update('indication', e.target.value)} placeholder="Clinical question" /></div><div className="form-group"><label className="form-label">Views / protocol</label><input className="form-input" value={form.views} onChange={(e) => update('views', e.target.value)} placeholder="Views obtained" /></div><div className="form-group"><label className="form-label">Supervisor / credential</label><input className="form-input" value={form.supervisor} onChange={(e) => update('supervisor', e.target.value)} placeholder="If supervised" /></div><div className="form-group"><label className="form-label">Findings</label><textarea className="form-textarea" value={form.findings} onChange={(e) => update('findings', e.target.value)} placeholder="Structured findings" /></div><div className="form-group"><label className="form-label">Limitations / quality</label><textarea className="form-textarea" value={form.limitations} onChange={(e) => update('limitations', e.target.value)} placeholder="Technical limitations" /></div><div className="form-group"><label className="form-label">Follow-up / escalation</label><textarea className="form-textarea" value={form.followUp} onChange={(e) => update('followUp', e.target.value)} placeholder="Next step" /></div><div><button className="btn btn-primary" onClick={saveDraft}>Save draft</button></div></div></div></div>;
 }
 

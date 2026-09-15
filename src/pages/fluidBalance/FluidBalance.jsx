@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { ArrowLeft, Plus, Trash2 } from 'lucide-react';
+import { notifyError } from '../../lib/notifications';
 
 const VENT_OPTIONS = [
   { value: '', label: 'Spontaneous / Room air' },
@@ -104,7 +105,7 @@ export default function FluidBalance() {
     };
 
     const { error } = await supabase.from('fluid_balance').upsert(fbData, { onConflict: 'patient_id,date' });
-    if (error) { alert('Error: ' + error.message); return; }
+    if (error) { notifyError('Error: ' + error.message); return; }
 
     // Update patient's latest FO
     await supabase.from('patients').update({ latest_fo: +fo.toFixed(2) }).eq('id', id);

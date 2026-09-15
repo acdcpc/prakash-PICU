@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { ArrowLeft, Plus, Trash2 } from 'lucide-react';
+import { notifyError } from '../../lib/notifications';
 
 export default function Investigations() {
   const { id } = useParams();
@@ -30,7 +31,7 @@ export default function Investigations() {
     e.preventDefault();
     const labValues = {};
     rows.forEach(r => { if (r.name && r.value) labValues[r.name] = { value: parseFloat(r.value), unit: r.unit || '' }; });
-    if (Object.keys(labValues).length === 0) { alert('Add at least one test.'); return; }
+    if (Object.keys(labValues).length === 0) { notifyError('Add at least one test.'); return; }
     await supabase.from('investigations').insert({ patient_id: id, date, lab_values: labValues });
     setRows([{ name: '', value: '', unit: '' }]);
     loadLabs();

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import GrowthChart from '../../components/GrowthChart';
 import { adToNepali, nepaliToAd, isValidNepaliDate } from '../../lib/nepaliDate';
+import { notifyError } from '../../lib/notifications';
 
 // WHO/CDC Growth Reference Data (LMS parameters: L, M, S)
 // Weight-for-age (kg) — Boys 0-20 years (selected ages for interpolation)
@@ -277,7 +278,7 @@ export default function GrowthChartCalc() {
   function handleCalc(e) {
     e.preventDefault();
     const resolvedDob = dateMode === 'bs' ? nepaliToAd(dobNepali) : dob;
-    if (!resolvedDob) { alert(dateMode === 'bs' && !isValidNepaliDate(dobNepali) ? 'Enter a valid Nepali date in YYYY-MM-DD format.' : 'Please enter date of birth.'); return; }
+    if (!resolvedDob) { notifyError(dateMode === 'bs' && !isValidNepaliDate(dobNepali) ? 'Enter a valid Nepali date in YYYY-MM-DD format.' : 'Please enter date of birth.'); return; }
     const ageMo = ageInMonths(resolvedDob);
     const results = [];
     const isBoy = sex === 'boy';

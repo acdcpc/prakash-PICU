@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Check, Copy, Eye, MessageCircle, RefreshCw, X } from 'lucide-react';
 import supabase from '../../lib/supabase';
+import { notifyError, notifySuccess } from '../../lib/notifications';
 
 const STORAGE_BUCKET = 'payment-screenshots';
 const TABS = ['pending', 'approved', 'rejected'];
@@ -181,7 +182,7 @@ export default function PaymentAdmin() {
             className="btn btn-success btn-sm"
             onClick={() => {
               const num = waNumber(approveResult.mobile);
-              if (!num) { alert('No mobile number on file. Copy the code manually.'); return; }
+              if (!num) { notifyError('No mobile number on file. Copy the code manually.'); return; }
               const msg = `Hi ${approveResult.name || 'there'}! Thank you for your payment. Your activation code is: ${approveResult.code}. Open the app, go to Subscription, and redeem this code to activate. — OurPICU Team`;
               window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`, '_blank');
             }}
@@ -191,7 +192,7 @@ export default function PaymentAdmin() {
           <button
             className="btn btn-ghost btn-sm"
             onClick={() => {
-              navigator.clipboard?.writeText(approveResult.code).then(() => alert('Code copied!'), () => {});
+              navigator.clipboard?.writeText(approveResult.code).then(() => notifySuccess('Code copied!'), () => {});
             }}
           >
             <Copy size={14} /> Copy

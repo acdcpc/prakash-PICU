@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import supabase from '../../lib/supabase';
 import { deletePatientRecord } from '../../lib/patientRecords';
+import { notifyError } from '../../lib/notifications';
 
 export default function PatientList() {
   const navigate = useNavigate();
@@ -26,7 +27,7 @@ export default function PatientList() {
     setDeleting(id);
     const { error } = await deletePatientRecord(id);
     setDeleting(null);
-    if (error) { alert(`Unable to delete record: ${error.message}`); return; }
+    if (error) { notifyError(`Unable to delete record: ${error.message}`); return; }
     setPatients((current) => current.filter((patient) => patient.id !== id));
   }
 

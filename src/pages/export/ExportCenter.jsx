@@ -4,6 +4,7 @@ import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { Share } from '@capacitor/share';
 import { Download } from 'lucide-react';
+import { notifyError } from '../../lib/notifications';
 
 function csvCell(value) {
   const text = value === null || value === undefined ? '' : String(value);
@@ -68,17 +69,17 @@ export default function ExportCenter() {
     try {
       const { data: pts, error } = await supabase.from('patients').select('id,source_type,sex,age,weight,height,diagnosis,admission_date,date_of_birth,date_of_birth_bs,created_at').order('created_at', { ascending: false });
       if (error) throw error;
-      if (!pts?.length) { alert('No pediatric records found.'); return; }
+      if (!pts?.length) { notifyError('No pediatric records found.'); return; }
       await downloadCsv(pts.map((patient) => ({ Section: 'Patients', ...patient })), `PrakashPediatrics_All_Patients_${today}.csv`);
     } catch (error) {
-      alert(`Export failed: ${error.message}`);
+      notifyError(`Export failed: ${error.message}`);
     } finally {
       setExporting(false);
     }
   }
 
   async function exportSingle() {
-    if (!selPt) { alert('Select a patient record.'); return; }
+    if (!selPt) { notifyError('Select a patient record.'); return; }
     setExporting(true);
     try {
       const pid = selPt;
@@ -99,14 +100,14 @@ export default function ExportCenter() {
       const cleanLabel = patientLabel(pt).replace(/[^a-zA-Z0-9-_ ]/g, '_');
       await downloadCsv(rows, `PrakashPediatrics_${cleanLabel}_${today}.csv`);
     } catch (error) {
-      alert(`Export failed: ${error.message}`);
+      notifyError(`Export failed: ${error.message}`);
     } finally {
       setExporting(false);
     }
   }
 
   async function exportRange() {
-    if (!from || !to || from > to) { alert('Select a valid date range.'); return; }
+    if (!from || !to || from > to) { notifyError('Select a valid date range.'); return; }
     setExporting(true);
     try {
       const rows = [];
@@ -117,7 +118,7 @@ export default function ExportCenter() {
       }
       await downloadCsv(rows.length ? rows : [{ Section: 'Fluid balance', Note: 'No records found for this date range.' }], `PrakashPediatrics_Range_${from}_to_${to}.csv`);
     } catch (error) {
-      alert(`Export failed: ${error.message}`);
+      notifyError(`Export failed: ${error.message}`);
     } finally {
       setExporting(false);
     }

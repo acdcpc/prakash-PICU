@@ -3,6 +3,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import supabase from '../../lib/supabase';
 import { deletePatientRecord } from '../../lib/patientRecords';
 import { ArrowLeft, Droplets, Pill, FlaskConical, StickyNote, Image, Calculator, LogOut } from 'lucide-react';
+import { notifyError } from '../../lib/notifications';
 
 const TABS = [
   { id: 'overview', label: 'Overview' },
@@ -65,7 +66,7 @@ export default function PatientDetail() {
   async function handleDelete() {
     if (!confirm('Delete this private patient record and its associated clinical files? This cannot be undone.')) return;
     const { error } = await deletePatientRecord(id);
-    if (error) { alert(`Unable to delete record: ${error.message}`); return; }
+    if (error) { notifyError(`Unable to delete record: ${error.message}`); return; }
     navigate('/patients');
   }
 

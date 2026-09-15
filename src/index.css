@@ -958,3 +958,41 @@ tr:hover { background: #f8fafc; }
 }
 .child-growth-page, .emergency-page, .form-page, .high-risk-page, .patients-page, .updates-page { display: block; }
 .drug-picker-card, .drug-result-card, .teddy-catalog-card, .infusion-detail { min-width: 0; }
+
+/* ── Accessibility: skip link, focus visibility, notices, landmarks ── */
+.skip-link {
+  position: absolute; left: -9999px; top: 0; z-index: 200;
+  padding: 10px 16px; border-radius: 0 0 var(--radius-sm) 0;
+  background: var(--coral); color: #fff; font-weight: 700; text-decoration: none;
+}
+.skip-link:focus { left: 0; outline: 3px solid var(--navy); outline-offset: 2px; }
+
+:where(a, button, input, select, textarea, summary, [tabindex], [role="button"]):focus-visible {
+  outline: 3px solid var(--coral);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+.topbar-title { font-size: 1.15rem; font-family: 'DM Sans', sans-serif; font-weight: 700; color: var(--text); margin: 0; }
+main:focus { outline: none; }
+
+.notice-stack {
+  position: fixed; right: 16px; bottom: 16px; z-index: 150;
+  display: grid; gap: 8px; max-width: min(420px, calc(100vw - 32px));
+}
+.notice-stack .notice { margin: 0; box-shadow: var(--shadow-md); background: var(--bg-card); }
+.notice-dismiss {
+  margin-left: auto; flex: 0 0 auto; border: 0; background: none; cursor: pointer;
+  color: inherit; opacity: .7; padding: 2px; border-radius: 6px; line-height: 0;
+}
+.notice-dismiss:hover { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+  html { scroll-behavior: auto; }
+}
+
+/* Form validation */
+.field-error { display: block; margin-top: 5px; color: var(--danger); font-size: .78rem; font-weight: 600; }
+.error-summary { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 3px; }
+.error-summary a { color: inherit; font-weight: 600; }
+[aria-invalid="true"] { border-color: var(--danger) !important; box-shadow: 0 0 0 3px rgba(192,69,59,.12); }

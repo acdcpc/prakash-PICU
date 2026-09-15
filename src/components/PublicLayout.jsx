@@ -1,4 +1,5 @@
 import { Outlet, useNavigate, useLocation } from 'react-router-dom';
+import SkipLink from './SkipLink';
 import { useAuth } from '../context/AuthContext';
 import { Stethoscope, LogIn } from 'lucide-react';
 
@@ -11,6 +12,7 @@ export default function PublicLayout() {
 
   return (
     <div className="public-layout">
+      <SkipLink />
       <header className="pub-header">
         <div className="pub-logo">
           <Stethoscope size={24} />
@@ -29,7 +31,7 @@ export default function PublicLayout() {
           )}
         </nav>
       </header>
-      <main>
+      <main id="main-content" tabIndex={-1}>
         <Outlet />
       </main>
     </div>
