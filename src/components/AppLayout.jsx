@@ -17,7 +17,7 @@ export default function AppLayout() {
   return (
     <div className="app-layout">
       <SkipLink />
-      <div className={`sidebar-overlay ${sidebarOpen ? 'open' : ''}`} onClick={() => setSidebarOpen(false)} />
+      <div className={`sidebar-overlay ${sidebarOpen ? 'open' : ''}`} role="presentation" aria-hidden="true" onClick={() => setSidebarOpen(false)} />
       <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} onTitleChange={updateTitle} />
       <div className="main-content">
         <header className="topbar">

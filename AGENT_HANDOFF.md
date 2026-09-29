@@ -141,6 +141,10 @@ Firebase Analytics is optional. It must remain disabled until explicit Firebase 
 | `src/lib/notifications.js` + `src/components/Notifications.jsx` | Accessible global notice stack (replaces alert()) |
 | `src/components/PatientContextHeader.jsx` | Explicit patient context on every patient subroute |
 | `docs/PRODUCTION_SECURITY.md`, `docs/ACCESSIBILITY_CHECKLIST.md`, `docs/VISUAL_REVIEW.md` | Production, a11y and visual-review checklists |
+| `.github/workflows/ci.yml` | CI: lint, contrast, static a11y, tests, secret scan, build, bundle report |
+| `src/hooks/useDialogA11y.js` | Accessible dialog behaviour (focus trap, Escape, focus return) |
+| `src/lib/errorMonitoring.js` | PHI-excluding error capture interface |
+| `scripts/check-contrast.mjs`, `scripts/check-a11y.mjs` | Automated WCAG contrast and static accessibility checks |
 | `sql/onboarding_preferences.sql` | Server-backed non-PHI onboarding preferences (care focus, quick shelf, locale, status/version) with self-only RLS |
 | `src/lib/onboarding.js` | Server-backed preferences: versioned, retryable, local cache is optimisation only |
 | `src/components/OnboardingGate.jsx` | First-run routing gate — never grants data access (session + RLS own that) |

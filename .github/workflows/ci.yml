@@ -20,6 +20,10 @@ jobs:
         run: npm run lint
       - name: Tests
         run: npm test
+      - name: Contrast (WCAG AA tokens)
+        run: npm run check:contrast
+      - name: Static accessibility checks
+        run: npm run check:a11y
       - name: Committed-secret scan
         run: npm run scan:secrets
       - name: Build

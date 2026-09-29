@@ -41,7 +41,17 @@
   `Permissions-Policy`, HSTS, `Cross-Origin-Opener-Policy`.
 - `npm run scan:secrets` — committed-secret scan (JWT-aware: public `anon` keys
   are informational, `service_role`/private keys fail).
-- `npm run audit:deps` — `npm audit --audit-level=high`.
+- `npm run check:contrast` — WCAG AA check over the design tokens (14/14 pass).
+- `npm run check:a11y` — static accessibility checks over every component.
+- `npm run audit:deps` — `npm audit --audit-level=high`. Current findings are
+  **build-time only** (Capacitor CLI toolchain: `@xmldom/xmldom`, `uuid`,
+  `xcode`) and are not present in the shipped bundle; CI runs this as advisory
+  until a severity threshold is agreed.
+- `src/lib/errorMonitoring.js` — the only sanctioned error-capture path. Reports
+  are limited to error name/message, an allowlisted context
+  (`route`, `action`, `component`, `code`) and a timestamp; URLs keep no query
+  string and identifiers become `:id`. Nothing is transmitted unless
+  `VITE_ERROR_MONITORING_DSN` is configured.
 
 ## Institution-dependent (not yet approved)
 
@@ -52,7 +62,8 @@
 | Session timeout value | Confirm 30 minutes is clinically appropriate for shared devices |
 | Access model | `pediatric_clinician_workflow.sql` **has been applied** (owner-scoped patient RLS via `created_by` / `can_access_patient()`), verified by the boundary audit. Governance should still confirm this remains the intended model |
 | Dependency + secret scanning | Wired into `.github/workflows/ci.yml`; the dependency audit runs as advisory until a severity threshold is agreed |
-| Error monitoring | Choose a service with PHI-excluding configuration and a documented policy |
+| Error monitoring | Interface implemented (`errorMonitoring.js`); choose the receiving service and set `VITE_ERROR_MONITORING_DSN` |
+| Payments | **No webhooks exist** — the model is manual: anonymous submission → admin review → one-time activation code → in-app redemption. Entitlement is granted only by the `redeem_activation_code` RPC, never by a client field. If a payment provider is ever integrated, verify its webhook server-side before changing entitlements |
 | Payments | Verify webhooks server-side before changing entitlements; never trust client plan/price/role |
 | Session/device visibility | Confirm whether device/session listing is required |
 | HTTPS-only | Enforce at the host/CDN and verify the redirect |

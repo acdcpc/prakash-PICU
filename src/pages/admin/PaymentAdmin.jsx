@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Check, Copy, Eye, MessageCircle, RefreshCw, X } from 'lucide-react';
 import supabase from '../../lib/supabase';
 import { notifyError, notifySuccess } from '../../lib/notifications';
+import useDialogA11y from '../../hooks/useDialogA11y';
 
 const STORAGE_BUCKET = 'payment-screenshots';
 const TABS = ['pending', 'approved', 'rejected'];
@@ -167,10 +168,11 @@ export default function PaymentAdmin() {
     setBusy(false);
   }
 
+  const approveModalRef = useDialogA11y(Boolean(approveResult), () => setApproveResult(null));
   const approveModal = approveResult && (
-    <div className="modal-overlay open" onClick={() => setApproveResult(null)}>
-      <div className="modal" style={{ padding: 20 }} onClick={(e) => e.stopPropagation()}>
-        <h3>✅ Payment Approved</h3>
+    <div className="modal-overlay open" role="presentation" onClick={() => setApproveResult(null)}>
+      <div className="modal" role="dialog" aria-modal="true" aria-labelledby="approve-modal-title" ref={approveModalRef} tabIndex={-1} style={{ padding: 20 }}>
+        <h3 id="approve-modal-title">✅ Payment Approved</h3>
         <p>Share this activation code with the customer:</p>
         <div className="code-box">{approveResult.code}</div>
         <p className="text-muted text-sm">
@@ -205,10 +207,11 @@ export default function PaymentAdmin() {
     </div>
   );
 
+  const viewModalRef = useDialogA11y(Boolean(currentView), () => setViewId(null));
   const viewModal = currentView && (
-    <div className="modal-overlay open" onClick={() => setViewId(null)}>
-      <div className="modal" style={{ padding: 20 }} onClick={(e) => e.stopPropagation()}>
-        <h3>Payment Details</h3>
+    <div className="modal-overlay open" role="presentation" onClick={() => setViewId(null)}>
+      <div className="modal" role="dialog" aria-modal="true" aria-labelledby="view-modal-title" ref={viewModalRef} tabIndex={-1} style={{ padding: 20 }}>
+        <h3 id="view-modal-title">Payment Details</h3>
         <p><strong>Name:</strong> {currentView.name || '-'}</p>
         <p><strong>Email:</strong> {currentView.email || '-'}</p>
         <p><strong>Mobile:</strong> {currentView.mobile || '-'}</p>
@@ -244,10 +247,11 @@ export default function PaymentAdmin() {
     </div>
   );
 
+  const rejectModalRef = useDialogA11y(Boolean(rejectId), () => setRejectId(null));
   const rejectModal = rejectId && (
-    <div className="modal-overlay open" onClick={() => setRejectId(null)}>
-      <div className="modal" style={{ padding: 20 }} onClick={(e) => e.stopPropagation()}>
-        <h3>Reject Payment</h3>
+    <div className="modal-overlay open" role="presentation" onClick={() => setRejectId(null)}>
+      <div className="modal" role="dialog" aria-modal="true" aria-labelledby="reject-modal-title" ref={rejectModalRef} tabIndex={-1} style={{ padding: 20 }}>
+        <h3 id="reject-modal-title">Reject Payment</h3>
         <p>Why are you rejecting this payment?</p>
         <textarea
           className="form-input"

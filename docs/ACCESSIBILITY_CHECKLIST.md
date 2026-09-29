@@ -34,6 +34,20 @@ High-Risk Infusions, formulary review, export, admin):
 | Touch targets ≥ 44 × 44 px | Inspect buttons/links at 320–430 px |
 | Text contrast | Spot-check coral/teal/gold text on ivory and on navy |
 
+## Automated checks (in CI)
+
+- `npm run check:contrast` — computes WCAG ratios for every documented
+  text/background token pair and fails if any is below its target (currently
+  **14/14**). This caught and fixed four real failures: secondary metadata text,
+  teal links, white-on-teal, and the success colour. Filled coral buttons now use
+  a deep ink label (`--ink` on `--coral` = 4.81:1).
+- `npm run check:a11y` — static checks over all components: images need `alt`,
+  no positive `tabindex`, icon-only buttons need an accessible name, and
+  clickable `div`/`span` must expose a role and keyboard handling (currently
+  clean).
+- Dialogs use `src/hooks/useDialogA11y.js`: focus moves in on open, Tab is
+  trapped, Escape closes, focus returns to the trigger.
+
 Institution-dependent: run an automated axe/Lighthouse pass in CI against the
 deployed build, and confirm the target conformance level with the clinical
 governance group.

@@ -9,10 +9,11 @@
      Blend of the Kapoori Ka warm/rounded language with the Rainbow Clinic
      trust palette: deep navy trust surfaces, teal healthcare action,
      coral warm primary accent, gold highlights, warm ivory canvas. */
+  --ink: #16202b;
   --navy: #16324a;
   --navy-deep: #0f2537;
   --navy-light: #e8f1f7;
-  --teal: #0f8f8a;
+  --teal: #0c6f6b;
   --teal-light: #e4f7f4;
   --coral: #e8602c;
   --coral-light: #fdece3;
@@ -22,7 +23,7 @@
   --pine-light: #e9f3ec;
   --blue: #2f6fb0;
   --blue-light: #e9f1fa;
-  --green: #2f8f5b;
+  --green: #237a4e;
   --green-light: #e7f5ec;
   --amber: #d98a1f;
   --amber-light: #fdf2e1;
@@ -38,7 +39,7 @@
   --border-strong: #ded0bf;
   --text: #22303d;
   --text-secondary: #6a6157;
-  --muted: #948b80;
+  --muted: #7a6f63;
 
   --success: var(--green);
   --warn: var(--amber);
@@ -200,11 +201,11 @@ a:hover { text-decoration: underline; }
 .btn:hover { transform: translateY(-1px); }
 .btn:disabled { opacity: .5; cursor: not-allowed; transform: none; }
 
-.btn-primary { background: var(--coral); color: #fff; box-shadow: 0 2px 8px rgba(232,96,44,.28); }
+.btn-primary { background: var(--coral); color: var(--ink); box-shadow: 0 2px 8px rgba(232,96,44,.28); }
 .btn-primary:hover { background: #d3521f; }
 .btn-navy { background: var(--navy); color: #fff; }
 .btn-navy:hover { background: var(--navy-deep); }
-.btn-coral { background: var(--coral); color: #fff; }
+.btn-coral { background: var(--coral); color: var(--ink); }
 .btn-coral:hover { background: #d3521f; }
 .btn-blue { background: var(--blue); color: #fff; }
 .btn-blue:hover { background: #1d4ed8; }
@@ -963,7 +964,7 @@ tr:hover { background: #f8fafc; }
 .skip-link {
   position: absolute; left: -9999px; top: 0; z-index: 200;
   padding: 10px 16px; border-radius: 0 0 var(--radius-sm) 0;
-  background: var(--coral); color: #fff; font-weight: 700; text-decoration: none;
+  background: var(--coral); color: var(--ink); font-weight: 700; text-decoration: none;
 }
 .skip-link:focus { left: 0; outline: 3px solid var(--navy); outline-offset: 2px; }
 
