@@ -26,6 +26,8 @@ jobs:
         run: npm run check:a11y
       - name: PHI safety guard (monitoring context + error messages)
         run: npm run check:phi
+      - name: Hosting header parity (public/_headers vs vercel.json)
+        run: npm run check:headers
       - name: Committed-secret scan
         run: npm run scan:secrets
       - name: Build

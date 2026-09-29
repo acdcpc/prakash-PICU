@@ -58,6 +58,9 @@
 - Monitoring is wired in three places: the global `error` and
   `unhandledrejection` handlers in `src/main.jsx`, the top-level `ErrorBoundary`
   (whose fallback screen never renders `error.message`), and explicit call sites.
+- `public/_headers` is the single source of truth for security headers; `npm run
+  check:headers` (in CI) fails if `vercel.json` drifts from it, so the two hosts
+  cannot silently diverge.
 - `npm run check:phi` enforces the two rules that keep this safe: `captureError`
   may only receive allowlisted context keys, and thrown error messages may not
   interpolate patient-related values (validated against a planted violation
@@ -72,7 +75,7 @@
 | Item | Needs |
 |---|---|
 | CSP contents | Validate the deployed CSP against the real origins (analytics, monitoring); tighten to the institution's policy |
-| Auth redirect allowlist | **Automated**: `vite.config.js` resolves the deployment origin at build time (Netlify `URL` / `DEPLOY_PRIME_URL`, or `VITE_SITE_ORIGIN` for other hosts); an explicit `VITE_ALLOWED_AUTH_ORIGINS` still wins. Local builds fall back to the running origin | Set `VITE_ALLOWED_AUTH_ORIGINS` to the production origins |
+| Auth redirect allowlist | **Automated**: `vite.config.js` resolves the deployment origin at build time (Netlify `URL` / `DEPLOY_PRIME_URL`, Vercel `VERCEL_PROJECT_PRODUCTION_URL` / `VERCEL_URL`, or `VITE_SITE_ORIGIN` for any other host); an explicit `VITE_ALLOWED_AUTH_ORIGINS` still wins. Local builds fall back to the running origin | Set `VITE_ALLOWED_AUTH_ORIGINS` to the production origins |
 | Session timeout value | Confirm 30 minutes is clinically appropriate for shared devices |
 | Access model | `pediatric_clinician_workflow.sql` **has been applied** (owner-scoped patient RLS via `created_by` / `can_access_patient()`), verified by the boundary audit. Governance should still confirm this remains the intended model |
 | Dependency + secret scanning | Wired into `.github/workflows/ci.yml`; the dependency audit runs as advisory until a severity threshold is agreed |

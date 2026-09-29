@@ -179,6 +179,27 @@ git status --short
 
 Review the diff for PHI, credentials, copyrighted text, accidental package changes, and stale clinical wording. Commit with a specific message, push to `main` only when requested, and report exactly what was verified and what remains unvalidated.
 
+## Deployment readiness (2026-09-29)
+
+The frontend is deployable to Vercel or Netlify with no dashboard configuration:
+
+- `vercel.json` carries the SPA rewrite and the same seven security headers as
+  `public/_headers`; `scripts/sync-vercel-headers.mjs` (`npm run sync:headers`)
+  regenerates it from that file and `npm run check:headers` fails CI on drift.
+- `vite.config.js` exports `detectBuildSiteOrigin()`: it resolves the deployment
+  origin from `VITE_SITE_ORIGIN`, then Netlify (`URL` / `DEPLOY_PRIME_URL`), then
+  Vercel (`VERCEL_ENV`, `VERCEL_PROJECT_PRODUCTION_URL`, `VERCEL_URL`) and injects
+  it as `__BUILD_SITE_ORIGIN__`, so a production build locks auth redirects to its
+  own domain. Previews lock to their own preview hostname, not to production.
+- On Vercel builds the Netlify-only `dist/_headers` file is removed, since that
+  host would otherwise serve it publicly.
+- Required environment variables on either host: `VITE_SUPABASE_URL`,
+  `VITE_SUPABASE_ANON_KEY`. Optional: `VITE_SITE_ORIGIN`,
+  `VITE_ERROR_MONITORING_DSN` or `VITE_ERROR_MONITORING_ENDPOINT`.
+- Deployment does not replace governance: the owner-scoped patient RLS model,
+  the manual payment review flow, and the clinical content licensing position
+  all still need institutional sign-off before real patient data is entered.
+
 ## Prioritized next work
 
 The next agent should not start by adding more drug rows. The highest-value work is:

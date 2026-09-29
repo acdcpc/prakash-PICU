@@ -282,6 +282,26 @@ npm run build
 
 Deploy `dist/` to an institution-approved static host such as Vercel, Netlify, Cloudflare Pages, or equivalent. Supabase remains an external backend service. Production configuration must use environment variables, HTTPS, domain allowlists, reviewed Auth redirect URLs, and institutional privacy/security approval.
 
+### Deploying to Vercel
+
+1. Import this GitHub repo at vercel.com (framework preset: Vite), or run
+   `npx vercel --prod` from a linked checkout. The repo already carries
+   `vercel.json`, so no dashboard build settings are needed.
+2. Add these project environment variables in Vercel, for Production and Preview:
+   - `VITE_SUPABASE_URL` — the project URL (`https://upucdkfkjhsynysxfnib.supabase.co`)
+   - `VITE_SUPABASE_ANON_KEY` — the public anon key (safe to ship; row-level
+     security is the boundary, not secrecy of this key)
+3. Nothing else is required. `vercel.json` provides the SPA rewrites and the same
+   seven security headers as `public/_headers` (`npm run sync:headers` keeps the
+   two in sync and CI fails on drift), and the build reads Vercel's own
+   `VERCEL_*` variables to lock auth redirects to the deployment's address. Set
+   `VITE_SITE_ORIGIN` only to override that detection, e.g. after moving to a
+   custom domain.
+4. If Google sign-in or magic links are used, add the deployment URL to the
+   Supabase redirect allowlist under Authentication → URL Configuration. Each
+   Vercel preview gets its own hostname, so add the preview pattern too if
+   previews need working sign-in. Email/password sign-in needs no change.
+
 ## Known limitations and required next work
 
 The current implementation is a strong clinician-reference and documentation foundation but is not a certified medical device. The highest-priority remaining work is clinical governance and production hardening: establish a pediatric editorial board, version every clinical record, create an approval and rollback process, reconcile all drug values with current local monographs and smart-pump libraries, implement auditable doctor order and re-check records, validate the payment provider server-side, add privacy-approved analytics consent, and complete security and usability testing with representative Nepal PICU clinicians.
