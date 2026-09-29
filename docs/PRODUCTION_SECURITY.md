@@ -50,8 +50,8 @@
 | CSP contents | Validate the deployed CSP against the real origins (analytics, monitoring); tighten to the institution's policy |
 | Auth redirect allowlist | Set `VITE_ALLOWED_AUTH_ORIGINS` to the production origins |
 | Session timeout value | Confirm 30 minutes is clinically appropriate for shared devices |
-| `pediatric_clinician_workflow.sql` | Owner-scoped patient RLS is **not applied**; patients currently use unit-based RLS. Changing the access model needs governance sign-off |
-| Dependency + secret scanning | Run in CI with an agreed cadence and severity threshold |
+| Access model | `pediatric_clinician_workflow.sql` **has been applied** (owner-scoped patient RLS via `created_by` / `can_access_patient()`), verified by the boundary audit. Governance should still confirm this remains the intended model |
+| Dependency + secret scanning | Wired into `.github/workflows/ci.yml`; the dependency audit runs as advisory until a severity threshold is agreed |
 | Error monitoring | Choose a service with PHI-excluding configuration and a documented policy |
 | Payments | Verify webhooks server-side before changing entitlements; never trust client plan/price/role |
 | Session/device visibility | Confirm whether device/session listing is required |

@@ -183,3 +183,17 @@ RPC. The submission record is now trustworthy too: the insert policy requires
 
 Verified against the hosted database: a pending submission is accepted; a
 self-approved row, a zero amount, and an unknown plan are all rejected (42501).
+
+
+## Access model applied (owner-scoped patients)
+
+`sql/pediatric_clinician_workflow.sql` is now applied to the hosted project:
+`patients` and every child table use owner-scoped RLS
+(`created_by = auth.uid()` / `public.can_access_patient()`, admins excepted),
+replacing the earlier unit-based policies. `patients` gained `source_type`,
+`date_of_birth`, `date_of_birth_bs`, and `bed_number` became optional.
+
+`npm run audit:rls` now also covers cross-patient boundaries and reports
+**11/11** against the hosted database, including: another authenticated user
+reads 0 patient rows and 0 child-table rows, and cannot mutate another
+clinician's patient row.

@@ -61,6 +61,10 @@ const escalationProbe = async (sql, params) => {
 check('clinician cannot self-promote role', await escalationProbe(`UPDATE public.profiles SET role = 'admin' WHERE id = $1`, [admin]), (v) => String(v).startsWith('denied'));
 check('clinician cannot change own unit', await escalationProbe(`UPDATE public.profiles SET unit_name = 'HACKED' WHERE id = $1`, [admin]), (v) => String(v).startsWith('denied'));
 
+check('other user cannot read patient rows', await probe('authenticated', other, 'SELECT count(*)::int n FROM public.patients'), (v) => v === 0 || String(v).startsWith('denied'));
+check('other user cannot read child-table rows', await probe('authenticated', other, 'SELECT count(*)::int n FROM public.fluid_balance'), (v) => v === 0 || String(v).startsWith('denied'));
+check('other user cannot mutate patient rows', await escalationProbe(`UPDATE public.patients SET diagnosis = 'x' WHERE created_by <> $1`, [admin]), (v) => v === 'no rows' || String(v).startsWith('denied'));
+
 check('TRUNCATE is not granted to public client roles', (await c.query(`SELECT has_table_privilege('anon','public.patients','TRUNCATE')::text a, has_table_privilege('authenticated','public.patients','TRUNCATE')::text b`)).rows[0], (v) => v.a === 'false' && v.b === 'false');
 check('anon retains only the public plan list', (await c.query(`SELECT has_table_privilege('anon','public.subscription_plans','SELECT')::text a`)).rows[0].a, (v) => v === 'true');
 

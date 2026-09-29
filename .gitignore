@@ -35,3 +35,6 @@ supabase/.temp/
 
 # Authorized private Teddy Bear PDF (copyrighted source; do not commit)
 /Teddy bear.pdf
+
+# Agent cluster scratch workspace
+.cluster/
