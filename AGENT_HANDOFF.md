@@ -193,6 +193,9 @@ The frontend is deployable to Vercel or Netlify with no dashboard configuration:
   own domain. Previews lock to their own preview hostname, not to production.
 - On Vercel builds the Netlify-only `dist/_headers` file is removed, since that
   host would otherwise serve it publicly.
+- Redirect origins fail closed: with no allowlist and no detected origin, the
+  running origin is trusted only if it is loopback or private-network. A public
+  origin in that position is refused, so a copied bundle cannot nominate itself.
 - Required environment variables on either host: `VITE_SUPABASE_URL`,
   `VITE_SUPABASE_ANON_KEY`. Optional: `VITE_SITE_ORIGIN`,
   `VITE_ERROR_MONITORING_DSN` or `VITE_ERROR_MONITORING_ENDPOINT`.

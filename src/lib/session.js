@@ -44,10 +44,37 @@ export function allowedAuthOrigins(configured, currentOrigin, detectedOrigin = B
   // to that domain, which is the production case.
   const detected = normalizeOrigin(detectedOrigin);
   if (detected) return [detected];
-  // Only a build with no allowlist and no detected origin (local development)
-  // falls back to the origin the app is actually running on.
+  // Only a build with no allowlist and no detected origin falls back to the
+  // origin it is running on, and only when that origin is a local development
+  // surface. A publicly routable origin with no configuration must stay
+  // fail-closed: set VITE_SITE_ORIGIN or VITE_ALLOWED_AUTH_ORIGINS instead.
   const current = normalizeOrigin(currentOrigin);
-  return current ? [current] : [];
+  return isLocalDevOrigin(current) ? [current] : [];
+}
+
+// Loopback and private-network addresses are development surfaces, so a build
+// served from one of them may trust its own origin. Publicly routable hosts
+// never qualify: they must be declared through configuration or detection.
+export function isLocalDevOrigin(origin) {
+  const normalized = normalizeOrigin(origin);
+  if (!normalized) return false;
+  let hostname;
+  try {
+    hostname = new URL(normalized).hostname;
+  } catch {
+    return false;
+  }
+  if (hostname === 'localhost' || hostname === '::1' || hostname.endsWith('.local')) return true;
+  const ipv4 = /^(\d+)\.(\d+)\.(\d+)\.(\d+)$/.exec(hostname);
+  if (ipv4) {
+    const [first, second] = [Number(ipv4[1]), Number(ipv4[2])];
+    if (first === 127) return true;
+    if (first === 10) return true;
+    if (first === 192 && second === 168) return true;
+    if (first === 172 && second >= 16 && second <= 31) return true;
+    if (first === 169 && second === 254) return true;
+  }
+  return false;
 }
 
 // Returns an allowlisted origin to send the user back to, or '' when nothing is

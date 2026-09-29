@@ -15,23 +15,38 @@ const targetPath = 'vercel.json';
 
 function parseNetlifyHeaders(text) {
   const blocks = [];
+  const errors = [];
   let current = null;
-  for (const line of text.split('\n')) {
-    if (!line.trim() || line.trim().startsWith('#')) continue;
+  text.split('\n').forEach((line, index) => {
+    if (!line.trim() || line.trim().startsWith('#')) return;
     if (!line.startsWith(' ') && line.trim()) {
       if (current) blocks.push(current);
       // Netlify's catch-all is "/*"; Vercel expects the path-to-regexp form.
       const raw = line.trim();
-      current = { source: raw === '/*' ? '/(.*)' : raw, headers: [] };
-      continue;
+      if (raw === '/*') {
+        current = { source: '/(.*)', headers: [] };
+      } else {
+        if (raw.includes('*')) {
+          console.warn(`warning: path "${raw}" (line ${index + 1}) uses a wildcard this script does not translate - verify vercel.json manually`);
+        }
+        current = { source: raw, headers: [] };
+      }
+      return;
     }
     const entry = line.trim();
     const split = entry.indexOf(':');
     if (current && split > 0) {
       current.headers.push({ key: entry.slice(0, split).trim(), value: entry.slice(split + 1).trim() });
+      return;
     }
-  }
+    // A header-looking line without a colon would silently vanish from both
+    // hosts, so refuse to generate config from it.
+    errors.push(`line ${index + 1}: "${entry}" is indented like a header but has no "Key: value" colon`);
+  });
   if (current) blocks.push(current);
+  if (errors.length) {
+    throw new Error(`public/_headers is malformed:\n  ${errors.join('\n  ')}`);
+  }
   return blocks;
 }
 

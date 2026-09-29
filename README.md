@@ -296,7 +296,9 @@ Deploy `dist/` to an institution-approved static host such as Vercel, Netlify, C
    two in sync and CI fails on drift), and the build reads Vercel's own
    `VERCEL_*` variables to lock auth redirects to the deployment's address. Set
    `VITE_SITE_ORIGIN` only to override that detection, e.g. after moving to a
-   custom domain.
+   custom domain. If you upload a prebuilt `dist/` by hand to a host that sets
+   no build variables, set `VITE_SITE_ORIGIN` (or `VITE_ALLOWED_AUTH_ORIGINS`)
+   first: the app refuses to guess a publicly routable redirect origin.
 4. If Google sign-in or magic links are used, add the deployment URL to the
    Supabase redirect allowlist under Authentication → URL Configuration. Each
    Vercel preview gets its own hostname, so add the preview pattern too if
