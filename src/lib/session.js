@@ -19,24 +19,32 @@ export function normalizeOrigin(value) {
 // Origins allowed to receive an auth redirect. Configure
 // VITE_ALLOWED_AUTH_ORIGINS (comma separated) for production; the origin the app
 // is actually running on is always allowed so previews keep working.
-export function allowedAuthOrigins(configured, currentOrigin) {
+// The origin this build was produced for, injected by vite.config.js from the
+// hosting platform's build environment. Undefined outside a configured build.
+const BUILD_SITE_ORIGIN = typeof __BUILD_SITE_ORIGIN__ !== 'undefined' ? __BUILD_SITE_ORIGIN__ : '';
+
+export function allowedAuthOrigins(configured, currentOrigin, detectedOrigin = BUILD_SITE_ORIGIN) {
   const list = String(configured || '')
     .split(',')
     .map((item) => normalizeOrigin(item.trim()))
     .filter(Boolean);
-  // When an allowlist is configured it is authoritative, so a copy of the app
-  // served on another origin cannot use its own origin as a redirect target.
-  // Only an unconfigured (local/preview) environment falls back to the origin
-  // the app is actually running on.
+  // An explicit allowlist is authoritative, so a copy of the app served on
+  // another origin cannot use its own origin as a redirect target.
   if (list.length) return [...new Set(list)];
+  // Otherwise a build that knows the deployment it was made for locks redirects
+  // to that domain, which is the production case.
+  const detected = normalizeOrigin(detectedOrigin);
+  if (detected) return [detected];
+  // Only a build with no allowlist and no detected origin (local development)
+  // falls back to the origin the app is actually running on.
   const current = normalizeOrigin(currentOrigin);
   return current ? [current] : [];
 }
 
 // Returns an allowlisted origin to send the user back to, or '' when nothing is
 // trustworthy (the caller should then refuse the redirect rather than guess).
-export function resolveAuthRedirect({ configured, currentOrigin, fallback } = {}) {
-  const allowed = allowedAuthOrigins(configured, currentOrigin);
+export function resolveAuthRedirect({ configured, currentOrigin, fallback, detectedOrigin } = {}) {
+  const allowed = allowedAuthOrigins(configured, currentOrigin, detectedOrigin);
   if (!allowed.length) return '';
   const candidate = normalizeOrigin(currentOrigin) || normalizeOrigin(fallback);
   return allowed.includes(candidate) ? candidate : allowed[0];
