@@ -24,3 +24,23 @@ test('idle sessions are detected after the timeout only', () => {
   assert.equal(shouldSignOutForIdle({ lastActivityAt: now - 60_001, now, timeoutMs: 60_000 }), true);
   assert.equal(shouldSignOutForIdle({ lastActivityAt: NaN, now }), false);
 });
+
+test('origin normalisation refuses non-http schemes and userinfo tricks', () => {
+  assert.equal(normalizeOrigin('javascript:alert(1)'), '');
+  assert.equal(normalizeOrigin('ftp://app.example.org'), '');
+  assert.equal(normalizeOrigin('data:text/html,<script>'), '');
+  assert.equal(normalizeOrigin('//evil.com'), '');
+  assert.equal(normalizeOrigin(''), '');
+  assert.equal(normalizeOrigin('https://app.example.org@evil.com'), 'https://evil.com');
+  assert.equal(normalizeOrigin('https://app.example.org/'), 'https://app.example.org');
+  assert.equal(normalizeOrigin('https://APP.example.org'), 'https://app.example.org');
+  assert.equal(normalizeOrigin('https://app.example.org/path?x=1#f'), 'https://app.example.org');
+});
+
+test('a detected deployment origin outranks the running origin', () => {
+  const detected = 'https://picu.netlify.app';
+  assert.equal(resolveAuthRedirect({ configured: '', currentOrigin: 'https://evil.com', detectedOrigin: detected }), detected);
+  assert.equal(allowedAuthOrigins('', 'https://evil.com', detected).join(), detected);
+  // only a bare local build with nothing configured falls back to itself
+  assert.deepEqual(allowedAuthOrigins('', 'http://localhost:3000', ''), ['http://localhost:3000']);
+});

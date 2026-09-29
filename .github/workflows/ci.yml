@@ -24,6 +24,8 @@ jobs:
         run: npm run check:contrast
       - name: Static accessibility checks
         run: npm run check:a11y
+      - name: PHI safety guard (monitoring context + error messages)
+        run: npm run check:phi
       - name: Committed-secret scan
         run: npm run scan:secrets
       - name: Build

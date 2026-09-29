@@ -6,10 +6,19 @@
 export const SESSION_IDLE_TIMEOUT_MS = 30 * 60 * 1000; // 30 minutes
 export const IDLE_TICK_MS = 30 * 1000;
 
+// Only http(s) origins are ever acceptable as an auth redirect target: other
+// schemes (javascript:, data:, ftp:, custom app schemes) must never come back
+// out of an allowlist comparison.
+const ALLOWED_ORIGIN_PROTOCOLS = ['http:', 'https:'];
+
 export function normalizeOrigin(value) {
   if (!value) return '';
   try {
-    const url = new URL(value);
+    const url = new URL(String(value).trim());
+    if (!ALLOWED_ORIGIN_PROTOCOLS.includes(url.protocol)) return '';
+    if (!url.host) return '';
+    // url.host is the real host: the userinfo trick (https://good@evil.com)
+    // resolves to evil.com rather than being mistaken for the trusted name.
     return `${url.protocol}//${url.host}`;
   } catch {
     return '';

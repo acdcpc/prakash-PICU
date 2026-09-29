@@ -1010,3 +1010,16 @@ main:focus { outline: none; }
 .patient-context-chip { padding: 3px 10px; border-radius: var(--radius-pill); background: var(--teal-light); color: #0a5f5b; font-size: .74rem; font-weight: 700; }
 .patient-context-title { font-size: .88rem; color: var(--navy); }
 .patient-context-warn { display: inline-flex; align-items: center; gap: 6px; color: var(--amber); font-size: .8rem; font-weight: 600; }
+
+
+/* Error boundary fallback */
+.error-boundary {
+  max-width: 34rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-align: center;
+}
+.error-boundary h1 { margin-top: 0; }

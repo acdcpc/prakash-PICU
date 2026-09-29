@@ -22,7 +22,8 @@
     "scan:secrets": "node scripts/scan-secrets.mjs",
     "report:bundle": "node scripts/report-bundle.mjs",
     "check:a11y": "node scripts/check-a11y.mjs",
-    "check:contrast": "node scripts/check-contrast.mjs"
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "check:phi": "node scripts/check-phi-safety.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.0",

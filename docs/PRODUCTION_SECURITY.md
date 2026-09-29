@@ -50,6 +50,20 @@
 - `src/lib/errorMonitoring.js` — the only sanctioned error-capture path. Reports
   are limited to error name/message, an allowlisted context
   (`route`, `action`, `component`, `code`) and a timestamp; URLs keep no query
+  string and identifiers become `:id`. Nothing is transmitted until
+  `VITE_ERROR_MONITORING_DSN` (Sentry-compatible) or
+  `VITE_ERROR_MONITORING_ENDPOINT` (plain HTTPS JSON) is set. The Sentry payload
+  omits `user`, `request`, `breadcrumbs`, `extra` and exception stacks by
+  construction, so no clinical context can travel with an error.
+- Monitoring is wired in three places: the global `error` and
+  `unhandledrejection` handlers in `src/main.jsx`, the top-level `ErrorBoundary`
+  (whose fallback screen never renders `error.message`), and explicit call sites.
+- `npm run check:phi` enforces the two rules that keep this safe: `captureError`
+  may only receive allowlisted context keys, and thrown error messages may not
+  interpolate patient-related values (validated against a planted violation
+  before the guard shipped). — the only sanctioned error-capture path. Reports
+  are limited to error name/message, an allowlisted context
+  (`route`, `action`, `component`, `code`) and a timestamp; URLs keep no query
   string and identifiers become `:id`. Nothing is transmitted unless
   `VITE_ERROR_MONITORING_DSN` is configured.
 
@@ -58,7 +72,7 @@
 | Item | Needs |
 |---|---|
 | CSP contents | Validate the deployed CSP against the real origins (analytics, monitoring); tighten to the institution's policy |
-| Auth redirect allowlist | Set `VITE_ALLOWED_AUTH_ORIGINS` to the production origins |
+| Auth redirect allowlist | **Automated**: `vite.config.js` resolves the deployment origin at build time (Netlify `URL` / `DEPLOY_PRIME_URL`, or `VITE_SITE_ORIGIN` for other hosts); an explicit `VITE_ALLOWED_AUTH_ORIGINS` still wins. Local builds fall back to the running origin | Set `VITE_ALLOWED_AUTH_ORIGINS` to the production origins |
 | Session timeout value | Confirm 30 minutes is clinically appropriate for shared devices |
 | Access model | `pediatric_clinician_workflow.sql` **has been applied** (owner-scoped patient RLS via `created_by` / `can_access_patient()`), verified by the boundary audit. Governance should still confirm this remains the intended model |
 | Dependency + secret scanning | Wired into `.github/workflows/ci.yml`; the dependency audit runs as advisory until a severity threshold is agreed |
