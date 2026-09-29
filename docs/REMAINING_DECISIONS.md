@@ -24,6 +24,26 @@ Status: **decided 2026-09-29** — see "Answers and what was done" at the bottom
 | 4 | Unclear — explained and resolved | The question was whether an automated dependency check should be allowed to fail the build. It is now moot: `npm audit fix` removed the one **high**-severity finding, and CI now **fails the build on any high or critical** vulnerability. The 3 remaining moderate findings live only in the Capacitor CLI build toolchain (never shipped to users) and do not block. |
 | 5 | Yes — 30 minutes | Unchanged; the idle sign-out stays at 30 minutes. |
 
+## Dependency findings — investigated, no change needed
+
+An independent assessment of the 3 remaining moderate audit findings concluded
+they should be accepted as-is:
+
+- The repo is **already on Capacitor 8** (`@capacitor/cli ^8.5.0`). npm's suggested
+  "fix" is actually a **downgrade** to 8.4.3, outside the declared range — which is
+  why npm labels it a major change. No package needs upgrading.
+- The residual chain (`uuid` ← `xcode` ← `@capacitor/cli`) is **iOS project
+  tooling**. There is no `ios/` directory and no `@capacitor/ios` package in this
+  repo, so that code path never executes here.
+- Capacitor **core and the plugins are genuine runtime dependencies** (used by
+  `AuthContext` and `ExportCenter`, guarded by `Capacitor.isNativePlatform()`);
+  only the CLI is build tooling.
+- `npm audit --audit-level=high` now **exits 0**, so the blocking CI gate passes.
+
+If a zero-finding tree is ever required, the clean path is a deliberate pinned
+downgrade (`npm install @capacitor/cli@8.4.3 --save-exact`), never a bare
+`npm audit fix --force`.
+
 ## Already decided and applied
 
 - Owner-scoped patient RLS (`created_by` / `can_access_patient()`) — applied and
