@@ -4,7 +4,9 @@ import { resolve } from 'node:path';
 
 const inputPath = resolve(process.argv[2] || '.clinical-private/drug-reference/source.txt');
 const indexPath = resolve(process.argv[3] || '.clinical-private/drug-reference/monograph-index.json');
-const outputPath = resolve(process.argv[4] || 'sql/teddy_bear_monographs.sql');
+// Default to the seed file. The schema file (sql/teddy_bear_monographs.sql)
+// must stay schema-only: SETUP_ALL generation and tests both read it.
+const outputPath = resolve(process.argv[4] || 'sql/teddy_bear_monographs_seed.sql');
 const text = readFileSync(inputPath, 'utf8');
 const source = JSON.parse(readFileSync(indexPath, 'utf8'));
 const orderedMonographs = [...source.monographs].sort((a, b) => Number(a.sourceOffset) - Number(b.sourceOffset));
