@@ -10,7 +10,7 @@ const app = fs.readFileSync(new URL('../src/App.jsx', import.meta.url), 'utf8');
 const sidebar = fs.readFileSync(new URL('../src/components/Sidebar.jsx', import.meta.url), 'utf8');
 
 test('Neonate metadata index contains the complete drug monograph count', () => {
-  assert.equal(HARRIET_LANE_REVIEW_INDEX.length, 458);
+  assert.equal(HARRIET_LANE_REVIEW_INDEX.length, 490);
   assert.ok(HARRIET_LANE_REVIEW_INDEX.every((item) => item.reviewStatus === 'pending-clinical-verification'));
   assert.ok(HARRIET_LANE_REVIEW_INDEX.every((item) => Number.isInteger(item.sourceOffset) && item.sourceOffset >= 0));
 });
@@ -21,7 +21,7 @@ test('Neonate private schema and seed are review-gated', () => {
   assert.match(schema, /review_status TEXT NOT NULL DEFAULT 'pending-clinical-verification'/);
   assert.match(schema, /CREATE POLICY harriet_lane_select_unit/);
   assert.match(schema, /CREATE POLICY harriet_lane_update_reviewer/);
-  assert.equal((seed.match(/'pending-clinical-verification'/g) || []).length, 458);
+  assert.equal((seed.match(/'pending-clinical-verification'/g) || []).length, 490);
   assert.match(seed, /INSERT INTO public\.harriet_lane_monographs \(source_id, name, source_file, source_offset, content, review_status\)/);
 });
 

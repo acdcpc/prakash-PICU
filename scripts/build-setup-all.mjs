@@ -37,7 +37,7 @@ const header = `-- ============================================================
 --  FULL-TEXT SEED: sql/teddy_bear_monographs_seed.sql (~3.4 MB) is applied
 --    SEPARATELY after this file — it is too large for the SQL Editor.
 --    Apply it after this file with: DATABASE_URL=... npm run import:teddy-seed
---    The importer runs psql with ON_ERROR_STOP and verifies 238 rows before
+--    The importer runs psql with ON_ERROR_STOP and verifies 247 rows before
 --    opening the review route. Never paste the full seed into the SQL Editor.
 --  NOTE: do NOT also run the individual files separately after running this
 --  first-install file unless you are following the staged production checklist.

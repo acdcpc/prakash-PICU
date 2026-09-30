@@ -44,6 +44,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "adapalene-benzoyl-peroxide",
+    "name": "ADAPALENE ± BENZOYL PEROXIDE",
+    "sourceOffset": 3117555,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "adderall",
     "name": "ADDERALL",
     "sourceOffset": 3120641,
@@ -108,7 +115,7 @@ export const HARRIET_LANE_REVIEW_INDEX = [
   },
   {
     "id": "aluminum-hydroxide-with-magnesium",
-    "name": "ALUMINUM HYDROXIDE WITH MAGNESIUM",
+    "name": "ALUMINUM HYDROXIDE WITH MAGNESIUM HYDROXIDE ± SIMETHICONE",
     "sourceOffset": 3137750,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
@@ -124,6 +131,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "amantadine-hydrochloride",
     "name": "AMANTADINE HYDROCHLORIDE",
     "sourceOffset": 3140212,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "amikacin-sulfate",
+    "name": "AMIKACIN SULFATE",
+    "sourceOffset": 3142561,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -331,6 +345,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "bacitracin-polymyxin-b",
+    "name": "BACITRACIN ± POLYMYXIN B",
+    "sourceOffset": 3233383,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "baclofen",
     "name": "BACLOFEN",
     "sourceOffset": 3235284,
@@ -488,6 +509,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "calfactant",
     "name": "CALFACTANT",
     "sourceOffset": 3292454,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "cannabidiol",
+    "name": "CANNABIDIOL",
+    "sourceOffset": 3292534,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -674,6 +702,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "cetirizine-pseudoephedrine",
+    "name": "CETIRIZINE ± PSEUDOEPHEDRINE",
+    "sourceOffset": 3357711,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "charcoal-activated",
     "name": "CHARCOAL, ACTIVATED",
     "sourceOffset": 3361238,
@@ -747,6 +782,20 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "ciprofloxacin",
     "name": "CIPROFLOXACIN",
     "sourceOffset": 3384748,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "citrate-mixtures",
+    "name": "CITRATE MIXTURES",
+    "sourceOffset": 3391122,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "clarithromycin",
+    "name": "CLARITHROMYCIN",
+    "sourceOffset": 3393161,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -912,6 +961,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "dextroamphetamine-amphetamine",
+    "name": "DEXTROAMPHETAMINE ± AMPHETAMINE",
+    "sourceOffset": 3471816,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "diazepam",
     "name": "DIAZEPAM",
     "sourceOffset": 3480706,
@@ -929,6 +985,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "digoxin",
     "name": "DIGOXIN",
     "sourceOffset": 3489564,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "digoxin-immune-fab-ovine",
+    "name": "DIGOXIN IMMUNE FAB (OVINE)",
+    "sourceOffset": 3493559,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -1087,6 +1150,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "ergotamine-tartrate-caffeine",
+    "name": "ERGOTAMINE TARTRATE ± CAFFEINE",
+    "sourceOffset": 3563437,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "ertapenem",
     "name": "ERTAPENEM",
     "sourceOffset": 3565428,
@@ -1195,6 +1265,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "ferrous-sulfate",
     "name": "FERROUS SULFATE",
     "sourceOffset": 3604238,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "fexofenadine-pseudoephedrine",
+    "name": "FEXOFENADINE ± PSEUDOEPHEDRINE",
+    "sourceOffset": 3604323,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -1409,6 +1486,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "heparin-sodium",
+    "name": "HEPARIN SODIUM",
+    "sourceOffset": 3694919,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "hyaluronidase",
     "name": "HYALURONIDASE",
     "sourceOffset": 3699316,
@@ -1451,6 +1535,20 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "hydroxyzine",
+    "name": "HYDROXYZINE",
+    "sourceOffset": 3712503,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "ibuprofen",
+    "name": "IBUPROFEN",
+    "sourceOffset": 3714277,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "iloprost",
     "name": "ILOPROST",
     "sourceOffset": 3719595,
@@ -1486,6 +1584,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "infliximab",
+    "name": "INFLIXIMAB",
+    "sourceOffset": 3743576,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "insulin-preparations",
     "name": "INSULIN PREPARATIONS",
     "sourceOffset": 3748974,
@@ -1510,6 +1615,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "iohexol",
     "name": "IOHEXOL",
     "sourceOffset": 3752808,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "ipratropium-bromide-albuterol",
+    "name": "IPRATROPIUM BROMIDE ± ALBUTEROL",
+    "sourceOffset": 3756654,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -1724,6 +1836,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "linezolid",
+    "name": "LINEZOLID",
+    "sourceOffset": 3868164,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "liraglutide",
     "name": "LIRAGLUTIDE",
     "sourceOffset": 3871335,
@@ -1755,6 +1874,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "loperamide",
     "name": "LOPERAMIDE",
     "sourceOffset": 3883180,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "loratadine-pseudoephedrine",
+    "name": "LORATADINE ± PSEUDOEPHEDRINE",
+    "sourceOffset": 3884994,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -1972,6 +2098,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "minoxidil",
     "name": "MINOXIDIL",
     "sourceOffset": 3976675,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "mometasone-furoate-fomoterol-fumarate",
+    "name": "MOMETASONE FUROATE ± FOMOTEROL FUMARATE",
+    "sourceOffset": 3979885,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -2490,6 +2623,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "potassium-supplements",
     "name": "POTASSIUM SUPPLEMENTS",
     "sourceOffset": 4179522,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "pralidoxime-chloride-atropine",
+    "name": "PRALIDOXIME CHLORIDE ± ATROPINE",
+    "sourceOffset": 4182641,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
@@ -3019,6 +3159,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "tobramycin",
+    "name": "TOBRAMYCIN",
+    "sourceOffset": 4405874,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "tolnaftate",
     "name": "TOLNAFTATE",
     "sourceOffset": 4414185,
@@ -3131,6 +3278,13 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },
   {
+    "id": "vancomycin",
+    "name": "VANCOMYCIN",
+    "sourceOffset": 4462802,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
     "id": "vanzacaftor-tezacaftor-deutivacaftor",
     "name": "VANZACAFTOR + TEZACAFTOR + DEUTIVACAFTOR",
     "sourceOffset": 4470646,
@@ -3169,6 +3323,76 @@ export const HARRIET_LANE_REVIEW_INDEX = [
     "id": "vitamin-a",
     "name": "VITAMIN A",
     "sourceOffset": 4489120,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-b1",
+    "name": "VITAMIN B1",
+    "sourceOffset": 4491524,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-b2",
+    "name": "VITAMIN B2",
+    "sourceOffset": 4491554,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-b3",
+    "name": "VITAMIN B3",
+    "sourceOffset": 4491623,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-b6",
+    "name": "VITAMIN B6",
+    "sourceOffset": 4491651,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-b12",
+    "name": "VITAMIN B12",
+    "sourceOffset": 4491683,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-c",
+    "name": "VITAMIN C",
+    "sourceOffset": 4491720,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-d2",
+    "name": "VITAMIN D2",
+    "sourceOffset": 4491754,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-d3",
+    "name": "VITAMIN D3",
+    "sourceOffset": 4491790,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-e-a-tocopherol",
+    "name": "VITAMIN E/a-TOCOPHEROL",
+    "sourceOffset": 4491827,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
+  },
+  {
+    "id": "vitamin-k",
+    "name": "VITAMIN K",
+    "sourceOffset": 4493522,
     "reviewStatus": "pending-clinical-verification",
     "source": "20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf"
   },

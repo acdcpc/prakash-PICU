@@ -64,8 +64,8 @@ const count = Number(countText);
 const pending = Number(pendingText);
 const empty = Number(emptyText);
 console.log(`Verified Teddy Bear rows: ${count}; pending: ${pending}; empty content: ${empty}.`);
-if (count !== 238 || empty !== 0) {
-  console.error('Unexpected verification result: expected 238 full monographs and zero empty-content rows.');
+if (count !== 247 || empty !== 0) {
+  console.error('Unexpected verification result: expected 247 full monographs and zero empty-content rows.');
   process.exit(1);
 }
 console.log('Teddy Bear seed import completed successfully. Clinical approval is still required before calculator promotion.');

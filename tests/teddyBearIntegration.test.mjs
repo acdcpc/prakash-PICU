@@ -11,7 +11,7 @@ const recordKindMigration = fs.readFileSync(new URL('../sql/teddy_bear_record_ki
 const seedImporter = fs.readFileSync(new URL('../scripts/import-teddy-bear-seed.mjs', import.meta.url), 'utf8');
 
 test('Teddy Bear metadata index contains the complete drug monograph count', () => {
-  assert.equal(TEDDY_BEAR_REVIEW_INDEX.length, 238);
+  assert.equal(TEDDY_BEAR_REVIEW_INDEX.length, 247);
   assert.ok(TEDDY_BEAR_REVIEW_INDEX.every((item) => item.reviewStatus === 'pending-clinical-verification'));
   assert.ok(TEDDY_BEAR_REVIEW_INDEX.every((item) => Number.isInteger(item.sourceOffset) && item.sourceOffset >= 0));
 });
@@ -22,7 +22,7 @@ test('Teddy Bear private schema and seed are review-gated', () => {
   assert.match(schema, /review_status TEXT NOT NULL DEFAULT 'pending-clinical-verification'/);
   assert.match(schema, /CREATE POLICY teddy_bear_select_unit/);
   assert.match(schema, /CREATE POLICY teddy_bear_update_reviewer/);
-  assert.equal((seed.match(/'pending-clinical-verification'/g) || []).length, 238);
+  assert.equal((seed.match(/'pending-clinical-verification'/g) || []).length, 247);
   assert.match(seed, /INSERT INTO public\.teddy_bear_monographs \(source_id, name, source_file, source_offset, content, review_status\)/);
 });
 
@@ -62,6 +62,6 @@ test('Teddy Bear seed importer requires a private SSL database URL and fail-fast
   assert.match(seedImporter, /sslmode=require/);
   assert.match(seedImporter, /ON_ERROR_STOP=1/);
   assert.match(seedImporter, /spawnSync\('psql'/);
-  assert.match(seedImporter, /expected 238 full monographs/);
+  assert.match(seedImporter, /expected 247 full monographs/);
 });
 

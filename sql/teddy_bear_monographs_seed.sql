@@ -3611,8 +3611,8 @@ REFERENCES
 
 
 
-72
-Ampicillin Sodium–Sulbactam Sodium
+72$teddy_19$, 'pending-clinical-verification'),
+  ($teddy_20_id$ampicillin-sodium-sulbactam-sodium$teddy_20_id$, $teddy_20_name$Ampicillin Sodium–Sulbactam Sodium$teddy_20_name$, $teddy_20_source$Teddy bear.pdf$teddy_20_source$, 327738, $teddy_20$Ampicillin Sodium–Sulbactam Sodium
 Brand names            Unasyn
 
 
@@ -3746,8 +3746,8 @@ REFERENCES
 
 
 
-                                                                                                                                                             75$teddy_19$, 'pending-clinical-verification'),
-  ($teddy_20_id$anidulafungin$teddy_20_id$, $teddy_20_name$Anidulafungin$teddy_20_name$, $teddy_20_source$Teddy bear.pdf$teddy_20_source$, 337447, $teddy_20$Anidulafungin
+                                                                                                                                                             75$teddy_20$, 'pending-clinical-verification'),
+  ($teddy_21_id$anidulafungin$teddy_21_id$, $teddy_21_name$Anidulafungin$teddy_21_name$, $teddy_21_source$Teddy bear.pdf$teddy_21_source$, 337447, $teddy_21$Anidulafungin
 Brand names            Eraxis
 
 
@@ -3864,8 +3864,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 77$teddy_20$, 'pending-clinical-verification'),
-  ($teddy_21_id$anti-inhibitor-coagulant-complex$teddy_21_id$, $teddy_21_name$Anti-inhibitor Coagulant Complex$teddy_21_name$, $teddy_21_source$Teddy bear.pdf$teddy_21_source$, 344703, $teddy_21$Anti-inhibitor Coagulant Complex
+                                                                                                                                                 77$teddy_21$, 'pending-clinical-verification'),
+  ($teddy_22_id$anti-inhibitor-coagulant-complex$teddy_22_id$, $teddy_22_name$Anti-inhibitor Coagulant Complex$teddy_22_name$, $teddy_22_source$Teddy bear.pdf$teddy_22_source$, 344703, $teddy_22$Anti-inhibitor Coagulant Complex
 Brand names         FEIBA NF
 
 
@@ -3993,8 +3993,8 @@ REFERENCES
 
 
 
-                                                                                                                                                    79$teddy_21$, 'pending-clinical-verification'),
-  ($teddy_22_id$antihemophilic-factor-human-factor-viii$teddy_22_id$, $teddy_22_name$Antihemophilic Factor (Human) (Factor VIII)$teddy_22_name$, $teddy_22_source$Teddy bear.pdf$teddy_22_source$, 353115, $teddy_22$Antihemophilic Factor (Human) (Factor VIII)
+                                                                                                                                                    79$teddy_22$, 'pending-clinical-verification'),
+  ($teddy_23_id$antihemophilic-factor-human-factor-viii$teddy_23_id$, $teddy_23_name$Antihemophilic Factor (Human) (Factor VIII)$teddy_23_name$, $teddy_23_source$Teddy bear.pdf$teddy_23_source$, 353115, $teddy_23$Antihemophilic Factor (Human) (Factor VIII)
 Brand names         Hemophil M, Koate-DVI, Monoclate-P
 
 
@@ -4184,8 +4184,8 @@ REFERENCES
 
 
 82
-Antihemophilic Factor (Recombinant)$teddy_22$, 'pending-clinical-verification'),
-  ($teddy_23_id$factor-viii-recombinant$teddy_23_id$, $teddy_23_name$Factor VIII (Recombinant)$teddy_23_name$, $teddy_23_source$Teddy bear.pdf$teddy_23_source$, 367406, $teddy_23$Factor VIII (Recombinant)
+Antihemophilic Factor (Recombinant)$teddy_23$, 'pending-clinical-verification'),
+  ($teddy_24_id$factor-viii-recombinant$teddy_24_id$, $teddy_24_name$Factor VIII (Recombinant)$teddy_24_name$, $teddy_24_source$Teddy bear.pdf$teddy_24_source$, 367406, $teddy_24$Factor VIII (Recombinant)
 Brand names         Advate, Afsytla, Elecate, Helixate FS, Kogenate FS, Kovaltry, Novoeight, Nuwiq, Recom-
                     binate, Xyntha
 
@@ -4440,8 +4440,8 @@ Factor VIII (Recombinant)
 
 
 88
-Antihemophilic Factor/von Willebrand Factor$teddy_23$, 'pending-clinical-verification'),
-  ($teddy_24_id$complex-human-factor-viii-complex$teddy_24_id$, $teddy_24_name$Complex (Human) (Factor VIII Complex)$teddy_24_name$, $teddy_24_source$Teddy bear.pdf$teddy_24_source$, 386332, $teddy_24$Complex (Human) (Factor VIII Complex)
+Antihemophilic Factor/von Willebrand Factor$teddy_24$, 'pending-clinical-verification'),
+  ($teddy_25_id$complex-human-factor-viii-complex$teddy_25_id$, $teddy_25_name$Complex (Human) (Factor VIII Complex)$teddy_25_name$, $teddy_25_source$Teddy bear.pdf$teddy_25_source$, 386332, $teddy_25$Complex (Human) (Factor VIII Complex)
 Brand names         Alphante, Humate-P, Wilate
 
 
@@ -4709,8 +4709,8 @@ REFERENCES
 
 
 
-94$teddy_24$, 'pending-clinical-verification'),
-  ($teddy_25_id$antithrombin-iii$teddy_25_id$, $teddy_25_name$Antithrombin III$teddy_25_name$, $teddy_25_source$Teddy bear.pdf$teddy_25_source$, 406570, $teddy_25$Antithrombin III
+94$teddy_25$, 'pending-clinical-verification'),
+  ($teddy_26_id$antithrombin-iii$teddy_26_id$, $teddy_26_name$Antithrombin III$teddy_26_name$, $teddy_26_source$Teddy bear.pdf$teddy_26_source$, 406570, $teddy_26$Antithrombin III
 Brand names         ATryn, Thrombate III
 
 
@@ -4958,8 +4958,8 @@ REFERENCES
 
 
 
-                                                                                                                                                    99$teddy_25$, 'pending-clinical-verification'),
-  ($teddy_26_id$argatroban$teddy_26_id$, $teddy_26_name$Argatroban$teddy_26_name$, $teddy_26_source$Teddy bear.pdf$teddy_26_source$, 426212, $teddy_26$Argatroban
+                                                                                                                                                    99$teddy_26$, 'pending-clinical-verification'),
+  ($teddy_27_id$argatroban$teddy_27_id$, $teddy_27_name$Argatroban$teddy_27_name$, $teddy_27_source$Teddy bear.pdf$teddy_27_source$, 426212, $teddy_27$Argatroban
 Brand names         Generic
 
 
@@ -5119,8 +5119,8 @@ REFERENCES
 
 
 
-102$teddy_26$, 'pending-clinical-verification'),
-  ($teddy_27_id$arginine-hcl$teddy_27_id$, $teddy_27_name$Arginine HCl$teddy_27_name$, $teddy_27_source$Teddy bear.pdf$teddy_27_source$, 437326, $teddy_27$Arginine HCl
+102$teddy_27$, 'pending-clinical-verification'),
+  ($teddy_28_id$arginine-hcl$teddy_28_id$, $teddy_28_name$Arginine HCl$teddy_28_name$, $teddy_28_source$Teddy bear.pdf$teddy_28_source$, 437326, $teddy_28$Arginine HCl
 Brand names         R-Gene 10
 
 
@@ -5305,8 +5305,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-106$teddy_27$, 'pending-clinical-verification'),
-  ($teddy_28_id$arsenic-trioxide$teddy_28_id$, $teddy_28_name$Arsenic Trioxide$teddy_28_name$, $teddy_28_source$Teddy bear.pdf$teddy_28_source$, 450882, $teddy_28$Arsenic Trioxide
+106$teddy_28$, 'pending-clinical-verification'),
+  ($teddy_29_id$arsenic-trioxide$teddy_29_id$, $teddy_29_name$Arsenic Trioxide$teddy_29_name$, $teddy_29_source$Teddy bear.pdf$teddy_29_source$, 450882, $teddy_29$Arsenic Trioxide
 Brand names            Trisenox
 
 
@@ -5456,8 +5456,8 @@ REFERENCES
 
 
 
-110$teddy_28$, 'pending-clinical-verification'),
-  ($teddy_29_id$asparaginase-erwinia$teddy_29_id$, $teddy_29_name$Asparaginase (Erwinia)$teddy_29_name$, $teddy_29_source$Teddy bear.pdf$teddy_29_source$, 461505, $teddy_29$Asparaginase (Erwinia)
+110$teddy_29$, 'pending-clinical-verification'),
+  ($teddy_30_id$asparaginase-erwinia$teddy_30_id$, $teddy_30_name$Asparaginase (Erwinia)$teddy_30_name$, $teddy_30_source$Teddy bear.pdf$teddy_30_source$, 461505, $teddy_30$Asparaginase (Erwinia)
 Brand names            Erwinase
                        Note: Elspar (asparaginase) was discontinued as of December 31, 2012.
 
@@ -5588,8 +5588,8 @@ REFERENCES
 
 
 
-                                                                                                                                                    113
-Asparaginase–Pegylated (Pegaspargase)
+                                                                                                                                                    113$teddy_30$, 'pending-clinical-verification'),
+  ($teddy_31_id$asparaginase-pegylated-pegaspargase$teddy_31_id$, $teddy_31_name$Asparaginase–Pegylated (Pegaspargase)$teddy_31_name$, $teddy_31_source$Teddy bear.pdf$teddy_31_source$, 470209, $teddy_31$Asparaginase–Pegylated (Pegaspargase)
 Brand names            Oncaspar
 
 
@@ -5707,8 +5707,8 @@ REFERENCES
 
 
 
-                                                                                                                                               115$teddy_29$, 'pending-clinical-verification'),
-  ($teddy_30_id$atracurium-besylate$teddy_30_id$, $teddy_30_name$Atracurium Besylate$teddy_30_name$, $teddy_30_source$Teddy bear.pdf$teddy_30_source$, 477897, $teddy_30$Atracurium Besylate
+                                                                                                                                               115$teddy_31$, 'pending-clinical-verification'),
+  ($teddy_32_id$atracurium-besylate$teddy_32_id$, $teddy_32_name$Atracurium Besylate$teddy_32_name$, $teddy_32_source$Teddy bear.pdf$teddy_32_source$, 477897, $teddy_32$Atracurium Besylate
 Brand names         Tracrium, generic
 
 
@@ -5929,8 +5929,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 119$teddy_30$, 'pending-clinical-verification'),
-  ($teddy_31_id$atropine-sulfate$teddy_31_id$, $teddy_31_name$Atropine Sulfate$teddy_31_name$, $teddy_31_source$Teddy bear.pdf$teddy_31_source$, 494821, $teddy_31$Atropine Sulfate
+                                                                                                                                                 119$teddy_32$, 'pending-clinical-verification'),
+  ($teddy_33_id$atropine-sulfate$teddy_33_id$, $teddy_33_name$Atropine Sulfate$teddy_33_name$, $teddy_33_source$Teddy bear.pdf$teddy_33_source$, 494821, $teddy_33$Atropine Sulfate
 Brand names         Atropine sulfate, generic; AtroPen (auto-injector)
 
 
@@ -6165,8 +6165,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                   123$teddy_31$, 'pending-clinical-verification'),
-  ($teddy_32_id$azithromycin$teddy_32_id$, $teddy_32_name$Azithromycin$teddy_32_name$, $teddy_32_source$Teddy bear.pdf$teddy_32_source$, 513192, $teddy_32$Azithromycin
+                                                                                                                                                   123$teddy_33$, 'pending-clinical-verification'),
+  ($teddy_34_id$azithromycin$teddy_34_id$, $teddy_34_name$Azithromycin$teddy_34_name$, $teddy_34_source$Teddy bear.pdf$teddy_34_source$, 513192, $teddy_34$Azithromycin
 Brand names            Zithromax
 
 
@@ -6286,8 +6286,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   125$teddy_32$, 'pending-clinical-verification'),
-  ($teddy_33_id$aztreonam$teddy_33_id$, $teddy_33_name$Aztreonam$teddy_33_name$, $teddy_33_source$Teddy bear.pdf$teddy_33_source$, 521161, $teddy_33$Aztreonam
+                                                                                                                                                   125$teddy_34$, 'pending-clinical-verification'),
+  ($teddy_35_id$aztreonam$teddy_35_id$, $teddy_35_name$Aztreonam$teddy_35_name$, $teddy_35_source$Teddy bear.pdf$teddy_35_source$, 521161, $teddy_35$Aztreonam
 Brand names            Azactam
 
 
@@ -6425,8 +6425,8 @@ REFERENCES
 
 
 
-                                                                                                                                                         127$teddy_33$, 'pending-clinical-verification'),
-  ($teddy_34_id$baclofen$teddy_34_id$, $teddy_34_name$Baclofen$teddy_34_name$, $teddy_34_source$Teddy bear.pdf$teddy_34_source$, 530933, $teddy_34$Baclofen
+                                                                                                                                                         127$teddy_35$, 'pending-clinical-verification'),
+  ($teddy_36_id$baclofen$teddy_36_id$, $teddy_36_name$Baclofen$teddy_36_name$, $teddy_36_source$Teddy bear.pdf$teddy_36_source$, 530933, $teddy_36$Baclofen
 Brand names         Lioresal IT (intrathecal)
 
 Medication error    High-alert medication associated with significant patient harm should an error occur.(1)
@@ -6671,8 +6671,8 @@ REFERENCES
 
 
 
-                                                                                                                                                       131$teddy_34$, 'pending-clinical-verification'),
-  ($teddy_35_id$bivalirudin$teddy_35_id$, $teddy_35_name$Bivalirudin$teddy_35_name$, $teddy_35_source$Teddy bear.pdf$teddy_35_source$, 552469, $teddy_35$Bivalirudin
+                                                                                                                                                       131$teddy_36$, 'pending-clinical-verification'),
+  ($teddy_37_id$bivalirudin$teddy_37_id$, $teddy_37_name$Bivalirudin$teddy_37_name$, $teddy_37_source$Teddy bear.pdf$teddy_37_source$, 552469, $teddy_37$Bivalirudin
 Brand names            Angiomax
 
 
@@ -6826,8 +6826,8 @@ REFERENCES
 
 
 
-134$teddy_35$, 'pending-clinical-verification'),
-  ($teddy_36_id$bumetanide$teddy_36_id$, $teddy_36_name$Bumetanide$teddy_36_name$, $teddy_36_source$Teddy bear.pdf$teddy_36_source$, 562506, $teddy_36$Bumetanide
+134$teddy_37$, 'pending-clinical-verification'),
+  ($teddy_38_id$bumetanide$teddy_38_id$, $teddy_38_name$Bumetanide$teddy_38_name$, $teddy_38_source$Teddy bear.pdf$teddy_38_source$, 562506, $teddy_38$Bumetanide
 Brand names            Bumex
 
 
@@ -6997,8 +6997,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-138$teddy_36$, 'pending-clinical-verification'),
-  ($teddy_37_id$bupivacaine$teddy_37_id$, $teddy_37_name$Bupivacaine$teddy_37_name$, $teddy_37_source$Teddy bear.pdf$teddy_37_source$, 574680, $teddy_37$Bupivacaine
+138$teddy_38$, 'pending-clinical-verification'),
+  ($teddy_39_id$bupivacaine$teddy_39_id$, $teddy_39_name$Bupivacaine$teddy_39_name$, $teddy_39_source$Teddy bear.pdf$teddy_39_source$, 574680, $teddy_39$Bupivacaine
 Brand names         Exparel, Marcaine, Sensorcaine, Sensorcaine-MPF
 
 
@@ -7196,8 +7196,8 @@ REFERENCES
 
 
 
-142$teddy_37$, 'pending-clinical-verification'),
-  ($teddy_38_id$busulfan$teddy_38_id$, $teddy_38_name$Busulfan$teddy_38_name$, $teddy_38_source$Teddy bear.pdf$teddy_38_source$, 589682, $teddy_38$Busulfan
+142$teddy_39$, 'pending-clinical-verification'),
+  ($teddy_40_id$busulfan$teddy_40_id$, $teddy_40_name$Busulfan$teddy_40_name$, $teddy_40_source$Teddy bear.pdf$teddy_40_source$, 589682, $teddy_40$Busulfan
 Brand names            Busulfex
 
 
@@ -7319,8 +7319,8 @@ REFERENCES
 
 
 
-                                                                                                                                                145$teddy_38$, 'pending-clinical-verification'),
-  ($teddy_39_id$caffeine-citrate$teddy_39_id$, $teddy_39_name$Caffeine Citrate$teddy_39_name$, $teddy_39_source$Teddy bear.pdf$teddy_39_source$, 597396, $teddy_39$Caffeine Citrate
+                                                                                                                                                145$teddy_40$, 'pending-clinical-verification'),
+  ($teddy_41_id$caffeine-citrate$teddy_41_id$, $teddy_41_name$Caffeine Citrate$teddy_41_name$, $teddy_41_source$Teddy bear.pdf$teddy_41_source$, 597396, $teddy_41$Caffeine Citrate
 Brand names         Cafcit, generic
 
 Medication error    Use caution in calculation of dose and selection of formulation. The dose of caffeine base
@@ -7493,8 +7493,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-148$teddy_39$, 'pending-clinical-verification'),
-  ($teddy_40_id$calcitriol$teddy_40_id$, $teddy_40_name$Calcitriol$teddy_40_name$, $teddy_40_source$Teddy bear.pdf$teddy_40_source$, 610747, $teddy_40$Calcitriol
+148$teddy_41$, 'pending-clinical-verification'),
+  ($teddy_42_id$calcitriol$teddy_42_id$, $teddy_42_name$Calcitriol$teddy_42_name$, $teddy_42_source$Teddy bear.pdf$teddy_42_source$, 610747, $teddy_42$Calcitriol
 Brand names            Generics, Rocatrol
 
 
@@ -7611,8 +7611,8 @@ REFERENCES
 
 
 
-                                                                                                                                                    151$teddy_40$, 'pending-clinical-verification'),
-  ($teddy_41_id$calcium-chloride$teddy_41_id$, $teddy_41_name$Calcium Chloride$teddy_41_name$, $teddy_41_source$Teddy bear.pdf$teddy_41_source$, 618097, $teddy_41$Calcium Chloride
+                                                                                                                                                    151$teddy_42$, 'pending-clinical-verification'),
+  ($teddy_43_id$calcium-chloride$teddy_43_id$, $teddy_43_name$Calcium Chloride$teddy_43_name$, $teddy_43_source$Teddy bear.pdf$teddy_43_source$, 618097, $teddy_43$Calcium Chloride
 Brand names         Generics
 
 
@@ -7772,8 +7772,8 @@ REFERENCES
 
 
 
-154$teddy_41$, 'pending-clinical-verification'),
-  ($teddy_42_id$calcium-gluconate$teddy_42_id$, $teddy_42_name$Calcium Gluconate$teddy_42_name$, $teddy_42_source$Teddy bear.pdf$teddy_42_source$, 628975, $teddy_42$Calcium Gluconate
+154$teddy_43$, 'pending-clinical-verification'),
+  ($teddy_44_id$calcium-gluconate$teddy_44_id$, $teddy_44_name$Calcium Gluconate$teddy_44_name$, $teddy_44_source$Teddy bear.pdf$teddy_44_source$, 628975, $teddy_44$Calcium Gluconate
 Brand names         Generics
 
 Medication error    Look-alike, sound-alike drug names
@@ -7996,8 +7996,8 @@ REFERENCES
 
 
 
-                                                                                                                                                       159$teddy_42$, 'pending-clinical-verification'),
-  ($teddy_43_id$caspofungin$teddy_43_id$, $teddy_43_name$Caspofungin$teddy_43_name$, $teddy_43_source$Teddy bear.pdf$teddy_43_source$, 647607, $teddy_43$Caspofungin
+                                                                                                                                                       159$teddy_44$, 'pending-clinical-verification'),
+  ($teddy_45_id$caspofungin$teddy_45_id$, $teddy_45_name$Caspofungin$teddy_45_name$, $teddy_45_source$Teddy bear.pdf$teddy_45_source$, 647607, $teddy_45$Caspofungin
 Brand names            Cancidas
 
 
@@ -8168,8 +8168,8 @@ REFERENCES
 
 
 
-162$teddy_43$, 'pending-clinical-verification'),
-  ($teddy_44_id$cefazolin-sodium$teddy_44_id$, $teddy_44_name$CeFAZolin Sodium$teddy_44_name$, $teddy_44_source$Teddy bear.pdf$teddy_44_source$, 660340, $teddy_44$CeFAZolin Sodium
+162$teddy_45$, 'pending-clinical-verification'),
+  ($teddy_46_id$cefazolin-sodium$teddy_46_id$, $teddy_46_name$CeFAZolin Sodium$teddy_46_name$, $teddy_46_source$Teddy bear.pdf$teddy_46_source$, 660340, $teddy_46$CeFAZolin Sodium
 Brand names         Generic
 
 
@@ -8322,8 +8322,8 @@ REFERENCES
 
 
 
-166$teddy_44$, 'pending-clinical-verification'),
-  ($teddy_45_id$cefepime$teddy_45_id$, $teddy_45_name$Cefepime$teddy_45_name$, $teddy_45_source$Teddy bear.pdf$teddy_45_source$, 670785, $teddy_45$Cefepime
+166$teddy_46$, 'pending-clinical-verification'),
+  ($teddy_47_id$cefepime$teddy_47_id$, $teddy_47_name$Cefepime$teddy_47_name$, $teddy_47_source$Teddy bear.pdf$teddy_47_source$, 670785, $teddy_47$Cefepime
 Brand names            Maxipime
 
 
@@ -8490,8 +8490,8 @@ REFERENCES
 
 
 
-170$teddy_45$, 'pending-clinical-verification'),
-  ($teddy_46_id$cefotaxime-sodium$teddy_46_id$, $teddy_46_name$Cefotaxime Sodium$teddy_46_name$, $teddy_46_source$Teddy bear.pdf$teddy_46_source$, 682845, $teddy_46$Cefotaxime Sodium
+170$teddy_47$, 'pending-clinical-verification'),
+  ($teddy_48_id$cefotaxime-sodium$teddy_48_id$, $teddy_48_name$Cefotaxime Sodium$teddy_48_name$, $teddy_48_source$Teddy bear.pdf$teddy_48_source$, 682845, $teddy_48$Cefotaxime Sodium
 Brand names         Claforan
 
 
@@ -8648,8 +8648,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-174$teddy_46$, 'pending-clinical-verification'),
-  ($teddy_47_id$cefotetan-disodium$teddy_47_id$, $teddy_47_name$CefoTEtan Disodium$teddy_47_name$, $teddy_47_source$Teddy bear.pdf$teddy_47_source$, 693079, $teddy_47$CefoTEtan Disodium
+174$teddy_48$, 'pending-clinical-verification'),
+  ($teddy_49_id$cefotetan-disodium$teddy_49_id$, $teddy_49_name$CefoTEtan Disodium$teddy_49_name$, $teddy_49_source$Teddy bear.pdf$teddy_49_source$, 693079, $teddy_49$CefoTEtan Disodium
 Brand names            Generics
 
 
@@ -8770,8 +8770,8 @@ REFERENCES
 
 
 
-                                                                                                                                           177$teddy_47$, 'pending-clinical-verification'),
-  ($teddy_48_id$cefoxitin-sodium$teddy_48_id$, $teddy_48_name$CefOXitin Sodium$teddy_48_name$, $teddy_48_source$Teddy bear.pdf$teddy_48_source$, 701267, $teddy_48$CefOXitin Sodium
+                                                                                                                                           177$teddy_49$, 'pending-clinical-verification'),
+  ($teddy_50_id$cefoxitin-sodium$teddy_50_id$, $teddy_50_name$CefOXitin Sodium$teddy_50_name$, $teddy_50_source$Teddy bear.pdf$teddy_50_source$, 701267, $teddy_50$CefOXitin Sodium
 Brand names            Generics
 
 
@@ -8900,8 +8900,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                        179$teddy_48$, 'pending-clinical-verification'),
-  ($teddy_49_id$ceftaroline$teddy_49_id$, $teddy_49_name$Ceftaroline$teddy_49_name$, $teddy_49_source$Teddy bear.pdf$teddy_49_source$, 710089, $teddy_49$Ceftaroline
+                                                                                                                                                        179$teddy_50$, 'pending-clinical-verification'),
+  ($teddy_51_id$ceftaroline$teddy_51_id$, $teddy_51_name$Ceftaroline$teddy_51_name$, $teddy_51_source$Teddy bear.pdf$teddy_51_source$, 710089, $teddy_51$Ceftaroline
 Brand names             Teflaro
 
 
@@ -9008,8 +9008,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                    181$teddy_49$, 'pending-clinical-verification'),
-  ($teddy_50_id$ceftazidime$teddy_50_id$, $teddy_50_name$CefTAZidime$teddy_50_name$, $teddy_50_source$Teddy bear.pdf$teddy_50_source$, 716437, $teddy_50$CefTAZidime
+                                                                                                                                                    181$teddy_51$, 'pending-clinical-verification'),
+  ($teddy_52_id$ceftazidime$teddy_52_id$, $teddy_52_name$CefTAZidime$teddy_52_name$, $teddy_52_source$Teddy bear.pdf$teddy_52_source$, 716437, $teddy_52$CefTAZidime
 Brand names            Fortaz
 
 Medication error       ISMP reports that cefTAZidime has been confused with ceFAZolin, cefoTEtan, cefTRIAX-
@@ -9193,8 +9193,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-184$teddy_50$, 'pending-clinical-verification'),
-  ($teddy_51_id$ceftriaxone-sodium$teddy_51_id$, $teddy_51_name$CefTRIAXone Sodium$teddy_51_name$, $teddy_51_source$Teddy bear.pdf$teddy_51_source$, 731262, $teddy_51$CefTRIAXone Sodium
+184$teddy_52$, 'pending-clinical-verification'),
+  ($teddy_53_id$ceftriaxone-sodium$teddy_53_id$, $teddy_53_name$CefTRIAXone Sodium$teddy_53_name$, $teddy_53_source$Teddy bear.pdf$teddy_53_source$, 731262, $teddy_53$CefTRIAXone Sodium
 Brand names         Rocephin
 
 
@@ -9387,8 +9387,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-188$teddy_51$, 'pending-clinical-verification'),
-  ($teddy_52_id$cefuroxime-sodium$teddy_52_id$, $teddy_52_name$Cefuroxime Sodium$teddy_52_name$, $teddy_52_source$Teddy bear.pdf$teddy_52_source$, 745173, $teddy_52$Cefuroxime Sodium
+188$teddy_53$, 'pending-clinical-verification'),
+  ($teddy_54_id$cefuroxime-sodium$teddy_54_id$, $teddy_54_name$Cefuroxime Sodium$teddy_54_name$, $teddy_54_source$Teddy bear.pdf$teddy_54_source$, 745173, $teddy_54$Cefuroxime Sodium
 Brand names            Zinacef
 
 
@@ -9544,8 +9544,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-192$teddy_52$, 'pending-clinical-verification'),
-  ($teddy_53_id$chloramphenicol-sodium-succinate$teddy_53_id$, $teddy_53_name$Chloramphenicol Sodium Succinate$teddy_53_name$, $teddy_53_source$Teddy bear.pdf$teddy_53_source$, 755811, $teddy_53$Chloramphenicol Sodium Succinate
+192$teddy_54$, 'pending-clinical-verification'),
+  ($teddy_55_id$chloramphenicol-sodium-succinate$teddy_55_id$, $teddy_55_name$Chloramphenicol Sodium Succinate$teddy_55_name$, $teddy_55_source$Teddy bear.pdf$teddy_55_source$, 755811, $teddy_55$Chloramphenicol Sodium Succinate
 Brand names            Chloromycetin, generic
 
 
@@ -9734,8 +9734,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-196$teddy_53$, 'pending-clinical-verification'),
-  ($teddy_54_id$chlorothiazide$teddy_54_id$, $teddy_54_name$Chlorothiazide$teddy_54_name$, $teddy_54_source$Teddy bear.pdf$teddy_54_source$, 770743, $teddy_54$Chlorothiazide
+196$teddy_55$, 'pending-clinical-verification'),
+  ($teddy_56_id$chlorothiazide$teddy_56_id$, $teddy_56_name$Chlorothiazide$teddy_56_name$, $teddy_56_source$Teddy bear.pdf$teddy_56_source$, 770743, $teddy_56$Chlorothiazide
 Brand names            Diuril, generics
 
 
@@ -9837,8 +9837,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                     199$teddy_54$, 'pending-clinical-verification'),
-  ($teddy_55_id$chlorpromazine-hcl$teddy_55_id$, $teddy_55_name$ChlorproMAZINE HCl$teddy_55_name$, $teddy_55_source$Teddy bear.pdf$teddy_55_source$, 776335, $teddy_55$ChlorproMAZINE HCl
+                                                                                                                                                     199$teddy_56$, 'pending-clinical-verification'),
+  ($teddy_57_id$chlorpromazine-hcl$teddy_57_id$, $teddy_57_name$ChlorproMAZINE HCl$teddy_57_name$, $teddy_57_source$Teddy bear.pdf$teddy_57_source$, 776335, $teddy_57$ChlorproMAZINE HCl
 Brand names         Thorazine, generic
 
 
@@ -10037,8 +10037,8 @@ REFERENCES
 
 
 
-                                                                                                                                               203$teddy_55$, 'pending-clinical-verification'),
-  ($teddy_56_id$ciprofloxacin-lactate$teddy_56_id$, $teddy_56_name$Ciprofloxacin Lactate$teddy_56_name$, $teddy_56_source$Teddy bear.pdf$teddy_56_source$, 790464, $teddy_56$Ciprofloxacin Lactate
+                                                                                                                                               203$teddy_57$, 'pending-clinical-verification'),
+  ($teddy_58_id$ciprofloxacin-lactate$teddy_58_id$, $teddy_58_name$Ciprofloxacin Lactate$teddy_58_name$, $teddy_58_source$Teddy bear.pdf$teddy_58_source$, 790464, $teddy_58$Ciprofloxacin Lactate
 Brand names            Cipro IV
 
 
@@ -10207,8 +10207,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-206$teddy_56$, 'pending-clinical-verification'),
-  ($teddy_57_id$cisatracurium-besylate$teddy_57_id$, $teddy_57_name$Cisatracurium Besylate$teddy_57_name$, $teddy_57_source$Teddy bear.pdf$teddy_57_source$, 803400, $teddy_57$Cisatracurium Besylate
+206$teddy_58$, 'pending-clinical-verification'),
+  ($teddy_59_id$cisatracurium-besylate$teddy_59_id$, $teddy_59_name$Cisatracurium Besylate$teddy_59_name$, $teddy_59_source$Teddy bear.pdf$teddy_59_source$, 803400, $teddy_59$Cisatracurium Besylate
 Brand names            Nimbex
 
 
@@ -10370,8 +10370,8 @@ REFERENCES
 
 
 
-210$teddy_57$, 'pending-clinical-verification'),
-  ($teddy_58_id$cisplatin$teddy_58_id$, $teddy_58_name$CISplatin$teddy_58_name$, $teddy_58_source$Teddy bear.pdf$teddy_58_source$, 815161, $teddy_58$CISplatin
+210$teddy_59$, 'pending-clinical-verification'),
+  ($teddy_60_id$cisplatin$teddy_60_id$, $teddy_60_name$CISplatin$teddy_60_name$, $teddy_60_source$Teddy bear.pdf$teddy_60_source$, 815161, $teddy_60$CISplatin
 Brand names         Platinol, generic
 
 Medication error    ISMP high-alert medication that has an increased risk of causing significant patient harm
@@ -10594,8 +10594,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 215$teddy_58$, 'pending-clinical-verification'),
-  ($teddy_59_id$clindamycin-phosphate$teddy_59_id$, $teddy_59_name$Clindamycin Phosphate$teddy_59_name$, $teddy_59_source$Teddy bear.pdf$teddy_59_source$, 833401, $teddy_59$Clindamycin Phosphate
+                                                                                                                                                 215$teddy_60$, 'pending-clinical-verification'),
+  ($teddy_61_id$clindamycin-phosphate$teddy_61_id$, $teddy_61_name$Clindamycin Phosphate$teddy_61_name$, $teddy_61_source$Teddy bear.pdf$teddy_61_source$, 833401, $teddy_61$Clindamycin Phosphate
 Brand names         Cleocin
 
 
@@ -10761,8 +10761,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-218$teddy_59$, 'pending-clinical-verification'),
-  ($teddy_60_id$clofarabine$teddy_60_id$, $teddy_60_name$Clofarabine$teddy_60_name$, $teddy_60_source$Teddy bear.pdf$teddy_60_source$, 844801, $teddy_60$Clofarabine
+218$teddy_61$, 'pending-clinical-verification'),
+  ($teddy_62_id$clofarabine$teddy_62_id$, $teddy_62_name$Clofarabine$teddy_62_name$, $teddy_62_source$Teddy bear.pdf$teddy_62_source$, 844801, $teddy_62$Clofarabine
 Brand names            Clolar, generic
 
 
@@ -10908,8 +10908,8 @@ REFERENCES
 
 
 
-222
-Co-Trimoxazole
+222$teddy_62$, 'pending-clinical-verification'),
+  ($teddy_63_id$co-trimoxazole-trimethoprim-sulfamethoxazole$teddy_63_id$, $teddy_63_name$Co-Trimoxazole (Trimethoprim–Sulfamethoxazole)$teddy_63_name$, $teddy_63_source$Teddy bear.pdf$teddy_63_source$, 854190, $teddy_63$Co-Trimoxazole
 ( Trimethoprim–Sulfamethoxazole)
 Brand names            Generic
 
@@ -11054,8 +11054,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-226$teddy_60$, 'pending-clinical-verification'),
-  ($teddy_61_id$coagulation-factor-viia-recombinant-rfviia$teddy_61_id$, $teddy_61_name$Coagulation Factor VIIa (Recombinant) (rFVIIa)$teddy_61_name$, $teddy_61_source$Teddy bear.pdf$teddy_61_source$, 865128, $teddy_61$Coagulation Factor VIIa (Recombinant) (rFVIIa)
+226$teddy_63$, 'pending-clinical-verification'),
+  ($teddy_64_id$coagulation-factor-viia-recombinant-rfviia$teddy_64_id$, $teddy_64_name$Coagulation Factor VIIa (Recombinant) (rFVIIa)$teddy_64_name$, $teddy_64_source$Teddy bear.pdf$teddy_64_source$, 865128, $teddy_64$Coagulation Factor VIIa (Recombinant) (rFVIIa)
 Brand names         NovoSeven RT
 
 
@@ -11241,8 +11241,8 @@ REFERENCES
 
 
 
-230$teddy_61$, 'pending-clinical-verification'),
-  ($teddy_62_id$conivaptan$teddy_62_id$, $teddy_62_name$Conivaptan$teddy_62_name$, $teddy_62_source$Teddy bear.pdf$teddy_62_source$, 879476, $teddy_62$Conivaptan
+230$teddy_64$, 'pending-clinical-verification'),
+  ($teddy_65_id$conivaptan$teddy_65_id$, $teddy_65_name$Conivaptan$teddy_65_name$, $teddy_65_source$Teddy bear.pdf$teddy_65_source$, 879476, $teddy_65$Conivaptan
 Brand names         Vaprisol
 
 
@@ -11396,8 +11396,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-234$teddy_62$, 'pending-clinical-verification'),
-  ($teddy_63_id$cyclophosphamide$teddy_63_id$, $teddy_63_name$Cyclophosphamide$teddy_63_name$, $teddy_63_source$Teddy bear.pdf$teddy_63_source$, 890076, $teddy_63$Cyclophosphamide
+234$teddy_65$, 'pending-clinical-verification'),
+  ($teddy_66_id$cyclophosphamide$teddy_66_id$, $teddy_66_name$Cyclophosphamide$teddy_66_name$, $teddy_66_source$Teddy bear.pdf$teddy_66_source$, 890076, $teddy_66$Cyclophosphamide
 Brand names            Cytoxan, generic
 
 
@@ -11550,8 +11550,8 @@ REFERENCES
 
 
 
-238$teddy_63$, 'pending-clinical-verification'),
-  ($teddy_64_id$cyclosporine$teddy_64_id$, $teddy_64_name$CycloSPORINE$teddy_64_name$, $teddy_64_source$Teddy bear.pdf$teddy_64_source$, 900662, $teddy_64$CycloSPORINE
+238$teddy_66$, 'pending-clinical-verification'),
+  ($teddy_67_id$cyclosporine$teddy_67_id$, $teddy_67_name$CycloSPORINE$teddy_67_name$, $teddy_67_source$Teddy bear.pdf$teddy_67_source$, 900662, $teddy_67$CycloSPORINE
 Brand names            Sandimmune
 
 
@@ -11751,8 +11751,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-242$teddy_64$, 'pending-clinical-verification'),
-  ($teddy_65_id$cysteine-hcl$teddy_65_id$, $teddy_65_name$Cysteine HCl$teddy_65_name$, $teddy_65_source$Teddy bear.pdf$teddy_65_source$, 916329, $teddy_65$Cysteine HCl
+242$teddy_67$, 'pending-clinical-verification'),
+  ($teddy_68_id$cysteine-hcl$teddy_68_id$, $teddy_68_name$Cysteine HCl$teddy_68_name$, $teddy_68_source$Teddy bear.pdf$teddy_68_source$, 916329, $teddy_68$Cysteine HCl
 Brand names            Generics
 
 
@@ -11876,8 +11876,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 245$teddy_65$, 'pending-clinical-verification'),
-  ($teddy_66_id$cytarabine$teddy_66_id$, $teddy_66_name$Cytarabine$teddy_66_name$, $teddy_66_source$Teddy bear.pdf$teddy_66_source$, 924779, $teddy_66$Cytarabine
+                                                                                                                                                 245$teddy_68$, 'pending-clinical-verification'),
+  ($teddy_69_id$cytarabine$teddy_69_id$, $teddy_69_name$Cytarabine$teddy_69_name$, $teddy_69_source$Teddy bear.pdf$teddy_69_source$, 924779, $teddy_69$Cytarabine
 Brand names         Cytosar, generic
 
 
@@ -12055,8 +12055,8 @@ REFERENCES
 
 
 
-248$teddy_66$, 'pending-clinical-verification'),
-  ($teddy_67_id$cytomegalovirus-immunoglobulin$teddy_67_id$, $teddy_67_name$Cytomegalovirus Immunoglobulin$teddy_67_name$, $teddy_67_source$Teddy bear.pdf$teddy_67_source$, 937642, $teddy_67$Cytomegalovirus Immunoglobulin
+248$teddy_69$, 'pending-clinical-verification'),
+  ($teddy_70_id$cytomegalovirus-immunoglobulin$teddy_70_id$, $teddy_70_name$Cytomegalovirus Immunoglobulin$teddy_70_name$, $teddy_70_source$Teddy bear.pdf$teddy_70_source$, 937642, $teddy_70$Cytomegalovirus Immunoglobulin
 Brand names            CytoGam
 
 
@@ -12188,8 +12188,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 251$teddy_67$, 'pending-clinical-verification'),
-  ($teddy_68_id$dactinomycin$teddy_68_id$, $teddy_68_name$DACTINomycin$teddy_68_name$, $teddy_68_source$Teddy bear.pdf$teddy_68_source$, 946715, $teddy_68$DACTINomycin
+                                                                                                                                                 251$teddy_70$, 'pending-clinical-verification'),
+  ($teddy_71_id$dactinomycin$teddy_71_id$, $teddy_71_name$DACTINomycin$teddy_71_name$, $teddy_71_source$Teddy bear.pdf$teddy_71_source$, 946715, $teddy_71$DACTINomycin
 Brand names         Cosmegen
 
 
@@ -12368,8 +12368,8 @@ REFERENCES
 
 
 
-254$teddy_68$, 'pending-clinical-verification'),
-  ($teddy_69_id$daptomycin$teddy_69_id$, $teddy_69_name$DAPTOmycin$teddy_69_name$, $teddy_69_source$Teddy bear.pdf$teddy_69_source$, 959375, $teddy_69$DAPTOmycin
+254$teddy_71$, 'pending-clinical-verification'),
+  ($teddy_72_id$daptomycin$teddy_72_id$, $teddy_72_name$DAPTOmycin$teddy_72_name$, $teddy_72_source$Teddy bear.pdf$teddy_72_source$, 959375, $teddy_72$DAPTOmycin
 Brand names         Cubicin, Cubicin RF
 
 
@@ -12533,8 +12533,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-258$teddy_69$, 'pending-clinical-verification'),
-  ($teddy_70_id$darbepoetin-alfa$teddy_70_id$, $teddy_70_name$Darbepoetin Alfa$teddy_70_name$, $teddy_70_source$Teddy bear.pdf$teddy_70_source$, 969969, $teddy_70$Darbepoetin Alfa
+258$teddy_72$, 'pending-clinical-verification'),
+  ($teddy_73_id$darbepoetin-alfa$teddy_73_id$, $teddy_73_name$Darbepoetin Alfa$teddy_73_name$, $teddy_73_source$Teddy bear.pdf$teddy_73_source$, 969969, $teddy_73$Darbepoetin Alfa
 Brand names         Aranesp
 
 
@@ -12687,8 +12687,8 @@ REFERENCES
 
 
 
-262$teddy_70$, 'pending-clinical-verification'),
-  ($teddy_71_id$daunorubicin$teddy_71_id$, $teddy_71_name$DAUNOrubicin$teddy_71_name$, $teddy_71_source$Teddy bear.pdf$teddy_71_source$, 981352, $teddy_71$DAUNOrubicin
+262$teddy_73$, 'pending-clinical-verification'),
+  ($teddy_74_id$daunorubicin$teddy_74_id$, $teddy_74_name$DAUNOrubicin$teddy_74_name$, $teddy_74_source$Teddy bear.pdf$teddy_74_source$, 981352, $teddy_74$DAUNOrubicin
 Brand names         Cerubidine, generic
 
 
@@ -12851,8 +12851,8 @@ REFERENCES
 
 
 
-266$teddy_71$, 'pending-clinical-verification'),
-  ($teddy_72_id$deferoxamine-mesylate$teddy_72_id$, $teddy_72_name$Deferoxamine Mesylate$teddy_72_name$, $teddy_72_source$Teddy bear.pdf$teddy_72_source$, 992647, $teddy_72$Deferoxamine Mesylate
+266$teddy_74$, 'pending-clinical-verification'),
+  ($teddy_75_id$deferoxamine-mesylate$teddy_75_id$, $teddy_75_name$Deferoxamine Mesylate$teddy_75_name$, $teddy_75_source$Teddy bear.pdf$teddy_75_source$, 992647, $teddy_75$Deferoxamine Mesylate
 Brand names         Desferal, generic
 
 Medication error    Look-alike, sound-alike drug names. Deferoxamine may be confused with cefuroxime,
@@ -13080,8 +13080,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                271$teddy_72$, 'pending-clinical-verification'),
-  ($teddy_73_id$dexamethasone-sodium-phosphate$teddy_73_id$, $teddy_73_name$Dexamethasone Sodium Phosphate$teddy_73_name$, $teddy_73_source$Teddy bear.pdf$teddy_73_source$, 1012289, $teddy_73$Dexamethasone Sodium Phosphate
+                                                                                                                                                271$teddy_75$, 'pending-clinical-verification'),
+  ($teddy_76_id$dexamethasone-sodium-phosphate$teddy_76_id$, $teddy_76_name$Dexamethasone Sodium Phosphate$teddy_76_name$, $teddy_76_source$Teddy bear.pdf$teddy_76_source$, 1012289, $teddy_76$Dexamethasone Sodium Phosphate
 Brand names         Decadron, generic
 
 Medication error    Look-alike, sound-alike drug names
@@ -13444,8 +13444,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                               277$teddy_73$, 'pending-clinical-verification'),
-  ($teddy_74_id$dexmedetomidine-hcl$teddy_74_id$, $teddy_74_name$Dexmedetomidine HCl$teddy_74_name$, $teddy_74_source$Teddy bear.pdf$teddy_74_source$, 1043940, $teddy_74$Dexmedetomidine HCl
+                                                                                                                                               277$teddy_76$, 'pending-clinical-verification'),
+  ($teddy_77_id$dexmedetomidine-hcl$teddy_77_id$, $teddy_77_name$Dexmedetomidine HCl$teddy_77_name$, $teddy_77_source$Teddy bear.pdf$teddy_77_source$, 1043940, $teddy_77$Dexmedetomidine HCl
 Brand names         Precedex
 
 
@@ -13840,8 +13840,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 283$teddy_74$, 'pending-clinical-verification'),
-  ($teddy_75_id$dextrose$teddy_75_id$, $teddy_75_name$Dextrose$teddy_75_name$, $teddy_75_source$Teddy bear.pdf$teddy_75_source$, 1078282, $teddy_75$Dextrose
+                                                                                                                                                 283$teddy_77$, 'pending-clinical-verification'),
+  ($teddy_78_id$dextrose$teddy_78_id$, $teddy_78_name$Dextrose$teddy_78_name$, $teddy_78_source$Teddy bear.pdf$teddy_78_source$, 1078282, $teddy_78$Dextrose
 Brand names            Generics
 
 
@@ -13991,8 +13991,8 @@ REFERENCES
 
 
 
-286$teddy_75$, 'pending-clinical-verification'),
-  ($teddy_76_id$diazepam$teddy_76_id$, $teddy_76_name$DiazePAM$teddy_76_name$, $teddy_76_source$Teddy bear.pdf$teddy_76_source$, 1088377, $teddy_76$DiazePAM
+286$teddy_78$, 'pending-clinical-verification'),
+  ($teddy_79_id$diazepam$teddy_79_id$, $teddy_79_name$DiazePAM$teddy_79_name$, $teddy_79_source$Teddy bear.pdf$teddy_79_source$, 1088377, $teddy_79$DiazePAM
 Brand names         Valium, Zetran, generic
 
 Medication error    High-alert medication associated with an increased risk of causing significant patient
@@ -14228,8 +14228,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                    291$teddy_76$, 'pending-clinical-verification'),
-  ($teddy_77_id$digoxin$teddy_77_id$, $teddy_77_name$Digoxin$teddy_77_name$, $teddy_77_source$Teddy bear.pdf$teddy_77_source$, 1108898, $teddy_77$Digoxin
+                                                                                                                                                    291$teddy_79$, 'pending-clinical-verification'),
+  ($teddy_80_id$digoxin$teddy_80_id$, $teddy_80_name$Digoxin$teddy_80_name$, $teddy_80_source$Teddy bear.pdf$teddy_80_source$, 1108898, $teddy_80$Digoxin
 Brand names            Lanoxin, Lanoxin Pediatric Injection, generics
 
 
@@ -14448,8 +14448,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                  295$teddy_77$, 'pending-clinical-verification'),
-  ($teddy_78_id$digoxin-immune-fab$teddy_78_id$, $teddy_78_name$Digoxin Immune Fab$teddy_78_name$, $teddy_78_source$Teddy bear.pdf$teddy_78_source$, 1126108, $teddy_78$Digoxin Immune Fab
+                                                                                                                                                  295$teddy_80$, 'pending-clinical-verification'),
+  ($teddy_81_id$digoxin-immune-fab$teddy_81_id$, $teddy_81_name$Digoxin Immune Fab$teddy_81_name$, $teddy_81_source$Teddy bear.pdf$teddy_81_source$, 1126108, $teddy_81$Digoxin Immune Fab
 Brand names         DigiFab
 
 Medication error    Look-alike, sound-alike drug names. Digoxin immune fab may be confused with digoxin.(1)
@@ -14659,8 +14659,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   299$teddy_78$, 'pending-clinical-verification'),
-  ($teddy_79_id$dihydroergotamine-mesylate$teddy_79_id$, $teddy_79_name$Dihydroergotamine Mesylate$teddy_79_name$, $teddy_79_source$Teddy bear.pdf$teddy_79_source$, 1142612, $teddy_79$Dihydroergotamine Mesylate
+                                                                                                                                                   299$teddy_81$, 'pending-clinical-verification'),
+  ($teddy_82_id$dihydroergotamine-mesylate$teddy_82_id$, $teddy_82_name$Dihydroergotamine Mesylate$teddy_82_name$, $teddy_82_source$Teddy bear.pdf$teddy_82_source$, 1142612, $teddy_82$Dihydroergotamine Mesylate
 Brand names         D.H.E. 45, and generics
 
 Medication error    None reported
@@ -14807,8 +14807,8 @@ REFERENCES
 
 
 
-302$teddy_79$, 'pending-clinical-verification'),
-  ($teddy_80_id$diltiazem-hcl$teddy_80_id$, $teddy_80_name$DilTIAZem HCl$teddy_80_name$, $teddy_80_source$Teddy bear.pdf$teddy_80_source$, 1152718, $teddy_80$DilTIAZem HCl
+302$teddy_82$, 'pending-clinical-verification'),
+  ($teddy_83_id$diltiazem-hcl$teddy_83_id$, $teddy_83_name$DilTIAZem HCl$teddy_83_name$, $teddy_83_source$Teddy bear.pdf$teddy_83_source$, 1152718, $teddy_83$DilTIAZem HCl
 Brand names            Cardizem injectable, generic
 
 
@@ -14931,8 +14931,8 @@ REFERENCES
 
 
 
-                                                                                                                                               305$teddy_80$, 'pending-clinical-verification'),
-  ($teddy_81_id$diphenhydramine-hcl$teddy_81_id$, $teddy_81_name$DiphenhydrAMINE HCl$teddy_81_name$, $teddy_81_source$Teddy bear.pdf$teddy_81_source$, 1160702, $teddy_81$DiphenhydrAMINE HCl
+                                                                                                                                               305$teddy_83$, 'pending-clinical-verification'),
+  ($teddy_84_id$diphenhydramine-hcl$teddy_84_id$, $teddy_84_name$DiphenhydrAMINE HCl$teddy_84_name$, $teddy_84_source$Teddy bear.pdf$teddy_84_source$, 1160702, $teddy_84$DiphenhydrAMINE HCl
 Brand names             Benadryl, generic
 
 
@@ -15048,8 +15048,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                 307$teddy_81$, 'pending-clinical-verification'),
-  ($teddy_82_id$dobutamine-hcl$teddy_82_id$, $teddy_82_name$DOBUTamine HCl$teddy_82_name$, $teddy_82_source$Teddy bear.pdf$teddy_82_source$, 1167932, $teddy_82$DOBUTamine HCl
+                                                                                                                                                 307$teddy_84$, 'pending-clinical-verification'),
+  ($teddy_85_id$dobutamine-hcl$teddy_85_id$, $teddy_85_name$DOBUTamine HCl$teddy_85_name$, $teddy_85_source$Teddy bear.pdf$teddy_85_source$, 1167932, $teddy_85$DOBUTamine HCl
 Brand names            Generic
 
 
@@ -15223,8 +15223,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-310$teddy_82$, 'pending-clinical-verification'),
-  ($teddy_83_id$dolasetron-mesylate$teddy_83_id$, $teddy_83_name$Dolasetron Mesylate$teddy_83_name$, $teddy_83_source$Teddy bear.pdf$teddy_83_source$, 1180970, $teddy_83$Dolasetron Mesylate
+310$teddy_85$, 'pending-clinical-verification'),
+  ($teddy_86_id$dolasetron-mesylate$teddy_86_id$, $teddy_86_name$Dolasetron Mesylate$teddy_86_name$, $teddy_86_source$Teddy bear.pdf$teddy_86_source$, 1180970, $teddy_86$Dolasetron Mesylate
 Brand names             Anzemet
 
 
@@ -15316,8 +15316,8 @@ REFERENCES
 
 
 
-                                                                                                                                             313$teddy_83$, 'pending-clinical-verification'),
-  ($teddy_84_id$dopamine-hcl$teddy_84_id$, $teddy_84_name$DOPamine HCl$teddy_84_name$, $teddy_84_source$Teddy bear.pdf$teddy_84_source$, 1185730, $teddy_84$DOPamine HCl
+                                                                                                                                             313$teddy_86$, 'pending-clinical-verification'),
+  ($teddy_87_id$dopamine-hcl$teddy_87_id$, $teddy_87_name$DOPamine HCl$teddy_87_name$, $teddy_87_source$Teddy bear.pdf$teddy_87_source$, 1185730, $teddy_87$DOPamine HCl
 Brand names         Generic
 
 Medication error    ISMP high-alert medication that has an increased risk of causing significant patient harm
@@ -15562,8 +15562,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                    317$teddy_84$, 'pending-clinical-verification'),
-  ($teddy_85_id$doripenem$teddy_85_id$, $teddy_85_name$Doripenem$teddy_85_name$, $teddy_85_source$Teddy bear.pdf$teddy_85_source$, 1205996, $teddy_85$Doripenem
+                                                                                                                                                    317$teddy_87$, 'pending-clinical-verification'),
+  ($teddy_88_id$doripenem$teddy_88_id$, $teddy_88_name$Doripenem$teddy_88_name$, $teddy_88_source$Teddy bear.pdf$teddy_88_source$, 1205996, $teddy_88$Doripenem
 Brand names            Doribax
 
 
@@ -15684,8 +15684,8 @@ REFERENCES
 
 
 
-                                                                                                                                                      319$teddy_85$, 'pending-clinical-verification'),
-  ($teddy_86_id$doxapram-hcl$teddy_86_id$, $teddy_86_name$Doxapram HCl$teddy_86_name$, $teddy_86_source$Teddy bear.pdf$teddy_86_source$, 1213855, $teddy_86$Doxapram HCl
+                                                                                                                                                      319$teddy_88$, 'pending-clinical-verification'),
+  ($teddy_89_id$doxapram-hcl$teddy_89_id$, $teddy_89_name$Doxapram HCl$teddy_89_name$, $teddy_89_source$Teddy bear.pdf$teddy_89_source$, 1213855, $teddy_89$Doxapram HCl
 Brand names            Dopram, generic
 
 
@@ -15822,8 +15822,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   321$teddy_86$, 'pending-clinical-verification'),
-  ($teddy_87_id$doxorubicin$teddy_87_id$, $teddy_87_name$DOXOrubicin$teddy_87_name$, $teddy_87_source$Teddy bear.pdf$teddy_87_source$, 1223585, $teddy_87$DOXOrubicin
+                                                                                                                                                   321$teddy_89$, 'pending-clinical-verification'),
+  ($teddy_90_id$doxorubicin$teddy_90_id$, $teddy_90_name$DOXOrubicin$teddy_90_name$, $teddy_90_source$Teddy bear.pdf$teddy_90_source$, 1223585, $teddy_90$DOXOrubicin
 Brand names         Adriamycin, generic
 
 
@@ -16036,8 +16036,8 @@ REFERENCES
 
 
 
-                                                                                                                                                325$teddy_87$, 'pending-clinical-verification'),
-  ($teddy_88_id$doxycycline-hyclate$teddy_88_id$, $teddy_88_name$Doxycycline Hyclate$teddy_88_name$, $teddy_88_source$Teddy bear.pdf$teddy_88_source$, 1239844, $teddy_88$Doxycycline Hyclate
+                                                                                                                                                325$teddy_90$, 'pending-clinical-verification'),
+  ($teddy_91_id$doxycycline-hyclate$teddy_91_id$, $teddy_91_name$Doxycycline Hyclate$teddy_91_name$, $teddy_91_source$Teddy bear.pdf$teddy_91_source$, 1239844, $teddy_91$Doxycycline Hyclate
 Brand names             Vibramycin and generics
 
 
@@ -16138,8 +16138,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                             327$teddy_88$, 'pending-clinical-verification'),
-  ($teddy_89_id$droperidol$teddy_89_id$, $teddy_89_name$Droperidol$teddy_89_name$, $teddy_89_source$Teddy bear.pdf$teddy_89_source$, 1245354, $teddy_89$Droperidol
+                                                                                                                                             327$teddy_91$, 'pending-clinical-verification'),
+  ($teddy_92_id$droperidol$teddy_92_id$, $teddy_92_name$Droperidol$teddy_92_name$, $teddy_92_source$Teddy bear.pdf$teddy_92_source$, 1245354, $teddy_92$Droperidol
 Brand names            Inapsine, generic
 
 
@@ -16256,8 +16256,8 @@ REFERENCES
 
 
 
-                                                                                                                                                  329$teddy_89$, 'pending-clinical-verification'),
-  ($teddy_90_id$edetate-calcium-disodium$teddy_90_id$, $teddy_90_name$Edetate Calcium Disodium$teddy_90_name$, $teddy_90_source$Teddy bear.pdf$teddy_90_source$, 1252605, $teddy_90$Edetate Calcium Disodium
+                                                                                                                                                  329$teddy_92$, 'pending-clinical-verification'),
+  ($teddy_93_id$edetate-calcium-disodium$teddy_93_id$, $teddy_93_name$Edetate Calcium Disodium$teddy_93_name$, $teddy_93_source$Teddy bear.pdf$teddy_93_source$, 1252605, $teddy_93$Edetate Calcium Disodium
 Brand names         Edetate calcium disodium (calcium disodium versenate) has also been referred to as
                     calcium EDTA (see the Contraindications and Warnings section).
 
@@ -16424,8 +16424,8 @@ REFERENCES
 
 
 
-332$teddy_90$, 'pending-clinical-verification'),
-  ($teddy_91_id$edrophonium-chloride$teddy_91_id$, $teddy_91_name$Edrophonium Chloride$teddy_91_name$, $teddy_91_source$Teddy bear.pdf$teddy_91_source$, 1265390, $teddy_91$Edrophonium Chloride
+332$teddy_93$, 'pending-clinical-verification'),
+  ($teddy_94_id$edrophonium-chloride$teddy_94_id$, $teddy_94_name$Edrophonium Chloride$teddy_94_name$, $teddy_94_source$Teddy bear.pdf$teddy_94_source$, 1265390, $teddy_94$Edrophonium Chloride
 Brand names         Enlon, Tensilon
 
 
@@ -16579,8 +16579,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-336$teddy_91$, 'pending-clinical-verification'),
-  ($teddy_92_id$enalaprilat$teddy_92_id$, $teddy_92_name$Enalaprilat$teddy_92_name$, $teddy_92_source$Teddy bear.pdf$teddy_92_source$, 1275381, $teddy_92$Enalaprilat
+336$teddy_94$, 'pending-clinical-verification'),
+  ($teddy_95_id$enalaprilat$teddy_95_id$, $teddy_95_name$Enalaprilat$teddy_95_name$, $teddy_95_source$Teddy bear.pdf$teddy_95_source$, 1275381, $teddy_95$Enalaprilat
 Brand names            Vasotec IV and generics
 
 
@@ -16741,8 +16741,8 @@ REFERENCES
 
 
 
-340$teddy_92$, 'pending-clinical-verification'),
-  ($teddy_93_id$enoxaparin-sodium$teddy_93_id$, $teddy_93_name$Enoxaparin Sodium$teddy_93_name$, $teddy_93_source$Teddy bear.pdf$teddy_93_source$, 1287211, $teddy_93$Enoxaparin Sodium
+340$teddy_95$, 'pending-clinical-verification'),
+  ($teddy_96_id$enoxaparin-sodium$teddy_96_id$, $teddy_96_name$Enoxaparin Sodium$teddy_96_name$, $teddy_96_source$Teddy bear.pdf$teddy_96_source$, 1287211, $teddy_96$Enoxaparin Sodium
 Brand names         Lovenox
 
 
@@ -17055,8 +17055,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-346$teddy_93$, 'pending-clinical-verification'),
-  ($teddy_94_id$epinephrine-hcl$teddy_94_id$, $teddy_94_name$EPINEPHrine HCl$teddy_94_name$, $teddy_94_source$Teddy bear.pdf$teddy_94_source$, 1312578, $teddy_94$EPINEPHrine HCl
+346$teddy_96$, 'pending-clinical-verification'),
+  ($teddy_97_id$epinephrine-hcl$teddy_97_id$, $teddy_97_name$EPINEPHrine HCl$teddy_97_name$, $teddy_97_source$Teddy bear.pdf$teddy_97_source$, 1312578, $teddy_97$EPINEPHrine HCl
 Brand names         Adrenaclick, Adrenalin, Epinephrine Snap, EpiPen, EpiPen Jr, Twinject, generic
 
 
@@ -17320,8 +17320,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                      351$teddy_94$, 'pending-clinical-verification'),
-  ($teddy_95_id$epoetin-alfa$teddy_95_id$, $teddy_95_name$Epoetin Alfa$teddy_95_name$, $teddy_95_source$Teddy bear.pdf$teddy_95_source$, 1334786, $teddy_95$Epoetin Alfa
+                                                                                                                                                      351$teddy_97$, 'pending-clinical-verification'),
+  ($teddy_98_id$epoetin-alfa$teddy_98_id$, $teddy_98_name$Epoetin Alfa$teddy_98_name$, $teddy_98_source$Teddy bear.pdf$teddy_98_source$, 1334786, $teddy_98$Epoetin Alfa
 Brand names         Epogen, Procrit
 
 
@@ -17515,8 +17515,8 @@ REFERENCES
 
 
 
-354$teddy_95$, 'pending-clinical-verification'),
-  ($teddy_96_id$ertapenem$teddy_96_id$, $teddy_96_name$Ertapenem$teddy_96_name$, $teddy_96_source$Teddy bear.pdf$teddy_96_source$, 1349814, $teddy_96$Ertapenem
+354$teddy_98$, 'pending-clinical-verification'),
+  ($teddy_99_id$ertapenem$teddy_99_id$, $teddy_99_name$Ertapenem$teddy_99_name$, $teddy_99_source$Teddy bear.pdf$teddy_99_source$, 1349814, $teddy_99$Ertapenem
 Brand names            Invanz
 
 
@@ -17641,8 +17641,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                        357$teddy_96$, 'pending-clinical-verification'),
-  ($teddy_97_id$erythromycin-gluceptate-lactobionate$teddy_97_id$, $teddy_97_name$Erythromycin Gluceptate/Lactobionate$teddy_97_name$, $teddy_97_source$Teddy bear.pdf$teddy_97_source$, 1358319, $teddy_97$Erythromycin Gluceptate/Lactobionate
+                                                                                                                                                        357$teddy_99$, 'pending-clinical-verification'),
+  ($teddy_100_id$erythromycin-gluceptate-lactobionate$teddy_100_id$, $teddy_100_name$Erythromycin Gluceptate/Lactobionate$teddy_100_name$, $teddy_100_source$Teddy bear.pdf$teddy_100_source$, 1358319, $teddy_100$Erythromycin Gluceptate/Lactobionate
 Brand names            Erythrocin Lactobionate-IV, Ilotycin Gluceptate
 
 
@@ -17790,8 +17790,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-360$teddy_97$, 'pending-clinical-verification'),
-  ($teddy_98_id$esmolol-hcl$teddy_98_id$, $teddy_98_name$Esmolol HCl$teddy_98_name$, $teddy_98_source$Teddy bear.pdf$teddy_98_source$, 1368398, $teddy_98$Esmolol HCl
+360$teddy_100$, 'pending-clinical-verification'),
+  ($teddy_101_id$esmolol-hcl$teddy_101_id$, $teddy_101_name$Esmolol HCl$teddy_101_name$, $teddy_101_source$Teddy bear.pdf$teddy_101_source$, 1368398, $teddy_101$Esmolol HCl
 Brand names         Brevibloc, Brevibloc in NaCl, generic
 
 
@@ -17979,8 +17979,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-364$teddy_98$, 'pending-clinical-verification'),
-  ($teddy_99_id$esomeprazole$teddy_99_id$, $teddy_99_name$Esomeprazole$teddy_99_name$, $teddy_99_source$Teddy bear.pdf$teddy_99_source$, 1382535, $teddy_99$Esomeprazole
+364$teddy_101$, 'pending-clinical-verification'),
+  ($teddy_102_id$esomeprazole$teddy_102_id$, $teddy_102_name$Esomeprazole$teddy_102_name$, $teddy_102_source$Teddy bear.pdf$teddy_102_source$, 1382535, $teddy_102$Esomeprazole
 Brand names            Nexium, generic
 
 
@@ -18125,8 +18125,8 @@ REFERENCES
 
 
 
-368$teddy_99$, 'pending-clinical-verification'),
-  ($teddy_100_id$etanercept$teddy_100_id$, $teddy_100_name$Etanercept$teddy_100_name$, $teddy_100_source$Teddy bear.pdf$teddy_100_source$, 1392260, $teddy_100$Etanercept
+368$teddy_102$, 'pending-clinical-verification'),
+  ($teddy_103_id$etanercept$teddy_103_id$, $teddy_103_name$Etanercept$teddy_103_name$, $teddy_103_source$Teddy bear.pdf$teddy_103_source$, 1392260, $teddy_103$Etanercept
 Brand names            Enbrel
 
 
@@ -18266,8 +18266,8 @@ REFERENCES
 
 
 
-372$teddy_100$, 'pending-clinical-verification'),
-  ($teddy_101_id$ethacrynic-acid$teddy_101_id$, $teddy_101_name$Ethacrynic Acid$teddy_101_name$, $teddy_101_source$Teddy bear.pdf$teddy_101_source$, 1401368, $teddy_101$Ethacrynic Acid
+372$teddy_103$, 'pending-clinical-verification'),
+  ($teddy_104_id$ethacrynic-acid$teddy_104_id$, $teddy_104_name$Ethacrynic Acid$teddy_104_name$, $teddy_104_source$Teddy bear.pdf$teddy_104_source$, 1401368, $teddy_104$Ethacrynic Acid
 Brand names             Sodium Edecrin
 
 
@@ -18380,8 +18380,8 @@ REFERENCES
 
 
 
-                                                                                                                                                        375$teddy_101$, 'pending-clinical-verification'),
-  ($teddy_102_id$etomidate$teddy_102_id$, $teddy_102_name$Etomidate$teddy_102_name$, $teddy_102_source$Teddy bear.pdf$teddy_102_source$, 1408818, $teddy_102$Etomidate
+                                                                                                                                                        375$teddy_104$, 'pending-clinical-verification'),
+  ($teddy_105_id$etomidate$teddy_105_id$, $teddy_105_name$Etomidate$teddy_105_name$, $teddy_105_source$Teddy bear.pdf$teddy_105_source$, 1408818, $teddy_105$Etomidate
 Brand names            Amidate, generic
 
 
@@ -18564,8 +18564,8 @@ REFERENCES
 
 
 
-378$teddy_102$, 'pending-clinical-verification'),
-  ($teddy_103_id$etoposide$teddy_103_id$, $teddy_103_name$Etoposide$teddy_103_name$, $teddy_103_source$Teddy bear.pdf$teddy_103_source$, 1422740, $teddy_103$Etoposide
+378$teddy_105$, 'pending-clinical-verification'),
+  ($teddy_106_id$etoposide$teddy_106_id$, $teddy_106_name$Etoposide$teddy_106_name$, $teddy_106_source$Teddy bear.pdf$teddy_106_source$, 1422740, $teddy_106$Etoposide
 Brand names         Toposar, VePesid, VP-16, generic
 
 
@@ -18745,8 +18745,8 @@ REFERENCES
 
 
 
-382$teddy_103$, 'pending-clinical-verification'),
-  ($teddy_104_id$factor-ix-human$teddy_104_id$, $teddy_104_name$Factor IX (Human)$teddy_104_name$, $teddy_104_source$Teddy bear.pdf$teddy_104_source$, 1436330, $teddy_104$Factor IX (Human)
+382$teddy_106$, 'pending-clinical-verification'),
+  ($teddy_107_id$factor-ix-human$teddy_107_id$, $teddy_107_name$Factor IX (Human)$teddy_107_name$, $teddy_107_source$Teddy bear.pdf$teddy_107_source$, 1436330, $teddy_107$Factor IX (Human)
 Brand names         AlphaNine SD, BeneFIX, Mononine
 
 
@@ -18914,8 +18914,8 @@ REFERENCES
 
 
 
-386$teddy_104$, 'pending-clinical-verification'),
-  ($teddy_105_id$factor-ix-complex-human$teddy_105_id$, $teddy_105_name$Factor IX Complex (Human)$teddy_105_name$, $teddy_105_source$Teddy bear.pdf$teddy_105_source$, 1447757, $teddy_105$Factor IX Complex (Human)
+386$teddy_107$, 'pending-clinical-verification'),
+  ($teddy_108_id$factor-ix-complex-human$teddy_108_id$, $teddy_108_name$Factor IX Complex (Human)$teddy_108_name$, $teddy_108_source$Teddy bear.pdf$teddy_108_source$, 1447757, $teddy_108$Factor IX Complex (Human)
 Brand names         Bebulin VH, Profilnine SD
 
 
@@ -19077,8 +19077,8 @@ REFERENCES
 
 
 
-390$teddy_105$, 'pending-clinical-verification'),
-  ($teddy_106_id$famotidine$teddy_106_id$, $teddy_106_name$Famotidine$teddy_106_name$, $teddy_106_source$Teddy bear.pdf$teddy_106_source$, 1458345, $teddy_106$Famotidine
+390$teddy_108$, 'pending-clinical-verification'),
+  ($teddy_109_id$famotidine$teddy_109_id$, $teddy_109_name$Famotidine$teddy_109_name$, $teddy_109_source$Teddy bear.pdf$teddy_109_source$, 1458345, $teddy_109$Famotidine
 Brand names             Generic
 
 
@@ -19197,8 +19197,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                    393$teddy_106$, 'pending-clinical-verification'),
-  ($teddy_107_id$fenoldopam$teddy_107_id$, $teddy_107_name$Fenoldopam$teddy_107_name$, $teddy_107_source$Teddy bear.pdf$teddy_107_source$, 1465786, $teddy_107$Fenoldopam
+                                                                                                                                                    393$teddy_109$, 'pending-clinical-verification'),
+  ($teddy_110_id$fenoldopam$teddy_110_id$, $teddy_110_name$Fenoldopam$teddy_110_name$, $teddy_110_source$Teddy bear.pdf$teddy_110_source$, 1465786, $teddy_110$Fenoldopam
 Brand names            Corlopam
 
 
@@ -19329,8 +19329,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                     395$teddy_107$, 'pending-clinical-verification'),
-  ($teddy_108_id$fentanyl-citrate$teddy_108_id$, $teddy_108_name$FentaNYL Citrate$teddy_108_name$, $teddy_108_source$Teddy bear.pdf$teddy_108_source$, 1474375, $teddy_108$FentaNYL Citrate
+                                                                                                                                                     395$teddy_110$, 'pending-clinical-verification'),
+  ($teddy_111_id$fentanyl-citrate$teddy_111_id$, $teddy_111_name$FentaNYL Citrate$teddy_111_name$, $teddy_111_source$Teddy bear.pdf$teddy_111_source$, 1474375, $teddy_111$FentaNYL Citrate
 Brand names         Sublimaze, generic
 
 
@@ -19642,8 +19642,8 @@ REFERENCES
 
 
 
-400$teddy_108$, 'pending-clinical-verification'),
-  ($teddy_109_id$ferric-gluconate$teddy_109_id$, $teddy_109_name$Ferric Gluconate$teddy_109_name$, $teddy_109_source$Teddy bear.pdf$teddy_109_source$, 1499329, $teddy_109$Ferric Gluconate
+400$teddy_111$, 'pending-clinical-verification'),
+  ($teddy_112_id$ferric-gluconate$teddy_112_id$, $teddy_112_name$Ferric Gluconate$teddy_112_name$, $teddy_112_source$Teddy bear.pdf$teddy_112_source$, 1499329, $teddy_112$Ferric Gluconate
 Brand names             Ferrlecit
 
 
@@ -19746,8 +19746,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                    403$teddy_109$, 'pending-clinical-verification'),
-  ($teddy_110_id$filgrastim$teddy_110_id$, $teddy_110_name$Filgrastim$teddy_110_name$, $teddy_110_source$Teddy bear.pdf$teddy_110_source$, 1504967, $teddy_110$Filgrastim
+                                                                                                                                                    403$teddy_112$, 'pending-clinical-verification'),
+  ($teddy_113_id$filgrastim$teddy_113_id$, $teddy_113_name$Filgrastim$teddy_113_name$, $teddy_113_source$Teddy bear.pdf$teddy_113_source$, 1504967, $teddy_113$Filgrastim
 Brand names            Neupogen, Granulocyte Colony-Stimulating Factor, GCSF
 
 
@@ -19926,8 +19926,8 @@ REFERENCES
 
 
 
-406$teddy_110$, 'pending-clinical-verification'),
-  ($teddy_111_id$fluconazole$teddy_111_id$, $teddy_111_name$Fluconazole$teddy_111_name$, $teddy_111_source$Teddy bear.pdf$teddy_111_source$, 1517439, $teddy_111$Fluconazole
+406$teddy_113$, 'pending-clinical-verification'),
+  ($teddy_114_id$fluconazole$teddy_114_id$, $teddy_114_name$Fluconazole$teddy_114_name$, $teddy_114_source$Teddy bear.pdf$teddy_114_source$, 1517439, $teddy_114$Fluconazole
 Brand names            Generic
 
 
@@ -20087,8 +20087,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-410$teddy_111$, 'pending-clinical-verification'),
-  ($teddy_112_id$flumazenil$teddy_112_id$, $teddy_112_name$Flumazenil$teddy_112_name$, $teddy_112_source$Teddy bear.pdf$teddy_112_source$, 1528403, $teddy_112$Flumazenil
+410$teddy_114$, 'pending-clinical-verification'),
+  ($teddy_115_id$flumazenil$teddy_115_id$, $teddy_115_name$Flumazenil$teddy_115_name$, $teddy_115_source$Teddy bear.pdf$teddy_115_source$, 1528403, $teddy_115$Flumazenil
 Brand names         Romazicon, generic
 
 
@@ -20315,8 +20315,8 @@ REFERENCES
 
 
 
-                                                                                                                                                    415$teddy_112$, 'pending-clinical-verification'),
-  ($teddy_113_id$fomepizole$teddy_113_id$, $teddy_113_name$Fomepizole$teddy_113_name$, $teddy_113_source$Teddy bear.pdf$teddy_113_source$, 1546610, $teddy_113$Fomepizole
+                                                                                                                                                    415$teddy_115$, 'pending-clinical-verification'),
+  ($teddy_116_id$fomepizole$teddy_116_id$, $teddy_116_name$Fomepizole$teddy_116_name$, $teddy_116_source$Teddy bear.pdf$teddy_116_source$, 1546610, $teddy_116$Fomepizole
 Brand names         Antizol, generic
 
 
@@ -20498,8 +20498,8 @@ REFERENCES
 
 
 
-418$teddy_113$, 'pending-clinical-verification'),
-  ($teddy_114_id$foscarnet-sodium$teddy_114_id$, $teddy_114_name$Foscarnet Sodium$teddy_114_name$, $teddy_114_source$Teddy bear.pdf$teddy_114_source$, 1560073, $teddy_114$Foscarnet Sodium
+418$teddy_116$, 'pending-clinical-verification'),
+  ($teddy_117_id$foscarnet-sodium$teddy_117_id$, $teddy_117_name$Foscarnet Sodium$teddy_117_name$, $teddy_117_source$Teddy bear.pdf$teddy_117_source$, 1560073, $teddy_117$Foscarnet Sodium
 Brand names         Foscavir, generic
 
 
@@ -20689,8 +20689,8 @@ REFERENCES
 
 
 
-                                                                                                                                                  423$teddy_114$, 'pending-clinical-verification'),
-  ($teddy_115_id$fosphenytoin$teddy_115_id$, $teddy_115_name$Fosphenytoin$teddy_115_name$, $teddy_115_source$Teddy bear.pdf$teddy_115_source$, 1573513, $teddy_115$Fosphenytoin
+                                                                                                                                                  423$teddy_117$, 'pending-clinical-verification'),
+  ($teddy_118_id$fosphenytoin$teddy_118_id$, $teddy_118_name$Fosphenytoin$teddy_118_name$, $teddy_118_source$Teddy bear.pdf$teddy_118_source$, 1573513, $teddy_118$Fosphenytoin
 Brand names         Cerebyx, generic
 
 
@@ -21000,8 +21000,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-428$teddy_115$, 'pending-clinical-verification'),
-  ($teddy_116_id$furosemide$teddy_116_id$, $teddy_116_name$Furosemide$teddy_116_name$, $teddy_116_source$Teddy bear.pdf$teddy_116_source$, 1600206, $teddy_116$Furosemide
+428$teddy_118$, 'pending-clinical-verification'),
+  ($teddy_119_id$furosemide$teddy_119_id$, $teddy_119_name$Furosemide$teddy_119_name$, $teddy_119_source$Teddy bear.pdf$teddy_119_source$, 1600206, $teddy_119$Furosemide
 Brand names            Lasix
 
 
@@ -21245,8 +21245,8 @@ REFERENCES
 
 
 
-                                                                                                                                                  433$teddy_116$, 'pending-clinical-verification'),
-  ($teddy_117_id$ganciclovir-sodium$teddy_117_id$, $teddy_117_name$Ganciclovir Sodium$teddy_117_name$, $teddy_117_source$Teddy bear.pdf$teddy_117_source$, 1619629, $teddy_117$Ganciclovir Sodium
+                                                                                                                                                  433$teddy_119$, 'pending-clinical-verification'),
+  ($teddy_120_id$ganciclovir-sodium$teddy_120_id$, $teddy_120_name$Ganciclovir Sodium$teddy_120_name$, $teddy_120_source$Teddy bear.pdf$teddy_120_source$, 1619629, $teddy_120$Ganciclovir Sodium
 Brand names         Cytovene
 
 
@@ -21474,8 +21474,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                    437$teddy_117$, 'pending-clinical-verification'),
-  ($teddy_118_id$gentamicin-sulfate$teddy_118_id$, $teddy_118_name$Gentamicin Sulfate$teddy_118_name$, $teddy_118_source$Teddy bear.pdf$teddy_118_source$, 1637143, $teddy_118$Gentamicin Sulfate
+                                                                                                                                                    437$teddy_120$, 'pending-clinical-verification'),
+  ($teddy_121_id$gentamicin-sulfate$teddy_121_id$, $teddy_121_name$Gentamicin Sulfate$teddy_121_name$, $teddy_121_source$Teddy bear.pdf$teddy_121_source$, 1637143, $teddy_121$Gentamicin Sulfate
 Brand names         Generics
 
 
@@ -21738,8 +21738,8 @@ REFERENCES
 
 Note: Reference numbers may not be sequential. Some references from previous editions have been deleted.
 
-                                                                                                                                                       441$teddy_118$, 'pending-clinical-verification'),
-  ($teddy_119_id$glucarpidase$teddy_119_id$, $teddy_119_name$Glucarpidase$teddy_119_name$, $teddy_119_source$Teddy bear.pdf$teddy_119_source$, 1658996, $teddy_119$Glucarpidase
+                                                                                                                                                       441$teddy_121$, 'pending-clinical-verification'),
+  ($teddy_122_id$glucarpidase$teddy_122_id$, $teddy_122_name$Glucarpidase$teddy_122_name$, $teddy_122_source$Teddy bear.pdf$teddy_122_source$, 1658996, $teddy_122$Glucarpidase
 Brand names            Voraxaze
 
 
@@ -21894,8 +21894,8 @@ REFERENCES
 
 
 
-444$teddy_119$, 'pending-clinical-verification'),
-  ($teddy_120_id$glycopyrrolate$teddy_120_id$, $teddy_120_name$Glycopyrrolate$teddy_120_name$, $teddy_120_source$Teddy bear.pdf$teddy_120_source$, 1670848, $teddy_120$Glycopyrrolate
+444$teddy_122$, 'pending-clinical-verification'),
+  ($teddy_123_id$glycopyrrolate$teddy_123_id$, $teddy_123_name$Glycopyrrolate$teddy_123_name$, $teddy_123_source$Teddy bear.pdf$teddy_123_source$, 1670848, $teddy_123$Glycopyrrolate
 Brand names            Robinul, generic
 
 
@@ -22010,8 +22010,8 @@ REFERENCES
 
 
 
-                                                                                                                                                  447$teddy_120$, 'pending-clinical-verification'),
-  ($teddy_121_id$granisetron-hcl$teddy_121_id$, $teddy_121_name$Granisetron HCl$teddy_121_name$, $teddy_121_source$Teddy bear.pdf$teddy_121_source$, 1678468, $teddy_121$Granisetron HCl
+                                                                                                                                                  447$teddy_123$, 'pending-clinical-verification'),
+  ($teddy_124_id$granisetron-hcl$teddy_124_id$, $teddy_124_name$Granisetron HCl$teddy_124_name$, $teddy_124_source$Teddy bear.pdf$teddy_124_source$, 1678468, $teddy_124$Granisetron HCl
 Brand names            Kytril
 
 
@@ -22183,8 +22183,8 @@ REFERENCES
 
 
 
-450$teddy_121$, 'pending-clinical-verification'),
-  ($teddy_122_id$haloperidol-lactate$teddy_122_id$, $teddy_122_name$Haloperidol Lactate$teddy_122_name$, $teddy_122_source$Teddy bear.pdf$teddy_122_source$, 1691200, $teddy_122$Haloperidol Lactate
+450$teddy_124$, 'pending-clinical-verification'),
+  ($teddy_125_id$haloperidol-lactate$teddy_125_id$, $teddy_125_name$Haloperidol Lactate$teddy_125_name$, $teddy_125_source$Teddy bear.pdf$teddy_125_source$, 1691200, $teddy_125$Haloperidol Lactate
 Brand names            Haldol, generic
 
 
@@ -22341,8 +22341,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-454$teddy_122$, 'pending-clinical-verification'),
-  ($teddy_123_id$heparin-sodium$teddy_123_id$, $teddy_123_name$Heparin Sodium$teddy_123_name$, $teddy_123_source$Teddy bear.pdf$teddy_123_source$, 1702437, $teddy_123$Heparin Sodium
+454$teddy_125$, 'pending-clinical-verification'),
+  ($teddy_126_id$heparin-sodium$teddy_126_id$, $teddy_126_name$Heparin Sodium$teddy_126_name$, $teddy_126_source$Teddy bear.pdf$teddy_126_source$, 1702437, $teddy_126$Heparin Sodium
 Brand names         Generics
 
 Medication error    ISMP high-alert medication that has an increased risk of causing significant patient harm
@@ -22642,8 +22642,8 @@ REFERENCES
 
 
 
-460$teddy_123$, 'pending-clinical-verification'),
-  ($teddy_124_id$hydralazine-hcl$teddy_124_id$, $teddy_124_name$HydrALAZINE HCl$teddy_124_name$, $teddy_124_source$Teddy bear.pdf$teddy_124_source$, 1727947, $teddy_124$HydrALAZINE HCl
+460$teddy_126$, 'pending-clinical-verification'),
+  ($teddy_127_id$hydralazine-hcl$teddy_127_id$, $teddy_127_name$HydrALAZINE HCl$teddy_127_name$, $teddy_127_source$Teddy bear.pdf$teddy_127_source$, 1727947, $teddy_127$HydrALAZINE HCl
 Brand names            Apresoline, generic
 
 
@@ -22800,8 +22800,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-464$teddy_124$, 'pending-clinical-verification'),
-  ($teddy_125_id$hydrochloric-acid-hcl$teddy_125_id$, $teddy_125_name$Hydrochloric Acid (HCl)$teddy_125_name$, $teddy_125_source$Teddy bear.pdf$teddy_125_source$, 1740302, $teddy_125$Hydrochloric Acid (HCl)
+464$teddy_127$, 'pending-clinical-verification'),
+  ($teddy_128_id$hydrochloric-acid-hcl$teddy_128_id$, $teddy_128_name$Hydrochloric Acid (HCl)$teddy_128_name$, $teddy_128_source$Teddy bear.pdf$teddy_128_source$, 1740302, $teddy_128$Hydrochloric Acid (HCl)
 Brand names            Generics
 
 
@@ -22913,8 +22913,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   467$teddy_125$, 'pending-clinical-verification'),
-  ($teddy_126_id$hydrocortisone-sodium-succinate$teddy_126_id$, $teddy_126_name$Hydrocortisone Sodium Succinate$teddy_126_name$, $teddy_126_source$Teddy bear.pdf$teddy_126_source$, 1747932, $teddy_126$Hydrocortisone Sodium Succinate
+                                                                                                                                                   467$teddy_128$, 'pending-clinical-verification'),
+  ($teddy_129_id$hydrocortisone-sodium-succinate$teddy_129_id$, $teddy_129_name$Hydrocortisone Sodium Succinate$teddy_129_name$, $teddy_129_source$Teddy bear.pdf$teddy_129_source$, 1747932, $teddy_129$Hydrocortisone Sodium Succinate
 Brand names         A-HydroCort, Solu-Cortef
 
 
@@ -23165,8 +23165,8 @@ REFERENCES
 
 
 
-                                                                                                                                                    471$teddy_126$, 'pending-clinical-verification'),
-  ($teddy_127_id$hydroxocobalamin$teddy_127_id$, $teddy_127_name$Hydroxocobalamin$teddy_127_name$, $teddy_127_source$Teddy bear.pdf$teddy_127_source$, 1767778, $teddy_127$Hydroxocobalamin
+                                                                                                                                                    471$teddy_129$, 'pending-clinical-verification'),
+  ($teddy_130_id$hydroxocobalamin$teddy_130_id$, $teddy_130_name$Hydroxocobalamin$teddy_130_name$, $teddy_130_source$Teddy bear.pdf$teddy_130_source$, 1767778, $teddy_130$Hydroxocobalamin
 Brand names            Cyanokit, generic
 
 
@@ -23298,8 +23298,8 @@ REFERENCES
 
 
 
-474$teddy_127$, 'pending-clinical-verification'),
-  ($teddy_128_id$ibandronate-sodium$teddy_128_id$, $teddy_128_name$Ibandronate Sodium$teddy_128_name$, $teddy_128_source$Teddy bear.pdf$teddy_128_source$, 1776822, $teddy_128$Ibandronate Sodium
+474$teddy_130$, 'pending-clinical-verification'),
+  ($teddy_131_id$ibandronate-sodium$teddy_131_id$, $teddy_131_name$Ibandronate Sodium$teddy_131_name$, $teddy_131_source$Teddy bear.pdf$teddy_131_source$, 1776822, $teddy_131$Ibandronate Sodium
 Brand names            Boniva
 
 
@@ -23389,8 +23389,8 @@ REFERENCES
 
 
 
-                                                                                                                                                  477$teddy_128$, 'pending-clinical-verification'),
-  ($teddy_129_id$ibuprofen-lysine$teddy_129_id$, $teddy_129_name$Ibuprofen Lysine$teddy_129_name$, $teddy_129_source$Teddy bear.pdf$teddy_129_source$, 1782149, $teddy_129$Ibuprofen Lysine
+                                                                                                                                                  477$teddy_131$, 'pending-clinical-verification'),
+  ($teddy_132_id$ibuprofen-lysine$teddy_132_id$, $teddy_132_name$Ibuprofen Lysine$teddy_132_name$, $teddy_132_source$Teddy bear.pdf$teddy_132_source$, 1782149, $teddy_132$Ibuprofen Lysine
 Brand names            NeoProfen, Caldolor
 
 
@@ -23658,8 +23658,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                       481$teddy_129$, 'pending-clinical-verification'),
-  ($teddy_130_id$ifosfamide$teddy_130_id$, $teddy_130_name$Ifosfamide$teddy_130_name$, $teddy_130_source$Teddy bear.pdf$teddy_130_source$, 1805087, $teddy_130$Ifosfamide
+                                                                                                                                                       481$teddy_132$, 'pending-clinical-verification'),
+  ($teddy_133_id$ifosfamide$teddy_133_id$, $teddy_133_name$Ifosfamide$teddy_133_name$, $teddy_133_source$Teddy bear.pdf$teddy_133_source$, 1805087, $teddy_133$Ifosfamide
 Brand names            Ifex, generic
 
 
@@ -23788,8 +23788,8 @@ REFERENCES
 
 
 
-                                                                                                                                                  483
-Imipenem–Cilastatin Sodium
+                                                                                                                                                  483$teddy_133$, 'pending-clinical-verification'),
+  ($teddy_134_id$imipenem-cilastatin-sodium$teddy_134_id$, $teddy_134_name$Imipenem–Cilastatin Sodium$teddy_134_name$, $teddy_134_source$Teddy bear.pdf$teddy_134_source$, 1814915, $teddy_134$Imipenem–Cilastatin Sodium
 Brand names            Primaxin IM, Primaxin IV
 
 
@@ -23935,8 +23935,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-486$teddy_130$, 'pending-clinical-verification'),
-  ($teddy_131_id$immune-globulin-intravenous$teddy_131_id$, $teddy_131_name$Immune Globulin Intravenous$teddy_131_name$, $teddy_131_source$Teddy bear.pdf$teddy_131_source$, 1825481, $teddy_131$Immune Globulin Intravenous
+486$teddy_134$, 'pending-clinical-verification'),
+  ($teddy_135_id$immune-globulin-intravenous$teddy_135_id$, $teddy_135_name$Immune Globulin Intravenous$teddy_135_name$, $teddy_135_source$Teddy bear.pdf$teddy_135_source$, 1825481, $teddy_135$Immune Globulin Intravenous
 Brand names         Carimune NF, Flebogamma, GAMMAGARD LIQUID, GAMMAGARD S/D, Gamunex, Octagam,
                     Privigen, Gammaked
 
@@ -24182,8 +24182,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                    491$teddy_131$, 'pending-clinical-verification'),
-  ($teddy_132_id$indomethacin-sodium-trihydrate$teddy_132_id$, $teddy_132_name$Indomethacin Sodium Trihydrate$teddy_132_name$, $teddy_132_source$Teddy bear.pdf$teddy_132_source$, 1845218, $teddy_132$Indomethacin Sodium Trihydrate
+                                                                                                                                                    491$teddy_135$, 'pending-clinical-verification'),
+  ($teddy_136_id$indomethacin-sodium-trihydrate$teddy_136_id$, $teddy_136_name$Indomethacin Sodium Trihydrate$teddy_136_name$, $teddy_136_source$Teddy bear.pdf$teddy_136_source$, 1845218, $teddy_136$Indomethacin Sodium Trihydrate
 Brand names         Indocin IV, generic
 
 Medication error    None reported
@@ -24451,8 +24451,8 @@ REFERENCES
 
 Note: Reference numbers may not be sequential. Some references from previous editions have been deleted.
 
-                                                                                                                                                        495$teddy_132$, 'pending-clinical-verification'),
-  ($teddy_133_id$infliximab$teddy_133_id$, $teddy_133_name$InFLIXimab$teddy_133_name$, $teddy_133_source$Teddy bear.pdf$teddy_133_source$, 1868187, $teddy_133$InFLIXimab
+                                                                                                                                                        495$teddy_136$, 'pending-clinical-verification'),
+  ($teddy_137_id$infliximab$teddy_137_id$, $teddy_137_name$InFLIXimab$teddy_137_name$, $teddy_137_source$Teddy bear.pdf$teddy_137_source$, 1868187, $teddy_137$InFLIXimab
 Brand names         Remicade
 
 
@@ -24643,8 +24643,8 @@ REFERENCES
 
 
 
-498$teddy_133$, 'pending-clinical-verification'),
-  ($teddy_134_id$insulin-regular$teddy_134_id$, $teddy_134_name$Insulin (Regular)$teddy_134_name$, $teddy_134_source$Teddy bear.pdf$teddy_134_source$, 1882440, $teddy_134$Insulin (Regular)
+498$teddy_137$, 'pending-clinical-verification'),
+  ($teddy_138_id$insulin-regular$teddy_138_id$, $teddy_138_name$Insulin (Regular)$teddy_138_name$, $teddy_138_source$Teddy bear.pdf$teddy_138_source$, 1882440, $teddy_138$Insulin (Regular)
 Brand names         HumuLIN R, NovoLIN R, HumuLIN R (concentrated U-500)
 
 
@@ -24878,8 +24878,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                   503$teddy_134$, 'pending-clinical-verification'),
-  ($teddy_135_id$interferon-alfa-2b$teddy_135_id$, $teddy_135_name$Interferon Alfa-2b$teddy_135_name$, $teddy_135_source$Teddy bear.pdf$teddy_135_source$, 1901578, $teddy_135$Interferon Alfa-2b
+                                                                                                                                                   503$teddy_138$, 'pending-clinical-verification'),
+  ($teddy_139_id$interferon-alfa-2b$teddy_139_id$, $teddy_139_name$Interferon Alfa-2b$teddy_139_name$, $teddy_139_source$Teddy bear.pdf$teddy_139_source$, 1901578, $teddy_139$Interferon Alfa-2b
 Brand names            Intron A for Injection
 
 
@@ -25060,8 +25060,8 @@ REFERENCES
 
 
 
-506$teddy_135$, 'pending-clinical-verification'),
-  ($teddy_136_id$irinotecan-hcl$teddy_136_id$, $teddy_136_name$Irinotecan HCl$teddy_136_name$, $teddy_136_source$Teddy bear.pdf$teddy_136_source$, 1914489, $teddy_136$Irinotecan HCl
+506$teddy_139$, 'pending-clinical-verification'),
+  ($teddy_140_id$irinotecan-hcl$teddy_140_id$, $teddy_140_name$Irinotecan HCl$teddy_140_name$, $teddy_140_source$Teddy bear.pdf$teddy_140_source$, 1914489, $teddy_140$Irinotecan HCl
 Brand names         Camptosar, generic
 
 
@@ -25107,7 +25107,7 @@ Dosage              Consult institutional protocols for complete dosing informat
                         days 8–12 of a 28-day treatment cycle. May repeat if tolerated.(11)
                     Refractory solid tumors or CNS tumors: 50 mg/m2/day for 5 days repeated q 21
                     days(4,12-14,12)
-                        Heavily pretreated: 125 mg/m2/dose once weekly for 4 weeks, repeated q 6 wk(4,15)
+                         Heavily pretreated: 125 mg/m2/dose once weekly for 4 weeks, repeated q 6 wk(4,15)
                         Less heavily pretreated: 160 mg/m2/dose once weekly for 4 weeks, repeated q 6 wk(4,15)
 
 
@@ -25283,8 +25283,8 @@ REFERENCES
 
 
 
-                                                                                                                                                      511$teddy_136$, 'pending-clinical-verification'),
-  ($teddy_137_id$iron-dextran$teddy_137_id$, $teddy_137_name$Iron Dextran$teddy_137_name$, $teddy_137_source$Teddy bear.pdf$teddy_137_source$, 1930818, $teddy_137$Iron Dextran
+                                                                                                                                                      511$teddy_140$, 'pending-clinical-verification'),
+  ($teddy_141_id$iron-dextran$teddy_141_id$, $teddy_141_name$Iron Dextran$teddy_141_name$, $teddy_141_source$Teddy bear.pdf$teddy_141_source$, 1930818, $teddy_141$Iron Dextran
 Brand names         DexFerrum, INFeD
 
 
@@ -25360,7 +25360,7 @@ Dosage (cont.)   Anemia of prematurity: In conjunction with erythropoietin thera
                  on hemoglobin (Hb).(2)
                      5–15 kg
 
-                      Total iron dose (mL)* = 0.0442 (Desired Hb† – Observed Hb) × wt (kg) +
+                      Total iron dose (mL)* =  0.0442 (Desired Hb† – Observed Hb) × wt (kg) +
                                               (0.26 × wt [kg])
                      *50 mg/mL, undiluted product
                      †Desired Hb for children is usually 12 g/dL
@@ -25561,8 +25561,8 @@ REFERENCES
 
 
 
-516$teddy_137$, 'pending-clinical-verification'),
-  ($teddy_138_id$iron-sucrose$teddy_138_id$, $teddy_138_name$Iron Sucrose$teddy_138_name$, $teddy_138_source$Teddy bear.pdf$teddy_138_source$, 1951696, $teddy_138$Iron Sucrose
+516$teddy_141$, 'pending-clinical-verification'),
+  ($teddy_142_id$iron-sucrose$teddy_142_id$, $teddy_142_name$Iron Sucrose$teddy_142_name$, $teddy_142_source$Teddy bear.pdf$teddy_142_source$, 1951696, $teddy_142$Iron Sucrose
 Brand names         Venofer
 
 
@@ -25773,8 +25773,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   521$teddy_138$, 'pending-clinical-verification'),
-  ($teddy_139_id$isoproterenol-hcl$teddy_139_id$, $teddy_139_name$Isoproterenol HCl$teddy_139_name$, $teddy_139_source$Teddy bear.pdf$teddy_139_source$, 1967643, $teddy_139$Isoproterenol HCl
+                                                                                                                                                   521$teddy_142$, 'pending-clinical-verification'),
+  ($teddy_143_id$isoproterenol-hcl$teddy_143_id$, $teddy_143_name$Isoproterenol HCl$teddy_143_name$, $teddy_143_source$Teddy bear.pdf$teddy_143_source$, 1967643, $teddy_143$Isoproterenol HCl
 Brand names            Isuprel
 
 
@@ -25950,8 +25950,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-524$teddy_139$, 'pending-clinical-verification'),
-  ($teddy_140_id$kanamycin-sulfate$teddy_140_id$, $teddy_140_name$Kanamycin Sulfate$teddy_140_name$, $teddy_140_source$Teddy bear.pdf$teddy_140_source$, 1980551, $teddy_140$Kanamycin Sulfate
+524$teddy_143$, 'pending-clinical-verification'),
+  ($teddy_144_id$kanamycin-sulfate$teddy_144_id$, $teddy_144_name$Kanamycin Sulfate$teddy_144_name$, $teddy_144_source$Teddy bear.pdf$teddy_144_source$, 1980551, $teddy_144$Kanamycin Sulfate
 Brand names            Generic
 
 
@@ -26087,8 +26087,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                     527$teddy_140$, 'pending-clinical-verification'),
-  ($teddy_141_id$ketamine-hcl$teddy_141_id$, $teddy_141_name$Ketamine HCl$teddy_141_name$, $teddy_141_source$Teddy bear.pdf$teddy_141_source$, 1989585, $teddy_141$Ketamine HCl
+                                                                                                                                                     527$teddy_144$, 'pending-clinical-verification'),
+  ($teddy_145_id$ketamine-hcl$teddy_145_id$, $teddy_145_name$Ketamine HCl$teddy_145_name$, $teddy_145_source$Teddy bear.pdf$teddy_145_source$, 1989585, $teddy_145$Ketamine HCl
 Brand names         Ketalar, generic
 
 Medication error    Look-alike, sound-alike drug names. Confusion has been reported between Ketalar and
@@ -26319,8 +26319,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 531$teddy_141$, 'pending-clinical-verification'),
-  ($teddy_142_id$ketorolac-tromethamine$teddy_142_id$, $teddy_142_name$Ketorolac Tromethamine$teddy_142_name$, $teddy_142_source$Teddy bear.pdf$teddy_142_source$, 2009583, $teddy_142$Ketorolac Tromethamine
+                                                                                                                                                 531$teddy_145$, 'pending-clinical-verification'),
+  ($teddy_146_id$ketorolac-tromethamine$teddy_146_id$, $teddy_146_name$Ketorolac Tromethamine$teddy_146_name$, $teddy_146_source$Teddy bear.pdf$teddy_146_source$, 2009583, $teddy_146$Ketorolac Tromethamine
 Brand names         Generic
 
 
@@ -26584,8 +26584,8 @@ REFERENCES
 
 
 
-                                                                                                                                                    535$teddy_142$, 'pending-clinical-verification'),
-  ($teddy_143_id$labetalol-hcl$teddy_143_id$, $teddy_143_name$Labetalol HCl$teddy_143_name$, $teddy_143_source$Teddy bear.pdf$teddy_143_source$, 2031490, $teddy_143$Labetalol HCl
+                                                                                                                                                    535$teddy_146$, 'pending-clinical-verification'),
+  ($teddy_147_id$labetalol-hcl$teddy_147_id$, $teddy_147_name$Labetalol HCl$teddy_147_name$, $teddy_147_source$Teddy bear.pdf$teddy_147_source$, 2031490, $teddy_147$Labetalol HCl
 Brand names            Trandate injection, generics
 
 
@@ -26748,8 +26748,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-538$teddy_143$, 'pending-clinical-verification'),
-  ($teddy_144_id$lacosamide-injection$teddy_144_id$, $teddy_144_name$Lacosamide Injection$teddy_144_name$, $teddy_144_source$Teddy bear.pdf$teddy_144_source$, 2043127, $teddy_144$Lacosamide Injection
+538$teddy_147$, 'pending-clinical-verification'),
+  ($teddy_148_id$lacosamide-injection$teddy_148_id$, $teddy_148_name$Lacosamide Injection$teddy_148_name$, $teddy_148_source$Teddy bear.pdf$teddy_148_source$, 2043127, $teddy_148$Lacosamide Injection
 Brand names         Vimpat
 
 
@@ -26953,8 +26953,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-542$teddy_144$, 'pending-clinical-verification'),
-  ($teddy_145_id$leucovorin-calcium$teddy_145_id$, $teddy_145_name$Leucovorin Calcium$teddy_145_name$, $teddy_145_source$Teddy bear.pdf$teddy_145_source$, 2058693, $teddy_145$Leucovorin Calcium
+542$teddy_148$, 'pending-clinical-verification'),
+  ($teddy_149_id$leucovorin-calcium$teddy_149_id$, $teddy_149_name$Leucovorin Calcium$teddy_149_name$, $teddy_149_source$Teddy bear.pdf$teddy_149_source$, 2058693, $teddy_149$Leucovorin Calcium
 Brand names         Generic
 
 
@@ -27103,8 +27103,8 @@ REFERENCES
 
 
 
-546$teddy_145$, 'pending-clinical-verification'),
-  ($teddy_146_id$levetiracetam$teddy_146_id$, $teddy_146_name$LevETIRAcetam$teddy_146_name$, $teddy_146_source$Teddy bear.pdf$teddy_146_source$, 2068438, $teddy_146$LevETIRAcetam
+546$teddy_149$, 'pending-clinical-verification'),
+  ($teddy_150_id$levetiracetam$teddy_150_id$, $teddy_150_name$LevETIRAcetam$teddy_150_name$, $teddy_150_source$Teddy bear.pdf$teddy_150_source$, 2068438, $teddy_150$LevETIRAcetam
 Brand names         Keppra, generic
 
 Medication error    Look-alike, sound-alike drug names. Levetiracetam has been confusion with lamotrigine,
@@ -27321,8 +27321,8 @@ REFERENCES
 
 
 
-                                                                                                                                                  551$teddy_146$, 'pending-clinical-verification'),
-  ($teddy_147_id$levocarnitine$teddy_147_id$, $teddy_147_name$LevOCARNitine$teddy_147_name$, $teddy_147_source$Teddy bear.pdf$teddy_147_source$, 2087134, $teddy_147$LevOCARNitine
+                                                                                                                                                  551$teddy_150$, 'pending-clinical-verification'),
+  ($teddy_151_id$levocarnitine$teddy_151_id$, $teddy_151_name$LevOCARNitine$teddy_151_name$, $teddy_151_source$Teddy bear.pdf$teddy_151_source$, 2087134, $teddy_151$LevOCARNitine
 Brand names            Carnitor, generic
 
 
@@ -27482,8 +27482,8 @@ REFERENCES
 
 
 
-554$teddy_147$, 'pending-clinical-verification'),
-  ($teddy_148_id$levothyroxine-sodium$teddy_148_id$, $teddy_148_name$Levothyroxine Sodium$teddy_148_name$, $teddy_148_source$Teddy bear.pdf$teddy_148_source$, 2098567, $teddy_148$Levothyroxine Sodium
+554$teddy_151$, 'pending-clinical-verification'),
+  ($teddy_152_id$levothyroxine-sodium$teddy_152_id$, $teddy_152_name$Levothyroxine Sodium$teddy_152_name$, $teddy_152_source$Teddy bear.pdf$teddy_152_source$, 2098567, $teddy_152$Levothyroxine Sodium
 Brand names            Synthroid, generic
 
 
@@ -27600,8 +27600,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                   557$teddy_148$, 'pending-clinical-verification'),
-  ($teddy_149_id$lidocaine-hcl$teddy_149_id$, $teddy_149_name$Lidocaine HCl$teddy_149_name$, $teddy_149_source$Teddy bear.pdf$teddy_149_source$, 2105846, $teddy_149$Lidocaine HCl
+                                                                                                                                                   557$teddy_152$, 'pending-clinical-verification'),
+  ($teddy_153_id$lidocaine-hcl$teddy_153_id$, $teddy_153_name$Lidocaine HCl$teddy_153_name$, $teddy_153_source$Teddy bear.pdf$teddy_153_source$, 2105846, $teddy_153$Lidocaine HCl
 Brand names         Xylocaine, generic
 
 
@@ -27844,8 +27844,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                     561$teddy_149$, 'pending-clinical-verification'),
-  ($teddy_150_id$linezolid$teddy_150_id$, $teddy_150_name$Linezolid$teddy_150_name$, $teddy_150_source$Teddy bear.pdf$teddy_150_source$, 2125891, $teddy_150$Linezolid
+                                                                                                                                                     561$teddy_153$, 'pending-clinical-verification'),
+  ($teddy_154_id$linezolid$teddy_154_id$, $teddy_154_name$Linezolid$teddy_154_name$, $teddy_154_source$Teddy bear.pdf$teddy_154_source$, 2125891, $teddy_154$Linezolid
 Brand names         Zyvox
 
 
@@ -28045,8 +28045,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-564$teddy_150$, 'pending-clinical-verification'),
-  ($teddy_151_id$lorazepam$teddy_151_id$, $teddy_151_name$LORazepam$teddy_151_name$, $teddy_151_source$Teddy bear.pdf$teddy_151_source$, 2141819, $teddy_151$LORazepam
+564$teddy_154$, 'pending-clinical-verification'),
+  ($teddy_155_id$lorazepam$teddy_155_id$, $teddy_155_name$LORazepam$teddy_155_name$, $teddy_155_source$Teddy bear.pdf$teddy_155_source$, 2141819, $teddy_155$LORazepam
 Brand names         Ativan, generics
 
 
@@ -28306,8 +28306,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
                                                                                                                                                     569
-Lymphocyte Immune Globulin–Antithymocyte$teddy_151$, 'pending-clinical-verification'),
-  ($teddy_152_id$globulin-equine$teddy_152_id$, $teddy_152_name$Globulin (Equine)$teddy_152_name$, $teddy_152_source$Teddy bear.pdf$teddy_152_source$, 2164073, $teddy_152$Globulin (Equine)
+Lymphocyte Immune Globulin–Antithymocyte$teddy_155$, 'pending-clinical-verification'),
+  ($teddy_156_id$globulin-equine$teddy_156_id$, $teddy_156_name$Globulin (Equine)$teddy_156_name$, $teddy_156_source$Teddy bear.pdf$teddy_156_source$, 2164073, $teddy_156$Globulin (Equine)
 Brand names            Atgam
 
 
@@ -28478,8 +28478,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 572
                                                                                                                                                     
-Lymphocyte Immune Globulin–Antithymocyte$teddy_152$, 'pending-clinical-verification'),
-  ($teddy_153_id$globulin-rabbit$teddy_153_id$, $teddy_153_name$Globulin (Rabbit)$teddy_153_name$, $teddy_153_source$Teddy bear.pdf$teddy_153_source$, 2176033, $teddy_153$Globulin (Rabbit)
+Lymphocyte Immune Globulin–Antithymocyte$teddy_156$, 'pending-clinical-verification'),
+  ($teddy_157_id$globulin-rabbit$teddy_157_id$, $teddy_157_name$Globulin (Rabbit)$teddy_157_name$, $teddy_157_source$Teddy bear.pdf$teddy_157_source$, 2176033, $teddy_157$Globulin (Rabbit)
 Brand names            Thymoglobulin
 
 
@@ -28610,8 +28610,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                     575$teddy_153$, 'pending-clinical-verification'),
-  ($teddy_154_id$magnesium-sulfate$teddy_154_id$, $teddy_154_name$Magnesium Sulfate$teddy_154_name$, $teddy_154_source$Teddy bear.pdf$teddy_154_source$, 2184514, $teddy_154$Magnesium Sulfate
+                                                                                                                                                     575$teddy_157$, 'pending-clinical-verification'),
+  ($teddy_158_id$magnesium-sulfate$teddy_158_id$, $teddy_158_name$Magnesium Sulfate$teddy_158_name$, $teddy_158_source$Teddy bear.pdf$teddy_158_source$, 2184514, $teddy_158$Magnesium Sulfate
 Brand names         Generics, concentrations of 50%, 8%, 4%, 2%, and 1% are available.
 
 
@@ -28788,8 +28788,8 @@ REFERENCES
 
 
 
-578$teddy_154$, 'pending-clinical-verification'),
-  ($teddy_155_id$mannitol$teddy_155_id$, $teddy_155_name$Mannitol$teddy_155_name$, $teddy_155_source$Teddy bear.pdf$teddy_155_source$, 2197524, $teddy_155$Mannitol
+578$teddy_158$, 'pending-clinical-verification'),
+  ($teddy_159_id$mannitol$teddy_159_id$, $teddy_159_name$Mannitol$teddy_159_name$, $teddy_159_source$Teddy bear.pdf$teddy_159_source$, 2197524, $teddy_159$Mannitol
 Brand names            Osmitrol, generic
 
 
@@ -28943,8 +28943,8 @@ REFERENCES
 
 
 
-582$teddy_155$, 'pending-clinical-verification'),
-  ($teddy_156_id$meperidine-hcl$teddy_156_id$, $teddy_156_name$Meperidine HCl$teddy_156_name$, $teddy_156_source$Teddy bear.pdf$teddy_156_source$, 2208497, $teddy_156$Meperidine HCl
+582$teddy_159$, 'pending-clinical-verification'),
+  ($teddy_160_id$meperidine-hcl$teddy_160_id$, $teddy_160_name$Meperidine HCl$teddy_160_name$, $teddy_160_source$Teddy bear.pdf$teddy_160_source$, 2208497, $teddy_160$Meperidine HCl
 Brand names            Demerol, generic
 
 
@@ -29110,8 +29110,8 @@ REFERENCES
 
 
 
-586$teddy_156$, 'pending-clinical-verification'),
-  ($teddy_157_id$meropenem$teddy_157_id$, $teddy_157_name$Meropenem$teddy_157_name$, $teddy_157_source$Teddy bear.pdf$teddy_157_source$, 2220913, $teddy_157$Meropenem
+586$teddy_160$, 'pending-clinical-verification'),
+  ($teddy_161_id$meropenem$teddy_161_id$, $teddy_161_name$Meropenem$teddy_161_name$, $teddy_161_source$Teddy bear.pdf$teddy_161_source$, 2220913, $teddy_161$Meropenem
 Brand names            Merrem
 
 
@@ -29279,8 +29279,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-590$teddy_157$, 'pending-clinical-verification'),
-  ($teddy_158_id$methotrexate$teddy_158_id$, $teddy_158_name$Methotrexate$teddy_158_name$, $teddy_158_source$Teddy bear.pdf$teddy_158_source$, 2232551, $teddy_158$Methotrexate
+590$teddy_161$, 'pending-clinical-verification'),
+  ($teddy_162_id$methotrexate$teddy_162_id$, $teddy_162_name$Methotrexate$teddy_162_name$, $teddy_162_source$Teddy bear.pdf$teddy_162_source$, 2232551, $teddy_162$Methotrexate
 Brand names         Folex, generic
 
 Medication error    ISMP high-alert medication that has an increased risk of causing significant patient harm
@@ -29574,8 +29574,8 @@ REFERENCES
 
 
 
-596$teddy_158$, 'pending-clinical-verification'),
-  ($teddy_159_id$methyldopa$teddy_159_id$, $teddy_159_name$Methyldopa$teddy_159_name$, $teddy_159_source$Teddy bear.pdf$teddy_159_source$, 2257344, $teddy_159$Methyldopa
+596$teddy_162$, 'pending-clinical-verification'),
+  ($teddy_163_id$methyldopa$teddy_163_id$, $teddy_163_name$Methyldopa$teddy_163_name$, $teddy_163_source$Teddy bear.pdf$teddy_163_source$, 2257344, $teddy_163$Methyldopa
 Brand names            Aldomet, generic
 
 
@@ -29686,8 +29686,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                               599$teddy_159$, 'pending-clinical-verification'),
-  ($teddy_160_id$methylprednisolone-sodium-succinate$teddy_160_id$, $teddy_160_name$MethylPREDNISolone Sodium Succinate$teddy_160_name$, $teddy_160_source$Teddy bear.pdf$teddy_160_source$, 2264309, $teddy_160$MethylPREDNISolone Sodium Succinate
+                                                                                                                                               599$teddy_163$, 'pending-clinical-verification'),
+  ($teddy_164_id$methylprednisolone-sodium-succinate$teddy_164_id$, $teddy_164_name$MethylPREDNISolone Sodium Succinate$teddy_164_name$, $teddy_164_source$Teddy bear.pdf$teddy_164_source$, 2264309, $teddy_164$MethylPREDNISolone Sodium Succinate
 Brand names         A-METHAPRED, Solu-Medrol, generic
 
 
@@ -30020,8 +30020,8 @@ REFERENCES
 
 
 
-604$teddy_160$, 'pending-clinical-verification'),
-  ($teddy_161_id$metoclopramide-hcl$teddy_161_id$, $teddy_161_name$Metoclopramide HCl$teddy_161_name$, $teddy_161_source$Teddy bear.pdf$teddy_161_source$, 2291703, $teddy_161$Metoclopramide HCl
+604$teddy_164$, 'pending-clinical-verification'),
+  ($teddy_165_id$metoclopramide-hcl$teddy_165_id$, $teddy_165_name$Metoclopramide HCl$teddy_165_name$, $teddy_165_source$Teddy bear.pdf$teddy_165_source$, 2291703, $teddy_165$Metoclopramide HCl
 Brand names         Reglan, generic
 
 
@@ -30271,8 +30271,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                     609
-metroNIDAZOLE
+                                                                                                                                                     609$teddy_165$, 'pending-clinical-verification'),
+  ($teddy_166_id$metronidazole$teddy_166_id$, $teddy_166_name$metroNIDAZOLE$teddy_166_name$, $teddy_166_source$Teddy bear.pdf$teddy_166_source$, 2312273, $teddy_166$metroNIDAZOLE
 Brand names            Flagyl, generics
 
 
@@ -30397,8 +30397,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                 611$teddy_161$, 'pending-clinical-verification'),
-  ($teddy_162_id$micafungin$teddy_162_id$, $teddy_162_name$Micafungin$teddy_162_name$, $teddy_162_source$Teddy bear.pdf$teddy_162_source$, 2319934, $teddy_162$Micafungin
+                                                                                                                                                 611$teddy_166$, 'pending-clinical-verification'),
+  ($teddy_167_id$micafungin$teddy_167_id$, $teddy_167_name$Micafungin$teddy_167_name$, $teddy_167_source$Teddy bear.pdf$teddy_167_source$, 2319934, $teddy_167$Micafungin
 Brand names         Mycamine
 
 Medication error    None reported by ISMP or USP(1-3)
@@ -30549,8 +30549,8 @@ REFERENCES
 
 
 
-614$teddy_162$, 'pending-clinical-verification'),
-  ($teddy_163_id$midazolam-hcl$teddy_163_id$, $teddy_163_name$Midazolam HCl$teddy_163_name$, $teddy_163_source$Teddy bear.pdf$teddy_163_source$, 2331480, $teddy_163$Midazolam HCl
+614$teddy_167$, 'pending-clinical-verification'),
+  ($teddy_168_id$midazolam-hcl$teddy_168_id$, $teddy_168_name$Midazolam HCl$teddy_168_name$, $teddy_168_source$Teddy bear.pdf$teddy_168_source$, 2331480, $teddy_168$Midazolam HCl
 Brand names         Versed, generic
 
 
@@ -30893,8 +30893,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-620$teddy_163$, 'pending-clinical-verification'),
-  ($teddy_164_id$milrinone-lactate$teddy_164_id$, $teddy_164_name$Milrinone Lactate$teddy_164_name$, $teddy_164_source$Teddy bear.pdf$teddy_164_source$, 2360784, $teddy_164$Milrinone Lactate
+620$teddy_168$, 'pending-clinical-verification'),
+  ($teddy_169_id$milrinone-lactate$teddy_169_id$, $teddy_169_name$Milrinone Lactate$teddy_169_name$, $teddy_169_source$Teddy bear.pdf$teddy_169_source$, 2360784, $teddy_169$Milrinone Lactate
 Brand names         Primacor, generic
 
 Medication error    High-alert medication (inotropic medication, IV) that has an increased risk of causing
@@ -31119,8 +31119,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   625$teddy_164$, 'pending-clinical-verification'),
-  ($teddy_165_id$morphine-sulfate$teddy_165_id$, $teddy_165_name$Morphine Sulfate$teddy_165_name$, $teddy_165_source$Teddy bear.pdf$teddy_165_source$, 2379494, $teddy_165$Morphine Sulfate
+                                                                                                                                                   625$teddy_169$, 'pending-clinical-verification'),
+  ($teddy_170_id$morphine-sulfate$teddy_170_id$, $teddy_170_name$Morphine Sulfate$teddy_170_name$, $teddy_170_source$Teddy bear.pdf$teddy_170_source$, 2379494, $teddy_170$Morphine Sulfate
 Brand names         Astramorph PF, DepoDur PF (extended-release liposome epidural injection), Duramorph
                     PF, Infumorph (preservative-free for microinfusion devices only), generics
 
@@ -31402,8 +31402,8 @@ REFERENCES
 
 
 
-630$teddy_165$, 'pending-clinical-verification'),
-  ($teddy_166_id$multivitamins-adult$teddy_166_id$, $teddy_166_name$Multivitamins (Adult)$teddy_166_name$, $teddy_166_source$Teddy bear.pdf$teddy_166_source$, 2402851, $teddy_166$Multivitamins (Adult)
+630$teddy_170$, 'pending-clinical-verification'),
+  ($teddy_171_id$multivitamins-adult$teddy_171_id$, $teddy_171_name$Multivitamins (Adult)$teddy_171_name$, $teddy_171_source$Teddy bear.pdf$teddy_171_source$, 2402851, $teddy_171$Multivitamins (Adult)
 Brand names            MVI Adult, MVI-12, Infuvite Adult
 
 
@@ -31513,8 +31513,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   633$teddy_166$, 'pending-clinical-verification'),
-  ($teddy_167_id$multivitamins-pediatric$teddy_167_id$, $teddy_167_name$Multivitamins (Pediatric)$teddy_167_name$, $teddy_167_source$Teddy bear.pdf$teddy_167_source$, 2409243, $teddy_167$Multivitamins (Pediatric)
+                                                                                                                                                   633$teddy_171$, 'pending-clinical-verification'),
+  ($teddy_172_id$multivitamins-pediatric$teddy_172_id$, $teddy_172_name$Multivitamins (Pediatric)$teddy_172_name$, $teddy_172_source$Teddy bear.pdf$teddy_172_source$, 2409243, $teddy_172$Multivitamins (Pediatric)
 Brand names             MVI Pediatric, Infuvite Pediatric
 
 
@@ -31621,8 +31621,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                      635$teddy_167$, 'pending-clinical-verification'),
-  ($teddy_168_id$muromonab-cd3$teddy_168_id$, $teddy_168_name$Muromonab-CD3$teddy_168_name$, $teddy_168_source$Teddy bear.pdf$teddy_168_source$, 2415685, $teddy_168$Muromonab-CD3
+                                                                                                                                                      635$teddy_172$, 'pending-clinical-verification'),
+  ($teddy_173_id$muromonab-cd3$teddy_173_id$, $teddy_173_name$Muromonab-CD3$teddy_173_name$, $teddy_173_source$Teddy bear.pdf$teddy_173_source$, 2415685, $teddy_173$Muromonab-CD3
 Brand names         Orthoclone OKT3
 
 Medication error    None noted
@@ -31744,8 +31744,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                      637$teddy_168$, 'pending-clinical-verification'),
-  ($teddy_169_id$nafcillin-sodium$teddy_169_id$, $teddy_169_name$Nafcillin Sodium$teddy_169_name$, $teddy_169_source$Teddy bear.pdf$teddy_169_source$, 2423708, $teddy_169$Nafcillin Sodium
+                                                                                                                                                      637$teddy_173$, 'pending-clinical-verification'),
+  ($teddy_174_id$nafcillin-sodium$teddy_174_id$, $teddy_174_name$Nafcillin Sodium$teddy_174_name$, $teddy_174_source$Teddy bear.pdf$teddy_174_source$, 2423708, $teddy_174$Nafcillin Sodium
 Brand names            Generic
 
 
@@ -31860,8 +31860,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                 639$teddy_169$, 'pending-clinical-verification'),
-  ($teddy_170_id$naloxone-hcl$teddy_170_id$, $teddy_170_name$Naloxone HCl$teddy_170_name$, $teddy_170_source$Teddy bear.pdf$teddy_170_source$, 2430654, $teddy_170$Naloxone HCl
+                                                                                                                                                 639$teddy_174$, 'pending-clinical-verification'),
+  ($teddy_175_id$naloxone-hcl$teddy_175_id$, $teddy_175_name$Naloxone HCl$teddy_175_name$, $teddy_175_source$Teddy bear.pdf$teddy_175_source$, 2430654, $teddy_175$Naloxone HCl
 Brand names         Narcan, generic
 
 Medication error    Look-alike, sound-alike drug names. Narcan has been confused with narcuron(1) and
@@ -32123,8 +32123,8 @@ REFERENCES
 
 
 
-                                                                                                                                                      643$teddy_170$, 'pending-clinical-verification'),
-  ($teddy_171_id$nesiritide$teddy_171_id$, $teddy_171_name$Nesiritide$teddy_171_name$, $teddy_171_source$Teddy bear.pdf$teddy_171_source$, 2454455, $teddy_171$Nesiritide
+                                                                                                                                                      643$teddy_175$, 'pending-clinical-verification'),
+  ($teddy_176_id$nesiritide$teddy_176_id$, $teddy_176_name$Nesiritide$teddy_176_name$, $teddy_176_source$Teddy bear.pdf$teddy_176_source$, 2454455, $teddy_176$Nesiritide
 Brand names            Natrecor
 
 Medication error       Look-alike, sound-alike drug names
@@ -32305,8 +32305,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-646$teddy_171$, 'pending-clinical-verification'),
-  ($teddy_172_id$nicardipine-hydrochloride$teddy_172_id$, $teddy_172_name$NiCARdipine Hydrochloride$teddy_172_name$, $teddy_172_source$Teddy bear.pdf$teddy_172_source$, 2469072, $teddy_172$NiCARdipine Hydrochloride
+646$teddy_176$, 'pending-clinical-verification'),
+  ($teddy_177_id$nicardipine-hydrochloride$teddy_177_id$, $teddy_177_name$NiCARdipine Hydrochloride$teddy_177_name$, $teddy_177_source$Teddy bear.pdf$teddy_177_source$, 2469072, $teddy_177$NiCARdipine Hydrochloride
 Brand names            Cardene IV, generic
 
 Medication error       Look-alike, sound-alike drug names. NiCARdipine has been confused with NIFEdipine, but
@@ -32471,8 +32471,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-650$teddy_172$, 'pending-clinical-verification'),
-  ($teddy_173_id$nitroglycerin$teddy_173_id$, $teddy_173_name$Nitroglycerin$teddy_173_name$, $teddy_173_source$Teddy bear.pdf$teddy_173_source$, 2482659, $teddy_173$Nitroglycerin
+650$teddy_177$, 'pending-clinical-verification'),
+  ($teddy_178_id$nitroglycerin$teddy_178_id$, $teddy_178_name$Nitroglycerin$teddy_178_name$, $teddy_178_source$Teddy bear.pdf$teddy_178_source$, 2482659, $teddy_178$Nitroglycerin
 Brand names            Generic
 
 
@@ -32636,8 +32636,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-654$teddy_173$, 'pending-clinical-verification'),
-  ($teddy_174_id$norepinephrine-bitartrate$teddy_174_id$, $teddy_174_name$Norepinephrine Bitartrate$teddy_174_name$, $teddy_174_source$Teddy bear.pdf$teddy_174_source$, 2494521, $teddy_174$Norepinephrine Bitartrate
+654$teddy_178$, 'pending-clinical-verification'),
+  ($teddy_179_id$norepinephrine-bitartrate$teddy_179_id$, $teddy_179_name$Norepinephrine Bitartrate$teddy_179_name$, $teddy_179_source$Teddy bear.pdf$teddy_179_source$, 2494521, $teddy_179$Norepinephrine Bitartrate
 Brand names            Levophed, generic
 
 
@@ -32815,8 +32815,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-658$teddy_174$, 'pending-clinical-verification'),
-  ($teddy_175_id$octreotide-acetate$teddy_175_id$, $teddy_175_name$Octreotide Acetate$teddy_175_name$, $teddy_175_source$Teddy bear.pdf$teddy_175_source$, 2507704, $teddy_175$Octreotide Acetate
+658$teddy_179$, 'pending-clinical-verification'),
+  ($teddy_180_id$octreotide-acetate$teddy_180_id$, $teddy_180_name$Octreotide Acetate$teddy_180_name$, $teddy_180_source$Teddy bear.pdf$teddy_180_source$, 2507704, $teddy_180$Octreotide Acetate
 Brand names         SandoSTATIN
 
 
@@ -33118,8 +33118,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-664$teddy_175$, 'pending-clinical-verification'),
-  ($teddy_176_id$ondansetron-hcl$teddy_176_id$, $teddy_176_name$Ondansetron HCl$teddy_176_name$, $teddy_176_source$Teddy bear.pdf$teddy_176_source$, 2532407, $teddy_176$Ondansetron HCl
+664$teddy_180$, 'pending-clinical-verification'),
+  ($teddy_181_id$ondansetron-hcl$teddy_181_id$, $teddy_181_name$Ondansetron HCl$teddy_181_name$, $teddy_181_source$Teddy bear.pdf$teddy_181_source$, 2532407, $teddy_181$Ondansetron HCl
 Brand names         Zofran
 
 
@@ -33302,8 +33302,8 @@ REFERENCES
 
 
 
-668$teddy_176$, 'pending-clinical-verification'),
-  ($teddy_177_id$oxacillin-sodium$teddy_177_id$, $teddy_177_name$Oxacillin Sodium$teddy_177_name$, $teddy_177_source$Teddy bear.pdf$teddy_177_source$, 2546194, $teddy_177$Oxacillin Sodium
+668$teddy_181$, 'pending-clinical-verification'),
+  ($teddy_182_id$oxacillin-sodium$teddy_182_id$, $teddy_182_name$Oxacillin Sodium$teddy_182_name$, $teddy_182_source$Teddy bear.pdf$teddy_182_source$, 2546194, $teddy_182$Oxacillin Sodium
 Brand names            Generic
 
 
@@ -33425,8 +33425,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                               671$teddy_177$, 'pending-clinical-verification'),
-  ($teddy_178_id$palifermin$teddy_178_id$, $teddy_178_name$Palifermin$teddy_178_name$, $teddy_178_source$Teddy bear.pdf$teddy_178_source$, 2553796, $teddy_178$Palifermin
+                                                                                                                                               671$teddy_182$, 'pending-clinical-verification'),
+  ($teddy_183_id$palifermin$teddy_183_id$, $teddy_183_name$Palifermin$teddy_183_name$, $teddy_183_source$Teddy bear.pdf$teddy_183_source$, 2553796, $teddy_183$Palifermin
 Brand names            Kepivance
 
 
@@ -33535,8 +33535,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                  673$teddy_178$, 'pending-clinical-verification'),
-  ($teddy_179_id$palivizumab$teddy_179_id$, $teddy_179_name$Palivizumab$teddy_179_name$, $teddy_179_source$Teddy bear.pdf$teddy_179_source$, 2560131, $teddy_179$Palivizumab
+                                                                                                                                                  673$teddy_183$, 'pending-clinical-verification'),
+  ($teddy_184_id$palivizumab$teddy_184_id$, $teddy_184_name$Palivizumab$teddy_184_name$, $teddy_184_source$Teddy bear.pdf$teddy_184_source$, 2560131, $teddy_184$Palivizumab
 Brand names            Synagis
 
 
@@ -33659,8 +33659,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                      675$teddy_179$, 'pending-clinical-verification'),
-  ($teddy_180_id$palonosetron$teddy_180_id$, $teddy_180_name$Palonosetron$teddy_180_name$, $teddy_180_source$Teddy bear.pdf$teddy_180_source$, 2567682, $teddy_180$Palonosetron
+                                                                                                                                                      675$teddy_184$, 'pending-clinical-verification'),
+  ($teddy_185_id$palonosetron$teddy_185_id$, $teddy_185_name$Palonosetron$teddy_185_name$, $teddy_185_source$Teddy bear.pdf$teddy_185_source$, 2567682, $teddy_185$Palonosetron
 Brand names             Aloxi
 
 Medication error        Look-alike, sound-alike error potential. Aloxi may be confused with Adoxa, Alora and
@@ -33741,8 +33741,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 677$teddy_180$, 'pending-clinical-verification'),
-  ($teddy_181_id$pamidronate$teddy_181_id$, $teddy_181_name$Pamidronate$teddy_181_name$, $teddy_181_source$Teddy bear.pdf$teddy_181_source$, 2572342, $teddy_181$Pamidronate
+                                                                                                                                                 677$teddy_185$, 'pending-clinical-verification'),
+  ($teddy_186_id$pamidronate$teddy_186_id$, $teddy_186_name$Pamidronate$teddy_186_name$, $teddy_186_source$Teddy bear.pdf$teddy_186_source$, 2572342, $teddy_186$Pamidronate
 Brand names            Aredia
 
 
@@ -33895,8 +33895,8 @@ REFERENCES
 
 
 
-680$teddy_181$, 'pending-clinical-verification'),
-  ($teddy_182_id$pancuronium-bromide$teddy_182_id$, $teddy_182_name$Pancuronium Bromide$teddy_182_name$, $teddy_182_source$Teddy bear.pdf$teddy_182_source$, 2582916, $teddy_182$Pancuronium Bromide
+680$teddy_186$, 'pending-clinical-verification'),
+  ($teddy_187_id$pancuronium-bromide$teddy_187_id$, $teddy_187_name$Pancuronium Bromide$teddy_187_name$, $teddy_187_source$Teddy bear.pdf$teddy_187_source$, 2582916, $teddy_187$Pancuronium Bromide
 Brand names            Pavulon, generic
 
 
@@ -34061,8 +34061,8 @@ REFERENCES
 
 
 
-684$teddy_182$, 'pending-clinical-verification'),
-  ($teddy_183_id$pantoprazole$teddy_183_id$, $teddy_183_name$Pantoprazole$teddy_183_name$, $teddy_183_source$Teddy bear.pdf$teddy_183_source$, 2595210, $teddy_183$Pantoprazole
+684$teddy_187$, 'pending-clinical-verification'),
+  ($teddy_188_id$pantoprazole$teddy_188_id$, $teddy_188_name$Pantoprazole$teddy_188_name$, $teddy_188_source$Teddy bear.pdf$teddy_188_source$, 2595210, $teddy_188$Pantoprazole
 Brand names            Protonix
 
 
@@ -34221,8 +34221,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-688$teddy_183$, 'pending-clinical-verification'),
-  ($teddy_184_id$papaverine-hcl$teddy_184_id$, $teddy_184_name$Papaverine HCl$teddy_184_name$, $teddy_184_source$Teddy bear.pdf$teddy_184_source$, 2606597, $teddy_184$Papaverine HCl
+688$teddy_188$, 'pending-clinical-verification'),
+  ($teddy_189_id$papaverine-hcl$teddy_189_id$, $teddy_189_name$Papaverine HCl$teddy_189_name$, $teddy_189_source$Teddy bear.pdf$teddy_189_source$, 2606597, $teddy_189$Papaverine HCl
 Brand names             Generic
 
 
@@ -34312,8 +34312,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                691$teddy_184$, 'pending-clinical-verification'),
-  ($teddy_185_id$pegfilgrastim$teddy_185_id$, $teddy_185_name$Pegfilgrastim$teddy_185_name$, $teddy_185_source$Teddy bear.pdf$teddy_185_source$, 2611114, $teddy_185$Pegfilgrastim
+                                                                                                                                                691$teddy_189$, 'pending-clinical-verification'),
+  ($teddy_190_id$pegfilgrastim$teddy_190_id$, $teddy_190_name$Pegfilgrastim$teddy_190_name$, $teddy_190_source$Teddy bear.pdf$teddy_190_source$, 2611114, $teddy_190$Pegfilgrastim
 Brand names            Neulasta, Pegylated GCSF, G-CSF (PEG Conjugate)
 
 
@@ -34436,8 +34436,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   693$teddy_185$, 'pending-clinical-verification'),
-  ($teddy_186_id$peginterferon-alfa-alpha-2a-alpha-2b$teddy_186_id$, $teddy_186_name$Peginterferon Alfa (Alpha-2a, Alpha-2b)$teddy_186_name$, $teddy_186_source$Teddy bear.pdf$teddy_186_source$, 2619154, $teddy_186$Peginterferon Alfa (Alpha-2a, Alpha-2b)
+                                                                                                                                                   693$teddy_190$, 'pending-clinical-verification'),
+  ($teddy_191_id$peginterferon-alfa-alpha-2a-alpha-2b$teddy_191_id$, $teddy_191_name$Peginterferon Alfa (Alpha-2a, Alpha-2b)$teddy_191_name$, $teddy_191_source$Teddy bear.pdf$teddy_191_source$, 2619154, $teddy_191$Peginterferon Alfa (Alpha-2a, Alpha-2b)
 Brand names         PEGASYS (alpha-2a), PEG-Intron (alpha-2b)
 
 Medication error    There are different forms and products for Peginterferon alfa. Confusion may occur.
@@ -34632,8 +34632,8 @@ REFERENCES
 
 
 
-                                                                                                                                                697$teddy_186$, 'pending-clinical-verification'),
-  ($teddy_187_id$penicillin-g-potassium-sodium$teddy_187_id$, $teddy_187_name$Penicillin G Potassium/Sodium$teddy_187_name$, $teddy_187_source$Teddy bear.pdf$teddy_187_source$, 2632900, $teddy_187$Penicillin G Potassium/Sodium
+                                                                                                                                                697$teddy_191$, 'pending-clinical-verification'),
+  ($teddy_192_id$penicillin-g-potassium-sodium$teddy_192_id$, $teddy_192_name$Penicillin G Potassium/Sodium$teddy_192_name$, $teddy_192_source$Teddy bear.pdf$teddy_192_source$, 2632900, $teddy_192$Penicillin G Potassium/Sodium
 Brand names         Pfizerpen, generics
 
 
@@ -34790,8 +34790,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-700$teddy_187$, 'pending-clinical-verification'),
-  ($teddy_188_id$pentamidine-isethionate$teddy_188_id$, $teddy_188_name$Pentamidine Isethionate$teddy_188_name$, $teddy_188_source$Teddy bear.pdf$teddy_188_source$, 2643513, $teddy_188$Pentamidine Isethionate
+700$teddy_192$, 'pending-clinical-verification'),
+  ($teddy_193_id$pentamidine-isethionate$teddy_193_id$, $teddy_193_name$Pentamidine Isethionate$teddy_193_name$, $teddy_193_source$Teddy bear.pdf$teddy_193_source$, 2643513, $teddy_193$Pentamidine Isethionate
 Brand names            Pentam 300
 
 Medication error       None noted
@@ -34919,8 +34919,8 @@ REFERENCES
 
 
 
-                                                                                                                                                703$teddy_188$, 'pending-clinical-verification'),
-  ($teddy_189_id$pentobarbital-sodium$teddy_189_id$, $teddy_189_name$PENTobarbital Sodium$teddy_189_name$, $teddy_189_source$Teddy bear.pdf$teddy_189_source$, 2653112, $teddy_189$PENTobarbital Sodium
+                                                                                                                                                703$teddy_193$, 'pending-clinical-verification'),
+  ($teddy_194_id$pentobarbital-sodium$teddy_194_id$, $teddy_194_name$PENTobarbital Sodium$teddy_194_name$, $teddy_194_source$Teddy bear.pdf$teddy_194_source$, 2653112, $teddy_194$PENTobarbital Sodium
 Brand names            Nembutal Sodium
 
 
@@ -35100,8 +35100,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-706$teddy_189$, 'pending-clinical-verification'),
-  ($teddy_190_id$peramivir$teddy_190_id$, $teddy_190_name$Peramivir$teddy_190_name$, $teddy_190_source$Teddy bear.pdf$teddy_190_source$, 2667067, $teddy_190$Peramivir
+706$teddy_194$, 'pending-clinical-verification'),
+  ($teddy_195_id$peramivir$teddy_195_id$, $teddy_195_name$Peramivir$teddy_195_name$, $teddy_195_source$Teddy bear.pdf$teddy_195_source$, 2667067, $teddy_195$Peramivir
 Brand names             Rapivab
 
 
@@ -35191,8 +35191,8 @@ REFERENCES
 
 
 
-                                                                                                                                                709$teddy_190$, 'pending-clinical-verification'),
-  ($teddy_191_id$phenobarbital-sodium$teddy_191_id$, $teddy_191_name$PHENobarbital Sodium$teddy_191_name$, $teddy_191_source$Teddy bear.pdf$teddy_191_source$, 2671523, $teddy_191$PHENobarbital Sodium
+                                                                                                                                                709$teddy_195$, 'pending-clinical-verification'),
+  ($teddy_196_id$phenobarbital-sodium$teddy_196_id$, $teddy_196_name$PHENobarbital Sodium$teddy_196_name$, $teddy_196_source$Teddy bear.pdf$teddy_196_source$, 2671523, $teddy_196$PHENobarbital Sodium
 Brand names         Luminal Sodium, generic
 
 Medication error    Use tall man letters to decrease confusion between PENTobarbital and PHENobarbital.(1)
@@ -35447,8 +35447,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                 713$teddy_191$, 'pending-clinical-verification'),
-  ($teddy_192_id$phenylephrine$teddy_192_id$, $teddy_192_name$Phenylephrine$teddy_192_name$, $teddy_192_source$Teddy bear.pdf$teddy_192_source$, 2693796, $teddy_192$Phenylephrine
+                                                                                                                                                 713$teddy_196$, 'pending-clinical-verification'),
+  ($teddy_197_id$phenylephrine$teddy_197_id$, $teddy_197_name$Phenylephrine$teddy_197_name$, $teddy_197_source$Teddy bear.pdf$teddy_197_source$, 2693796, $teddy_197$Phenylephrine
 Brand names             Vazculep, generics
 
 
@@ -35537,8 +35537,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                               715$teddy_192$, 'pending-clinical-verification'),
-  ($teddy_193_id$phenytoin-sodium$teddy_193_id$, $teddy_193_name$Phenytoin Sodium$teddy_193_name$, $teddy_193_source$Teddy bear.pdf$teddy_193_source$, 2697979, $teddy_193$Phenytoin Sodium
+                                                                                                                                               715$teddy_197$, 'pending-clinical-verification'),
+  ($teddy_198_id$phenytoin-sodium$teddy_198_id$, $teddy_198_name$Phenytoin Sodium$teddy_198_name$, $teddy_198_source$Teddy bear.pdf$teddy_198_source$, 2697979, $teddy_198$Phenytoin Sodium
 Brand names         Dilantin, Phenytek, generics
 
 Medication error    Look-alike, sound-alike drug names. Confusion has been noted between Feldene, fluco-
@@ -35795,8 +35795,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                      719$teddy_193$, 'pending-clinical-verification'),
-  ($teddy_194_id$physostigmine-salicylate$teddy_194_id$, $teddy_194_name$Physostigmine Salicylate$teddy_194_name$, $teddy_194_source$Teddy bear.pdf$teddy_194_source$, 2720700, $teddy_194$Physostigmine Salicylate
+                                                                                                                                                      719$teddy_198$, 'pending-clinical-verification'),
+  ($teddy_199_id$physostigmine-salicylate$teddy_199_id$, $teddy_199_name$Physostigmine Salicylate$teddy_199_name$, $teddy_199_source$Teddy bear.pdf$teddy_199_source$, 2720700, $teddy_199$Physostigmine Salicylate
 Brand names            Antilirium, generic
 
 Medication error       Look-alike, sound-alike drug names. Physostigmine has been confused with pyridostigmine
@@ -35924,8 +35924,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 721
-Piperacillin Sodium–Tazobactam Sodium
+                                                                                                                                                 721$teddy_199$, 'pending-clinical-verification'),
+  ($teddy_200_id$piperacillin-sodium-tazobactam-sodium$teddy_200_id$, $teddy_200_name$Piperacillin Sodium–Tazobactam Sodium$teddy_200_name$, $teddy_200_source$Teddy bear.pdf$teddy_200_source$, 2730702, $teddy_200$Piperacillin Sodium–Tazobactam Sodium
 Brand names            Zosyn, generics
 
 Medication error       None reported
@@ -36085,8 +36085,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-724$teddy_194$, 'pending-clinical-verification'),
-  ($teddy_195_id$potassium-chloride$teddy_195_id$, $teddy_195_name$Potassium Chloride$teddy_195_name$, $teddy_195_source$Teddy bear.pdf$teddy_195_source$, 2743349, $teddy_195$Potassium Chloride
+724$teddy_200$, 'pending-clinical-verification'),
+  ($teddy_201_id$potassium-chloride$teddy_201_id$, $teddy_201_name$Potassium Chloride$teddy_201_name$, $teddy_201_source$Teddy bear.pdf$teddy_201_source$, 2743349, $teddy_201$Potassium Chloride
 Brand names            Generics
 
 Medication error       High-alert medication that has an increased risk of causing significant patient harm if
@@ -36215,8 +36215,8 @@ REFERENCES
 17.   Pucino F, Danielson BD, Carlson JD, et al. Patient tolerance to intravenous potassium chloride with and without lidocaine. Drug Intell Clin Pharm.
       1988;22(9):676-679.
 
-                                                                                                                                                   727$teddy_195$, 'pending-clinical-verification'),
-  ($teddy_196_id$potassium-phosphates$teddy_196_id$, $teddy_196_name$Potassium Phosphates$teddy_196_name$, $teddy_196_source$Teddy bear.pdf$teddy_196_source$, 2754203, $teddy_196$Potassium Phosphates
+                                                                                                                                                   727$teddy_201$, 'pending-clinical-verification'),
+  ($teddy_202_id$potassium-phosphates$teddy_202_id$, $teddy_202_name$Potassium Phosphates$teddy_202_name$, $teddy_202_source$Teddy bear.pdf$teddy_202_source$, 2754203, $teddy_202$Potassium Phosphates
 Brand names            Generics
 
 
@@ -36344,8 +36344,8 @@ REFERENCES
 
 
 
-                                                                                                                                                       729$teddy_196$, 'pending-clinical-verification'),
-  ($teddy_197_id$pralidoxime-chloride-2-pam-chloride$teddy_197_id$, $teddy_197_name$Pralidoxime Chloride (2-PAM Chloride)$teddy_197_name$, $teddy_197_source$Teddy bear.pdf$teddy_197_source$, 2763175, $teddy_197$Pralidoxime Chloride (2-PAM Chloride)
+                                                                                                                                                       729$teddy_202$, 'pending-clinical-verification'),
+  ($teddy_203_id$pralidoxime-chloride-2-pam-chloride$teddy_203_id$, $teddy_203_name$Pralidoxime Chloride (2-PAM Chloride)$teddy_203_name$, $teddy_203_source$Teddy bear.pdf$teddy_203_source$, 2763175, $teddy_203$Pralidoxime Chloride (2-PAM Chloride)
 Brand names         Protopam Chloride, generic
 
 
@@ -36496,8 +36496,8 @@ REFERENCES
 
 
 
-732$teddy_197$, 'pending-clinical-verification'),
-  ($teddy_198_id$procainamide-hcl$teddy_198_id$, $teddy_198_name$Procainamide HCl$teddy_198_name$, $teddy_198_source$Teddy bear.pdf$teddy_198_source$, 2774029, $teddy_198$Procainamide HCl
+732$teddy_203$, 'pending-clinical-verification'),
+  ($teddy_204_id$procainamide-hcl$teddy_204_id$, $teddy_204_name$Procainamide HCl$teddy_204_name$, $teddy_204_source$Teddy bear.pdf$teddy_204_source$, 2774029, $teddy_204$Procainamide HCl
 Brand names            Pronestyl, generic
 
 
@@ -36625,8 +36625,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                         735$teddy_198$, 'pending-clinical-verification'),
-  ($teddy_199_id$promethazine-hcl$teddy_199_id$, $teddy_199_name$Promethazine HCl$teddy_199_name$, $teddy_199_source$Teddy bear.pdf$teddy_199_source$, 2783025, $teddy_199$Promethazine HCl
+                                                                                                                                                         735$teddy_204$, 'pending-clinical-verification'),
+  ($teddy_205_id$promethazine-hcl$teddy_205_id$, $teddy_205_name$Promethazine HCl$teddy_205_name$, $teddy_205_source$Teddy bear.pdf$teddy_205_source$, 2783025, $teddy_205$Promethazine HCl
 Brand names            Phenergan, Phenazine, Promethegan, generic
 
 
@@ -36789,8 +36789,8 @@ REFERENCES
 
 
 
-738$teddy_199$, 'pending-clinical-verification'),
-  ($teddy_200_id$propofol$teddy_200_id$, $teddy_200_name$Propofol$teddy_200_name$, $teddy_200_source$Teddy bear.pdf$teddy_200_source$, 2794346, $teddy_200$Propofol
+738$teddy_205$, 'pending-clinical-verification'),
+  ($teddy_206_id$propofol$teddy_206_id$, $teddy_206_name$Propofol$teddy_206_name$, $teddy_206_source$Teddy bear.pdf$teddy_206_source$, 2794346, $teddy_206$Propofol
 Brand names         Diprivan 1%, generic
 
 Medication error    High-alert medication that has an increased risk of causing significant patient harm if it
@@ -37044,8 +37044,8 @@ REFERENCES
 
 
 
-                                                                                                                                                         743$teddy_200$, 'pending-clinical-verification'),
-  ($teddy_201_id$propranolol-hcl$teddy_201_id$, $teddy_201_name$Propranolol HCl$teddy_201_name$, $teddy_201_source$Teddy bear.pdf$teddy_201_source$, 2816862, $teddy_201$Propranolol HCl
+                                                                                                                                                         743$teddy_206$, 'pending-clinical-verification'),
+  ($teddy_207_id$propranolol-hcl$teddy_207_id$, $teddy_207_name$Propranolol HCl$teddy_207_name$, $teddy_207_source$Teddy bear.pdf$teddy_207_source$, 2816862, $teddy_207$Propranolol HCl
 Brand names            Inderal, generic
 
 
@@ -37199,8 +37199,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-746$teddy_201$, 'pending-clinical-verification'),
-  ($teddy_202_id$protamine-sulfate$teddy_202_id$, $teddy_202_name$Protamine Sulfate$teddy_202_name$, $teddy_202_source$Teddy bear.pdf$teddy_202_source$, 2827139, $teddy_202$Protamine Sulfate
+746$teddy_207$, 'pending-clinical-verification'),
+  ($teddy_208_id$protamine-sulfate$teddy_208_id$, $teddy_208_name$Protamine Sulfate$teddy_208_name$, $teddy_208_source$Teddy bear.pdf$teddy_208_source$, 2827139, $teddy_208$Protamine Sulfate
 Brand names         Generic
 
 
@@ -37367,8 +37367,8 @@ REFERENCES
 
 
 
-750$teddy_202$, 'pending-clinical-verification'),
-  ($teddy_203_id$protein-c-concentrate-human$teddy_203_id$, $teddy_203_name$Protein C Concentrate (Human)$teddy_203_name$, $teddy_203_source$Teddy bear.pdf$teddy_203_source$, 2837358, $teddy_203$Protein C Concentrate (Human)
+750$teddy_208$, 'pending-clinical-verification'),
+  ($teddy_209_id$protein-c-concentrate-human$teddy_209_id$, $teddy_209_name$Protein C Concentrate (Human)$teddy_209_name$, $teddy_209_source$Teddy bear.pdf$teddy_209_source$, 2837358, $teddy_209$Protein C Concentrate (Human)
 Brand names            Ceprotin
 
 
@@ -37493,8 +37493,8 @@ REFERENCES
 
 
 
-                                                                                                                                                 753$teddy_203$, 'pending-clinical-verification'),
-  ($teddy_204_id$ranitidine$teddy_204_id$, $teddy_204_name$RaNITIdine$teddy_204_name$, $teddy_204_source$Teddy bear.pdf$teddy_204_source$, 2845995, $teddy_204$RaNITIdine
+                                                                                                                                                 753$teddy_209$, 'pending-clinical-verification'),
+  ($teddy_210_id$ranitidine$teddy_210_id$, $teddy_210_name$RaNITIdine$teddy_210_name$, $teddy_210_source$Teddy bear.pdf$teddy_210_source$, 2845995, $teddy_210$RaNITIdine
 Brand names            Zantac, generic
 
 
@@ -37650,8 +37650,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-756$teddy_204$, 'pending-clinical-verification'),
-  ($teddy_205_id$rasburicase$teddy_205_id$, $teddy_205_name$Rasburicase$teddy_205_name$, $teddy_205_source$Teddy bear.pdf$teddy_205_source$, 2857093, $teddy_205$Rasburicase
+756$teddy_210$, 'pending-clinical-verification'),
+  ($teddy_211_id$rasburicase$teddy_211_id$, $teddy_211_name$Rasburicase$teddy_211_name$, $teddy_211_source$Teddy bear.pdf$teddy_211_source$, 2857093, $teddy_211$Rasburicase
 Brand names         Elitek
 
 
@@ -37823,8 +37823,8 @@ REFERENCES
 
 
 
-760$teddy_205$, 'pending-clinical-verification'),
-  ($teddy_206_id$rifampin$teddy_206_id$, $teddy_206_name$RifAMPin$teddy_206_name$, $teddy_206_source$Teddy bear.pdf$teddy_206_source$, 2869447, $teddy_206$RifAMPin
+760$teddy_211$, 'pending-clinical-verification'),
+  ($teddy_212_id$rifampin$teddy_212_id$, $teddy_212_name$RifAMPin$teddy_212_name$, $teddy_212_source$Teddy bear.pdf$teddy_212_source$, 2869447, $teddy_212$RifAMPin
 Brand names             Rifadin IV, generics
 
 
@@ -37944,8 +37944,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                   763$teddy_206$, 'pending-clinical-verification'),
-  ($teddy_207_id$rituximab$teddy_207_id$, $teddy_207_name$RiTUXimab$teddy_207_name$, $teddy_207_source$Teddy bear.pdf$teddy_207_source$, 2877421, $teddy_207$RiTUXimab
+                                                                                                                                                   763$teddy_212$, 'pending-clinical-verification'),
+  ($teddy_213_id$rituximab$teddy_213_id$, $teddy_213_name$RiTUXimab$teddy_213_name$, $teddy_213_source$Teddy bear.pdf$teddy_213_source$, 2877421, $teddy_213$RiTUXimab
 Brand names         Rituxan
 
 
@@ -38126,8 +38126,8 @@ REFERENCES
 
 
 
-766$teddy_207$, 'pending-clinical-verification'),
-  ($teddy_208_id$rocuronium-bromide$teddy_208_id$, $teddy_208_name$Rocuronium Bromide$teddy_208_name$, $teddy_208_source$Teddy bear.pdf$teddy_208_source$, 2890986, $teddy_208$Rocuronium Bromide
+766$teddy_213$, 'pending-clinical-verification'),
+  ($teddy_214_id$rocuronium-bromide$teddy_214_id$, $teddy_214_name$Rocuronium Bromide$teddy_214_name$, $teddy_214_source$Teddy bear.pdf$teddy_214_source$, 2890986, $teddy_214$Rocuronium Bromide
 Brand names            Zemuron, generic
 
 Medication error       ISMP high-alert medication that has an increased risk of causing significant patient harm
@@ -38311,8 +38311,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-770$teddy_208$, 'pending-clinical-verification'),
-  ($teddy_209_id$ropivacaine-hcl$teddy_209_id$, $teddy_209_name$Ropivacaine HCl$teddy_209_name$, $teddy_209_source$Teddy bear.pdf$teddy_209_source$, 2905823, $teddy_209$Ropivacaine HCl
+770$teddy_214$, 'pending-clinical-verification'),
+  ($teddy_215_id$ropivacaine-hcl$teddy_215_id$, $teddy_215_name$Ropivacaine HCl$teddy_215_name$, $teddy_215_source$Teddy bear.pdf$teddy_215_source$, 2905823, $teddy_215$Ropivacaine HCl
 Brand names         Naropin
 
 
@@ -38467,8 +38467,8 @@ REFERENCES
 
 
 
-774$teddy_209$, 'pending-clinical-verification'),
-  ($teddy_210_id$sargramostim$teddy_210_id$, $teddy_210_name$Sargramostim$teddy_210_name$, $teddy_210_source$Teddy bear.pdf$teddy_210_source$, 2917105, $teddy_210$Sargramostim
+774$teddy_215$, 'pending-clinical-verification'),
+  ($teddy_216_id$sargramostim$teddy_216_id$, $teddy_216_name$Sargramostim$teddy_216_name$, $teddy_216_source$Teddy bear.pdf$teddy_216_source$, 2917105, $teddy_216$Sargramostim
 Brand names            Leukine; yeast derived (Saccharomyces cerevisiae) recombinant human granulocyte-
                        macrophage colony-stimulating factor (rhGM-CSF)
 
@@ -38628,8 +38628,8 @@ REFERENCES
 
 
 
-778$teddy_210$, 'pending-clinical-verification'),
-  ($teddy_211_id$sodium-bicarbonate$teddy_211_id$, $teddy_211_name$Sodium Bicarbonate$teddy_211_name$, $teddy_211_source$Teddy bear.pdf$teddy_211_source$, 2928590, $teddy_211$Sodium Bicarbonate
+778$teddy_216$, 'pending-clinical-verification'),
+  ($teddy_217_id$sodium-bicarbonate$teddy_217_id$, $teddy_217_name$Sodium Bicarbonate$teddy_217_name$, $teddy_217_source$Teddy bear.pdf$teddy_217_source$, 2928590, $teddy_217$Sodium Bicarbonate
 Brand names         Generics, available in concentrations of 0.5 mEq HCO3/mL (4.2%), 0.6 mEq/mL (5%),
                     0.9 mEq/mL (7.5%), and 1 mEq/mL (8.4%)
 
@@ -38795,8 +38795,8 @@ REFERENCES
 
 
 
-782$teddy_211$, 'pending-clinical-verification'),
-  ($teddy_212_id$sodium-chloride$teddy_212_id$, $teddy_212_name$Sodium Chloride$teddy_212_name$, $teddy_212_source$Teddy bear.pdf$teddy_212_source$, 2940216, $teddy_212$Sodium Chloride
+782$teddy_217$, 'pending-clinical-verification'),
+  ($teddy_218_id$sodium-chloride$teddy_218_id$, $teddy_218_name$Sodium Chloride$teddy_218_name$, $teddy_218_source$Teddy bear.pdf$teddy_218_source$, 2940216, $teddy_218$Sodium Chloride
 Brand names         Generics
                     0.45% saline (½NS) = 77 mEq/L
                     0.9% saline (NS) = 154 mEq/L
@@ -38971,8 +38971,8 @@ REFERENCES
 
 
 
-786$teddy_212$, 'pending-clinical-verification'),
-  ($teddy_213_id$sodium-nitroprusside$teddy_213_id$, $teddy_213_name$Sodium Nitroprusside$teddy_213_name$, $teddy_213_source$Teddy bear.pdf$teddy_213_source$, 2953839, $teddy_213$Sodium Nitroprusside
+786$teddy_218$, 'pending-clinical-verification'),
+  ($teddy_219_id$sodium-nitroprusside$teddy_219_id$, $teddy_219_name$Sodium Nitroprusside$teddy_219_name$, $teddy_219_source$Teddy bear.pdf$teddy_219_source$, 2953839, $teddy_219$Sodium Nitroprusside
 Brand names            Nitropress, Nipride (Canada)
 
 
@@ -39168,8 +39168,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-790$teddy_213$, 'pending-clinical-verification'),
-  ($teddy_214_id$succinylcholine-chloride$teddy_214_id$, $teddy_214_name$Succinylcholine Chloride$teddy_214_name$, $teddy_214_source$Teddy bear.pdf$teddy_214_source$, 2969078, $teddy_214$Succinylcholine Chloride
+790$teddy_219$, 'pending-clinical-verification'),
+  ($teddy_220_id$succinylcholine-chloride$teddy_220_id$, $teddy_220_name$Succinylcholine Chloride$teddy_220_name$, $teddy_220_source$Teddy bear.pdf$teddy_220_source$, 2969078, $teddy_220$Succinylcholine Chloride
 Brand names         Anectine, Quelicin
 
 
@@ -39399,8 +39399,8 @@ REFERENCES
 
 
 
-                                                                                                                                               795$teddy_214$, 'pending-clinical-verification'),
-  ($teddy_215_id$sufentanil-citrate$teddy_215_id$, $teddy_215_name$SUFentanil Citrate$teddy_215_name$, $teddy_215_source$Teddy bear.pdf$teddy_215_source$, 2988016, $teddy_215$SUFentanil Citrate
+                                                                                                                                               795$teddy_220$, 'pending-clinical-verification'),
+  ($teddy_221_id$sufentanil-citrate$teddy_221_id$, $teddy_221_name$SUFentanil Citrate$teddy_221_name$, $teddy_221_source$Teddy bear.pdf$teddy_221_source$, 2988016, $teddy_221$SUFentanil Citrate
 Brand names         Sufenta
 
 
@@ -39584,8 +39584,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-798$teddy_215$, 'pending-clinical-verification'),
-  ($teddy_216_id$tacrolimus$teddy_216_id$, $teddy_216_name$Tacrolimus$teddy_216_name$, $teddy_216_source$Teddy bear.pdf$teddy_216_source$, 3001437, $teddy_216$Tacrolimus
+798$teddy_221$, 'pending-clinical-verification'),
+  ($teddy_222_id$tacrolimus$teddy_222_id$, $teddy_222_name$Tacrolimus$teddy_222_name$, $teddy_222_source$Teddy bear.pdf$teddy_222_source$, 3001437, $teddy_222$Tacrolimus
 Brand names            Prograf
 
 
@@ -39737,8 +39737,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-802$teddy_216$, 'pending-clinical-verification'),
-  ($teddy_217_id$temsirolimus$teddy_217_id$, $teddy_217_name$Temsirolimus$teddy_217_name$, $teddy_217_source$Teddy bear.pdf$teddy_217_source$, 3012669, $teddy_217$Temsirolimus
+802$teddy_222$, 'pending-clinical-verification'),
+  ($teddy_223_id$temsirolimus$teddy_223_id$, $teddy_223_name$Temsirolimus$teddy_223_name$, $teddy_223_source$Teddy bear.pdf$teddy_223_source$, 3012669, $teddy_223$Temsirolimus
 Brand names            Torisel
 
 
@@ -39880,8 +39880,8 @@ REFERENCES
 
 
 
-806$teddy_217$, 'pending-clinical-verification'),
-  ($teddy_218_id$teniposide$teddy_218_id$, $teddy_218_name$Teniposide$teddy_218_name$, $teddy_218_source$Teddy bear.pdf$teddy_218_source$, 3022048, $teddy_218$Teniposide
+806$teddy_223$, 'pending-clinical-verification'),
+  ($teddy_224_id$teniposide$teddy_224_id$, $teddy_224_name$Teniposide$teddy_224_name$, $teddy_224_source$Teddy bear.pdf$teddy_224_source$, 3022048, $teddy_224$Teniposide
 Brand names            Vumon, generic
 
 
@@ -40007,8 +40007,8 @@ REFERENCES
 
 
 
-                                                                                                                                               809$teddy_218$, 'pending-clinical-verification'),
-  ($teddy_219_id$terbutaline-sulfate$teddy_219_id$, $teddy_219_name$Terbutaline Sulfate$teddy_219_name$, $teddy_219_source$Teddy bear.pdf$teddy_219_source$, 3030509, $teddy_219$Terbutaline Sulfate
+                                                                                                                                               809$teddy_224$, 'pending-clinical-verification'),
+  ($teddy_225_id$terbutaline-sulfate$teddy_225_id$, $teddy_225_name$Terbutaline Sulfate$teddy_225_name$, $teddy_225_source$Teddy bear.pdf$teddy_225_source$, 3030509, $teddy_225$Terbutaline Sulfate
 Brand names            Brethine, generic
 
 
@@ -40180,8 +40180,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-812$teddy_219$, 'pending-clinical-verification'),
-  ($teddy_220_id$thiopental-sodium$teddy_220_id$, $teddy_220_name$Thiopental Sodium$teddy_220_name$, $teddy_220_source$Teddy bear.pdf$teddy_220_source$, 3043302, $teddy_220$Thiopental Sodium
+812$teddy_225$, 'pending-clinical-verification'),
+  ($teddy_226_id$thiopental-sodium$teddy_226_id$, $teddy_226_name$Thiopental Sodium$teddy_226_name$, $teddy_226_source$Teddy bear.pdf$teddy_226_source$, 3043302, $teddy_226$Thiopental Sodium
 Brand names         Pentothal
 
 
@@ -40369,8 +40369,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-816
-Ticarcillin Disodium–Clavulanate Potassium
+816$teddy_226$, 'pending-clinical-verification'),
+  ($teddy_227_id$ticarcillin-disodium-clavulanate-potassium$teddy_227_id$, $teddy_227_name$Ticarcillin Disodium–Clavulanate Potassium$teddy_227_name$, $teddy_227_source$Teddy bear.pdf$teddy_227_source$, 3056968, $teddy_227$Ticarcillin Disodium–Clavulanate Potassium
 Brand names            Timentin
 
 
@@ -40528,8 +40528,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-820$teddy_220$, 'pending-clinical-verification'),
-  ($teddy_221_id$tigecycline$teddy_221_id$, $teddy_221_name$Tigecycline$teddy_221_name$, $teddy_221_source$Teddy bear.pdf$teddy_221_source$, 3067629, $teddy_221$Tigecycline
+820$teddy_227$, 'pending-clinical-verification'),
+  ($teddy_228_id$tigecycline$teddy_228_id$, $teddy_228_name$Tigecycline$teddy_228_name$, $teddy_228_source$Teddy bear.pdf$teddy_228_source$, 3067629, $teddy_228$Tigecycline
 Brand names            Tygacil
 
 
@@ -40650,8 +40650,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                  823
-Tissue Plasminogen Activator (t-PA)–Alteplase
+                                                                                                                                                  823$teddy_228$, 'pending-clinical-verification'),
+  ($teddy_229_id$tissue-plasminogen-activator-t-pa-alteplase$teddy_229_id$, $teddy_229_name$Tissue Plasminogen Activator (t-PA)–Alteplase$teddy_229_name$, $teddy_229_source$Teddy bear.pdf$teddy_229_source$, 3075443, $teddy_229$Tissue Plasminogen Activator (t-PA)–Alteplase
 Brand names         Activase, Cathflo Activase
 
 
@@ -40996,8 +40996,8 @@ REFERENCES
 
 
 
-828$teddy_221$, 'pending-clinical-verification'),
-  ($teddy_222_id$tobramycin-sulfate$teddy_222_id$, $teddy_222_name$Tobramycin Sulfate$teddy_222_name$, $teddy_222_source$Teddy bear.pdf$teddy_222_source$, 3104630, $teddy_222$Tobramycin Sulfate
+828$teddy_229$, 'pending-clinical-verification'),
+  ($teddy_230_id$tobramycin-sulfate$teddy_230_id$, $teddy_230_name$Tobramycin Sulfate$teddy_230_name$, $teddy_230_source$Teddy bear.pdf$teddy_230_source$, 3104630, $teddy_230$Tobramycin Sulfate
  Brand names         Generic
 
  Medication error    None reported
@@ -41232,8 +41232,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                     833$teddy_222$, 'pending-clinical-verification'),
-  ($teddy_223_id$topotecan-hcl$teddy_223_id$, $teddy_223_name$Topotecan HCl$teddy_223_name$, $teddy_223_source$Teddy bear.pdf$teddy_223_source$, 3123591, $teddy_223$Topotecan HCl
+                                                                                                                                                     833$teddy_230$, 'pending-clinical-verification'),
+  ($teddy_231_id$topotecan-hcl$teddy_231_id$, $teddy_231_name$Topotecan HCl$teddy_231_name$, $teddy_231_source$Teddy bear.pdf$teddy_231_source$, 3123591, $teddy_231$Topotecan HCl
 Brand names         Hycamtin
 
 
@@ -41413,8 +41413,8 @@ REFERENCES
 
 
 
-836$teddy_223$, 'pending-clinical-verification'),
-  ($teddy_224_id$tranexamic-acid$teddy_224_id$, $teddy_224_name$Tranexamic Acid$teddy_224_name$, $teddy_224_source$Teddy bear.pdf$teddy_224_source$, 3137502, $teddy_224$Tranexamic Acid
+836$teddy_231$, 'pending-clinical-verification'),
+  ($teddy_232_id$tranexamic-acid$teddy_232_id$, $teddy_232_name$Tranexamic Acid$teddy_232_name$, $teddy_232_source$Teddy bear.pdf$teddy_232_source$, 3137502, $teddy_232$Tranexamic Acid
 Brand names         Cyklokapron, generic
 
 Medication error    Cyklokapron may be confused with cycloSPORINE.(1)
@@ -41682,8 +41682,8 @@ REFERENCES
 
 
 
-842$teddy_224$, 'pending-clinical-verification'),
-  ($teddy_225_id$tromethamine$teddy_225_id$, $teddy_225_name$Tromethamine$teddy_225_name$, $teddy_225_source$Teddy bear.pdf$teddy_225_source$, 3159840, $teddy_225$Tromethamine
+842$teddy_232$, 'pending-clinical-verification'),
+  ($teddy_233_id$tromethamine$teddy_233_id$, $teddy_233_name$Tromethamine$teddy_233_name$, $teddy_233_source$Teddy bear.pdf$teddy_233_source$, 3159840, $teddy_233$Tromethamine
 Brand names             THAM (no longer available in the United States)
 
 
@@ -41786,8 +41786,8 @@ REFERENCES
 
 
 
-                                                                                                                                              845$teddy_225$, 'pending-clinical-verification'),
-  ($teddy_226_id$valproate-sodium$teddy_226_id$, $teddy_226_name$Valproate Sodium$teddy_226_name$, $teddy_226_source$Teddy bear.pdf$teddy_226_source$, 3165945, $teddy_226$Valproate Sodium
+                                                                                                                                              845$teddy_233$, 'pending-clinical-verification'),
+  ($teddy_234_id$valproate-sodium$teddy_234_id$, $teddy_234_name$Valproate Sodium$teddy_234_name$, $teddy_234_source$Teddy bear.pdf$teddy_234_source$, 3165945, $teddy_234$Valproate Sodium
 Brand names         Depacon, generic
 
 
@@ -42108,8 +42108,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-850$teddy_226$, 'pending-clinical-verification'),
-  ($teddy_227_id$vancomycin-hcl$teddy_227_id$, $teddy_227_name$Vancomycin HCl$teddy_227_name$, $teddy_227_source$Teddy bear.pdf$teddy_227_source$, 3193624, $teddy_227$Vancomycin HCl
+850$teddy_234$, 'pending-clinical-verification'),
+  ($teddy_235_id$vancomycin-hcl$teddy_235_id$, $teddy_235_name$Vancomycin HCl$teddy_235_name$, $teddy_235_source$Teddy bear.pdf$teddy_235_source$, 3193624, $teddy_235$Vancomycin HCl
 Brand names         Generic
 
 
@@ -42409,8 +42409,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-856$teddy_227$, 'pending-clinical-verification'),
-  ($teddy_228_id$varicella-zoster-immune-globulin$teddy_228_id$, $teddy_228_name$Varicella Zoster Immune Globulin$teddy_228_name$, $teddy_228_source$Teddy bear.pdf$teddy_228_source$, 3218849, $teddy_228$Varicella Zoster Immune Globulin
+856$teddy_235$, 'pending-clinical-verification'),
+  ($teddy_236_id$varicella-zoster-immune-globulin$teddy_236_id$, $teddy_236_name$Varicella Zoster Immune Globulin$teddy_236_name$, $teddy_236_source$Teddy bear.pdf$teddy_236_source$, 3218849, $teddy_236$Varicella Zoster Immune Globulin
 Brand names            VariZIG
 
 
@@ -42523,8 +42523,8 @@ REFERENCES
 
 
 
-                                                                                                                                                859$teddy_228$, 'pending-clinical-verification'),
-  ($teddy_229_id$vasopressin$teddy_229_id$, $teddy_229_name$Vasopressin$teddy_229_name$, $teddy_229_source$Teddy bear.pdf$teddy_229_source$, 3225528, $teddy_229$Vasopressin
+                                                                                                                                                859$teddy_236$, 'pending-clinical-verification'),
+  ($teddy_237_id$vasopressin$teddy_237_id$, $teddy_237_name$Vasopressin$teddy_237_name$, $teddy_237_source$Teddy bear.pdf$teddy_237_source$, 3225528, $teddy_237$Vasopressin
 Brand names         Vasostrict
 
 
@@ -42758,8 +42758,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-                                                                                                                                                  863$teddy_229$, 'pending-clinical-verification'),
-  ($teddy_230_id$vecuronium-bromide$teddy_230_id$, $teddy_230_name$Vecuronium Bromide$teddy_230_name$, $teddy_230_source$Teddy bear.pdf$teddy_230_source$, 3243236, $teddy_230$Vecuronium Bromide
+                                                                                                                                                  863$teddy_237$, 'pending-clinical-verification'),
+  ($teddy_238_id$vecuronium-bromide$teddy_238_id$, $teddy_238_name$Vecuronium Bromide$teddy_238_name$, $teddy_238_source$Teddy bear.pdf$teddy_238_source$, 3243236, $teddy_238$Vecuronium Bromide
 Brand names         Norcuron, generic
 
 
@@ -42947,8 +42947,8 @@ REFERENCES
 
 
 
-866$teddy_230$, 'pending-clinical-verification'),
-  ($teddy_231_id$verapamil-hcl$teddy_231_id$, $teddy_231_name$Verapamil HCl$teddy_231_name$, $teddy_231_source$Teddy bear.pdf$teddy_231_source$, 3258055, $teddy_231$Verapamil HCl
+866$teddy_238$, 'pending-clinical-verification'),
+  ($teddy_239_id$verapamil-hcl$teddy_239_id$, $teddy_239_name$Verapamil HCl$teddy_239_name$, $teddy_239_source$Teddy bear.pdf$teddy_239_source$, 3258055, $teddy_239$Verapamil HCl
 Brand names            Calan, generic
 
 
@@ -43127,8 +43127,8 @@ Note: Reference numbers may not be sequential. Some references from previous edi
 
 
 
-870$teddy_231$, 'pending-clinical-verification'),
-  ($teddy_232_id$vinblastine-sulfate$teddy_232_id$, $teddy_232_name$VinBLAStine Sulfate$teddy_232_name$, $teddy_232_source$Teddy bear.pdf$teddy_232_source$, 3271553, $teddy_232$VinBLAStine Sulfate
+870$teddy_239$, 'pending-clinical-verification'),
+  ($teddy_240_id$vinblastine-sulfate$teddy_240_id$, $teddy_240_name$VinBLAStine Sulfate$teddy_240_name$, $teddy_240_source$Teddy bear.pdf$teddy_240_source$, 3271553, $teddy_240$VinBLAStine Sulfate
 Brand names            Velban, generic
 
 
@@ -43292,8 +43292,8 @@ REFERENCES
 
 
 
-874$teddy_232$, 'pending-clinical-verification'),
-  ($teddy_233_id$vincristine-sulfate$teddy_233_id$, $teddy_233_name$VinCRIStine Sulfate$teddy_233_name$, $teddy_233_source$Teddy bear.pdf$teddy_233_source$, 3283814, $teddy_233$VinCRIStine Sulfate
+874$teddy_240$, 'pending-clinical-verification'),
+  ($teddy_241_id$vincristine-sulfate$teddy_241_id$, $teddy_241_name$VinCRIStine Sulfate$teddy_241_name$, $teddy_241_source$Teddy bear.pdf$teddy_241_source$, 3283814, $teddy_241$VinCRIStine Sulfate
 Brand names         Vincasar PFS, Oncovin, generic
 
 Medication error    ISMP high-alert medication that has an increased risk of causing significant patient harm
@@ -43515,8 +43515,8 @@ REFERENCES
 
 
 
-                                                                                                                                                    879$teddy_233$, 'pending-clinical-verification'),
-  ($teddy_234_id$vitamin-a$teddy_234_id$, $teddy_234_name$Vitamin A$teddy_234_name$, $teddy_234_source$Teddy bear.pdf$teddy_234_source$, 3302221, $teddy_234$Vitamin A
+                                                                                                                                                    879$teddy_241$, 'pending-clinical-verification'),
+  ($teddy_242_id$vitamin-a$teddy_242_id$, $teddy_242_name$Vitamin A$teddy_242_name$, $teddy_242_source$Teddy bear.pdf$teddy_242_source$, 3302221, $teddy_242$Vitamin A
 Brand names            Aquasol A Parenteral (water-miscible vitamin A palmitate)
 
 
@@ -43631,8 +43631,8 @@ REFERENCES
 
 
 
-                                                                                                                                                   881
-Vitamin K1–Phytonadione
+                                                                                                                                                   881$teddy_242$, 'pending-clinical-verification'),
+  ($teddy_243_id$vitamin-k1-phytonadione$teddy_243_id$, $teddy_243_name$Vitamin K1–Phytonadione$teddy_243_name$, $teddy_243_source$Teddy bear.pdf$teddy_243_source$, 3309623, $teddy_243$Vitamin K1–Phytonadione
 Brand names            Mephyton, generics
 
 
@@ -43794,8 +43794,8 @@ REFERENCES
 
 
 
-884$teddy_234$, 'pending-clinical-verification'),
-  ($teddy_235_id$voriconazole$teddy_235_id$, $teddy_235_name$Voriconazole$teddy_235_name$, $teddy_235_source$Teddy bear.pdf$teddy_235_source$, 3321000, $teddy_235$Voriconazole
+884$teddy_243$, 'pending-clinical-verification'),
+  ($teddy_244_id$voriconazole$teddy_244_id$, $teddy_244_name$Voriconazole$teddy_244_name$, $teddy_244_source$Teddy bear.pdf$teddy_244_source$, 3321000, $teddy_244$Voriconazole
 Brand names         Vfend
 
 
@@ -43969,8 +43969,8 @@ REFERENCES
 
 
 
-888$teddy_235$, 'pending-clinical-verification'),
-  ($teddy_236_id$zidovudine$teddy_236_id$, $teddy_236_name$Zidovudine$teddy_236_name$, $teddy_236_source$Teddy bear.pdf$teddy_236_source$, 3333590, $teddy_236$Zidovudine
+888$teddy_244$, 'pending-clinical-verification'),
+  ($teddy_245_id$zidovudine$teddy_245_id$, $teddy_245_name$Zidovudine$teddy_245_name$, $teddy_245_source$Teddy bear.pdf$teddy_245_source$, 3333590, $teddy_245$Zidovudine
 Brand names         Retrovir (formerly called Azidothymidine, AZT)
 
 
@@ -44135,8 +44135,8 @@ REFERENCES
 
 
 
-892$teddy_236$, 'pending-clinical-verification'),
-  ($teddy_237_id$zoledronic-acid$teddy_237_id$, $teddy_237_name$Zoledronic Acid$teddy_237_name$, $teddy_237_source$Teddy bear.pdf$teddy_237_source$, 3344478, $teddy_237$Zoledronic Acid
+892$teddy_245$, 'pending-clinical-verification'),
+  ($teddy_246_id$zoledronic-acid$teddy_246_id$, $teddy_246_name$Zoledronic Acid$teddy_246_name$, $teddy_246_source$Teddy bear.pdf$teddy_246_source$, 3344478, $teddy_246$Zoledronic Acid
 Brand names            Zometa, Reclast
 
 Medication error       Look-alike, sound-alike drug names
@@ -44645,83 +44645,83 @@ Midazolam HCl             I/C     I       I           immediately in select     
 
 References
 	  1. Trissel LA. Handbook on Injectable Drugs. 13th ed. Bethesda, MD: American Society of Health-System Pharmacists; 2005.
-	  2. Veltri M, Lee CKK. Compatibility of neonatal parenteral nutrient solutions with selected intravenous drugs. Am J Health-Syst Pharm.
+	  2.  Veltri M, Lee CKK. Compatibility of neonatal parenteral nutrient solutions with selected intravenous drugs. Am J Health-Syst Pharm.
          1996;53:2611-2613.
-	  3. Trissel LA, Gilbert DL, Martinez JF, et al. Compatibility of parenteral nutrient solutions with selected drugs during simulated Y-site administra-
+	  3.  Trissel LA, Gilbert DL, Martinez JF, et al. Compatibility of parenteral nutrient solutions with selected drugs during simulated Y-site administra-
          tion. Am J Health-Syst Pharm. 1997;54:1295-1300.
-	  4. Trissel LA, Gilbert DL, Martinez JF, et al. Compatibility of medications with 3-in-1 parenteral nutrition admixtures. J Parenter Enteral Nutr.
+	  4.  Trissel LA, Gilbert DL, Martinez JF, et al. Compatibility of medications with 3-in-1 parenteral nutrition admixtures. J Parenter Enteral Nutr.
          1999;23:67-74.
      	5. Watson D. Piggyback compatibility of antibiotics with pediatric parenteral nutrition solutions. J Parenter Enteral Nutr. 1985;9:220-224.
     6. Schilling CG. Compatibility of drugs with a heparin-containing neonatal total parenteral nutrient solution. Am J Hosp Pharm. 1988;45:313-314.
-    7. Kamen BA, Gunther N, Sowinsky N, et al. Analysis of antibiotic stability in a parenteral nutrition solution. Pediatr Infect Dis. 1985;4:387-389.
-    8. Bullock L, Clark JH, Fitzgerald JF, et al. The stability of amikacin, gentamicin, and tobramycin in total nutrient admixtures. J Parenter Enteral Nutr.
+    7.  Kamen BA, Gunther N, Sowinsky N, et al. Analysis of antibiotic stability in a parenteral nutrition solution. Pediatr Infect Dis. 1985;4:387-389.
+    8.  Bullock L, Clark JH, Fitzgerald JF, et al. The stability of amikacin, gentamicin, and tobramycin in total nutrient admixtures. J Parenter Enteral Nutr.
          1989;13:505-509.
     9. Andreu A, Cardona D, Pastor C, et al. Intravenous aminophylline: in vitro stability of fat-containing TPN. Ann Pharmacother. 1992;26:127-128.
-10. Niemiec PW Jr, Vanderveen TW, Hohenwarter MW, et al. Stability of aminophylline injection in three parenteral nutrient solutions. Am J Hosp
+10.  Niemiec PW Jr, Vanderveen TW, Hohenwarter MW, et al. Stability of aminophylline injection in three parenteral nutrient solutions. Am J Hosp
          Pharm. 1983;40:428-432.
 11. Baptisa RJ, Lawrence RW. Compatibility of total nutrient admixtures and secondary antibiotic infusions. Am J Hosp Pharm. 1985;42:362-363.
-12.     Schuetz DH, King JC. Compatibility and stability of electrolytes, vitamins and antibiotics in combination with 8% amino acids solutions.
+12.      Schuetz DH, King JC. Compatibility and stability of electrolytes, vitamins and antibiotics in combination with 8% amino acids solutions.
          Am J Hosp Pharm. 1978;35:33-44.
-13. Gilbar PJ, Groves CF. Visual compatibility of total parenteral nutrition solution (Synthamin 17 premix) with selected drugs during simulated Y-site
+13.  Gilbar PJ, Groves CF. Visual compatibility of total parenteral nutrition solution (Synthamin 17 premix) with selected drugs during simulated Y-site
          injection. Aust J Hosp Pharm. 1994;24:167-170.
-14.     Nahata MC, Zingarelli J, Durrell DE. Stability of caffeine citrate injection in intravenous admixtures and parenteral nutrition solutions.
+14.      Nahata MC, Zingarelli J, Durrell DE. Stability of caffeine citrate injection in intravenous admixtures and parenteral nutrition solutions.
          J Clin Pharm Ther. 1989;14:53-55.
 15. Maxipime (Cefepime) [package insert]. Princeton, NJ: Bristol Meyers Squibb Company; revised December 2003.
-16. Wade CS, Lampasona V, Mullins RE, et al. Stability of ceftazidime and amino acids in parenteral nutrient solutions. Am J Hosp Pharm. 1991;48:
+16.  Wade CS, Lampasona V, Mullins RE, et al. Stability of ceftazidime and amino acids in parenteral nutrient solutions. Am J Hosp Pharm. 1991;48:
          1515-1519.
-17.     Hatton J, Luer M, Hirsch J, et al. Histamine receptor antagonists and lipid stability in total nutrient admixtures. J Parenter Enteral Nutr.
+17.      Hatton J, Luer M, Hirsch J, et al. Histamine receptor antagonists and lipid stability in total nutrient admixtures. J Parenter Enteral Nutr.
          1994;18:308-312.
 18. Jacobson PA, Maksym CJ, Landvay A, et al. Compatibility of cyclosporine with fat emulsion. Am J Hosp Pharm. 1993;50:687-690.
-19. Baptisa RJ, Dumas GJ, Bistrian BR, et al. Compatibility of total nutrient admixtures and secondary cardiovascular medications. Am J Hosp Pharm.
+19.  Baptisa RJ, Dumas GJ, Bistrian BR, et al. Compatibility of total nutrient admixtures and secondary cardiovascular medications. Am J Hosp Pharm.
          1985;42:777-778.
-20. Ohls RK, Christensen RD. Stability of human recombinant epoetin alfa in commonly used neonatal intravenous solutions. Ann Pharmacother.
+20.  Ohls RK, Christensen RD. Stability of human recombinant epoetin alfa in commonly used neonatal intravenous solutions. Ann Pharmacother.
          1996;30:466-468.
-21. DiStefano JE, Mitrano JE, Baptista F P, et al. Long-term stability of famotidine 20 mg/mL in a total parenteral nutrient solution. Am J Hosp Pharm.
+21.  DiStefano JE, Mitrano JE, Baptista F P, et al. Long-term stability of famotidine 20 mg/mL in a total parenteral nutrient solution. Am J Hosp Pharm.
          1989;46:2333-2335.
-22. Bullock L, Fitzgerald JF, Glick MR, et al. Stability of famotidine 20 and 40 mg/L and amino acids in total parenteral nutrient solutions. Am J Hosp
+22.  Bullock L, Fitzgerald JF, Glick MR, et al. Stability of famotidine 20 and 40 mg/L and amino acids in total parenteral nutrient solutions. Am J Hosp
          Pharm. 1989;46:2321-2325.
 23. Bullock L, Fitzgerald JF, Glick MR. Stability of famotidine 20 and 50 mg/L in total nutrient admixtures. Am J Hosp Pharm. 1989;46:2326-2329.
-24. Montoro JB, Pou L, Salvador P, et al. Stability of famotidine 20 and 40 mg/L in total nutrient admixtures. Am J Hosp Pharm. 1989;46:2329-2332.
+24.  Montoro JB, Pou L, Salvador P, et al. Stability of famotidine 20 and 40 mg/L in total nutrient admixtures. Am J Hosp Pharm. 1989;46:2329-2332.
 25. Shea BF, Souney PF. Stability of famotidine in a 3-in-1 total nutrient admixture. DCIP. 1990;24:232-235.
-26. Moshfeghi M, Ciuffo J. Visual compatibility of fentanyl citrate with parenteral nutrient solutions [Letters]. Am J Health Sys Pharm. 1998;55:
+26.  Moshfeghi M, Ciuffo J. Visual compatibility of fentanyl citrate with parenteral nutrient solutions [Letters]. Am J Health Sys Pharm. 1998;55:
          1194-1197.
-27.     Couch P, Jacobson P, Johnson CE. Stability of fuconazole and amino acids in parenteral nutrient solutions. Am J Hosp Pharm. 1992;49:
+27.      Couch P, Jacobson P, Johnson CE. Stability of fuconazole and amino acids in parenteral nutrient solutions. Am J Hosp Pharm. 1992;49:
          1459-1462.
-28.     Baltz JK, Kennedy P, Minor JR, et al. Visual compatibility of foscarnet with other injectable drugs during simulated Y-site administration.
+28.      Baltz JK, Kennedy P, Minor JR, et al. Visual compatibility of foscarnet with other injectable drugs during simulated Y-site administration.
          Am J Hosp Pharm. 1990;47:2075-2077.
-29. Outman WR, Mitrano FP, Baptista RJ. Visual compatibility of ganciclovir sodium and parenteral nutrient solution during simulated Y-site injection.
+29.  Outman WR, Mitrano FP, Baptista RJ. Visual compatibility of ganciclovir sodium and parenteral nutrient solution during simulated Y-site injection.
          Am J Hosp Pharm. 1991;48:1538-1539.
-30. Johnson CE, Jacobson PA, Chan E. Stability of ganciclovir sodium and amino acids in parenteral nutrient solutions. Am J Hosp Pharm. 1994;51:
+30.  Johnson CE, Jacobson PA, Chan E. Stability of ganciclovir sodium and amino acids in parenteral nutrient solutions. Am J Hosp Pharm. 1994;51:
          503-508.
-31. Mirtallo JM, Rogers KR, Johnson JA, et al. Stability of amino acids and the availability of acid in total parenteral nutrition solutions containing
+31.  Mirtallo JM, Rogers KR, Johnson JA, et al. Stability of amino acids and the availability of acid in total parenteral nutrition solutions containing
          hydrochloric acid. Am J Hosp Pharm. 1981;38:1729-1731.
-32. Lindsay CA, Dang K, Adams JM, et al. Stability and activity of intravenous immunoglobulin with neonatal dextrose and total parenteral nutrient
+32.  Lindsay CA, Dang K, Adams JM, et al. Stability and activity of intravenous immunoglobulin with neonatal dextrose and total parenteral nutrient
          solutions. Ann Pharmacother. 1994;28:1014-1017.
-33. Ishisaka DY, VanVleet J, Marquardt E. Visual compatibility of indomethacin sodium trihydrate with drugs given to neonates by continuous
+33. I shisaka DY, VanVleet J, Marquardt E. Visual compatibility of indomethacin sodium trihydrate with drugs given to neonates by continuous
          infusion. Am J Hosp Pharm. 1991;48:2442-2443.
 34. Wan KK, Tsallas G. Dilute iron dextran formulation for addition to parenteral nutrient solutions. Am J Hosp Pharm. 1980;37:206-210.
 35. Mayhew SL, Quick MW. Compatibility of iron dextran with neonatal parenteral nutrient solutions. Am J Health-Syst Pharm. 1997;54:570-571.
 36. Tu YH, Knox NL, Biringer JM, et al. Compatibility of iron dextran with total nutrient admixtures. Am J Hosp Pharm. 1992;49:2233-2235.
 37. Vaughan LM, Small C, Plunkett V. Incompatibility of iron dextran and a total nutrient admixture. Am J Hosp Pharm. 1990;47:1745-1746.
-38. Athanikar N, Boyer B, Deamer R, et al. Visual compatibility of 30 additives with a parenteral nutrient solution. Am J Hosp Pharm. 1979;36:
+38.  Athanikar N, Boyer B, Deamer R, et al. Visual compatibility of 30 additives with a parenteral nutrient solution. Am J Hosp Pharm. 1979;36:
          511-513.
-39.     Feigin RD, Moss KS, Shackelford PG. Antibiotic stability in solutions used for intravenous nutrition and fluid therapy. Pediatrics. 1973;51:
+39.      Feigin RD, Moss KS, Shackelford PG. Antibiotic stability in solutions used for intravenous nutrition and fluid therapy. Pediatrics. 1973;51:
          1016-1026.
-40. Trissel LA, Williams KY, Gilbert DL. Compatibility screening of linezolid injection during simulated Y-site administration with other drugs and
+40.  Trissel LA, Williams KY, Gilbert DL. Compatibility screening of linezolid injection during simulated Y-site administration with other drugs and
          infusion solutions. J Am Pharm Assoc. 2000;40:515-519.
-41.     Pugh CB, Pabis DJ, Rodriguez C. Visual compatibility of morphine sulfate and meperidine hydrochloride with other injectable drugs during
+41.      Pugh CB, Pabis DJ, Rodriguez C. Visual compatibility of morphine sulfate and meperidine hydrochloride with other injectable drugs during
          simulated Y-site injection. Am J Hosp Pharm. 1991;48:123-125.
-42. Bhatt-Mehta V, Rosen DA, King RS, et al. Stability of midazolam hydrochloride in parenteral nutrient solutions. Am J Hosp Pharm. 1993;50:
+42.  Bhatt-Mehta V, Rosen DA, King RS, et al. Stability of midazolam hydrochloride in parenteral nutrient solutions. Am J Hosp Pharm. 1993;50:
          285-288.
-43. Akkerman SR, Zhang H, Mullins RE, et al. Stability of milrinone lactate in the presence of 29 critical care drugs and 4 IV solutions. Am J Health-Syst
+43.  Akkerman SR, Zhang H, Mullins RE, et al. Stability of milrinone lactate in the presence of 29 critical care drugs and 4 IV solutions. Am J Health-Syst
          Pharm. 1999;56:63-68.
-44. Veltri MA, Conner KG. Physical compatibility of milrinone lactate injection with intravenous drugs commonly used in the pediatric intensive care
+44.  Veltri MA, Conner KG. Physical compatibility of milrinone lactate injection with intravenous drugs commonly used in the pediatric intensive care
          unit. Am J Health-Syst Pharm. 2002;59(5):452-454.
-45. Bhatt-Mehta V, Paglia RE, Rosen DA. Stability of propofol with parenteral nutrient solutions during simulated Y-site injection. Am J Health-Syst
+45.  Bhatt-Mehta V, Paglia RE, Rosen DA. Stability of propofol with parenteral nutrient solutions during simulated Y-site injection. Am J Health-Syst
          Pharm. 1995;52:192-196.
-46. Trissel LA, Bready BB, Kwan J W, et al. Visual compatibility of sargramostim with selected antineoplastic agents, anti-infectives, or other drugs
+46.  Trissel LA, Bready BB, Kwan J W, et al. Visual compatibility of sargramostim with selected antineoplastic agents, anti-infectives, or other drugs
          during simulated Y-site injection. Am J Hosp Pharm. 1992;49:402-406.
-47. Dahl GB, Svensson L, Kinnander NJ, et al. Stability of multivitamins in soybean oil fat emulsion under conditions simulating intravenous feeding
+47.  Dahl GB, Svensson L, Kinnander NJ, et al. Stability of multivitamins in soybean oil fat emulsion under conditions simulating intravenous feeding
          of neonates and children. J Parenter Enteral Nutr. 1994;18:234-239.
 
 
@@ -44824,9 +44824,9 @@ pratherapeutic exposures to acetaminophen. Some have advocated that patients wit
 treated with acetylcysteine regardless of the risk estimation.(2,4)
 
 References
-1.	Smilkstein MJ, Knapp GL, Kulig KW, Rumack BH. Efficacy of oral N-acetylcysteine in the treatment of acetaminophen overdose: analysis of the
+1.	 Smilkstein MJ, Knapp GL, Kulig KW, Rumack BH. Efficacy of oral N-acetylcysteine in the treatment of acetaminophen overdose: analysis of the
     national multicenter study (1976–1985). N Engl J Med. 1988;319:1557-1562.
-2.	Wolf SJ, Heard K, Sloan EP, Jagoda AS. American College of Emergency Physicians. Clinical policy: critical issues in the management of patients
+2.	 Wolf SJ, Heard K, Sloan EP, Jagoda AS. American College of Emergency Physicians. Clinical policy: critical issues in the management of patients
     presenting to the emergency department with acetaminophen overdose. Ann Emerg Med. 2007;50:292-313.
 3. Dart RC, Rumack BH. Intravenous acetaminophen in the United States: Iatrogenic dosing errors. Pediatrics. 2012;129:349-353.
 4. Schmidt LE, Dalhoff K, Poulsen HE. Acute versus chronic alcohol consumption in acetaminophen-induced hepatoxicity. Hepatology.
@@ -45224,7 +45224,7 @@ sodium bicarbonate,             varicella zoster immune
 
 
 
-Note: Words in boldface indicate a generic drug name.$teddy_237$, 'pending-clinical-verification')
+Note: Words in boldface indicate a generic drug name.$teddy_246$, 'pending-clinical-verification')
 ON CONFLICT (source_id) DO UPDATE SET
   name = EXCLUDED.name,
   source_file = EXCLUDED.source_file,

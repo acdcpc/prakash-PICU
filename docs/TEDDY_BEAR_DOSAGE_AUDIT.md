@@ -54,3 +54,6 @@ The private output contains `audit.json` for machine processing and `audit.md` f
 The PICU review team should work through every record and confirm the exact drug identity, formulation, route, indication, age and weight restrictions, neonatal applicability, renal/hepatic adjustments, dialysis considerations, dose unit, maximum dose, frequency, preparation, concentration, dilution, compatibility, administration rate, monitoring requirements, and local protocol alignment. Any record with a flagged unit or concentration should remain out of calculator data until explicitly resolved.
 
 The current result is therefore: **the imported text is structurally present and auditable, but the audit cannot conclude that every dose is correct.** Clinical correctness requires your team’s final verification against the authorized source and current institutional standards.
+
+
+> **Update (2026-09-30):** the monograph index was expanded from 238 to 247 records after an extraction-gap repair; the counts above describe the original audit run.

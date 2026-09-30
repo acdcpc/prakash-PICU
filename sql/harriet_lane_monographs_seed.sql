@@ -302,10 +302,8 @@ Inflammation or phlebitis at the injection site and transient elevations of sCr 
 Topical cream acyclovir 5% in combination with hydrocortisone 1% (Xerese) is indicated for
    herpes labialis (≥6 yr and adults) at a dosage of 5 applications per day for 5 days. Use a
    finger cot or rubber glove when applying topical cream or ointment.
-Ophthalmic ointment product was removed from market in 2021.
-
-
-  ADAPALENE ± BENZOYL PEROXIDE
+Ophthalmic ointment product was removed from market in 2021.$hl_4$, 'pending-clinical-verification'),
+  ($hl_5_id$adapalene-benzoyl-peroxide$hl_5_id$, $hl_5_name$ADAPALENE ± BENZOYL PEROXIDE$hl_5_name$, $hl_5_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_5_source$, 3117555, $hl_5$ADAPALENE ± BENZOYL PEROXIDE
   Differin and generics
   In combination with benzoyl peroxide: Epiduo, Epiduo
                                                                       C       ?      No      No     No
@@ -356,11 +354,11 @@ ADAPALENE + BENZOYL PEROXIDE: Contraindicated in patients with a history of benz
   irritation, and contact dermatitis. When compared with isotretinoin in a clinical trial for
   nodulocystic acne, adapalene + benzoyl peroxide plus doxycycline was not inferior to
   isotretinoin and was less effective in reducing the number of total lesions (nodules,
-  papules/pustules, and comedones).$hl_4$, 'pending-clinical-verification'),
-  ($hl_5_id$adderall$hl_5_id$, $hl_5_name$ADDERALL$hl_5_name$, $hl_5_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_5_source$, 3120641, $hl_5$ADDERALL
+  papules/pustules, and comedones).$hl_5$, 'pending-clinical-verification'),
+  ($hl_6_id$adderall$hl_6_id$, $hl_6_name$ADDERALL$hl_6_name$, $hl_6_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_6_source$, 3120641, $hl_6$ADDERALL
 
-See Dextroamphetamine ± Amphetamine$hl_5$, 'pending-clinical-verification'),
-  ($hl_6_id$adenosine$hl_6_id$, $hl_6_name$ADENOSINE$hl_6_name$, $hl_6_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_6_source$, 3120691, $hl_6$ADENOSINE
+See Dextroamphetamine ± Amphetamine$hl_6$, 'pending-clinical-verification'),
+  ($hl_7_id$adenosine$hl_7_id$, $hl_7_name$ADENOSINE$hl_7_name$, $hl_7_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_7_source$, 3120691, $hl_7$ADENOSINE
   Generics; previously available as Adenocard
   Antiarrhythmic
                                                                           C        ?       No      No     No
@@ -387,8 +385,8 @@ Carbamazepine and dipyridamole may increase the effects and toxicity of adenosin
 
 
 
-                                                                                                        FORMULARY$hl_6$, 'pending-clinical-verification'),
-  ($hl_7_id$albumin-human$hl_7_id$, $hl_7_name$ALBUMIN, HUMAN$hl_7_name$, $hl_7_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_7_source$, 3122504, $hl_7$ALBUMIN, HUMAN
+                                                                                                        FORMULARY$hl_7$, 'pending-clinical-verification'),
+  ($hl_8_id$albumin-human$hl_8_id$, $hl_8_name$ALBUMIN, HUMAN$hl_8_name$, $hl_8_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_8_source$, 3122504, $hl_8$ALBUMIN, HUMAN
   Albuked, Albumin-ZLB, Albuminex, AlbuRx, Albutein,
   Kedbumin, and many others
                                                                   C       ?      No     No     No
@@ -420,8 +418,8 @@ Contraindicated in cases of CHF or severe anemia; rapid infusion may cause fluid
 Caution: 25% concentration is considered contraindicated in preterm infants due to risk of
   IVH. Use product-specific recommended in-line filter size. Both 5% and 25% products are
   isotonic but differ in oncotic effects. Dilutions of the 25% product should be made with
-  D5W or NS; avoid sterile water as a diluent.$hl_7$, 'pending-clinical-verification'),
-  ($hl_8_id$albuterol$hl_8_id$, $hl_8_name$ALBUTEROL$hl_8_name$, $hl_8_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_8_source$, 3124267, $hl_8$ALBUTEROL
+  D5W or NS; avoid sterile water as a diluent.$hl_8$, 'pending-clinical-verification'),
+  ($hl_9_id$albuterol$hl_9_id$, $hl_9_name$ALBUTEROL$hl_9_name$, $hl_9_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_9_source$, 3124267, $hl_9$ALBUTEROL
   Ventolin HFA (aerosol inhaler), ProAir RespiClick
   (breath-activated inhaler), and many generics
                                                                   C       1      No     No     No
@@ -481,8 +479,8 @@ The use of tube spacers or chambers may enhance efficacy of the HFA metered-dose
   use a spacer device with any of the breath-activated inhaler dosage forms. Breath-
   activated dosage forms require patients to generate a minimum inspiratory flow rate of
   ≥30 L/min for proper dose activation. ProAir RespiClick: keep device dry and do not wash
-  or place any part of the inhaler in water.$hl_8$, 'pending-clinical-verification'),
-  ($hl_9_id$allopurinol$hl_9_id$, $hl_9_name$ALLOPURINOL$hl_9_name$, $hl_9_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_9_source$, 3127598, $hl_9$ALLOPURINOL
+  or place any part of the inhaler in water.$hl_9$, 'pending-clinical-verification'),
+  ($hl_10_id$allopurinol$hl_10_id$, $hl_10_name$ALLOPURINOL$hl_10_name$, $hl_10_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_10_source$, 3127598, $hl_10$ALLOPURINOL
   Aloprim and generics; previously available as Zyloprim
   Uric acid lowering agent, xanthine oxidase inhibitor
                                                                    C       3      Yes    Yes     Yes
@@ -522,8 +520,8 @@ IV dosage form is very alkaline and must be diluted to a minimum concentration o
    and infused over 30 min.
 The manufacturer advises not to breastfeed during treatment with allopurinol for 1 week after
    the last dose as limited data indicate a maternal dose of 300 mg daily can provide
-   near-therapeutic dose and plasma levels in an exclusively breastfed infant.$hl_9$, 'pending-clinical-verification'),
-  ($hl_10_id$almotriptan-malate$hl_10_id$, $hl_10_name$ALMOTRIPTAN MALATE$hl_10_name$, $hl_10_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_10_source$, 3129936, $hl_10$ALMOTRIPTAN MALATE
+   near-therapeutic dose and plasma levels in an exclusively breastfed infant.$hl_10$, 'pending-clinical-verification'),
+  ($hl_11_id$almotriptan-malate$hl_11_id$, $hl_11_name$ALMOTRIPTAN MALATE$hl_11_name$, $hl_11_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_11_source$, 3129936, $hl_11$ALMOTRIPTAN MALATE
   Generics; previously available as Axert
   Antimigraine agent, selective serotonin agonist
                                                                       C       3      Yes     Yes    No
@@ -564,8 +562,8 @@ Almotriptan is a minor substrate for cytochrome 450 (CYP) 2D6 and 3A4. Use lower
   single dose of 6.25 mg with max. daily dose of 12.5 mg if receiving a potent CYP3A4
   inhibitor (e.g., itraconazole, ritonavir). Do not use almotriptan in the presence of renal or
   hepatic impairment and if receiving a potent CYP3A4 inhibitor.
-Doses may be administered with or without food.$hl_10$, 'pending-clinical-verification'),
-  ($hl_11_id$alprostadil$hl_11_id$, $hl_11_name$ALPROSTADIL$hl_11_name$, $hl_11_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_11_source$, 3132402, $hl_11$ALPROSTADIL
+Doses may be administered with or without food.$hl_11$, 'pending-clinical-verification'),
+  ($hl_12_id$alprostadil$hl_12_id$, $hl_12_name$ALPROSTADIL$hl_12_name$, $hl_12_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_12_source$, 3132402, $hl_12$ALPROSTADIL
   Prostin VR Pediatric, prostaglandin E1, PGE1
   Prostaglandin E1, vasodilator
                                                                        ?       ?      No      No     No
@@ -580,8 +578,8 @@ To prepare infusion: See inside front cover.
 For palliation only. Continuous vital sign monitoring essential. May cause apnea (10%–12%;
   especially in those weighing <2 kg at birth), fever, seizures, flushing, bradycardia,
   hypotension, diarrhea, gastric outlet obstruction, and reversible cortical proliferation of long
-  bones (with prolonged use). May decrease platelet aggregation.$hl_11$, 'pending-clinical-verification'),
-  ($hl_12_id$alteplase$hl_12_id$, $hl_12_name$ALTEPLASE$hl_12_name$, $hl_12_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_12_source$, 3133338, $hl_12$ALTEPLASE
+  bones (with prolonged use). May decrease platelet aggregation.$hl_12$, 'pending-clinical-verification'),
+  ($hl_13_id$alteplase$hl_13_id$, $hl_13_name$ALTEPLASE$hl_13_name$, $hl_13_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_13_source$, 3133338, $hl_13$ALTEPLASE
   Activase, Cathflo Activase, tPA
   Thrombolytic agent, tissue plasminogen activator
                                                                        C       2      Yes     Yes    No
@@ -628,8 +626,8 @@ THROMBOLYTIC USE: History of stroke, transient ischemic attacks, other neurologi
   been recently reported. Use with caution in severe hepatic or renal dysfunction (systemic
   use only).
 Newborns have reduced plasminogen levels (∼50% of adult values), which decrease the
-  thrombolytic effects of alteplase. Plasminogen supplementation may be necessary.$hl_12$, 'pending-clinical-verification'),
-  ($hl_13_id$aluminum-hydroxide$hl_13_id$, $hl_13_name$ALUMINUM HYDROXIDE$hl_13_name$, $hl_13_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_13_source$, 3136227, $hl_13$ALUMINUM HYDROXIDE
+  thrombolytic effects of alteplase. Plasminogen supplementation may be necessary.$hl_13$, 'pending-clinical-verification'),
+  ($hl_14_id$aluminum-hydroxide$hl_14_id$, $hl_14_name$ALUMINUM HYDROXIDE$hl_14_name$, $hl_14_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_14_source$, 3136227, $hl_14$ALUMINUM HYDROXIDE
   Various generics; previously available as Amphojel
   Antacid, phosphate binder
                                                                    ?       ?      Yes    No      No
@@ -660,8 +658,8 @@ May cause constipation, decreased bowel motility, encephalopathy, and phosphorus
 
 
                                                                                             Continued
-852          Part IV      Formulary$hl_13$, 'pending-clinical-verification'),
-  ($hl_14_id$aluminum-hydroxide-with-magnesium$hl_14_id$, $hl_14_name$ALUMINUM HYDROXIDE WITH MAGNESIUM$hl_14_name$, $hl_14_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_14_source$, 3137750, $hl_14$ALUMINUM HYDROXIDE WITH MAGNESIUM
+852          Part IV      Formulary$hl_14$, 'pending-clinical-verification'),
+  ($hl_15_id$aluminum-hydroxide-with-magnesium$hl_15_id$, $hl_15_name$ALUMINUM HYDROXIDE WITH MAGNESIUM HYDROXIDE ± SIMETHICONE$hl_15_name$, $hl_15_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_15_source$, 3137750, $hl_15$ALUMINUM HYDROXIDE WITH MAGNESIUM
   HYDROXIDE ± SIMETHICONE
   Mag-Al; previously available as Maalox
                                                                        ?        ?      Yes     No     No
@@ -697,11 +695,11 @@ DO NOT use Maalox Total Relief (bismuth subsalicylate), Mylanta New Tonight Soot
    (calcium carbonate + magnesium hydroxide + simethicone), Maalox Regular Strength or
    Children’s Chewable Tablets and Children’s Mylanta Chewable Tablets (calcium carbonate),
    Maalox Maximum Strength Chewable (calcium carbonate and simethicone), and Mylanta Gas
-   (simethicone), as these products do not contain aluminum hydroxide and magnesium hydroxide.$hl_14$, 'pending-clinical-verification'),
-  ($hl_15_id$alyftrek$hl_15_id$, $hl_15_name$ALYFTREK$hl_15_name$, $hl_15_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_15_source$, 3140157, $hl_15$ALYFTREK
+   (simethicone), as these products do not contain aluminum hydroxide and magnesium hydroxide.$hl_15$, 'pending-clinical-verification'),
+  ($hl_16_id$alyftrek$hl_16_id$, $hl_16_name$ALYFTREK$hl_16_name$, $hl_16_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_16_source$, 3140157, $hl_16$ALYFTREK
 
-See Vanzacaftor/Tezacaftor/Deutivacaftor$hl_15$, 'pending-clinical-verification'),
-  ($hl_16_id$amantadine-hydrochloride$hl_16_id$, $hl_16_name$AMANTADINE HYDROCHLORIDE$hl_16_name$, $hl_16_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_16_source$, 3140212, $hl_16$AMANTADINE HYDROCHLORIDE
+See Vanzacaftor/Tezacaftor/Deutivacaftor$hl_16$, 'pending-clinical-verification'),
+  ($hl_17_id$amantadine-hydrochloride$hl_17_id$, $hl_17_name$AMANTADINE HYDROCHLORIDE$hl_17_name$, $hl_17_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_17_source$, 3140212, $hl_17$AMANTADINE HYDROCHLORIDE
   Immediate release dosage forms: generics; previously
   available as Symmetrel
                                                                        C        3      Yes     Yes    No
@@ -738,10 +736,8 @@ Extended-release capsule and tablet dosage forms are indicated for the treatment
 May cause dizziness, anxiety, depression, mental status change, rash (livedo reticularis),
   nausea, orthostatic hypotension, edema, CHF, and urinary retention. Impulse control
   disorder has been reported. Neuroleptic malignant syndrome has been reported with abrupt
-  dose reduction or discontinuation (especially if patient is receiving neuroleptics).
-
-
-    AMIKACIN SULFATE
+  dose reduction or discontinuation (especially if patient is receiving neuroleptics).$hl_17$, 'pending-clinical-verification'),
+  ($hl_18_id$amikacin-sulfate$hl_18_id$, $hl_18_name$AMIKACIN SULFATE$hl_18_name$, $hl_18_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_18_source$, 3142561, $hl_18$AMIKACIN SULFATE
     Various generics; previously available as Amikin
     Antibiotic, aminoglycoside
                                                                             D        2         Yes     No      No
@@ -817,8 +813,8 @@ For initial dosing in obese patients, use an adjusted body weight (ABW). ABW = i
 May cause ototoxicity, nephrotoxicity, neuromuscular blockade, and rash. Loop diuretics may
   potentiate the ototoxicity of all aminoglycoside antibiotics.
 A liposomal inhalation product, Arikayce, is currently approved in adults as part of a
-  multidrug treatment regimen for Mycobacterium avium complex (MAC) lung disease.$hl_16$, 'pending-clinical-verification'),
-  ($hl_17_id$aminocaproic-acid$hl_17_id$, $hl_17_name$AMINOCAPROIC ACID$hl_17_name$, $hl_17_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_17_source$, 3147480, $hl_17$AMINOCAPROIC ACID
+  multidrug treatment regimen for Mycobacterium avium complex (MAC) lung disease.$hl_18$, 'pending-clinical-verification'),
+  ($hl_19_id$aminocaproic-acid$hl_19_id$, $hl_19_name$AMINOCAPROIC ACID$hl_19_name$, $hl_19_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_19_source$, 3147480, $hl_19$AMINOCAPROIC ACID
   Generics; previously available as Amicar
   Hemostatic agent
                                                                      C        ?      Yes     No       No
@@ -845,8 +841,8 @@ Contraindications: DIC, hematuria. Use with caution in patients with cardiac or 
 May cause nausea, diarrhea, malaise, weakness, headache, decreased platelet function,
   hypotension, and false increase in urine amino acids. Elevation of serum potassium may
   occur, especially in patients with renal impairment. Prolonged use may increase risk for
-  skeletal muscle weakness and rhabdomyolysis.$hl_17$, 'pending-clinical-verification'),
-  ($hl_18_id$aminophylline$hl_18_id$, $hl_18_name$AMINOPHYLLINE$hl_18_name$, $hl_18_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_18_source$, 3149039, $hl_18$AMINOPHYLLINE
+  skeletal muscle weakness and rhabdomyolysis.$hl_19$, 'pending-clinical-verification'),
+  ($hl_20_id$aminophylline$hl_20_id$, $hl_20_name$AMINOPHYLLINE$hl_20_name$, $hl_20_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_20_source$, 3149039, $hl_20$AMINOPHYLLINE
   Various generics
   Bronchodilator, methylxanthine
                                                                     C        1      Yes    Yes     No
@@ -898,8 +894,8 @@ Ideally, obtain levels after steady state has been achieved (after at least 1 da
    Liver impairment, cardiac failure, and sustained high fever may increase theophylline
    levels. See Theophylline for drug interactions.
 Use in breastfeeding may cause irritability to infant. It is recommended to avoid breastfeeding
-   for 2 hr after IV or 4 hr after immediate-release oral intermittent dose.$hl_18$, 'pending-clinical-verification'),
-  ($hl_19_id$amiodarone-hcl$hl_19_id$, $hl_19_name$AMIODARONE HCL$hl_19_name$, $hl_19_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_19_source$, 3151673, $hl_19$AMIODARONE HCL
+   for 2 hr after IV or 4 hr after immediate-release oral intermittent dose.$hl_20$, 'pending-clinical-verification'),
+  ($hl_21_id$amiodarone-hcl$hl_21_id$, $hl_21_name$AMIODARONE HCL$hl_21_name$, $hl_21_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_21_source$, 3151673, $hl_21$AMIODARONE HCL
   Pacerone, Nexterone, and generics
   Antiarrhythmic, Class III
                                                                     D        3      Yes    Yes    No
@@ -971,8 +967,8 @@ AMIODARONE HCL continued
      reduce the potential exposure to plasticizers in pregnant women and children at the toddler
      stages of development and younger by using alternative methods of IV drug administration.
   Oral administration should be consistent with regard to meals because food increases the
-     rate and extent of oral absorption.$hl_19$, 'pending-clinical-verification'),
-  ($hl_20_id$amitriptyline$hl_20_id$, $hl_20_name$AMITRIPTYLINE$hl_20_name$, $hl_20_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_20_source$, 3156786, $hl_20$AMITRIPTYLINE
+     rate and extent of oral absorption.$hl_21$, 'pending-clinical-verification'),
+  ($hl_22_id$amitriptyline$hl_22_id$, $hl_22_name$AMITRIPTYLINE$hl_22_name$, $hl_22_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_22_source$, 3156786, $hl_22$AMITRIPTYLINE
   Generics; previously available as Elavil
 
 
@@ -1058,8 +1054,8 @@ Side effects include sedation, urinary retention, constipation, dry mouth, dizzi
   reaches 130% of baseline, HR rises greater than 140/min, or BP is >140/90. Tricyclics
   may cause mania. For antidepressant use, monitor for clinical worsening of depression
   and suicidal ideation/behavior following the initiation of therapy or after dosage
-  changes.$hl_20$, 'pending-clinical-verification'),
-  ($hl_21_id$amlodipine$hl_21_id$, $hl_21_name$AMLODIPINE$hl_21_name$, $hl_21_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_21_source$, 3162297, $hl_21$AMLODIPINE
+  changes.$hl_22$, 'pending-clinical-verification'),
+  ($hl_23_id$amlodipine$hl_23_id$, $hl_23_name$AMLODIPINE$hl_23_name$, $hl_23_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_23_source$, 3162297, $hl_23$AMLODIPINE
   Norvasc, Norliqva, Katerzia, and generics
   Calcium channel blocker, antihypertensive
                                                                     C        2      No     Yes    No
@@ -1094,12 +1090,12 @@ Reduce dose in hepatic insufficiency. Allow 5–7 days of continuous initial dos
 Dose-related side effects include edema, dizziness, flushing, fatigue, and palpitations. Other
   side effects include headache, nausea, abdominal pain, and somnolence.
 Limited data report that amlodipine is present in breast milk at low levels and is undetectable
-  in infant plasma, with no adverse effects to breastfed infants.$hl_21$, 'pending-clinical-verification'),
-  ($hl_22_id$ammonul$hl_22_id$, $hl_22_name$AMMONUL$hl_22_name$, $hl_22_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_22_source$, 3164448, $hl_22$AMMONUL
+  in infant plasma, with no adverse effects to breastfed infants.$hl_23$, 'pending-clinical-verification'),
+  ($hl_24_id$ammonul$hl_24_id$, $hl_24_name$AMMONUL$hl_24_name$, $hl_24_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_24_source$, 3164448, $hl_24$AMMONUL
 
 See Sodium Phenylacetate + Sodium Benzoate
-860         Part IV     Formulary$hl_22$, 'pending-clinical-verification'),
-  ($hl_23_id$amoxicillin$hl_23_id$, $hl_23_name$AMOXICILLIN$hl_23_name$, $hl_23_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_23_source$, 3164539, $hl_23$AMOXICILLIN
+860         Part IV     Formulary$hl_24$, 'pending-clinical-verification'),
+  ($hl_25_id$amoxicillin$hl_25_id$, $hl_25_name$AMOXICILLIN$hl_25_name$, $hl_25_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_25_source$, 3164539, $hl_25$AMOXICILLIN
   Various generics; previously available as Amoxil and
   Trimox
                                                                   B       1      Yes    No     No
@@ -1139,8 +1135,8 @@ Renal elimination. Adjust dose in renal failure (see Chapter 32). Serum levels a
 High-dose regimen is recommended in respiratory infections (e.g., CAP), acute otitis media,
   and sinusitis, owing to increasing incidence of penicillin-resistant pneumococci. Chewable
   tablets may contain phenylalanine and should not be used by patients with
-  phenylketonuria.$hl_23$, 'pending-clinical-verification'),
-  ($hl_24_id$amoxicillin-clavulanic-acid$hl_24_id$, $hl_24_name$AMOXICILLIN-CLAVULANIC ACID$hl_24_name$, $hl_24_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_24_source$, 3166728, $hl_24$AMOXICILLIN-CLAVULANIC ACID
+  phenylketonuria.$hl_25$, 'pending-clinical-verification'),
+  ($hl_26_id$amoxicillin-clavulanic-acid$hl_26_id$, $hl_26_name$AMOXICILLIN-CLAVULANIC ACID$hl_26_name$, $hl_26_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_26_source$, 3166728, $hl_26$AMOXICILLIN-CLAVULANIC ACID
   Augmentin, Augmentin ES-600, and generics; previously
   available as Augmentin XR
                                                                   B       1      Yes    No     No
@@ -1218,8 +1214,8 @@ Higher doses of 80–90 mg/kg/24 hr (amoxicillin component) have been recommende
   resistant strains of S. pneumoniae in acute otitis media and pneumonia (use BID
   formulations containing 7:1 or 14:1 ratio of amoxicillin to clavulanic acid or Augmentin
   ES-600, respectively).
-The 250-mg or 500-mg tablets cannot be substituted for Augmentin XR tablets.$hl_24$, 'pending-clinical-verification'),
-  ($hl_25_id$amphetamine$hl_25_id$, $hl_25_name$AMPHETAMINE$hl_25_name$, $hl_25_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_25_source$, 3170919, $hl_25$AMPHETAMINE
+The 250-mg or 500-mg tablets cannot be substituted for Augmentin XR tablets.$hl_26$, 'pending-clinical-verification'),
+  ($hl_27_id$amphetamine$hl_27_id$, $hl_27_name$AMPHETAMINE$hl_27_name$, $hl_27_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_27_source$, 3170919, $hl_27$AMPHETAMINE
   Evekeo, Adzenys XR-ODT, Dyanavel XR, and generics
   CNS stimulant
                                                                    C       3      No     No      No
@@ -1292,8 +1288,8 @@ Common side effects include headache, insomnia, anorexia (monitor growth), abdom
 Evekeo has an additional labeled indication for the treatment of exogenous obesity in children
   ≥12 yr and adults. Doses may be administered with or without food. Do not crush or chew
   the extended-release dispersible tabs (Adzenys XR-ODT). Shake oral suspension bottle
-  (Dyanavel XR) well before dispensing and administering each dose.$hl_25$, 'pending-clinical-verification'),
-  ($hl_26_id$amphotericin-b-deoxycholate-conventional$hl_26_id$, $hl_26_name$AMPHOTERICIN B DEOXYCHOLATE (CONVENTIONAL)$hl_26_name$, $hl_26_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_26_source$, 3175930, $hl_26$AMPHOTERICIN B DEOXYCHOLATE (CONVENTIONAL)
+  (Dyanavel XR) well before dispensing and administering each dose.$hl_27$, 'pending-clinical-verification'),
+  ($hl_28_id$amphotericin-b-deoxycholate-conventional$hl_28_id$, $hl_28_name$AMPHOTERICIN B DEOXYCHOLATE (CONVENTIONAL)$hl_28_name$, $hl_28_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_28_source$, 3175930, $hl_28$AMPHOTERICIN B DEOXYCHOLATE (CONVENTIONAL)
   Various generics; previously available as Fungizone
   Antifungal, polyene
                                                                     B        ?      Yes    Yes     No
@@ -1342,8 +1338,8 @@ Salt loading with 10–15 mL/kg of NS infused prior to each dose may minimize th
    may increase the toxicity of neuromuscular blocking agents and cardiac glycosides.
 Although there are no breastfeeding data for amphotericin, many experts believe it is
    compatible since the drug is highly protein bound, has a large molecular weight, and is not
-   absorbed orally.$hl_26$, 'pending-clinical-verification'),
-  ($hl_27_id$amphotericin-b-lipid-complex$hl_27_id$, $hl_27_name$AMPHOTERICIN B LIPID COMPLEX$hl_27_name$, $hl_27_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_27_source$, 3178919, $hl_27$AMPHOTERICIN B LIPID COMPLEX
+   absorbed orally.$hl_28$, 'pending-clinical-verification'),
+  ($hl_29_id$amphotericin-b-lipid-complex$hl_29_id$, $hl_29_name$AMPHOTERICIN B LIPID COMPLEX$hl_29_name$, $hl_29_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_29_source$, 3178919, $hl_29$AMPHOTERICIN B LIPID COMPLEX
   Abelcet, ABLC
   Antifungal, polyene
                                                                      B        ?     Yes     Yes    No
@@ -1377,8 +1373,8 @@ AMPHOTERICIN B LIPID COMPLEX continued
   netics in renal and hepatic impairment have not been studied.
 Common infusion-related reactions include fever, chills, rigors, nausea, vomiting, hypotension,
   and headache; may premedicate with acetaminophen, diphenhydramine, and meperidine
-  (see Conventional Amphotericin B remarks).$hl_27$, 'pending-clinical-verification'),
-  ($hl_28_id$amphotericin-b-liposomal$hl_28_id$, $hl_28_name$AMPHOTERICIN B, LIPOSOMAL$hl_28_name$, $hl_28_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_28_source$, 3180912, $hl_28$AMPHOTERICIN B, LIPOSOMAL
+  (see Conventional Amphotericin B remarks).$hl_29$, 'pending-clinical-verification'),
+  ($hl_30_id$amphotericin-b-liposomal$hl_30_id$, $hl_30_name$AMPHOTERICIN B, LIPOSOMAL$hl_30_name$, $hl_30_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_30_source$, 3180912, $hl_30$AMPHOTERICIN B, LIPOSOMAL
   AmBisome and generics
   Antifungal, polyene
                                                                     B       ?      Yes    Yes     No
@@ -1421,8 +1417,8 @@ Common infusion-related reactions include fever, chills, rigors, nausea, vomitin
   meperidine (see Conventional Amphotericin B remarks).
 False elevations of serum phosphate have been reported with the PHOSm assay (used in
   Beckman Coulter analyzers).
-866         Part IV      Formulary$hl_28$, 'pending-clinical-verification'),
-  ($hl_29_id$ampicillin$hl_29_id$, $hl_29_name$AMPICILLIN$hl_29_name$, $hl_29_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_29_source$, 3183611, $hl_29$AMPICILLIN
+866         Part IV      Formulary$hl_30$, 'pending-clinical-verification'),
+  ($hl_31_id$ampicillin$hl_31_id$, $hl_31_name$AMPICILLIN$hl_31_name$, $hl_31_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_31_source$, 3183611, $hl_31$AMPICILLIN
   Many generics
   Antibiotic, aminopenicillin
                                                                    B       1      Yes    No     No
@@ -1471,8 +1467,8 @@ Produces the same side effects as penicillin, with cross-reactivity. Rash common
 
 
 
-                                                                                                                 FORMULARY$hl_29$, 'pending-clinical-verification'),
-  ($hl_30_id$ampicillin-sulbactam$hl_30_id$, $hl_30_name$AMPICILLIN/SULBACTAM$hl_30_name$, $hl_30_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_30_source$, 3186105, $hl_30$AMPICILLIN/SULBACTAM
+                                                                                                                 FORMULARY$hl_31$, 'pending-clinical-verification'),
+  ($hl_32_id$ampicillin-sulbactam$hl_32_id$, $hl_32_name$AMPICILLIN/SULBACTAM$hl_32_name$, $hl_32_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_32_source$, 3186105, $hl_32$AMPICILLIN/SULBACTAM
   Unasyn and generics
   Antibiotic, aminopenicillin with β-lactamase inhibitor
                                                                        B       1      Yes     Yes     No
@@ -1500,8 +1496,8 @@ Use higher doses with shorter dosing intervals to treat CNS disease and severe i
 Adjust dose in renal failure (see Chapter 32). CSF distribution and side effects similar to
   those of ampicillin. Postmarketing adverse reactions reported include abdominal pain,
   melena, gastritis, stomatitis, dyspepsia, black hairy tongue, dizziness, dyspnea, TEN,
-  urticaria, and linear IgA bullous dermatosis.$hl_30$, 'pending-clinical-verification'),
-  ($hl_31_id$anakinra$hl_31_id$, $hl_31_name$ANAKINRA$hl_31_name$, $hl_31_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_31_source$, 3187774, $hl_31$ANAKINRA
+  urticaria, and linear IgA bullous dermatosis.$hl_32$, 'pending-clinical-verification'),
+  ($hl_33_id$anakinra$hl_33_id$, $hl_33_name$ANAKINRA$hl_33_name$, $hl_33_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_33_source$, 3187774, $hl_33$ANAKINRA
   Kineret
   Interleukin-1 receptor antagonist, disease-modifying
                                                                        ?       ?      Yes     Yes     No
@@ -1595,8 +1591,8 @@ Successful first-line therapy for systemic JIA has been reported from internatio
   2–3-week taper.
 The pre-filled syringe dosage form contains a graduated syringe that allows for doses between
   20 and 100 mg to be administered. When not in use, this medication is stored in the
-  refrigerator and protected from light.$hl_31$, 'pending-clinical-verification'),
-  ($hl_32_id$arginine-hydrochloride-injectable-preparation$hl_32_id$, $hl_32_name$ARGININE HYDROCHLORIDE―INJECTABLE PREPARATION$hl_32_name$, $hl_32_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_32_source$, 3194039, $hl_32$ARGININE HYDROCHLORIDE―INJECTABLE
+  refrigerator and protected from light.$hl_33$, 'pending-clinical-verification'),
+  ($hl_34_id$arginine-hydrochloride-injectable-preparation$hl_34_id$, $hl_34_name$ARGININE HYDROCHLORIDE―INJECTABLE PREPARATION$hl_34_name$, $hl_34_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_34_source$, 3194039, $hl_34$ARGININE HYDROCHLORIDE―INJECTABLE
   PREPARATION
   R-Gene 10
                                                                     B       ?      Yes    Yes     No
@@ -1629,8 +1625,8 @@ Arginine hydrochloride is metabolized to nitrogen-containing products for renal 
    disturbances, IV extravasation, headache, and flushing may occur.
 In addition to its use for chloride supplementation, arginine is used in urea cycle disorder
    therapy (increase arginine levels and prevent breakdown of endogenous proteins) and as a
-   diagnostic agent for growth hormone (stimulates pituitary release of growth hormone).$hl_32$, 'pending-clinical-verification'),
-  ($hl_33_id$aripiprazole$hl_33_id$, $hl_33_name$ARIPIPRAZOLE$hl_33_name$, $hl_33_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_33_source$, 3196051, $hl_33$ARIPIPRAZOLE
+   diagnostic agent for growth hormone (stimulates pituitary release of growth hormone).$hl_34$, 'pending-clinical-verification'),
+  ($hl_35_id$aripiprazole$hl_35_id$, $hl_35_name$ARIPIPRAZOLE$hl_35_name$, $hl_35_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_35_source$, 3196051, $hl_35$ARIPIPRAZOLE
   Abilify, Abilify Asimtufil, Abilify Maintena, Abilify
   MyCite Starter Kit, Abilify MyCite Maintenance Kit, and
                                                                    C       3      No     No      Yes
@@ -1709,11 +1705,11 @@ Primarily metabolized by the CYP2D6 and 3A4 enzymes. Dosage reduction for using 
    3A4 inhibitors.
 Consult with a pediatric psychiatrist for use in ADHD, conduct disorder, and PDD-NOS. Oral
    doses may be administered with or without meals. Do not split orally disintegrating tablet
-   dosage form.$hl_33$, 'pending-clinical-verification'),
-  ($hl_34_id$arnuity-ellipta$hl_34_id$, $hl_34_name$ARNUITY ELLIPTA$hl_34_name$, $hl_34_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_34_source$, 3201593, $hl_34$ARNUITY ELLIPTA
+   dosage form.$hl_35$, 'pending-clinical-verification'),
+  ($hl_36_id$arnuity-ellipta$hl_36_id$, $hl_36_name$ARNUITY ELLIPTA$hl_36_name$, $hl_36_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_36_source$, 3201593, $hl_36$ARNUITY ELLIPTA
 
-See Fluticasone Preparations$hl_34$, 'pending-clinical-verification'),
-  ($hl_35_id$ascorbic-acid$hl_35_id$, $hl_35_name$ASCORBIC ACID$hl_35_name$, $hl_35_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_35_source$, 3201643, $hl_35$ASCORBIC ACID
+See Fluticasone Preparations$hl_36$, 'pending-clinical-verification'),
+  ($hl_37_id$ascorbic-acid$hl_37_id$, $hl_37_name$ASCORBIC ACID$hl_37_name$, $hl_37_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_37_source$, 3201643, $hl_37$ASCORBIC ACID
   Vitamin C; many brands and generics
   Water-soluble vitamin
                                                                        A/C     1      No      No     No
@@ -1748,8 +1744,8 @@ May increase the enteral absorption of aluminum hydroxide and iron; and increase
 Oral dosing is preferred with or without food. IM route is the preferred parenteral route. Protect
   the injectable dosage form from light.
 Pregnancy Category changes to “C” if used in doses greater than the RDA.
-872          Part IV     Formulary$hl_35$, 'pending-clinical-verification'),
-  ($hl_36_id$aspirin$hl_36_id$, $hl_36_name$ASPIRIN$hl_36_name$, $hl_36_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_36_source$, 3203533, $hl_36$ASPIRIN
+872          Part IV     Formulary$hl_37$, 'pending-clinical-verification'),
+  ($hl_38_id$aspirin$hl_38_id$, $hl_38_name$ASPIRIN$hl_38_name$, $hl_38_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_38_source$, 3203533, $hl_38$ASPIRIN
   ASA, various trade names and generics
   Nonsteroidal anti-inflammatory agent, antiplatelet
                                                                     D        2      Yes    Yes    No
@@ -1801,8 +1797,8 @@ For pregnancy considerations: Low-dose regimens are currently recommended for ce
 
 
 
-                                                                                                             FORMULARY$hl_36$, 'pending-clinical-verification'),
-  ($hl_37_id$atenolol$hl_37_id$, $hl_37_name$ATENOLOL$hl_37_name$, $hl_37_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_37_source$, 3206895, $hl_37$ATENOLOL
+                                                                                                             FORMULARY$hl_38$, 'pending-clinical-verification'),
+  ($hl_39_id$atenolol$hl_39_id$, $hl_39_name$ATENOLOL$hl_39_name$, $hl_39_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_39_source$, 3206895, $hl_39$ATENOLOL
   Tenormin and generics
   β1-selective adrenergic blocker
                                                                       D       2      Yes     Yes    No
@@ -1827,8 +1823,8 @@ Avoid abrupt withdrawal of the drug. Does not cross the blood-brain barrier; low
   CNS side effects compared with propranolol. Neonates born to mothers receiving atenolol
   during labor or while breastfeeding may be at risk for hypoglycemia.
 Use with disopyramide, amiodarone, or digoxin may enhance bradycardic effects. Adjust dose
-  in renal impairment (see Chapter 32).$hl_37$, 'pending-clinical-verification'),
-  ($hl_38_id$atomoxetine$hl_38_id$, $hl_38_name$ATOMOXETINE$hl_38_name$, $hl_38_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_38_source$, 3208450, $hl_38$ATOMOXETINE
+  in renal impairment (see Chapter 32).$hl_39$, 'pending-clinical-verification'),
+  ($hl_40_id$atomoxetine$hl_40_id$, $hl_40_name$ATOMOXETINE$hl_40_name$, $hl_40_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_40_source$, 3208450, $hl_40$ATOMOXETINE
   Strattera and generics
   Norepinephrine reuptake inhibitor, ADHD agent
                                                                      C       3      No      Yes     Yes
@@ -1883,8 +1879,8 @@ Major side effects include GI discomfort, vomiting, fatigue, anorexia, dizziness
   also been reported. Consider interrupting therapy in patients who are not growing or gaining
   weight satisfactorily.
 Doses may be administered with or without food. Atomoxetine can be discontinued without
-  tapering.$hl_38$, 'pending-clinical-verification'),
-  ($hl_39_id$atovaquone$hl_39_id$, $hl_39_name$ATOVAQUONE$hl_39_name$, $hl_39_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_39_source$, 3212010, $hl_39$ATOVAQUONE
+  tapering.$hl_40$, 'pending-clinical-verification'),
+  ($hl_41_id$atovaquone$hl_41_id$, $hl_41_name$ATOVAQUONE$hl_41_name$, $hl_41_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_41_source$, 3212010, $hl_41$ATOVAQUONE
   Mepron and generics
   Antiprotozoal
                                                                      C        ?     Yes     Yes    No
@@ -1926,8 +1922,8 @@ Not recommended in the treatment of severe P. jiroveci (lack of clinical data). 
   reported.
 Metoclopramide, rifampin, rifabutin, and tetracycline may decrease atovaquone levels. Shake
   oral suspension well before dispensing all doses. Take all doses with high-fat foods to
-  maximize absorption.$hl_39$, 'pending-clinical-verification'),
-  ($hl_40_id$atropine-sulfate$hl_40_id$, $hl_40_name$ATROPINE SULFATE$hl_40_name$, $hl_40_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_40_source$, 3214491, $hl_40$ATROPINE SULFATE
+  maximize absorption.$hl_41$, 'pending-clinical-verification'),
+  ($hl_42_id$atropine-sulfate$hl_42_id$, $hl_42_name$ATROPINE SULFATE$hl_42_name$, $hl_42_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_42_source$, 3214491, $hl_42$ATROPINE SULFATE
   Many generics; previously available as AtroPen and
   Isopto Atropine
                                                                   C      2      No     No       No
@@ -1996,8 +1992,8 @@ Side effects include: dry mouth, blurred vision, fever, tachycardia, constipatio
 Use injectable solution for nebulized use; can be mixed with albuterol for simultaneous
   administration. AtroPen dosage form is designed for IM administration to the outer thigh.
 Ophthalmic use is not recommended for children <3 mo of age due to risk for systemic
-  absorption and potential side effects.$hl_40$, 'pending-clinical-verification'),
-  ($hl_41_id$azathioprine$hl_41_id$, $hl_41_name$AZATHIOPRINE$hl_41_name$, $hl_41_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_41_source$, 3218253, $hl_41$AZATHIOPRINE
+  absorption and potential side effects.$hl_42$, 'pending-clinical-verification'),
+  ($hl_43_id$azathioprine$hl_43_id$, $hl_43_name$AZATHIOPRINE$hl_43_name$, $hl_43_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_43_source$, 3218253, $hl_43$AZATHIOPRINE
   Imuran, Azasan, and generics
   Immunosuppressant
                                                                    D       2      Yes    Yes     Yes
@@ -2033,8 +2029,8 @@ Severe anemia has been reported when used in combination with captopril or enala
   and ribavirin in patients with hepatitis C. Progressive multifocal leukoencephalopathy (PML)
   has been reported. Adjust dose in renal failure (see Chapter 32).
 Administer oral doses with food to minimize GI discomfort. To minimize infant exposure via
-  breastmilk, avoid breastfeeding for 4–6 hr after administering a maternal dose.$hl_41$, 'pending-clinical-verification'),
-  ($hl_42_id$azelastine$hl_42_id$, $hl_42_name$AZELASTINE$hl_42_name$, $hl_42_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_42_source$, 3220411, $hl_42$AZELASTINE
+  breastmilk, avoid breastfeeding for 4–6 hr after administering a maternal dose.$hl_43$, 'pending-clinical-verification'),
+  ($hl_44_id$azelastine$hl_44_id$, $hl_44_name$AZELASTINE$hl_44_name$, $hl_44_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_44_source$, 3220411, $hl_44$AZELASTINE
   Astepro, Children's Astepro, and generics; previously
   available as Opitvar
                                                                      C        ?     No      No     No
@@ -2079,8 +2075,8 @@ OPHTHALMIC USE: Eye burning and stinging have been reported in about 30% of pati
   irritation. Soft contact lens users should wait at least 10 min after dose instillation before
   they insert their lenses.
                                                                                               Continued
-878          Part IV     Formulary$hl_42$, 'pending-clinical-verification'),
-  ($hl_43_id$azelastine-and-fluticasone$hl_43_id$, $hl_43_name$AZELASTINE AND FLUTICASONE$hl_43_name$, $hl_43_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_43_source$, 3222706, $hl_43$AZELASTINE AND FLUTICASONE
+878          Part IV     Formulary$hl_44$, 'pending-clinical-verification'),
+  ($hl_45_id$azelastine-and-fluticasone$hl_45_id$, $hl_45_name$AZELASTINE AND FLUTICASONE$hl_45_name$, $hl_45_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_45_source$, 3222706, $hl_45$AZELASTINE AND FLUTICASONE
   Dymista and generics
   Intranasal antihistamine and corticosteroid
                                                                     C       ?      No     No     No
@@ -2095,8 +2091,8 @@ May cause drowsiness. Avoid use with recent nasal ulcers, nasal surgery, or nasa
   increase fluticasone levels and result in systemic corticosteroid effects, including Cushing
   syndrome and adrenal suppression. Monitor growth velocity in children with prolonged use.
   See Azelastine and Fluticasone individual profiles for remarks on intranasal route of
-  administration for additional information.$hl_43$, 'pending-clinical-verification'),
-  ($hl_44_id$azithromycin$hl_44_id$, $hl_44_name$AZITHROMYCIN$hl_44_name$, $hl_44_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_44_source$, 3223660, $hl_44$AZITHROMYCIN
+  administration for additional information.$hl_45$, 'pending-clinical-verification'),
+  ($hl_46_id$azithromycin$hl_46_id$, $hl_46_name$AZITHROMYCIN$hl_46_name$, $hl_46_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_46_source$, 3223660, $hl_46$AZITHROMYCIN
   Zithromax, Zithromax TRI-PAK, Zithromax Z-PAK,
   AzaSite, and generics
                                                                     B       2      Yes    Yes    No
@@ -2204,8 +2200,8 @@ Aluminum- and magnesium-containing antacids decrease absorption. Oral dosage for
   administration has been suggested to reduce the osmolality. Intravenous administration is
   over 1–3 hr; do not give as a bolus or IM injection.
 Ophthalmic Use: Do not wear contact lenses. Eye irritation is the most common side effect.
-  Avoid contaminating the applicator tip with the eye, finger, or other sources.$hl_44$, 'pending-clinical-verification'),
-  ($hl_45_id$aztreonam$hl_45_id$, $hl_45_name$AZTREONAM$hl_45_name$, $hl_45_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_45_source$, 3230537, $hl_45$AZTREONAM
+  Avoid contaminating the applicator tip with the eye, finger, or other sources.$hl_46$, 'pending-clinical-verification'),
+  ($hl_47_id$aztreonam$hl_47_id$, $hl_47_name$AZTREONAM$hl_47_name$, $hl_47_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_47_source$, 3230537, $hl_47$AZTREONAM
   Azactam, Cayston, and generic intravenous products
   Antibiotic, monobactam
                                                                   B      2      Yes    No     No
@@ -2256,9 +2252,8 @@ INHALATIONAL USE: Cough, nasal congestion, wheezing, pharyngolaryngeal pain, pyr
   in the refrigerator (2–8o C), but once they are removed from the refrigerator, they can be
   stored at room temperature for up to 28 days. Cayston vials should be protected from light.
 
- B
-
-  BACITRACIN ± POLYMYXIN B
+ B$hl_47$, 'pending-clinical-verification'),
+  ($hl_48_id$bacitracin-polymyxin-b$hl_48_id$, $hl_48_name$BACITRACIN ± POLYMYXIN B$hl_48_name$, $hl_48_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_48_source$, 3233383, $hl_48$BACITRACIN ± POLYMYXIN B
   Various ophthalmic and topical generic products
   In combination with polymyxin B: Polycin, FT Double
                                                                    C       ?      No     No     No
@@ -2294,8 +2289,8 @@ Hypersensitivity reactions to bacitracin and/or polymyxin B can occur. Do not us
   burning, and edema.
 Ophthalmic dosage form may cause temporary blurred vision and retard corneal healing.
   For ophthalmic use, wash hands before use and avoid contact of tube tip with skin or eye.
-For neomycin-containing products, see Neomycin/Polymyxin B/± Bacitracin$hl_45$, 'pending-clinical-verification'),
-  ($hl_46_id$baclofen$hl_46_id$, $hl_46_name$BACLOFEN$hl_46_name$, $hl_46_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_46_source$, 3235284, $hl_46$BACLOFEN
+For neomycin-containing products, see Neomycin/Polymyxin B/± Bacitracin$hl_48$, 'pending-clinical-verification'),
+  ($hl_49_id$baclofen$hl_49_id$, $hl_49_name$BACLOFEN$hl_49_name$, $hl_49_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_49_source$, 3235284, $hl_49$BACLOFEN
   Lioresal, Gablofen, Lyvispah, Ozobax DS, Fleqsuvy, and
   generics
                                                                    C       2      Yes    No     No
@@ -2368,8 +2363,8 @@ Oral granules dosage form may be administered directly into the mouth or mixed i
   or soft foods (e.g., applesauce, yogurt, or pudding). Recommended enteral feeding tube size
   for administering granules: nasogastric (≥8 Fr), gastrostomy (≥12 Fr), percutaneous
      endoscopic gastrostomy (≥14 Fr), and gastrojejunostomy (≥16 Fr); see product
-     information for additional details with feeding tube administration.$hl_46$, 'pending-clinical-verification'),
-  ($hl_47_id$beclomethasone-dipropionate$hl_47_id$, $hl_47_name$BECLOMETHASONE DIPROPIONATE$hl_47_name$, $hl_47_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_47_source$, 3239904, $hl_47$BECLOMETHASONE DIPROPIONATE
+     information for additional details with feeding tube administration.$hl_49$, 'pending-clinical-verification'),
+  ($hl_50_id$beclomethasone-dipropionate$hl_50_id$, $hl_50_name$BECLOMETHASONE DIPROPIONATE$hl_50_name$, $hl_50_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_50_source$, 3239904, $hl_50$BECLOMETHASONE DIPROPIONATE
   QVAR Redihaler, Qnasl Children’s, Qnasl
   Corticosteroid
                                                                    C       2      No     Yes    No
@@ -2432,8 +2427,8 @@ Monitor for hypothalamic, pituitary, adrenal, or growth suppression, and hyperco
 QVAR Redihaler is a breath-activated inhaler device and requires the patient to have a
   minimum inspiratory flow rate of 30 L/min for proper dose activation, and does not require
   priming. Do not shake the Redihaler device with the cap open and do not use it with a tube
-  spacer or volume holding chamber.$hl_47$, 'pending-clinical-verification'),
-  ($hl_48_id$benzoyl-peroxide$hl_48_id$, $hl_48_name$BENZOYL PEROXIDE$hl_48_name$, $hl_48_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_48_source$, 3243996, $hl_48$BENZOYL PEROXIDE
+  spacer or volume holding chamber.$hl_50$, 'pending-clinical-verification'),
+  ($hl_51_id$benzoyl-peroxide$hl_51_id$, $hl_51_name$BENZOYL PEROXIDE$hl_51_name$, $hl_51_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_51_source$, 3243996, $hl_51$BENZOYL PEROXIDE
   Acne Medication, Benzac, PanOxyl, and many other
   products including generics
                                                                              C           ?     No    No    No
@@ -2493,8 +2488,8 @@ Concomitant topical acne therapy should be used with caution due to possible cum
   Products containing clindamycin and erythromycin should not be used in combination.
 Any single application resulting in excessive stinging or burning may be removed with mild
   soap and water. Lotion, cream, and gel dosage forms should be applied to dry skin.
-Data are limited for use <12 yr of age.$hl_48$, 'pending-clinical-verification'),
-  ($hl_49_id$benztropine-mesylate$hl_49_id$, $hl_49_name$BENZTROPINE MESYLATE$hl_49_name$, $hl_49_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_49_source$, 3247757, $hl_49$BENZTROPINE MESYLATE
+Data are limited for use <12 yr of age.$hl_51$, 'pending-clinical-verification'),
+  ($hl_52_id$benztropine-mesylate$hl_52_id$, $hl_52_name$BENZTROPINE MESYLATE$hl_52_name$, $hl_52_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_52_source$, 3247757, $hl_52$BENZTROPINE MESYLATE
   Generics; previously available as Cogentin
   Anticholinergic agent, drug-induced dystonic reaction
                                                                        ?       ?      No      No     No
@@ -2526,11 +2521,11 @@ Contraindicated in myasthenia gravis, GI/GU obstruction, untreated narrow-angle 
 
 BENZTROPINE MESYLATE continued
 Onset of action: 15 min for IV/IM and 1 hr for PO.
-Oral doses should be administered with food to decrease GI upset.$hl_49$, 'pending-clinical-verification'),
-  ($hl_50_id$beractant$hl_50_id$, $hl_50_name$BERACTANT$hl_50_name$, $hl_50_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_50_source$, 3249461, $hl_50$BERACTANT
+Oral doses should be administered with food to decrease GI upset.$hl_52$, 'pending-clinical-verification'),
+  ($hl_53_id$beractant$hl_53_id$, $hl_53_name$BERACTANT$hl_53_name$, $hl_53_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_53_source$, 3249461, $hl_53$BERACTANT
 
-See Surfactant, pulmonary$hl_50$, 'pending-clinical-verification'),
-  ($hl_51_id$betamethasone$hl_51_id$, $hl_51_name$BETAMETHASONE$hl_51_name$, $hl_51_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_51_source$, 3249502, $hl_51$BETAMETHASONE
+See Surfactant, pulmonary$hl_53$, 'pending-clinical-verification'),
+  ($hl_54_id$betamethasone$hl_54_id$, $hl_54_name$BETAMETHASONE$hl_54_name$, $hl_54_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_54_source$, 3249502, $hl_54$BETAMETHASONE
   Injection: Celestone Soluspan and generics
   Topical: Diprolene, Sernivo, and generics
                                                                  C       3     No     No     No
@@ -2593,11 +2588,11 @@ Na phosphate and acetate injectable suspension recommended for IM, intra-articul
    in children ≤12 yr owing to the higher risk for adrenal suppression.
 Injectable IM dosage form is used in premature labor to stimulate fetal lung maturation.
    Neonatal hypoglycemia has been reported with antenatal use when administered close to
-   time of delivery.$hl_51$, 'pending-clinical-verification'),
-  ($hl_52_id$bicitra$hl_52_id$, $hl_52_name$BICITRA$hl_52_name$, $hl_52_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_52_source$, 3253061, $hl_52$BICITRA
+   time of delivery.$hl_54$, 'pending-clinical-verification'),
+  ($hl_55_id$bicitra$hl_55_id$, $hl_55_name$BICITRA$hl_55_name$, $hl_55_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_55_source$, 3253061, $hl_55$BICITRA
 
-See Citrate Mixtures$hl_52$, 'pending-clinical-verification'),
-  ($hl_53_id$bisacodyl$hl_53_id$, $hl_53_name$BISACODYL$hl_53_name$, $hl_53_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_53_source$, 3253095, $hl_53$BISACODYL
+See Citrate Mixtures$hl_55$, 'pending-clinical-verification'),
+  ($hl_56_id$bisacodyl$hl_56_id$, $hl_56_name$BISACODYL$hl_56_name$, $hl_56_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_56_source$, 3253095, $hl_56$BISACODYL
   Dulcolax, Bisacodyl EC, Fleet Bisacodyl, and various
   other names including generics
                                                                      B        1     No      No     No
@@ -2636,8 +2631,8 @@ Do not use in newborn period. Instruct patient/parent that tablets should be swa
   10 hr; rectal usually effective within 15–60 min.
 Antacids may decrease the effect of bisacodyl and may cause the premature release of the
   delayed-release formulation prior to reaching the large intestine. When used, suppository
-  should be retained in the rectum for 15–20 min.$hl_53$, 'pending-clinical-verification'),
-  ($hl_54_id$bismuth-subsalicylate$hl_54_id$, $hl_54_name$BISMUTH SUBSALICYLATE$hl_54_name$, $hl_54_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_54_source$, 3254741, $hl_54$BISMUTH SUBSALICYLATE
+  should be retained in the rectum for 15–20 min.$hl_56$, 'pending-clinical-verification'),
+  ($hl_57_id$bismuth-subsalicylate$hl_57_id$, $hl_57_name$BISMUTH SUBSALICYLATE$hl_57_name$, $hl_57_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_57_source$, 3254741, $hl_57$BISMUTH SUBSALICYLATE
   Pepto-Bismol, Pink Bismuth, Stomach Relief, Stomach
   Relief Extra Strength, and many others including
                                                                     D       3      Yes    No       No
@@ -2679,8 +2674,8 @@ DO NOT use Children’s Pepto (calcium carbonate) because it does not contain bi
 
 
 
-                                                                                                      FORMULARY$hl_54$, 'pending-clinical-verification'),
-  ($hl_55_id$bosentan$hl_55_id$, $hl_55_name$BOSENTAN$hl_55_name$, $hl_55_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_55_source$, 3257217, $hl_55$BOSENTAN
+                                                                                                      FORMULARY$hl_57$, 'pending-clinical-verification'),
+  ($hl_58_id$bosentan$hl_58_id$, $hl_58_name$BOSENTAN$hl_58_name$, $hl_58_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_58_source$, 3257217, $hl_58$BOSENTAN
   Tracleer and generics
   Endothelin receptor antagonist
                                                                  X        3    No     Yes     No
@@ -2755,11 +2750,11 @@ May cause respiratory tract infections, anemia (dose related), edema, increased 
 Bosentan is substrate for the cytochrome P-450 2C9 and 3A4 enzymes, and OATP1B1/
   SLCO1B1 transporter. It also induces CYP2C9 and 3A4; may decrease sildenafil levels.
   Reduces the effectiveness of hormonal contraceptives.
-Doses may be administered orally with or without food.$hl_55$, 'pending-clinical-verification'),
-  ($hl_56_id$breo-ellipta$hl_56_id$, $hl_56_name$BREO ELLIPTA$hl_56_name$, $hl_56_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_56_source$, 3262033, $hl_56$BREO ELLIPTA
+Doses may be administered orally with or without food.$hl_58$, 'pending-clinical-verification'),
+  ($hl_59_id$breo-ellipta$hl_59_id$, $hl_59_name$BREO ELLIPTA$hl_59_name$, $hl_59_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_59_source$, 3262033, $hl_59$BREO ELLIPTA
 
-See Fluticasone Furoate + Vilanterol$hl_56$, 'pending-clinical-verification'),
-  ($hl_57_id$budesonide$hl_57_id$, $hl_57_name$BUDESONIDE$hl_57_name$, $hl_57_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_57_source$, 3262088, $hl_57$BUDESONIDE
+See Fluticasone Furoate + Vilanterol$hl_59$, 'pending-clinical-verification'),
+  ($hl_60_id$budesonide$hl_60_id$, $hl_60_name$BUDESONIDE$hl_60_name$, $hl_60_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_60_source$, 3262088, $hl_60$BUDESONIDE
   Pulmicort Respules, Pulmicort Flexhaler, Eohilia,
   Tarpeyo, Uceris, and generics; previously available as
                                                                       B/C     2/?    No      Yes    No
@@ -2885,8 +2880,8 @@ Pregnancy category is “B” for inhalation routes of administration and “C�
   rectal routes. Breastfeeding category is “2” for inhalation routes and “?” for the rectal
   route. Breastfeeding with the oral route of administration may result in budesonide
   exposure to the infant up to 10 times higher than that by the inhalation route. Do not crush
-  or chew the oral capsule dosage form.$hl_57$, 'pending-clinical-verification'),
-  ($hl_58_id$budesonide-and-formoterol$hl_58_id$, $hl_58_name$BUDESONIDE AND FORMOTEROL$hl_58_name$, $hl_58_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_58_source$, 3269761, $hl_58$BUDESONIDE AND FORMOTEROL
+  or chew the oral capsule dosage form.$hl_60$, 'pending-clinical-verification'),
+  ($hl_61_id$budesonide-and-formoterol$hl_61_id$, $hl_61_name$BUDESONIDE AND FORMOTEROL$hl_61_name$, $hl_61_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_61_source$, 3269761, $hl_61$BUDESONIDE AND FORMOTEROL
   Symbicort, Breyna, and generics
   Corticosteroid and long-acting β2-adrenergic agonist
                                                                     C        2      No     Yes    No
@@ -2949,8 +2944,8 @@ Reported side effects at ≥3%, and more frequently compared with budesonide alo
   updates). DO NOT substitute formoterol with a slower-onset, long-acting beta-agonist
   (LABA) such as salmeterol.
 Proper patient education, including dosage administration technique, is essential; see patient
-  package insert for detailed instructions. Rinse mouth after each use.$hl_58$, 'pending-clinical-verification'),
-  ($hl_59_id$bumetanide$hl_59_id$, $hl_59_name$BUMETANIDE$hl_59_name$, $hl_59_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_59_source$, 3273596, $hl_59$BUMETANIDE
+  package insert for detailed instructions. Rinse mouth after each use.$hl_61$, 'pending-clinical-verification'),
+  ($hl_62_id$bumetanide$hl_62_id$, $hl_62_name$BUMETANIDE$hl_62_name$, $hl_62_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_62_source$, 3273596, $hl_62$BUMETANIDE
   Bumex and generics
   Loop diuretic
                                                                     C       3      No     Yes    No
@@ -2981,8 +2976,8 @@ Side effects include cramps, dizziness, hypotension, headache, electrolyte losse
 Drug elimination has been reported to be slower in neonates with respiratory disorders
    compared with neonates without. May displace bilirubin in critically ill neonates. Maximal
    diuretic effect for infants ≤6 mo has been reported at 0.04 mg/kg/dose with greater
-   efficacy seen at lower dosages.$hl_59$, 'pending-clinical-verification'),
-  ($hl_60_id$butorphanol$hl_60_id$, $hl_60_name$BUTORPHANOL$hl_60_name$, $hl_60_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_60_source$, 3275235, $hl_60$BUTORPHANOL
+   efficacy seen at lower dosages.$hl_62$, 'pending-clinical-verification'),
+  ($hl_63_id$butorphanol$hl_63_id$, $hl_63_name$BUTORPHANOL$hl_63_name$, $hl_63_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_63_source$, 3275235, $hl_63$BUTORPHANOL
   Generics; previously available as Stadol
   Narcotic, analgesic
                                                                     C        3      Yes    Yes    No
@@ -3024,8 +3019,8 @@ Onset of action: 5–10 min (IV); 0.5–1 hr (IM); and within 15 min (intranasal
 
 
 
- C$hl_60$, 'pending-clinical-verification'),
-  ($hl_61_id$caffeine-citrate$hl_61_id$, $hl_61_name$CAFFEINE CITRATE$hl_61_name$, $hl_61_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_61_source$, 3277707, $hl_61$CAFFEINE CITRATE
+ C$hl_63$, 'pending-clinical-verification'),
+  ($hl_64_id$caffeine-citrate$hl_64_id$, $hl_64_name$CAFFEINE CITRATE$hl_64_name$, $hl_64_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_64_source$, 3277707, $hl_64$CAFFEINE CITRATE
   Cafcit and generics
   Methylxanthine, respiratory stimulant
                                                                     C       2      Yes    Yes     No
@@ -3044,8 +3039,8 @@ Therapeutic levels: 5–25 mg/L. Cardiovascular, neurologic, or GI toxicity repo
   levels >50 mg/L. Recommended serum sampling time: obtain trough level within 30 min
   prior to a dose. Steady state is typically achieved 3 wk after initiation of therapy. Levels
   obtained prior to steady state are useful for preventing toxicity.
-For IV administration, give loading dose over 30 min and maintenance dose over 10 min.$hl_61$, 'pending-clinical-verification'),
-  ($hl_62_id$calcitriol$hl_62_id$, $hl_62_name$CALCITRIOL$hl_62_name$, $hl_62_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_62_source$, 3278947, $hl_62$CALCITRIOL
+For IV administration, give loading dose over 30 min and maintenance dose over 10 min.$hl_64$, 'pending-clinical-verification'),
+  ($hl_65_id$calcitriol$hl_65_id$, $hl_65_name$CALCITRIOL$hl_65_name$, $hl_65_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_65_source$, 3278947, $hl_65$CALCITRIOL
   1,25-dihydroxycholecalciferol, Rocaltrol, and generics
   Active form vitamin D, fat soluble
                                                                     C       2      No     No      No
@@ -3077,8 +3072,8 @@ Most potent vitamin D metabolite available. Should not be used to treat 25-OH vi
 Contraindicated in patients with hypercalcemia or vitamin D toxicity. Side effects include:
   weakness, headache, vomiting, constipation, hypotonia, polydipsia, polyuria, myalgia,
   metastatic calcification, etc. Allergic reactions, including anaphylaxis, have been reported.
-  May increase serum creatinine in predialysis patients.$hl_62$, 'pending-clinical-verification'),
-  ($hl_63_id$calcium-acetate$hl_63_id$, $hl_63_name$CALCIUM ACETATE$hl_63_name$, $hl_63_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_63_source$, 3280979, $hl_63$CALCIUM ACETATE
+  May increase serum creatinine in predialysis patients.$hl_65$, 'pending-clinical-verification'),
+  ($hl_66_id$calcium-acetate$hl_66_id$, $hl_66_name$CALCIUM ACETATE$hl_66_name$, $hl_66_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_66_source$, 3280979, $hl_66$CALCIUM ACETATE
   Calphron, and generics; previously available as PhosLo;
   25% elemental Ca
                                                                     C        2      Yes    No     No
@@ -3104,8 +3099,8 @@ Contraindicated in ventricular fibrillation. Use with caution in renal impairmen
 1 g calcium acetate binds to 45 mg phosphorus.
 Administer with meals and plenty of fluids for use as a phosphorus-lowering agent. Calcium is
   excreted in breast milk and is not expected to harm the infant, provided maternal serum
-  calcium is appropriately monitored.$hl_63$, 'pending-clinical-verification'),
-  ($hl_64_id$calcium-carbonate$hl_64_id$, $hl_64_name$CALCIUM CARBONATE$hl_64_name$, $hl_64_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_64_source$, 3282828, $hl_64$CALCIUM CARBONATE
+  calcium is appropriately monitored.$hl_66$, 'pending-clinical-verification'),
+  ($hl_67_id$calcium-carbonate$hl_67_id$, $hl_67_name$CALCIUM CARBONATE$hl_67_name$, $hl_67_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_67_source$, 3282828, $hl_67$CALCIUM CARBONATE
   Tums, Children’s Pepto, Children's Mylicon, and many
   others including generics; 40% elemental Ca
                                                                     ?        2      Yes    No     No
@@ -3140,8 +3135,8 @@ See Calcium Acetate for contraindications, precautions, and drug interactions. S
   headache, and confusion. Some products may contain trace amounts of sodium. Administer
   with plenty of fluids. For use as a phosphorus-lowering agent, administer with meals.
   Calcium is excreted in breast milk and is not expected to harm the infant, provided
-  maternal serum calcium is appropriately monitored.$hl_64$, 'pending-clinical-verification'),
-  ($hl_65_id$calcium-chloride$hl_65_id$, $hl_65_name$CALCIUM CHLORIDE$hl_65_name$, $hl_65_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_65_source$, 3284926, $hl_65$CALCIUM CHLORIDE
+  maternal serum calcium is appropriately monitored.$hl_67$, 'pending-clinical-verification'),
+  ($hl_68_id$calcium-chloride$hl_68_id$, $hl_68_name$CALCIUM CHLORIDE$hl_68_name$, $hl_68_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_68_source$, 3284926, $hl_68$CALCIUM CHLORIDE
   Various generics; 27% elemental Ca
   Calcium supplement
                                                                      C       2      Yes    No         No
@@ -3180,8 +3175,8 @@ Rapid IV infusion associated with bradycardia, arrhythmias, hypotension, syncope
 
 CALCIUM CHLORIDE continued
 Calcium is excreted in breast milk and is not expected to harm the infant, provided maternal
-  serum calcium is appropriately monitored.$hl_65$, 'pending-clinical-verification'),
-  ($hl_66_id$calcium-citrate$hl_66_id$, $hl_66_name$CALCIUM CITRATE$hl_66_name$, $hl_66_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_66_source$, 3287357, $hl_66$CALCIUM CITRATE
+  serum calcium is appropriately monitored.$hl_68$, 'pending-clinical-verification'),
+  ($hl_69_id$calcium-citrate$hl_69_id$, $hl_69_name$CALCIUM CITRATE$hl_69_name$, $hl_69_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_69_source$, 3287357, $hl_69$CALCIUM CITRATE
   Caltrate 600+D3, Citracal Petites, Citracal Maximum
   Plus, Citracal Slow Release, Citracal Gummies, Viactiv
                                                                   ?       2      Yes    No     No
@@ -3217,8 +3212,8 @@ See Calcium Acetate for contraindications, precautions, and drug interactions. S
 Administer with meals for use as a phosphorus-lowering agent. For hypocalcemia, do not
   administer with or before meals/food and take plenty of fluids.
 Calcium is excreted in breast milk and is not expected to harm the infant, provided maternal
-  serum calcium is appropriately monitored.$hl_66$, 'pending-clinical-verification'),
-  ($hl_67_id$calcium-gluconate$hl_67_id$, $hl_67_name$CALCIUM GLUCONATE$hl_67_name$, $hl_67_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_67_source$, 3289344, $hl_67$CALCIUM GLUCONATE
+  serum calcium is appropriately monitored.$hl_69$, 'pending-clinical-verification'),
+  ($hl_70_id$calcium-gluconate$hl_70_id$, $hl_70_name$CALCIUM GLUCONATE$hl_70_name$, $hl_70_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_70_source$, 3289344, $hl_70$CALCIUM GLUCONATE
   Various generics, 9.3% elemental Ca
   Calcium supplement
                                                                   C       2      Yes    No     No
@@ -3274,14 +3269,12 @@ Do not administer IV dosage form via scalp veins and the IM or SC routes. IV dos
   (including premature infants), receipt >4–5 mCg/kg/24 hr aluminum has been associated
   with CNS and bone toxicities.
 Calcium is excreted in breast milk and is not expected to harm the infant, provided maternal
-  serum calcium is appropriately monitored.$hl_67$, 'pending-clinical-verification'),
-  ($hl_68_id$calfactant$hl_68_id$, $hl_68_name$CALFACTANT$hl_68_name$, $hl_68_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_68_source$, 3292454, $hl_68$CALFACTANT
+  serum calcium is appropriately monitored.$hl_70$, 'pending-clinical-verification'),
+  ($hl_71_id$calfactant$hl_71_id$, $hl_71_name$CALFACTANT$hl_71_name$, $hl_71_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_71_source$, 3292454, $hl_71$CALFACTANT
 
 See Surfactant, pulmonary
-900          Part IV       Formulary
-
-
-    CANNABIDIOL
+900          Part IV       Formulary$hl_71$, 'pending-clinical-verification'),
+  ($hl_72_id$cannabidiol$hl_72_id$, $hl_72_name$CANNABIDIOL$hl_72_name$, $hl_72_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_72_source$, 3292534, $hl_72$CANNABIDIOL
     Epidiolex
     Anticonvulsant
                                                                        C        3        No    Yes    No
@@ -3335,8 +3328,8 @@ Use the supplied oral dosing syringe and bottle adapter and store the bottle of 
 
 
 
-                                                                                                          FORMULARY$hl_68$, 'pending-clinical-verification'),
-  ($hl_69_id$captopril$hl_69_id$, $hl_69_name$CAPTOPRIL$hl_69_name$, $hl_69_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_69_source$, 3296124, $hl_69$CAPTOPRIL
+                                                                                                          FORMULARY$hl_72$, 'pending-clinical-verification'),
+  ($hl_73_id$captopril$hl_73_id$, $hl_73_name$CAPTOPRIL$hl_73_name$, $hl_73_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_73_source$, 3296124, $hl_73$CAPTOPRIL
   Various generics; previously available as Capoten
   Angiotensin-converting enzyme inhibitor,
                                                                    D       1      Yes    No      No
@@ -3367,8 +3360,8 @@ Use with caution in collagen vascular disease and with concomitant potassium-spa
   with increased risks for hypotension, hyperkalemia, and acute renal failure. Captopril is a
   cytochrome P-450 2D6 substrate. Use with sirolimus, everolimus, temsirolimus, or sacubitril
   may increase risk for angioedema.
-Captopril should be discontinued as soon as possible when pregnancy is detected.$hl_69$, 'pending-clinical-verification'),
-  ($hl_70_id$carbamazepine$hl_70_id$, $hl_70_name$CARBAMAZEPINE$hl_70_name$, $hl_70_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_70_source$, 3298123, $hl_70$CARBAMAZEPINE
+Captopril should be discontinued as soon as possible when pregnancy is detected.$hl_73$, 'pending-clinical-verification'),
+  ($hl_74_id$carbamazepine$hl_74_id$, $hl_74_name$CARBAMAZEPINE$hl_74_name$, $hl_74_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_74_source$, 3298123, $hl_74$CARBAMAZEPINE
   Epitol, Tegretol, Tegretol-XR, Carbatrol, Equetro, and
   various generics
                                                                   D       2      Yes    Yes     Yes
@@ -3448,8 +3441,8 @@ Adjust dose in renal impairment (see Chapter 32).
 
 
 
-                                                                                                             FORMULARY$hl_70$, 'pending-clinical-verification'),
-  ($hl_71_id$carbamide-peroxide$hl_71_id$, $hl_71_name$CARBAMIDE PEROXIDE$hl_71_name$, $hl_71_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_71_source$, 3302996, $hl_71$CARBAMIDE PEROXIDE
+                                                                                                             FORMULARY$hl_74$, 'pending-clinical-verification'),
+  ($hl_75_id$carbamide-peroxide$hl_75_id$, $hl_75_name$CARBAMIDE PEROXIDE$hl_75_name$, $hl_75_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_75_source$, 3302996, $hl_75$CARBAMIDE PEROXIDE
   Otic solution: Debrox, Clearcanal Earwax Softener,
   GoodSense Ear Wax Removal, and many generic
                                                                      ?       1      No     No       No
@@ -3466,8 +3459,8 @@ Cerumenolytic:
     ear BID PRN for up to 4 days.
 Contraindicated if tympanic membrane is perforated; following otic surgery; with ear
   discharge, drainage, pain, irritation, or rash; or if PE tubes in place. Tip of applicator
-  should not enter ear canal when used as a cerumenolytic.$hl_71$, 'pending-clinical-verification'),
-  ($hl_72_id$carbinoxamine$hl_72_id$, $hl_72_name$CARBINOXAMINE$hl_72_name$, $hl_72_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_72_source$, 3304019, $hl_72$CARBINOXAMINE
+  should not enter ear canal when used as a cerumenolytic.$hl_75$, 'pending-clinical-verification'),
+  ($hl_76_id$carbinoxamine$hl_76_id$, $hl_76_name$CARBINOXAMINE$hl_76_name$, $hl_76_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_76_source$, 3304019, $hl_76$CARBINOXAMINE
   Karbinal ER, RyVent, and many generics
   Antihistamine
                                                                      C       3      No     No       No
@@ -3518,8 +3511,8 @@ Contraindicated in acute asthma, with other ethanolamine antihistamines (hyperse
   that combination products containing a decongestant may exist.
 May cause drowsiness, vertigo, dry mucus membranes, and headache. Paradoxical excitation
   reactions more likely in younger children. Contact dermatitis and CNS excitation have been
-  reported.$hl_72$, 'pending-clinical-verification'),
-  ($hl_73_id$carnitine$hl_73_id$, $hl_73_name$CARNITINE$hl_73_name$, $hl_73_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_73_source$, 3306256, $hl_73$CARNITINE
+  reported.$hl_76$, 'pending-clinical-verification'),
+  ($hl_77_id$carnitine$hl_77_id$, $hl_77_name$CARNITINE$hl_77_name$, $hl_77_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_77_source$, 3306256, $hl_77$CARNITINE
   Levocarnitine, Carnitor, Carnitor SF, L-Carnitine, and
   generics
                                                                     B        ?      Yes    No     No
@@ -3552,8 +3545,8 @@ Give bolus IV infusion over 2–3 min.
 
 
 
-                                                                                                           FORMULARY$hl_73$, 'pending-clinical-verification'),
-  ($hl_74_id$carvedilol$hl_74_id$, $hl_74_name$CARVEDILOL$hl_74_name$, $hl_74_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_74_source$, 3307960, $hl_74$CARVEDILOL
+                                                                                                           FORMULARY$hl_77$, 'pending-clinical-verification'),
+  ($hl_78_id$carvedilol$hl_78_id$, $hl_78_name$CARVEDILOL$hl_78_name$, $hl_78_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_78_source$, 3307960, $hl_78$CARVEDILOL
   Coreg, Coreg CR, and generics
   Adrenergic antagonist (α and β), antihypertensive
                                                                     C       ?      Yes    Yes    No
@@ -3604,8 +3597,8 @@ Bradycardia, postural hypotension, peripheral edema, weight gain, hyperglycemia,
   dizziness, and fatigue are common. Hypersensitivity reactions have been reported. Chest
   pain, headache, vomiting, edema, and dyspnea have also been reported in children.
   Administering doses with food can reduce risk for orthostatic hypotension.
-906         Part IV      Formulary$hl_74$, 'pending-clinical-verification'),
-  ($hl_75_id$caspofungin$hl_75_id$, $hl_75_name$CASPOFUNGIN$hl_75_name$, $hl_75_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_75_source$, 3311125, $hl_75$CASPOFUNGIN
+906         Part IV      Formulary$hl_78$, 'pending-clinical-verification'),
+  ($hl_79_id$caspofungin$hl_79_id$, $hl_79_name$CASPOFUNGIN$hl_79_name$, $hl_79_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_79_source$, 3311125, $hl_79$CASPOFUNGIN
   Cancidas and generics
   Antifungal, echinocandin
                                                                    C       ?      No     Yes     No
@@ -3658,8 +3651,8 @@ Administer doses by slow IV infusion over 1 hr. Do not mix or co-infuse with oth
 
 
 
-                                                                                                            FORMULARY$hl_75$, 'pending-clinical-verification'),
-  ($hl_76_id$cefadroxil$hl_76_id$, $hl_76_name$CEFADROXIL$hl_76_name$, $hl_76_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_76_source$, 3314715, $hl_76$CEFADROXIL
+                                                                                                            FORMULARY$hl_79$, 'pending-clinical-verification'),
+  ($hl_80_id$cefadroxil$hl_80_id$, $hl_80_name$CEFADROXIL$hl_80_name$, $hl_80_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_80_source$, 3314715, $hl_80$CEFADROXIL
   Generics; previously available as Duricef
   Antibiotic, cephalosporin (first generation)
                                                                      B        1     Yes     No     No
@@ -3679,8 +3672,8 @@ Adolescent and adult: 1–2 g/24 hr PO ÷ Q12–24 hr (administer 1 g Q12 hr for
 
 See Cephalexin for precautions and interactions. Rash, nausea, vomiting, and diarrhea are
   common. Transient neutropenia and vaginitis have been reported. Adjust dose in renal
-  failure (see Chapter 32).$hl_76$, 'pending-clinical-verification'),
-  ($hl_77_id$cefazolin$hl_77_id$, $hl_77_name$CEFAZOLIN$hl_77_name$, $hl_77_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_77_source$, 3315689, $hl_77$CEFAZOLIN
+  failure (see Chapter 32).$hl_80$, 'pending-clinical-verification'),
+  ($hl_81_id$cefazolin$hl_81_id$, $hl_81_name$CEFAZOLIN$hl_81_name$, $hl_81_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_81_source$, 3315689, $hl_81$CEFAZOLIN
   Generics; previously available as Ancef
   Antibiotic, cephalosporin (first generation)
                                                                      B        1     Yes     Yes    No
@@ -3720,8 +3713,8 @@ CEFAZOLIN continued
   Benedict’s solution, or Fehling’s solution) and Coombs test. Enzymatic glucose oxidase
   urinary glucose tests (e.g., Clinistix or Tes-Tape) are recommended. Adjust dose in renal
   failure (see Chapter 32).
-For dosing in obese patients, use higher end of the dosing recommendation.$hl_77$, 'pending-clinical-verification'),
-  ($hl_78_id$cefdinir$hl_78_id$, $hl_78_name$CEFDINIR$hl_78_name$, $hl_78_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_78_source$, 3317802, $hl_78$CEFDINIR
+For dosing in obese patients, use higher end of the dosing recommendation.$hl_81$, 'pending-clinical-verification'),
+  ($hl_82_id$cefdinir$hl_82_id$, $hl_82_name$CEFDINIR$hl_82_name$, $hl_82_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_82_source$, 3317802, $hl_82$CEFDINIR
   Generics; previously available as Omnicef
   Antibiotic, cephalosporin (third generation)
                                                                     B        1     Yes     Yes        No
@@ -3752,8 +3745,8 @@ Probenecid increases serum cefdinir levels. Avoid concomitant administration wit
   iron-containing vitamins and antacids containing aluminum or magnesium (space 2 hr
   apart) to reduce the risk for decreasing antibiotic’s absorption. May cause red stools when
   administered with iron and iron-containing products. Doses may be taken without regard to
-  food. Adjust dose in renal failure (see Chapter 32).$hl_78$, 'pending-clinical-verification'),
-  ($hl_79_id$cefepime$hl_79_id$, $hl_79_name$CEFEPIME$hl_79_name$, $hl_79_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_79_source$, 3320199, $hl_79$CEFEPIME
+  food. Adjust dose in renal failure (see Chapter 32).$hl_82$, 'pending-clinical-verification'),
+  ($hl_83_id$cefepime$hl_83_id$, $hl_83_name$CEFEPIME$hl_83_name$, $hl_83_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_83_source$, 3320199, $hl_83$CEFEPIME
   Generics; previously available as Maxipime
   Antibiotic, cephalosporin (fourth generation)
                                                                     B        1     Yes     Yes        No
@@ -3805,8 +3798,8 @@ May cause thrombophlebitis, GI discomfort, transient increases in liver enzymes,
 
 
 
-                                                                                                          For explanation of icons, see p. 814$hl_79$, 'pending-clinical-verification'),
-  ($hl_80_id$cefiderocol$hl_80_id$, $hl_80_name$CEFIDEROCOL$hl_80_name$, $hl_80_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_80_source$, 3323286, $hl_80$CEFIDEROCOL
+                                                                                                          For explanation of icons, see p. 814$hl_83$, 'pending-clinical-verification'),
+  ($hl_84_id$cefiderocol$hl_84_id$, $hl_84_name$CEFIDEROCOL$hl_84_name$, $hl_84_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_84_source$, 3323286, $hl_84$CEFIDEROCOL
   Fetroja
   Antibiotic, cephalosporin (siderophore type)
                                                                       ?       1      Yes     Yes    No
@@ -3843,8 +3836,8 @@ Use with caution in penicillin-, cephalosporin-, or beta-lactam–allergic patie
   disturbance, and headache. Hypomagnesemia, hypersensitivity reactions, atrial fibrillation,
   seizures, and increase in mortality in patients with carbapenem-resistant Gram-negative
   bacterial infections have been reported in adults. May cause false-positive results for urine
-  dipstick tests (urine protein, ketones, or occult blood) and Coombs test.$hl_80$, 'pending-clinical-verification'),
-  ($hl_81_id$cefixime$hl_81_id$, $hl_81_name$CEFIXIME$hl_81_name$, $hl_81_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_81_source$, 3325400, $hl_81$CEFIXIME
+  dipstick tests (urine protein, ketones, or occult blood) and Coombs test.$hl_84$, 'pending-clinical-verification'),
+  ($hl_85_id$cefixime$hl_85_id$, $hl_85_name$CEFIXIME$hl_85_name$, $hl_85_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_85_source$, 3325400, $hl_85$CEFIXIME
   Generics; previously available as Suprax
   Antibiotic, cephalosporin (third generation)
                                                                         B        1      Yes     Yes    No
@@ -3875,8 +3868,8 @@ The capsule dosage form is NOT considered bioequivalent to the oral suspension a
 
 
 
-                                                                                                            FORMULARY$hl_81$, 'pending-clinical-verification'),
-  ($hl_82_id$cefotaxime$hl_82_id$, $hl_82_name$CEFOTAXIME$hl_82_name$, $hl_82_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_82_source$, 3327453, $hl_82$CEFOTAXIME
+                                                                                                            FORMULARY$hl_85$, 'pending-clinical-verification'),
+  ($hl_86_id$cefotaxime$hl_86_id$, $hl_86_name$CEFOTAXIME$hl_86_name$, $hl_86_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_86_source$, 3327453, $hl_86$CEFOTAXIME
   Generics; previously available as Claforan
   Antibiotic, cephalosporin (third generation)
                                                                     B        1      Yes    Yes     No
@@ -3917,8 +3910,8 @@ Good CNS penetration. Adjust dose in renal failure (see Chapter 32).
 
 
 
-                                                                                                          For explanation of icons, see p. 814$hl_82$, 'pending-clinical-verification'),
-  ($hl_83_id$cefotetan$hl_83_id$, $hl_83_name$CEFOTETAN$hl_83_name$, $hl_83_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_83_source$, 3329638, $hl_83$CEFOTETAN
+                                                                                                          For explanation of icons, see p. 814$hl_86$, 'pending-clinical-verification'),
+  ($hl_87_id$cefotetan$hl_87_id$, $hl_87_name$CEFOTETAN$hl_87_name$, $hl_87_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_87_source$, 3329638, $hl_87$CEFOTETAN
   Generics; previously available as Cefotan
   Antibiotic, cephalosporin (second generation)
                                                                     B        1      Yes    Yes     No
@@ -3949,8 +3942,8 @@ Use with caution in penicillin-allergic patients or in presence of renal impairm
   method). Enzymatic glucose oxidase urinary glucose tests (e.g., Clinistix or Tes-Tape) are
   recommended. Hemolytic anemia and liver enzyme elevations have been reported.
   Good anaerobic activity but poor CSF penetration. Adjust dose in renal failure
-  (see Chapter 32).$hl_83$, 'pending-clinical-verification'),
-  ($hl_84_id$cefoxitin$hl_84_id$, $hl_84_name$CEFOXITIN$hl_84_name$, $hl_84_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_84_source$, 3331417, $hl_84$CEFOXITIN
+  (see Chapter 32).$hl_87$, 'pending-clinical-verification'),
+  ($hl_88_id$cefoxitin$hl_88_id$, $hl_88_name$CEFOXITIN$hl_88_name$, $hl_88_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_88_source$, 3331417, $hl_88$CEFOXITIN
   Generics; previously available as Mefoxin
   Antibiotic, cephalosporin (second generation)
                                                                     B       1      Yes    Yes    No
@@ -3989,8 +3982,8 @@ Probenecid increases serum cefoxitin levels. May cause false-positive urine-redu
   substance (e.g., Clinitest, Benedict’s solution, or Fehling’s solution) and false elevations of
   serum and urine creatinine (Jaffe and KDA methods). Enzymatic glucose oxidase urinary
   glucose tests (e.g., Clinistix or Tes-Tape) are recommended.
-Adjust dose in renal failure (see Chapter 32).$hl_84$, 'pending-clinical-verification'),
-  ($hl_85_id$cefpodoxime-proxetil$hl_85_id$, $hl_85_name$CEFPODOXIME PROXETIL$hl_85_name$, $hl_85_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_85_source$, 3333451, $hl_85$CEFPODOXIME PROXETIL
+Adjust dose in renal failure (see Chapter 32).$hl_88$, 'pending-clinical-verification'),
+  ($hl_89_id$cefpodoxime-proxetil$hl_89_id$, $hl_89_name$CEFPODOXIME PROXETIL$hl_89_name$, $hl_89_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_89_source$, 3333451, $hl_89$CEFPODOXIME PROXETIL
   Generics; previously available as Vantin
   Antibiotic, cephalosporin (third generation)
                                                                       B       1      Yes     Yes    No
@@ -4016,8 +4009,8 @@ Tablets should be administered with food to enhance absorption. Suspension may b
   administered without regard to food. High doses of antacids or H2 blockers may reduce
   absorption. Probenecid increases serum cefpodoxime levels.
 Cefpodoxime proxetil is a prodrug that is de-esterified in the GI tract to the active
-  cefpodoxime. Adjust dose in renal failure (see Chapter 32).$hl_85$, 'pending-clinical-verification'),
-  ($hl_86_id$cefprozil$hl_86_id$, $hl_86_name$CEFPROZIL$hl_86_name$, $hl_86_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_86_source$, 3335178, $hl_86$CEFPROZIL
+  cefpodoxime. Adjust dose in renal failure (see Chapter 32).$hl_89$, 'pending-clinical-verification'),
+  ($hl_90_id$cefprozil$hl_90_id$, $hl_90_name$CEFPROZIL$hl_90_name$, $hl_90_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_90_source$, 3335178, $hl_90$CEFPROZIL
 
 
 
@@ -4054,8 +4047,8 @@ Use with caution in penicillin-allergic patients or in presence of renal impairm
   false-positive urine-reducing substance (e.g., Clinitest, Benedict’s solution, or Fehling’s
   solution) and Coombs test. Enzymatic glucose oxidase urinary glucose tests (e.g., Clinistix
   or Tes-Tape) are recommended. Probenecid increases serum cefprozil levels. Absorption is
-  not affected by food. Adjust dose in renal failure (see Chapter 32).$hl_86$, 'pending-clinical-verification'),
-  ($hl_87_id$ceftaroline-fosamil$hl_87_id$, $hl_87_name$CEFTAROLINE FOSAMIL$hl_87_name$, $hl_87_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_87_source$, 3336908, $hl_87$CEFTAROLINE FOSAMIL
+  not affected by food. Adjust dose in renal failure (see Chapter 32).$hl_90$, 'pending-clinical-verification'),
+  ($hl_91_id$ceftaroline-fosamil$hl_91_id$, $hl_91_name$CEFTAROLINE FOSAMIL$hl_91_name$, $hl_91_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_91_source$, 3336908, $hl_91$CEFTAROLINE FOSAMIL
   Teflaro
   Antibiotic, cephalosporin (fifth generation)
                                                                     B       1      Yes    Yes    No
@@ -4090,8 +4083,8 @@ Adjust dose in renal failure (see Chapter 32).
 
 
 
-                                                                                                          FORMULARY$hl_87$, 'pending-clinical-verification'),
-  ($hl_88_id$ceftazidime$hl_88_id$, $hl_88_name$CEFTAZIDIME$hl_88_name$, $hl_88_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_88_source$, 3338683, $hl_88$CEFTAZIDIME
+                                                                                                          FORMULARY$hl_91$, 'pending-clinical-verification'),
+  ($hl_92_id$ceftazidime$hl_92_id$, $hl_92_name$CEFTAZIDIME$hl_92_name$, $hl_92_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_92_source$, 3338683, $hl_92$CEFTAZIDIME
   Tazicef and generics; previously available as Fortaz
   Antibiotic, cephalosporin (third generation)
                                                                    B       1      Yes    Yes     No
@@ -4123,8 +4116,8 @@ Use with caution in penicillin-allergic patients or in presence of renal impairm
   solution) and Coombs test. Enzymatic glucose oxidase urinary glucose tests (e.g., Clinistix
   or Tes-Tape) are recommended. Probenecid increases serum ceftazidime levels. Adjust dose
   in renal failure (see Chapter 32). Nonconvulsive status epilepticus, neuromuscular
-  excitability, and myoclonia may occur with elevated levels of ceftazidime.$hl_88$, 'pending-clinical-verification'),
-  ($hl_89_id$ceftazidime-with-avibactam$hl_89_id$, $hl_89_name$CEFTAZIDIME WITH AVIBACTAM$hl_89_name$, $hl_89_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_89_source$, 3340447, $hl_89$CEFTAZIDIME WITH AVIBACTAM
+  excitability, and myoclonia may occur with elevated levels of ceftazidime.$hl_92$, 'pending-clinical-verification'),
+  ($hl_93_id$ceftazidime-with-avibactam$hl_93_id$, $hl_93_name$CEFTAZIDIME WITH AVIBACTAM$hl_93_name$, $hl_93_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_93_source$, 3340447, $hl_93$CEFTAZIDIME WITH AVIBACTAM
   Avycaz
 
 
@@ -4165,8 +4158,8 @@ Clinical trial safety profiles in children and adults are similar, including com
    recommended.
 Adjust dose in renal failure (see Chapter 32). Australian Therapeutic Goods Administration
    reports animal reproductive toxicity without evidence of teratogenic effects with avibactam.
-   Human studies of ceftazidime/avibactam are incomplete.$hl_89$, 'pending-clinical-verification'),
-  ($hl_90_id$ceftolozane-with-tazobactam$hl_90_id$, $hl_90_name$CEFTOLOZANE WITH TAZOBACTAM$hl_90_name$, $hl_90_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_90_source$, 3342593, $hl_90$CEFTOLOZANE WITH TAZOBACTAM
+   Human studies of ceftazidime/avibactam are incomplete.$hl_93$, 'pending-clinical-verification'),
+  ($hl_94_id$ceftolozane-with-tazobactam$hl_94_id$, $hl_94_name$CEFTOLOZANE WITH TAZOBACTAM$hl_94_name$, $hl_94_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_94_source$, 3342593, $hl_94$CEFTOLOZANE WITH TAZOBACTAM
   Zerbaxa
   Antibiotic, cephalosporin with β-lactamase inhibitor
                                                                      ?        1     Yes     Yes    No
@@ -4212,8 +4205,8 @@ Common side effects in pediatric trials include thrombocytopenia, diarrhea, pyre
   leukopenia, abdominal pain, vomiting, increased AST, and anemia. Common side
   effects in adult UTI trials include nausea, diarrhea, headache, and pyrexia. Increased
   hepatic transaminases, renal impairment, and diarrhea were observed in adult pneumonia
-  trials.$hl_90$, 'pending-clinical-verification'),
-  ($hl_91_id$ceftriaxone$hl_91_id$, $hl_91_name$CEFTRIAXONE$hl_91_name$, $hl_91_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_91_source$, 3345584, $hl_91$CEFTRIAXONE
+  trials.$hl_94$, 'pending-clinical-verification'),
+  ($hl_95_id$ceftriaxone$hl_95_id$, $hl_95_name$CEFTRIAXONE$hl_95_name$, $hl_95_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_95_source$, 3345584, $hl_95$CEFTRIAXONE
   Generics; previously available as Rocephin
   Antibiotic, cephalosporin (third generation)
                                                                    B       1      Yes    Yes     No
@@ -4279,8 +4272,8 @@ Rash, injection site pain, diarrhea, and transient increase in liver enzymes are
 For IM injections, dilute drug with either sterile water for injection or 1% lidocaine to a
   concentration of 250 or 350 mg/mL (250 mg/mL has lower incidence of injection site
   reactions). Assess the potential risk/benefit for using lidocaine as a diluent; see Lidocaine
-  for additional remarks, especially risk for methemoglobinemia.$hl_91$, 'pending-clinical-verification'),
-  ($hl_92_id$cefuroxime-iv-im-cefuroxime-axetil-po$hl_92_id$, $hl_92_name$CEFUROXIME (IV, IM)/CEFUROXIME AXETIL (PO)$hl_92_name$, $hl_92_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_92_source$, 3349851, $hl_92$CEFUROXIME (IV, IM)/CEFUROXIME AXETIL (PO)
+  for additional remarks, especially risk for methemoglobinemia.$hl_95$, 'pending-clinical-verification'),
+  ($hl_96_id$cefuroxime-iv-im-cefuroxime-axetil-po$hl_96_id$, $hl_96_name$CEFUROXIME (IV, IM)/CEFUROXIME AXETIL (PO)$hl_96_name$, $hl_96_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_96_source$, 3349851, $hl_96$CEFUROXIME (IV, IM)/CEFUROXIME AXETIL (PO)
   IV: Generics; previously available as Zinacef
   PO: Generics; previously available as Ceftin
                                                                      B        1     Yes     Yes    No
@@ -4332,8 +4325,8 @@ Use with caution in penicillin-allergic patients or in presence of renal impairm
 Oral suspension dosage form currently not available. Tablets and oral suspension are NOT
   bioequivalent and CANNOT be substituted on a mg/mg basis. Concurrent use of antacids,
   H2 blockers, and proton pump inhibitors may decrease oral absorption. Adjust dose in renal
-  failure (see Chapter 32).$hl_92$, 'pending-clinical-verification'),
-  ($hl_93_id$celecoxib$hl_93_id$, $hl_93_name$CELECOXIB$hl_93_name$, $hl_93_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_93_source$, 3352583, $hl_93$CELECOXIB
+  failure (see Chapter 32).$hl_96$, 'pending-clinical-verification'),
+  ($hl_97_id$celecoxib$hl_97_id$, $hl_97_name$CELECOXIB$hl_97_name$, $hl_97_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_97_source$, 3352583, $hl_97$CELECOXIB
   Celebrex, Elyxyb, and generics
   Nonsteroidal anti-inflammatory agent
                                                                    C/X     1      Yes    Yes     Yes
@@ -4384,8 +4377,8 @@ Pregnancy category is “C” for prior to 30 weeks’ gestation and “X” for
    ductus arteriosus. Limit dose and duration of use at 20–30 weeks’ gestation for concerns of
    fetal renal dysfunction.
 If patient is unable to swallow capsules whole, contents of the capsule may be added to
-   applesauce (stable for up to 6 hr refrigerated) and ingested with water.$hl_93$, 'pending-clinical-verification'),
-  ($hl_94_id$cephalexin$hl_94_id$, $hl_94_name$CEPHALEXIN$hl_94_name$, $hl_94_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_94_source$, 3355601, $hl_94$CEPHALEXIN
+   applesauce (stable for up to 6 hr refrigerated) and ingested with water.$hl_97$, 'pending-clinical-verification'),
+  ($hl_98_id$cephalexin$hl_98_id$, $hl_98_name$CEPHALEXIN$hl_98_name$, $hl_98_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_98_source$, 3355601, $hl_98$CEPHALEXIN
   Generics; previously available as Keflex
   Antibiotic, cephalosporin (first generation)
                                                                     B        1      Yes    Yes    No
@@ -4421,8 +4414,8 @@ Administer doses on an empty stomach, 2 hr prior to or 1 hr after meals. Adjust 
 
 
 
-                                                                                                          FORMULARY
-  CETIRIZINE ± PSEUDOEPHEDRINE
+                                                                                                          FORMULARY$hl_98$, 'pending-clinical-verification'),
+  ($hl_99_id$cetirizine-pseudoephedrine$hl_99_id$, $hl_99_name$CETIRIZINE ± PSEUDOEPHEDRINE$hl_99_name$, $hl_99_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_99_source$, 3357711, $hl_99$CETIRIZINE ± PSEUDOEPHEDRINE
   Zyrtec, Zyrtec Allergy, Zyrtec Children’s Allergy, Quzyttir,
   Zerviate, and many generics
                                                                    B/C     2      Yes    Yes     No
@@ -4490,11 +4483,11 @@ OPHTHALMIC USE: Common side effects include application site pain, ocular hypere
   reduced visual acuity. Oculogyric crisis has been reported. Do not touch dropper tip to
   anything, and remove contact lenses prior to administration (wait 10 min before reinserting
   lenses).
-INTRAVENOUS USE: Infuse undiluted over 1–2 min. DO NOT administer IM or SQ.$hl_94$, 'pending-clinical-verification'),
-  ($hl_95_id$charcoal-activated$hl_95_id$, $hl_95_name$CHARCOAL, ACTIVATED$hl_95_name$, $hl_95_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_95_source$, 3361238, $hl_95$CHARCOAL, ACTIVATED
+INTRAVENOUS USE: Infuse undiluted over 1–2 min. DO NOT administer IM or SQ.$hl_99$, 'pending-clinical-verification'),
+  ($hl_100_id$charcoal-activated$hl_100_id$, $hl_100_name$CHARCOAL, ACTIVATED$hl_100_name$, $hl_100_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_100_source$, 3361238, $hl_100$CHARCOAL, ACTIVATED
 
-See Chapter 3.$hl_95$, 'pending-clinical-verification'),
-  ($hl_96_id$chloramphenicol$hl_96_id$, $hl_96_name$CHLORAMPHENICOL$hl_96_name$, $hl_96_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_96_source$, 3361278, $hl_96$CHLORAMPHENICOL
+See Chapter 3.$hl_100$, 'pending-clinical-verification'),
+  ($hl_101_id$chloramphenicol$hl_101_id$, $hl_101_name$CHLORAMPHENICOL$hl_101_name$, $hl_101_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_101_source$, 3361278, $hl_101$CHLORAMPHENICOL
   Generics
   Antibiotic
                                                                     C       2/X    Yes    Yes    No
@@ -4534,8 +4527,8 @@ CHLORAMPHENICOL continued
                                                                                                              FORMULARY
 If a nursing mother is receiving chloramphenicol, monitor the breast-feeding infant for GI
    disturbances, adequacy of nursing, and CBC with differential. Some recommend the use of
-   an alternative medication for the nursing mother or discontinuing breastfeeding.$hl_96$, 'pending-clinical-verification'),
-  ($hl_97_id$chloroquine-phosphate$hl_97_id$, $hl_97_name$CHLOROQUINE PHOSPHATE$hl_97_name$, $hl_97_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_97_source$, 3363499, $hl_97$CHLOROQUINE PHOSPHATE
+   an alternative medication for the nursing mother or discontinuing breastfeeding.$hl_101$, 'pending-clinical-verification'),
+  ($hl_102_id$chloroquine-phosphate$hl_102_id$, $hl_102_name$CHLOROQUINE PHOSPHATE$hl_102_name$, $hl_102_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_102_source$, 3363499, $hl_102$CHLOROQUINE PHOSPHATE
   Generics; previously available as Aralen
   Amebicide, antimalarial
                                                                     C       2      Yes    Yes      No
@@ -4574,8 +4567,8 @@ Antacids, ampicillin, and kaolin may decrease the absorption of chloroquine (all
                                                                                                            For explanation of icons, see p. 814
   diploid-cell rabies vaccine.
 Monitor CBCs periodically with therapies of prolonged duration. Adjust dose in renal failure
-  (see Chapter 32).$hl_97$, 'pending-clinical-verification'),
-  ($hl_98_id$chlorothiazide$hl_98_id$, $hl_98_name$CHLOROTHIAZIDE$hl_98_name$, $hl_98_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_98_source$, 3365980, $hl_98$CHLOROTHIAZIDE
+  (see Chapter 32).$hl_102$, 'pending-clinical-verification'),
+  ($hl_103_id$chlorothiazide$hl_103_id$, $hl_103_name$CHLOROTHIAZIDE$hl_103_name$, $hl_103_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_103_source$, 3365980, $hl_103$CHLOROTHIAZIDE
   Diuril and generics
   Thiazide diuretic
                                                                     C/D     2      Yes    Yes      No
@@ -4608,8 +4601,8 @@ Contraindicated in anuria. Use with caution in liver and severe renal disease an
   sulfonamide hypersensitivity. May increase serum calcium, bilirubin, glucose, and uric acid.
   May cause alkalosis, pancreatitis, dizziness, hypokalemia, and hypomagnesemia.
 Avoid IM or subcutaneous administration.
-Pregnancy category changes to “D” if used in pregnancy-induced hypertension.$hl_98$, 'pending-clinical-verification'),
-  ($hl_99_id$chlorpheniramine-maleate$hl_99_id$, $hl_99_name$CHLORPHENIRAMINE MALEATE$hl_99_name$, $hl_99_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_99_source$, 3367513, $hl_99$CHLORPHENIRAMINE MALEATE
+Pregnancy category changes to “D” if used in pregnancy-induced hypertension.$hl_103$, 'pending-clinical-verification'),
+  ($hl_104_id$chlorpheniramine-maleate$hl_104_id$, $hl_104_name$CHLORPHENIRAMINE MALEATE$hl_104_name$, $hl_104_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_104_source$, 3367513, $hl_104$CHLORPHENIRAMINE MALEATE
   Generics; previously available as Chlor-Trimeton
   Antihistamine
                                                                     B       3      No     No     No
@@ -4637,8 +4630,8 @@ Administer doses with food. Sustained-release forms are NOT recommended in child
 
 
 
-                                                                                                           FORMULARY$hl_99$, 'pending-clinical-verification'),
-  ($hl_100_id$chlorpromazine$hl_100_id$, $hl_100_name$CHLORPROMAZINE$hl_100_name$, $hl_100_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_100_source$, 3369089, $hl_100$CHLORPROMAZINE
+                                                                                                           FORMULARY$hl_104$, 'pending-clinical-verification'),
+  ($hl_105_id$chlorpromazine$hl_105_id$, $hl_105_name$CHLORPROMAZINE$hl_105_name$, $hl_105_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_105_source$, 3369089, $hl_105$CHLORPROMAZINE
   Generics; previously available as Thorazine
   Antiemetic, antipsychotic, phenothiazine derivative
                                                                    C       3     No     No       No
@@ -4679,8 +4672,8 @@ Adverse effects include drowsiness, jaundice, lowered seizure threshold, extrapy
 
 
 
-                                                                                                         For explanation of icons, see p. 814$hl_100$, 'pending-clinical-verification'),
-  ($hl_101_id$cholecalciferol$hl_101_id$, $hl_101_name$CHOLECALCIFEROL$hl_101_name$, $hl_101_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_101_source$, 3371137, $hl_101$CHOLECALCIFEROL
+                                                                                                         For explanation of icons, see p. 814$hl_105$, 'pending-clinical-verification'),
+  ($hl_106_id$cholecalciferol$hl_106_id$, $hl_106_name$CHOLECALCIFEROL$hl_106_name$, $hl_106_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_106_source$, 3371137, $hl_106$CHOLECALCIFEROL
   D–3, D3–5, D3–50, Decara, D Drops, Enfamil
   D-Vi-Sol, Replesta, and many others including generics
                                                                    A/D     1     No     No       No
@@ -4771,8 +4764,8 @@ Serum 25-OH vitamin D levels ≥100 ng/mL are considered toxic. Toxic effects in
   result in nausea, vomiting, constipation, abdominal pain, loss of appetite, polydipsia,
   polyuria, muscle weakness, muscle/joint pain, confusion, and fatigue; renal damage may
   also occur.
-Pregnancy category changes to “D” if used in doses above the U.S. RDA.$hl_101$, 'pending-clinical-verification'),
-  ($hl_102_id$cholestyramine$hl_102_id$, $hl_102_name$CHOLESTYRAMINE$hl_102_name$, $hl_102_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_102_source$, 3376526, $hl_102$CHOLESTYRAMINE
+Pregnancy category changes to “D” if used in doses above the U.S. RDA.$hl_106$, 'pending-clinical-verification'),
+  ($hl_107_id$cholestyramine$hl_107_id$, $hl_107_name$CHOLESTYRAMINE$hl_107_name$, $hl_107_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_107_source$, 3376526, $hl_107$CHOLESTYRAMINE
   Questran, Questran Light, Cholestyramine Light,
   Prevalite, and generics
                                                                     C       1      No     No       No
@@ -4819,8 +4812,8 @@ May cause constipation, abdominal distention, vomiting, vitamin deficiencies (A,
    rash. Hyperchloremic acidosis may occur with prolonged use.
 Give other oral medications 4–6 hr after cholestyramine or 1 hr before dose to avoid decreased
    absorption. High doses or long-term systemic therapy may decrease the absorption of folic
-   acid, fat-soluble vitamins, and iron.$hl_102$, 'pending-clinical-verification'),
-  ($hl_103_id$ciclesonide$hl_103_id$, $hl_103_name$CICLESONIDE$hl_103_name$, $hl_103_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_103_source$, 3379156, $hl_103$CICLESONIDE
+   acid, fat-soluble vitamins, and iron.$hl_107$, 'pending-clinical-verification'),
+  ($hl_108_id$ciclesonide$hl_108_id$, $hl_108_name$CICLESONIDE$hl_108_name$, $hl_108_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_108_source$, 3379156, $hl_108$CICLESONIDE
   Alvesco, Omnaris
   Corticosteroid
                                                                      C        1        No   Yes     No
@@ -4873,8 +4866,8 @@ Intranasal (allergic rhinitis): Clear nasal passages prior to use. May cause ota
    should be free of nasal disease, except for allergic rhinitis, before starting therapy. Monitor
    linear growth of pediatric patients routinely. Onset of action: 24–48 hr; further improvement
    observed over 1–2 wk in seasonal allergic rhinitis or 5 wk in perennial allergic rhinitis.
-   Discontinue use if nasal erosion, ulceration, or perforation occurs.$hl_103$, 'pending-clinical-verification'),
-  ($hl_104_id$cidofovir$hl_104_id$, $hl_104_name$CIDOFOVIR$hl_104_name$, $hl_104_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_104_source$, 3382358, $hl_104$CIDOFOVIR
+   Discontinue use if nasal erosion, ulceration, or perforation occurs.$hl_108$, 'pending-clinical-verification'),
+  ($hl_109_id$cidofovir$hl_109_id$, $hl_109_name$CIDOFOVIR$hl_109_name$, $hl_109_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_109_source$, 3382358, $hl_109$CIDOFOVIR
   Generics; previously available as Vistide
   Antiviral
                                                                        C       3      Yes     No     No
@@ -4912,8 +4905,8 @@ Reported criteria for defining renal dysfunction in children includen an sCr >1.
   from baseline or development of ≥3+ proteinuria.
 Administer doses via IV infusion over 1 hr at a concentration ≤8 mg/mL.
                                                                                                 Continued
-930         Part IV      Formulary$hl_104$, 'pending-clinical-verification'),
-  ($hl_105_id$ciprofloxacin$hl_105_id$, $hl_105_name$CIPROFLOXACIN$hl_105_name$, $hl_105_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_105_source$, 3384748, $hl_105$CIPROFLOXACIN
+930         Part IV      Formulary$hl_109$, 'pending-clinical-verification'),
+  ($hl_110_id$ciprofloxacin$hl_110_id$, $hl_110_name$CIPROFLOXACIN$hl_110_name$, $hl_110_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_110_source$, 3384748, $hl_110$CIPROFLOXACIN
   Cipro, Ciloxan ophthalmic, Cetraxal, and generics
   In combination with corticosteroid: Cipro HC Otic, Otovel
                                                                   C       2     Yes     Yes     No
@@ -5026,10 +5019,8 @@ Do not administer antacids or other divalent salts with or within 2–4 hr of or
 
 
                                                                                             Continued
-932           Part IV      Formulary
-
-
-    CITRATE MIXTURES
+932           Part IV      Formulary$hl_110$, 'pending-clinical-verification'),
+  ($hl_111_id$citrate-mixtures$hl_111_id$, $hl_111_name$CITRATE MIXTURES$hl_111_name$, $hl_111_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_111_source$, 3391122, $hl_111$CITRATE MIXTURES
     Alkalinizing agent, electrolyte supplement
                                                                      ?        ?       Yes   No      No
 
@@ -5063,10 +5054,8 @@ Contraindicated in severe renal impairment and acute dehydration. Use with cauti
 Adjust dose to maintain desired pH. 1 mEq of citrate is equivalent to 1 mEq HCO3 in patients,
   as citrate is converted to CO2 via the citric acid cycle in the mitochondria.
 Potassium citrate has a pregnancy category of “C”; otherwise the pregnancy category is
-  unknown for the other components to this medication.
-
-
-    CLARITHROMYCIN
+  unknown for the other components to this medication.$hl_111$, 'pending-clinical-verification'),
+  ($hl_112_id$clarithromycin$hl_112_id$, $hl_112_name$CLARITHROMYCIN$hl_112_name$, $hl_112_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_112_source$, 3393161, $hl_112$CLARITHROMYCIN
     Generics; previously available as Biaxin and Biaxin XL
     Antibiotic, macrolide
                                                                      C        2       Yes   Yes     No
@@ -5127,8 +5116,8 @@ May increase effects/toxicity of carbamazepine, theophylline, cyclosporine, digo
                                                                                                          For explanation of icons, see p. 814
   3A4, and inhibits CYP1A2.
 Adjust dose in renal failure (see Chapter 32). Doses, regardless of dosage form, may be
-  administered with food.$hl_105$, 'pending-clinical-verification'),
-  ($hl_106_id$clindamycin$hl_106_id$, $hl_106_name$CLINDAMYCIN$hl_106_name$, $hl_106_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_106_source$, 3396750, $hl_106$CLINDAMYCIN
+  administered with food.$hl_112$, 'pending-clinical-verification'),
+  ($hl_113_id$clindamycin$hl_113_id$, $hl_113_name$CLINDAMYCIN$hl_113_name$, $hl_113_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_113_source$, 3396750, $hl_113$CLINDAMYCIN
   Cleocin, Cleocin-T, Clindagel, Clindesse, Clindacin,
   Xaciato, and generics
                                                                     B       2      Yes    Yes     No
@@ -5200,8 +5189,8 @@ Dosage reduction may be required in severe renal or hepatic disease but not nece
   weight regardless of obesity. Oral liquid preparation may not be palatable; consider use of
   oral capsules as a sprinkle onto applesauce or pudding. Esophagitis has been reported
   particularly when taking the capsule dosage form in a lying position or with a small amount
-  of water.$hl_106$, 'pending-clinical-verification'),
-  ($hl_107_id$clobazam$hl_107_id$, $hl_107_name$CLOBAZAM$hl_107_name$, $hl_107_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_107_source$, 3401067, $hl_107$CLOBAZAM
+  of water.$hl_113$, 'pending-clinical-verification'),
+  ($hl_114_id$clobazam$hl_114_id$, $hl_114_name$CLOBAZAM$hl_114_name$, $hl_114_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_114_source$, 3401067, $hl_114$CLOBAZAM
   Onfi, Sympazan, and generics
   Benzodiazepine, anticonvulsant
                                                                    C      3      No      Yes     Yes
@@ -5283,8 +5272,8 @@ Doses may be taken with or without food. Tablets may be crushed and mixed with a
 Oral film (Sympazan) uses same PO dosage with the following method for administration:
   apply film on top of the tongue, allow it to dissolve, and swallow saliva in a normal manner.
   Do not chew, spit, or talk while film is dissolving. Doses may be taken with or without food
-  but do not administer with liquids.$hl_107$, 'pending-clinical-verification'),
-  ($hl_108_id$clonazepam$hl_108_id$, $hl_108_name$CLONAZEPAM$hl_108_name$, $hl_108_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_108_source$, 3406053, $hl_108$CLONAZEPAM
+  but do not administer with liquids.$hl_114$, 'pending-clinical-verification'),
+  ($hl_115_id$clonazepam$hl_115_id$, $hl_115_name$CLONAZEPAM$hl_115_name$, $hl_115_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_115_source$, 3406053, $hl_115$CLONAZEPAM
   Klonopin and generics
   Benzodiazepine, anticonvulsant
                                                                      D        3     Yes     Yes    No
@@ -5321,8 +5310,8 @@ Proposed therapeutic levels (not well established): 20–80 ng/mL. Recommended s
   typically achieved after 5–8 days continuous therapy using the same dose.
 Carbamazepine, phenytoin, and phenobarbital may decrease clonazepam levels and effect.
   Drugs that inhibit cytochrome P-450 3A4 isoenzymes (e.g., erythromycin) may increase
-  clonazepam levels and effects/toxicity.$hl_108$, 'pending-clinical-verification'),
-  ($hl_109_id$clonidine$hl_109_id$, $hl_109_name$CLONIDINE$hl_109_name$, $hl_109_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_109_source$, 3408261, $hl_109$CLONIDINE
+  clonazepam levels and effects/toxicity.$hl_115$, 'pending-clinical-verification'),
+  ($hl_116_id$clonidine$hl_116_id$, $hl_116_name$CLONIDINE$hl_116_name$, $hl_116_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_116_source$, 3408261, $hl_116$CLONIDINE
   Onyda XR, Catapres TTS, Duraclon, and generics;
   previously available as Catapres and Kapvay
                                                                  C       3      Yes    No      No
@@ -5398,8 +5387,8 @@ Monitor heart rate when used with digitalis, calcium channel blockers, and β-bl
 T1/2: 44–72 hr (neonate), 6–20 hr (adult). Onset of action (antihypertensive): 0.5–1 hr for oral
    route, 2–3 days for transdermal route. Do not use transdermal route while patient is
    undergoing a magnetic resonance imaging (MRI) procedure; transdermal patches contain
-   metals and may result in serious patient burns when undergoing MRI.$hl_109$, 'pending-clinical-verification'),
-  ($hl_110_id$clotrimazole$hl_110_id$, $hl_110_name$CLOTRIMAZOLE$hl_110_name$, $hl_110_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_110_source$, 3413488, $hl_110$CLOTRIMAZOLE
+   metals and may result in serious patient burns when undergoing MRI.$hl_116$, 'pending-clinical-verification'),
+  ($hl_117_id$clotrimazole$hl_117_id$, $hl_117_name$CLOTRIMAZOLE$hl_117_name$, $hl_117_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_117_source$, 3413488, $hl_117$CLOTRIMAZOLE
   Alevazol, Lotrimin AF, and generics; previously available
   as Gyne-Lotrimin 3 and Gyne-Lotrimin 7
                                                                      B/C      ?     No      Yes    No
@@ -5433,8 +5422,8 @@ Systemic use: Do not use troches for systemic infections. Liver enzyme elevation
 Topical use: May cause erythema, blistering, or urticaria with topical use. Avoid use of
   tampons, douches, spermicides, other vaginal products, condoms, and diaphragms with
   vaginal cream. Vaginal cream can weaken latex.
-Pregnancy code is a “B” for topical and vaginal dosage forms and “C” for troches.$hl_110$, 'pending-clinical-verification'),
-  ($hl_111_id$corticotropin$hl_111_id$, $hl_111_name$CORTICOTROPIN$hl_111_name$, $hl_111_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_111_source$, 3415372, $hl_111$CORTICOTROPIN
+Pregnancy code is a “B” for topical and vaginal dosage forms and “C” for troches.$hl_117$, 'pending-clinical-verification'),
+  ($hl_118_id$corticotropin$hl_118_id$, $hl_118_name$CORTICOTROPIN$hl_118_name$, $hl_118_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_118_source$, 3415372, $hl_118$CORTICOTROPIN
   Acthar Gel, Cortrophin Gel; ACTH
   Adrenocorticotropic hormone
                                                                    C       ?      Yes    No      No
@@ -5466,8 +5455,8 @@ Hypersensitivity reactions and injection site reactions may occur. Cases of anap
 
 
                                                                                             Continued
-940           Part IV   Formulary$hl_111$, 'pending-clinical-verification'),
-  ($hl_112_id$cortisone-acetate$hl_112_id$, $hl_112_name$CORTISONE ACETATE$hl_112_name$, $hl_112_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_112_source$, 3416930, $hl_112$CORTISONE ACETATE
+940           Part IV   Formulary$hl_118$, 'pending-clinical-verification'),
+  ($hl_119_id$cortisone-acetate$hl_119_id$, $hl_119_name$CORTISONE ACETATE$hl_119_name$, $hl_119_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_119_source$, 3416930, $hl_119$CORTISONE ACETATE
   Various generics
   Corticosteroid
                                                                   C/D     ?     No     No     No
@@ -5479,11 +5468,11 @@ Anti-inflammatory/immunosuppressive:
 May produce glucose intolerance, Cushing syndrome, edema, hypertension, adrenal
   suppression, cataracts, hypokalemia, skin atrophy, peptic ulcer, osteoporosis, and growth
   suppression.
-Pregnancy category changes to “D” if used in the first trimester.$hl_112$, 'pending-clinical-verification'),
-  ($hl_113_id$co-trimoxazole$hl_113_id$, $hl_113_name$CO-TRIMOXAZOLE$hl_113_name$, $hl_113_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_113_source$, 3417469, $hl_113$CO-TRIMOXAZOLE
+Pregnancy category changes to “D” if used in the first trimester.$hl_119$, 'pending-clinical-verification'),
+  ($hl_120_id$co-trimoxazole$hl_120_id$, $hl_120_name$CO-TRIMOXAZOLE$hl_120_name$, $hl_120_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_120_source$, 3417469, $hl_120$CO-TRIMOXAZOLE
 
-See Sulfamethoxazole and Trimethoprim$hl_113$, 'pending-clinical-verification'),
-  ($hl_114_id$cromolyn$hl_114_id$, $hl_114_name$CROMOLYN$hl_114_name$, $hl_114_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_114_source$, 3417527, $hl_114$CROMOLYN
+See Sulfamethoxazole and Trimethoprim$hl_120$, 'pending-clinical-verification'),
+  ($hl_121_id$cromolyn$hl_121_id$, $hl_121_name$CROMOLYN$hl_121_name$, $hl_121_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_121_source$, 3417527, $hl_121$CROMOLYN
   Nasalcrom, Gastrocrom, and generics; previously
   available as Intal
                                                                   B       1     Yes    Yes    No
@@ -5522,8 +5511,8 @@ CROMOLYN continued
                                                                                                         FORMULARY
 Therapeutic response often occurs within 2 wk; however, a 4- to 6-wk trial may be needed to
   determine maximum benefit. Oral concentrate can only be diluted in water. Nebulized
-  solution can be mixed with albuterol nebs.$hl_114$, 'pending-clinical-verification'),
-  ($hl_115_id$cyanocobalamin-vitamin-b12$hl_115_id$, $hl_115_name$CYANOCOBALAMIN/VITAMIN B12$hl_115_name$, $hl_115_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_115_source$, 3419695, $hl_115$CYANOCOBALAMIN/VITAMIN B12
+  solution can be mixed with albuterol nebs.$hl_121$, 'pending-clinical-verification'),
+  ($hl_122_id$cyanocobalamin-vitamin-b12$hl_122_id$, $hl_122_name$CYANOCOBALAMIN/VITAMIN B12$hl_122_name$, $hl_122_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_122_source$, 3419695, $hl_122$CYANOCOBALAMIN/VITAMIN B12
   Dodex, Physicians EZ Use B-12, Vitamin Deficiency
   System B12, Nascobal, vitamin B12, and generics
                                                                    A/C     1      Yes    No     No
@@ -5574,8 +5563,8 @@ Protect product from light. Some products may contain aluminum and may accumulat
   impairment. Oral route of administration is generally not recommended for pernicious anemia
   and B12 deficiency due to poor absorption. IV route of administration is NOT recommended
   because of a more rapid elimination. See Chapter 21 for multivitamin preparations.
-942         Part IV     Formulary$hl_115$, 'pending-clinical-verification'),
-  ($hl_116_id$cyclopentolate$hl_116_id$, $hl_116_name$CYCLOPENTOLATE$hl_116_name$, $hl_116_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_116_source$, 3422573, $hl_116$CYCLOPENTOLATE
+942         Part IV     Formulary$hl_122$, 'pending-clinical-verification'),
+  ($hl_123_id$cyclopentolate$hl_123_id$, $hl_123_name$CYCLOPENTOLATE$hl_123_name$, $hl_123_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_123_source$, 3422573, $hl_123$CYCLOPENTOLATE
   Cyclogyl and generics
   Anticholinergic, mydriatic agent
                                                                   C       ?      No     No     No
@@ -5597,8 +5586,8 @@ Do not use in narrow-angle glaucoma. May cause a burning sensation, behavioral
   prevent potential feeding intolerance.
 Onset of action: 15–60 min; duration of action: 6–24 hr; complete recovery of accommodation
   may take several days for some patients. Observe patient closely for at least 30 min after
-  dose.$hl_116$, 'pending-clinical-verification'),
-  ($hl_117_id$cyclopentolate-with-phenylephrine$hl_117_id$, $hl_117_name$CYCLOPENTOLATE WITH PHENYLEPHRINE$hl_117_name$, $hl_117_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_117_source$, 3424009, $hl_117$CYCLOPENTOLATE WITH PHENYLEPHRINE
+  dose.$hl_123$, 'pending-clinical-verification'),
+  ($hl_124_id$cyclopentolate-with-phenylephrine$hl_124_id$, $hl_124_name$CYCLOPENTOLATE WITH PHENYLEPHRINE$hl_124_name$, $hl_124_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_124_source$, 3424009, $hl_124$CYCLOPENTOLATE WITH PHENYLEPHRINE
   Cyclomydril
   Anticholinergic/sympathomimetic, mydriatic agent
                                                                   C       ?      No     No     No
@@ -5612,8 +5601,8 @@ Infant, child, and adolescent (administer dose at least 15 min prior to examinat
 Used to induce mydriasis. See Cyclopentolate for additional remarks.
 Onset of action: 15–60 min. Duration of action: 4–12 hr.
 Apply pressure over the nasolacrimal sac for 2–3 min after administration to minimize
-  systemic absorption.$hl_117$, 'pending-clinical-verification'),
-  ($hl_118_id$cyclosporine-cyclosporine-microemulsion-cyclosporine-modified$hl_118_id$, $hl_118_name$CYCLOSPORINE, CYCLOSPORINE MICROEMULSION, CYCLOSPORINE MODIFIED$hl_118_name$, $hl_118_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_118_source$, 3424850, $hl_118$CYCLOSPORINE, CYCLOSPORINE MICROEMULSION,
+  systemic absorption.$hl_124$, 'pending-clinical-verification'),
+  ($hl_125_id$cyclosporine-cyclosporine-microemulsion-cyclosporine-modified$hl_125_id$, $hl_125_name$CYCLOSPORINE, CYCLOSPORINE MICROEMULSION, CYCLOSPORINE MODIFIED$hl_125_name$, $hl_125_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_125_source$, 3424850, $hl_125$CYCLOSPORINE, CYCLOSPORINE MICROEMULSION,
   CYCLOSPORINE MODIFIED
   Sandimmune, Gengraf, Neoral, Restasis, Restasis
                                                                   C       2      Yes    Yes    No
@@ -5708,8 +5697,8 @@ Monitor trough levels (just prior to a dose at steady state). Steady state is ge
 For ophthalmic use: Ocular burning may occur. Remove contact lens prior to use; lens may be
   inserted 15 min after dose administration. May be used with artificial tears but need
   to be separated by 15 min from one another. Vevye product is indicated for dry eye disease
-  in adults.$hl_118$, 'pending-clinical-verification'),
-  ($hl_119_id$cyproheptadine$hl_119_id$, $hl_119_name$CYPROHEPTADINE$hl_119_name$, $hl_119_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_119_source$, 3430651, $hl_119$CYPROHEPTADINE
+  in adults.$hl_125$, 'pending-clinical-verification'),
+  ($hl_126_id$cyproheptadine$hl_126_id$, $hl_126_name$CYPROHEPTADINE$hl_126_name$, $hl_126_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_126_source$, 3430651, $hl_126$CYPROHEPTADINE
   Various generics; previously available as Periactin
   Antihistamine
                                                                       B       3      No      Yes    No
@@ -5750,8 +5739,8 @@ Allow 4–8 wk of continuous therapy for assessing efficacy in migraine prophyla
    enhance efficacy.
 
 
- D$hl_119$, 'pending-clinical-verification'),
-  ($hl_120_id$dabigatran-etexilate-mesylate$hl_120_id$, $hl_120_name$DABIGATRAN ETEXILATE MESYLATE$hl_120_name$, $hl_120_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_120_source$, 3432748, $hl_120$DABIGATRAN ETEXILATE MESYLATE
+ D$hl_126$, 'pending-clinical-verification'),
+  ($hl_127_id$dabigatran-etexilate-mesylate$hl_127_id$, $hl_127_name$DABIGATRAN ETEXILATE MESYLATE$hl_127_name$, $hl_127_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_127_source$, 3432748, $hl_127$DABIGATRAN ETEXILATE MESYLATE
   Pradaxa and generics
   Anticoagulant, direct thrombin inhibitor
                                                                     C          ?    Yes    No      No
@@ -5837,8 +5826,8 @@ BID dosing should be separated by Q12 hr when possible. DO NOT combine the capsu
   without food and MUST NOT be opened or chewed. Oral pellets are mixed with mashed
   carrot or banana, applesauce, or apple juice (see product information for specific
   instructions) for administration. DO NOT administer oral pellets via oral syringes or feeding
-  tubes and DO NOT mix them with milk or any milk-containing products.$hl_120$, 'pending-clinical-verification'),
-  ($hl_121_id$dantrolene$hl_121_id$, $hl_121_name$DANTROLENE$hl_121_name$, $hl_121_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_121_source$, 3438049, $hl_121$DANTROLENE
+  tubes and DO NOT mix them with milk or any milk-containing products.$hl_127$, 'pending-clinical-verification'),
+  ($hl_128_id$dantrolene$hl_128_id$, $hl_128_name$DANTROLENE$hl_128_name$, $hl_128_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_128_source$, 3438049, $hl_128$DANTROLENE
   Dantrium, Revonto, Ryanodex, and generics
   Skeletal muscle relaxant
                                                                        C       ?      No      Yes    No
@@ -5891,8 +5880,8 @@ IV Administration Rates for Malignant Hyperthermia
 
 
                                                                                                         For explanation of icons, see p. 814
-  Injectable suspension            Over at least 1 min                  IV push$hl_121$, 'pending-clinical-verification'),
-  ($hl_122_id$dapsone$hl_122_id$, $hl_122_name$DAPSONE$hl_122_name$, $hl_122_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_122_source$, 3440932, $hl_122$DAPSONE
+  Injectable suspension            Over at least 1 min                  IV push$hl_128$, 'pending-clinical-verification'),
+  ($hl_129_id$dapsone$hl_129_id$, $hl_129_name$DAPSONE$hl_129_name$, $hl_129_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_129_source$, 3440932, $hl_129$DAPSONE
   Aczone, Diaminodiphenyl sulfone, DDS, and generics
   Antibiotic, sulfone derivative
                                                                    C        2     Yes    Yes     No
@@ -5944,8 +5933,8 @@ Oral suspension may not be absorbed as well as tablets.
 TOPICAL USE: Dry skin, erythema, and peeling of the skin may occur. Use of topical gel,
   followed by benzoyl peroxide for acne, has resulted in temporary local discoloration
   (yellow/orange) of the skin and facial hair. Avoid use of topical gel in G6PD deficiency or
-  congenital/idiopathic methemoglobinemia.$hl_122$, 'pending-clinical-verification'),
-  ($hl_123_id$darbepoetin-alfa$hl_123_id$, $hl_123_name$DARBEPOETIN ALFA$hl_123_name$, $hl_123_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_123_source$, 3444259, $hl_123$DARBEPOETIN ALFA
+  congenital/idiopathic methemoglobinemia.$hl_129$, 'pending-clinical-verification'),
+  ($hl_130_id$darbepoetin-alfa$hl_130_id$, $hl_130_name$DARBEPOETIN ALFA$hl_130_name$, $hl_130_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_130_source$, 3444259, $hl_130$DARBEPOETIN ALFA
   Aranesp
   Erythropoiesis-stimulating protein
                                                                          C        1      No      Yes    No
@@ -6076,8 +6065,8 @@ Monitor hemoglobin, BP, serum chemistries, and reticulocyte count. Increases in 
 
 
 
-                                                                                                           FORMULARY$hl_123$, 'pending-clinical-verification'),
-  ($hl_124_id$deferoxamine-mesylate$hl_124_id$, $hl_124_name$DEFEROXAMINE MESYLATE$hl_124_name$, $hl_124_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_124_source$, 3452603, $hl_124$DEFEROXAMINE MESYLATE
+                                                                                                           FORMULARY$hl_130$, 'pending-clinical-verification'),
+  ($hl_131_id$deferoxamine-mesylate$hl_131_id$, $hl_131_name$DEFEROXAMINE MESYLATE$hl_131_name$, $hl_131_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_131_source$, 3452603, $hl_131$DEFEROXAMINE MESYLATE
   Desferal and generics
   Chelating agent
                                                                     C       2      Yes    Yes     No
@@ -6133,8 +6122,8 @@ For IV infusion, maximum rate: 15 mg/kg/hr. Infuse over 6–12 hr for mild/moder
 
 
                                                                                              Continued
-952          Part IV     Formulary$hl_124$, 'pending-clinical-verification'),
-  ($hl_125_id$desmopressin-acetate$hl_125_id$, $hl_125_name$DESMOPRESSIN ACETATE$hl_125_name$, $hl_125_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_125_source$, 3455408, $hl_125$DESMOPRESSIN ACETATE
+952          Part IV     Formulary$hl_131$, 'pending-clinical-verification'),
+  ($hl_132_id$desmopressin-acetate$hl_132_id$, $hl_132_name$DESMOPRESSIN ACETATE$hl_132_name$, $hl_132_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_132_source$, 3455408, $hl_132$DESMOPRESSIN ACETATE
   DDAVP, Nocdurna, and generics; previously available as
   Stimate
                                                                    B       2      Yes    No       No
@@ -6198,8 +6187,8 @@ Injection may be used SC or IV at approximately 10% of intranasal dose. Adjust f
    decrease risk of water intoxication and monitor serum sodium.
 If switching stabilized patient from intranasal route to IV/SC route, use 10% of intranasal
    dose. Peak effects: 1–5 hr with intranasal route; 1.5–3 hr with IV route; and 2–7 hr with PO
-   route.$hl_125$, 'pending-clinical-verification'),
-  ($hl_126_id$dexamethasone$hl_126_id$, $hl_126_name$DEXAMETHASONE$hl_126_name$, $hl_126_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_126_source$, 3459181, $hl_126$DEXAMETHASONE
+   route.$hl_132$, 'pending-clinical-verification'),
+  ($hl_133_id$dexamethasone$hl_133_id$, $hl_133_name$DEXAMETHASONE$hl_133_name$, $hl_133_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_133_source$, 3459181, $hl_133$DEXAMETHASONE
   Dexabliss, Dexamethasone Intensol, HiDex, TaperDex,
   Maxidex, and various generics; previously available as
                                                                     C        3      No     No     No
@@ -6272,8 +6261,8 @@ Oral peak serum levels occur 1–2 hr and within 8 hr following IM administratio
 OPHTHALMIC USE: Use ophthalmic preparation only in consultation with an ophthalmologist.
   Use with caution in corneal/scleral thinning and glaucoma. Consider the possibility of
   persistent fungal infections of the cornea after prolonged use. Ophthalmic solution/
-  suspension may be used for otitis externa.$hl_126$, 'pending-clinical-verification'),
-  ($hl_127_id$dexmedetomidine$hl_127_id$, $hl_127_name$DEXMEDETOMIDINE$hl_127_name$, $hl_127_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_127_source$, 3463437, $hl_127$DEXMEDETOMIDINE
+  suspension may be used for otitis externa.$hl_133$, 'pending-clinical-verification'),
+  ($hl_134_id$dexmedetomidine$hl_134_id$, $hl_134_name$DEXMEDETOMIDINE$hl_134_name$, $hl_134_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_134_source$, 3463437, $hl_134$DEXMEDETOMIDINE
   Precedex, Igalmi and generics
   α-Adrenergic agonist, sedative
                                                                     C       ?      No     Yes    No
@@ -6343,8 +6332,8 @@ This drug should be administered by individuals skilled in the management of pat
   ICU and OR. Concentrated IV solution (100 mCg/1 mL) must be diluted with NS to a
   concentration of 4 mCg/mL prior to administration. See Chapter 6 for additional
   information. The sublingual film dosage form is currently approved as an alternative agent
-  for adults with agitation associated with schizophrenia or bipolar I or II disorder.$hl_127$, 'pending-clinical-verification'),
-  ($hl_128_id$dexmethylphenidate$hl_128_id$, $hl_128_name$DEXMETHYLPHENIDATE$hl_128_name$, $hl_128_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_128_source$, 3468085, $hl_128$DEXMETHYLPHENIDATE
+  for adults with agitation associated with schizophrenia or bipolar I or II disorder.$hl_134$, 'pending-clinical-verification'),
+  ($hl_135_id$dexmethylphenidate$hl_135_id$, $hl_135_name$DEXMETHYLPHENIDATE$hl_135_name$, $hl_135_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_135_source$, 3468085, $hl_135$DEXMETHYLPHENIDATE
   Focalin, Focalin XR, and generics
   CNS stimulant
                                                                    C       3      No     No     No
@@ -6411,8 +6400,8 @@ Immediate-release tablets are dosed BID (minimum 4 hr between doses), and extend
 
 
 
-                                                                                                                      FORMULARY
-    DEXTROAMPHETAMINE ± AMPHETAMINE
+                                                                                                                      FORMULARY$hl_135$, 'pending-clinical-verification'),
+  ($hl_136_id$dextroamphetamine-amphetamine$hl_136_id$, $hl_136_name$DEXTROAMPHETAMINE ± AMPHETAMINE$hl_136_name$, $hl_136_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_136_source$, 3471816, $hl_136$DEXTROAMPHETAMINE ± AMPHETAMINE
     Dexedrine, ProCentra, Zenzedi, Xelstrym, and many
     generics
                                                                              C        3       Yes     Yes    No
@@ -6542,8 +6531,8 @@ Not recommended for children <3 yr. Medication should generally not be used in c
   priapism, bruxism, intestinal ischemia, worsening of Tourette syndrome, and auditory
   hallucination have been reported. Assess for risk of abuse and dependence prior to
   prescribing. Tolerance develops. Same guidelines as for methylphenidate apply. See
-  Amphetamine for amphetamine-containing products.$hl_128$, 'pending-clinical-verification'),
-  ($hl_129_id$diazepam$hl_129_id$, $hl_129_name$DIAZEPAM$hl_129_name$, $hl_129_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_129_source$, 3480706, $hl_129$DIAZEPAM
+  Amphetamine for amphetamine-containing products.$hl_136$, 'pending-clinical-verification'),
+  ($hl_137_id$diazepam$hl_137_id$, $hl_137_name$DIAZEPAM$hl_137_name$, $hl_137_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_137_source$, 3480706, $hl_137$DIAZEPAM
   Valium, Libervant, Valtoco, and generics; previously
   available as Diastat
                                                                     D        X      Yes    Yes     No
@@ -6655,8 +6644,8 @@ Administer the conventional IV product undiluted no faster than 2 mg/min and do 
    time only. Do not administer liquids with the buccal film dosage form.
 In status epilepticus, diazepam must be followed by long-acting anticonvulsants. Onset of
    anticonvulsant effect: 1–3 min with IV route; 2–10 min with rectal route; and <5 min with
-   intranasal route. For management of status epilepticus, see Chapter 1.$hl_129$, 'pending-clinical-verification'),
-  ($hl_130_id$diazoxide$hl_130_id$, $hl_130_name$DIAZOXIDE$hl_130_name$, $hl_130_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_130_source$, 3487373, $hl_130$DIAZOXIDE
+   intranasal route. For management of status epilepticus, see Chapter 1.$hl_137$, 'pending-clinical-verification'),
+  ($hl_138_id$diazoxide$hl_138_id$, $hl_138_name$DIAZOXIDE$hl_138_name$, $hl_138_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_138_source$, 3487373, $hl_138$DIAZOXIDE
   Proglycem and generics
   Antihypoglycemic agent
                                                                      C        ?     Yes     No     No
@@ -6692,8 +6681,8 @@ Hyperglycemic effect with PO administration occurs within 1 hr with a duration o
 
 
                                                                                               Continued
-962            Part IV       Formulary$hl_130$, 'pending-clinical-verification'),
-  ($hl_131_id$digoxin$hl_131_id$, $hl_131_name$DIGOXIN$hl_131_name$, $hl_131_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_131_source$, 3489564, $hl_131$DIGOXIN
+962            Part IV       Formulary$hl_138$, 'pending-clinical-verification'),
+  ($hl_139_id$digoxin$hl_139_id$, $hl_139_name$DIGOXIN$hl_139_name$, $hl_139_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_139_source$, 3489564, $hl_139$DIGOXIN
   Lanoxin, Lanoxin Pediatric, and generics
   Antiarrhythmic agent, inotrope
                                                                               C          2      Yes    No        No
@@ -6752,10 +6741,8 @@ DIGOXIN continued
                                                                                                                FORMULARY
 Recommended serum sampling at steady state: Obtain a single level from 6 hr postdose to
   just before the next scheduled dose following 5–8 days of continuous dosing. Levels
-  obtained prior to steady state may be useful in preventing toxicity.
-
-
-    DIGOXIN IMMUNE FAB (OVINE)
+  obtained prior to steady state may be useful in preventing toxicity.$hl_139$, 'pending-clinical-verification'),
+  ($hl_140_id$digoxin-immune-fab-ovine$hl_140_id$, $hl_140_name$DIGOXIN IMMUNE FAB (OVINE)$hl_140_name$, $hl_140_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_140_source$, 3493559, $hl_140$DIGOXIN IMMUNE FAB (OVINE)
     DigiFab
     Antidigoxin antibody
                                                                       C       ?        Yes   No       No
@@ -6805,8 +6792,8 @@ Contraindicated if hypersensitive to sheep products. Use with caution in renal o
   interfere with digitalis immunoassay measurements to result in misleading concentrations.
 
                                                                                                  Continued
-964          Part IV     Formulary$hl_131$, 'pending-clinical-verification'),
-  ($hl_132_id$diltiazem$hl_132_id$, $hl_132_name$DILTIAZEM$hl_132_name$, $hl_132_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_132_source$, 3496698, $hl_132$DILTIAZEM
+964          Part IV     Formulary$hl_140$, 'pending-clinical-verification'),
+  ($hl_141_id$diltiazem$hl_141_id$, $hl_141_name$DILTIAZEM$hl_141_name$, $hl_141_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_141_source$, 3496698, $hl_141$DILTIAZEM
   Cardizem, Cardizem CD, Cardizem LA, Cartia XT, Dilt-
   XR, Matzim LA, Tiadylt ER, Tiazac, and many others
                                                                    C       2      Yes    Yes      No
@@ -6858,8 +6845,8 @@ Maximal antihypertensive effect seen within 2 wk. Extended-release dosage forms 
 
 
 
-                                                                                                         FORMULARY$hl_132$, 'pending-clinical-verification'),
-  ($hl_133_id$dimenhydrinate$hl_133_id$, $hl_133_name$DIMENHYDRINATE$hl_133_name$, $hl_133_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_133_source$, 3499568, $hl_133$DIMENHYDRINATE
+                                                                                                         FORMULARY$hl_141$, 'pending-clinical-verification'),
+  ($hl_142_id$dimenhydrinate$hl_142_id$, $hl_142_name$DIMENHYDRINATE$hl_142_name$, $hl_142_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_142_source$, 3499568, $hl_142$DIMENHYDRINATE
   Dramamine, Driminate, and generics
   Antiemetic, antihistamine
                                                                     B       2    No     No      No
@@ -6881,8 +6868,8 @@ MAX. IM DOSE:
 Causes drowsiness and anticholinergic side effects. May mask vestibular symptoms and
   cause CNS excitation in young children. Caution when taken with ototoxic agents or history
   of seizures. Use should be limited to management of prolonged vomiting of known
-  etiology. Not recommended in children <2 yr. Toxicity resembles anticholinergic poisoning.$hl_133$, 'pending-clinical-verification'),
-  ($hl_134_id$diphenhydramine$hl_134_id$, $hl_134_name$DIPHENHYDRAMINE$hl_134_name$, $hl_134_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_134_source$, 3500672, $hl_134$DIPHENHYDRAMINE
+  etiology. Not recommended in children <2 yr. Toxicity resembles anticholinergic poisoning.$hl_142$, 'pending-clinical-verification'),
+  ($hl_143_id$diphenhydramine$hl_143_id$, $hl_143_name$DIPHENHYDRAMINE$hl_143_name$, $hl_143_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_143_source$, 3500672, $hl_143$DIPHENHYDRAMINE
   Benadryl, many other brand names, and generics
   Antihistamine
                                                                     B       2    Yes    No      No
@@ -6924,8 +6911,8 @@ Contraindicated with concurrent MAO inhibitor use, acute attacks of asthma, and 
   more common than GI disturbances. May cause paradoxical excitement in children.
   False-positive test for urine phencyclidine (PCP) screen may occur. Adjust dose in renal
   failure (see Chapter 32).
-TOPICAL USE: Side effects include rash, urticaria, and photosensitivity.$hl_134$, 'pending-clinical-verification'),
-  ($hl_135_id$divalproex-sodium$hl_135_id$, $hl_135_name$DIVALPROEX SODIUM$hl_135_name$, $hl_135_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_135_source$, 3502824, $hl_135$DIVALPROEX SODIUM
+TOPICAL USE: Side effects include rash, urticaria, and photosensitivity.$hl_143$, 'pending-clinical-verification'),
+  ($hl_144_id$divalproex-sodium$hl_144_id$, $hl_144_name$DIVALPROEX SODIUM$hl_144_name$, $hl_144_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_144_source$, 3502824, $hl_144$DIVALPROEX SODIUM
   Depakote, Depakote Sprinkles, Depakote ER, and
   generics
                                                                   D/X     2      No     Yes     Yes
@@ -6947,8 +6934,8 @@ See Valproic Acid. Preferred over valproic acid for patients on ketogenic diet. 
 Efficacy was not established in separate randomized, double-blind, placebo-controlled trials
    for the treatment of pediatric bipolar disorder (10–17 yr old) and migraine prophylaxis (12–
    17 yr old).
-Pregnancy category is “X” when used for migraine prophylaxis and is “D” for all other indications.$hl_135$, 'pending-clinical-verification'),
-  ($hl_136_id$dobutamine$hl_136_id$, $hl_136_name$DOBUTAMINE$hl_136_name$, $hl_136_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_136_source$, 3503910, $hl_136$DOBUTAMINE
+Pregnancy category is “X” when used for migraine prophylaxis and is “D” for all other indications.$hl_144$, 'pending-clinical-verification'),
+  ($hl_145_id$dobutamine$hl_145_id$, $hl_145_name$DOBUTAMINE$hl_145_name$, $hl_145_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_145_source$, 3503910, $hl_145$DOBUTAMINE
   Various generics; previously available as Dobutrex
   Sympathomimetic agent
                                                                    B       ?      No     No     No
@@ -6976,8 +6963,8 @@ Dobutamine has been shown to increase cardiac output and systemic pressure in pe
   infants already receiving optimal infusions of dopamine.
 Monitor BP and vital signs. T1/2: 2 min. Peak effects in 10–20 min. Use with linezolid may potentially
   increase blood pressure. Use with catechol-O-methyltransferase (COMT) inhibitors (e.g.,
-  entacapone) may increase heart rate and risk for arrhythmias and changes in blood pressure.$hl_136$, 'pending-clinical-verification'),
-  ($hl_137_id$docusate$hl_137_id$, $hl_137_name$DOCUSATE$hl_137_name$, $hl_137_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_137_source$, 3505754, $hl_137$DOCUSATE
+  entacapone) may increase heart rate and risk for arrhythmias and changes in blood pressure.$hl_145$, 'pending-clinical-verification'),
+  ($hl_146_id$docusate$hl_146_id$, $hl_146_name$DOCUSATE$hl_146_name$, $hl_146_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_146_source$, 3505754, $hl_146$DOCUSATE
   Colace, DocuSol Kids, Enemeez Mini, and many other
   brands and generics
                                                                           C       1       No      No     No
@@ -7013,8 +7000,8 @@ Oral dosage effective only after 1–3 days of therapy, whereas the enema has an
 Incidence of side effects is exceedingly low. Rash, nausea, and throat irritation have been
    reported. Oral liquid is bitter; give with milk, fruit juice, or formula to mask taste.
 A few drops of the 10 mg/mL oral liquid may be used in the ear as a cerumenolytic. Effect is
-   usually seen within 15 min.$hl_137$, 'pending-clinical-verification'),
-  ($hl_138_id$dolasetron$hl_138_id$, $hl_138_name$DOLASETRON$hl_138_name$, $hl_138_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_138_source$, 3507578, $hl_138$DOLASETRON
+   usually seen within 15 min.$hl_146$, 'pending-clinical-verification'),
+  ($hl_147_id$dolasetron$hl_147_id$, $hl_147_name$DOLASETRON$hl_147_name$, $hl_147_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_147_source$, 3507578, $hl_147$DOLASETRON
   Anzemet
   Antiemetic agent, 5-HT3 antagonist
                                                                           B       ?       Yes     Yes    No
@@ -7046,8 +7033,8 @@ Avoid use in patients with congenital long QT syndrome, hypomagnesemia, and hypo
 Although no dosage adjustments are necessary, hydrodolasetron’s clearance decreases 42%
    with severe hepatic impairment and 44% with severe renal impairment.
 ECG monitoring is recommended in patients with electrolyte abnormalities, CHF,
-   bradyarrhythmias, or renal impairment.$hl_138$, 'pending-clinical-verification'),
-  ($hl_139_id$dopamine$hl_139_id$, $hl_139_name$DOPAMINE$hl_139_name$, $hl_139_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_139_source$, 3509670, $hl_139$DOPAMINE
+   bradyarrhythmias, or renal impairment.$hl_147$, 'pending-clinical-verification'),
+  ($hl_148_id$dopamine$hl_148_id$, $hl_148_name$DOPAMINE$hl_148_name$, $hl_148_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_148_source$, 3509670, $hl_148$DOPAMINE
   Various generics; previously available as Intropin
   Sympathomimetic agent
                                                                     C        ?      No     No     No
@@ -7077,8 +7064,8 @@ Should be administered through a central line or large vein. Extravasation may c
 
 
 
-                                                                                                            FORMULARY$hl_139$, 'pending-clinical-verification'),
-  ($hl_140_id$dornase-alfa-dnase$hl_140_id$, $hl_140_name$DORNASE ALFA/DNASE$hl_140_name$, $hl_140_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_140_source$, 3511434, $hl_140$DORNASE ALFA/DNASE
+                                                                                                            FORMULARY$hl_148$, 'pending-clinical-verification'),
+  ($hl_149_id$dornase-alfa-dnase$hl_149_id$, $hl_149_name$DORNASE ALFA/DNASE$hl_149_name$, $hl_149_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_149_source$, 3511434, $hl_149$DORNASE ALFA/DNASE
   Pulmozyme
   Inhaled mucolytic
                                                                       B       1      No      No     No
@@ -7099,8 +7086,8 @@ Do not mix with other nebulized drugs. An inhaled β-agonist may be useful befor
   into treatment regimen. The following nebulizer compressor systems have been
   recommended for use: Pulmo-Aide, Pari-Proneb, Mobilaire, Porta-Neb, or PariBaby. Use of
   the “Sidestream” nebulizer cup can significantly reduce the medication administration
-  time. Medication should be protected from light and stored in the refrigerator.$hl_140$, 'pending-clinical-verification'),
-  ($hl_141_id$doxycycline$hl_141_id$, $hl_141_name$DOXYCYCLINE$hl_141_name$, $hl_141_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_141_source$, 3512836, $hl_141$DOXYCYCLINE
+  time. Medication should be protected from light and stored in the refrigerator.$hl_149$, 'pending-clinical-verification'),
+  ($hl_150_id$doxycycline$hl_150_id$, $hl_150_name$DOXYCYCLINE$hl_150_name$, $hl_150_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_150_source$, 3512836, $hl_150$DOXYCYCLINE
   Doxy, Doryx, Monodox, Oracea, many others, and
   generics; previously available as Vibramycin
                                                                       D       2      Yes     Yes    No
@@ -7167,8 +7154,8 @@ Rifampin, barbiturates, phenytoin, and carbamazepine may increase clearance of d
    Doxycycline may enhance the hypoprothrombinemic effect of warfarin. See Tetracycline for
    additional drug/food interactions and remarks.
 Infuse IV over 1–4 hr.
-For periodontitis, take tablets ≥1 hr prior to or 2 hr after meals.$hl_141$, 'pending-clinical-verification'),
-  ($hl_142_id$dronabinol$hl_142_id$, $hl_142_name$DRONABINOL$hl_142_name$, $hl_142_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_142_source$, 3516570, $hl_142$DRONABINOL
+For periodontitis, take tablets ≥1 hr prior to or 2 hr after meals.$hl_150$, 'pending-clinical-verification'),
+  ($hl_151_id$dronabinol$hl_151_id$, $hl_151_name$DRONABINOL$hl_151_name$, $hl_151_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_151_source$, 3516570, $hl_151$DRONABINOL
   Marinol, Syndros, tetrahydrocannabinol, THC, and
   generics
                                                                   C       X      No     Yes     Yes
@@ -7218,8 +7205,8 @@ Contraindicated in patients with history of substance abuse and mental illness a
 Dronabinol is a substrate for cytochrome P-450 (CYP) 2C9 and 3A4. Individuals with poor
   CYP2C9 activity may have reduced clearance of dronabinol, which may increase
   effects/toxicity.
-Onset of action: 0.5–1 hr; duration of psychoactive effects 4–6 hr, appetite stimulation 24 hr$hl_142$, 'pending-clinical-verification'),
-  ($hl_143_id$droperidol$hl_143_id$, $hl_143_name$DROPERIDOL$hl_143_name$, $hl_143_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_143_source$, 3519525, $hl_143$DROPERIDOL
+Onset of action: 0.5–1 hr; duration of psychoactive effects 4–6 hr, appetite stimulation 24 hr$hl_151$, 'pending-clinical-verification'),
+  ($hl_152_id$droperidol$hl_152_id$, $hl_152_name$DROPERIDOL$hl_152_name$, $hl_152_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_152_source$, 3519525, $hl_152$DROPERIDOL
   Generics; previously available as Inapsine
   Sedative, antiemetic
                                                                     C        3      Yes    Yes     No
@@ -7254,13 +7241,13 @@ Use with caution in renal and hepatic impairment; 75% of metabolites are excrete
   laryngospasm, and bronchospasm. May lower seizure threshold. Fatal arrhythmias and Q–T
   interval prolongation have been associated with use.
 Onset in 3–10 min. Peak effects within 10–30 min. Duration of action 2–4 hr. Often given as
-  adjunct to other agents.$hl_143$, 'pending-clinical-verification'),
-  ($hl_144_id$dymista$hl_144_id$, $hl_144_name$DYMISTA$hl_144_name$, $hl_144_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_144_source$, 3521335, $hl_144$DYMISTA
+  adjunct to other agents.$hl_152$, 'pending-clinical-verification'),
+  ($hl_153_id$dymista$hl_153_id$, $hl_153_name$DYMISTA$hl_153_name$, $hl_153_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_153_source$, 3521335, $hl_153$DYMISTA
 
 See Azelastine and Fluticasone.
 
- E$hl_144$, 'pending-clinical-verification'),
-  ($hl_145_id$elexacaftor-tezacaftor-ivacaftor$hl_145_id$, $hl_145_name$ELEXACAFTOR/TEZACAFTOR/IVACAFTOR$hl_145_name$, $hl_145_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_145_source$, 3521383, $hl_145$ELEXACAFTOR/TEZACAFTOR/IVACAFTOR
+ E$hl_153$, 'pending-clinical-verification'),
+  ($hl_154_id$elexacaftor-tezacaftor-ivacaftor$hl_154_id$, $hl_154_name$ELEXACAFTOR/TEZACAFTOR/IVACAFTOR$hl_154_name$, $hl_154_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_154_source$, 3521383, $hl_154$ELEXACAFTOR/TEZACAFTOR/IVACAFTOR
   Trikafta
   Cystic fibrosis transmembrane conductance
                                                                  C       ?      Yes    Yes     Yes
@@ -7437,11 +7424,11 @@ Administer all doses with high-fat foods to ensure absorption. Morning and eveni
    Missed morning dose: Take missed morning dose as soon as possible and do not take
       evening dose for that day, then resume usual dosing the next day.
    Missed evening dose: Do not take the missed dose, then resume usual dosing the next day.
-   Never take a double dose for a missed dose.$hl_145$, 'pending-clinical-verification'),
-  ($hl_146_id$emla$hl_146_id$, $hl_146_name$EMLA$hl_146_name$, $hl_146_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_146_source$, 3532249, $hl_146$EMLA
+   Never take a double dose for a missed dose.$hl_154$, 'pending-clinical-verification'),
+  ($hl_155_id$emla$hl_155_id$, $hl_155_name$EMLA$hl_155_name$, $hl_155_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_155_source$, 3532249, $hl_155$EMLA
 
-See Lidocaine and Prilocaine$hl_146$, 'pending-clinical-verification'),
-  ($hl_147_id$enalapril-maleate-po-enalaprilat-iv$hl_147_id$, $hl_147_name$ENALAPRIL MALEATE (PO), ENALAPRILAT (IV)$hl_147_name$, $hl_147_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_147_source$, 3532287, $hl_147$ENALAPRIL MALEATE (PO), ENALAPRILAT (IV)
+See Lidocaine and Prilocaine$hl_155$, 'pending-clinical-verification'),
+  ($hl_156_id$enalapril-maleate-po-enalaprilat-iv$hl_156_id$, $hl_156_name$ENALAPRIL MALEATE (PO), ENALAPRILAT (IV)$hl_156_name$, $hl_156_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_156_source$, 3532287, $hl_156$ENALAPRIL MALEATE (PO), ENALAPRILAT (IV)
   Enalapril: Vasotec, Epaned, and generics
   Enalaprilat: generics; previously available as Vasotec IV
                                                                        D       2      Yes     No     No
@@ -7483,8 +7470,8 @@ Nitritoid reactions have been seen in patients receiving concomitant IV gold the
    Enalapril/enalaprilat should be discontinued as soon as possible when pregnancy is
    detected. If oliguria or hypotension occurs in a neonate with in utero exposure with
    enalapril/enalaprilat, exchange transfusions or dialysis may be needed to reverse
-   hypotension and/or support renal function.$hl_147$, 'pending-clinical-verification'),
-  ($hl_148_id$enoxaparin$hl_148_id$, $hl_148_name$ENOXAPARIN$hl_148_name$, $hl_148_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_148_source$, 3534780, $hl_148$ENOXAPARIN
+   hypotension and/or support renal function.$hl_156$, 'pending-clinical-verification'),
+  ($hl_157_id$enoxaparin$hl_157_id$, $hl_157_name$ENOXAPARIN$hl_157_name$, $hl_157_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_157_source$, 3534780, $hl_157$ENOXAPARIN
   Lovenox, Enoxiluv Kit, and generics
   Anticoagulant, low-molecular-weight heparin
                                                                      B         1      Yes     Yes     No
@@ -7612,8 +7599,8 @@ Administer by deep SC injection by having the patient lie down. Alternate admini
   See package insert for detailed SC administration recommendations. To minimize bruising,
   do not rub the injection site. IM route of administration is not recommended.
 For additional information, see Chest 2008;133:887–968 and Regional Anesthesia and Pain
-  Medicine 2003;28(3):172–197.$hl_148$, 'pending-clinical-verification'),
-  ($hl_149_id$epinephrine-hcl$hl_149_id$, $hl_149_name$EPINEPHRINE HCL$hl_149_name$, $hl_149_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_149_source$, 3543023, $hl_149$EPINEPHRINE HCL
+  Medicine 2003;28(3):172–197.$hl_157$, 'pending-clinical-verification'),
+  ($hl_158_id$epinephrine-hcl$hl_158_id$, $hl_158_name$EPINEPHRINE HCL$hl_158_name$, $hl_158_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_158_source$, 3543023, $hl_158$EPINEPHRINE HCL
   Adrenalin, EpiPen, Auvi-Q, Neffy, EpinephrineSNAP,
   Primatene Mist, and generics
                                                                    C       2      No     No     No
@@ -7752,8 +7739,8 @@ INTRANASAL USE: Common side effects reported in pediatric studies include nasal 
 
 
 
-                                                                                                        FORMULARY$hl_149$, 'pending-clinical-verification'),
-  ($hl_150_id$epinephrine-racemic$hl_150_id$, $hl_150_name$EPINEPHRINE, RACEMIC$hl_150_name$, $hl_150_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_150_source$, 3551473, $hl_150$EPINEPHRINE, RACEMIC
+                                                                                                        FORMULARY$hl_158$, 'pending-clinical-verification'),
+  ($hl_159_id$epinephrine-racemic$hl_159_id$, $hl_159_name$EPINEPHRINE, RACEMIC$hl_159_name$, $hl_159_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_159_source$, 3551473, $hl_159$EPINEPHRINE, RACEMIC
   Asthmanefrin and S-2
   Sympathomimetic agent
                                                                  C      2      No     No      No
@@ -7767,8 +7754,8 @@ Contains edetate disodium and may contain sulfites
 ≥4 yr: 0.5 mL/dose diluted to 3 mL with NS via nebulizer over 15 min Q3–4 hr PRN
 Tachyarrhythmias, headache, nausea, palpitations have been reported. Rebound symptoms
   may occur. Cardiorespiratory monitoring should be considered if administered more
-  frequently than Q1–2 hr.$hl_150$, 'pending-clinical-verification'),
-  ($hl_151_id$epoetin-alfa$hl_151_id$, $hl_151_name$EPOETIN ALFA$hl_151_name$, $hl_151_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_151_source$, 3552248, $hl_151$EPOETIN ALFA
+  frequently than Q1–2 hr.$hl_159$, 'pending-clinical-verification'),
+  ($hl_160_id$epoetin-alfa$hl_160_id$, $hl_160_name$EPOETIN ALFA$hl_160_name$, $hl_160_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_160_source$, 3552248, $hl_160$EPOETIN ALFA
   Epogen, Procrit, Retacrit, and Erythropoietin
   Recombinant human erythropoietin
                                                                  C      2      Yes    No      No
@@ -7851,8 +7838,8 @@ May cause hypertension, seizure, hypersensitivity reactions, headache, edema, an
    SC route provides sustained serum levels compared to IV route. For IV administration,
    infuse over 1–3 min.
 Do not use multidose-vial preparation for neonates, infants, and pregnant/breastfeeding
-   mothers because of concerns for benzyl alcohol.$hl_151$, 'pending-clinical-verification'),
-  ($hl_152_id$epoprostenol$hl_152_id$, $hl_152_name$EPOPROSTENOL$hl_152_name$, $hl_152_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_152_source$, 3557499, $hl_152$EPOPROSTENOL
+   mothers because of concerns for benzyl alcohol.$hl_160$, 'pending-clinical-verification'),
+  ($hl_161_id$epoprostenol$hl_161_id$, $hl_161_name$EPOPROSTENOL$hl_161_name$, $hl_161_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_161_source$, 3557499, $hl_161$EPOPROSTENOL
   Flolan, Veletri, and generics, PGI2, PGX, prostacyclin
   Prostaglandin I2, vasodilator
                                                                      B        ?     No      No     No
@@ -7897,8 +7884,8 @@ Use with medications exhibiting antiplatelet effects (e.g., SSRI antidepressants
   bleeding. May increase digoxin levels.
 Systemic T1/2 is 2–5 min. Continuous IV infusion is administered via central venous catheter
   with a 0.22-micron filter. Medication temperature stability requirements and the use of
-  icepacks are product specific; consult with a pharmacist.$hl_152$, 'pending-clinical-verification'),
-  ($hl_153_id$ergocalciferol$hl_153_id$, $hl_153_name$ERGOCALCIFEROL$hl_153_name$, $hl_153_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_153_source$, 3560558, $hl_153$ERGOCALCIFEROL
+  icepacks are product specific; consult with a pharmacist.$hl_161$, 'pending-clinical-verification'),
+  ($hl_162_id$ergocalciferol$hl_162_id$, $hl_162_name$ERGOCALCIFEROL$hl_162_name$, $hl_162_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_162_source$, 3560558, $hl_162$ERGOCALCIFEROL
 
 
 
@@ -7952,10 +7939,8 @@ Monitor serum Ca2+, PO4, 25-OH vitamin D (goal level for infant and child: ≥20
   weakness, diarrhea, polyuria, metastatic calcification, nephrocalcinosis.
 Serum 25-OH vitamin D level of ≥35 ng/mL has been suggested in cystic fibrosis patients to
   decrease the risk of hyperparathyroidism and bone loss.
-Pregnancy category changes to “C” if used in doses above the U.S. RDA.
-
-
-  ERGOTAMINE TARTRATE ± CAFFEINE
+Pregnancy category changes to “C” if used in doses above the U.S. RDA.$hl_162$, 'pending-clinical-verification'),
+  ($hl_163_id$ergotamine-tartrate-caffeine$hl_163_id$, $hl_163_name$ERGOTAMINE TARTRATE ± CAFFEINE$hl_163_name$, $hl_163_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_163_source$, 3563437, $hl_163$ERGOTAMINE TARTRATE ± CAFFEINE
   Ergomar
   In combination with caffeine: Migergot and generics;
                                                                     X       X      Yes    Yes    No
@@ -7992,8 +7977,8 @@ Use with caution in renal or hepatic disease. May cause paresthesias, GI disturb
   with protease inhibitors, clarithromycin, erythromycin, other cytochrome P-450 3A4
   inhibitors, and nitroglycerin are contraindicated owing to risk of ergotism (nausea,
   vomiting, vasospastic ischemia leading to cerebral and peripheral ischemia).
-For sublingual (SL) administration, place tablet under the tongue and do not crush.$hl_153$, 'pending-clinical-verification'),
-  ($hl_154_id$ertapenem$hl_154_id$, $hl_154_name$ERTAPENEM$hl_154_name$, $hl_154_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_154_source$, 3565428, $hl_154$ERTAPENEM
+For sublingual (SL) administration, place tablet under the tongue and do not crush.$hl_163$, 'pending-clinical-verification'),
+  ($hl_164_id$ertapenem$hl_164_id$, $hl_164_name$ERTAPENEM$hl_164_name$, $hl_164_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_164_source$, 3565428, $hl_164$ERTAPENEM
   Invanz and generics
   Antibiotic, carbapenem
                                                                     B       1      Yes    No      No
@@ -8032,8 +8017,8 @@ Diarrhea, infusion complications, nausea, headache, vaginitis, phlebitis/thrombo
 
 ERTAPENEM continued
 IM route requires reconstitution with 1% lidocaine; this formulation should not be
-  administered by IV. Do not reconstitute or co-infuse with dextrose-containing solutions.$hl_154$, 'pending-clinical-verification'),
-  ($hl_155_id$erythromycin-preparations$hl_155_id$, $hl_155_name$ERYTHROMYCIN PREPARATIONS$hl_155_name$, $hl_155_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_155_source$, 3567619, $hl_155$ERYTHROMYCIN PREPARATIONS
+  administered by IV. Do not reconstitute or co-infuse with dextrose-containing solutions.$hl_164$, 'pending-clinical-verification'),
+  ($hl_165_id$erythromycin-preparations$hl_165_id$, $hl_165_name$ERYTHROMYCIN PREPARATIONS$hl_165_name$, $hl_165_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_165_source$, 3567619, $hl_165$ERYTHROMYCIN PREPARATIONS
   Erythromycin, EES, EryPed, Ery-Tab, Erythrocin, and
   generics
                                                                   B       2      Yes    Yes   No
@@ -8114,16 +8099,16 @@ GI side effects common (nausea, vomiting, abdominal cramps). Cardiac dysrhythmia
 Oral therapy should replace IV as soon as possible. Give oral doses after meals. Because of
   different absorption characteristics, higher oral doses of EES are needed to achieve
   therapeutic effects. Avoid IM route (pain, necrosis). For ophthalmic use, avoid contact of
-  ointment container tip with eye or skin.$hl_155$, 'pending-clinical-verification'),
-  ($hl_156_id$erythropoietin$hl_156_id$, $hl_156_name$ERYTHROPOIETIN$hl_156_name$, $hl_156_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_156_source$, 3572162, $hl_156$ERYTHROPOIETIN
+  ointment container tip with eye or skin.$hl_165$, 'pending-clinical-verification'),
+  ($hl_166_id$erythropoietin$hl_166_id$, $hl_166_name$ERYTHROPOIETIN$hl_166_name$, $hl_166_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_166_source$, 3572162, $hl_166$ERYTHROPOIETIN
 
 See Epoetin Alfa
 
 
 
 
-                                                                                                            For explanation of icons, see p. 814$hl_156$, 'pending-clinical-verification'),
-  ($hl_157_id$escitalopram$hl_157_id$, $hl_157_name$ESCITALOPRAM$hl_157_name$, $hl_157_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_157_source$, 3572346, $hl_157$ESCITALOPRAM
+                                                                                                            For explanation of icons, see p. 814$hl_166$, 'pending-clinical-verification'),
+  ($hl_167_id$escitalopram$hl_167_id$, $hl_167_name$ESCITALOPRAM$hl_167_name$, $hl_167_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_167_source$, 3572346, $hl_167$ESCITALOPRAM
   Lexapro and generics
   Antidepressant, selective serotonin reuptake
                                                                       C       3      Yes     Yes     Yes
@@ -8173,8 +8158,8 @@ Primarily metabolized by the cytochrome P-450 2C19 and 3A4 enzymes and is a weak
    alternative therapy.
 Taking with other medications with Q–Tc prolongation or bleeding characteristics may further
    increase their respective risks. Omeprazole may increase the toxicity of escitalopram. Doses
-   may be administered with or without food.$hl_157$, 'pending-clinical-verification'),
-  ($hl_158_id$esmolol-hcl$hl_158_id$, $hl_158_name$ESMOLOL HCL$hl_158_name$, $hl_158_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_158_source$, 3575872, $hl_158$ESMOLOL HCL
+   may be administered with or without food.$hl_167$, 'pending-clinical-verification'),
+  ($hl_168_id$esmolol-hcl$hl_168_id$, $hl_168_name$ESMOLOL HCL$hl_168_name$, $hl_168_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_168_source$, 3575872, $hl_168$ESMOLOL HCL
   Brevibloc and generics
   β1-selective adrenergic blocking agent,
                                                                     C        ?      No     No     No
@@ -8208,8 +8193,8 @@ Contraindicated in sinus bradycardia, >first-degree heart block, and cardiogenic
   Use with IV cardiodepressant calcium channel antagonists (e.g., verapamil) may cause
   cardiovascular collapse.
 Administer only in a monitored setting. Concentration for administration is typically
-  ≤10 mg/mL, but 20 mg/mL has been administered in pediatric patients.$hl_158$, 'pending-clinical-verification'),
-  ($hl_159_id$esomeprazole$hl_159_id$, $hl_159_name$ESOMEPRAZOLE$hl_159_name$, $hl_159_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_159_source$, 3578059, $hl_159$ESOMEPRAZOLE
+  ≤10 mg/mL, but 20 mg/mL has been administered in pediatric patients.$hl_168$, 'pending-clinical-verification'),
+  ($hl_169_id$esomeprazole$hl_169_id$, $hl_169_name$ESOMEPRAZOLE$hl_169_name$, $hl_169_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_169_source$, 3578059, $hl_169$ESOMEPRAZOLE
   Nexium, Nexium 24HR, and generics
   Gastric acid proton pump inhibitor
                                                                      B/C      2     Yes     Yes    No
@@ -8285,8 +8270,8 @@ Pregnancy category is a “B” for the magnesium-containing product and a “C�
   strontium-containing product.
 Administer all oral doses before meals and 30 min before sucralfate (if receiving). Do not
   crush or chew capsules. IV doses may be given as fast as 3 min or infused over
-  10–30 min.$hl_159$, 'pending-clinical-verification'),
-  ($hl_160_id$etanercept$hl_160_id$, $hl_160_name$ETANERCEPT$hl_160_name$, $hl_160_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_160_source$, 3581709, $hl_160$ETANERCEPT
+  10–30 min.$hl_169$, 'pending-clinical-verification'),
+  ($hl_170_id$etanercept$hl_170_id$, $hl_170_name$ETANERCEPT$hl_170_name$, $hl_170_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_170_source$, 3581709, $hl_170$ETANERCEPT
   Enbrel, Enbrel SureClick, Enbrel Mini
   Antirheumatic, immunomodulatory agent, tumor
                                                                     B       2      Yes    Yes    No
@@ -8357,8 +8342,8 @@ Drug is administered subcutaneously by rotating injection sites (thigh, abdomen,
   from an old site and NEVER where the skin is tender, bruised, red, or hard.
 
                                                                                                   Continued
-992         Part IV       Formulary$hl_160$, 'pending-clinical-verification'),
-  ($hl_161_id$ethambutol-hcl$hl_161_id$, $hl_161_name$ETHAMBUTOL HCL$hl_161_name$, $hl_161_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_161_source$, 3586274, $hl_161$ETHAMBUTOL HCL
+992         Part IV       Formulary$hl_170$, 'pending-clinical-verification'),
+  ($hl_171_id$ethambutol-hcl$hl_171_id$, $hl_171_name$ETHAMBUTOL HCL$hl_171_name$, $hl_171_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_171_source$, 3586274, $hl_171$ETHAMBUTOL HCL
   Generics; previously available as Myambutol
   Antituberculosis drug
                                                                   C      2      Yes    Yes    No
@@ -8387,8 +8372,8 @@ May cause reversible optic neuritis, especially with larger doses. Obtain baseli
   reported.
 Dosing should be based on lean body weight. Coadministration with aluminum hydroxide can
   reduce ethambutol’s absorption; space administration by 4 hr. Give with food. Adjust dose
-  with renal failure (see Chapter 32).$hl_161$, 'pending-clinical-verification'),
-  ($hl_162_id$ethosuximide$hl_162_id$, $hl_162_name$ETHOSUXIMIDE$hl_162_name$, $hl_162_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_162_source$, 3588129, $hl_162$ETHOSUXIMIDE
+  with renal failure (see Chapter 32).$hl_171$, 'pending-clinical-verification'),
+  ($hl_172_id$ethosuximide$hl_172_id$, $hl_172_name$ETHOSUXIMIDE$hl_172_name$, $hl_172_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_172_source$, 3588129, $hl_172$ETHOSUXIMIDE
   Zarontin and generics
   Anticonvulsant
                                                                   D      2      Yes    Yes    No
@@ -8423,8 +8408,8 @@ Therapeutic levels: 40–100 mg/L. T1/2 = 24–42 hr. Recommended serum sampling
   steady state: obtain trough level within 30 min prior to the next scheduled dose after
   5–10 days of continuous dosing.
 To minimize GI distress, may administer with food or milk. Abrupt withdrawal of drug may
-  precipitate absence status.$hl_162$, 'pending-clinical-verification'),
-  ($hl_163_id$etomidate$hl_163_id$, $hl_163_name$ETOMIDATE$hl_163_name$, $hl_163_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_163_source$, 3590060, $hl_163$ETOMIDATE
+  precipitate absence status.$hl_172$, 'pending-clinical-verification'),
+  ($hl_173_id$etomidate$hl_173_id$, $hl_173_name$ETOMIDATE$hl_173_name$, $hl_173_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_173_source$, 3590060, $hl_173$ETOMIDATE
   Amidate and generics
   General anesthetic
                                                                        C       1      Yes     No     No
@@ -8441,8 +8426,8 @@ Injection site pain, myoclonus (pretreatment with midazolam may reduce risk), na
    vomiting are reported common side effects for indications other than rapid-sequence intubation.
 
 
- F$hl_163$, 'pending-clinical-verification'),
-  ($hl_164_id$famciclovir$hl_164_id$, $hl_164_name$FAMCICLOVIR$hl_164_name$, $hl_164_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_164_source$, 3591026, $hl_164$FAMCICLOVIR
+ F$hl_173$, 'pending-clinical-verification'),
+  ($hl_174_id$famciclovir$hl_174_id$, $hl_174_name$FAMCICLOVIR$hl_174_name$, $hl_174_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_174_source$, 3591026, $hl_174$FAMCICLOVIR
 
 
 
@@ -8484,8 +8469,8 @@ Safety and efficacy in suppression of recurrent genital herpes have not been est
   beyond 1 yr. No efficacy data are available for children 1–<12 yr to support its use for
   genital herpes, recurrent herpes labialis, and varicella. Furthermore, efficacy has not been
   established for recurrent herpes labialis for children 12–<18 yr. May be administered with
-  or without food.$hl_164$, 'pending-clinical-verification'),
-  ($hl_165_id$famotidine$hl_165_id$, $hl_165_name$FAMOTIDINE$hl_165_name$, $hl_165_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_165_source$, 3593424, $hl_165$FAMOTIDINE
+  or without food.$hl_174$, 'pending-clinical-verification'),
+  ($hl_175_id$famotidine$hl_175_id$, $hl_175_name$FAMOTIDINE$hl_175_name$, $hl_175_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_175_source$, 3593424, $hl_175$FAMOTIDINE
   Pepcid, Pepcid AC [OTC], Pepcid AC Maximum Strength
   [OTC], Pepcid Complete [OTC], Zantac 360 [OTC],
                                                                     B       1      Yes    No     No
@@ -8535,8 +8520,8 @@ A Q12-hr dosage interval is generally recommended; however, infants and young ch
   severe renal failure (see Chapter 32); prolonged Q–T interval has been reported very rarely
   in patients with renal impairment whose dosage had not been adjusted appropriately.
   Rhabdomyolysis has been reported.
-Shake oral suspension well prior to each use. Oral doses may be administered with or without food.$hl_165$, 'pending-clinical-verification'),
-  ($hl_166_id$felbamate$hl_166_id$, $hl_166_name$FELBAMATE$hl_166_name$, $hl_166_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_166_source$, 3595904, $hl_166$FELBAMATE
+Shake oral suspension well prior to each use. Oral doses may be administered with or without food.$hl_175$, 'pending-clinical-verification'),
+  ($hl_176_id$felbamate$hl_176_id$, $hl_176_name$FELBAMATE$hl_176_name$, $hl_176_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_176_source$, 3595904, $hl_176$FELBAMATE
   Felbatol and generics
   Anticonvulsant
                                                                    C       3      Yes    Yes     No
@@ -8583,8 +8568,8 @@ When initiating adjunctive therapy (all ages), reduce doses of other antiepilept
 Carbamazepine levels may be decreased; however, phenytoin and valproic acid levels may be
   increased. Phenytoin and carbamazepine may increase felbamate clearance; valproic acid
   may decrease its clearance.
-Doses can be administered with or without food.$hl_166$, 'pending-clinical-verification'),
-  ($hl_167_id$fentanyl$hl_167_id$, $hl_167_name$FENTANYL$hl_167_name$, $hl_167_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_167_source$, 3598814, $hl_167$FENTANYL
+Doses can be administered with or without food.$hl_176$, 'pending-clinical-verification'),
+  ($hl_177_id$fentanyl$hl_177_id$, $hl_177_name$FENTANYL$hl_177_name$, $hl_177_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_177_source$, 3598814, $hl_177$FENTANYL
   Fentora, Actiq, generics; previously available as
   Sublimaze and Duragesic
                                                                           C/D   2    Yes     No     No
@@ -8667,17 +8652,15 @@ Pregnancy category changes to “D” if drug is used for prolonged periods or i
 
 
 
-                                                                                                         For explanation of icons, see p. 814$hl_167$, 'pending-clinical-verification'),
-  ($hl_168_id$ferric-gluconate$hl_168_id$, $hl_168_name$FERRIC GLUCONATE$hl_168_name$, $hl_168_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_168_source$, 3604183, $hl_168$FERRIC GLUCONATE
+                                                                                                         For explanation of icons, see p. 814$hl_177$, 'pending-clinical-verification'),
+  ($hl_178_id$ferric-gluconate$hl_178_id$, $hl_178_name$FERRIC GLUCONATE$hl_178_name$, $hl_178_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_178_source$, 3604183, $hl_178$FERRIC GLUCONATE
 
-See Iron―Injectable Preparations$hl_168$, 'pending-clinical-verification'),
-  ($hl_169_id$ferrous-sulfate$hl_169_id$, $hl_169_name$FERROUS SULFATE$hl_169_name$, $hl_169_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_169_source$, 3604238, $hl_169$FERROUS SULFATE
+See Iron―Injectable Preparations$hl_178$, 'pending-clinical-verification'),
+  ($hl_179_id$ferrous-sulfate$hl_179_id$, $hl_179_name$FERROUS SULFATE$hl_179_name$, $hl_179_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_179_source$, 3604238, $hl_179$FERROUS SULFATE
 
 See Iron―Oral Preparations
-998         Part IV       Formulary
-
-
-  FEXOFENADINE ± PSEUDOEPHEDRINE
+998         Part IV       Formulary$hl_179$, 'pending-clinical-verification'),
+  ($hl_180_id$fexofenadine-pseudoephedrine$hl_180_id$, $hl_180_name$FEXOFENADINE ± PSEUDOEPHEDRINE$hl_180_name$, $hl_180_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_180_source$, 3604323, $hl_180$FEXOFENADINE ± PSEUDOEPHEDRINE
   Allegra [OTC], Children's Allegra Allergy [OTC], and
   generics
                                                                   C       2      Yes    No     No
@@ -8710,8 +8693,8 @@ May cause drowsiness, fatigue, headache, dyspepsia, nausea, and dysmenorrhea. Ha
   See Pseudoephedrine for additional remarks if using the combination product.
 Medication as the single agent may be administered with or without food. Do not administer
   antacids with or within 2 hr of fexofenadine dose. The extended-release combination
-  product should be swallowed whole without food.$hl_169$, 'pending-clinical-verification'),
-  ($hl_170_id$fidaxomicin$hl_170_id$, $hl_170_name$FIDAXOMICIN$hl_170_name$, $hl_170_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_170_source$, 3606447, $hl_170$FIDAXOMICIN
+  product should be swallowed whole without food.$hl_180$, 'pending-clinical-verification'),
+  ($hl_181_id$fidaxomicin$hl_181_id$, $hl_181_name$FIDAXOMICIN$hl_181_name$, $hl_181_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_181_source$, 3606447, $hl_181$FIDAXOMICIN
   Dificid
   Antibiotic, macrolide
                                                                   B       ?      No     No     No
@@ -8745,8 +8728,8 @@ Fidaxomicin and its main metabolite (OP-118) are substrates of the P-gp efflux t
    the GI tract. Use with cyclosporine, a P-gp inhibitor, may increase systemic levels of
    fidaxomicin and OP-118 without affecting the safety and efficacy for treating C. difficile in
    adult clinical trials.
-Doses may be administered with or without food.$hl_170$, 'pending-clinical-verification'),
-  ($hl_171_id$filgrastim$hl_171_id$, $hl_171_name$FILGRASTIM$hl_171_name$, $hl_171_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_171_source$, 3608311, $hl_171$FILGRASTIM
+Doses may be administered with or without food.$hl_181$, 'pending-clinical-verification'),
+  ($hl_182_id$filgrastim$hl_182_id$, $hl_182_name$FILGRASTIM$hl_182_name$, $hl_182_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_182_source$, 3608311, $hl_182$FILGRASTIM
   Neupogen, and G-CSF; biosimilar brands
   include: Granix, Nivestym, Nypozi, Releuko, Zarxio
                                                                        C        2      Yes     No     No
@@ -8794,8 +8777,8 @@ Safety and effectiveness have been established for nonmyeloid malignancies recei
   similar to adults.
 SC routes of administration are preferred because of prolonged serum levels over IV route. If
   used via IV route and G-CSF final concentration <15 mCg/mL, add 2 mg albumin/1 mL of IV
-  fluid to prevent drug adsorption to the IV administration set.$hl_171$, 'pending-clinical-verification'),
-  ($hl_172_id$fluconazole$hl_172_id$, $hl_172_name$FLUCONAZOLE$hl_172_name$, $hl_172_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_172_source$, 3611235, $hl_172$FLUCONAZOLE
+  fluid to prevent drug adsorption to the IV administration set.$hl_182$, 'pending-clinical-verification'),
+  ($hl_183_id$fluconazole$hl_183_id$, $hl_183_name$FLUCONAZOLE$hl_183_name$, $hl_183_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_183_source$, 3611235, $hl_183$FLUCONAZOLE
   Diflucan and generics
   Antifungal agent
                                                                    C/D      2     Yes    Yes     No
@@ -8865,8 +8848,8 @@ Consider using higher doses in morbidly obese patients. Adjust dose in renal fai
 Pregnancy category is “C” for single 150-mg use for vaginal candidiasis, but a Danish study
   reports a higher risk for miscarriages during weeks 7–22 of gestation. Pregnancy category
   “D” is for all other indications (high-dose use during first trimester of pregnancy may result
-  in birth defects).$hl_172$, 'pending-clinical-verification'),
-  ($hl_173_id$flucytosine$hl_173_id$, $hl_173_name$FLUCYTOSINE$hl_173_name$, $hl_173_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_173_source$, 3615496, $hl_173$FLUCYTOSINE
+  in birth defects).$hl_183$, 'pending-clinical-verification'),
+  ($hl_184_id$flucytosine$hl_184_id$, $hl_184_name$FLUCYTOSINE$hl_184_name$, $hl_184_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_184_source$, 3615496, $hl_184$FLUCYTOSINE
   Ancobon, 5-FC, 5-Fluorocytosine, and generics
   Antifungal agent
                                                                      C        3     Yes       Yes    No
@@ -8907,8 +8890,8 @@ Therapeutic levels: 25–100 mg/L. Recommended serum sampling time at steady sta
    suppression. Bone marrow suppression in immunosuppressed patients can be irreversible
    and fatal.
 Flucytosine interferes with creatinine assay tests using the dry-slide enzymatic method (Kodak
-   Ektachem analyzer). Adjust dose in renal failure (see Chapter 32).$hl_173$, 'pending-clinical-verification'),
-  ($hl_174_id$fludrocortisone-acetate$hl_174_id$, $hl_174_name$FLUDROCORTISONE ACETATE$hl_174_name$, $hl_174_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_174_source$, 3617502, $hl_174$FLUDROCORTISONE ACETATE
+   Ektachem analyzer). Adjust dose in renal failure (see Chapter 32).$hl_184$, 'pending-clinical-verification'),
+  ($hl_185_id$fludrocortisone-acetate$hl_185_id$, $hl_185_name$FLUDROCORTISONE ACETATE$hl_185_name$, $hl_185_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_185_source$, 3617502, $hl_185$FLUDROCORTISONE ACETATE
   Generics; 9-fluorohydrocortisone; previously available
   as Florinef
                                                                     C       3      Yes    No     No
@@ -8927,8 +8910,8 @@ Monitor BP and serum electrolytes. See Chapter 10 for steroid potency comparison
 Drug interactions: Drug’s hypokalemic effects may induce digoxin toxicity; phenytoin and
   rifampin may increase fludrocortisone metabolism.
 Doses 0.2–2 mg/24 hr have been used in the management of severe orthostatic hypotension
-  in adults. Use a gradual dosage taper when discontinuing therapy.$hl_174$, 'pending-clinical-verification'),
-  ($hl_175_id$flumazenil$hl_175_id$, $hl_175_name$FLUMAZENIL$hl_175_name$, $hl_175_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_175_source$, 3618565, $hl_175$FLUMAZENIL
+  in adults. Use a gradual dosage taper when discontinuing therapy.$hl_185$, 'pending-clinical-verification'),
+  ($hl_186_id$flumazenil$hl_186_id$, $hl_186_name$FLUMAZENIL$hl_186_name$, $hl_186_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_186_source$, 3618565, $hl_186$FLUMAZENIL
   Generics; previously available as Romazicon
   Benzodiazepine antidote
                                                                     C       ?      No     Yes    No
@@ -8966,8 +8949,8 @@ May precipitate seizures, especially in patients taking benzodiazepines for seiz
   history of panic disorders have been reported.
 Use with caution in liver dysfunction; flumazenil’s clearance is significantly reduced. Use
   normal dose for initial dose and decrease the dosage and frequency for subsequent doses.
-See Chapter 3 for complete management of suspected ingestions$hl_175$, 'pending-clinical-verification'),
-  ($hl_176_id$flunisolide$hl_176_id$, $hl_176_name$FLUNISOLIDE$hl_176_name$, $hl_176_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_176_source$, 3621189, $hl_176$FLUNISOLIDE
+See Chapter 3 for complete management of suspected ingestions$hl_186$, 'pending-clinical-verification'),
+  ($hl_187_id$flunisolide$hl_187_id$, $hl_187_name$FLUNISOLIDE$hl_187_name$, $hl_187_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_187_source$, 3621189, $hl_187$FLUNISOLIDE
   Generics; previously available as Nasarel or Nasalide
   Corticosteroid
                                                                       C       1      No       No     No
@@ -8993,8 +8976,8 @@ Nasal burning and stinging is common. Nasal congestion, sneezing, epistaxis, wat
   growth velocity. Nasal septal perforations have been reported. Flunisolide is a minor
   substrate of cytochrome P-450 3A4.
 Shake nasal solution well before use and clear nasal passages before use. Priming of the nasal
-  spray is recommended when using a new bottle or if the bottle has not been used for ≥5 days.$hl_176$, 'pending-clinical-verification'),
-  ($hl_177_id$fluoride$hl_177_id$, $hl_177_name$FLUORIDE$hl_177_name$, $hl_177_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_177_source$, 3622698, $hl_177$FLUORIDE
+  spray is recommended when using a new bottle or if the bottle has not been used for ≥5 days.$hl_187$, 'pending-clinical-verification'),
+  ($hl_188_id$fluoride$hl_188_id$, $hl_188_name$FLUORIDE$hl_188_name$, $hl_188_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_188_source$, 3622698, $hl_188$FLUORIDE
   Fluoritab, many others, and generics
   Mineral
                                                                       B       2      No       No     No
@@ -9024,8 +9007,8 @@ Contraindicated in areas where drinking water fluoridation is >0.7 ppm. Acute ov
   distress, salivation, CNS irritability, tetany, seizures, hypocalcemia, hypoglycemia, and
   cardiorespiratory failure. Chronic excess use may result in mottled teeth or bone changes.
 Take with food, but not milk, to minimize GI upset. The doses have been decreased owing to
-  concerns over dental fluorosis.$hl_177$, 'pending-clinical-verification'),
-  ($hl_178_id$fluoxetine-hydrochloride$hl_178_id$, $hl_178_name$FLUOXETINE HYDROCHLORIDE$hl_178_name$, $hl_178_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_178_source$, 3624276, $hl_178$FLUOXETINE HYDROCHLORIDE
+  concerns over dental fluorosis.$hl_188$, 'pending-clinical-verification'),
+  ($hl_189_id$fluoxetine-hydrochloride$hl_189_id$, $hl_189_name$FLUOXETINE HYDROCHLORIDE$hl_189_name$, $hl_189_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_189_source$, 3624276, $hl_189$FLUOXETINE HYDROCHLORIDE
   Prozac and generics
   Antidepressant, selective serotonin reuptake inhibitor
                                                                    C       X     Yes    Yes      No
@@ -9084,8 +9067,8 @@ Breastfeeding is not recommended by the manufacturer, as adverse events to nursi
   infants have been reported. Fluoxetine and metabolite are variable and are higher when
   compared with other SSRIs. Maternal use of SSRIs during pregnancy and postpartum may
   result in more difficult breastfeeding. Infants exposed to SSRIs during pregnancy may also
-  have an increased risk for persistent pulmonary hypertension of the newborn.$hl_178$, 'pending-clinical-verification'),
-  ($hl_179_id$fluticasone-furoate-vilanterol$hl_179_id$, $hl_179_name$FLUTICASONE FUROATE + VILANTEROL$hl_179_name$, $hl_179_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_179_source$, 3628242, $hl_179$FLUTICASONE FUROATE + VILANTEROL
+  have an increased risk for persistent pulmonary hypertension of the newborn.$hl_189$, 'pending-clinical-verification'),
+  ($hl_190_id$fluticasone-furoate-vilanterol$hl_190_id$, $hl_190_name$FLUTICASONE FUROATE + VILANTEROL$hl_190_name$, $hl_190_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_190_source$, 3628242, $hl_190$FLUTICASONE FUROATE + VILANTEROL
   Breo Ellipta and generics
   Corticosteroid and long-acting β2-adrenergic agonist
                                                                      C        2     No       Yes    No
@@ -9123,8 +9106,8 @@ Titrate to the lowest effective strength after asthma is adequately controlled. 
    form’s breath-activated device requires a minimum inspiratory flow rate of 60 L/min for
    proper dose activation. Proper patient education, including dosage administration
    technique, is essential; see patient package insert for detailed instructions. Rinse mouth
-   after each use.$hl_179$, 'pending-clinical-verification'),
-  ($hl_180_id$fluticasone-preparations$hl_180_id$, $hl_180_name$FLUTICASONE PREPARATIONS$hl_180_name$, $hl_180_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_180_source$, 3630512, $hl_180$FLUTICASONE PREPARATIONS
+   after each use.$hl_190$, 'pending-clinical-verification'),
+  ($hl_191_id$fluticasone-preparations$hl_191_id$, $hl_191_name$FLUTICASONE PREPARATIONS$hl_191_name$, $hl_191_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_191_source$, 3630512, $hl_191$FLUTICASONE PREPARATIONS
   Fluticasone propionate: Flonase and generics;
   previously available as Flovent Diskus, Flovent HFA, and
                                                                      C       2      No     Yes     No
@@ -9261,8 +9244,8 @@ Rinse mouth after each use. May cause dysphonia, oral thrush, and dermatitis. Es
 TOPICAL USE: Irritation, folliculitis, acneiform eruptions, hypopigmentation, perioral
    dermatitis, allergic contact dermatitis, secondary infection, skin atrophy, striae,
    hypertrichosis, miliaria, cataracts, and glaucoma have been reported. Avoid contact of
-   topical dosage forms with the eyes.$hl_180$, 'pending-clinical-verification'),
-  ($hl_181_id$fluticasone-propionate-and-salmeterol$hl_181_id$, $hl_181_name$FLUTICASONE PROPIONATE AND SALMETEROL$hl_181_name$, $hl_181_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_181_source$, 3639005, $hl_181$FLUTICASONE PROPIONATE AND SALMETEROL
+   topical dosage forms with the eyes.$hl_191$, 'pending-clinical-verification'),
+  ($hl_192_id$fluticasone-propionate-and-salmeterol$hl_192_id$, $hl_192_name$FLUTICASONE PROPIONATE AND SALMETEROL$hl_192_name$, $hl_192_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_192_source$, 3639005, $hl_192$FLUTICASONE PROPIONATE AND SALMETEROL
   Advair Diskus, Advair HFA, AirDuo RespiClick,
   and generics
                                                                       C       2      No      Yes    No
@@ -9388,8 +9371,8 @@ Proper patient education, including dosage administration technique, is essentia
 
 
 
-                                                                                                            FORMULARY$hl_181$, 'pending-clinical-verification'),
-  ($hl_182_id$fluvoxamine$hl_182_id$, $hl_182_name$FLUVOXAMINE$hl_182_name$, $hl_182_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_182_source$, 3647091, $hl_182$FLUVOXAMINE
+                                                                                                            FORMULARY$hl_192$, 'pending-clinical-verification'),
+  ($hl_193_id$fluvoxamine$hl_193_id$, $hl_193_name$FLUVOXAMINE$hl_193_name$, $hl_193_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_193_source$, 3647091, $hl_193$FLUVOXAMINE
   Generics; previously available as Luvox and Luvox CR
   Antidepressant, selective serotonin reuptake
                                                                     C       2      No        Yes   Yes
@@ -9436,8 +9419,8 @@ Inhibits CYP1A2, 2C19, 2C9, 2D6, and 3A3/3A4, which may increase the effects or 
 Titrate to lowest effective dose. Use a gradual taper when discontinuing therapy to prevent
    withdrawal symptoms.
 Consider the benefits vs. potential risk for maternal use in breastfeeding. Maternal use during
-   pregnancy and postpartum may result in breastfeeding difficulties.$hl_182$, 'pending-clinical-verification'),
-  ($hl_183_id$folic-acid$hl_183_id$, $hl_183_name$FOLIC ACID$hl_183_name$, $hl_183_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_183_source$, 3650217, $hl_183$FOLIC ACID
+   pregnancy and postpartum may result in breastfeeding difficulties.$hl_193$, 'pending-clinical-verification'),
+  ($hl_194_id$folic-acid$hl_194_id$, $hl_194_name$FOLIC ACID$hl_194_name$, $hl_194_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_194_source$, 3650217, $hl_194$FOLIC ACID
   FA-8 and many generics; previously available as Folvite
   Water-soluble vitamin
                                                                     A/C      1      No       No     No
@@ -9466,8 +9449,8 @@ Normal levels: See Chapter 29. May mask hematologic effects of vitamin B12 defic
   the absorption of phenytoin.
 Women of childbearing age considering pregnancy should take at least 0.4 mg once daily
   before and during pregnancy to reduce risk of neural tube defects in the fetus. Pregnancy
-  category changes to “C” if used in doses above the RDA.$hl_183$, 'pending-clinical-verification'),
-  ($hl_184_id$fomepizole$hl_184_id$, $hl_184_name$FOMEPIZOLE$hl_184_name$, $hl_184_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_184_source$, 3651502, $hl_184$FOMEPIZOLE
+  category changes to “C” if used in doses above the RDA.$hl_194$, 'pending-clinical-verification'),
+  ($hl_195_id$fomepizole$hl_195_id$, $hl_195_name$FOMEPIZOLE$hl_195_name$, $hl_195_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_195_source$, 3651502, $hl_195$FOMEPIZOLE
   Generics; previously available as Antizol
   Antidote for ethylene glycol or methanol toxicity
                                                                    C       ?      Yes    No     No
@@ -9507,8 +9490,8 @@ Works by competitively inhibiting alcohol dehydrogenase. Safety and efficacy in 
 Drug product may solidify at temperatures <25◦ C (77◦ F); vial can be liquefied by holding it
   under running warm water (efficacy, safety, and stability are not affected). All doses must be
   diluted with at least 100 mL of D5W or NS to prevent vein irritation. DO NOT use polycarbonate
-  syringe or polycarbonate-containing needles when diluting or administering this medication.$hl_184$, 'pending-clinical-verification'),
-  ($hl_185_id$foscarnet$hl_185_id$, $hl_185_name$FOSCARNET$hl_185_name$, $hl_185_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_185_source$, 3654047, $hl_185$FOSCARNET
+  syringe or polycarbonate-containing needles when diluting or administering this medication.$hl_195$, 'pending-clinical-verification'),
+  ($hl_196_id$foscarnet$hl_196_id$, $hl_196_name$FOSCARNET$hl_196_name$, $hl_196_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_196_source$, 3654047, $hl_196$FOSCARNET
   Foscavir and generics
   Antiviral agent
                                                                      C        3     Yes       No    No
@@ -9570,8 +9553,8 @@ Correction of dehydration and adequate hydration reduces the risk for nephrotoxi
   need to be reduced when clinically indicated. Oral hydration methods may also be
   considered in patients who are able to tolerate.
 For peripheral line IV administration, the concentration must be diluted to 12 mg/mL in NS
-  or D5W.$hl_185$, 'pending-clinical-verification'),
-  ($hl_186_id$fosphenytoin$hl_186_id$, $hl_186_name$FOSPHENYTOIN$hl_186_name$, $hl_186_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_186_source$, 3657437, $hl_186$FOSPHENYTOIN
+  or D5W.$hl_196$, 'pending-clinical-verification'),
+  ($hl_197_id$fosphenytoin$hl_197_id$, $hl_197_name$FOSPHENYTOIN$hl_197_name$, $hl_197_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_197_source$, 3657437, $hl_197$FOSPHENYTOIN
   Cerebyx and generics
   Anticonvulsant
                                                                     D       2      Yes    Yes     Yes
@@ -9615,8 +9598,8 @@ Therapeutic levels: 10–20 mg/L (free and bound phenytoin) OR 1–2 mg/L (free 
   Recommended peak serum sampling times: 4 hr following an IM dose or 2 hr following an
   IV dose.
 See Phenytoin remarks for drug interactions and additional side effects. Drug is more safely
-  administered via peripheral IV than phenytoin.$hl_186$, 'pending-clinical-verification'),
-  ($hl_187_id$furosemide$hl_187_id$, $hl_187_name$FUROSEMIDE$hl_187_name$, $hl_187_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_187_source$, 3660372, $hl_187$FUROSEMIDE
+  administered via peripheral IV than phenytoin.$hl_197$, 'pending-clinical-verification'),
+  ($hl_198_id$furosemide$hl_198_id$, $hl_198_name$FUROSEMIDE$hl_198_name$, $hl_198_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_198_source$, 3660372, $hl_198$FUROSEMIDE
   Lasix and generics
   Loop diuretic
                                                                      C/D      3     Yes       Yes    No
@@ -9678,8 +9661,8 @@ Max. rate of intermittent IV dose: 0.5 mg/kg/min. For patients receiving ECMO, d
   circuit, which may result in diminished effects and the need for higher doses.
 Pregnancy category changes to “D” if used in pregnancy-induced hypertension.
 
- G$hl_187$, 'pending-clinical-verification'),
-  ($hl_188_id$gabapentin$hl_188_id$, $hl_188_name$GABAPENTIN$hl_188_name$, $hl_188_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_188_source$, 3663767, $hl_188$GABAPENTIN
+ G$hl_198$, 'pending-clinical-verification'),
+  ($hl_199_id$gabapentin$hl_199_id$, $hl_199_name$GABAPENTIN$hl_199_name$, $hl_199_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_199_source$, 3663767, $hl_199$GABAPENTIN
   Neurontin, Gralise, Gabarone, and generics
   Anticonvulsant
                                                                      C        2     Yes     No     No
@@ -9743,8 +9726,8 @@ Do not withdraw medication abruptly (withdraw gradually over a minimum of 1 wk).
   doses (~30% more) may be required for children <5 yr because of faster clearance in this
   age group.
 May be taken with or without food. In TID dosing schedule, interval between doses should not
-  exceed 12 hr. Adjust dose in renal impairment (see Chapter 32).$hl_188$, 'pending-clinical-verification'),
-  ($hl_189_id$ganciclovir$hl_189_id$, $hl_189_name$GANCICLOVIR$hl_189_name$, $hl_189_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_189_source$, 3667848, $hl_189$GANCICLOVIR
+  exceed 12 hr. Adjust dose in renal impairment (see Chapter 32).$hl_199$, 'pending-clinical-verification'),
+  ($hl_200_id$ganciclovir$hl_200_id$, $hl_200_name$GANCICLOVIR$hl_200_name$, $hl_200_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_200_source$, 3667848, $hl_200$GANCICLOVIR
   Generics, Zirgan; previously available as Cytovene
   Antiviral agent
                                                                     C       3      Yes       No    No
@@ -9792,8 +9775,8 @@ Common side effects: Neutropenia, thrombocytopenia, retinal detachment, and conf
   Amphotericin B, cyclosporine, and tacrolimus increase risk for nephrotoxicity. Imipenem/
   cilastatin may increase risk for seizures. May cause female and male infertility.
 Minimum dilution is 10 mg/mL and should be infused IV over ≥1 hr. IM and SC
-  administration are contraindicated because of high pH of 11.$hl_189$, 'pending-clinical-verification'),
-  ($hl_190_id$gatifloxacin$hl_190_id$, $hl_190_name$GATIFLOXACIN$hl_190_name$, $hl_190_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_190_source$, 3670667, $hl_190$GATIFLOXACIN
+  administration are contraindicated because of high pH of 11.$hl_200$, 'pending-clinical-verification'),
+  ($hl_201_id$gatifloxacin$hl_201_id$, $hl_201_name$GATIFLOXACIN$hl_201_name$, $hl_201_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_201_source$, 3670667, $hl_201$GATIFLOXACIN
   Zymaxid and generics
   Antibiotic, quinolone
                                                                      C        2     No      No     No
@@ -9807,11 +9790,11 @@ Worsening of conjunctivitis, decreased visual acuity, excessive tear production,
   are common side effects. Conjunctival hemorrhage has been reported.
 Avoid touching the applicator tip to eye, fingers, or other surfaces, and do not wear contact
   lenses during treatment of ocular infections. Apply pressure to the lacrimal sac during and
-  for 1–2 min after dose administration to reduce risk of systemic absorption.$hl_190$, 'pending-clinical-verification'),
-  ($hl_191_id$gcsf$hl_191_id$, $hl_191_name$GCSF$hl_191_name$, $hl_191_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_191_source$, 3671567, $hl_191$GCSF
+  for 1–2 min after dose administration to reduce risk of systemic absorption.$hl_201$, 'pending-clinical-verification'),
+  ($hl_202_id$gcsf$hl_202_id$, $hl_202_name$GCSF$hl_202_name$, $hl_202_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_202_source$, 3671567, $hl_202$GCSF
 
-See Filgrastim$hl_191$, 'pending-clinical-verification'),
-  ($hl_192_id$gentamicin$hl_192_id$, $hl_192_name$GENTAMICIN$hl_192_name$, $hl_192_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_192_source$, 3671592, $hl_192$GENTAMICIN
+See Filgrastim$hl_202$, 'pending-clinical-verification'),
+  ($hl_203_id$gentamicin$hl_203_id$, $hl_203_name$GENTAMICIN$hl_203_name$, $hl_203_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_203_source$, 3671592, $hl_203$GENTAMICIN
   Generics; previously available as Garamycin and Gentak
   Antibiotic, aminoglycoside
                                                                      C/D      2     Yes     No     No
@@ -9881,8 +9864,8 @@ For initial dosing in obese patients, use an adjusted body weight (ABW). ABW = I
   Weight + 0.4 (Total Body Weight ∼ Ideal Body Weight)
 Pregnancy category is a “C” for ophthalmic use, a “D” with IV use, and not classified for
   topical use.
-1020          Part IV      Formulary$hl_192$, 'pending-clinical-verification'),
-  ($hl_193_id$glucagon-hcl$hl_193_id$, $hl_193_name$GLUCAGON HCL$hl_193_name$, $hl_193_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_193_source$, 3675586, $hl_193$GLUCAGON HCL
+1020          Part IV      Formulary$hl_203$, 'pending-clinical-verification'),
+  ($hl_204_id$glucagon-hcl$hl_204_id$, $hl_204_name$GLUCAGON HCL$hl_204_name$, $hl_204_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_204_source$, 3675586, $hl_204$GLUCAGON HCL
   Gvoke, Baqsimi, and generics
   Antihypoglycemic agent
                                                                     B       1      No     No       No
@@ -9937,8 +9920,8 @@ GLUCAGON HCL continued
 
                                                                                                                 FORMULARY
 11–15 min, and peak plasma levels were achieved in 15–20 min with a median T1/2 of 21–31
-min.$hl_193$, 'pending-clinical-verification'),
-  ($hl_194_id$glycerin$hl_194_id$, $hl_194_name$GLYCERIN$hl_194_name$, $hl_194_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_194_source$, 3679054, $hl_194$GLYCERIN
+min.$hl_204$, 'pending-clinical-verification'),
+  ($hl_205_id$glycerin$hl_205_id$, $hl_205_name$GLYCERIN$hl_205_name$, $hl_205_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_205_source$, 3679054, $hl_205$GLYCERIN
   Pedia-Lax, Fleet Liquid Glycerin Supp, and others,
   including generics
                                                                       C       1      No        No     No
@@ -9961,8 +9944,8 @@ Constipation:
   >6 yr–adult: 5–15 mL rectal solution PR as an enema or 1 adult suppository PR once daily
     PRN
 Onset of action: 15–30 min. May cause rectal irritation, abdominal pain, bloating, and
-  dizziness. Insert suppository high into rectum and retain for 15 min.$hl_194$, 'pending-clinical-verification'),
-  ($hl_195_id$glycopyrrolate$hl_195_id$, $hl_195_name$GLYCOPYRROLATE$hl_195_name$, $hl_195_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_195_source$, 3680124, $hl_195$GLYCOPYRROLATE
+  dizziness. Insert suppository high into rectum and retain for 15 min.$hl_205$, 'pending-clinical-verification'),
+  ($hl_206_id$glycopyrrolate$hl_206_id$, $hl_206_name$GLYCOPYRROLATE$hl_206_name$, $hl_206_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_206_source$, 3680124, $hl_206$GLYCOPYRROLATE
   Glycate, Glyrx-PF, Cuvposa, and generics; previously
   available as Robinul
                                                                       B/C     3      Yes       Yes    No
@@ -10003,8 +9986,8 @@ Onset of action: PO: within 1 hr; IM/SC: 15–30 min; IV: 1 min. Duration of ant
   effect: PO: 8–12 hr; IM/SC/IV: 7 hr. Oral doses should be administered 1 hr before and 2 hr
   after meals.
 Pregnancy category is “B” for the injection and tablet dosage forms and “C” for the oral
-  solution.$hl_195$, 'pending-clinical-verification'),
-  ($hl_196_id$granisetron$hl_196_id$, $hl_196_name$GRANISETRON$hl_196_name$, $hl_196_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_196_source$, 3682195, $hl_196$GRANISETRON
+  solution.$hl_206$, 'pending-clinical-verification'),
+  ($hl_207_id$granisetron$hl_207_id$, $hl_207_name$GRANISETRON$hl_207_name$, $hl_207_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_207_source$, 3682195, $hl_207$GRANISETRON
   Sancuso, Sustol, and generics; previously available as
   Kytril
                                                                     B       ?      No     Yes    No
@@ -10064,8 +10047,8 @@ Avoid external heat sources (e.g., heating pads) on and around the transdermal p
   phototoxic skin reactions. The subcutaneous dosage form is not recommended for children
   <12 yr, because this dosage form requires a large 18-gauge needle and lengthy time (20–
   30 seconds) for subcutaneous dose administration.
-Onset of action: IV: 4–10 min. Duration of action: IV: ≤24 hr.$hl_196$, 'pending-clinical-verification'),
-  ($hl_197_id$griseofulvin$hl_197_id$, $hl_197_name$GRISEOFULVIN$hl_197_name$, $hl_197_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_197_source$, 3686018, $hl_197$GRISEOFULVIN
+Onset of action: IV: 4–10 min. Duration of action: IV: ≤24 hr.$hl_207$, 'pending-clinical-verification'),
+  ($hl_208_id$griseofulvin$hl_208_id$, $hl_208_name$GRISEOFULVIN$hl_208_name$, $hl_208_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_208_source$, 3686018, $hl_208$GRISEOFULVIN
   Microsize: Generics; previously available as Grifulvin V,
   Griseofulvin Microsize
                                                                    X       3      No       Yes    No
@@ -10108,8 +10091,8 @@ GRISEOFULVIN continued
   for tinea unguium. Photosensitivity reactions may occur. May reduce effectiveness or
   decrease level of oral contraceptives, warfarin, and cyclosporine. Induces cytochrome P-450
   1A2 isoenzyme. Phenobarbital may enhance clearance of griseofulvin. Coadministration
-  with fatty meals will increase the drug’s absorption.$hl_197$, 'pending-clinical-verification'),
-  ($hl_198_id$guanfacine$hl_198_id$, $hl_198_name$GUANFACINE$hl_198_name$, $hl_198_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_198_source$, 3687979, $hl_198$GUANFACINE
+  with fatty meals will increase the drug’s absorption.$hl_208$, 'pending-clinical-verification'),
+  ($hl_209_id$guanfacine$hl_209_id$, $hl_209_name$GUANFACINE$hl_209_name$, $hl_209_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_209_source$, 3687979, $hl_209$GUANFACINE
   Intuniv and generics
   α2-adrenergic agonist
                                                                      B       3      Yes     Yes      No
@@ -10165,8 +10148,8 @@ Do not abruptly discontinue therapy (may cause rebound hypertension); taper of n
   pharmacokinetic profiles) but discontinue the immediate-release tab and titrate with the
   extended-release product using the recommended dosing schedules.
 
- H$hl_198$, 'pending-clinical-verification'),
-  ($hl_199_id$haloperidol$hl_199_id$, $hl_199_name$HALOPERIDOL$hl_199_name$, $hl_199_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_199_source$, 3691627, $hl_199$HALOPERIDOL
+ H$hl_209$, 'pending-clinical-verification'),
+  ($hl_210_id$haloperidol$hl_210_id$, $hl_210_name$HALOPERIDOL$hl_210_name$, $hl_210_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_210_source$, 3691627, $hl_210$HALOPERIDOL
   Generics; previously available as Haldol and Haldol
   Decanoate
                                                                   C       3      Yes       Yes   Yes
@@ -10222,10 +10205,8 @@ Drug is metabolized by cytochrome P-450 (CYP) 1A2, 2D6, and 3A3/3A4 isoenzymes. 
 For poor metabolizers of CYP2D6, consider a 50% reduction of initial dose and titrate to
   response OR use an alternative medication not metabolized by this enzyme system.
 Acutely aggravated patients may require doses as often as Q60 min. Decanoate salt is given
-  every 3–4 wk in doses that are 10–15 times the individual patient’s stabilized oral dose.
-
-
-    HEPARIN SODIUM
+  every 3–4 wk in doses that are 10–15 times the individual patient’s stabilized oral dose.$hl_210$, 'pending-clinical-verification'),
+  ($hl_211_id$heparin-sodium$hl_211_id$, $hl_211_name$HEPARIN SODIUM$hl_211_name$, $hl_211_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_211_source$, 3694919, $hl_211$HEPARIN SODIUM
     Various generics
     Anticoagulant
                                                                              C         1       No      Yes       No
@@ -10294,8 +10275,8 @@ Use preservative-free heparin in neonates. Note: Heparin flush doses may alter a
 Use actual body weight when dosing obese patients. Due to recent regulatory changes to the
   manufacturing process, heparin products may exhibit decreased potency.
 Antidote: Protamine sulfate (1 mg/100 U heparin in previous 4 hr). For low-molecular-weight
-  heparin (LMWH), see Enoxaparin.$hl_199$, 'pending-clinical-verification'),
-  ($hl_200_id$hyaluronidase$hl_200_id$, $hl_200_name$HYALURONIDASE$hl_200_name$, $hl_200_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_200_source$, 3699316, $hl_200$HYALURONIDASE
+  heparin (LMWH), see Enoxaparin.$hl_211$, 'pending-clinical-verification'),
+  ($hl_212_id$hyaluronidase$hl_212_id$, $hl_212_name$HYALURONIDASE$hl_212_name$, $hl_212_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_212_source$, 3699316, $hl_212$HYALURONIDASE
   Amphadase, Hylenex, and Vitrase
   Antidote, extravasation
                                                                      C        ?     No       No     No
@@ -10330,8 +10311,8 @@ HYALURONIDASE continued
 the effects of hyaluronidase (larger doses may be necessary). Administer as early as possible
 (minutes to 1 hr) after IV extravasation.
 Hylenex product is chemically incompatible with sodium metabisulfite, furosemide,
-  benzodiazepines, and phenytoin.$hl_200$, 'pending-clinical-verification'),
-  ($hl_201_id$hydralazine-hydrochloride$hl_201_id$, $hl_201_name$HYDRALAZINE HYDROCHLORIDE$hl_201_name$, $hl_201_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_201_source$, 3701032, $hl_201$HYDRALAZINE HYDROCHLORIDE
+  benzodiazepines, and phenytoin.$hl_212$, 'pending-clinical-verification'),
+  ($hl_213_id$hydralazine-hydrochloride$hl_213_id$, $hl_213_name$HYDRALAZINE HYDROCHLORIDE$hl_213_name$, $hl_213_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_213_source$, 3701032, $hl_213$HYDRALAZINE HYDROCHLORIDE
   Generics; previously available as Apresoline
   Antihypertensive, vasodilator
                                                                    C       1      Yes    No      Yes
@@ -10357,8 +10338,8 @@ Use with caution in severe renal and cardiac disease. Slow acetylators, patients
   headaches, and GI discomfort. MAO inhibitors and β-blockers may increase hypotensive
   effects. Indomethacin may decrease hypotensive effects.
 Drug undergoes first-pass metabolism. Onset of action: PO: 20–30 min; IV: 5–20 min.
-  Duration of action: PO: 2–4 hr; IV: 2–6 hr. Adjust dose in renal failure (see Chapter 32).$hl_201$, 'pending-clinical-verification'),
-  ($hl_202_id$hydrochlorothiazide$hl_202_id$, $hl_202_name$HYDROCHLOROTHIAZIDE$hl_202_name$, $hl_202_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_202_source$, 3702679, $hl_202$HYDROCHLOROTHIAZIDE
+  Duration of action: PO: 2–4 hr; IV: 2–6 hr. Adjust dose in renal failure (see Chapter 32).$hl_213$, 'pending-clinical-verification'),
+  ($hl_214_id$hydrochlorothiazide$hl_214_id$, $hl_214_name$HYDROCHLOROTHIAZIDE$hl_214_name$, $hl_214_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_214_source$, 3702679, $hl_214$HYDROCHLOROTHIAZIDE
   Generics; previously available as HydroDiuril and
   Microzide
                                                                     B/D     2      Yes    No     No
@@ -10391,8 +10372,8 @@ See Chlorothiazide. May cause fluid and electrolyte imbalances and hyperuricemia
 Hydrochlorothiazide is also available in combination with potassium-sparing diuretics (e.g.,
   spironolactone), ACE inhibitors, angiotensin II receptor antagonists, hydralazine,
   methyldopa, reserpine, and β-blockers.
-Pregnancy category is “D” if used in pregnancy-induced hypertension.$hl_202$, 'pending-clinical-verification'),
-  ($hl_203_id$hydrocortisone$hl_203_id$, $hl_203_name$HYDROCORTISONE$hl_203_name$, $hl_203_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_203_source$, 3704377, $hl_203$HYDROCORTISONE
+Pregnancy category is “D” if used in pregnancy-induced hypertension.$hl_214$, 'pending-clinical-verification'),
+  ($hl_215_id$hydrocortisone$hl_215_id$, $hl_215_name$HYDROCORTISONE$hl_215_name$, $hl_215_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_215_source$, 3704377, $hl_215$HYDROCORTISONE
   Systemic dosage forms: Solu-Cortef, Cortef, Alkindi
   Sprinkle, and generics
                                                                   C       2      No       No    No
@@ -10462,8 +10443,8 @@ Alkindi sprinkle product: Administered by sprinkling the capsule’s contents di
   may occur when converting to Alkindi sprinkle from other manipulated oral formulations
   (e.g., split or crushed tabs, compounded formulations).
 For potency comparisons of topical preparations, see Chapter 8. For doses based on body
-  surface area, see Chapter 10.$hl_203$, 'pending-clinical-verification'),
-  ($hl_204_id$hydromorphone-hcl$hl_204_id$, $hl_204_name$HYDROMORPHONE HCL$hl_204_name$, $hl_204_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_204_source$, 3707603, $hl_204$HYDROMORPHONE HCL
+  surface area, see Chapter 10.$hl_215$, 'pending-clinical-verification'),
+  ($hl_216_id$hydromorphone-hcl$hl_216_id$, $hl_216_name$HYDROMORPHONE HCL$hl_216_name$, $hl_216_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_216_source$, 3707603, $hl_216$HYDROMORPHONE HCL
   Dilaudid and generics
   Narcotic, analgesic
                                                                    C/D     3      Yes    Yes    No
@@ -10502,8 +10483,8 @@ Refer to Chapter 6 for equianalgesic doses and for patient-controlled analgesia 
   Pregnancy category changes to “D” if used for prolonged periods or in high doses at term.
 The FDA has assigned a Risk Evaluation and Mitigation Strategy (REMS) for this medication,
   which involves an education program for provision of safety information. See www.
-  opioidanalgesicrems.com$hl_204$, 'pending-clinical-verification'),
-  ($hl_205_id$hydroxychloroquine-sulfate$hl_205_id$, $hl_205_name$HYDROXYCHLOROQUINE SULFATE$hl_205_name$, $hl_205_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_205_source$, 3709629, $hl_205$HYDROXYCHLOROQUINE SULFATE
+  opioidanalgesicrems.com$hl_216$, 'pending-clinical-verification'),
+  ($hl_217_id$hydroxychloroquine-sulfate$hl_217_id$, $hl_217_name$HYDROXYCHLOROQUINE SULFATE$hl_217_name$, $hl_217_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_217_source$, 3709629, $hl_217$HYDROXYCHLOROQUINE SULFATE
   Plaquenil, Sovuna, and generics
   Antimalarial, antirheumatic agent
                                                                     ?       2      Yes    Yes     No
@@ -10550,9 +10531,8 @@ Use with aurothioglucose may increase risk for blood dyscrasias. When used in co
   other immunosuppressive agents for SLE and JRA, lower doses of hydroxychloroquine can be used.
 Pregnancy category has not been formally assigned by the FDA. The only situation in which use
   is recommended during pregnancy is during the suppression or treatment of malaria, when
-  the benefits outweigh the risks.
-
-     HYDROXYZINE
+  the benefits outweigh the risks.$hl_217$, 'pending-clinical-verification'),
+  ($hl_218_id$hydroxyzine$hl_218_id$, $hl_218_name$HYDROXYZINE$hl_218_name$, $hl_218_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_218_source$, 3712503, $hl_218$HYDROXYZINE
      Generics; previously available as Vistaril
      Antihistamine, anxiolytic, antiemetic
                                                                      C        3     No      Yes    No
@@ -10586,9 +10566,8 @@ Increase dosage interval to Q24 hr or longer in the presence of liver disease (e
    biliary cirrhosis).
 Onset of action within 15–30 min. Duration of action: 4–6 hr. IV administration is NOT recommended.
 
- I
-
-     IBUPROFEN
+ I$hl_218$, 'pending-clinical-verification'),
+  ($hl_219_id$ibuprofen$hl_219_id$, $hl_219_name$IBUPROFEN$hl_219_name$, $hl_219_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_219_source$, 3714277, $hl_219$IBUPROFEN
      PO: Motrin, Advil, Children’s Advil, Children’s Motrin,
      Infant's Ibuprofen, Motrin Infants' Drops, and generics
                                                                      C/X      1     Yes     Yes    No
@@ -10676,8 +10655,8 @@ IV USE for PDA: Contraindicated in untreated infections, congenital heart diseas
    indicated for IVH prophylaxis. Renal side effects are generally less frequent and severe
    when compared with IV indomethacin. NEC, GI perforation, and pulmonary hypertension
    have been reported. NeoProfen doses must be administered within 30 min of preparation
-   and infused intravenously over 15 min.$hl_205$, 'pending-clinical-verification'),
-  ($hl_206_id$iloprost$hl_206_id$, $hl_206_name$ILOPROST$hl_206_name$, $hl_206_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_206_source$, 3719595, $hl_206$ILOPROST
+   and infused intravenously over 15 min.$hl_219$, 'pending-clinical-verification'),
+  ($hl_220_id$iloprost$hl_220_id$, $hl_220_name$ILOPROST$hl_220_name$, $hl_220_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_220_source$, 3719595, $hl_220$ILOPROST
   Ventavis, Aurlumyn, synthetic PGI2
   Prostaglandin I2, vasodilator
                                                                      C        ?     Yes     Yes    No
@@ -10696,8 +10675,8 @@ Headache, nausea, cough, flulike symptoms, and flushing are common side effects.
   Bronchospasm, hypotension, and AKI have been reported. May increase the effects/toxicity
   of anticoagulants and antiplatelet, antihypertensive, and vasodilating medications.
 Administer by nebulization, which may take 10–15 min. Avoid contact with skin or eyes and
-  do not ingest by mouth. IV administration is currently indicated for frostbite in adults.$hl_206$, 'pending-clinical-verification'),
-  ($hl_207_id$imipenem-and-cilastatin$hl_207_id$, $hl_207_name$IMIPENEM AND CILASTATIN$hl_207_name$, $hl_207_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_207_source$, 3720956, $hl_207$IMIPENEM AND CILASTATIN
+  do not ingest by mouth. IV administration is currently indicated for frostbite in adults.$hl_220$, 'pending-clinical-verification'),
+  ($hl_221_id$imipenem-and-cilastatin$hl_221_id$, $hl_221_name$IMIPENEM AND CILASTATIN$hl_221_name$, $hl_221_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_221_source$, 3720956, $hl_221$IMIPENEM AND CILASTATIN
   Primaxin IV and generics
   Antibiotic, carbapenem
                                                                      C        2     Yes     No     No
@@ -10729,8 +10708,8 @@ For IV use, give slowly over 30–60 min at a concentration ≤5 mg/mL to reduce
   cilastatin accumulation and seizure risk.
 Do not administer with probenecid (increases imipenem/cilastatin levels) and ganciclovir
   (increased risk for seizures). May significantly reduce valproic acid levels.
-Adjust dose in renal insufficiency (see Chapter 32).$hl_207$, 'pending-clinical-verification'),
-  ($hl_208_id$imipramine$hl_208_id$, $hl_208_name$IMIPRAMINE$hl_208_name$, $hl_208_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_208_source$, 3722850, $hl_208$IMIPRAMINE
+Adjust dose in renal insufficiency (see Chapter 32).$hl_221$, 'pending-clinical-verification'),
+  ($hl_222_id$imipramine$hl_222_id$, $hl_222_name$IMIPRAMINE$hl_222_name$, $hl_222_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_222_source$, 3722850, $hl_222$IMIPRAMINE
   Generics; previously available as Tofranil
   Antidepressant, tricyclic
                                                                    C       2      Yes       Yes   Yes
@@ -10789,8 +10768,8 @@ Imipramine is a major substrate for cytochrome P-450 2C19 and 2D6. See the remar
 Onset of antidepressant effects: 1–3 wk. Do not discontinue abruptly in patients receiving
   long-term high-dose therapy.
 Pregnancy category has not been officially assigned by the FDA, as congenital abnormalities
-  have been reported in humans, with the causal relationship not being established.$hl_208$, 'pending-clinical-verification'),
-  ($hl_209_id$immune-globulin$hl_209_id$, $hl_209_name$IMMUNE GLOBULIN$hl_209_name$, $hl_209_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_209_source$, 3725950, $hl_209$IMMUNE GLOBULIN
+  have been reported in humans, with the causal relationship not being established.$hl_222$, 'pending-clinical-verification'),
+  ($hl_223_id$immune-globulin$hl_223_id$, $hl_223_name$IMMUNE GLOBULIN$hl_223_name$, $hl_223_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_223_source$, 3725950, $hl_223$IMMUNE GLOBULIN
   Immune globulins
                                                                    C       2      Yes    No     No
 
@@ -11011,8 +10990,8 @@ Use in multisystem inflammatory syndrome in children (MIS-C) associated with
   overload should reduce the IVIG infusion rate or adjusting the dose to 1 g/kg/24 hr ×
   2 doses.
 Delay immunizations after immune globulin administration (see latest AAP Red Book for
-  details)$hl_209$, 'pending-clinical-verification'),
-  ($hl_210_id$indomethacin$hl_210_id$, $hl_210_name$INDOMETHACIN$hl_210_name$, $hl_210_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_210_source$, 3740292, $hl_210$INDOMETHACIN
+  details)$hl_223$, 'pending-clinical-verification'),
+  ($hl_224_id$indomethacin$hl_224_id$, $hl_224_name$INDOMETHACIN$hl_224_name$, $hl_224_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_224_source$, 3740292, $hl_224$INDOMETHACIN
   Indocin and generics
   Nonsteroidal anti-inflammatory agent
                                                                    C/X     1      Yes    Yes    No
@@ -11069,9 +11048,8 @@ Sustained-release capsules are dosed once daily–BID.
 Pregnancy category is “C” for prior to 30 wk gestation and “X” for 30 wk and greater. Avoid
   use at >30 wk gestation due to increased risk for premature closure of the fetal ductus
   arteriosus. Limit dose and duration of use at 20–30 wk gestation for concerns of fetal renal
-  dysfunction and oligohydramnios.
-
-    INFLIXIMAB
+  dysfunction and oligohydramnios.$hl_224$, 'pending-clinical-verification'),
+  ($hl_225_id$infliximab$hl_225_id$, $hl_225_name$INFLIXIMAB$hl_225_name$, $hl_225_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_225_source$, 3743576, $hl_225$INFLIXIMAB
     Remicade, Remicade SC, Avsola, Infectra, Renflexis,
     Zymfentra, and generics
                                                                      B          2   No       Yes     No
@@ -11153,8 +11131,8 @@ INFLIXIMAB continued
      with the potential for faster rates in subsequent doses) with an inline, non-pyrogenic,
      low-protein-binding filter with a pore size 1.2 microns or less. For infusion-related
      reactions, temporarily discontinue or decrease infusion rate; antihistamines (H1 ± H2
-     antagonists), acetaminophen, and/or corticosteroids may also be used.$hl_210$, 'pending-clinical-verification'),
-  ($hl_211_id$insulin-preparations$hl_211_id$, $hl_211_name$INSULIN PREPARATIONS$hl_211_name$, $hl_211_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_211_source$, 3748974, $hl_211$INSULIN PREPARATIONS
+     antagonists), acetaminophen, and/or corticosteroids may also be used.$hl_225$, 'pending-clinical-verification'),
+  ($hl_226_id$insulin-preparations$hl_226_id$, $hl_226_name$INSULIN PREPARATIONS$hl_226_name$, $hl_226_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_226_source$, 3748974, $hl_226$INSULIN PREPARATIONS
   Pancreatic hormone
                                                                        B       1      Yes       Yes    No
 
@@ -11170,11 +11148,11 @@ When using insulin drip with new IV tubing, before connecting tubing to the pati
   tubing with the insulin infusion solution, and wait for 30 min. Then flush the line and
   connect the IV line to the patient to start the infusion. This will ensure proper drug delivery.
   Adjust dose in renal failure (see Chapter 32). Use with caution and monitor closely in
-  hepatic impairment.$hl_211$, 'pending-clinical-verification'),
-  ($hl_212_id$iodide$hl_212_id$, $hl_212_name$IODIDE$hl_212_name$, $hl_212_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_212_source$, 3749969, $hl_212$IODIDE
+  hepatic impairment.$hl_226$, 'pending-clinical-verification'),
+  ($hl_227_id$iodide$hl_227_id$, $hl_227_name$IODIDE$hl_227_name$, $hl_227_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_227_source$, 3749969, $hl_227$IODIDE
 
-See Potassium Iodide$hl_212$, 'pending-clinical-verification'),
-  ($hl_213_id$iodixanol$hl_213_id$, $hl_213_name$IODIXANOL$hl_213_name$, $hl_213_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_213_source$, 3750002, $hl_213$IODIXANOL
+See Potassium Iodide$hl_227$, 'pending-clinical-verification'),
+  ($hl_228_id$iodixanol$hl_228_id$, $hl_228_name$IODIXANOL$hl_228_name$, $hl_228_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_228_source$, 3750002, $hl_228$IODIXANOL
   Visipaque and generics
   Radiopaque agent, contrast medium
                                                                        B       2      Yes       Yes    No
@@ -11222,8 +11200,8 @@ Avoid use with metformin, as lactic acidosis and acute renal failure may occur. 
    agent, as renal toxicity may occur.
 Visipaque 320 mg/mL has an osmolality of 290 mOsmol/kg versus Omnipaque 350 mg/mL
    (884 mOsmol/kg) for a lower risk of contrast nephropathy. See product information for IV
-   and intra-arterial administration guidelines.$hl_213$, 'pending-clinical-verification'),
-  ($hl_214_id$iohexol$hl_214_id$, $hl_214_name$IOHEXOL$hl_214_name$, $hl_214_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_214_source$, 3752808, $hl_214$IOHEXOL
+   and intra-arterial administration guidelines.$hl_228$, 'pending-clinical-verification'),
+  ($hl_229_id$iohexol$hl_229_id$, $hl_229_name$IOHEXOL$hl_229_name$, $hl_229_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_229_source$, 3752808, $hl_229$IOHEXOL
   Iohexol: Omnipaque 140, Omnipaque 180, Omnipaque
   240, Omnipaque 300, Omnipaque 350, Omnipaque oral
                                                                     B        2      Yes    Yes    No
@@ -11284,10 +11262,8 @@ Many other uses exist; see package insert for additional information. Iohexol is
   or those in whom aspiration of contrast medium is of concern. Oral dose is poorly absorbed
   from the normal GI tract (0.1%–0.5%); absorption increases with bowel perforation or
   bowel obstruction. Concentrations of 302–755 mg iohexol/mL have osmolalities from 1.1 to
-  3 times that of plasma (285 mOsm/kg) and CSF (301 mOsm/kg), and may be hypertonic.
-
-
-  IPRATROPIUM BROMIDE ± ALBUTEROL
+  3 times that of plasma (285 mOsm/kg) and CSF (301 mOsm/kg), and may be hypertonic.$hl_229$, 'pending-clinical-verification'),
+  ($hl_230_id$ipratropium-bromide-albuterol$hl_230_id$, $hl_230_name$IPRATROPIUM BROMIDE ± ALBUTEROL$hl_230_name$, $hl_230_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_230_source$, 3756654, $hl_230$IPRATROPIUM BROMIDE ± ALBUTEROL
   Atrovent HFA and generics
   In combination with albuterol: Combivent Respimat and
                                                                     B/C      1      No       No    No
@@ -11377,14 +11353,14 @@ Bronchodilation onset of action is 1–3 min, with peak effects within 1.5–2 h
 Shake inhaler well prior to use with spacer. Nebulized solution may be mixed with albuterol (or
   use the combination product).
 Pregnancy category is “C” for Combivent Respimat. Breastfeeding safety extrapolated from
-  safety of atropine.$hl_214$, 'pending-clinical-verification'),
-  ($hl_215_id$iron-dextran$hl_215_id$, $hl_215_name$IRON DEXTRAN$hl_215_name$, $hl_215_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_215_source$, 3761489, $hl_215$IRON DEXTRAN
+  safety of atropine.$hl_230$, 'pending-clinical-verification'),
+  ($hl_231_id$iron-dextran$hl_231_id$, $hl_231_name$IRON DEXTRAN$hl_231_name$, $hl_231_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_231_source$, 3761489, $hl_231$IRON DEXTRAN
 
-See Iron―Injectable Preparations$hl_215$, 'pending-clinical-verification'),
-  ($hl_216_id$iron-sucrose$hl_216_id$, $hl_216_name$IRON SUCROSE$hl_216_name$, $hl_216_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_216_source$, 3761540, $hl_216$IRON SUCROSE
+See Iron―Injectable Preparations$hl_231$, 'pending-clinical-verification'),
+  ($hl_232_id$iron-sucrose$hl_232_id$, $hl_232_name$IRON SUCROSE$hl_232_name$, $hl_232_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_232_source$, 3761540, $hl_232$IRON SUCROSE
 
-See Iron―Injectable Preparations$hl_216$, 'pending-clinical-verification'),
-  ($hl_217_id$iron-injectable-preparations$hl_217_id$, $hl_217_name$IRON―INJECTABLE PREPARATIONS$hl_217_name$, $hl_217_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_217_source$, 3761591, $hl_217$IRON―INJECTABLE PREPARATIONS
+See Iron―Injectable Preparations$hl_232$, 'pending-clinical-verification'),
+  ($hl_233_id$iron-injectable-preparations$hl_233_id$, $hl_233_name$IRON―INJECTABLE PREPARATIONS$hl_233_name$, $hl_233_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_233_source$, 3761591, $hl_233$IRON―INJECTABLE PREPARATIONS
   Ferric gluconate: Ferrlecit and generics
   Iron dextran: INFeD
                                                                     B/C/? 2         No       No    No
@@ -11492,8 +11468,8 @@ Efficacy and safety of iron sucrose for maintenance therapy have been evaluated 
    headache, respiratory tract viral infection, peritonitis, vomiting, pyrexia, dizziness, and
    cough.
 Pregnancy category is “B” for ferric gluconate and iron sucrose, “C” for iron dextran, and “?”
-   for ferric carboxymaltose.$hl_217$, 'pending-clinical-verification'),
-  ($hl_218_id$iron-oral-preparations$hl_218_id$, $hl_218_name$IRON―ORAL PREPARATIONS$hl_218_name$, $hl_218_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_218_source$, 3767981, $hl_218$IRON―ORAL PREPARATIONS
+   for ferric carboxymaltose.$hl_233$, 'pending-clinical-verification'),
+  ($hl_234_id$iron-oral-preparations$hl_234_id$, $hl_234_name$IRON―ORAL PREPARATIONS$hl_234_name$, $hl_234_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_234_source$, 3767981, $hl_234$IRON―ORAL PREPARATIONS
   Ferrous sulfate: Fer-In-Sol, Slow FE, Slow Iron, and
   many generics
                                                                      A/?      2     No       No     No
@@ -11554,8 +11530,8 @@ Contraindicated in hemolytic anemia and hemochromatosis. Avoid use in GI tract
 Iron preparations are variably absorbed. Less GI irritation when given with or after meals.
    Vitamin C, 200 mg per 30 mg iron, may enhance absorption. Liquid iron preparations may
    stain teeth. Give with dropper or drink through straw.
-Pregnancy category is “A” for ferrous sulfate and is unknown for the other salt forms.$hl_218$, 'pending-clinical-verification'),
-  ($hl_219_id$isavuconazonium-sulfate$hl_219_id$, $hl_219_name$ISAVUCONAZONIUM SULFATE$hl_219_name$, $hl_219_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_219_source$, 3771421, $hl_219$ISAVUCONAZONIUM SULFATE
+Pregnancy category is “A” for ferrous sulfate and is unknown for the other salt forms.$hl_234$, 'pending-clinical-verification'),
+  ($hl_235_id$isavuconazonium-sulfate$hl_235_id$, $hl_235_name$ISAVUCONAZONIUM SULFATE$hl_235_name$, $hl_235_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_235_source$, 3771421, $hl_235$ISAVUCONAZONIUM SULFATE
   Cresemba, isavuconazole prodrug
   Antifungal, triazole
                                                                   C      ?      No     Yes    No
@@ -11621,8 +11597,8 @@ Administer IV infusions over a minimum of 1 hr with an in-line filter (0.2–1.2
 
 
 
-                                                                                                             For explanation of icons, see p. 814$hl_219$, 'pending-clinical-verification'),
-  ($hl_220_id$isoniazid$hl_220_id$, $hl_220_name$ISONIAZID$hl_220_name$, $hl_220_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_220_source$, 3775793, $hl_220$ISONIAZID
+                                                                                                             For explanation of icons, see p. 814$hl_235$, 'pending-clinical-verification'),
+  ($hl_236_id$isoniazid$hl_236_id$, $hl_236_name$ISONIAZID$hl_236_name$, $hl_236_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_236_source$, 3775793, $hl_236$ISONIAZID
   Generics, INH; previously available as Nydrazid and
   Laniazid
                                                                        C       2      Yes       Yes    No
@@ -11661,8 +11637,8 @@ Inhibits cytochrome P-450 (CYP) 1A2, 2C9, 2C19, and 3A3/3A4 microsomal enzymes; 
   hepatitis.
 May be given IM (same as oral doses) when oral therapy is not possible. Administer oral doses
   1 hr prior to and 2 hr after meals. Aluminum salts may decrease absorption. Adjust dose in
-  renal failure (see Chapter 32).$hl_220$, 'pending-clinical-verification'),
-  ($hl_221_id$isoproterenol$hl_221_id$, $hl_221_name$ISOPROTERENOL$hl_221_name$, $hl_221_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_221_source$, 3778192, $hl_221$ISOPROTERENOL
+  renal failure (see Chapter 32).$hl_236$, 'pending-clinical-verification'),
+  ($hl_237_id$isoproterenol$hl_237_id$, $hl_237_name$ISOPROTERENOL$hl_237_name$, $hl_237_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_237_source$, 3778192, $hl_237$ISOPROTERENOL
   Generics; previously available as Isuprel
   Adrenergic agonist
                                                                     C        ?      Yes    No     No
@@ -11687,8 +11663,8 @@ Continuous infusion for bronchodilation must be gradually tapered over a 24–48
 
 
 
-                                                                                                            FORMULARY$hl_221$, 'pending-clinical-verification'),
-  ($hl_222_id$isotretinoin$hl_222_id$, $hl_222_name$ISOTRETINOIN$hl_222_name$, $hl_222_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_222_source$, 3779720, $hl_222$ISOTRETINOIN
+                                                                                                            FORMULARY$hl_237$, 'pending-clinical-verification'),
+  ($hl_238_id$isotretinoin$hl_238_id$, $hl_238_name$ISOTRETINOIN$hl_238_name$, $hl_238_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_238_source$, 3779720, $hl_238$ISOTRETINOIN
   Absorica, Absorica LD, Accutane, Amnesteem, Claravis,
   Zenatane, and generics
                                                                     X       3      No        Yes    No
@@ -11732,8 +11708,8 @@ Prescribers, site pharmacists, patients, and wholesalers must register with the 
 
                                                                                                           For explanation of icons, see p. 814
    system (a risk minimization program) at www.ipledgeprogram.com or 1-866-495-0654
-   before doses are dispensed. Prescriptions may not be written for more than a 1-mo supply.$hl_222$, 'pending-clinical-verification'),
-  ($hl_223_id$isradipine$hl_223_id$, $hl_223_name$ISRADIPINE$hl_223_name$, $hl_223_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_223_source$, 3782556, $hl_223$ISRADIPINE
+   before doses are dispensed. Prescriptions may not be written for more than a 1-mo supply.$hl_238$, 'pending-clinical-verification'),
+  ($hl_239_id$isradipine$hl_239_id$, $hl_239_name$ISRADIPINE$hl_239_name$, $hl_239_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_239_source$, 3782556, $hl_239$ISRADIPINE
   Generics; previously available as DynaCirc
   Calcium channel blocker, antihypertensive
                                                                     C       ?      Yes       Yes    No
@@ -11765,8 +11741,8 @@ Contraindicated with calcium channel antagonist hypersensitivity. Use with cauti
 A major substrate of the cytochrome P-450 (CYP) 3A4 isoenzyme. Always check for drug
   interactions, especially for medications that are inducers (e.g., rifampin) and inhibitors
   (e.g., azole antifungals and protease inhibitors) of CYP3A4. May increase levels and toxicity
-  of cyclosporine and tacrolimus. Doses may be administered with or without food.$hl_223$, 'pending-clinical-verification'),
-  ($hl_224_id$itraconazole$hl_224_id$, $hl_224_name$ITRACONAZOLE$hl_224_name$, $hl_224_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_224_source$, 3784317, $hl_224$ITRACONAZOLE
+  of cyclosporine and tacrolimus. Doses may be administered with or without food.$hl_239$, 'pending-clinical-verification'),
+  ($hl_240_id$itraconazole$hl_240_id$, $hl_240_name$ITRACONAZOLE$hl_240_name$, $hl_240_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_240_source$, 3784317, $hl_240$ITRACONAZOLE
   Sporanox, Tolsura, and generics
   Antifungal agent
                                                                     C        3      Yes    Yes    No
@@ -11828,8 +11804,8 @@ Administer oral solution and Tolsura capsule on an empty stomach but administer 
    capsule bioavailability has been shown to be reduced in immunocompromised patients.
    Achlorhydria reduces absorption of the drug. Do not use oral liquid dosage form in patients
    with GFR <30 mL/min, because hydroxypropyl-β-cyclodextrin excipient has reduced
-   clearance with renal failure.$hl_224$, 'pending-clinical-verification'),
-  ($hl_225_id$ivacaftor$hl_225_id$, $hl_225_name$IVACAFTOR$hl_225_name$, $hl_225_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_225_source$, 3788596, $hl_225$IVACAFTOR
+   clearance with renal failure.$hl_240$, 'pending-clinical-verification'),
+  ($hl_241_id$ivacaftor$hl_241_id$, $hl_241_name$IVACAFTOR$hl_241_name$, $hl_241_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_241_source$, 3788596, $hl_241$IVACAFTOR
   Kalydeco
   Cystic fibrosis transmembrane conductance
                                                                 B       2     Yes        Yes   Yes
@@ -11907,8 +11883,8 @@ Administer all doses with high-fat foods to ensure absorption. Oral granules can
 
 
 
-                                                                                                               FORMULARY$hl_225$, 'pending-clinical-verification'),
-  ($hl_226_id$ivermectin$hl_226_id$, $hl_226_name$IVERMECTIN$hl_226_name$, $hl_226_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_226_source$, 3793230, $hl_226$IVERMECTIN
+                                                                                                               FORMULARY$hl_241$, 'pending-clinical-verification'),
+  ($hl_242_id$ivermectin$hl_242_id$, $hl_242_name$IVERMECTIN$hl_242_name$, $hl_242_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_242_source$, 3793230, $hl_242$IVERMECTIN
   Stromectol, Sklice, Soolantra, and generics
   Anthelmintic
                                                                      C        2     No       No     No
@@ -11978,11 +11954,11 @@ Topical Use: Safety and efficacy have not been established for children <6 mo. C
    burning. Contact dermatitis has been reported. Not for oral, ophthalmic, or intravaginal use.
    Use of lotion for children should be supervised by an adult to prevent oral ingestion.
 
- K$hl_226$, 'pending-clinical-verification'),
-  ($hl_227_id$kalydeco$hl_227_id$, $hl_227_name$KALYDECO$hl_227_name$, $hl_227_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_227_source$, 3797113, $hl_227$KALYDECO
+ K$hl_242$, 'pending-clinical-verification'),
+  ($hl_243_id$kalydeco$hl_243_id$, $hl_243_name$KALYDECO$hl_243_name$, $hl_243_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_243_source$, 3797113, $hl_243$KALYDECO
 
-See Ivacaftor.$hl_227$, 'pending-clinical-verification'),
-  ($hl_228_id$ketamine$hl_228_id$, $hl_228_name$KETAMINE$hl_228_name$, $hl_228_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_228_source$, 3797142, $hl_228$KETAMINE
+See Ivacaftor.$hl_243$, 'pending-clinical-verification'),
+  ($hl_244_id$ketamine$hl_244_id$, $hl_244_name$KETAMINE$hl_244_name$, $hl_244_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_244_source$, 3797142, $hl_244$KETAMINE
   Ketalar and generics
   General anesthetic
                                                                       ?       2      No      Yes    No
@@ -12028,8 +12004,8 @@ Drug is a substrate for cytochrome P-450 2B6, 2C9, and 3A4 isoenzymes. Consider 
   depression, and coma.
 Rate of IV infusion should not exceed 0.5 mg/kg/min and infusion should not be administered
   in less than 60 sec. For additional information, including onset and duration of action, see
-  Chapter 6.$hl_228$, 'pending-clinical-verification'),
-  ($hl_229_id$ketoconazole$hl_229_id$, $hl_229_name$KETOCONAZOLE$hl_229_name$, $hl_229_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_229_source$, 3799855, $hl_229$KETOCONAZOLE
+  Chapter 6.$hl_244$, 'pending-clinical-verification'),
+  ($hl_245_id$ketoconazole$hl_245_id$, $hl_245_name$KETOCONAZOLE$hl_245_name$, $hl_245_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_245_source$, 3799855, $hl_245$KETOCONAZOLE
   Nizoral, Ketodan, and generics
   Antifungal agent, imidazole
                                                                     C        2      No       Yes    No
@@ -12087,8 +12063,8 @@ Administering oral doses with food or acidic beverages and 2 hr prior to antacid
   absorption. For topical products, avoid contact with eyes and other mucous membranes.
 To use shampoo, wet hair and scalp with water, apply sufficient amount to scalp, and gently
   massage for about 1 min. Rinse hair thoroughly, reapply shampoo and leave on the scalp
-  for an additional 3 min, and rinse.$hl_229$, 'pending-clinical-verification'),
-  ($hl_230_id$ketorolac$hl_230_id$, $hl_230_name$KETOROLAC$hl_230_name$, $hl_230_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_230_source$, 3803230, $hl_230$KETOROLAC
+  for an additional 3 min, and rinse.$hl_245$, 'pending-clinical-verification'),
+  ($hl_246_id$ketorolac$hl_246_id$, $hl_246_name$KETOROLAC$hl_246_name$, $hl_246_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_246_source$, 3803230, $hl_246$KETOROLAC
   Many generics (previously available as Toradol), Acular,
   Acular LS, Acuvail
                                                                     C/X      3      Yes    Yes    No
@@ -12140,8 +12116,8 @@ Pregnancy category is “C” for ophthalmic use and systemic use prior to 30 wk
   dose and duration of systemic use at 20–30 wk gestation for concerns of fetal renal
   dysfunction and oligohydramnios.
 
- L$hl_230$, 'pending-clinical-verification'),
-  ($hl_231_id$labetalol$hl_231_id$, $hl_231_name$LABETALOL$hl_231_name$, $hl_231_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_231_source$, 3806219, $hl_231$LABETALOL
+ L$hl_246$, 'pending-clinical-verification'),
+  ($hl_247_id$labetalol$hl_247_id$, $hl_247_name$LABETALOL$hl_247_name$, $hl_247_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_247_source$, 3806219, $hl_247$LABETALOL
   Generics; previously available as Normodyne and
   Trandate
                                                                     C/D      2      No       Yes    No
@@ -12183,8 +12159,8 @@ Contraindicated in asthma, pulmonary edema, cardiogenic shock, and heart block. 
 Patient should remain supine for up to 3 hr after IV administration. Pregnancy category
   changes to “D” if used in second or third trimesters.
 Onset of action: PO: 1–4 hr; IV: 5–15 min
-1062            Part IV    Formulary$hl_231$, 'pending-clinical-verification'),
-  ($hl_232_id$lacosamide$hl_232_id$, $hl_232_name$LACOSAMIDE$hl_232_name$, $hl_232_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_232_source$, 3808617, $hl_232$LACOSAMIDE
+1062            Part IV    Formulary$hl_247$, 'pending-clinical-verification'),
+  ($hl_248_id$lacosamide$hl_248_id$, $hl_248_name$LACOSAMIDE$hl_248_name$, $hl_248_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_248_source$, 3808617, $hl_248$LACOSAMIDE
   Vimpat, Motpoly XR, and generics
   Anticonvulsant
                                                                   C      2     Yes     Yes     No
@@ -12313,8 +12289,8 @@ Most common side effects in adults include diplopia, headache, dizziness, and na
 Oral doses may be administered with or without food. Swallow tablets whole; do not cut
   tablets. IV doses should be administered over 30–60 min. Do not abruptly withdraw
   therapy; gradually taper to prevent potential seizures.
-Lacosamide is present in human milk as increased sleepiness in breastfed infants has been reported.$hl_232$, 'pending-clinical-verification'),
-  ($hl_233_id$lactulose$hl_233_id$, $hl_233_name$LACTULOSE$hl_233_name$, $hl_233_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_233_source$, 3817390, $hl_233$LACTULOSE
+Lacosamide is present in human milk as increased sleepiness in breastfed infants has been reported.$hl_248$, 'pending-clinical-verification'),
+  ($hl_249_id$lactulose$hl_249_id$, $hl_249_name$LACTULOSE$hl_249_name$, $hl_249_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_249_source$, 3817390, $hl_249$LACTULOSE
   Constulose, Enulose, Generlac, Kristalose, and generics
   Ammonium detoxicant, hyperosmotic laxative
                                                                    B       2      No     No     No
@@ -12335,8 +12311,8 @@ Contraindicated in galactosemia. Use with caution in diabetes mellitus. GI disco
   diarrhea may occur. For portal systemic encephalopathy, monitor serum ammonia, serum
   potassium, and fluid status.
 Do not use with antacids. Dissolve crystal dosage form with 4 oz of water or juice. All doses
-  may be administered with juice, milk, or water.$hl_233$, 'pending-clinical-verification'),
-  ($hl_234_id$lamivudine$hl_234_id$, $hl_234_name$LAMIVUDINE$hl_234_name$, $hl_234_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_234_source$, 3818689, $hl_234$LAMIVUDINE
+  may be administered with juice, milk, or water.$hl_249$, 'pending-clinical-verification'),
+  ($hl_250_id$lamivudine$hl_250_id$, $hl_250_name$LAMIVUDINE$hl_250_name$, $hl_250_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_250_source$, 3818689, $hl_250$LAMIVUDINE
   Epivir, 3TC, and generics; previously available as
   Epivir-HBV
                                                                    C       2      Yes    Yes    No
@@ -12390,8 +12366,8 @@ May be administered with food. Adjust dose in renal impairment (see Chapter 32).
 
 
 
-                                                                                                          For explanation of icons, see p. 814$hl_234$, 'pending-clinical-verification'),
-  ($hl_235_id$lamotrigine$hl_235_id$, $hl_235_name$LAMOTRIGINE$hl_235_name$, $hl_235_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_235_source$, 3822001, $hl_235$LAMOTRIGINE
+                                                                                                          For explanation of icons, see p. 814$hl_250$, 'pending-clinical-verification'),
+  ($hl_251_id$lamotrigine$hl_251_id$, $hl_251_name$LAMOTRIGINE$hl_251_name$, $hl_251_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_251_source$, 3822001, $hl_251$LAMOTRIGINE
   Lamictal, Subvenite, Lamictal ODT, Lamictal XR, and
   generics
                                                                     C       2      Yes       Yes   Yes
@@ -12645,8 +12621,8 @@ Lamotrigine is metabolized by uridine 5'-diphospho-glucuronyl transferases (UGT)
   increase the risk of arrhythmias. Severe dermatologic reactions(e.g., SJS and TEN) has been
   associated with the HLA-B*1502 genotype.
 Safety and efficacy for maintenance therapy for bipolar disorder in 10–17 yr olds were not
-  established in an RCT with 301 subjects.$hl_235$, 'pending-clinical-verification'),
-  ($hl_236_id$lansoprazole$hl_236_id$, $hl_236_name$LANSOPRAZOLE$hl_236_name$, $hl_236_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_236_source$, 3838551, $hl_236$LANSOPRAZOLE
+  established in an RCT with 301 subjects.$hl_251$, 'pending-clinical-verification'),
+  ($hl_252_id$lansoprazole$hl_252_id$, $hl_252_name$LANSOPRAZOLE$hl_252_name$, $hl_252_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_252_source$, 3838551, $hl_252$LANSOPRAZOLE
   Prevacid, Prevacid SoluTab, and generics
   Gastric acid pump inhibitor
                                                                   B       ?      Yes    Yes     Yes
@@ -12704,8 +12680,8 @@ Administer all oral doses before meals and 30 min prior to sucralfate. Do not cr
    administered in an acidic beverage or food (e.g., apple or cranberry juice, applesauce). Do
    not break or cut the orally disintegrating tablets. Use of oral disintegrating tablets
    dissolved in water has been reported to clog and block oral syringes and feeding tubes
-   (gastric and jejunostomy).$hl_236$, 'pending-clinical-verification'),
-  ($hl_237_id$letermovir$hl_237_id$, $hl_237_name$LETERMOVIR$hl_237_name$, $hl_237_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_237_source$, 3842227, $hl_237$LETERMOVIR
+   (gastric and jejunostomy).$hl_252$, 'pending-clinical-verification'),
+  ($hl_253_id$letermovir$hl_253_id$, $hl_253_name$LETERMOVIR$hl_253_name$, $hl_253_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_253_source$, 3842227, $hl_253$LETERMOVIR
   Prevymis
   Antiviral agent
                                                                     C         ?     Yes       Yes    No
@@ -12763,8 +12739,8 @@ Administer IV dosage form through a 0.2- or 0.22-micron polyethersulfone (PES) i
   and DO NOT administer with IV bags and infusion sets containing polyurethane or
   diethylhexyl phthalate (DEHP) plasticizers. Oral tablets may be crushed and mixed with
   sterile water for feeding tube administration. Doses may be administered with or without
-  food.$hl_237$, 'pending-clinical-verification'),
-  ($hl_238_id$levalbuterol$hl_238_id$, $hl_238_name$LEVALBUTEROL$hl_238_name$, $hl_238_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_238_source$, 3845752, $hl_238$LEVALBUTEROL
+  food.$hl_253$, 'pending-clinical-verification'),
+  ($hl_254_id$levalbuterol$hl_254_id$, $hl_254_name$LEVALBUTEROL$hl_254_name$, $hl_254_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_254_source$, 3845752, $hl_254$LEVALBUTEROL
   Xopenex HFA and generics; previously available as
   Xopenex
                                                                    C       1      No     No     No
@@ -12796,8 +12772,8 @@ More frequent dosing may be necessary in asthma exacerbation.
 
 
 
-                                                                                                     FORMULARY$hl_238$, 'pending-clinical-verification'),
-  ($hl_239_id$levetiracetam$hl_239_id$, $hl_239_name$LEVETIRACETAM$hl_239_name$, $hl_239_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_239_source$, 3847440, $hl_239$LEVETIRACETAM
+                                                                                                     FORMULARY$hl_254$, 'pending-clinical-verification'),
+  ($hl_255_id$levetiracetam$hl_255_id$, $hl_255_name$LEVETIRACETAM$hl_255_name$, $hl_255_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_255_source$, 3847440, $hl_255$LEVETIRACETAM
   Keppra, Keppra XR, Elepsia XR, Roweepra, Spritam, and
   generics
                                                                C       2     Yes       No    No
@@ -12880,11 +12856,11 @@ Drug has excellent PO absorption. Use IV dosages similar to immediate-release PO
   of the immediate-release tablet). Disintegrating tabs (Spritam) may be administered by
   allowing the tablet to disintegrate in the mouth when taken with a sip of liquid or made into
   a suspension (see package insert); do not swallow this dosage form whole. Spritam is not
-  recommended for patients ≤20 kg.$hl_239$, 'pending-clinical-verification'),
-  ($hl_240_id$levocarnitine$hl_240_id$, $hl_240_name$LEVOCARNITINE$hl_240_name$, $hl_240_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_240_source$, 3852797, $hl_240$LEVOCARNITINE
+  recommended for patients ≤20 kg.$hl_255$, 'pending-clinical-verification'),
+  ($hl_256_id$levocarnitine$hl_256_id$, $hl_256_name$LEVOCARNITINE$hl_256_name$, $hl_256_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_256_source$, 3852797, $hl_256$LEVOCARNITINE
 
-See Carnitine.$hl_240$, 'pending-clinical-verification'),
-  ($hl_241_id$levofloxacin$hl_241_id$, $hl_241_name$LEVOFLOXACIN$hl_241_name$, $hl_241_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_241_source$, 3852831, $hl_241$LEVOFLOXACIN
+See Carnitine.$hl_256$, 'pending-clinical-verification'),
+  ($hl_257_id$levofloxacin$hl_257_id$, $hl_257_name$LEVOFLOXACIN$hl_257_name$, $hl_257_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_257_source$, 3852831, $hl_257$LEVOFLOXACIN
   Generics; previously available as Levaquin
   Antibiotic, quinolone
                                                                     C        2      Yes    No     No
@@ -12944,8 +12920,8 @@ Infuse IV over 1–1.5 hr; avoid IV push or rapid infusion because of risk of hy
 
 
 
-                                                                                                             For explanation of icons, see p. 814$hl_241$, 'pending-clinical-verification'),
-  ($hl_242_id$levothyroxine-t4$hl_242_id$, $hl_242_name$LEVOTHYROXINE (T4)$hl_242_name$, $hl_242_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_242_source$, 3856257, $hl_242$LEVOTHYROXINE (T4)
+                                                                                                             For explanation of icons, see p. 814$hl_257$, 'pending-clinical-verification'),
+  ($hl_258_id$levothyroxine-t4$hl_258_id$, $hl_258_name$LEVOTHYROXINE (T4)$hl_258_name$, $hl_258_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_258_source$, 3856257, $hl_258$LEVOTHYROXINE (T4)
   Synthroid, Euthyrox, Ermeza, Levoxyl, Tirosint,
   Thyquidity, Tirosint-Sol, Unithroid, and generics
                                                                        A        1      No       No     No
@@ -13019,8 +12995,8 @@ Increases the effects of warfarin. Phenytoin, rifampin, carbamazepine, iron and 
 
 
 
-                                                                                                              FORMULARY$hl_242$, 'pending-clinical-verification'),
-  ($hl_243_id$lidocaine$hl_243_id$, $hl_243_name$LIDOCAINE$hl_243_name$, $hl_243_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_243_source$, 3860266, $hl_243$LIDOCAINE
+                                                                                                              FORMULARY$hl_258$, 'pending-clinical-verification'),
+  ($hl_259_id$lidocaine$hl_259_id$, $hl_259_name$LIDOCAINE$hl_259_name$, $hl_259_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_259_source$, 3860266, $hl_259$LIDOCAINE
   Xylocaine, L-M-X, Lidoderm, many different brands of
   topical products, and generics
                                                                      B       1      Yes       Yes    No
@@ -13102,8 +13078,8 @@ Therapeutic levels 1.5–5 mg/L. Toxicity occurs at >7 mg/L. Toxicity in neonate
   >5 mg/L due to reduced protein binding of drug. Elimination T1/2: premature infant: 3.2 hr;
   adult: 1.5–2 hr.
 When using the topical patch, avoid exposing the application site to external heat sources as
-  this may increase the risk for toxicity.$hl_243$, 'pending-clinical-verification'),
-  ($hl_244_id$lidocaine-and-prilocaine$hl_244_id$, $hl_244_name$LIDOCAINE AND PRILOCAINE$hl_244_name$, $hl_244_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_244_source$, 3865129, $hl_244$LIDOCAINE AND PRILOCAINE
+  this may increase the risk for toxicity.$hl_259$, 'pending-clinical-verification'),
+  ($hl_260_id$lidocaine-and-prilocaine$hl_260_id$, $hl_260_name$LIDOCAINE AND PRILOCAINE$hl_260_name$, $hl_260_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_260_source$, 3865129, $hl_260$LIDOCAINE AND PRILOCAINE
   Many brand names, Oraqix, Eutectic mixture of
   lidocaine and prilocaine; previously available as EMLA
                                                                      B       ?      Yes    Yes     No
@@ -13153,9 +13129,8 @@ Should not be used in neonates <37 wk of gestation or in infants <12 mo old rece
   associated with methemoglobinemia. Long duration of application, large treatment area, small
   patients, or impaired elimination may result in high blood levels.
 Apply topically to intact skin and cover with occlusive dressing; avoid mucous membranes or
-  the eyes. Wipe cream off before procedure.
-
-    LINEZOLID
+  the eyes. Wipe cream off before procedure.$hl_260$, 'pending-clinical-verification'),
+  ($hl_261_id$linezolid$hl_261_id$, $hl_261_name$LINEZOLID$hl_261_name$, $hl_261_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_261_source$, 3868164, $hl_261$LINEZOLID
     Zyvox and generics
     Antibiotic, oxazolidinone
                                                                            C        2      Yes       Yes      No
@@ -13212,8 +13187,8 @@ Do not use with SSRIs (e.g., fluoxetine, paroxetine), tricyclic antidepressants,
   kidney impairment may increase risk for thrombocytopenia.
 Protect all dosage forms from light and moisture. Oral suspension product must be gently
   mixed by inverting the bottle 3–5 times prior to each use (do not shake). All oral doses may
-  be administered with or without food.$hl_244$, 'pending-clinical-verification'),
-  ($hl_245_id$liraglutide$hl_245_id$, $hl_245_name$LIRAGLUTIDE$hl_245_name$, $hl_245_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_245_source$, 3871335, $hl_245$LIRAGLUTIDE
+  be administered with or without food.$hl_261$, 'pending-clinical-verification'),
+  ($hl_262_id$liraglutide$hl_262_id$, $hl_262_name$LIRAGLUTIDE$hl_262_name$, $hl_262_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_262_source$, 3871335, $hl_262$LIRAGLUTIDE
   Saxenda, Victoza, and generics
   Antidiabetic agent, glucagon-like peptide-1 (GLP-1)
                                                                       X       ?      Yes     No     No
@@ -13254,8 +13229,8 @@ Doses are injected subcutaneously in the abdomen, thigh, or upper arm any time o
   Use a new needle for each dose administration. Do not share pens between patients
   despite changing needles. Do not mix with insulin and do not administer adjacent to
   insulin. If a dose is missed more than 3 days, reinitiate the dosage titration at 0.6 mg/24
-  hr. Never administer extra or doubled doses.$hl_245$, 'pending-clinical-verification'),
-  ($hl_246_id$lisdexamfetamine$hl_246_id$, $hl_246_name$LISDEXAMFETAMINE$hl_246_name$, $hl_246_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_246_source$, 3874290, $hl_246$LISDEXAMFETAMINE
+  hr. Never administer extra or doubled doses.$hl_262$, 'pending-clinical-verification'),
+  ($hl_263_id$lisdexamfetamine$hl_263_id$, $hl_263_name$LISDEXAMFETAMINE$hl_263_name$, $hl_263_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_263_source$, 3874290, $hl_263$LISDEXAMFETAMINE
   Vyvanse and generics
   CNS stimulant
                                                                     C       X      Yes       No    No
@@ -13303,8 +13278,8 @@ Urinary acidifying agents may reduce levels of amphetamines, and urinary alkalin
   amphetamines.
 Chewable tablets must be completely chewed before swallowing. Chewable tablet and capsule
   dosage forms can be converted on an equal mg-per-mg basis.
-See Dextroamphetamine ± Amphetamine for additional remarks.$hl_246$, 'pending-clinical-verification'),
-  ($hl_247_id$lisinopril$hl_247_id$, $hl_247_name$LISINOPRIL$hl_247_name$, $hl_247_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_247_source$, 3877176, $hl_247$LISINOPRIL
+See Dextroamphetamine ± Amphetamine for additional remarks.$hl_263$, 'pending-clinical-verification'),
+  ($hl_264_id$lisinopril$hl_264_id$, $hl_264_name$LISINOPRIL$hl_264_name$, $hl_264_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_264_source$, 3877176, $hl_264$LISINOPRIL
   Qbrelis, Zestril, and generics; previously available as
   Prinivil
                                                                     X       3      Yes    Yes    No
@@ -13351,8 +13326,8 @@ LISINOPRIL continued
 Additional indications with limited data in children include proteinuria associated with mild
    IgA nephropathy, and renal protection for diabetes or renal parenchymal disease.
 Lisinopril should be discontinued as soon as possible when pregnancy is detected as it can
-   cause fetal harm, especially when used during the second and third trimesters.$hl_247$, 'pending-clinical-verification'),
-  ($hl_248_id$lithium$hl_248_id$, $hl_248_name$LITHIUM$hl_248_name$, $hl_248_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_248_source$, 3880264, $hl_248$LITHIUM
+   cause fetal harm, especially when used during the second and third trimesters.$hl_264$, 'pending-clinical-verification'),
+  ($hl_265_id$lithium$hl_265_id$, $hl_265_name$LITHIUM$hl_265_name$, $hl_265_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_265_source$, 3880264, $hl_265$LITHIUM
   Lithobid and many generics; previously available as
   Eskalith
                                                                       D       X      Yes       No    No
@@ -13402,8 +13377,8 @@ Therapeutic levels: 0.6–1.5 mEq/L. In either acute or chronic toxicity, confus
   dose in renal failure (see Chapter 32).
 
                                                                                                Continued
-1084           Part IV     Formulary$hl_248$, 'pending-clinical-verification'),
-  ($hl_249_id$loperamide$hl_249_id$, $hl_249_name$LOPERAMIDE$hl_249_name$, $hl_249_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_249_source$, 3883180, $hl_249$LOPERAMIDE
+1084           Part IV     Formulary$hl_265$, 'pending-clinical-verification'),
+  ($hl_266_id$loperamide$hl_266_id$, $hl_266_name$LOPERAMIDE$hl_266_name$, $hl_266_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_266_source$, 3883180, $hl_266$LOPERAMIDE
   Imodium, Imodium A–D, and generics
   Antidiarrheal
                                                                     C        1      No     No     No
@@ -13434,10 +13409,8 @@ Contraindicated in acute dysentery; acute ulcerative colitis; bacterial enteroco
   cause serious cardiac events (e.g., torsades de pointes, arrhythmias, cardiac arrest, and
   Q–T prolongation).
 Discontinue use if no clinical improvement is observed within 48 hr. Naloxone may be
-  administered for CNS depression.
-
-
-  LORATADINE ± PSEUDOEPHEDRINE
+  administered for CNS depression.$hl_266$, 'pending-clinical-verification'),
+  ($hl_267_id$loratadine-pseudoephedrine$hl_267_id$, $hl_267_name$LORATADINE ± PSEUDOEPHEDRINE$hl_267_name$, $hl_267_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_267_source$, 3884994, $hl_267$LORATADINE ± PSEUDOEPHEDRINE
   Alavert, Claritin, Claritin Childrens, Triaminic
   Allerchews, many others and generics
                                                                     B/C      2      Yes    Yes    No
@@ -13488,8 +13461,8 @@ For time-release tablets of the combination product (loratadine and pseudoephedr
    pseudoephedrine).
 Administer doses on an empty stomach. For use of disintegrating tabs place tablet on tongue
    and allow it to disintegrate in the mouth with or without water. For Claritin-D products, also
-   see remarks in Pseudoephedrine.$hl_249$, 'pending-clinical-verification'),
-  ($hl_250_id$lorazepam$hl_250_id$, $hl_250_name$LORAZEPAM$hl_250_name$, $hl_250_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_250_source$, 3888011, $hl_250$LORAZEPAM
+   see remarks in Pseudoephedrine.$hl_267$, 'pending-clinical-verification'),
+  ($hl_268_id$lorazepam$hl_268_id$, $hl_268_name$LORAZEPAM$hl_268_name$, $hl_268_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_268_source$, 3888011, $hl_268$LORAZEPAM
   Ativan, Loreev XR, and generics
   Benzodiazepine anticonvulsant
                                                                       D       2      Yes       Yes    No
@@ -13544,8 +13517,8 @@ Onset of action for sedation: PO, 20–30 min; IM, 30–60 min; IV, 1–5 min. D
 Extended-release capsule (Loreev XR) may be swallowed whole or its content may be opened
    and sprinkled over a tablespoon of applesauce; followed by drinking water. DO NOT crush or
    chew. See product information for dose conversion from immediate-release dosage forms.
-Flumazenil is the antidote.$hl_250$, 'pending-clinical-verification'),
-  ($hl_251_id$losartan$hl_251_id$, $hl_251_name$LOSARTAN$hl_251_name$, $hl_251_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_251_source$, 3891235, $hl_251$LOSARTAN
+Flumazenil is the antidote.$hl_268$, 'pending-clinical-verification'),
+  ($hl_269_id$losartan$hl_269_id$, $hl_269_name$LOSARTAN$hl_269_name$, $hl_269_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_269_source$, 3891235, $hl_269$LOSARTAN
   Cozaar and generics
   Angiotensin II receptor antagonist
                                                                     X        3      Yes    Yes    No
@@ -13582,11 +13555,11 @@ Losartan is a substrate for cytochrome P-450 (CYP) 2C9 (major) and CYP3A4. Fluco
   Do not use with aliskiren in patients with diabetes or with renal impairment (GFR <60 mL/
   min). Dual blockade of the renin–angiotensin system with losartin and ACE inhibitors (e.g.,
   captopril) or aliskiren is associated with increased risk for hypotension, syncope,
-  hyperkalemia, and renal impairment.$hl_251$, 'pending-clinical-verification'),
-  ($hl_252_id$low-molecular-weight-heparin$hl_252_id$, $hl_252_name$LOW-MOLECULAR-WEIGHT HEPARIN$hl_252_name$, $hl_252_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_252_source$, 3893600, $hl_252$LOW-MOLECULAR-WEIGHT HEPARIN
+  hyperkalemia, and renal impairment.$hl_269$, 'pending-clinical-verification'),
+  ($hl_270_id$low-molecular-weight-heparin$hl_270_id$, $hl_270_name$LOW-MOLECULAR-WEIGHT HEPARIN$hl_270_name$, $hl_270_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_270_source$, 3893600, $hl_270$LOW-MOLECULAR-WEIGHT HEPARIN
 
-See Enoxaparin.$hl_252$, 'pending-clinical-verification'),
-  ($hl_253_id$lumacaftor-and-ivacaftor$hl_253_id$, $hl_253_name$LUMACAFTOR AND IVACAFTOR$hl_253_name$, $hl_253_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_253_source$, 3893651, $hl_253$LUMACAFTOR AND IVACAFTOR
+See Enoxaparin.$hl_270$, 'pending-clinical-verification'),
+  ($hl_271_id$lumacaftor-and-ivacaftor$hl_271_id$, $hl_271_name$LUMACAFTOR AND IVACAFTOR$hl_271_name$, $hl_271_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_271_source$, 3893651, $hl_271$LUMACAFTOR AND IVACAFTOR
   Orkambi
   Cystic fibrosis transmembrane conductance
                                                                   B       2      Yes       Yes   Yes
@@ -13678,8 +13651,8 @@ LUMACAFTOR AND IVACAFTOR continued
   a dose immediately. However, if the missed dose is >6 hr, skip that dose and resume
   therapy at the next scheduled dose. Never take a double dose for a missed dose.
 
- M$hl_253$, 'pending-clinical-verification'),
-  ($hl_254_id$magnesium-citrate$hl_254_id$, $hl_254_name$MAGNESIUM CITRATE$hl_254_name$, $hl_254_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_254_source$, 3899305, $hl_254$MAGNESIUM CITRATE
+ M$hl_271$, 'pending-clinical-verification'),
+  ($hl_272_id$magnesium-citrate$hl_272_id$, $hl_272_name$MAGNESIUM CITRATE$hl_272_name$, $hl_272_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_272_source$, 3899305, $hl_272$MAGNESIUM CITRATE
   Slow Mag Mg Gummies, and various generics
   16.17% Elemental Magnesium
                                                                      C        1     Yes     No      No
@@ -13702,8 +13675,8 @@ Use with caution in renal insufficiency (monitor magnesium level) and patients r
   digoxin. May cause hypermagnesemia, diarrhea, muscle weakness, hypotension, and
   respiratory depression. Up to approximately 30% of dose is absorbed. May decrease
   absorption of H2 antagonists, phenytoin, iron salts, tetracyclines, steroids, benzodiazepines,
-  and quinolone antibiotics.$hl_254$, 'pending-clinical-verification'),
-  ($hl_255_id$magnesium-hydroxide$hl_255_id$, $hl_255_name$MAGNESIUM HYDROXIDE$hl_255_name$, $hl_255_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_255_source$, 3900446, $hl_255$MAGNESIUM HYDROXIDE
+  and quinolone antibiotics.$hl_272$, 'pending-clinical-verification'),
+  ($hl_273_id$magnesium-hydroxide$hl_273_id$, $hl_273_name$MAGNESIUM HYDROXIDE$hl_273_name$, $hl_273_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_273_source$, 3900446, $hl_273$MAGNESIUM HYDROXIDE
   Milk of Magnesia, Pedia-Lax, and various generics
   41.69% Elemental Magnesium
                                                                      ?        1     Yes     No      No
@@ -13744,8 +13717,8 @@ See Magnesium Citrate. Use with caution in renal insufficiency (monitor magnesiu
   tablets.
 Pedia-Lax chewable tablet is magnesium hydroxide. However, other dosage forms bearing the
   Pedia-Lax name (e.g., oral liquid, suppository, and enema) contain different active
-  ingredients.$hl_255$, 'pending-clinical-verification'),
-  ($hl_256_id$magnesium-oxide$hl_256_id$, $hl_256_name$MAGNESIUM OXIDE$hl_256_name$, $hl_256_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_256_source$, 3902475, $hl_256$MAGNESIUM OXIDE
+  ingredients.$hl_273$, 'pending-clinical-verification'),
+  ($hl_274_id$magnesium-oxide$hl_274_id$, $hl_274_name$MAGNESIUM OXIDE$hl_274_name$, $hl_274_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_274_source$, 3902475, $hl_274$MAGNESIUM OXIDE
   Mag-200 and other generics
   60.32% Elemental Magnesium
                                                                   A/?     1      Yes    No     No
@@ -13765,8 +13738,8 @@ Hypomagnesemia:
 See Magnesium Citrate. Use with caution in renal insufficiency (monitor magnesium level)
   and patients receiving digoxin. For dietary recommended intake (U.S. recommended daily
   allowance [RDA]) for magnesium, see Chapter 21.
-Pregnancy category is “A” for doses up to 400 mg/24 hr.$hl_256$, 'pending-clinical-verification'),
-  ($hl_257_id$magnesium-sulfate$hl_257_id$, $hl_257_name$MAGNESIUM SULFATE$hl_257_name$, $hl_257_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_257_source$, 3903369, $hl_257$MAGNESIUM SULFATE
+Pregnancy category is “A” for doses up to 400 mg/24 hr.$hl_274$, 'pending-clinical-verification'),
+  ($hl_275_id$magnesium-sulfate$hl_275_id$, $hl_275_name$MAGNESIUM SULFATE$hl_275_name$, $hl_275_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_275_source$, 3903369, $hl_275$MAGNESIUM SULFATE
   Epsom salts, many others, and generics
   9.9% Elemental Magnesium
                                                                   D       2      Yes    No     No
@@ -13809,8 +13782,8 @@ Max. IV intermittent infusion rate:
   Asymptomatic hypomagnesemia: 0.1 mEq/kg/hr or 12.5 mg MgSO4 salt/kg/hr
 Pregnancy category is “D” because hypocalcemia, osteopenia, and fractures in the developing
   baby or fetus have been reported in pregnant women receiving magnesium >5–7 days for
-  preterm labor.$hl_257$, 'pending-clinical-verification'),
-  ($hl_258_id$mannitol$hl_258_id$, $hl_258_name$MANNITOL$hl_258_name$, $hl_258_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_258_source$, 3905847, $hl_258$MANNITOL
+  preterm labor.$hl_275$, 'pending-clinical-verification'),
+  ($hl_276_id$mannitol$hl_276_id$, $hl_276_name$MANNITOL$hl_276_name$, $hl_276_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_276_source$, 3905847, $hl_276$MANNITOL
   Osmitrol, and generics, inhalation: Bronchitol and Aridol
   Osmotic diuretic
                                                                   C      ?      Yes    No      No
@@ -13864,8 +13837,8 @@ INHALED USE (Bronchitol): Do not puncture the capsule more than once and do not 
   respiratory tract pain, nasal discharge, throat irritation, and wheezing. Common side
   effects during maintenance therapy include arthralgia, cough, throat pain, pulmonary
   bacterial infection (positive sputum), and fever. Aridol product is indicated for the
-  assessment of bronchial hyperresponsiveness in children ≥6 yr and adults.$hl_258$, 'pending-clinical-verification'),
-  ($hl_259_id$mebendazole$hl_259_id$, $hl_259_name$MEBENDAZOLE$hl_259_name$, $hl_259_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_259_source$, 3909229, $hl_259$MEBENDAZOLE
+  assessment of bronchial hyperresponsiveness in children ≥6 yr and adults.$hl_276$, 'pending-clinical-verification'),
+  ($hl_277_id$mebendazole$hl_277_id$, $hl_277_name$MEBENDAZOLE$hl_277_name$, $hl_277_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_277_source$, 3909229, $hl_277$MEBENDAZOLE
   Emverm; previously available as Vermox
   Anthelmintic
                                                                      C        1     No      Yes    No
@@ -13898,8 +13871,8 @@ Family may need to be treated as a group. Therapeutic effect may be decreased if
   metronidazole as this my cause serious skin reactions. Administer with food. Tablet may be
   crushed and mixed with food, swallowed whole, chewed, or turned into a soft mass by
   adding 2–3 mL of water to a spoon, then placing the tablet into the water (which can then
-  be swallowed).$hl_259$, 'pending-clinical-verification'),
-  ($hl_260_id$medroxyprogesterone$hl_260_id$, $hl_260_name$MEDROXYPROGESTERONE$hl_260_name$, $hl_260_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_260_source$, 3911173, $hl_260$MEDROXYPROGESTERONE
+  be swallowed).$hl_277$, 'pending-clinical-verification'),
+  ($hl_278_id$medroxyprogesterone$hl_278_id$, $hl_278_name$MEDROXYPROGESTERONE$hl_278_name$, $hl_278_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_278_source$, 3911173, $hl_278$MEDROXYPROGESTERONE
   Depo-Provera, Provera, Depo-Sub Q Provera 104, and
   generics
                                                                     X       2      No       Yes    No
@@ -13953,8 +13926,8 @@ The WHO recommends the injectable depot medroxyprogesterone should not be used b
   wk postpartum.
 Do not inject IM or SC product intravenously. Shake IM injection vial well before use, and
   administer in the upper arm or buttock. Administer SC injection product into the anterior
-  thigh or abdomen. Administer oral doses with food.$hl_260$, 'pending-clinical-verification'),
-  ($hl_261_id$mefloquine-hcl$hl_261_id$, $hl_261_name$MEFLOQUINE HCL$hl_261_name$, $hl_261_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_261_source$, 3914415, $hl_261$MEFLOQUINE HCL
+  thigh or abdomen. Administer oral doses with food.$hl_278$, 'pending-clinical-verification'),
+  ($hl_279_id$mefloquine-hcl$hl_279_id$, $hl_279_name$MEFLOQUINE HCL$hl_279_name$, $hl_279_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_279_source$, 3914415, $hl_279$MEFLOQUINE HCL
   Generics; previously available as Lariam
   Antimalarial
                                                                        B       2      No      Yes    No
@@ -14001,8 +13974,8 @@ Do not take on an empty stomach. Administer with at least 240 mL (8 oz) water. T
 
 
 
-                                                                                                    FORMULARY$hl_261$, 'pending-clinical-verification'),
-  ($hl_262_id$meropenem$hl_262_id$, $hl_262_name$MEROPENEM$hl_262_name$, $hl_262_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_262_source$, 3917306, $hl_262$MEROPENEM
+                                                                                                    FORMULARY$hl_279$, 'pending-clinical-verification'),
+  ($hl_280_id$meropenem$hl_280_id$, $hl_280_name$MEROPENEM$hl_280_name$, $hl_280_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_280_source$, 3917306, $hl_280$MEROPENEM
   Generics; previously available as Merrem
   Carbapenem antibiotic
                                                                 B       2     Yes    Yes    No
@@ -14078,8 +14051,8 @@ May cause diarrhea, rash, nausea, vomiting, oral moniliasis, glossitis, pain and
   reported. Probenecid may increase serum meropenem levels. May reduce valproic acid
   levels.
 Lengthening the IV drug administration time to 4 hr will improve the meropenem
-  concentration time above the MIC and may be useful in situations of resistant organisms.$hl_262$, 'pending-clinical-verification'),
-  ($hl_263_id$mesalamine$hl_263_id$, $hl_263_name$MESALAMINE$hl_263_name$, $hl_263_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_263_source$, 3920972, $hl_263$MESALAMINE
+  concentration time above the MIC and may be useful in situations of resistant organisms.$hl_280$, 'pending-clinical-verification'),
+  ($hl_281_id$mesalamine$hl_281_id$, $hl_281_name$MESALAMINE$hl_281_name$, $hl_281_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_281_source$, 3920972, $hl_281$MESALAMINE
   Apriso, Canasa, Delzicol, Lialda, Pentasa, Rowasa,
   SfRowasa, and generics; 5-aminosalicylic acid, 5-ASA
                                                                     B       2      Yes    Yes    No
@@ -14164,8 +14137,8 @@ Two Delzicol 400-mg capsules have not been shown to be interchangeable or substi
   medication throughout the GI tract, and oral tablets release medication at the terminal
   ileus and beyond; 400 mg mesalamine PO is equivalent to 1 g sulfasalazine PO. Tablets
   should be swallowed whole.
-1098          Part IV      Formulary$hl_263$, 'pending-clinical-verification'),
-  ($hl_264_id$metformin$hl_264_id$, $hl_264_name$METFORMIN$hl_264_name$, $hl_264_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_264_source$, 3926017, $hl_264$METFORMIN
+1098          Part IV      Formulary$hl_281$, 'pending-clinical-verification'),
+  ($hl_282_id$metformin$hl_282_id$, $hl_282_name$METFORMIN$hl_282_name$, $hl_282_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_282_source$, 3926017, $hl_282$METFORMIN
   Riomet and generics; previously available as
   Glucophage and Glucophage XR
                                                                     B       2      Yes    Yes    No
@@ -14223,8 +14196,8 @@ METFORMIN continued
   hypoglycemia. If patient does not respond to 1–3 mo of combination therapy with maximum
   metformin doses, consider discontinuing combination therapy and initiating insulin
   therapy.
-Administer all doses with food.$hl_264$, 'pending-clinical-verification'),
-  ($hl_265_id$methadone-hcl$hl_265_id$, $hl_265_name$METHADONE HCL$hl_265_name$, $hl_265_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_265_source$, 3930064, $hl_265$METHADONE HCL
+Administer all doses with food.$hl_282$, 'pending-clinical-verification'),
+  ($hl_283_id$methadone-hcl$hl_283_id$, $hl_283_name$METHADONE HCL$hl_283_name$, $hl_283_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_283_source$, 3930064, $hl_283$METHADONE HCL
   Methadose and generics; previously available as
   Dolophine
                                                                    C       2      Yes    Yes     No
@@ -14260,15 +14233,15 @@ Nevirapine may decrease serum levels of methadone. Fatalities have been reported
 
 
                                                                                                        For explanation of icons, see p. 814
-  is a substrate for cytochrome P-450 (CYP) 3A3/3A4, 2D6, and 1A2 and inhibitor of$hl_265$, 'pending-clinical-verification'),
-  ($hl_266_id$cyp2d6$hl_266_id$, $hl_266_name$CYP2D6.$hl_266_name$, $hl_266_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_266_source$, 3932359, $hl_266$CYP2D6.
+  is a substrate for cytochrome P-450 (CYP) 3A3/3A4, 2D6, and 1A2 and inhibitor of$hl_283$, 'pending-clinical-verification'),
+  ($hl_284_id$cyp2d6$hl_284_id$, $hl_284_name$CYP2D6.$hl_284_name$, $hl_284_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_284_source$, 3932359, $hl_284$CYP2D6.
 See Chapter 6 for equianalgesic dosing and onset of action. Adjust dose in renal failure (see
   Chapter 32).
 A Risk Evaluation and Mitigation Strategy (REMS) is required for healthcare providers to
   ensure the benefits outweigh the risks of addiction, abuse, and misuse. See www.fda.gov/
   OpioidAnalgesicREMSBlueprint or call 1-800-503-0784.
-1100          Part IV     Formulary$hl_266$, 'pending-clinical-verification'),
-  ($hl_267_id$methimazole$hl_267_id$, $hl_267_name$METHIMAZOLE$hl_267_name$, $hl_267_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_267_source$, 3932752, $hl_267$METHIMAZOLE
+1100          Part IV     Formulary$hl_284$, 'pending-clinical-verification'),
+  ($hl_285_id$methimazole$hl_285_id$, $hl_285_name$METHIMAZOLE$hl_285_name$, $hl_285_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_285_source$, 3932752, $hl_285$METHIMAZOLE
   Generics; previously available as Tapazole
   Antithyroid agent
                                                                   D       2      No     Yes    No
@@ -14290,8 +14263,8 @@ Readily crosses placental membranes and distributes into breast milk (maternal d
 May increase the effects of oral anticoagulants. When correcting hyperthyroidism, consider
   whether existing β-blocker, digoxin, and theophylline doses need to be reduced to avoid
   potential toxicities.
-Switch to maintenance dose when patient is euthyroid. Administer all doses with food.$hl_267$, 'pending-clinical-verification'),
-  ($hl_268_id$methylene-blue$hl_268_id$, $hl_268_name$METHYLENE BLUE$hl_268_name$, $hl_268_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_268_source$, 3933941, $hl_268$METHYLENE BLUE
+Switch to maintenance dose when patient is euthyroid. Administer all doses with food.$hl_285$, 'pending-clinical-verification'),
+  ($hl_286_id$methylene-blue$hl_286_id$, $hl_286_name$METHYLENE BLUE$hl_286_name$, $hl_286_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_286_source$, 3933941, $hl_286$METHYLENE BLUE
   ProvayBlue and generics
   Antidote, drug-induced methemoglobinemia, and
                                                                   X       ?      Yes    No     No
@@ -14324,8 +14297,8 @@ Serotonin syndrome has been reported with the coadministration of SSRI, SNRI, or
   venlafaxine, fluoxetine, or desipramine is considered contraindicated.
 The 0.5% concentration dosage form (e.g., ProvayBlue) is hypotonic and may be diluted in 50
   mL D5W to prevent local infusion pain. Avoid diluting in sodium chloride as this may reduce
-  the solubility of methylene blue.$hl_268$, 'pending-clinical-verification'),
-  ($hl_269_id$methylphenidate-hcl$hl_269_id$, $hl_269_name$METHYLPHENIDATE HCL$hl_269_name$, $hl_269_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_269_source$, 3935765, $hl_269$METHYLPHENIDATE HCL
+  the solubility of methylene blue.$hl_286$, 'pending-clinical-verification'),
+  ($hl_287_id$methylphenidate-hcl$hl_287_id$, $hl_287_name$METHYLPHENIDATE HCL$hl_287_name$, $hl_287_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_287_source$, 3935765, $hl_287$METHYLPHENIDATE HCL
   Ritalin, Aptensio XR, Jornay PM, Methylin, Metadate CD,
   Metadate ER, Methylin ER, Concerta, Relexxii,
                                                                    C       2      No       Yes    No
@@ -14503,8 +14476,8 @@ Extended/sustained-release dosage forms have either an 8- or 24-hr dosage interv
   dosed only in the evening and should NOT be taken in the morning. Do not consume alcohol
   with Ritalin LA dosage form, because it may result in a more rapid release of the drug. Do
   not expose transdermal application site to external heat sources (e.g., electric blankets,
-  heating pads); this may increase drug release.$hl_269$, 'pending-clinical-verification'),
-  ($hl_270_id$methylprednisolone$hl_270_id$, $hl_270_name$METHYLPREDNISOLONE$hl_270_name$, $hl_270_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_270_source$, 3947155, $hl_270$METHYLPREDNISOLONE
+  heating pads); this may increase drug release.$hl_287$, 'pending-clinical-verification'),
+  ($hl_288_id$methylprednisolone$hl_288_id$, $hl_288_name$METHYLPREDNISOLONE$hl_288_name$, $hl_288_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_288_source$, 3947155, $hl_288$METHYLPREDNISOLONE
   Medrol, Medrol Dosepack, Solu-Medrol, Depo-Medrol,
   and generics
                                                                    C       2      No     No     No
@@ -14551,8 +14524,8 @@ METHYLPREDNISOLONE continued
   syndrome in patients with malignancies have been reported.
 Barbiturates, phenytoin, and rifampin may enhance methylprednisolone clearance.
   Erythromycin, itraconazole, and ketoconazole may increase methylprednisolone levels.
-  Methylprednisolone may increase cyclosporine and tacrolimus levels.$hl_270$, 'pending-clinical-verification'),
-  ($hl_271_id$metoclopramide$hl_271_id$, $hl_271_name$METOCLOPRAMIDE$hl_271_name$, $hl_271_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_271_source$, 3950130, $hl_271$METOCLOPRAMIDE
+  Methylprednisolone may increase cyclosporine and tacrolimus levels.$hl_288$, 'pending-clinical-verification'),
+  ($hl_289_id$metoclopramide$hl_289_id$, $hl_289_name$METOCLOPRAMIDE$hl_289_name$, $hl_289_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_289_source$, 3950130, $hl_289$METOCLOPRAMIDE
   Reglan and generics
   Antiemetic, prokinetic agent
                                                                   B      2      Yes      No     No
@@ -14577,8 +14550,8 @@ Metoclopramide is a substrate for cytochrome P-450 2D6; inhibitors to this enzym
   increase risk for metoclopramide toxicity. G6PD deficiency may increase risk for
   methemoglobinemia; DO NOT use methylene blue as it may cause a fatal hemolytic anemia.
 For GER, give 30 min before meals and at bedtime. Reduce dose in renal impairment (see
-  Chapter 32).$hl_271$, 'pending-clinical-verification'),
-  ($hl_272_id$metolazone$hl_272_id$, $hl_272_name$METOLAZONE$hl_272_name$, $hl_272_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_272_source$, 3951632, $hl_272$METOLAZONE
+  Chapter 32).$hl_289$, 'pending-clinical-verification'),
+  ($hl_290_id$metolazone$hl_290_id$, $hl_290_name$METOLAZONE$hl_290_name$, $hl_290_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_290_source$, 3951632, $hl_290$METOLAZONE
   Generics; previously available as Zaroxolyn
 
 
@@ -14610,8 +14583,8 @@ Contraindicated in patients with anuria, hepatic coma, or hypersensitivity to su
 Oral suspensions have increased bioavailability; therefore lower doses may be necessary when
   using these dosage forms. More effective than thiazide diuretics in impaired renal function;
   may be effective in GFRs as low as 20 mL/min. Furosemide-resistant edema in pediatric
-  patients may benefit with the addition of metolazone.$hl_272$, 'pending-clinical-verification'),
-  ($hl_273_id$metronidazole$hl_273_id$, $hl_273_name$METRONIDAZOLE$hl_273_name$, $hl_273_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_273_source$, 3953137, $hl_273$METRONIDAZOLE
+  patients may benefit with the addition of metolazone.$hl_290$, 'pending-clinical-verification'),
+  ($hl_291_id$metronidazole$hl_291_id$, $hl_291_name$METRONIDAZOLE$hl_291_name$, $hl_291_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_291_source$, 3953137, $hl_291$METRONIDAZOLE
   Flagyl, Likmez, MetroGel, MetroLotion, MetroCream,
   Noritate, Vandazole, Nuvessa, and generics
                                                                     B      2/?     Yes    Yes    No
@@ -14714,8 +14687,8 @@ Single-dose oral regimen no longer recommended in bacterial vaginosis due to poo
 
 METRONIDAZOLE continued
 IV infusion must be given slowly over 1 hr. For intravenous use in all ages, some references
-   recommend a 15-mg/kg loading dose.$hl_273$, 'pending-clinical-verification'),
-  ($hl_274_id$micafungin-sodium$hl_274_id$, $hl_274_name$MICAFUNGIN SODIUM$hl_274_name$, $hl_274_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_274_source$, 3958621, $hl_274$MICAFUNGIN SODIUM
+   recommend a 15-mg/kg loading dose.$hl_291$, 'pending-clinical-verification'),
+  ($hl_292_id$micafungin-sodium$hl_292_id$, $hl_292_name$MICAFUNGIN SODIUM$hl_292_name$, $hl_292_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_292_source$, 3958621, $hl_292$MICAFUNGIN SODIUM
   Mycamine and generics
   Antifungal, echinocandin
                                                                     C       ?      Yes    Yes    No
@@ -14767,8 +14740,8 @@ MICAFUNGIN SODIUM continued
 Safety and efficacy in children ≤4 mo have been established in patients without
   meningoencephalitis and/or other dissemination. This is supported by adequate and well-
   controlled studies in children ≥4 mo with additional pharmacokinetic/safety data in
-  children <4 mo.$hl_274$, 'pending-clinical-verification'),
-  ($hl_275_id$miconazole$hl_275_id$, $hl_275_name$MICONAZOLE$hl_275_name$, $hl_275_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_275_source$, 3962022, $hl_275$MICONAZOLE
+  children <4 mo.$hl_292$, 'pending-clinical-verification'),
+  ($hl_293_id$miconazole$hl_293_id$, $hl_293_name$MICONAZOLE$hl_293_name$, $hl_293_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_293_source$, 3962022, $hl_293$MICONAZOLE
   Topical products: Micatin, Desenex, Lotrimin AF, and
   other brands & generics
                                                                   C       2     No       No     No
@@ -14823,8 +14796,8 @@ Do not crush, chew, or swallow the buccal tabs. Apply buccal tabs in the morning
 MICONAZOLE continued
   of application, reposition the same tablet immediately. See product information for
   additional information. Oral discomfort, including mouth and tongue ulceration, dry mouth,
-  toothache, and loss of/altered taste, has been reported with use of buccal tabs.$hl_275$, 'pending-clinical-verification'),
-  ($hl_276_id$midazolam$hl_276_id$, $hl_276_name$MIDAZOLAM$hl_276_name$, $hl_276_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_276_source$, 3965318, $hl_276$MIDAZOLAM
+  toothache, and loss of/altered taste, has been reported with use of buccal tabs.$hl_293$, 'pending-clinical-verification'),
+  ($hl_294_id$midazolam$hl_294_id$, $hl_294_name$MIDAZOLAM$hl_294_name$, $hl_294_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_294_source$, 3965318, $hl_294$MIDAZOLAM
   Generics; previously available as Versed; intranasal:
   Nayzilam
                                                                    D       2      Yes    Yes      No
@@ -14903,8 +14876,8 @@ Drug is a substrate for cytochrome P-450 3A4. Serum concentrations may be increa
   cimetidine, clarithromycin, diltiazem, erythromycin, itraconazole, ketoconazole, ranitidine, and
   protease inhibitors (use contraindicated). Sedative effects may be antagonized by theophylline.
   Effects can be reversed by flumazenil. For pharmacodynamic information, see Chapter 6.
-Do not prime Nayzilam intranasal dosage form, because this will promote drug loss.$hl_276$, 'pending-clinical-verification'),
-  ($hl_277_id$milrinone$hl_277_id$, $hl_277_name$MILRINONE$hl_277_name$, $hl_277_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_277_source$, 3970593, $hl_277$MILRINONE
+Do not prime Nayzilam intranasal dosage form, because this will promote drug loss.$hl_294$, 'pending-clinical-verification'),
+  ($hl_295_id$milrinone$hl_295_id$, $hl_295_name$MILRINONE$hl_295_name$, $hl_295_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_295_source$, 3970593, $hl_295$MILRINONE
   Generics; previously available as Primacor
   Inotrope, phosphodiesterase inhibitor
                                                                     C        ?      Yes    No        No
@@ -14927,8 +14900,8 @@ Contraindicated in severe aortic stenosis, severe pulmonic stenosis, and acute M
   min doses because of a faster elimination T1/2 and larger volume of distribution, when
   compared with adults. Hemodynamic effects can last up to 3–5 hr after discontinuation of
   infusion in children. Reduce dose in renal impairment.
-1112          Part IV     Formulary$hl_277$, 'pending-clinical-verification'),
-  ($hl_278_id$mineral-oil$hl_278_id$, $hl_278_name$MINERAL OIL$hl_278_name$, $hl_278_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_278_source$, 3972081, $hl_278$MINERAL OIL
+1112          Part IV     Formulary$hl_295$, 'pending-clinical-verification'),
+  ($hl_296_id$mineral-oil$hl_296_id$, $hl_296_name$MINERAL OIL$hl_296_name$, $hl_296_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_296_source$, 3972081, $hl_296$MINERAL OIL
   Fleet Laxative Mineral Oil, GoodSense Mineral Oil,
   Kondremul, and generics
                                                                   C      2      No     No     No
@@ -14955,8 +14928,8 @@ May cause diarrhea, cramps, and lipid pneumonitis via aspiration. Use as a laxat
   phosphorus, oral contraceptives, and warfarin. Emulsified preparations are more palatable
   and are dosed differently than the oral liquid preparation.
 For disimpaction, doses up to 1 ounce (30 mL) per year of age (max. dose of 240 mL) BID can
-  be given.$hl_278$, 'pending-clinical-verification'),
-  ($hl_279_id$minocycline$hl_279_id$, $hl_279_name$MINOCYCLINE$hl_279_name$, $hl_279_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_279_source$, 3973686, $hl_279$MINOCYCLINE
+  be given.$hl_296$, 'pending-clinical-verification'),
+  ($hl_297_id$minocycline$hl_297_id$, $hl_297_name$MINOCYCLINE$hl_297_name$, $hl_297_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_297_source$, 3973686, $hl_297$MINOCYCLINE
   Minocin, Emrosi, Amzeeq, and generics
   Antibiotic, tetracycline derivative
                                                                   D      2      Yes    Yes    No
@@ -15013,8 +14986,8 @@ May increase effects/toxicity of warfarin and decrease the efficacy of live atte
   Tetracycline for additional drug/food interactions and comments.
 TOPICAL USE: Dosage form is flammable; avoid smoking during and immediately after
   application. Not for oral, ophthalmic, or intravaginal use. Headache is the most common
-  side effect. Hyperpigmentation, erythema, dryness, and itching have also been reported.$hl_279$, 'pending-clinical-verification'),
-  ($hl_280_id$minoxidil$hl_280_id$, $hl_280_name$MINOXIDIL$hl_280_name$, $hl_280_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_280_source$, 3976675, $hl_280$MINOXIDIL
+  side effect. Hyperpigmentation, erythema, dryness, and itching have also been reported.$hl_297$, 'pending-clinical-verification'),
+  ($hl_298_id$minoxidil$hl_298_id$, $hl_298_name$MINOXIDIL$hl_298_name$, $hl_298_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_298_source$, 3976675, $hl_298$MINOXIDIL
 
 
 
@@ -15072,10 +15045,8 @@ Concurrent use of guanethidine may cause profound orthostatic hypotension; use w
 TOPICAL USE: Local irritation, contact dermatitis may occur. Do not use in conjunction with
   other topical agents, including topical corticosteroids, retinoids, or petrolatum, or agents
   that are known to enhance cutaneous drug absorption. Onset of hair growth is 4 mo. Wash
-  hands thoroughly after each application. The 5% solution is flammable.
-
-
-  MOMETASONE FUROATE ± FOMOTEROL FUMARATE
+  hands thoroughly after each application. The 5% solution is flammable.$hl_298$, 'pending-clinical-verification'),
+  ($hl_299_id$mometasone-furoate-fomoterol-fumarate$hl_299_id$, $hl_299_name$MOMETASONE FUROATE ± FOMOTEROL FUMARATE$hl_299_name$, $hl_299_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_299_source$, 3979885, $hl_299$MOMETASONE FUROATE ± FOMOTEROL FUMARATE
   Asmanex, Nasonex, and other generic nasal and topical
   products; previously available as Elocon (topical forms)
                                                                     C       2      No     Yes    No
@@ -15190,8 +15161,8 @@ MOMETASONE + FOMOTEROL (Dulera): Common side effects include nasopharyngitis,
   See Formoterol for additional remarks.
 TOPICAL USE: HPA axis suppression and skin atrophy have been reported with cream and ointment
   use in infants 6–23 mo. Avoid application/contact to face, eyes, underarms, groin, and mucous
-  membranes. Occlusive dressings and use in diaper dermatitis are not recommended.$hl_280$, 'pending-clinical-verification'),
-  ($hl_281_id$montelukast$hl_281_id$, $hl_281_name$MONTELUKAST$hl_281_name$, $hl_281_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_281_source$, 3987431, $hl_281$MONTELUKAST
+  membranes. Occlusive dressings and use in diaper dermatitis are not recommended.$hl_299$, 'pending-clinical-verification'),
+  ($hl_300_id$montelukast$hl_300_id$, $hl_300_name$MONTELUKAST$hl_300_name$, $hl_300_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_300_source$, 3987431, $hl_300$MONTELUKAST
   Singulair and generics
   Antiasthmatic, antiallergy, leukotriene receptor
                                                                     B       1      No     Yes    No
@@ -15226,8 +15197,8 @@ Chewable tablet dosage form is contraindicated in phenylketonuric patients. Side
   been reported.
 Drug is a substrate for cytochrome P-450 3A4 and 2C9. Phenobarbital and rifampin may
   induce hepatic metabolism to increase the clearance of montelukast.
-Doses may be administered with or without food.$hl_281$, 'pending-clinical-verification'),
-  ($hl_282_id$morphine-sulfate$hl_282_id$, $hl_282_name$MORPHINE SULFATE$hl_282_name$, $hl_282_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_282_source$, 3989292, $hl_282$MORPHINE SULFATE
+Doses may be administered with or without food.$hl_300$, 'pending-clinical-verification'),
+  ($hl_301_id$morphine-sulfate$hl_301_id$, $hl_301_name$MORPHINE SULFATE$hl_301_name$, $hl_301_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_301_source$, 3989292, $hl_301$MORPHINE SULFATE
   Duramorph, MS Contin, Avinza, and many generics
   Narcotic, analgesic
                                                                   C/D     2      Yes    Yes     No
@@ -15303,8 +15274,8 @@ The FDA has assigned an REMS for Opioid Analgesia; see https://www.accessdata.fd
   strongly encourages the provider to (1) complete a REMS-compliant education program; (2)
   counsel patients/caregivers on prescription safe use, risks, storage, and disposal; (3)
   emphasize the importance of reading the Medication Guide provided by pharmacists at all
-  times; and (4) consider other methods for improving patient, household, and community safety.$hl_282$, 'pending-clinical-verification'),
-  ($hl_283_id$mupirocin$hl_283_id$, $hl_283_name$MUPIROCIN$hl_283_name$, $hl_283_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_283_source$, 3993508, $hl_283$MUPIROCIN
+  times; and (4) consider other methods for improving patient, household, and community safety.$hl_301$, 'pending-clinical-verification'),
+  ($hl_302_id$mupirocin$hl_302_id$, $hl_302_name$MUPIROCIN$hl_302_name$, $hl_302_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_302_source$, 3993508, $hl_302$MUPIROCIN
   Generics; previously available as Bactroban
   Topical antibiotic
                                                                     B        2      No     No     No
@@ -15332,8 +15303,8 @@ Avoid contact with the eyes. Topical cream is not intended for use in lesions >1
    local irritation and dry skin. Intranasal route may cause nasal stinging, taste disorder,
    headache, rhinitis, and pharyngitis. Severe allergic reactions (e.g., anaphylaxis, urticaria,
    angioedema, and rash) have been reported.
-If clinical response is not apparent in 3–5 days with topical use, reevaluate infection.$hl_283$, 'pending-clinical-verification'),
-  ($hl_284_id$mycophenolate$hl_284_id$, $hl_284_name$MYCOPHENOLATE$hl_284_name$, $hl_284_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_284_source$, 3995176, $hl_284$MYCOPHENOLATE
+If clinical response is not apparent in 3–5 days with topical use, reevaluate infection.$hl_302$, 'pending-clinical-verification'),
+  ($hl_303_id$mycophenolate$hl_303_id$, $hl_303_name$MYCOPHENOLATE$hl_303_name$, $hl_303_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_303_source$, 3995176, $hl_303$MYCOPHENOLATE
   Mycophenolate mofetil: CellCept, Myhibbin, and generics
   Mycophenolic acid: Myfortic and generics
                                                                     D        3     Yes       No    Yes
@@ -15428,8 +15399,8 @@ Administer oral doses on an empty stomach. Infuse intravenous doses over 2 hr. O
  N
 
 
-                                                                                                            FORMULARY$hl_284$, 'pending-clinical-verification'),
-  ($hl_285_id$nafcillin$hl_285_id$, $hl_285_name$NAFCILLIN$hl_285_name$, $hl_285_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_285_source$, 4001142, $hl_285$NAFCILLIN
+                                                                                                            FORMULARY$hl_303$, 'pending-clinical-verification'),
+  ($hl_304_id$nafcillin$hl_304_id$, $hl_304_name$NAFCILLIN$hl_304_name$, $hl_304_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_304_source$, 4001142, $hl_304$NAFCILLIN
   Generics; previously available as Nallpen
   Antibiotic, penicillin (penicillinase resistant)
                                                                     B       2      Yes      Yes     No
@@ -15462,8 +15433,8 @@ Allergic cross-sensitivity with penicillin. Solutions containing dextrose may be
    proteins. Hypokalemia has been reported. Acute interstitial nephritis is rare.
 Cerebrospinal fluid (CSF) penetration is poor unless meninges are inflamed. Use with caution
    in patients with combined renal and hepatic impairment (reduce dose by 33%–50%).
-   Nafcillin may increase elimination of cyclosporine and warfarin.$hl_285$, 'pending-clinical-verification'),
-  ($hl_286_id$naloxone$hl_286_id$, $hl_286_name$NALOXONE$hl_286_name$, $hl_286_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_286_source$, 4002800, $hl_286$NALOXONE
+   Nafcillin may increase elimination of cyclosporine and warfarin.$hl_304$, 'pending-clinical-verification'),
+  ($hl_305_id$naloxone$hl_305_id$, $hl_305_name$NALOXONE$hl_305_name$, $hl_305_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_305_source$, 4002800, $hl_305$NALOXONE
 
 
 
@@ -15536,8 +15507,8 @@ IV administration is preferred for faster onset of action. Onset of action may b
 
 
 
-                                                                                                           FORMULARY$hl_286$, 'pending-clinical-verification'),
-  ($hl_287_id$naproxen-naproxen-sodium$hl_287_id$, $hl_287_name$NAPROXEN/NAPROXEN SODIUM$hl_287_name$, $hl_287_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_287_source$, 4007579, $hl_287$NAPROXEN/NAPROXEN SODIUM
+                                                                                                           FORMULARY$hl_305$, 'pending-clinical-verification'),
+  ($hl_306_id$naproxen-naproxen-sodium$hl_306_id$, $hl_306_name$NAPROXEN/NAPROXEN SODIUM$hl_306_name$, $hl_306_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_306_source$, 4007579, $hl_306$NAPROXEN/NAPROXEN SODIUM
   Naprosyn, EC-Naprosyn, Naprelan, Aleve [OTC], and
   many others, including generics
                                                                     C/X     3      Yes    Yes     No
@@ -15605,14 +15576,14 @@ Pregnancy category is “C” for prior to 30 weeks’ gestation and “X” for
   Avoid use at >30 weeks’ gestation due to increased risk for premature closure of the fetal
   ductus arteriosus. Limit dose and duration of use at 20–30 weeks’ gestation for concerns of
   fetal renal dysfunction and oligohydramnios.
-Administer doses with food or milk to reduce GI discomfort.$hl_287$, 'pending-clinical-verification'),
-  ($hl_288_id$neo-polycin-hc$hl_288_id$, $hl_288_name$NEO-POLYCIN HC$hl_288_name$, $hl_288_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_288_source$, 4011136, $hl_288$NEO-POLYCIN HC
+Administer doses with food or milk to reduce GI discomfort.$hl_306$, 'pending-clinical-verification'),
+  ($hl_307_id$neo-polycin-hc$hl_307_id$, $hl_307_name$NEO-POLYCIN HC$hl_307_name$, $hl_307_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_307_source$, 4011136, $hl_307$NEO-POLYCIN HC
 
-See Neomycin/polymyxin B Ophthalmic Products.$hl_288$, 'pending-clinical-verification'),
-  ($hl_289_id$neo-polymycin-ophthalmic-ointment$hl_289_id$, $hl_289_name$NEO-POLYMYCIN OPHTHALMIC OINTMENT$hl_289_name$, $hl_289_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_289_source$, 4011202, $hl_289$NEO-POLYMYCIN OPHTHALMIC OINTMENT
+See Neomycin/polymyxin B Ophthalmic Products.$hl_307$, 'pending-clinical-verification'),
+  ($hl_308_id$neo-polymycin-ophthalmic-ointment$hl_308_id$, $hl_308_name$NEO-POLYMYCIN OPHTHALMIC OINTMENT$hl_308_name$, $hl_308_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_308_source$, 4011202, $hl_308$NEO-POLYMYCIN OPHTHALMIC OINTMENT
 
-See Neomycin/polymyxin B Ophthalmic Products.$hl_289$, 'pending-clinical-verification'),
-  ($hl_290_id$neomycin-sulfate$hl_290_id$, $hl_290_name$NEOMYCIN SULFATE$hl_290_name$, $hl_290_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_290_source$, 4011287, $hl_290$NEOMYCIN SULFATE
+See Neomycin/polymyxin B Ophthalmic Products.$hl_308$, 'pending-clinical-verification'),
+  ($hl_309_id$neomycin-sulfate$hl_309_id$, $hl_309_name$NEOMYCIN SULFATE$hl_309_name$, $hl_309_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_309_source$, 4011287, $hl_309$NEOMYCIN SULFATE
   Generics
   Antibiotic, aminoglycoside; ammonium detoxicant
                                                                     D        2      Yes    No     No
@@ -15642,8 +15613,8 @@ Contraindicated in ulcerative bowel disease, intestinal obstruction, or aminogly
 
 
 
-                                                                                                            FORMULARY$hl_290$, 'pending-clinical-verification'),
-  ($hl_291_id$neomycin-polymyxin-b-ophthalmic-products$hl_291_id$, $hl_291_name$NEOMYCIN/POLYMYXIN B OPHTHALMIC PRODUCTS$hl_291_name$, $hl_291_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_291_source$, 4012993, $hl_291$NEOMYCIN/POLYMYXIN B OPHTHALMIC PRODUCTS
+                                                                                                            FORMULARY$hl_309$, 'pending-clinical-verification'),
+  ($hl_310_id$neomycin-polymyxin-b-ophthalmic-products$hl_310_id$, $hl_310_name$NEOMYCIN/POLYMYXIN B OPHTHALMIC PRODUCTS$hl_310_name$, $hl_310_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_310_source$, 4012993, $hl_310$NEOMYCIN/POLYMYXIN B OPHTHALMIC PRODUCTS
   Neomycin/Polymyxin B + Bacitracin:
   Neo-Polycin and generics
                                                                    C       2      No       No     No
@@ -15720,8 +15691,8 @@ Contraindicated if patient is hypersensitive to specific medications (e.g., neom
 Ophthalmic solution/suspension: Shake well before use and avoid contamination of tip of eye
   dropper. Apply finger pressure to lacrimal sac during and 1–2 min after dose application.
 Ophthalmic ointment: Do not touch tube tip to eyelids or other surfaces to prevent
-  contamination.$hl_291$, 'pending-clinical-verification'),
-  ($hl_292_id$neomycin-polymyxin-b-bacitracin$hl_292_id$, $hl_292_name$NEOMYCIN/POLYMYXIN B/BACITRACIN$hl_292_name$, $hl_292_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_292_source$, 4017250, $hl_292$NEOMYCIN/POLYMYXIN B/BACITRACIN
+  contamination.$hl_310$, 'pending-clinical-verification'),
+  ($hl_311_id$neomycin-polymyxin-b-bacitracin$hl_311_id$, $hl_311_name$NEOMYCIN/POLYMYXIN B/BACITRACIN$hl_311_name$, $hl_311_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_311_source$, 4017250, $hl_311$NEOMYCIN/POLYMYXIN B/BACITRACIN
   Neosporin Original, Triple Antibiotic, and various
   generics
                                                                    C       ?      No      No    No
@@ -15733,8 +15704,8 @@ For ophthalmic products, see Neomycin/Polymyxin B Ophthalmic Products.
 Prevention of infection from minor cuts, scrapes and burns:
   Child and adult: Apply to minor wounds and burns once daily–TID.
 Do not use for extended periods. May cause superinfection, delayed healing. See Neomycin for
-  additional remarks. Prevalence of neomycin hypersensitivity has increased.$hl_292$, 'pending-clinical-verification'),
-  ($hl_293_id$neostigmine$hl_293_id$, $hl_293_name$NEOSTIGMINE$hl_293_name$, $hl_293_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_293_source$, 4017960, $hl_293$NEOSTIGMINE
+  additional remarks. Prevalence of neomycin hypersensitivity has increased.$hl_311$, 'pending-clinical-verification'),
+  ($hl_312_id$neostigmine$hl_312_id$, $hl_312_name$NEOSTIGMINE$hl_312_name$, $hl_312_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_312_source$, 4017960, $hl_312$NEOSTIGMINE
   Bloxiverz and generics
   Anticholinesterase (cholinergic) agent
                                                                    C       3      Yes    No     No
@@ -15768,8 +15739,8 @@ For diagnosis of myasthenia gravis (MG), administer atropine 0.011 mg/kg/dose IV
   MG, patients may need higher doses of neostigmine at times of greatest fatigue.
 Antidote: Atropine 0.01–0.04 mg/kg/dose. Atropine and epinephrine should be available in the
   event of a hypersensitivity reaction.
-Adjust dose in renal failure (see Chapter 32).$hl_293$, 'pending-clinical-verification'),
-  ($hl_294_id$nevirapine$hl_294_id$, $hl_294_name$NEVIRAPINE$hl_294_name$, $hl_294_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_294_source$, 4019973, $hl_294$NEVIRAPINE
+Adjust dose in renal failure (see Chapter 32).$hl_312$, 'pending-clinical-verification'),
+  ($hl_313_id$nevirapine$hl_313_id$, $hl_313_name$NEVIRAPINE$hl_313_name$, $hl_313_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_313_source$, 4019973, $hl_313$NEVIRAPINE
   Generics; previously available as Viramune; NVP
   Antiviral, nonnucleoside reverse transcriptase
                                                                     B       2      Yes    Yes     No
@@ -15843,8 +15814,8 @@ Nevirapine induces the cytochrome P-450 3A4 drug-metabolizing isoenzyme to cause
    potential to interact with many drugs. Carefully review the patient’s drug profile for other
    drug interactions each time nevirapine is initiated or when a new drug is added to a
    regimen containing nevirapine.
-Doses can be administered with food and concurrently with didanosine.$hl_294$, 'pending-clinical-verification'),
-  ($hl_295_id$niacin-vitamin-b3$hl_295_id$, $hl_295_name$NIACIN/VITAMIN B3$hl_295_name$, $hl_295_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_295_source$, 4024916, $hl_295$NIACIN/VITAMIN B3
+Doses can be administered with food and concurrently with didanosine.$hl_313$, 'pending-clinical-verification'),
+  ($hl_314_id$niacin-vitamin-b3$hl_314_id$, $hl_314_name$NIACIN/VITAMIN B3$hl_314_name$, $hl_314_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_314_source$, 4024916, $hl_314$NIACIN/VITAMIN B3
   Niacor, Slo-Niacin, Nicotinic acid, Vitamin B3, and many
   generics
                                                                     A/C      2      Yes    Yes    No
@@ -15886,8 +15857,8 @@ Use with statins may increase the risk of myopathy/rhabdomyolysis. Bile acid seq
 Pregnancy category changes to “C” if used in doses above the RDA or for typical doses used
   for lipid disorders. Breastfeeding should be discontinued when used for the treatment of
   dyslipidemias for mothers as hepatotoxicity is a potential to the infant. See Chapter 21 for
-  multivitamin preparations.$hl_295$, 'pending-clinical-verification'),
-  ($hl_296_id$nicardipine$hl_296_id$, $hl_296_name$NICARDIPINE$hl_296_name$, $hl_296_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_296_source$, 4027139, $hl_296$NICARDIPINE
+  multivitamin preparations.$hl_314$, 'pending-clinical-verification'),
+  ($hl_315_id$nicardipine$hl_315_id$, $hl_315_name$NICARDIPINE$hl_315_name$, $hl_315_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_315_source$, 4027139, $hl_315$NICARDIPINE
   Cardene IV and generics
   Calcium channel blocker, antihypertensive
                                                                     C       1      Yes    Yes     No
@@ -15934,8 +15905,8 @@ Onset of action for orally administered drug is 20 min with peak effects in 0.5�
   or PO dose is 3 hr. To reduce the risk for venous thrombosis, phlebitis, and vascular
   impairment with IV administration, do not use small veins (e.g., dorsum of hand or wrist).
   Avoid intra-arterial administration or extravasation. For additional information, see
-  Chapter 4.$hl_296$, 'pending-clinical-verification'),
-  ($hl_297_id$nifedipine$hl_297_id$, $hl_297_name$NIFEDIPINE$hl_297_name$, $hl_297_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_297_source$, 4029831, $hl_297$NIFEDIPINE
+  Chapter 4.$hl_315$, 'pending-clinical-verification'),
+  ($hl_316_id$nifedipine$hl_316_id$, $hl_316_name$NIFEDIPINE$hl_316_name$, $hl_316_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_316_source$, 4029831, $hl_316$NIFEDIPINE
   Procardia XL and many generics; previously available as
   Procardia and Adalat CC
                                                                     C       2      No     Yes    No
@@ -15978,8 +15949,8 @@ NIFEDIPINE continued
                                                                                                           FORMULARY
 For sublingual (SL) administration, capsule must be punctured and liquid expressed into the
   patient’s mouth. A small amount is absorbed via the SL route. Most effects are due to
-  swallowing and oral absorption. Do not crush or chew sustained-release tablet dosage form.$hl_297$, 'pending-clinical-verification'),
-  ($hl_298_id$nirsevimab$hl_298_id$, $hl_298_name$NIRSEVIMAB$hl_298_name$, $hl_298_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_298_source$, 4032623, $hl_298$NIRSEVIMAB
+  swallowing and oral absorption. Do not crush or chew sustained-release tablet dosage form.$hl_316$, 'pending-clinical-verification'),
+  ($hl_317_id$nirsevimab$hl_317_id$, $hl_317_name$NIRSEVIMAB$hl_317_name$, $hl_317_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_317_source$, 4032623, $hl_317$NIRSEVIMAB
   Beyfortus
   Monoclonal antibody
                                                                     ?       ?      No       No    No
@@ -16028,8 +15999,8 @@ Administer IM in the anterolateral aspect of the thigh. Inject at different site
    are required but not at the gluteal region due to the risk for sciatic nerve damage.
    Medication may be kept at room temperature for a maximum of 8 hr after removal from the
    refrigerator.
-1132          Part IV      Formulary$hl_298$, 'pending-clinical-verification'),
-  ($hl_299_id$nitrofurantoin$hl_299_id$, $hl_299_name$NITROFURANTOIN$hl_299_name$, $hl_299_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_299_source$, 4035617, $hl_299$NITROFURANTOIN
+1132          Part IV      Formulary$hl_317$, 'pending-clinical-verification'),
+  ($hl_318_id$nitrofurantoin$hl_318_id$, $hl_318_name$NITROFURANTOIN$hl_318_name$, $hl_318_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_318_source$, 4035617, $hl_318$NITROFURANTOIN
   Macrodantin, Macrobid, and generics; previously
   available as Furadantin
                                                                    B/X     2      Yes    Yes    No
@@ -16062,8 +16033,8 @@ Anticholinergic drugs and high-dose probenecid may increase nitrofurantoin toxic
 Pregnancy category changes to “X” at term (38–42 weeks’ gestation) and during labor due to
   the potential for hemolytic anemia in the neonate. Breastfeeding by mothers receiving
   nitrofurantoin is not recommended for infants younger than 1 mo and those with G6PD
-  deficiency; use with infants 1 mo or older and without G6PD deficiency is compatible.$hl_299$, 'pending-clinical-verification'),
-  ($hl_300_id$nitroglycerin$hl_300_id$, $hl_300_name$NITROGLYCERIN$hl_300_name$, $hl_300_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_300_source$, 4037759, $hl_300$NITROGLYCERIN
+  deficiency; use with infants 1 mo or older and without G6PD deficiency is compatible.$hl_318$, 'pending-clinical-verification'),
+  ($hl_319_id$nitroglycerin$hl_319_id$, $hl_319_name$NITROGLYCERIN$hl_319_name$, $hl_319_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_319_source$, 4037759, $hl_319$NITROGLYCERIN
   Nitro-Bid, Nitrostat, Nitro-Time, Nitro-Dur, Nitrolingual,
   Rectiv, and generics
                                                                    C       3      Yes    Yes    No
@@ -16145,8 +16116,8 @@ Decrease dose gradually in patients receiving drug for prolonged periods to avoi
 NITROGLYCERIN continued
 Onset (duration) of action: IV: 1–2 min (3–5 min); sublingual: 1–3 min (30–60 min); PO
   sustained release: 40 min (4–8 hr); topical ointment: 20–60 min (2–12 hr); and
-  transdermal patch: 40–60 min (18–24 hr).$hl_300$, 'pending-clinical-verification'),
-  ($hl_301_id$nitroprusside$hl_301_id$, $hl_301_name$NITROPRUSSIDE$hl_301_name$, $hl_301_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_301_source$, 4042788, $hl_301$NITROPRUSSIDE
+  transdermal patch: 40–60 min (18–24 hr).$hl_319$, 'pending-clinical-verification'),
+  ($hl_320_id$nitroprusside$hl_320_id$, $hl_320_name$NITROPRUSSIDE$hl_320_name$, $hl_320_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_320_source$, 4042788, $hl_320$NITROPRUSSIDE
   Nipride RTU and generics
   Vasodilator, antihypertensive
                                                                        C       X      Yes     Yes    No
@@ -16168,8 +16139,8 @@ Nitroprusside is nonenzymatically converted to cyanide, which is converted to th
    a dose ≥4 mCg/kg/min. Thiocyanate levels should be <50 mg/L. Monitor cyanide levels
    (toxic levels >2 mCg/mL) in patients with hepatic dysfunction and thiocyanate levels in
    patients with renal dysfunction.
-Onset of action is 2 min with a 1–10-min duration of effect.$hl_301$, 'pending-clinical-verification'),
-  ($hl_302_id$norepinephrine-bitartrate$hl_302_id$, $hl_302_name$NOREPINEPHRINE BITARTRATE$hl_302_name$, $hl_302_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_302_source$, 4044221, $hl_302$NOREPINEPHRINE BITARTRATE
+Onset of action is 2 min with a 1–10-min duration of effect.$hl_320$, 'pending-clinical-verification'),
+  ($hl_321_id$norepinephrine-bitartrate$hl_321_id$, $hl_321_name$NOREPINEPHRINE BITARTRATE$hl_321_name$, $hl_321_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_321_source$, 4044221, $hl_321$NOREPINEPHRINE BITARTRATE
   Levophed and generics
   Adrenergic agonist
                                                                        C       ?      Yes      No    No
@@ -16191,8 +16162,8 @@ May cause cardiac arrhythmias, hypertension, hypersensitivity, headaches, vomiti
 
 
 
-                                                                                                            FORMULARY$hl_302$, 'pending-clinical-verification'),
-  ($hl_303_id$nortriptyline-hydrochloride$hl_303_id$, $hl_303_name$NORTRIPTYLINE HYDROCHLORIDE$hl_303_name$, $hl_303_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_303_source$, 4045526, $hl_303$NORTRIPTYLINE HYDROCHLORIDE
+                                                                                                            FORMULARY$hl_321$, 'pending-clinical-verification'),
+  ($hl_322_id$nortriptyline-hydrochloride$hl_322_id$, $hl_322_name$NORTRIPTYLINE HYDROCHLORIDE$hl_322_name$, $hl_322_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_322_source$, 4045526, $hl_322$NORTRIPTYLINE HYDROCHLORIDE
   Pamelor and generics
   Antidepressant, tricyclic
                                                                     C       2      No        Yes   Yes
@@ -16235,8 +16206,8 @@ Therapeutic nortriptyline levels for depression: 50–150 ng/mL. Recommended ser
 
                                                                                                           For explanation of icons, see p. 814
    continuous dosing for children and after 9–10 days for adults).
-Administer with food to decrease GI upset.$hl_303$, 'pending-clinical-verification'),
-  ($hl_304_id$nystatin$hl_304_id$, $hl_304_name$NYSTATIN$hl_304_name$, $hl_304_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_304_source$, 4048162, $hl_304$NYSTATIN
+Administer with food to decrease GI upset.$hl_322$, 'pending-clinical-verification'),
+  ($hl_323_id$nystatin$hl_323_id$, $hl_323_name$NYSTATIN$hl_323_name$, $hl_323_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_323_source$, 4048162, $hl_323$NYSTATIN
   Klayesta, Nyamyc, Nystop, and generics; previously
   available as Mycostatin and Nilstat
                                                                     C        2      No       No     No
@@ -16266,8 +16237,8 @@ May produce diarrhea and GI side effects. Local irritation, contact dermatitis, 
   Drug is poorly absorbed through the GI tract. Oral suspension should be swished about the
   mouth and retained in the mouth as long as possible before swallowing.
 
- O$hl_304$, 'pending-clinical-verification'),
-  ($hl_305_id$octreotide-acetate$hl_305_id$, $hl_305_name$OCTREOTIDE ACETATE$hl_305_name$, $hl_305_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_305_source$, 4049582, $hl_305$OCTREOTIDE ACETATE
+ O$hl_323$, 'pending-clinical-verification'),
+  ($hl_324_id$octreotide-acetate$hl_324_id$, $hl_324_name$OCTREOTIDE ACETATE$hl_324_name$, $hl_324_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_324_source$, 4049582, $hl_324$OCTREOTIDE ACETATE
   Sandostatin, Sandostatin LAR Depot, and generics
   Somatostatin analog, antisecretory agent
                                                                     B       2      Yes     No    No
@@ -16310,8 +16281,8 @@ OCTREOTIDE ACETATE continued
   growth hormone suppression.
 Sandostatin LAR Depot is administered once every 4 wk only by the IM route and is currently
   indicated for use in adults who have been stabilized on IV/SC therapy. See package insert
-  for details.$hl_305$, 'pending-clinical-verification'),
-  ($hl_306_id$ofloxacin-otic-and-ophthalmic$hl_306_id$, $hl_306_name$OFLOXACIN (OTIC AND OPHTHALMIC)$hl_306_name$, $hl_306_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_306_source$, 4052579, $hl_306$OFLOXACIN (OTIC AND OPHTHALMIC)
+  for details.$hl_324$, 'pending-clinical-verification'),
+  ($hl_325_id$ofloxacin-otic-and-ophthalmic$hl_325_id$, $hl_325_name$OFLOXACIN (OTIC AND OPHTHALMIC)$hl_325_name$, $hl_325_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_325_source$, 4052579, $hl_325$OFLOXACIN (OTIC AND OPHTHALMIC)
   Ocuflox and generics; previously available as Floxin and
   Floxin Otic
                                                                       C       2      No       No     No
@@ -16351,8 +16322,8 @@ When otic solution is being used, the solution should be warmed by holding the b
   middle ear.
 Systemic use of ofloxacin is typically replaced by levofloxacin, its S-isomer, which has a more
   favorable side effect profile than ofloxacin. See Levofloxacin.
-1138          Part IV      Formulary$hl_306$, 'pending-clinical-verification'),
-  ($hl_307_id$olanzapine$hl_307_id$, $hl_307_name$OLANZAPINE$hl_307_name$, $hl_307_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_307_source$, 4054833, $hl_307$OLANZAPINE
+1138          Part IV      Formulary$hl_325$, 'pending-clinical-verification'),
+  ($hl_326_id$olanzapine$hl_326_id$, $hl_326_name$OLANZAPINE$hl_326_name$, $hl_326_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_326_source$, 4054833, $hl_326$OLANZAPINE
   Zyprexa, Zyprexa Relprevv, and generics
   Antipsychotic, atypical second generation
                                                                    C       2      No     Yes    No
@@ -16468,8 +16439,8 @@ Zyprexa Relprevv (long-acting IM injection): Postinjection delirium and sedation
   have been reported with this dosage form. Patients must be observed by a healthcare
   provider at a healthcare facility for at least 3 hr after administration. The FDA REMS
   program requires prescribers, healthcare facilities, and pharmacies to register with the
-  Zyprexa Relprevv Patient Care Program at 1-877-772-9390 for use of this product.$hl_307$, 'pending-clinical-verification'),
-  ($hl_308_id$olopatadine$hl_308_id$, $hl_308_name$OLOPATADINE$hl_308_name$, $hl_308_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_308_source$, 4062664, $hl_308$OLOPATADINE
+  Zyprexa Relprevv Patient Care Program at 1-877-772-9390 for use of this product.$hl_326$, 'pending-clinical-verification'),
+  ($hl_327_id$olopatadine$hl_327_id$, $hl_327_name$OLOPATADINE$hl_327_name$, $hl_327_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_327_source$, 4062664, $hl_327$OLOPATADINE
   Pataday and generics
   Antihistamine
                                                                       C       2/?    No       No    No
@@ -16500,8 +16471,8 @@ To reduce the risk of drug being systemically absorbed with ophthalmic use, plac
   absorbent tissue. A combination intranasal product of olopatadine and mometasone
   (Ryaltris) is available for seasonal allergic rhinitis and currently indicated for children >12
   yr and adults. Breast feeding is a “2” with the ophthalmic dosage forms and unknown with
-  the nasal spray dosage form.$hl_308$, 'pending-clinical-verification'),
-  ($hl_309_id$omeprazole$hl_309_id$, $hl_309_name$OMEPRAZOLE$hl_309_name$, $hl_309_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_309_source$, 4064781, $hl_309$OMEPRAZOLE
+  the nasal spray dosage form.$hl_327$, 'pending-clinical-verification'),
+  ($hl_328_id$omeprazole$hl_328_id$, $hl_328_name$OMEPRAZOLE$hl_328_name$, $hl_328_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_328_source$, 4064781, $hl_328$OMEPRAZOLE
   Prilosec, Prilosec OTC, and generics
   In combination with sodium bicarbonate: Zegerid,
                                                                      C       2      Yes     Yes     Yes
@@ -16568,11 +16539,11 @@ Administer all doses before meals. Administer 30 min prior to sucralfate. Capsul
   administered in an acidic beverage (e.g., apple juice, cranberry juice) or applesauce. The
   extemporaneously compounded oral suspension product may be less bioavailable due to the
   loss of the enteric coating.
-1142           Part IV    Formulary$hl_309$, 'pending-clinical-verification'),
-  ($hl_310_id$omnipaque$hl_310_id$, $hl_310_name$OMNIPAQUE$hl_310_name$, $hl_310_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_310_source$, 4068854, $hl_310$OMNIPAQUE
+1142           Part IV    Formulary$hl_328$, 'pending-clinical-verification'),
+  ($hl_329_id$omnipaque$hl_329_id$, $hl_329_name$OMNIPAQUE$hl_329_name$, $hl_329_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_329_source$, 4068854, $hl_329$OMNIPAQUE
 
-See Iohexol.$hl_310$, 'pending-clinical-verification'),
-  ($hl_311_id$ondansetron$hl_311_id$, $hl_311_name$ONDANSETRON$hl_311_name$, $hl_311_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_311_source$, 4068882, $hl_311$ONDANSETRON
+See Iohexol.$hl_329$, 'pending-clinical-verification'),
+  ($hl_330_id$ondansetron$hl_330_id$, $hl_330_name$ONDANSETRON$hl_330_name$, $hl_330_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_330_source$, 4068882, $hl_330$ONDANSETRON
   Generics; previously available as Zofran
   Antiemetic agent, 5-HT3 antagonist
                                                                 B       1      No     Yes     Yes
@@ -16650,11 +16621,11 @@ Ondansetron is a substrate for cytochrome P-450 (CYP) 1A2, 2D6, 2E1, and 3A3/3A4
   apomorphine may result in profound hypotension and loss of consciousness and is
   contraindicated.
 To administer the oral film dosage form (Zuplenz), film must be placed on top of patient’s
-  tongue, allowed to dissolve completely in 4–20 sec, and swallowed with or without liquid.$hl_311$, 'pending-clinical-verification'),
-  ($hl_312_id$orkambi$hl_312_id$, $hl_312_name$ORKAMBI$hl_312_name$, $hl_312_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_312_source$, 4073611, $hl_312$ORKAMBI
+  tongue, allowed to dissolve completely in 4–20 sec, and swallowed with or without liquid.$hl_330$, 'pending-clinical-verification'),
+  ($hl_331_id$orkambi$hl_331_id$, $hl_331_name$ORKAMBI$hl_331_name$, $hl_331_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_331_source$, 4073611, $hl_331$ORKAMBI
 
-See Lumacaftor and Ivacaftor.$hl_312$, 'pending-clinical-verification'),
-  ($hl_313_id$oseltamivir-phosphate$hl_313_id$, $hl_313_name$OSELTAMIVIR PHOSPHATE$hl_313_name$, $hl_313_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_313_source$, 4073654, $hl_313$OSELTAMIVIR PHOSPHATE
+See Lumacaftor and Ivacaftor.$hl_331$, 'pending-clinical-verification'),
+  ($hl_332_id$oseltamivir-phosphate$hl_332_id$, $hl_332_name$OSELTAMIVIR PHOSPHATE$hl_332_name$, $hl_332_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_332_source$, 4073654, $hl_332$OSELTAMIVIR PHOSPHATE
 
 
 
@@ -16726,8 +16697,8 @@ Dosage adjustments in hepatic impairment, severe renal disease, and dialysis hav
 
 
 
-                                                                                                          FORMULARY$hl_313$, 'pending-clinical-verification'),
-  ($hl_314_id$oxacillin$hl_314_id$, $hl_314_name$OXACILLIN$hl_314_name$, $hl_314_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_314_source$, 4077535, $hl_314$OXACILLIN
+                                                                                                          FORMULARY$hl_332$, 'pending-clinical-verification'),
+  ($hl_333_id$oxacillin$hl_333_id$, $hl_333_name$OXACILLIN$hl_333_name$, $hl_333_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_333_source$, 4077535, $hl_333$OXACILLIN
   Various generics
   Antibiotic, penicillin (penicillinase resistant)
                                                                   B       2      Yes       Yes    No
@@ -16758,8 +16729,8 @@ Probenecid increases serum oxacillin levels. Tetracyclines may antagonize the ba
   effects of oxacillin.
 CSF penetration is poor unless meninges are inflamed. Use the lower end of the usual dosage
   range for patients with creatinine clearances <10 mL/min. Adjust dose in renal failure
-  (see Chapter 32).$hl_314$, 'pending-clinical-verification'),
-  ($hl_315_id$oxcarbazepine$hl_315_id$, $hl_315_name$OXCARBAZEPINE$hl_315_name$, $hl_315_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_315_source$, 4079134, $hl_315$OXCARBAZEPINE
+  (see Chapter 32).$hl_333$, 'pending-clinical-verification'),
+  ($hl_334_id$oxcarbazepine$hl_334_id$, $hl_334_name$OXCARBAZEPINE$hl_334_name$, $hl_334_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_334_source$, 4079134, $hl_334$OXCARBAZEPINE
   Trileptal, Oxtellar XR, and generics
   Anticonvulsant
                                                                  C       2      Yes        Yes   Yes
@@ -16866,8 +16837,8 @@ If GFR <30 mL/min, adjust dosage by administering 50% of the normal starting dos
    Chapter 32). No dosage adjustment is required in mild/moderate hepatic impairment. Use
    is not recommended in severe hepatic impairment due to lack of information.
 Extended-release and immediate-release products are not bioequivalent, as higher doses of the
-   extended-release product may be necessary. Doses may be administered with or without food.$hl_315$, 'pending-clinical-verification'),
-  ($hl_316_id$oxybutynin-chloride$hl_316_id$, $hl_316_name$OXYBUTYNIN CHLORIDE$hl_316_name$, $hl_316_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_316_source$, 4085872, $hl_316$OXYBUTYNIN CHLORIDE
+   extended-release product may be necessary. Doses may be administered with or without food.$hl_334$, 'pending-clinical-verification'),
+  ($hl_335_id$oxybutynin-chloride$hl_335_id$, $hl_335_name$OXYBUTYNIN CHLORIDE$hl_335_name$, $hl_335_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_335_source$, 4085872, $hl_335$OXYBUTYNIN CHLORIDE
   Oxytrol, Oxytrol for Women, and generics; previously
   available as Ditropan
                                                                   B        3     Yes       Yes    No
@@ -16912,8 +16883,8 @@ Use with caution in hepatic or renal disease, hyperthyroidism, GE reflux, IBD, c
 Dosage adjustments for the extended-release dosage form are at weekly intervals. The
   extended-release tablets should not be crushed, chewed, or divided. Transdermal systems
   (patches) should not be cut. Apply transdermal system on dry intact skin on the abdomen,
-  hip, or buttock; rotate the site and avoid same-site application within 7 days.$hl_316$, 'pending-clinical-verification'),
-  ($hl_317_id$oxycodone$hl_317_id$, $hl_317_name$OXYCODONE$hl_317_name$, $hl_317_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_317_source$, 4088366, $hl_317$OXYCODONE
+  hip, or buttock; rotate the site and avoid same-site application within 7 days.$hl_335$, 'pending-clinical-verification'),
+  ($hl_336_id$oxycodone$hl_336_id$, $hl_336_name$OXYCODONE$hl_336_name$, $hl_336_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_336_source$, 4088366, $hl_336$OXYCODONE
   OxyContin, Roxicodone, RoxyBond, Oxaydo, Xtampza ER,
   and many others, including generics
                                                                    B/D     2      Yes    Yes    No
@@ -16962,8 +16933,8 @@ The FDA has assigned a Risk Evaluation and Mitigation Strategy (REMS) for opioid
   complete a REMS-compliant education program; (2) counsel patients/caregivers on
   prescription safe use, risks, storage, and disposal; (3) emphasize the importance of reading
   the medication guide provided by pharmacists at all times; and (4) consider other methods
-  for improving patient, household, and community safety.$hl_317$, 'pending-clinical-verification'),
-  ($hl_318_id$oxycodone-and-acetaminophen$hl_318_id$, $hl_318_name$OXYCODONE AND ACETAMINOPHEN$hl_318_name$, $hl_318_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_318_source$, 4091370, $hl_318$OXYCODONE AND ACETAMINOPHEN
+  for improving patient, household, and community safety.$hl_336$, 'pending-clinical-verification'),
+  ($hl_337_id$oxycodone-and-acetaminophen$hl_337_id$, $hl_337_name$OXYCODONE AND ACETAMINOPHEN$hl_337_name$, $hl_337_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_337_source$, 4091370, $hl_337$OXYCODONE AND ACETAMINOPHEN
   Endocet, Percocet, Prolate, and many others, including
   generics
                                                                     C       2      Yes       Yes    No
@@ -16993,8 +16964,8 @@ The FDA has assigned a Risk Evaluation and Mitigation Strategy (REMS) for Opioid
   (1) complete a REMS-compliant education program; (2) counsel patients/caregivers on
   prescription safe use, risks, storage and disposal; (3) emphasize the importance of reading
   the Medication Guide provided by pharmacists at all times; and (4) consider other methods
-  for improving patient, household, and community safety.$hl_318$, 'pending-clinical-verification'),
-  ($hl_319_id$oxycodone-and-aspirin$hl_319_id$, $hl_319_name$OXYCODONE AND ASPIRIN$hl_319_name$, $hl_319_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_319_source$, 4092937, $hl_319$OXYCODONE AND ASPIRIN
+  for improving patient, household, and community safety.$hl_337$, 'pending-clinical-verification'),
+  ($hl_338_id$oxycodone-and-aspirin$hl_338_id$, $hl_338_name$OXYCODONE AND ASPIRIN$hl_338_name$, $hl_338_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_338_source$, 4092937, $hl_338$OXYCODONE AND ASPIRIN
   Various generics; previously available as Percodan and
   Endodan
                                                                     D       2      Yes       Yes    No
@@ -17017,8 +16988,8 @@ The FDA has assigned a Risk Evaluation and Mitigation Strategy (REMS) for Opioid
   complete a REMS-compliant education program; (2) counsel patients/caregivers on
   prescription safe use, risks, storage and disposal; (3) emphasize the importance of reading
   the Medication Guide provided by pharmacists at all times; and (4) consider other methods
-  for improving patient, household, and community safety.$hl_319$, 'pending-clinical-verification'),
-  ($hl_320_id$oxymetazoline$hl_320_id$, $hl_320_name$OXYMETAZOLINE$hl_320_name$, $hl_320_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_320_source$, 4094250, $hl_320$OXYMETAZOLINE
+  for improving patient, household, and community safety.$hl_338$, 'pending-clinical-verification'),
+  ($hl_339_id$oxymetazoline$hl_339_id$, $hl_339_name$OXYMETAZOLINE$hl_339_name$, $hl_339_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_339_source$, 4094250, $hl_339$OXYMETAZOLINE
   Afrin, Vicks Sinex 12 Hour , Nostrilla, and many others,
   including generics
                                                                     C        2      No      No    No
@@ -17036,8 +17007,8 @@ Accidental ingestion in children <5 yr has been reported and required hospitaliz
   adverse events (nausea, vomiting, lethargy, tachycardia, respiratory depression, bradycardia,
   hypotension, hypertension, sedation, mydriasis, stupor, hypothermia, drooling, and coma).
 
- P$hl_320$, 'pending-clinical-verification'),
-  ($hl_321_id$palivizumab$hl_321_id$, $hl_321_name$PALIVIZUMAB$hl_321_name$, $hl_321_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_321_source$, 4095339, $hl_321$PALIVIZUMAB
+ P$hl_339$, 'pending-clinical-verification'),
+  ($hl_340_id$palivizumab$hl_340_id$, $hl_340_name$PALIVIZUMAB$hl_340_name$, $hl_340_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_340_source$, 4095339, $hl_340$PALIVIZUMAB
   Synagis
   Monoclonal antibody
                                                                     C        ?      No      No    No
@@ -17104,8 +17075,8 @@ Cardiopulmonary bypass and extracorporeal membrane oxygenation (ECMO) will signi
   ECMO even if it is <1 mo from the previous dose.
 Each dose should be administered IM in the anterolateral aspect of the thigh. It is
   recommended to divide doses with total injection volumes >1 mL. Avoid injection in the
-  gluteal muscle because of risk for damage to the sciatic nerve.$hl_321$, 'pending-clinical-verification'),
-  ($hl_322_id$pancrelipase-pancreatic-enzymes$hl_322_id$, $hl_322_name$PANCRELIPASE/PANCREATIC ENZYMES$hl_322_name$, $hl_322_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_322_source$, 4099477, $hl_322$PANCRELIPASE/PANCREATIC ENZYMES
+  gluteal muscle because of risk for damage to the sciatic nerve.$hl_340$, 'pending-clinical-verification'),
+  ($hl_341_id$pancrelipase-pancreatic-enzymes$hl_341_id$, $hl_341_name$PANCRELIPASE/PANCREATIC ENZYMES$hl_341_name$, $hl_341_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_341_source$, 4099477, $hl_341$PANCRELIPASE/PANCREATIC ENZYMES
   Creon Pancreaze Pertzye Viokace and Zenpep
   Pancreatic enzyme
                                                                      C       1      No       No     No
@@ -17192,8 +17163,8 @@ Avoid use of generic pancreatic enzyme products because they have been associate
   treatment failures. Products not approved by the U.S. Food and Drug Administration are no
   longer allowed to be distributed in the United States.
 Patients requiring enzyme supplementation who receive enteral feeding via a feeding tube
-  may alternatively use a digestive enzyme cartridge (RELiZORB).$hl_322$, 'pending-clinical-verification'),
-  ($hl_323_id$pantoprazole$hl_323_id$, $hl_323_name$PANTOPRAZOLE$hl_323_name$, $hl_323_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_323_source$, 4104705, $hl_323$PANTOPRAZOLE
+  may alternatively use a digestive enzyme cartridge (RELiZORB).$hl_341$, 'pending-clinical-verification'),
+  ($hl_342_id$pantoprazole$hl_342_id$, $hl_342_name$PANTOPRAZOLE$hl_342_name$, $hl_342_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_342_source$, 4104705, $hl_342$PANTOPRAZOLE
   Protonix and generics
   Gastric acid pump inhibitor
                                                                   B       1      Yes       Yes   Yes
@@ -17271,8 +17242,8 @@ Children 1–2 yr of age have demonstrated more rapid clearance of pantoprazole 
   nasogastric (NG) administration.
 For IV infusion, doses may be administered over 15 min at a concentration of 0.4–0.8 mg/mL
   or over 2 min at a concentration of 4 mg/mL. Midazolam and zinc are not compatible with
-  the IV dosage form. Parenteral routes other than IV are not recommended.$hl_323$, 'pending-clinical-verification'),
-  ($hl_324_id$paromomycin-sulfate$hl_324_id$, $hl_324_name$PAROMOMYCIN SULFATE$hl_324_name$, $hl_324_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_324_source$, 4109198, $hl_324$PAROMOMYCIN SULFATE
+  the IV dosage form. Parenteral routes other than IV are not recommended.$hl_342$, 'pending-clinical-verification'),
+  ($hl_343_id$paromomycin-sulfate$hl_343_id$, $hl_343_name$PAROMOMYCIN SULFATE$hl_343_name$, $hl_343_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_343_source$, 4109198, $hl_343$PAROMOMYCIN SULFATE
   Humatin and generics
   Amebicide, antibiotic (aminoglycoside)
                                                                       C       1      No      No     No
@@ -17296,8 +17267,8 @@ Contraindicated in intestinal obstruction. Use with caution in ulcerative bowel 
   avoid renal toxicity via systemic absorption. Drug is generally poorly absorbed and therefore
   not indicated for sole treatment of extraintestinal amebiasis. Side effects include GI
   disturbance, hematuria, rash, ototoxicity, and hypocholesterolemia. Bacterial overgrowth of
-  nonsusceptible organisms, including fungi, may occur. May decrease the effects of digoxin.$hl_324$, 'pending-clinical-verification'),
-  ($hl_325_id$paroxetine$hl_325_id$, $hl_325_name$PAROXETINE$hl_325_name$, $hl_325_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_325_source$, 4110623, $hl_325$PAROXETINE
+  nonsusceptible organisms, including fungi, may occur. May decrease the effects of digoxin.$hl_343$, 'pending-clinical-verification'),
+  ($hl_344_id$paroxetine$hl_344_id$, $hl_344_name$PAROXETINE$hl_344_name$, $hl_344_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_344_source$, 4110623, $hl_344$PAROXETINE
   Paxil, Paxil CR, and generics
   Antidepressant, selective serotonin reuptake inhibitor
                                                                     D       2      Yes       Yes   Yes
@@ -17361,8 +17332,8 @@ Paroxetine is an inhibitor and substrate for cytochrome P-450 (CYP) 2D6. Ultrame
   increase the effect/toxicity of paroxetine. Weakness, hyperreflexia, and poor coordination
   have been reported when taken with sumatriptan.
 Do not discontinue therapy abruptly; may cause sweating, dizziness, confusion, and tremor.
-  May be taken with or without food.$hl_325$, 'pending-clinical-verification'),
-  ($hl_326_id$penicillin-g-preparations-aqueous-potassium-and-sodium$hl_326_id$, $hl_326_name$PENICILLIN G PREPARATIONS—AQUEOUS POTASSIUM AND SODIUM$hl_326_name$, $hl_326_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_326_source$, 4114904, $hl_326$PENICILLIN G PREPARATIONS—AQUEOUS POTASSIUM
+  May be taken with or without food.$hl_344$, 'pending-clinical-verification'),
+  ($hl_345_id$penicillin-g-preparations-aqueous-potassium-and-sodium$hl_345_id$, $hl_345_name$PENICILLIN G PREPARATIONS—AQUEOUS POTASSIUM AND SODIUM$hl_345_name$, $hl_345_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_345_source$, 4114904, $hl_345$PENICILLIN G PREPARATIONS—AQUEOUS POTASSIUM
   AND SODIUM
   Pfizerpen and generics
                                                                    B       2      Yes     No    No
@@ -17422,8 +17393,8 @@ Use penicillin V potassium for oral use. Side effects: anaphylaxis, urticaria, h
 Tetracyclines, chloramphenicol, and erythromycin may antagonize penicillin’s activity.
   Probenecid increases penicillin levels. May cause false-positive or false-negative urinary
   glucose level (Clinitest method), false-positive direct Coombs test, and false-positive
-  urinary and/or serum protein levels.$hl_326$, 'pending-clinical-verification'),
-  ($hl_327_id$penicillin-g-preparations-benzathine$hl_327_id$, $hl_327_name$PENICILLIN G PREPARATIONS—BENZATHINE$hl_327_name$, $hl_327_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_327_source$, 4118430, $hl_327$PENICILLIN G PREPARATIONS—BENZATHINE
+  urinary and/or serum protein levels.$hl_345$, 'pending-clinical-verification'),
+  ($hl_346_id$penicillin-g-preparations-benzathine$hl_346_id$, $hl_346_name$PENICILLIN G PREPARATIONS—BENZATHINE$hl_346_name$, $hl_346_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_346_source$, 4118430, $hl_346$PENICILLIN G PREPARATIONS—BENZATHINE
   Bicillin L-A, Extencilline, Lentocilin
   Antibiotic, penicillin (very-long-acting IM)
                                                                      B        2     Yes       No    No
@@ -17477,8 +17448,8 @@ Provides sustained levels for 2–4 wk. Use with caution in renal failure, asthm
   eosinophilia and systemic symptoms) have been reported.
 Deep IM administration only. Do not administer intravenously (cardiac arrest and death may
   occur), and do not inject into or near an artery or nerve (may result in permanent neurologic
-  damage and necrosis/sloughing at the injection site).$hl_327$, 'pending-clinical-verification'),
-  ($hl_328_id$penicillin-g-preparations-penicillin-g-benzathine-and-penicillin-g-procaine$hl_328_id$, $hl_328_name$PENICILLIN G PREPARATIONS—PENICILLIN G BENZATHINE AND PENICILLIN G PROCAINE$hl_328_name$, $hl_328_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_328_source$, 4121383, $hl_328$PENICILLIN G PREPARATIONS—PENICILLIN G
+  damage and necrosis/sloughing at the injection site).$hl_346$, 'pending-clinical-verification'),
+  ($hl_347_id$penicillin-g-preparations-penicillin-g-benzathine-and-penicillin-g-procaine$hl_347_id$, $hl_347_name$PENICILLIN G PREPARATIONS—PENICILLIN G BENZATHINE AND PENICILLIN G PROCAINE$hl_347_name$, $hl_347_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_347_source$, 4121383, $hl_347$PENICILLIN G PREPARATIONS—PENICILLIN G
   BENZATHINE AND PENICILLIN G PROCAINE
   Bicillin C-R, Bicillin C-R 900/300
                                                                     B        2      Yes    No     No
@@ -17522,8 +17493,8 @@ Deep IM administration only. Do not administer intravenously (cardiac arrest and
   occur), and do not inject into or near an artery or nerve (may result in permanent neurologic
   damage and necrosis/sloughing at the injection site).
 Side effects and drug interactions same as for Penicillin G Preparations–Aqueous Potassium
-  and Sodium. Immune hypersensitivity reaction has been reported.$hl_328$, 'pending-clinical-verification'),
-  ($hl_329_id$penicillin-v-potassium$hl_329_id$, $hl_329_name$PENICILLIN V POTASSIUM$hl_329_name$, $hl_329_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_329_source$, 4124021, $hl_329$PENICILLIN V POTASSIUM
+  and Sodium. Immune hypersensitivity reaction has been reported.$hl_347$, 'pending-clinical-verification'),
+  ($hl_348_id$penicillin-v-potassium$hl_348_id$, $hl_348_name$PENICILLIN V POTASSIUM$hl_348_name$, $hl_348_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_348_source$, 4124021, $hl_348$PENICILLIN V POTASSIUM
   Generics; previously available as Veetids
   Antibiotic, penicillin
                                                                       B       2      Yes       No    No
@@ -17555,8 +17526,8 @@ See Penicillin G Preparations–Aqueous Potassium and Sodium for side effects an
   interactions. GI absorption is better than penicillin G. Note: Must be taken 1 hr before or
   2 hr after meals. Penicillin will prevent rheumatic fever if started within 9 days of the acute
   illness. Adjust dose in renal failure (see Chapter 32).
-1160           Part IV     Formulary$hl_329$, 'pending-clinical-verification'),
-  ($hl_330_id$pentamidine-isethionate$hl_330_id$, $hl_330_name$PENTAMIDINE ISETHIONATE$hl_330_name$, $hl_330_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_330_source$, 4125732, $hl_330$PENTAMIDINE ISETHIONATE
+1160           Part IV     Formulary$hl_348$, 'pending-clinical-verification'),
+  ($hl_349_id$pentamidine-isethionate$hl_349_id$, $hl_349_name$PENTAMIDINE ISETHIONATE$hl_349_name$, $hl_349_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_349_source$, 4125732, $hl_349$PENTAMIDINE ISETHIONATE
   Pentam 300, NebuPent, and generics
   Antibiotic, antiprotozoal
                                                                      C        3     Yes      No    No
@@ -17587,8 +17558,8 @@ Use with caution in ventricular tachycardia, Stevens-Johnson syndrome, and daily
   administration may also cause bronchospasm, cough, oxygen desaturation, dyspnea, and
   loss of appetite. Infuse IV over 1–2 hr to reduce the risk of hypotension. Sterile abscess may
   occur at IM injection site.
-Adjust dose in renal impairment (see Chapter 32) with systemic use.$hl_330$, 'pending-clinical-verification'),
-  ($hl_331_id$pentobarbital$hl_331_id$, $hl_331_name$PENTOBARBITAL$hl_331_name$, $hl_331_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_331_source$, 4127596, $hl_331$PENTOBARBITAL
+Adjust dose in renal impairment (see Chapter 32) with systemic use.$hl_349$, 'pending-clinical-verification'),
+  ($hl_350_id$pentobarbital$hl_350_id$, $hl_350_name$PENTOBARBITAL$hl_350_name$, $hl_350_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_350_source$, 4127596, $hl_350$PENTOBARBITAL
   Generics; previously available as Nembutal
   Barbiturate
                                                                      D        3     No      Yes    No
@@ -17624,8 +17595,8 @@ Contraindicated in liver failure and history of porphyria. Use in preprocedure s
 Onset of action: IM: 10–15 min; IV: 1 min. Duration of action: IV: 15 min.
 Administer IV at a rate of <50 mg/min.
 Therapeutic serum levels: sedation: 1–5 mg/L; hypnosis: 5–15 mg/L; coma: 20–40 mg/L
-  (steady state is achieved after 4–5 days of continuous IV dosing).$hl_331$, 'pending-clinical-verification'),
-  ($hl_332_id$permethrin$hl_332_id$, $hl_332_name$PERMETHRIN$hl_332_name$, $hl_332_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_332_source$, 4129376, $hl_332$PERMETHRIN
+  (steady state is achieved after 4–5 days of continuous IV dosing).$hl_350$, 'pending-clinical-verification'),
+  ($hl_351_id$permethrin$hl_351_id$, $hl_351_name$PERMETHRIN$hl_351_name$, $hl_351_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_351_source$, 4129376, $hl_351$PERMETHRIN
   Elimite, Nix and generics
   Scabicidal agent
                                                                     B       2      No       No    No
@@ -17656,8 +17627,8 @@ Ovicidal activity generally makes single-dose regimen adequate. However, resista
 Avoid contact with eyes during application. Shake well before using. Do not use near eyes,
   inside of nose, mouth, or vagina, or for lice in eyebrows/eyelashes. Topical cream dosage
   form contains formaldehyde. Dispense 60 g per one adult or two small children.
-1162          Part IV      Formulary$hl_332$, 'pending-clinical-verification'),
-  ($hl_333_id$phenazopyridine-hcl$hl_333_id$, $hl_333_name$PHENAZOPYRIDINE HCL$hl_333_name$, $hl_333_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_333_source$, 4131437, $hl_333$PHENAZOPYRIDINE HCL
+1162          Part IV      Formulary$hl_351$, 'pending-clinical-verification'),
+  ($hl_352_id$phenazopyridine-hcl$hl_352_id$, $hl_352_name$PHENAZOPYRIDINE HCL$hl_352_name$, $hl_352_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_352_source$, 4131437, $hl_352$PHENAZOPYRIDINE HCL
   Pyridium, Azo-Urinary Pain Relief Maximum Strength
   [OTC], many other brands and generics
                                                                     B       3      Yes    Yes    No
@@ -17675,8 +17646,8 @@ May cause pruritus, rash, gastrointestinal distress, vertigo, and headache. Anap
   contact lenses and interfere with urinalysis tests based on spectrometry or color reactions.
   Give doses with or after meals.
 Avoid use in moderate/severe renal impairment; adjust dose in mild renal impairment (see
-  Chapter 32).$hl_333$, 'pending-clinical-verification'),
-  ($hl_334_id$phenobarbital$hl_334_id$, $hl_334_name$PHENOBARBITAL$hl_334_name$, $hl_334_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_334_source$, 4132586, $hl_334$PHENOBARBITAL
+  Chapter 32).$hl_352$, 'pending-clinical-verification'),
+  ($hl_353_id$phenobarbital$hl_353_id$, $hl_353_name$PHENOBARBITAL$hl_353_name$, $hl_353_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_353_source$, 4132586, $hl_353$PHENOBARBITAL
   Sezaby and generics; previously available as Luminal
   Barbiturate
                                                                     D       2      Yes    Yes    No
@@ -17718,8 +17689,8 @@ T1/2 is variable with age: neonates, 45–100 hr; infants, 20–133 hr; children
 Therapeutic levels: 15–40 mg/L. Recommended serum sampling time at steady state: trough
    level obtained within 30 min prior to the next scheduled dose after 10–14 days of
    continuous dosing.
-Adjust dose in renal failure (see Chapter 32).$hl_334$, 'pending-clinical-verification'),
-  ($hl_335_id$phentolamine-mesylate$hl_335_id$, $hl_335_name$PHENTOLAMINE MESYLATE$hl_335_name$, $hl_335_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_335_source$, 4135195, $hl_335$PHENTOLAMINE MESYLATE
+Adjust dose in renal failure (see Chapter 32).$hl_353$, 'pending-clinical-verification'),
+  ($hl_354_id$phentolamine-mesylate$hl_354_id$, $hl_354_name$PHENTOLAMINE MESYLATE$hl_354_name$, $hl_354_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_354_source$, 4135195, $hl_354$PHENTOLAMINE MESYLATE
   OraVerse and generics; previously available as Regitine
   α-Adrenergic blocking agent; antidote, extravasation
                                                                     C       3      No       No    No
@@ -17776,8 +17747,8 @@ For diagnosis of pheochromocytoma, patient should be resting in a supine positio
   pressure reduction of more than 35 mm Hg systolic and 24 mm Hg diastolic is considered a
   positive test for pheochromocytoma. For treatment of extravasation, use 27- to 30-gauge
   needle with multiple small injections, and monitor site closely because repeat doses may be
-  necessary.$hl_335$, 'pending-clinical-verification'),
-  ($hl_336_id$phenylephrine-hcl$hl_336_id$, $hl_336_name$PHENYLEPHRINE HCL$hl_336_name$, $hl_336_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_336_source$, 4138193, $hl_336$PHENYLEPHRINE HCL
+  necessary.$hl_354$, 'pending-clinical-verification'),
+  ($hl_355_id$phenylephrine-hcl$hl_355_id$, $hl_355_name$PHENYLEPHRINE HCL$hl_355_name$, $hl_355_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_355_source$, 4138193, $hl_355$PHENYLEPHRINE HCL
   Vazculep, Biorphen, Immphentiv, Neo-Synephrine, many
   others, and generics
                                                                    C       3      No     No     No
@@ -17839,8 +17810,8 @@ Oral phenylephrine is found in a variety of combination cough and cold products 
   hallucinations) and fatalities (from unintentional overdosages, including combined use of
   other OTC products containing the same active ingredients) have been made.
 Ophthalmic use: Apply pressure to the lacrimal sac during and 2 min after administering
-  drops to minimize systemic absorption.$hl_336$, 'pending-clinical-verification'),
-  ($hl_337_id$phenytoin$hl_337_id$, $hl_337_name$PHENYTOIN$hl_337_name$, $hl_337_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_337_source$, 4141916, $hl_337$PHENYTOIN
+  drops to minimize systemic absorption.$hl_355$, 'pending-clinical-verification'),
+  ($hl_356_id$phenytoin$hl_356_id$, $hl_356_name$PHENYTOIN$hl_356_name$, $hl_356_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_356_source$, 4141916, $hl_356$PHENYTOIN
   Dilantin, Dilantin Infatab, Phenytoin Infatab, Phenytek,
   and generics
                                                                  D       2     Yes       Yes   Yes
@@ -17928,8 +17899,8 @@ IV push/infusion rate: Not to exceed 0.5 mg/kg/min in neonates, or 1 mg/kg/min i
 
 
 
-                                                                                                          FORMULARY$hl_337$, 'pending-clinical-verification'),
-  ($hl_338_id$phosphorus-supplements$hl_338_id$, $hl_338_name$PHOSPHORUS SUPPLEMENTS$hl_338_name$, $hl_338_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_338_source$, 4147577, $hl_338$PHOSPHORUS SUPPLEMENTS
+                                                                                                          FORMULARY$hl_356$, 'pending-clinical-verification'),
+  ($hl_357_id$phosphorus-supplements$hl_357_id$, $hl_357_name$PHOSPHORUS SUPPLEMENTS$hl_357_name$, $hl_357_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_357_source$, 4147577, $hl_357$PHOSPHORUS SUPPLEMENTS
   K-PHOS Neutral, K-PHOS No. 2, Av-Phos 250 Neutral,
   Phospho-Trin 250 Neutral, Phospha 250 Neutral, PHOS-
                                                                    C       2      Yes       No    No
@@ -17980,8 +17951,8 @@ May cause tetany, hyperphosphatemia, hyperkalemia, or hypocalcemia. Use with cau
   4–10 mCg/mL and 3.2 mCg/mL, respectively. PO dosing may cause nausea, vomiting,
   abdominal pain, or diarrhea. See Chapter 21 for daily requirements and Chapter 11 for
   additional information on hypophosphatemia and hyperphosphatemia.
-1168          Part IV     Formulary$hl_338$, 'pending-clinical-verification'),
-  ($hl_339_id$physostigmine-salicylate$hl_339_id$, $hl_339_name$PHYSOSTIGMINE SALICYLATE$hl_339_name$, $hl_339_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_339_source$, 4150341, $hl_339$PHYSOSTIGMINE SALICYLATE
+1168          Part IV     Formulary$hl_357$, 'pending-clinical-verification'),
+  ($hl_358_id$physostigmine-salicylate$hl_358_id$, $hl_358_name$PHYSOSTIGMINE SALICYLATE$hl_358_name$, $hl_358_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_358_source$, 4150341, $hl_358$PHYSOSTIGMINE SALICYLATE
   Anticholium; previously available as Antilirium
   Cholinergic agent
                                                                   C       ?      No      No    No
@@ -18000,8 +17971,8 @@ Physostigmine antidote: Atropine always should be available. Contraindicated in 
   neuromuscular blocking agents (e.g., decamethonium, succinylcholine). May cause
   seizures, arrhythmias, bradycardia, GI symptoms, and other cholinergic effects. Rapid IV
   administration can cause bradycardia and hypersalivation leading to respiratory distress
-  and seizures.$hl_339$, 'pending-clinical-verification'),
-  ($hl_340_id$phytonadione-vitamin-k1$hl_340_id$, $hl_340_name$PHYTONADIONE/VITAMIN K1$hl_340_name$, $hl_340_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_340_source$, 4151647, $hl_340$PHYTONADIONE/VITAMIN K1
+  and seizures.$hl_358$, 'pending-clinical-verification'),
+  ($hl_359_id$phytonadione-vitamin-k1$hl_359_id$, $hl_359_name$PHYTONADIONE/VITAMIN K1$hl_359_name$, $hl_359_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_359_source$, 4151647, $hl_359$PHYTONADIONE/VITAMIN K1
   Mephyton and generics
   Vitamin, fat soluble
                                                                   C       2      No      No    No
@@ -18060,8 +18031,8 @@ Monitor prothrombin time/partial thromboplastin time. Large doses (10–20 mg) i
    ≥1 wk. Concurrent administration of oral mineral oil may decrease gastrointestinal
    absorption of oral vitamin K.
 IV injection rate not to exceed 3 mg/m2/min or 1 mg/min. Protect product from light. See
-   Chapter 21 for multivitamin preparations.$hl_340$, 'pending-clinical-verification'),
-  ($hl_341_id$pilocarpine-hcl$hl_341_id$, $hl_341_name$PILOCARPINE HCL$hl_341_name$, $hl_341_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_341_source$, 4154943, $hl_341$PILOCARPINE HCL
+   Chapter 21 for multivitamin preparations.$hl_359$, 'pending-clinical-verification'),
+  ($hl_360_id$pilocarpine-hcl$hl_360_id$, $hl_360_name$PILOCARPINE HCL$hl_360_name$, $hl_360_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_360_source$, 4154943, $hl_360$PILOCARPINE HCL
   Vuity, Qlosi, Salagen, and generics; previously available
   as Isopto Carpine
                                                                     C       3      No       Yes    No
@@ -18102,8 +18073,8 @@ OPHTHALMIC USE: Contraindicated in acute iritis or anterior chamber inflammation
   effects.
 ORAL USE: Sweating, nausea, rhinitis, chills, flushing, urinary frequency, dizziness, asthenia,
   and headaches have also been reported. Reduce oral dosing in the presence of mild hepatic
-  insufficiency (Child-Pugh score of 5–6); avoid use in severe hepatic insufficiency.$hl_341$, 'pending-clinical-verification'),
-  ($hl_342_id$pimecrolimus$hl_342_id$, $hl_342_name$PIMECROLIMUS$hl_342_name$, $hl_342_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_342_source$, 4157119, $hl_342$PIMECROLIMUS
+  insufficiency (Child-Pugh score of 5–6); avoid use in severe hepatic insufficiency.$hl_360$, 'pending-clinical-verification'),
+  ($hl_361_id$pimecrolimus$hl_361_id$, $hl_361_name$PIMECROLIMUS$hl_361_name$, $hl_361_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_361_source$, 4157119, $hl_361$PIMECROLIMUS
   Elidel and generics
   Topical immunosuppressant, calcineurin inhibitor
                                                                     C        3      No     No     No
@@ -18124,8 +18095,8 @@ Do not use in children <2 yr (higher rate of upper respiratory infections), in
 Most common side effects include burning at the application site, headache, viral infections,
   and pyrexia. Skin discoloration, skin flushing associated with alcohol use, anaphylactic
   reactions, ocular irritation after application to the eyelids or near the eyes, angioneurotic
-  edema, and facial edema have been reported. Drug is a cytochrome P-450 3A3/3A4 substrate.$hl_342$, 'pending-clinical-verification'),
-  ($hl_343_id$piperacillin-with-tazobactam$hl_343_id$, $hl_343_name$PIPERACILLIN WITH TAZOBACTAM$hl_343_name$, $hl_343_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_343_source$, 4158732, $hl_343$PIPERACILLIN WITH TAZOBACTAM
+  edema, and facial edema have been reported. Drug is a cytochrome P-450 3A3/3A4 substrate.$hl_361$, 'pending-clinical-verification'),
+  ($hl_362_id$piperacillin-with-tazobactam$hl_362_id$, $hl_362_name$PIPERACILLIN WITH TAZOBACTAM$hl_362_name$, $hl_362_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_362_source$, 4158732, $hl_362$PIPERACILLIN WITH TAZOBACTAM
   Zosyn and generics
   Antibiotic, penicillin (extended spectrum with
                                                                     B        2      Yes    No     No
@@ -18206,11 +18177,11 @@ PIPERACILLIN WITH TAZOBACTAM continued
 Prolonging the dose administration time to 4 hr will maximize the pharmacokinetic/
   pharmacodynamic properties by prolonging the time of drug concentration above the MIC,
   especially for pathogens with piperacillin MICs of 8–16 mCg/mL. Adjust dose in renal
-  impairment (see Chapter 32).$hl_343$, 'pending-clinical-verification'),
-  ($hl_344_id$polycitra$hl_344_id$, $hl_344_name$POLYCITRA$hl_344_name$, $hl_344_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_344_source$, 4163266, $hl_344$POLYCITRA
+  impairment (see Chapter 32).$hl_362$, 'pending-clinical-verification'),
+  ($hl_363_id$polycitra$hl_363_id$, $hl_363_name$POLYCITRA$hl_363_name$, $hl_363_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_363_source$, 4163266, $hl_363$POLYCITRA
 
-See Citrate Mixtures.$hl_344$, 'pending-clinical-verification'),
-  ($hl_345_id$polyethylene-glycol-electrolyte-solution$hl_345_id$, $hl_345_name$POLYETHYLENE GLYCOL—ELECTROLYTE SOLUTION$hl_345_name$, $hl_345_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_345_source$, 4163303, $hl_345$POLYETHYLENE GLYCOL—ELECTROLYTE SOLUTION
+See Citrate Mixtures.$hl_363$, 'pending-clinical-verification'),
+  ($hl_364_id$polyethylene-glycol-electrolyte-solution$hl_364_id$, $hl_364_name$POLYETHYLENE GLYCOL—ELECTROLYTE SOLUTION$hl_364_name$, $hl_364_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_364_source$, 4163303, $hl_364$POLYETHYLENE GLYCOL—ELECTROLYTE SOLUTION
   Bowel-cleansing products: GoLYTELY, Colyte, GaviLyte,
   and generics
                                                                  C       1      No     No      No
@@ -18273,11 +18244,11 @@ Constipation (MiraLax and others): Contraindicated in bowel obstruction. Sipping
      2001;139[3]:428–432 for additional information.)
   Adult: 2–4 days may be required to produce a bowel movement. Most common side effects
      include nausea, abdominal bloating, cramping, and flatulence. Use beyond 2 wk has not
-     been studied.$hl_345$, 'pending-clinical-verification'),
-  ($hl_346_id$polymyxin-b-sulfate-and-bacitracin$hl_346_id$, $hl_346_name$POLYMYXIN B SULFATE AND BACITRACIN$hl_346_name$, $hl_346_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_346_source$, 4167340, $hl_346$POLYMYXIN B SULFATE AND BACITRACIN
+     been studied.$hl_364$, 'pending-clinical-verification'),
+  ($hl_365_id$polymyxin-b-sulfate-and-bacitracin$hl_365_id$, $hl_365_name$POLYMYXIN B SULFATE AND BACITRACIN$hl_365_name$, $hl_365_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_365_source$, 4167340, $hl_365$POLYMYXIN B SULFATE AND BACITRACIN
 
-See Bacitracin ± Polymyxin B.$hl_346$, 'pending-clinical-verification'),
-  ($hl_347_id$polymyxin-b-sulfate-and-trimethoprim-sulfate$hl_347_id$, $hl_347_name$POLYMYXIN B SULFATE AND TRIMETHOPRIM SULFATE$hl_347_name$, $hl_347_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_347_source$, 4167410, $hl_347$POLYMYXIN B SULFATE AND TRIMETHOPRIM SULFATE
+See Bacitracin ± Polymyxin B.$hl_365$, 'pending-clinical-verification'),
+  ($hl_366_id$polymyxin-b-sulfate-and-trimethoprim-sulfate$hl_366_id$, $hl_366_name$POLYMYXIN B SULFATE AND TRIMETHOPRIM SULFATE$hl_366_name$, $hl_366_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_366_source$, 4167410, $hl_366$POLYMYXIN B SULFATE AND TRIMETHOPRIM SULFATE
   Generics; previously available as Polytrim Ophthalmic
   Solution
                                                                       C       2      No       No     No
@@ -18301,8 +18272,8 @@ Active against susceptible strains of Staphylococcus aureus, Staphylococcus epid
   common. Hypersensitivity reactions consisting of lid edema, itching, increased redness,
   tearing, and/or circumocular rash have been reported.
 Apply finger pressure to lacrimal sac during and for 1–2 min after dose application.
-1174          Part IV      Formulary$hl_347$, 'pending-clinical-verification'),
-  ($hl_348_id$polymyxin-b-sulfate-neomycin-sulfate-hydrocortisone-otic$hl_348_id$, $hl_348_name$POLYMYXIN B SULFATE, NEOMYCIN SULFATE, HYDROCORTISONE OTIC$hl_348_name$, $hl_348_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_348_source$, 4168930, $hl_348$POLYMYXIN B SULFATE, NEOMYCIN SULFATE,
+1174          Part IV      Formulary$hl_366$, 'pending-clinical-verification'),
+  ($hl_367_id$polymyxin-b-sulfate-neomycin-sulfate-hydrocortisone-otic$hl_367_id$, $hl_367_name$POLYMYXIN B SULFATE, NEOMYCIN SULFATE, HYDROCORTISONE OTIC$hl_367_name$, $hl_367_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_367_source$, 4168930, $hl_367$POLYMYXIN B SULFATE, NEOMYCIN SULFATE,
   HYDROCORTISONE OTIC
   Generics; previously available as Cortisporin Otic
                                                                     C       2      No      No    No
@@ -18324,17 +18295,17 @@ Contraindicated in patients with active varicella and herpes simplex and in case
   skin rash, redness, swelling, or other sign of irritation in or around the ear) may occur.
   Neomycin may cause sensitization. Prolonged treatment may result in overgrowth of
   nonsusceptible organisms and fungi. May cause cutaneous sensitization.
-Shake suspension well before use. Warm the medication to body temperature prior to use.$hl_348$, 'pending-clinical-verification'),
-  ($hl_349_id$polysporin$hl_349_id$, $hl_349_name$POLYSPORIN$hl_349_name$, $hl_349_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_349_source$, 4170452, $hl_349$POLYSPORIN
+Shake suspension well before use. Warm the medication to body temperature prior to use.$hl_367$, 'pending-clinical-verification'),
+  ($hl_368_id$polysporin$hl_368_id$, $hl_368_name$POLYSPORIN$hl_368_name$, $hl_368_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_368_source$, 4170452, $hl_368$POLYSPORIN
 
-See Bacitracin ± Polymyxin B.$hl_349$, 'pending-clinical-verification'),
-  ($hl_350_id$polytrim-ophthalmic-solution$hl_350_id$, $hl_350_name$POLYTRIM OPHTHALMIC SOLUTION$hl_350_name$, $hl_350_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_350_source$, 4170498, $hl_350$POLYTRIM OPHTHALMIC SOLUTION
+See Bacitracin ± Polymyxin B.$hl_368$, 'pending-clinical-verification'),
+  ($hl_369_id$polytrim-ophthalmic-solution$hl_369_id$, $hl_369_name$POLYTRIM OPHTHALMIC SOLUTION$hl_369_name$, $hl_369_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_369_source$, 4170498, $hl_369$POLYTRIM OPHTHALMIC SOLUTION
 
-See Polymyxin B Sulfate and Trimethoprim Sulfate.$hl_350$, 'pending-clinical-verification'),
-  ($hl_351_id$poractant-alfa$hl_351_id$, $hl_351_name$PORACTANT ALFA$hl_351_name$, $hl_351_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_351_source$, 4170582, $hl_351$PORACTANT ALFA
+See Polymyxin B Sulfate and Trimethoprim Sulfate.$hl_369$, 'pending-clinical-verification'),
+  ($hl_370_id$poractant-alfa$hl_370_id$, $hl_370_name$PORACTANT ALFA$hl_370_name$, $hl_370_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_370_source$, 4170582, $hl_370$PORACTANT ALFA
 
-See Surfactant, Pulmonary/Poractant Alfa.$hl_351$, 'pending-clinical-verification'),
-  ($hl_352_id$posaconazole$hl_352_id$, $hl_352_name$POSACONAZOLE$hl_352_name$, $hl_352_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_352_source$, 4170644, $hl_352$POSACONAZOLE
+See Surfactant, Pulmonary/Poractant Alfa.$hl_370$, 'pending-clinical-verification'),
+  ($hl_371_id$posaconazole$hl_371_id$, $hl_371_name$POSACONAZOLE$hl_371_name$, $hl_371_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_371_source$, 4170644, $hl_371$POSACONAZOLE
   Noxafil, Noxafil PowderMix, and generics
   Antifungal agent
                                                                     C       3      Yes    Yes    No
@@ -18441,8 +18412,8 @@ Posaconazole is a substrate of UDP-glucoronosyltransferase 1–4 (UGT1A4) and P-
 Oral suspension dosage form is NOT substitutable with delayed-release tablets or delayed-
   release oral suspension. Use respective dosage form for specific indication. Administer
   delayed-release tablets with food to enhance absorption. Do not crush or chew delayed-
-  release tablets. IV dosage information is currently limited in adults.$hl_352$, 'pending-clinical-verification'),
-  ($hl_353_id$potassium-iodide$hl_353_id$, $hl_353_name$POTASSIUM IODIDE$hl_353_name$, $hl_353_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_353_source$, 4177242, $hl_353$POTASSIUM IODIDE
+  release tablets. IV dosage information is currently limited in adults.$hl_371$, 'pending-clinical-verification'),
+  ($hl_372_id$potassium-iodide$hl_372_id$, $hl_372_name$POTASSIUM IODIDE$hl_372_name$, $hl_372_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_372_source$, 4177242, $hl_372$POTASSIUM IODIDE
   Iosat, SSKI, ThyroShield, ThyroSafe, and others
   Antithyroid agent
                                                                    D       X      Yes     No    No
@@ -18481,8 +18452,8 @@ Lithium carbonate and iodide-containing medications may have synergistic hypothy
    activity. Potassium-containing medications, potassium-sparing diuretics, and angiotensin-
    converting enzyme inhibitors may increase serum potassium levels.
 For use as a thyroid blocking agent in nuclear or radiation emergencies, see https://www.fda.
-   gov/drugs/bioterrorism-and-drug-preparedness/radiation-emergencies$hl_353$, 'pending-clinical-verification'),
-  ($hl_354_id$potassium-supplements$hl_354_id$, $hl_354_name$POTASSIUM SUPPLEMENTS$hl_354_name$, $hl_354_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_354_source$, 4179522, $hl_354$POTASSIUM SUPPLEMENTS
+   gov/drugs/bioterrorism-and-drug-preparedness/radiation-emergencies$hl_372$, 'pending-clinical-verification'),
+  ($hl_373_id$potassium-supplements$hl_373_id$, $hl_373_name$POTASSIUM SUPPLEMENTS$hl_373_name$, $hl_373_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_373_source$, 4179522, $hl_373$POTASSIUM SUPPLEMENTS
   Many brand names and generics
   Electrolyte
                                                                    C       1      Yes       No    No
@@ -18541,10 +18512,8 @@ PO administration may cause gastrointestinal disturbance and ulceration. Oral li
 Do not administer IV potassium undiluted. IV administration may cause irritation, pain, and
   phlebitis at the infusion site. Rapid or central IV infusion may cause cardiac arrhythmias.
   Patients receiving infusion >0.5 mEq/kg/hr (>20 mEq/hr for adults) should be placed on an
-  electrocardiographic monitor.
-
-
-  PRALIDOXIME CHLORIDE ± ATROPINE
+  electrocardiographic monitor.$hl_373$, 'pending-clinical-verification'),
+  ($hl_374_id$pralidoxime-chloride-atropine$hl_374_id$, $hl_374_name$PRALIDOXIME CHLORIDE ± ATROPINE$hl_374_name$, $hl_374_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_374_source$, 4182641, $hl_374$PRALIDOXIME CHLORIDE ± ATROPINE
   Protopam, 2-PAM, and generics
   In combination with atropine: ATNAA
                                                                    C       ?      Yes    Yes      No
@@ -18614,8 +18583,8 @@ Pralidoxime and atropine combination (Duodote): Signs of atropine effects/toxici
 
 
                                                                                                             For explanation of icons, see p. 814
-IM injection is via the midlateral thigh.$hl_354$, 'pending-clinical-verification'),
-  ($hl_355_id$prednisolone$hl_355_id$, $hl_355_name$PREDNISOLONE$hl_355_name$, $hl_355_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_355_source$, 4187323, $hl_355$PREDNISOLONE
+IM injection is via the midlateral thigh.$hl_374$, 'pending-clinical-verification'),
+  ($hl_375_id$prednisolone$hl_375_id$, $hl_375_name$PREDNISOLONE$hl_375_name$, $hl_375_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_375_source$, 4187323, $hl_375$PREDNISOLONE
   Oral products:
   Orapred ODT, Pediapred, and generics; previously
                                                                      C/D     2      No       No    No
@@ -18656,8 +18625,8 @@ See Prednisone for remarks. See Chapter 10 for relative steroid potencies. Pregn
   changes to “D” if used in the first trimester.
 OPHTHALMIC USE: Contraindicated in viral (e.g., herpes simplex, vaccinia, and varicella),
   fungal, and mycobacterial infections of the cornea and conjunctiva. Increase in intraocular
-  pressure, cataract formation, eye pain, and delayed wound healing may occur.$hl_355$, 'pending-clinical-verification'),
-  ($hl_356_id$prednisone$hl_356_id$, $hl_356_name$PREDNISONE$hl_356_name$, $hl_356_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_356_source$, 4189692, $hl_356$PREDNISONE
+  pressure, cataract formation, eye pain, and delayed wound healing may occur.$hl_375$, 'pending-clinical-verification'),
+  ($hl_376_id$prednisone$hl_376_id$, $hl_376_name$PREDNISONE$hl_376_name$, $hl_376_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_376_source$, 4189692, $hl_376$PREDNISONE
   Rayos, Prednisone Intensol, and generics
   Corticosteroid
                                                                    C/D     2      No     Yes    No
@@ -18709,8 +18678,8 @@ Side effects may include: mood changes, seizures, hyperglycemia, diarrhea, nause
   corticosteroids, may cause immunosuppression and increase risk of infection. Prednisone is
   a cytochrome P-450 3A3/3A4 substrate and inducer. Barbiturates, carbamazepine,
   phenytoin, rifampin, and isoniazid may reduce the effects of prednisone, whereas estrogens
-  may enhance the effects. Pregnancy category changes to “D” if used in the first trimester.$hl_356$, 'pending-clinical-verification'),
-  ($hl_357_id$primaquine-phosphate$hl_357_id$, $hl_357_name$PRIMAQUINE PHOSPHATE$hl_357_name$, $hl_357_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_357_source$, 4193004, $hl_357$PRIMAQUINE PHOSPHATE
+  may enhance the effects. Pregnancy category changes to “D” if used in the first trimester.$hl_376$, 'pending-clinical-verification'),
+  ($hl_377_id$primaquine-phosphate$hl_377_id$, $hl_377_name$PRIMAQUINE PHOSPHATE$hl_377_name$, $hl_377_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_377_source$, 4193004, $hl_377$PRIMAQUINE PHOSPHATE
   Various generics
   Antimalarial
                                                                    X       3      No       No     No
@@ -18752,8 +18721,8 @@ Contraindicated in granulocytopenia (e.g., rheumatoid arthritis, lupus erythemat
 May cause headache, visual disturbances, nausea, vomiting, and abdominal cramps.
   Hemolytic anemia, leukopenia, cardiac arrhythmia, Q–Tc interval prolongation, and
   methemoglobinemia have been reported. Administer all doses with food to mask bitter
-  taste.$hl_357$, 'pending-clinical-verification'),
-  ($hl_358_id$primidone$hl_358_id$, $hl_358_name$PRIMIDONE$hl_358_name$, $hl_358_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_358_source$, 4195427, $hl_358$PRIMIDONE
+  taste.$hl_377$, 'pending-clinical-verification'),
+  ($hl_378_id$primidone$hl_378_id$, $hl_378_name$PRIMIDONE$hl_378_name$, $hl_378_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_378_source$, 4195427, $hl_378$PRIMIDONE
   Mysoline and generics
   Anticonvulsant, barbiturate
                                                                   D       2      Yes    Yes    No
@@ -18788,8 +18757,8 @@ Monitor both primidone and phenobarbital levels. Therapeutic levels: 5–12 mg/L
 
 
 
-                                                                                                          FORMULARY$hl_358$, 'pending-clinical-verification'),
-  ($hl_359_id$probenecid$hl_359_id$, $hl_359_name$PROBENECID$hl_359_name$, $hl_359_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_359_source$, 4197339, $hl_359$PROBENECID
+                                                                                                          FORMULARY$hl_378$, 'pending-clinical-verification'),
+  ($hl_379_id$probenecid$hl_379_id$, $hl_379_name$PROBENECID$hl_379_name$, $hl_379_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_379_source$, 4197339, $hl_379$PROBENECID
   Various generics
   Penicillin therapy adjuvant, uric acid–lowering agent
                                                                    B       ?      Yes       No    No
@@ -18813,8 +18782,8 @@ Increases uric acid excretion. Inhibits renal tubular secretion of acyclovir, ga
    cephalosporins, azidothymidine, dapsone, methotrexate, nonsteroidal antiinflammatory
    agents, and benzodiazepines. Salicylates may decrease probenecid’s activity. Alkalinize
    urine in patients with gout. May cause headache, gastrointestinal symptoms, rash, anemia,
-   and hypersensitivity. False-positive glucosuria with Clinitest may occur.$hl_359$, 'pending-clinical-verification'),
-  ($hl_360_id$prochlorperazine$hl_360_id$, $hl_360_name$PROCHLORPERAZINE$hl_360_name$, $hl_360_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_360_source$, 4198783, $hl_360$PROCHLORPERAZINE
+   and hypersensitivity. False-positive glucosuria with Clinitest may occur.$hl_379$, 'pending-clinical-verification'),
+  ($hl_380_id$prochlorperazine$hl_380_id$, $hl_380_name$PROCHLORPERAZINE$hl_380_name$, $hl_380_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_380_source$, 4198783, $hl_380$PROCHLORPERAZINE
   Compro and generics; previously available as
   Compazine
                                                                    C       2      No        No    No
@@ -18868,8 +18837,8 @@ Toxicity as for other phenothiazines (see Chlorpromazine). Extrapyramidal reacti
   such as intestinal obstruction, brain tumor, and Reye syndrome. May cause false-positive
   test for phenylketonuria, urinary amylase, uroporphyrins, and urobilinogen. IV route in
   children is typically avoided due to hypotension risk. Use only in management of prolonged
-  vomiting of known etiology.$hl_360$, 'pending-clinical-verification'),
-  ($hl_361_id$promethazine$hl_361_id$, $hl_361_name$PROMETHAZINE$hl_361_name$, $hl_361_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_361_source$, 4201386, $hl_361$PROMETHAZINE
+  vomiting of known etiology.$hl_380$, 'pending-clinical-verification'),
+  ($hl_381_id$promethazine$hl_381_id$, $hl_381_name$PROMETHAZINE$hl_381_name$, $hl_381_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_381_source$, 4201386, $hl_381$PROMETHAZINE
   Phenergan, Promethegan, and generics
   Antihistamine, antiemetic, phenothiazine derivative
                                                                       C       3      No      No     No
@@ -18909,8 +18878,8 @@ May cause profound sedation, blurred vision, respiratory depression (use lowest 
   (reversed by diphenhydramine). Cholestatic jaundice and neuroleptic malignant syndrome
   has been reported. May interfere with pregnancy tests (immunologic reactions between
   human chorionic gonadotropin [hCG] and anti-hCG). For nausea and vomiting, use only in
-  management of prolonged vomiting of known etiology.$hl_361$, 'pending-clinical-verification'),
-  ($hl_362_id$propranolol$hl_362_id$, $hl_362_name$PROPRANOLOL$hl_362_name$, $hl_362_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_362_source$, 4203969, $hl_362$PROPRANOLOL
+  management of prolonged vomiting of known etiology.$hl_381$, 'pending-clinical-verification'),
+  ($hl_382_id$propranolol$hl_382_id$, $hl_382_name$PROPRANOLOL$hl_382_name$, $hl_382_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_382_source$, 4203969, $hl_382$PROPRANOLOL
   Inderal LA, Hemangeol, and generics; previously
   available as Inderal
                                                                     C       1      Yes       Yes    No
@@ -18993,8 +18962,8 @@ For infantile hemangioma, monitor blood pressure and heart rate 2 hr after initi
   include sleep disorders, aggravated respiratory tract infections (e.g., bronchitis and
   bronchiolitis) associated with cough/fever, diarrhea, and vomiting. Readjust dose
   periodically with changes (increases) in child’s body weight.
-Successful use in infantile hepatic hemangiomas has also been reported.$hl_362$, 'pending-clinical-verification'),
-  ($hl_363_id$propylthiouracil$hl_363_id$, $hl_363_name$PROPYLTHIOURACIL$hl_363_name$, $hl_363_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_363_source$, 4208919, $hl_363$PROPYLTHIOURACIL
+Successful use in infantile hepatic hemangiomas has also been reported.$hl_382$, 'pending-clinical-verification'),
+  ($hl_383_id$propylthiouracil$hl_383_id$, $hl_383_name$PROPYLTHIOURACIL$hl_383_name$, $hl_383_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_383_source$, 4208919, $hl_383$PROPYLTHIOURACIL
   PTU and generics
   Antithyroid agent
                                                                     D       2      Yes    Yes    No
@@ -19031,9 +19000,9 @@ May cause blood dyscrasias, fever, liver disease, dermatitis, urticaria, malaise
   of warfarin. Monitor thyroid function. A dose reduction of β-blocker may be necessary when
   the hyperthyroid patient becomes euthyroid.
 For neonates, crush tablets, weigh appropriate dose, and mix in formula/breast milk. Adjust
-  dose in renal failure (see Chapter 32).$hl_363$, 'pending-clinical-verification'),
-  ($hl_364_id$prostaglandin-e1see-alprostadil$hl_364_id$, $hl_364_name$PROSTAGLANDIN E1SEE ALPROSTADIL.$hl_364_name$, $hl_364_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_364_source$, 4210945, $hl_364$PROSTAGLANDIN E1SEE ALPROSTADIL.$hl_364$, 'pending-clinical-verification'),
-  ($hl_365_id$protamine-sulfate$hl_365_id$, $hl_365_name$PROTAMINE SULFATE$hl_365_name$, $hl_365_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_365_source$, 4210984, $hl_365$PROTAMINE SULFATE
+  dose in renal failure (see Chapter 32).$hl_383$, 'pending-clinical-verification'),
+  ($hl_384_id$prostaglandin-e1see-alprostadil$hl_384_id$, $hl_384_name$PROSTAGLANDIN E1SEE ALPROSTADIL.$hl_384_name$, $hl_384_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_384_source$, 4210945, $hl_384$PROSTAGLANDIN E1SEE ALPROSTADIL.$hl_384$, 'pending-clinical-verification'),
+  ($hl_385_id$protamine-sulfate$hl_385_id$, $hl_385_name$PROTAMINE SULFATE$hl_385_name$, $hl_385_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_385_source$, 4210984, $hl_385$PROTAMINE SULFATE
   Various generics
   Antidote, heparin
                                                                       C       ?      No       No     No
@@ -19079,8 +19048,8 @@ Risk factors for protamine hypersensitivity include known hypersensitivity to fi
 May cause hypotension, bradycardia, dyspnea, and anaphylaxis. Monitor activated partial
   thromboplastin time or activated coagulation time. Heparin rebound with bleeding has been
   reported to occur 8–18 hr later.
-Use in enoxaparin overdose may not be complete despite using multiple doses of protamine.$hl_365$, 'pending-clinical-verification'),
-  ($hl_366_id$pseudoephedrine$hl_366_id$, $hl_366_name$PSEUDOEPHEDRINE$hl_366_name$, $hl_366_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_366_source$, 4213448, $hl_366$PSEUDOEPHEDRINE
+Use in enoxaparin overdose may not be complete despite using multiple doses of protamine.$hl_385$, 'pending-clinical-verification'),
+  ($hl_386_id$pseudoephedrine$hl_386_id$, $hl_386_name$PSEUDOEPHEDRINE$hl_386_name$, $hl_386_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_386_source$, 4213448, $hl_386$PSEUDOEPHEDRINE
   Sudafed, Children's Sudafed, Sudafed 12 Hour, Sudafed
   24 Hour, and generics
                                                                     C        2      Yes     No    No
@@ -19117,8 +19086,8 @@ Contraindicated with monoamine oxidase inhibitor drugs and in severe hypertensio
 
 
 
-                                                                                                          FORMULARY$hl_366$, 'pending-clinical-verification'),
-  ($hl_367_id$psyllium$hl_367_id$, $hl_367_name$PSYLLIUM$hl_367_name$, $hl_367_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_367_source$, 4215427, $hl_367$PSYLLIUM
+                                                                                                          FORMULARY$hl_386$, 'pending-clinical-verification'),
+  ($hl_387_id$psyllium$hl_387_id$, $hl_387_name$PSYLLIUM$hl_387_name$, $hl_387_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_387_source$, 4215427, $hl_387$PSYLLIUM
   Metamucil, Konsyl Original Formula, and many others,
   including some generics
                                                                    B       1      No       No     No
@@ -19140,8 +19109,8 @@ Constipation (granules or powder must be mixed with a full glass [240 mL] of wat
 Contraindicated in cases of fecal impaction or gastrointestinal obstruction. Use with caution
   in patients with esophageal strictures and rectal bleeding. Phenylketonurics should be
   aware that certain preparations may contain aspartame. Should be taken or mixed with a
-  full glass (240 mL) of liquid. Onset of action: 12–72 hr.$hl_367$, 'pending-clinical-verification'),
-  ($hl_368_id$pyrantel-pamoate$hl_368_id$, $hl_368_name$PYRANTEL PAMOATE$hl_368_name$, $hl_368_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_368_source$, 4216876, $hl_368$PYRANTEL PAMOATE
+  full glass (240 mL) of liquid. Onset of action: 12–72 hr.$hl_387$, 'pending-clinical-verification'),
+  ($hl_388_id$pyrantel-pamoate$hl_388_id$, $hl_388_name$PYRANTEL PAMOATE$hl_388_name$, $hl_388_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_388_source$, 4216876, $hl_388$PYRANTEL PAMOATE
   Reese’s Pinworm Medicine, Pin-Away, Pin Rid, and
   many other generics
                                                                    C       2      No       Yes    No
@@ -19170,8 +19139,8 @@ Use with caution in liver dysfunction. Do not use in combination with piperazine
   elevations, headaches, rash, and muscle weakness. Limited experience in children <2 yr.
   May increase theophylline levels. Drug may be mixed with milk or fruit juice and may be
   taken with food.
-1190          Part IV      Formulary$hl_368$, 'pending-clinical-verification'),
-  ($hl_369_id$pyrazinamide$hl_369_id$, $hl_369_name$PYRAZINAMIDE$hl_369_name$, $hl_369_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_369_source$, 4218401, $hl_369$PYRAZINAMIDE
+1190          Part IV      Formulary$hl_388$, 'pending-clinical-verification'),
+  ($hl_389_id$pyrazinamide$hl_389_id$, $hl_389_name$PYRAZINAMIDE$hl_389_name$, $hl_389_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_389_source$, 4218401, $hl_389$PYRAZINAMIDE
   Pyrazinoic acid amide and generics
   Antituberculous agent
                                                                    C       2      Yes    Yes    No
@@ -19205,8 +19174,8 @@ See latest edition of the AAP Red Book for recommended treatment for tuberculosi
 Hepatoxicity is most common dose-related side effect; doses ≤30 mg/kg/24 hr minimizes
   effect. Hyperuricemia, maculopapular rash, arthralgia, fever, acne, porphyria, dysuria, and
   photosensitivity may occur. Severe hepatic toxicity may occur with rifampin use. May
-  decrease isoniazid levels.$hl_369$, 'pending-clinical-verification'),
-  ($hl_370_id$pyrethrins-with-piperonyl-butoxide$hl_370_id$, $hl_370_name$PYRETHRINS WITH PIPERONYL BUTOXIDE$hl_370_name$, $hl_370_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_370_source$, 4220260, $hl_370$PYRETHRINS WITH PIPERONYL BUTOXIDE
+  decrease isoniazid levels.$hl_389$, 'pending-clinical-verification'),
+  ($hl_390_id$pyrethrins-with-piperonyl-butoxide$hl_390_id$, $hl_390_name$PYRETHRINS WITH PIPERONYL BUTOXIDE$hl_390_name$, $hl_390_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_390_source$, 4220260, $hl_390$PYRETHRINS WITH PIPERONYL BUTOXIDE
   A-200, Pronto Plus, RID, and many others
   Pediculicide
                                                                    C       2      No     No     No
@@ -19226,8 +19195,8 @@ Contraindicated in ragweed hypersensitivity; drug is derived from the chrysanthe
   flowers. For topical use only. Avoid use in and around the eyes, mouth, nose, or vagina.
   Avoid repeat applications in <24 hr. Low ovicidal activity requires repeat treatment. Dead
   nits require mechanical removal. Wash bedding and clothing to eradicate infestation.
-Local irritation, including erythema, pruritus, urticaria, edema, and eczema, may occur.$hl_370$, 'pending-clinical-verification'),
-  ($hl_371_id$pyridostigmine-bromide$hl_371_id$, $hl_371_name$PYRIDOSTIGMINE BROMIDE$hl_371_name$, $hl_371_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_371_source$, 4221535, $hl_371$PYRIDOSTIGMINE BROMIDE
+Local irritation, including erythema, pruritus, urticaria, edema, and eczema, may occur.$hl_390$, 'pending-clinical-verification'),
+  ($hl_391_id$pyridostigmine-bromide$hl_391_id$, $hl_391_name$PYRIDOSTIGMINE BROMIDE$hl_391_name$, $hl_391_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_391_source$, 4221535, $hl_391$PYRIDOSTIGMINE BROMIDE
   Mestinon, Regonol, and generics
   Cholinergic agent
                                                                    C       2      Yes       No    No
@@ -19253,8 +19222,8 @@ Contraindicated in mechanical intestinal or urinary obstruction. Use with cautio
   cause nausea, vomiting, diarrhea, rash, headache, and muscle cramps. Pyridostigmine is
   mainly excreted unchanged by the kidney. Therefore, lower doses titrated to effect in renal
   disease may be necessary.
-Changes in oral dosages may take several days to show results. Atropine is the antidote.$hl_371$, 'pending-clinical-verification'),
-  ($hl_372_id$pyridoxine$hl_372_id$, $hl_372_name$PYRIDOXINE$hl_372_name$, $hl_372_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_372_source$, 4222992, $hl_372$PYRIDOXINE
+Changes in oral dosages may take several days to show results. Atropine is the antidote.$hl_391$, 'pending-clinical-verification'),
+  ($hl_392_id$pyridoxine$hl_392_id$, $hl_392_name$PYRIDOXINE$hl_392_name$, $hl_392_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_392_source$, 4222992, $hl_392$PYRIDOXINE
 
 
 
@@ -19304,8 +19273,8 @@ Use caution with concurrent levodopa therapy. Chronic administration has been as
   with sensory neuropathy. Nausea, headache, increased aspartate aminotransferase,
   decreased serum folic acid level, and allergic reaction may occur. May lower phenobarbital
   and phenytoin levels. See Chapter 20 for management of neonatal seizures.
-Pregnancy category changes to “C” if dosage exceeds U.S. Recommended Daily Allowance.$hl_372$, 'pending-clinical-verification'),
-  ($hl_373_id$pyrimethamine$hl_373_id$, $hl_373_name$PYRIMETHAMINE$hl_373_name$, $hl_373_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_373_source$, 4225267, $hl_373$PYRIMETHAMINE
+Pregnancy category changes to “C” if dosage exceeds U.S. Recommended Daily Allowance.$hl_392$, 'pending-clinical-verification'),
+  ($hl_393_id$pyrimethamine$hl_393_id$, $hl_393_name$PYRIMETHAMINE$hl_393_name$, $hl_393_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_393_source$, 4225267, $hl_393$PYRIMETHAMINE
   Daraprim and generics
   Antiparasitic agent
                                                                     C       2      Yes    Yes    No
@@ -19350,8 +19319,8 @@ Pyrimethamine is a folate antagonist. Supplementation with folinic acid leucovor
 Outpatient prescriptions may need to be processed through a specialty pharmacy program via
   the manufacturer; see https://www.daraprimdirect.com/home/hcp.
 
- Q$hl_373$, 'pending-clinical-verification'),
-  ($hl_374_id$quetiapine$hl_374_id$, $hl_374_name$QUETIAPINE$hl_374_name$, $hl_374_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_374_source$, 4227836, $hl_374$QUETIAPINE
+ Q$hl_393$, 'pending-clinical-verification'),
+  ($hl_394_id$quetiapine$hl_394_id$, $hl_394_name$QUETIAPINE$hl_394_name$, $hl_394_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_394_source$, 4227836, $hl_394$QUETIAPINE
   Seroquel, Seroquel XR, and generics
   Antipsychotic, second generation
                                                                 C       2     No       Yes   Yes
@@ -19514,8 +19483,8 @@ Non–extended-release dosage forms may be administered with or without food. Ex
   release tabs must be swallowed whole and administered preferably in the evening without
   food (a light meal of ≤300 calories is allowed). May convert patients from immediate-
   release to extended-release tablets at the equivalent total daily dose and administer once
-  daily; individual dosage adjustments may be necessary.$hl_374$, 'pending-clinical-verification'),
-  ($hl_375_id$quinidine$hl_375_id$, $hl_375_name$QUINIDINE$hl_375_name$, $hl_375_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_375_source$, 4236417, $hl_375$QUINIDINE
+  daily; individual dosage adjustments may be necessary.$hl_394$, 'pending-clinical-verification'),
+  ($hl_395_id$quinidine$hl_395_id$, $hl_395_name$QUINIDINE$hl_395_name$, $hl_395_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_395_source$, 4236417, $hl_395$QUINIDINE
   Various generics
   Class IA antiarrhythmic, antimalarial agent
                                                                     C       2      Yes    Yes    No
@@ -19568,8 +19537,8 @@ Therapeutic levels (antiarrhythmic): 3–7 mg/L. Recommended serum sampling time
 MALARIA USE: Continuous monitoring of electrocardiogram, blood pressure, and serum
   glucose is recommended, especially in pregnant women and young children.
 
- R$hl_375$, 'pending-clinical-verification'),
-  ($hl_376_id$raltegravir$hl_376_id$, $hl_376_name$RALTEGRAVIR$hl_376_name$, $hl_376_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_376_source$, 4239617, $hl_376$RALTEGRAVIR
+ R$hl_395$, 'pending-clinical-verification'),
+  ($hl_396_id$raltegravir$hl_396_id$, $hl_396_name$RALTEGRAVIR$hl_396_name$, $hl_396_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_396_source$, 4239617, $hl_396$RALTEGRAVIR
   Isentress and Isentress HD
   Antiretroviral agent, integrase inhibitor
                                                                     C       2      No       Yes    No
@@ -19642,8 +19611,8 @@ Each dosage form has a different pharmacokinetic profile; dosage forms are not
   suspension is suspended in water by gently swirling in a mixing cup for 45 sec in a circular
   motion and must be administered within 30 min after reconstitution. Doses may be
   administered with or without food; however, the effect of food on the oral suspension has
-  not been evaluated.$hl_376$, 'pending-clinical-verification'),
-  ($hl_377_id$rasburicase$hl_377_id$, $hl_377_name$RASBURICASE$hl_377_name$, $hl_377_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_377_source$, 4244085, $hl_377$RASBURICASE
+  not been evaluated.$hl_396$, 'pending-clinical-verification'),
+  ($hl_397_id$rasburicase$hl_397_id$, $hl_397_name$RASBURICASE$hl_397_name$, $hl_397_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_397_source$, 4244085, $hl_397$RASBURICASE
   Elitek
   Antihyperuricemic agent
                                                                    C       ?      No      No     Yes
@@ -19671,8 +19640,8 @@ During therapy, uric acid blood samples must be sent to the laboratory immediate
   should be collected in prechilled tubes containing heparin and placed in an ice-water bath
   to avoid potential falsely low uric acid levels (degradation of plasma uric acid occurs in the
   presence of rasburicase at room temperature). Centrifugation in a precooled centrifuge
-  (4°C) is indicated. Plasma samples must be assayed within 4 hr of sample collection.$hl_377$, 'pending-clinical-verification'),
-  ($hl_378_id$rho-d-immune-globulin-intravenous-human$hl_378_id$, $hl_378_name$RHO(D) IMMUNE GLOBULIN INTRAVENOUS (HUMAN)$hl_378_name$, $hl_378_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_378_source$, 4245955, $hl_378$RHO(D) IMMUNE GLOBULIN INTRAVENOUS (HUMAN)
+  (4°C) is indicated. Plasma samples must be assayed within 4 hr of sample collection.$hl_397$, 'pending-clinical-verification'),
+  ($hl_398_id$rho-d-immune-globulin-intravenous-human$hl_398_id$, $hl_398_name$RHO(D) IMMUNE GLOBULIN INTRAVENOUS (HUMAN)$hl_398_name$, $hl_398_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_398_source$, 4245955, $hl_398$RHO(D) IMMUNE GLOBULIN INTRAVENOUS (HUMAN)
   WinRho-SDF, Rhophylac, HyperRHO S/D Mini-Dose,
   HyperRHO S/D Full Dose, RhoGAM Ultra-Filtered Plus
                                                                      C        1     Yes       No    No
@@ -19732,8 +19701,8 @@ Clinical response for ITP therapy requires monitoring of platelet counts, red bl
    and symptoms of intravascular hemolysis, anemia, and renal insufficiency.
 Recommended IV administration rate:
    WinRho-SDF: Over 3–5 min
-   Rhophylac: Each 1500 IU (2 mL) per 15–60 sec$hl_378$, 'pending-clinical-verification'),
-  ($hl_379_id$ribavirin$hl_379_id$, $hl_379_name$RIBAVIRIN$hl_379_name$, $hl_379_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_379_source$, 4249308, $hl_379$RIBAVIRIN
+   Rhophylac: Each 1500 IU (2 mL) per 15–60 sec$hl_398$, 'pending-clinical-verification'),
+  ($hl_399_id$ribavirin$hl_399_id$, $hl_399_name$RIBAVIRIN$hl_399_name$, $hl_399_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_399_source$, 4249308, $hl_399$RIBAVIRIN
   Oral: Generics; previously available as Rebetol
   Inhalation: Virazole and generics
                                                                    X       3      Yes    Yes    No
@@ -19818,8 +19787,8 @@ INHALED RIBAVIRIN: Use of ribavirin for respiratory syncytial virus (RSV) is con
   Most effective if begun early in course of RSV infection, generally in the first 3 days. May
   cause worsening respiratory distress, rash, conjunctivitis, mild bronchospasm, hypotension,
   anemia, and cardiac arrest. Avoid unnecessary occupational exposure to ribavirin due to its
-  teratogenic effects. Drug can precipitate in the respiratory equipment.$hl_379$, 'pending-clinical-verification'),
-  ($hl_380_id$riboflavin$hl_380_id$, $hl_380_name$RIBOFLAVIN$hl_380_name$, $hl_380_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_380_source$, 4254559, $hl_380$RIBOFLAVIN
+  teratogenic effects. Drug can precipitate in the respiratory equipment.$hl_399$, 'pending-clinical-verification'),
+  ($hl_400_id$riboflavin$hl_400_id$, $hl_400_name$RIBOFLAVIN$hl_400_name$, $hl_400_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_400_source$, 4254559, $hl_400$RIBOFLAVIN
   Vitamin B2 and various brands and generics
   Water-soluble vitamin
                                                                     A/C      1     No       No     No
@@ -19840,8 +19809,8 @@ Migraine prophylaxis (limited data):
   Child ≥8 yr and adolescent: 200–400 mg PO once daily
 Hypersensitivity may occur. Administer with food. Causes yellow to orange discoloration of
   urine. For multivitamin information, see Chapter 21.
-Pregnancy category changes to “C” if used in doses above the RDA.$hl_380$, 'pending-clinical-verification'),
-  ($hl_381_id$rifabutin$hl_381_id$, $hl_381_name$RIFABUTIN$hl_381_name$, $hl_381_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_381_source$, 4255468, $hl_381$RIFABUTIN
+Pregnancy category changes to “C” if used in doses above the RDA.$hl_400$, 'pending-clinical-verification'),
+  ($hl_401_id$rifabutin$hl_401_id$, $hl_401_name$RIFABUTIN$hl_401_name$, $hl_401_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_401_source$, 4255468, $hl_401$RIFABUTIN
   Generics; previously available as Mycobutin
   Antituberculous agent
                                                                   B       2      Yes    Yes   No
@@ -19885,8 +19854,8 @@ RIFABUTIN continued
                                                                                                               FORMULARY
   nelfinavir, saquinavir, itraconazole, warfarin, oral contraceptives, digoxin, cyclosporine,
   ketoconazole, and narcotics.
-Doses may be administered with food if patient experiences GI intolerance.$hl_381$, 'pending-clinical-verification'),
-  ($hl_382_id$rifampin$hl_382_id$, $hl_382_name$RIFAMPIN$hl_382_name$, $hl_382_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_382_source$, 4258267, $hl_382$RIFAMPIN
+Doses may be administered with food if patient experiences GI intolerance.$hl_401$, 'pending-clinical-verification'),
+  ($hl_402_id$rifampin$hl_402_id$, $hl_402_name$RIFAMPIN$hl_402_name$, $hl_402_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_402_source$, 4258267, $hl_402$RIFAMPIN
   Rifadin and generics
   Antibiotic, antituberculous agent, rifamycin
                                                                      C        2      Yes       Yes    No
@@ -19965,8 +19934,8 @@ Induces several hepatic enzymes and transporters (cytochrome P-450 [CYP] 2C9, CY
 Adjust dose in renal failure (see Chapter 32). Reduce dose in hepatic impairment. Give oral
   doses 1 hr before or 2 hr after meals. Patients should abstain from alcohol, hepatotoxic
   medications, or herbal products while taking rifampin.
-For Haemophilus influenzae type b prophylaxis, see latest edition of the Red Book.$hl_382$, 'pending-clinical-verification'),
-  ($hl_383_id$rifaximin$hl_383_id$, $hl_383_name$RIFAXIMIN$hl_383_name$, $hl_383_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_383_source$, 4263345, $hl_383$RIFAXIMIN
+For Haemophilus influenzae type b prophylaxis, see latest edition of the Red Book.$hl_402$, 'pending-clinical-verification'),
+  ($hl_403_id$rifaximin$hl_403_id$, $hl_403_name$RIFAXIMIN$hl_403_name$, $hl_403_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_403_source$, 4263345, $hl_403$RIFAXIMIN
   Xifaxan
   Antibiotic, rifamycin derivative
                                                                    C       ?      No     Yes    No
@@ -20007,8 +19976,8 @@ Substrate and inhibitor of organic ion–transporting polypeptide (OATP)1A2/SLCO
   effects of warfarin and immunological effects of cholera and bacille Calmette-Guérin
   vaccines. P-glycoprotein inhibitors (e.g., cyclosporine) may increase the effects/toxicity of
   rifaximin.
-Doses may be administered with or without food.$hl_383$, 'pending-clinical-verification'),
-  ($hl_384_id$rimantadine$hl_384_id$, $hl_384_name$RIMANTADINE$hl_384_name$, $hl_384_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_384_source$, 4265672, $hl_384$RIMANTADINE
+Doses may be administered with or without food.$hl_403$, 'pending-clinical-verification'),
+  ($hl_404_id$rimantadine$hl_404_id$, $hl_404_name$RIMANTADINE$hl_404_name$, $hl_404_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_404_source$, 4265672, $hl_404$RIMANTADINE
   Generics; previously available as Flumadine
   Antiviral agent
                                                                     C        3      Yes       Yes    No
@@ -20044,8 +20013,8 @@ May cause gastrointestinal disturbance, xerostomia, dizziness, headache, and uri
   insufficiency; dosage reduction may be necessary. A dosage reduction of 50% has been
   recommended in severe hepatic or renal impairment. Subjects with severe renal impairment
   have been reported to have an 81% increase in systemic exposure.
-1206           Part IV     Formulary$hl_384$, 'pending-clinical-verification'),
-  ($hl_385_id$risperidone$hl_385_id$, $hl_385_name$RISPERIDONE$hl_385_name$, $hl_385_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_385_source$, 4267705, $hl_385$RISPERIDONE
+1206           Part IV     Formulary$hl_404$, 'pending-clinical-verification'),
+  ($hl_405_id$risperidone$hl_405_id$, $hl_405_name$RISPERIDONE$hl_405_name$, $hl_405_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_405_source$, 4267705, $hl_405$RISPERIDONE
   Risperdal, Risperdal Consta, Rykindo, Uzedy, Perseris,
   and generics
                                                                     C        3      Yes    Yes    No
@@ -20179,8 +20148,8 @@ Drug is a cytochrome P-450 (CYP) 2D6 and CYP3A4 isoenzyme substrate. Concurrent 
 Oral dosage forms may be administered with or without food. Oral solution can be mixed in
   water, coffee, orange juice, or low-fat milk but is incompatible with cola or tea. Do not split
   or chew the orally disintegrating tablet. Use IM suspension preparation within 6 hr after
-  reconstitution.$hl_385$, 'pending-clinical-verification'),
-  ($hl_386_id$rivaroxaban$hl_386_id$, $hl_386_name$RIVAROXABAN$hl_386_name$, $hl_386_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_386_source$, 4276806, $hl_386$RIVAROXABAN
+  reconstitution.$hl_405$, 'pending-clinical-verification'),
+  ($hl_406_id$rivaroxaban$hl_406_id$, $hl_406_name$RIVAROXABAN$hl_406_name$, $hl_406_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_406_source$, 4276806, $hl_406$RIVAROXABAN
   Xarelto, Xarelto Starter Pack, and generics
   Anticoagulant, direct thrombin inhibitor
                                                                       C       3      Yes     Yes    No
@@ -20266,8 +20235,8 @@ Administer all dosages with food or feeds as indicated. If anticoagulation needs
   at least 24 hr before the procedure. If converting from or to another anticoagulant
   medication, see product information for recommendations. Adjust dosage in renal
   impairment (see Chapter 32).
-1210           Part IV     Formulary$hl_386$, 'pending-clinical-verification'),
-  ($hl_387_id$rizatriptan-benzoate$hl_387_id$, $hl_387_name$RIZATRIPTAN BENZOATE$hl_387_name$, $hl_387_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_387_source$, 4281870, $hl_387$RIZATRIPTAN BENZOATE
+1210           Part IV     Formulary$hl_406$, 'pending-clinical-verification'),
+  ($hl_407_id$rizatriptan-benzoate$hl_407_id$, $hl_407_name$RIZATRIPTAN BENZOATE$hl_407_name$, $hl_407_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_407_source$, 4281870, $hl_407$RIZATRIPTAN BENZOATE
   Maxalt, Maxalt-MLT, and generics
   Antimigraine agent, selective serotonin agonist
                                                                     C        3      Yes    Yes    No
@@ -20307,8 +20276,8 @@ Common adverse effects include nausea, asthenia, dizziness, somnolence, and fati
   vision loss have been reported.
 When the ODT is being used, place the whole tablet on the tongue, allow the tablet to dissolve,
   and swallow with saliva. Administration with liquids is optional. Do not break the ODT
-  tablet.$hl_387$, 'pending-clinical-verification'),
-  ($hl_388_id$rocuronium$hl_388_id$, $hl_388_name$ROCURONIUM$hl_388_name$, $hl_388_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_388_source$, 4284336, $hl_388$ROCURONIUM
+  tablet.$hl_407$, 'pending-clinical-verification'),
+  ($hl_408_id$rocuronium$hl_408_id$, $hl_408_name$ROCURONIUM$hl_408_name$, $hl_408_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_408_source$, 4284336, $hl_408$ROCURONIUM
   Generics; previously available as Zemuron
   Nondepolarizing neuromuscular blocking agent
                                                                     C        ?      No     Yes    No
@@ -20349,8 +20318,8 @@ Use must be accompanied by adequate anesthesia or sedation. Peak effects occur i
   20–94 min in adults (longer in geriatrics). Recovery time in children 3 months to 1 year of
   age is similar to that in adults. To prevent residual paralysis, extubate patient only after
   the patient has sufficiently recovered from neuromuscular blockade. In obese patients, use
-  actual body weight for dosage calculation. Sugammadex is the reversal agent.$hl_388$, 'pending-clinical-verification'),
-  ($hl_389_id$rufinamide$hl_389_id$, $hl_389_name$RUFINAMIDE$hl_389_name$, $hl_389_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_389_source$, 4287151, $hl_389$RUFINAMIDE
+  actual body weight for dosage calculation. Sugammadex is the reversal agent.$hl_408$, 'pending-clinical-verification'),
+  ($hl_409_id$rufinamide$hl_409_id$, $hl_409_name$RUFINAMIDE$hl_409_name$, $hl_409_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_409_source$, 4287151, $hl_409$RUFINAMIDE
   Banzel and generics
   Anticonvulsant, triazole derivative
                                                                     C       3      Yes       Yes    No
@@ -20397,8 +20366,8 @@ Consider dose adjustment for drug loss in patients receiving hemodialysis (rufin
   dialyzable). For therapy discontinuation, reduce dose by ~25% every 2 days. Tablets may be
   crushed and all doses may be administered with or without food.
 
- S$hl_389$, 'pending-clinical-verification'),
-  ($hl_390_id$salmeterol$hl_390_id$, $hl_390_name$SALMETEROL$hl_390_name$, $hl_390_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_390_source$, 4290096, $hl_390$SALMETEROL
+ S$hl_409$, 'pending-clinical-verification'),
+  ($hl_410_id$salmeterol$hl_410_id$, $hl_410_name$SALMETEROL$hl_410_name$, $hl_410_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_410_source$, 4290096, $hl_410$SALMETEROL
   Serevent Diskus
   β2-adrenergic agonist (long acting)
                                                                     C       1      No     Yes    No
@@ -20445,8 +20414,8 @@ Proper patient education is essential. This dosage form’s breath-activated dev
   minimum inspiratory flow rate of 60 mL/min for proper dose delivery. Use with caution in
   hepatic impairment. Side effects are similar to those of albuterol. Hypertension and
   arrhythmias have been reported. See Chapter 25 for recommendations for asthma controller
-  therapy.$hl_390$, 'pending-clinical-verification'),
-  ($hl_391_id$scopolamine-hydrobromide$hl_391_id$, $hl_391_name$SCOPOLAMINE HYDROBROMIDE$hl_391_name$, $hl_391_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_391_source$, 4293351, $hl_391$SCOPOLAMINE HYDROBROMIDE
+  therapy.$hl_410$, 'pending-clinical-verification'),
+  ($hl_411_id$scopolamine-hydrobromide$hl_411_id$, $hl_411_name$SCOPOLAMINE HYDROBROMIDE$hl_411_name$, $hl_411_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_411_source$, 4293351, $hl_411$SCOPOLAMINE HYDROBROMIDE
   Generics; previously available as Transderm Scop
   Anticholinergic agent
                                                                     C       3      Yes       Yes    No
@@ -20501,8 +20470,8 @@ Concurrent use with medications with known central nervous system (CNS) adverse 
   this medication may delay the rate of orally administered drugs and will interfere with the
   gastric secretion test (discontinue use 10 days prior to testing).
 REMOVE transdermal patch before undergoing magnetic resonance imaging; the patch
-  contains aluminum.$hl_391$, 'pending-clinical-verification'),
-  ($hl_392_id$selenium-sulfide$hl_392_id$, $hl_392_name$SELENIUM SULFIDE$hl_392_name$, $hl_392_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_392_source$, 4296783, $hl_392$SELENIUM SULFIDE
+  contains aluminum.$hl_411$, 'pending-clinical-verification'),
+  ($hl_412_id$selenium-sulfide$hl_412_id$, $hl_412_name$SELENIUM SULFIDE$hl_412_name$, $hl_412_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_412_source$, 4296783, $hl_412$SELENIUM SULFIDE
   Selsun Blue and many other brands, including generics
   Topical antiseborrheic agent
                                                                     C        2      No     No     No
@@ -20536,8 +20505,8 @@ For tinea versicolor, 15%–25% sodium hyposulfite or thiosulfate (Tinver lotion
 
 
 
-                                                                                                     FORMULARY$hl_392$, 'pending-clinical-verification'),
-  ($hl_393_id$senna-sennosides$hl_393_id$, $hl_393_name$SENNA/SENNOSIDES$hl_393_name$, $hl_393_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_393_source$, 4298854, $hl_393$SENNA/SENNOSIDES
+                                                                                                     FORMULARY$hl_412$, 'pending-clinical-verification'),
+  ($hl_413_id$senna-sennosides$hl_413_id$, $hl_413_name$SENNA/SENNOSIDES$hl_413_name$, $hl_413_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_413_source$, 4298854, $hl_413$SENNA/SENNOSIDES
   Senokot, Senna-Lax, Ex-Lax, Genexa Kids Senna
   Laxative, and many others
                                                                C       1     No        No    No
@@ -20588,8 +20557,8 @@ Effects occur within 6–24 hr after oral administration. Prolonged use (>1 wk) 
    avoided because it may lead to dependency. May cause nausea, vomiting, diarrhea, and
    abdominal cramps. Active metabolite stimulates the Auerbach plexus. Syrup may be
    administered with juice or milk or mixed with ice cream.
-1216           Part IV     Formulary$hl_393$, 'pending-clinical-verification'),
-  ($hl_394_id$sertraline-hcl$hl_394_id$, $hl_394_name$SERTRALINE HCL$hl_394_name$, $hl_394_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_394_source$, 4301347, $hl_394$SERTRALINE HCL
+1216           Part IV     Formulary$hl_413$, 'pending-clinical-verification'),
+  ($hl_414_id$sertraline-hcl$hl_414_id$, $hl_414_name$SERTRALINE HCL$hl_414_name$, $hl_414_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_414_source$, 4301347, $hl_414$SERTRALINE HCL
   Zoloft and generics
   Antidepressant (selective serotonin reuptake
                                                                     C       2      Yes    Yes     Yes
@@ -20643,8 +20612,8 @@ Mix oral concentrate solution with 4 oz of water, ginger ale, lemon/lime soda, l
 
 
 
-                                                                                                             FORMULARY$hl_394$, 'pending-clinical-verification'),
-  ($hl_395_id$sildenafil$hl_395_id$, $hl_395_name$SILDENAFIL$hl_395_name$, $hl_395_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_395_source$, 4305016, $hl_395$SILDENAFIL
+                                                                                                             FORMULARY$hl_414$, 'pending-clinical-verification'),
+  ($hl_415_id$sildenafil$hl_415_id$, $hl_415_name$SILDENAFIL$hl_415_name$, $hl_415_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_415_source$, 4305016, $hl_415$SILDENAFIL
   Revatio, Viagra, and generics
   Phosphodiesterase type 5 (PDE5) inhibitor
                                                                     B        2      Yes       Yes    No
@@ -20711,8 +20680,8 @@ Sildenafil is substrate for CYP3A4 (major) and CYP2C8/9 (minor). Azole antifunga
    cimetidine, ciprofloxacin, clarithromycin, erythromycin, nicardipine, propofol, protease
    inhibitors, quinidine, verapamil, and grapefruit juice may increase the effects/toxicity of
    sildenafil. Bosentan, efavirenz, carbamazepine, phenobarbital, phenytoin, rifampin, St.
-   John’s wort, and high-fat meals may decrease sildenafil effects.$hl_395$, 'pending-clinical-verification'),
-  ($hl_396_id$silver-sulfadiazine$hl_396_id$, $hl_396_name$SILVER SULFADIAZINE$hl_396_name$, $hl_396_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_396_source$, 4309183, $hl_396$SILVER SULFADIAZINE
+   John’s wort, and high-fat meals may decrease sildenafil effects.$hl_415$, 'pending-clinical-verification'),
+  ($hl_416_id$silver-sulfadiazine$hl_416_id$, $hl_416_name$SILVER SULFADIAZINE$hl_416_name$, $hl_416_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_416_source$, 4309183, $hl_416$SILVER SULFADIAZINE
   Silvadene, SSD Cream, and generics
   Topical antibiotic
                                                                     B        3      Yes    Yes    No
@@ -20730,8 +20699,8 @@ Contraindicated in premature infants and infants up to 2 mo of age due to concer
   hepatitis, interstitial nephritis, and life-threatening cutaneous reactions (e.g., Stevens-
   Johnson syndrome/toxic epidermal necrolysis [TEN] and exfoliative dermatitis). Avoid
   contact with the eye. Dressing may be used but is not necessary. See Chapter 4 for more
-  information.$hl_396$, 'pending-clinical-verification'),
-  ($hl_397_id$simethicone$hl_397_id$, $hl_397_name$SIMETHICONE$hl_397_name$, $hl_397_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_397_source$, 4310393, $hl_397$SIMETHICONE
+  information.$hl_416$, 'pending-clinical-verification'),
+  ($hl_417_id$simethicone$hl_417_id$, $hl_417_name$SIMETHICONE$hl_417_name$, $hl_417_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_417_source$, 4310393, $hl_417$SIMETHICONE
   Mylicon, Children’s Mylicon, Phazyme, Mylanta Gas,
   Gas-X, and many other brands, including generics
                                                                     C        1      No      No    No
@@ -20755,8 +20724,8 @@ SIMETHICONE continued
                                                                                                            FORMULARY
 Efficacy has not been demonstrated for treating infant colic. Avoid carbonated beverages and
    gas-forming foods. Oral liquid may be mixed with water, infant formula, or other suitable
-   liquids for ease of oral administration.$hl_397$, 'pending-clinical-verification'),
-  ($hl_398_id$sirolimus$hl_398_id$, $hl_398_name$SIROLIMUS$hl_398_name$, $hl_398_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_398_source$, 4311697, $hl_398$SIROLIMUS
+   liquids for ease of oral administration.$hl_417$, 'pending-clinical-verification'),
+  ($hl_418_id$sirolimus$hl_418_id$, $hl_418_name$SIROLIMUS$hl_418_name$, $hl_418_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_418_source$, 4311697, $hl_418$SIROLIMUS
   Generics (previously available as Rapamune) and Hyftor
   Immunosuppressant agent
                                                                    C       3      Yes       Yes    No
@@ -20842,8 +20811,8 @@ Two milligrams of the oral solution have been demonstrated to be clinically equi
 For use of topical gel dosage form, do not use with occlusive dressings nor administer via the
    oral, ophthalmic, or intravaginal routes. Complete all recommended vaccinations prior to
    initiating topical therapy as vaccination during topical therapy may result in reduced
-   vaccine efficacy.$hl_398$, 'pending-clinical-verification'),
-  ($hl_399_id$sodium-bicarbonate$hl_399_id$, $hl_399_name$SODIUM BICARBONATE$hl_399_name$, $hl_399_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_399_source$, 4317561, $hl_399$SODIUM BICARBONATE
+   vaccine efficacy.$hl_418$, 'pending-clinical-verification'),
+  ($hl_419_id$sodium-bicarbonate$hl_419_id$, $hl_419_name$SODIUM BICARBONATE$hl_419_name$, $hl_419_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_419_source$, 4317561, $hl_419$SODIUM BICARBONATE
   Generics
   Alkalinizing agent, electrolyte
                                                                      C        3     Yes      No    No
@@ -20885,8 +20854,8 @@ For direct intravenous administration (cardiac arrest) in neonates and infants, 
 For intravenous infusions (for all ages), dilute to a max. concentration of 0.5 mEq/mL in dextrose
   or sterile water for injection and infuse over 2 hr using a max. rate of 1 mEq/kg per hr.
 Sodium bicarbonate must not be mixed with or be in contact with calcium, norepinephrine, or
-  dobutamine.$hl_399$, 'pending-clinical-verification'),
-  ($hl_400_id$sodium-chloride-inhaled-preparations$hl_400_id$, $hl_400_name$SODIUM CHLORIDE—INHALED PREPARATIONS$hl_400_name$, $hl_400_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_400_source$, 4320139, $hl_400$SODIUM CHLORIDE—INHALED PREPARATIONS
+  dobutamine.$hl_419$, 'pending-clinical-verification'),
+  ($hl_420_id$sodium-chloride-inhaled-preparations$hl_420_id$, $hl_420_name$SODIUM CHLORIDE—INHALED PREPARATIONS$hl_420_name$, $hl_420_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_420_source$, 4320139, $hl_420$SODIUM CHLORIDE—INHALED PREPARATIONS
   Hypersal, Nebusal, PulmoSal, Simply Saline, Ocean, Ayr
   Saline, Ayr Nasal Mist Allergy/Sinus, many other brands,
                                                                    C       1      No       No    No
@@ -20936,8 +20905,8 @@ NEBULIZATION: Hypertonic solution lowers sputum viscosity and enhances mucocilia
   Acute viral bronchiolitis: Use not recommended in the emergency department but may be
      administered in hospitalized patients. Reported reduction in length of hospitalization
      when compared to normal saline is controversial. May cause acute bronchospasm and
-     local irritation.$hl_400$, 'pending-clinical-verification'),
-  ($hl_401_id$sodium-phenylacetate-and-sodium-benzoate$hl_401_id$, $hl_401_name$SODIUM PHENYLACETATE AND SODIUM BENZOATE$hl_401_name$, $hl_401_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_401_source$, 4323075, $hl_401$SODIUM PHENYLACETATE AND SODIUM BENZOATE
+     local irritation.$hl_420$, 'pending-clinical-verification'),
+  ($hl_421_id$sodium-phenylacetate-and-sodium-benzoate$hl_421_id$, $hl_421_name$SODIUM PHENYLACETATE AND SODIUM BENZOATE$hl_421_name$, $hl_421_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_421_source$, 4323075, $hl_421$SODIUM PHENYLACETATE AND SODIUM BENZOATE
   Generics; previously available as Ammonul
   Ammonium detoxicant, urea cycle disorder
                                                                     C       3      Yes    Yes     Yes
@@ -20970,8 +20939,8 @@ Must be diluted and administered IV via central line; peripheral line administra
 
 
 
-                                                                                                         FORMULARY$hl_401$, 'pending-clinical-verification'),
-  ($hl_402_id$sodium-phosphate$hl_402_id$, $hl_402_name$SODIUM PHOSPHATE$hl_402_name$, $hl_402_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_402_source$, 4325285, $hl_402$SODIUM PHOSPHATE
+                                                                                                         FORMULARY$hl_421$, 'pending-clinical-verification'),
+  ($hl_422_id$sodium-phosphate$hl_422_id$, $hl_422_name$SODIUM PHOSPHATE$hl_422_name$, $hl_422_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_422_source$, 4325285, $hl_422$SODIUM PHOSPHATE
   Fleet Enema, Fleet Pedia-Lax, Fleet Enema Extra,
   GoodSense Enema, LaCrosse Complete, and generics
                                                                   C       2      Yes       No    No
@@ -21000,8 +20969,8 @@ Contraindicated in patients with severe renal failure, megacolon, bowel obstruct
   mucosal aphthous ulceration should be considered when interpreting colonoscopy findings
   with use in patients with known or suspected inflammatory bowel disease (IBD).
 Correct electrolyte abnormalities prior to use to minimize electrolyte side effects.
-Onset of action: PR, 2–5 min$hl_402$, 'pending-clinical-verification'),
-  ($hl_403_id$sodium-polystyrene-sulfonate$hl_403_id$, $hl_403_name$SODIUM POLYSTYRENE SULFONATE$hl_403_name$, $hl_403_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_403_source$, 4326973, $hl_403$SODIUM POLYSTYRENE SULFONATE
+Onset of action: PR, 2–5 min$hl_422$, 'pending-clinical-verification'),
+  ($hl_423_id$sodium-polystyrene-sulfonate$hl_423_id$, $hl_423_name$SODIUM POLYSTYRENE SULFONATE$hl_423_name$, $hl_423_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_423_source$, 4326973, $hl_423$SODIUM POLYSTYRENE SULFONATE
   SPS, Kionex, and generics; previously available as
   Kayexalate
                                                                   C       1      Yes       No    No
@@ -21054,8 +21023,8 @@ Contraindicated in obstructive bowel disease, in neonates with reduced gut motil
   containing Mg2+ or Al3+; systemic alkalosis may result. May reduce absorption of other
   orally administered medications; administer other oral medications at least 3 hr before or 3
   hr after sodium polystyrene sulfonate (patients with gastroparesis may require a 6-hr
-  separation). Enema should be retained in the colon for at least 30–60 min.$hl_403$, 'pending-clinical-verification'),
-  ($hl_404_id$spironolactone$hl_404_id$, $hl_404_name$SPIRONOLACTONE$hl_404_name$, $hl_404_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_404_source$, 4330173, $hl_404$SPIRONOLACTONE
+  separation). Enema should be retained in the colon for at least 30–60 min.$hl_423$, 'pending-clinical-verification'),
+  ($hl_424_id$spironolactone$hl_424_id$, $hl_424_name$SPIRONOLACTONE$hl_424_name$, $hl_424_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_424_source$, 4330173, $hl_424$SPIRONOLACTONE
   Aldactone, CaroSpir, and generics
   Diuretic, potassium sparing
                                                                       C/D     1      Yes     Yes    No
@@ -21101,8 +21070,8 @@ Although TID–QID regimens have been recommended, data suggest once- or twice-d
    tablets and the commercially available oral liquid suspensions are NOT bioequivalent as the
    oral suspension has been reported to be more bioavailable by 15%–37%. Administration
    with food may increase the exposure of spironolactone by 90% for the commercially
-   available oral suspension.$hl_404$, 'pending-clinical-verification'),
-  ($hl_405_id$streptomycin-sulfate$hl_405_id$, $hl_405_name$STREPTOMYCIN SULFATE$hl_405_name$, $hl_405_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_405_source$, 4333237, $hl_405$STREPTOMYCIN SULFATE
+   available oral suspension.$hl_424$, 'pending-clinical-verification'),
+  ($hl_425_id$streptomycin-sulfate$hl_425_id$, $hl_425_name$STREPTOMYCIN SULFATE$hl_425_name$, $hl_425_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_425_source$, 4333237, $hl_425$STREPTOMYCIN SULFATE
   Generics
   Antibiotic, aminoglycoside, antituberculous agent
                                                                     D        2      Yes       No    No
@@ -21142,8 +21111,8 @@ Therapeutic levels: peak 15–40 mg/L; trough: <5 mg/L. Recommended serum sampli
   at steady state: trough within 30 min prior to the third consecutive dose and peak at 30–60
   min (60 min for IM) after the administration of the third consecutive dose. Therapeutic
   levels are not achieved in cerebrospinal fluid (CSF).
-Adjust dose in renal failure (see Chapter 32).$hl_405$, 'pending-clinical-verification'),
-  ($hl_406_id$succimer$hl_406_id$, $hl_406_name$SUCCIMER$hl_406_name$, $hl_406_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_406_source$, 4335399, $hl_406$SUCCIMER
+Adjust dose in renal failure (see Chapter 32).$hl_425$, 'pending-clinical-verification'),
+  ($hl_426_id$succimer$hl_426_id$, $hl_426_name$SUCCIMER$hl_426_name$, $hl_426_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_426_source$, 4335399, $hl_426$SUCCIMER
   Chemet, DMSA [dimercaptosuccinic acid]
   Chelating agent
                                                                    C       3      Yes    Yes    No
@@ -21172,8 +21141,8 @@ Use caution in patients with compromised renal or hepatic function. Repeated cou
   phosphokinase (CPK). Coadministration with other chelating agents is not recommended.
 Serum transaminases should be monitored at baseline and weekly during therapy. Treatment
   of iron deficiency is recommended as well as environmental remediation. Contents of
-  capsule may be sprinkled on food for those who are unable to swallow a capsule.$hl_406$, 'pending-clinical-verification'),
-  ($hl_407_id$succinylcholine$hl_407_id$, $hl_407_name$SUCCINYLCHOLINE$hl_407_name$, $hl_407_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_407_source$, 4337177, $hl_407$SUCCINYLCHOLINE
+  capsule may be sprinkled on food for those who are unable to swallow a capsule.$hl_426$, 'pending-clinical-verification'),
+  ($hl_427_id$succinylcholine$hl_427_id$, $hl_427_name$SUCCINYLCHOLINE$hl_427_name$, $hl_427_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_427_source$, 4337177, $hl_427$SUCCINYLCHOLINE
   Anectine, Quelicin, and generics
   Neuromuscular blocking agent
                                                                   C       ?      Yes    Yes     Yes
@@ -21237,8 +21206,8 @@ May cause malignant hyperthermia (use dantrolene to treat), bradycardia, hypoten
   may enhance the neuromuscular blocking effect of vecuronium and its duration of
   action.
 Duration of action 4–6 min IV, 10–30 min IM. Must be prepared to intubate within 1 min.
-1228          Part IV     Formulary$hl_407$, 'pending-clinical-verification'),
-  ($hl_408_id$sucralfate$hl_408_id$, $hl_408_name$SUCRALFATE$hl_408_name$, $hl_408_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_408_source$, 4340712, $hl_408$SUCRALFATE
+1228          Part IV     Formulary$hl_427$, 'pending-clinical-verification'),
+  ($hl_428_id$sucralfate$hl_428_id$, $hl_428_name$SUCRALFATE$hl_428_name$, $hl_428_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_428_source$, 4340712, $hl_428$SUCRALFATE
   Carafate and generics
   Oral antiulcer agent
                                                                   B       1      Yes     No    No
@@ -21271,8 +21240,8 @@ Decreases absorption of phenytoin, digoxin, theophylline, cimetidine, fat-solubl
   least 2 hr before or after sucralfate doses.
 Drug requires an acidic environment to form a protective polymer coating for damaged
   gastrointestinal tract mucosa. Administer oral doses on an empty stomach (1 hr before
-  meals and QHS).$hl_408$, 'pending-clinical-verification'),
-  ($hl_409_id$sugammadex$hl_409_id$, $hl_409_name$SUGAMMADEX$hl_409_name$, $hl_409_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_409_source$, 4342613, $hl_409$SUGAMMADEX
+  meals and QHS).$hl_428$, 'pending-clinical-verification'),
+  ($hl_429_id$sugammadex$hl_429_id$, $hl_429_name$SUGAMMADEX$hl_429_name$, $hl_429_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_429_source$, 4342613, $hl_429$SUGAMMADEX
   Bridion and generics
   Neuromuscular blockade reversal agent
                                                                   ?       1      Yes    Yes    No
@@ -21316,8 +21285,8 @@ Limited data in children (especially <2 yr) and dosing in a multicenter, randomi
   group, dose-finding study in 63 children (28 days to 17 yr of age) and 28 adult surgical
   patients. Doses were well tolerated across all ages with dose-response relationship for
   those 2 yr of age or older. All had a median recovery time of 1.1 to 1.2 min after a 2 mg/kg
-  dose (Anesthesiology. 2009;110:284–294).$hl_409$, 'pending-clinical-verification'),
-  ($hl_410_id$sulfacetamide-sodium-ophthalmic$hl_410_id$, $hl_410_name$SULFACETAMIDE SODIUM OPHTHALMIC$hl_410_name$, $hl_410_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_410_source$, 4345567, $hl_410$SULFACETAMIDE SODIUM OPHTHALMIC
+  dose (Anesthesiology. 2009;110:284–294).$hl_429$, 'pending-clinical-verification'),
+  ($hl_430_id$sulfacetamide-sodium-ophthalmic$hl_430_id$, $hl_430_name$SULFACETAMIDE SODIUM OPHTHALMIC$hl_430_name$, $hl_430_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_430_source$, 4345567, $hl_430$SULFACETAMIDE SODIUM OPHTHALMIC
   Generics; previously available as Bleph-10
   Ophthalmic antibiotic, sulfonamide derivative
                                                                     C       3      No       No    No
@@ -21342,8 +21311,8 @@ Hypersensitivity reactions between different sulfonamides can occur regardless o
   silver preparations.
 To reduce risk of systemic absorption with ophthalmic solution, apply finger pressure to
   lacrimal sac during and 1–2 min after instillation.
-1230          Part IV      Formulary$hl_410$, 'pending-clinical-verification'),
-  ($hl_411_id$sulfadiazine$hl_411_id$, $hl_411_name$SULFADIAZINE$hl_411_name$, $hl_411_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_411_source$, 4346989, $hl_411$SULFADIAZINE
+1230          Part IV      Formulary$hl_430$, 'pending-clinical-verification'),
+  ($hl_431_id$sulfadiazine$hl_431_id$, $hl_431_name$SULFADIAZINE$hl_431_name$, $hl_431_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_431_source$, 4346989, $hl_431$SULFADIAZINE
   Various generics
   Antibiotic, sulfonamide derivative
                                                                   C/D     3      Yes    Yes     Yes
@@ -21378,8 +21347,8 @@ May cause increased effects of warfarin, methotrexate, thiazide diuretics, urico
   and sulfonylureas due to drug displacement from protein binding sites. Large quantities of
   vitamin C or acidifying agents (e.g., cranberry juice) may cause crystalluria. Pregnancy
   category changes from C to D if administered near term. Administer on an empty stomach
-  with plenty of water.$hl_411$, 'pending-clinical-verification'),
-  ($hl_412_id$sulfamethoxazole-and-trimethoprim$hl_412_id$, $hl_412_name$SULFAMETHOXAZOLE AND TRIMETHOPRIM$hl_412_name$, $hl_412_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_412_source$, 4349063, $hl_412$SULFAMETHOXAZOLE AND TRIMETHOPRIM
+  with plenty of water.$hl_431$, 'pending-clinical-verification'),
+  ($hl_432_id$sulfamethoxazole-and-trimethoprim$hl_432_id$, $hl_432_name$SULFAMETHOXAZOLE AND TRIMETHOPRIM$hl_432_name$, $hl_432_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_432_source$, 4349063, $hl_432$SULFAMETHOXAZOLE AND TRIMETHOPRIM
   Trimethoprim-sulfamethoxazole, Co-Trimoxazole,
   TMP-SMX, Bactrim, Bactrin DS, Sulfatrim Pediatric
                                                                   D       2      Yes    Yes     Yes
@@ -21446,8 +21415,8 @@ Sulfamethoxazole is a cytochrome P-450 (CYP) 2C9 substrate and inhibitor. Trimet
   CYP2C9, CYP3A4 substrate and an inhibitor of CYP2C8 and ornithine carbamoyltransferase
   2 (OCT2) transporter. Avoid use with drugs that are substrates of CYP2C8 and 2C9 or OCT2.
   Reduce dose in renal impairment (see Chapter 32).
-1232           Part IV     Formulary$hl_412$, 'pending-clinical-verification'),
-  ($hl_413_id$sulfasalazine$hl_413_id$, $hl_413_name$SULFASALAZINE$hl_413_name$, $hl_413_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_413_source$, 4353169, $hl_413$SULFASALAZINE
+1232           Part IV     Formulary$hl_432$, 'pending-clinical-verification'),
+  ($hl_433_id$sulfasalazine$hl_433_id$, $hl_433_name$SULFASALAZINE$hl_433_name$, $hl_433_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_433_source$, 4353169, $hl_433$SULFASALAZINE
   Azulfidine, Azulfidine EN-tabs, Salicylazosulfapyridine,
   and generics
                                                                     B/D     2      Yes    Yes     Yes
@@ -21495,8 +21464,8 @@ Pregnancy category changes to “D” if drug is administered near term. Bloody
 
 
 
-                                                                                                            FORMULARY$hl_413$, 'pending-clinical-verification'),
-  ($hl_414_id$sumatriptan-succinate$hl_414_id$, $hl_414_name$SUMATRIPTAN SUCCINATE$hl_414_name$, $hl_414_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_414_source$, 4355858, $hl_414$SUMATRIPTAN SUCCINATE
+                                                                                                            FORMULARY$hl_433$, 'pending-clinical-verification'),
+  ($hl_434_id$sumatriptan-succinate$hl_434_id$, $hl_434_name$SUMATRIPTAN SUCCINATE$hl_434_name$, $hl_434_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_434_source$, 4355858, $hl_434$SUMATRIPTAN SUCCINATE
   Imitrex, Imitrex STAT dose, Zembrace SymTouch,
   Tosymra, Onzetra Xsail, and generics
                                                                    C       2      Yes       Yes    No
@@ -21577,8 +21546,8 @@ PO, nasal, and SC efficacy studies were not conclusive in clinical trials for ch
   serious adverse events (e.g., stroke, visual loss, and death) in both children and adults with
   all dosage forms.
 To minimize infant exposure to sumatriptan, avoid breastfeeding for 12 hr after treatment.
-  See Naproxen remarks if using the combination sumatriptan and naproxen dosage form.$hl_414$, 'pending-clinical-verification'),
-  ($hl_415_id$surfactant-pulmonary-beractant$hl_415_id$, $hl_415_name$SURFACTANT, PULMONARY/BERACTANT$hl_415_name$, $hl_415_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_415_source$, 4360699, $hl_415$SURFACTANT, PULMONARY/BERACTANT
+  See Naproxen remarks if using the combination sumatriptan and naproxen dosage form.$hl_434$, 'pending-clinical-verification'),
+  ($hl_435_id$surfactant-pulmonary-beractant$hl_435_id$, $hl_435_name$SURFACTANT, PULMONARY/BERACTANT$hl_435_name$, $hl_435_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_435_source$, 4360699, $hl_435$SURFACTANT, PULMONARY/BERACTANT
   Survanta
   Bovine lung surfactant
                                                                       ?       ?      No       No    No
@@ -21616,8 +21585,8 @@ All doses are administered intratracheally via a 5-Fr feeding catheter. If the s
    settles during storage, gently swirl the contents; do not shake. Drug is stored in the
    refrigerator, protected from light, and must be warmed by standing at room temperature for
    at least 20 min or warmed in the hand for at least 8 min. Artificial warming methods should
-   NOT be used.$hl_415$, 'pending-clinical-verification'),
-  ($hl_416_id$surfactant-pulmonary-calfactant$hl_416_id$, $hl_416_name$SURFACTANT, PULMONARY/CALFACTANT$hl_416_name$, $hl_416_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_416_source$, 4363382, $hl_416$SURFACTANT, PULMONARY/CALFACTANT
+   NOT be used.$hl_435$, 'pending-clinical-verification'),
+  ($hl_436_id$surfactant-pulmonary-calfactant$hl_436_id$, $hl_436_name$SURFACTANT, PULMONARY/CALFACTANT$hl_436_name$, $hl_436_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_436_source$, 4363382, $hl_436$SURFACTANT, PULMONARY/CALFACTANT
   Infasurf
   Bovine lung surfactant
                                                                        ?       ?      No       No     No
@@ -21661,8 +21630,8 @@ All doses administered intratracheally via a 5 Fr feeding catheter. If suspensio
    from light, and does not need to be warmed before administration. Unopened vials that
    have been warmed to room temperature (once only) may be refrigerated within 24 hr and
    stored for future use.
-1236           Part IV       Formulary$hl_416$, 'pending-clinical-verification'),
-  ($hl_417_id$surfactant-pulmonary-poractant-alfa$hl_417_id$, $hl_417_name$SURFACTANT, PULMONARY/PORACTANT ALFA$hl_417_name$, $hl_417_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_417_source$, 4366486, $hl_417$SURFACTANT, PULMONARY/PORACTANT ALFA
+1236           Part IV       Formulary$hl_436$, 'pending-clinical-verification'),
+  ($hl_437_id$surfactant-pulmonary-poractant-alfa$hl_437_id$, $hl_437_name$SURFACTANT, PULMONARY/PORACTANT ALFA$hl_437_name$, $hl_437_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_437_source$, 4366486, $hl_437$SURFACTANT, PULMONARY/PORACTANT ALFA
   Curosurf
   Porcine lung surfactant
                                                                         ?        ?      No       No    No
@@ -21690,13 +21659,13 @@ All doses administered intratracheally via a 5 Fr feeding catheter. Suction infa
 Drug is stored in the refrigerator and protected from light. Each vial of drug should be slowly
    warmed to room temperature and gently turned upside down for uniform suspension (do not
    shake) before administration. Unopened vials that have been warmed to room temperature
-   (once only) may be refrigerated within 24 hr and stored for future use.$hl_417$, 'pending-clinical-verification'),
-  ($hl_418_id$symdeko$hl_418_id$, $hl_418_name$SYMDEKO$hl_418_name$, $hl_418_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_418_source$, 4368707, $hl_418$SYMDEKO
+   (once only) may be refrigerated within 24 hr and stored for future use.$hl_437$, 'pending-clinical-verification'),
+  ($hl_438_id$symdeko$hl_438_id$, $hl_438_name$SYMDEKO$hl_438_name$, $hl_438_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_438_source$, 4368707, $hl_438$SYMDEKO
 
 See Tezacaftor and Ivacaftor.
 
- T$hl_418$, 'pending-clinical-verification'),
-  ($hl_419_id$tacrolimus$hl_419_id$, $hl_419_name$TACROLIMUS$hl_419_name$, $hl_419_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_419_source$, 4368753, $hl_419$TACROLIMUS
+ T$hl_438$, 'pending-clinical-verification'),
+  ($hl_439_id$tacrolimus$hl_439_id$, $hl_439_name$TACROLIMUS$hl_439_name$, $hl_439_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_439_source$, 4368753, $hl_439$TACROLIMUS
   Prograf, Astagraf XL, Envarsus XR, FK506, and
   generics; previously available as Protopic
                                                                        C        2      Yes     Yes     Yes
@@ -21827,8 +21796,8 @@ TOPICAL USE: Not recommended for use in patients who have skin conditions with a
 
 
 
-                                                                                                            FORMULARY$hl_419$, 'pending-clinical-verification'),
-  ($hl_420_id$tazarotene$hl_420_id$, $hl_420_name$TAZAROTENE$hl_420_name$, $hl_420_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_420_source$, 4377596, $hl_420$TAZAROTENE
+                                                                                                            FORMULARY$hl_439$, 'pending-clinical-verification'),
+  ($hl_440_id$tazarotene$hl_440_id$, $hl_440_name$TAZAROTENE$hl_440_name$, $hl_440_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_440_source$, 4377596, $hl_440$TAZAROTENE
   Arazlo, Fabior, Tazorac, and generics
   Topical retinoic acid prodrug, keratolytic agent for
                                                                     X       3      No        No     No
@@ -21862,8 +21831,8 @@ Tazarotene is a retinoid prodrug that is converted to its active form, the cogna
 Common side effects include erythema, dry skin, skin irritation/pain (including blistering and
   skin desquamation), pruritus, and worsening of psoriasis.
 Avoid contact with mucous membranes. The foam dosage form is flammable; avoid fire,
-  flame, or smoking during or immediately after use.$hl_420$, 'pending-clinical-verification'),
-  ($hl_421_id$terbinafine$hl_421_id$, $hl_421_name$TERBINAFINE$hl_421_name$, $hl_421_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_421_source$, 4379593, $hl_421$TERBINAFINE
+  flame, or smoking during or immediately after use.$hl_440$, 'pending-clinical-verification'),
+  ($hl_441_id$terbinafine$hl_441_id$, $hl_441_name$TERBINAFINE$hl_441_name$, $hl_441_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_441_source$, 4379593, $hl_441$TERBINAFINE
 
 
 
@@ -21935,8 +21904,8 @@ TOPICAL USE: Do not use on/in the eyes, mouth, nails, scalp, or vaginal areas. L
 
 
 
-                                                                                                          FORMULARY$hl_421$, 'pending-clinical-verification'),
-  ($hl_422_id$terbutaline$hl_422_id$, $hl_422_name$TERBUTALINE$hl_422_name$, $hl_422_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_422_source$, 4383015, $hl_422$TERBUTALINE
+                                                                                                          FORMULARY$hl_441$, 'pending-clinical-verification'),
+  ($hl_442_id$terbutaline$hl_442_id$, $hl_442_name$TERBUTALINE$hl_442_name$, $hl_442_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_442_source$, 4383015, $hl_442$TERBUTALINE
   Various generics; previously available as Brethine
   β2-adrenergic agonist
                                                                   C       2      Yes       No     No
@@ -21963,8 +21932,8 @@ IV and PO routes should not be used for the prevention or prolonged treatment of
    asthma, nebulizations may be given more frequently than Q4–6 hr.
 Monitor heart rate, blood pressure, respiratory rate, and serum potassium when using the
    continuous IV infusion route of administration. Adjust dose in renal failure
-   (see Chapter 32).$hl_422$, 'pending-clinical-verification'),
-  ($hl_423_id$tetracycline-hcl$hl_423_id$, $hl_423_name$TETRACYCLINE HCL$hl_423_name$, $hl_423_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_423_source$, 4384685, $hl_423$TETRACYCLINE HCL
+   (see Chapter 32).$hl_442$, 'pending-clinical-verification'),
+  ($hl_443_id$tetracycline-hcl$hl_443_id$, $hl_443_name$TETRACYCLINE HCL$hl_443_name$, $hl_443_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_443_source$, 4384685, $hl_443$TETRACYCLINE HCL
   Various generics; previously available as Sumycin
   Antibiotic
                                                                   D       2      Yes       Yes    No
@@ -22001,8 +21970,8 @@ May decrease the effectiveness of oral contraceptives, increase serum digoxin le
   increase effects of warfarin. Use with methoxyflurane increases risk for nephrotoxicity, and
   use with isotretinoin is associated with pseudotumor cerebri. Adjust dose in renal failure
   (see Chapter 32).
-Short-term maternal use is not likely to cause harm to breastfeeding infants.$hl_423$, 'pending-clinical-verification'),
-  ($hl_424_id$tezacaftor-and-ivacaftor$hl_424_id$, $hl_424_name$TEZACAFTOR AND IVACAFTOR$hl_424_name$, $hl_424_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_424_source$, 4386525, $hl_424$TEZACAFTOR AND IVACAFTOR
+Short-term maternal use is not likely to cause harm to breastfeeding infants.$hl_443$, 'pending-clinical-verification'),
+  ($hl_444_id$tezacaftor-and-ivacaftor$hl_444_id$, $hl_444_name$TEZACAFTOR AND IVACAFTOR$hl_444_name$, $hl_444_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_444_source$, 4386525, $hl_444$TEZACAFTOR AND IVACAFTOR
   Symdeko
   Cystic fibrosis transmembrane conductance
                                                                    B       ?      Yes    Yes        Yes
@@ -22102,8 +22071,8 @@ Administer all doses with high-fat foods to ensure absorption. If a dose (all do
   missed within 6 hr of a scheduled dose, administer a dose immediately. However, if the
   dose is missed >6 hr, skip that dose and resume therapy at the next scheduled dose. Never
   take a double dose for a missed dose.
-1244           Part IV     Formulary$hl_424$, 'pending-clinical-verification'),
-  ($hl_425_id$theophylline$hl_425_id$, $hl_425_name$THEOPHYLLINE$hl_425_name$, $hl_425_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_425_source$, 4392624, $hl_425$THEOPHYLLINE
+1244           Part IV     Formulary$hl_444$, 'pending-clinical-verification'),
+  ($hl_445_id$theophylline$hl_445_id$, $hl_445_name$THEOPHYLLINE$hl_445_name$, $hl_445_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_445_source$, 4392624, $hl_445$THEOPHYLLINE
   Theo-24, Elixophyllin, and generics
   Bronchodilator, methylxanthine
                                                                     C        2      No     Yes    No
@@ -22171,8 +22140,8 @@ Theophylline Sustained-Release Products
   Theo-24                          100, 200, 300, 400                     Q24
   TABLETS:
   Theochron and generics           100, 200, 300, 450                     Q12
-  Generics                         400, 600                               Q24$hl_425$, 'pending-clinical-verification'),
-  ($hl_426_id$thiamine$hl_426_id$, $hl_426_name$THIAMINE$hl_426_name$, $hl_426_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_426_source$, 4396726, $hl_426$THIAMINE
+  Generics                         400, 600                               Q24$hl_445$, 'pending-clinical-verification'),
+  ($hl_446_id$thiamine$hl_446_id$, $hl_446_name$THIAMINE$hl_446_name$, $hl_446_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_446_source$, 4396726, $hl_446$THIAMINE
   Vitamin B1, many generic products
   Water-soluble vitamin
                                                                     A/C         1   No       No    No
@@ -22202,8 +22171,8 @@ Multivitamin preparations contain amounts meeting RDA requirements. Allergic rea
   High-carbohydrate diets or IV dextrose solutions may increase thiamine requirements. Large
   doses may interfere with serum theophylline assay. Pregnancy category changes to “C” if
   used in doses above the RDA.
-1246           Part IV     Formulary$hl_426$, 'pending-clinical-verification'),
-  ($hl_427_id$thioridazine$hl_427_id$, $hl_427_name$THIORIDAZINE$hl_427_name$, $hl_427_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_427_source$, 4398258, $hl_427$THIORIDAZINE
+1246           Part IV     Formulary$hl_446$, 'pending-clinical-verification'),
+  ($hl_447_id$thioridazine$hl_447_id$, $hl_447_name$THIORIDAZINE$hl_447_name$, $hl_447_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_447_source$, 4398258, $hl_447$THIORIDAZINE
   Various generics; previously available as Mellaril
   Antipsychotic, phenothiazine derivative
                                                                     C        3      No     Yes    No
@@ -22229,8 +22198,8 @@ May cause drowsiness, extrapyramidal reactions, autonomic symptoms, electrocardi
    More autonomic symptoms and fewer extrapyramidal effects than chlorpromazine.
    Concurrent use with epinephrine can cause hypotension. Increased cardiac arrhythmias
    may occur with tricyclic antidepressants.
-In an overdose situation, monitor ECG and avoid drugs that can widen Q–Tc interval.$hl_427$, 'pending-clinical-verification'),
-  ($hl_428_id$tiagabine$hl_428_id$, $hl_428_name$TIAGABINE$hl_428_name$, $hl_428_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_428_source$, 4400089, $hl_428$TIAGABINE
+In an overdose situation, monitor ECG and avoid drugs that can widen Q–Tc interval.$hl_447$, 'pending-clinical-verification'),
+  ($hl_448_id$tiagabine$hl_448_id$, $hl_448_name$TIAGABINE$hl_448_name$, $hl_448_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_448_source$, 4400089, $hl_448$TIAGABINE
   Generics; previously available as Gabitril
   Anticonvulsant
                                                                     C        ?      No     Yes    No
@@ -22275,8 +22244,8 @@ Tiagabine’s clearance is increased by concurrent hepatic enzyme-inducing antie
    titration for clinical response may be necessary for patients receiving non–enzyme-inducing
    drugs (e.g., valproate, gabapentin, and lamotrigine). Avoid abrupt discontinuation of drug.
 TID dosing schedule may be preferred since BID schedule may not be well tolerated. Doses
-   should be administered with food.$hl_428$, 'pending-clinical-verification'),
-  ($hl_429_id$tiotropium$hl_429_id$, $hl_429_name$TIOTROPIUM$hl_429_name$, $hl_429_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_429_source$, 4403061, $hl_429$TIOTROPIUM
+   should be administered with food.$hl_448$, 'pending-clinical-verification'),
+  ($hl_449_id$tiotropium$hl_449_id$, $hl_449_name$TIOTROPIUM$hl_449_name$, $hl_449_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_449_source$, 4403061, $hl_449$TIOTROPIUM
   Spiriva HandiHaler, Spiriva Respimat, and generic
   Anticholinergic agent, long-acting
                                                                        C        2      Yes       No    No
@@ -22319,10 +22288,8 @@ Administration of Spiriva Respimat 1.25 mCg × 2 delivered with the AeroChamber 
   adult dose on a mCg-per–body weight basis. Despite a report of an adverse reaction profile
   similar to adolescents and adults from a 12-wk placebo-controlled trial (2.5 mCg/24 hr) in
   children 1–5 yr, the clinical efficacy and safety have not been fully established for children
-  <6 years of age with asthma.
-
-
-    TOBRAMYCIN
+  <6 years of age with asthma.$hl_449$, 'pending-clinical-verification'),
+  ($hl_450_id$tobramycin$hl_450_id$, $hl_450_name$TOBRAMYCIN$hl_450_name$, $hl_450_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_450_source$, 4405874, $hl_450$TOBRAMYCIN
     Tobrex, TOBI, TOBI Podhaler, Bethkis, Kitabis Pak, and
     generics; previously available as Nebcin
                                                                             B/D      2       Yes      No       Yes
@@ -22453,8 +22420,8 @@ INHALATIONAL USE: Transient voice alteration, bronchospasm, dyspnea, pharyngitis
 Pregnancy category is a “D” for injection and inhalation routes of administration and a “B” for
   the ophthalmic route. Consider alternative therapy in cases of known maternal ototoxicity
   history with aminoglycoside use or known mitochondrial DNA variant in the maternal
-  patient.$hl_429$, 'pending-clinical-verification'),
-  ($hl_430_id$tolnaftate$hl_430_id$, $hl_430_name$TOLNAFTATE$hl_430_name$, $hl_430_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_430_source$, 4414185, $hl_430$TOLNAFTATE
+  patient.$hl_450$, 'pending-clinical-verification'),
+  ($hl_451_id$tolnaftate$hl_451_id$, $hl_451_name$TOLNAFTATE$hl_451_name$, $hl_451_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_451_source$, 4414185, $hl_451$TOLNAFTATE
   Tinactin, many other brands and generics
   Antifungal agent
                                                                     C        ?      No      No    No
@@ -22476,8 +22443,8 @@ Pregnancy category not formally assigned by US Food and Drug Administration (FDA
 
 
 
-                                                                                                            FORMULARY$hl_430$, 'pending-clinical-verification'),
-  ($hl_431_id$topiramate$hl_431_id$, $hl_431_name$TOPIRAMATE$hl_431_name$, $hl_431_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_431_source$, 4415420, $hl_431$TOPIRAMATE
+                                                                                                            FORMULARY$hl_451$, 'pending-clinical-verification'),
+  ($hl_452_id$topiramate$hl_452_id$, $hl_452_name$TOPIRAMATE$hl_452_name$, $hl_452_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_452_source$, 4415420, $hl_452$TOPIRAMATE
   Topamax, Topamax Sprinkle, Trokendi XR, Eprontia, and
   generics
                                                                     D       2      Yes       Yes    No
@@ -22592,8 +22559,8 @@ Trokendi XR is bioequivalent to immediate-release dosage forms, and these forms 
 
 
 
-                                                                                                            FORMULARY$hl_431$, 'pending-clinical-verification'),
-  ($hl_432_id$trazodone$hl_432_id$, $hl_432_name$TRAZODONE$hl_432_name$, $hl_432_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_432_source$, 4422404, $hl_432$TRAZODONE
+                                                                                                            FORMULARY$hl_452$, 'pending-clinical-verification'),
+  ($hl_453_id$trazodone$hl_453_id$, $hl_453_name$TRAZODONE$hl_453_name$, $hl_453_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_453_source$, 4422404, $hl_453$TRAZODONE
   Raldesy and generics; previously available as Desyrel
   Antidepressant, serotonin reuptake inhibitor/
                                                                     C       3      Yes       Yes    No
@@ -22623,8 +22590,8 @@ Use with caution in preexisting cardiac disease, in initial recovery phase of my
   following the initiation of therapy or after dose changes.
 Trazodone is a cytochrome P-450 3A4 isoenzyme substrate (may interact with inhibitors and
   inducers) and may increase digoxin levels and increase central nervous system (CNS)
-  effects of alcohol, barbiturates, and other CNS depressants.$hl_432$, 'pending-clinical-verification'),
-  ($hl_433_id$treprostinil$hl_433_id$, $hl_433_name$TREPROSTINIL$hl_433_name$, $hl_433_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_433_source$, 4424429, $hl_433$TREPROSTINIL
+  effects of alcohol, barbiturates, and other CNS depressants.$hl_453$, 'pending-clinical-verification'),
+  ($hl_454_id$treprostinil$hl_454_id$, $hl_454_name$TREPROSTINIL$hl_454_name$, $hl_454_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_454_source$, 4424429, $hl_454$TREPROSTINIL
   Remodulin, Tyvaso, Tyvaso DPI, Orenitram, and generics
   Prostaglandin I2 analogue, vasodilator
                                                                     C       ?      Yes       Yes    No
@@ -22692,8 +22659,8 @@ Flushing, muscle pain (especially with SC route), headaches, and diarrhea are co
 Treprostinil has a longer half-time (T1/2) than epoprostenol with better room temperature
    stability (depending on specific diluent used).
 Do not abruptly withdraw therapy, and have a backup plan for interruptions with IV/SC
-   continuous therapies (e.g., backup pumps and medications).$hl_433$, 'pending-clinical-verification'),
-  ($hl_434_id$tretinoin-topical-preparations$hl_434_id$, $hl_434_name$TRETINOIN—TOPICAL PREPARATIONS$hl_434_name$, $hl_434_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_434_source$, 4428624, $hl_434$TRETINOIN—TOPICAL PREPARATIONS
+   continuous therapies (e.g., backup pumps and medications).$hl_454$, 'pending-clinical-verification'),
+  ($hl_455_id$tretinoin-topical-preparations$hl_455_id$, $hl_455_name$TRETINOIN—TOPICAL PREPARATIONS$hl_455_name$, $hl_455_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_455_source$, 4428624, $hl_455$TRETINOIN—TOPICAL PREPARATIONS
   Retin-A, Retin-A Micro, Altreno, Atralin, Renova, and
   many others
                                                                      C        2     No       No    No
@@ -22769,8 +22736,8 @@ TRETINOIN—TOPICAL PREPARATIONS continued
 In combination with benzoyl peroxide (additional remarks from above): Contraindicated
   with a history of hypersensitivity reactions to either components. Common side effects
   include pain at application site, application-site scaling, erythema, dry skin, pruritus, and
-  irritation. See Benzoyl Peroxide for additional information.$hl_434$, 'pending-clinical-verification'),
-  ($hl_435_id$trimethobenzamide-hcl$hl_435_id$, $hl_435_name$TRIMETHOBENZAMIDE HCL$hl_435_name$, $hl_435_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_435_source$, 4433075, $hl_435$TRIMETHOBENZAMIDE HCL
+  irritation. See Benzoyl Peroxide for additional information.$hl_455$, 'pending-clinical-verification'),
+  ($hl_456_id$trimethobenzamide-hcl$hl_456_id$, $hl_456_name$TRIMETHOBENZAMIDE HCL$hl_456_name$, $hl_456_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_456_source$, 4433075, $hl_456$TRIMETHOBENZAMIDE HCL
   Tigan and generics
   Antiemetic
                                                                     ?        3      Yes    Yes    No
@@ -22791,8 +22758,8 @@ Do not use in premature or newborn infants. Avoid use in patients with hepatotox
   reaction. CNS disturbances are common in children (extrapyramidal symptoms, drowsiness,
   confusion, dizziness). Hypotension, especially with IM use, may occur. IM not recommended
   in children. Consider reducing dosage in the presence of renal impairment since a
-  significant amount of drug is excreted and eliminated by the kidney.$hl_435$, 'pending-clinical-verification'),
-  ($hl_436_id$triamcinolone$hl_436_id$, $hl_436_name$TRIAMCINOLONE$hl_436_name$, $hl_436_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_436_source$, 4434137, $hl_436$TRIAMCINOLONE
+  significant amount of drug is excreted and eliminated by the kidney.$hl_456$, 'pending-clinical-verification'),
+  ($hl_457_id$triamcinolone$hl_457_id$, $hl_457_name$TRIAMCINOLONE$hl_457_name$, $hl_457_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_457_source$, 4434137, $hl_457$TRIAMCINOLONE
   Nasal preparations: Nasacort Allergy 24HR, Nasal
   Allergy 24 Hour, and generics
                                                                     C/D      2      Yes    Yes    No
@@ -22886,8 +22853,8 @@ INJECTABLE USE: Anaphylaxis has been reported with use of the injectable dosage 
   osteoporosis, hypertension, congestive heart failure, myasthenia gravis, ulcerative colitis,
   and renal dysfunction. With systemic use, pregnancy category changes to “D” if used in the
   first trimester. Avoid IV administration with injectable dosage forms. Injectable forms
-  contain benzyl alcohol.$hl_436$, 'pending-clinical-verification'),
-  ($hl_437_id$triamterene$hl_437_id$, $hl_437_name$TRIAMTERENE$hl_437_name$, $hl_437_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_437_source$, 4439765, $hl_437$TRIAMTERENE
+  contain benzyl alcohol.$hl_457$, 'pending-clinical-verification'),
+  ($hl_458_id$triamterene$hl_458_id$, $hl_458_name$TRIAMTERENE$hl_458_name$, $hl_458_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_458_source$, 4439765, $hl_458$TRIAMTERENE
   Dyrenium and generics
   Diuretic, potassium sparing
                                                                     C/D      ?      Yes    Yes    No
@@ -22907,8 +22874,8 @@ Concurrent use of angiotensin-converting enzyme inhibitors may increase serum po
   may increase effects. This drug is also available as a combination product with
   hydrochlorothiazide; erythema multiforme and toxic epidermal necrolysis have been reported
   with this combination product. Administer doses with food to minimize gastrointestinal
-  upset. Pregnancy category changes to “D” if used in pregnancy-induced hypertension.$hl_437$, 'pending-clinical-verification'),
-  ($hl_438_id$trifluridine$hl_438_id$, $hl_438_name$TRIFLURIDINE$hl_438_name$, $hl_438_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_438_source$, 4441112, $hl_438$TRIFLURIDINE
+  upset. Pregnancy category changes to “D” if used in pregnancy-induced hypertension.$hl_458$, 'pending-clinical-verification'),
+  ($hl_459_id$trifluridine$hl_459_id$, $hl_459_name$TRIFLURIDINE$hl_459_name$, $hl_459_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_459_source$, 4441112, $hl_459$TRIFLURIDINE
   Generics; previously available as Viroptic
   Antiviral, ophthalmic
                                                                     C        ?      No     No     No
@@ -22932,16 +22899,16 @@ Avoid touching the applicator tip to eye, fingers, or other surfaces, and do not
   lenses during treatment of ocular infections. Apply pressure to the lacrimal sac during and
   for 1–2 min after dose administration to reduce risk of systemic absorption.
 Store medication in the refrigerator (2°C–8°C). Storage at room temperature will result in a
-  decrease in pH, which will cause stinging and ocular discomfort when in use.$hl_438$, 'pending-clinical-verification'),
-  ($hl_439_id$trikafta$hl_439_id$, $hl_439_name$TRIKAFTA$hl_439_name$, $hl_439_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_439_source$, 4442642, $hl_439$TRIKAFTA
+  decrease in pH, which will cause stinging and ocular discomfort when in use.$hl_459$, 'pending-clinical-verification'),
+  ($hl_460_id$trikafta$hl_460_id$, $hl_460_name$TRIKAFTA$hl_460_name$, $hl_460_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_460_source$, 4442642, $hl_460$TRIKAFTA
 
-See Elexacaftor/Tezacaftor/Ivacaftor.$hl_439$, 'pending-clinical-verification'),
-  ($hl_440_id$trimethoprim-and-sulfamethoxazole$hl_440_id$, $hl_440_name$TRIMETHOPRIM AND SULFAMETHOXAZOLE$hl_440_name$, $hl_440_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_440_source$, 4442694, $hl_440$TRIMETHOPRIM AND SULFAMETHOXAZOLE
+See Elexacaftor/Tezacaftor/Ivacaftor.$hl_460$, 'pending-clinical-verification'),
+  ($hl_461_id$trimethoprim-and-sulfamethoxazole$hl_461_id$, $hl_461_name$TRIMETHOPRIM AND SULFAMETHOXAZOLE$hl_461_name$, $hl_461_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_461_source$, 4442694, $hl_461$TRIMETHOPRIM AND SULFAMETHOXAZOLE
 
 See Sulfamethoxazole and Trimethoprim.
 
- U$hl_440$, 'pending-clinical-verification'),
-  ($hl_441_id$ursodiol$hl_441_id$, $hl_441_name$URSODIOL$hl_441_name$, $hl_441_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_441_source$, 4442775, $hl_441$URSODIOL
+ U$hl_461$, 'pending-clinical-verification'),
+  ($hl_462_id$ursodiol$hl_462_id$, $hl_462_name$URSODIOL$hl_462_name$, $hl_462_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_462_source$, 4442775, $hl_462$URSODIOL
   Urso Forte, Reltone, and generics; previously available
   as Actigall
                                                                      B        1     No       Yes    No
@@ -22995,8 +22962,8 @@ Aluminum-containing antacids, cholestyramine, and oral contraceptives decrease u
   effectiveness. Dissolution of stones may take several months. Stone recurrence occurs in
   30%–50% of patients within 5 yr.
 
- V$hl_441$, 'pending-clinical-verification'),
-  ($hl_442_id$valacyclovir$hl_442_id$, $hl_442_name$VALACYCLOVIR$hl_442_name$, $hl_442_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_442_source$, 4445372, $hl_442$VALACYCLOVIR
+ V$hl_462$, 'pending-clinical-verification'),
+  ($hl_463_id$valacyclovir$hl_463_id$, $hl_463_name$VALACYCLOVIR$hl_463_name$, $hl_463_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_463_source$, 4445372, $hl_463$VALACYCLOVIR
   Valtrex and generics
   Antiviral agent
                                                                     B        1      Yes    Yes    No
@@ -23064,8 +23031,8 @@ For initial episodes of genital herpes, therapy is most effective when initiated
   recurrent episodes (no efficacy data when initiating therapy >24 hr after onset of
   symptoms). Data are not available for use as suppressive therapy for periods >1 yr.
 Valacyclovir CANNOT be substituted for acyclovir on a one-to-one basis. Doses may be
-  administered with or without food.$hl_442$, 'pending-clinical-verification'),
-  ($hl_443_id$valganciclovir$hl_443_id$, $hl_443_name$VALGANCICLOVIR$hl_443_name$, $hl_443_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_443_source$, 4449420, $hl_443$VALGANCICLOVIR
+  administered with or without food.$hl_463$, 'pending-clinical-verification'),
+  ($hl_464_id$valganciclovir$hl_464_id$, $hl_464_name$VALGANCICLOVIR$hl_464_name$, $hl_464_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_464_source$, 4449420, $hl_464$VALGANCICLOVIR
   Valcyte and generics
 
 
@@ -23150,8 +23117,8 @@ Monitor complete blood count (CBC) with differential, platelets, and serum creat
   changes to height and body weight for prophylaxis dosing.
 Valganciclovir CANNOT be substituted for ganciclovir on a one-to-one basis. All doses are
   administered with food. Avoid direct skin or mucous membrane contact with broken or
-  crushed tablets.$hl_443$, 'pending-clinical-verification'),
-  ($hl_444_id$valproic-acid-valproate-sodium$hl_444_id$, $hl_444_name$VALPROIC ACID/VALPROATE SODIUM$hl_444_name$, $hl_444_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_444_source$, 4455196, $hl_444$VALPROIC ACID/VALPROATE SODIUM
+  crushed tablets.$hl_464$, 'pending-clinical-verification'),
+  ($hl_465_id$valproic-acid-valproate-sodium$hl_465_id$, $hl_465_name$VALPROIC ACID/VALPROATE SODIUM$hl_465_name$, $hl_465_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_465_source$, 4455196, $hl_465$VALPROIC ACID/VALPROATE SODIUM
   Generics; previously available as Depakene (PO) and
   Depacon (IV)
                                                                     X       2      No       Yes   Yes
@@ -23229,8 +23196,8 @@ Therapeutic levels: 50–100 mg/L. Recommendations for serum sampling at steady 
   prior to and during therapy.
 Valproic acid and divalproex should not be used in pregnant women. Increased risk of neural
   tube defects, decreased child IQ scores, craniofacial defects, and cardiovascular
-  malformations have been reported in babies exposed to valproic acid and divalproex sodium.$hl_444$, 'pending-clinical-verification'),
-  ($hl_445_id$valsartan$hl_445_id$, $hl_445_name$VALSARTAN$hl_445_name$, $hl_445_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_445_source$, 4460531, $hl_445$VALSARTAN
+  malformations have been reported in babies exposed to valproic acid and divalproex sodium.$hl_465$, 'pending-clinical-verification'),
+  ($hl_466_id$valsartan$hl_466_id$, $hl_466_name$VALSARTAN$hl_466_name$, $hl_466_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_466_source$, 4460531, $hl_466$VALSARTAN
   Diovan and generics
   Angiotensin II receptor blocker, antihypertensive
                                                                    D       ?      Yes    Yes    No
@@ -23266,10 +23233,8 @@ Hypotension, dizziness, headache, cough, and increases in blood urea nitrogen (B
   levels closely.
 Onset of initial antihypertensive effects is 2 hr with maximum effects after 2–4 wk of chronic
   use. Patients may require higher doses of oral tablet dosage form than the oral suspension
-  due to increased bioavailability with the oral suspension.
-
-
-    VANCOMYCIN
+  due to increased bioavailability with the oral suspension.$hl_466$, 'pending-clinical-verification'),
+  ($hl_467_id$vancomycin$hl_467_id$, $hl_467_name$VANCOMYCIN$hl_467_name$, $hl_467_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_467_source$, 4462802, $hl_467$VANCOMYCIN
     Vancocin, Firvanq, and generics
     Antibiotic, glycopeptide
                                                                        C/B     1      Yes       No    No
@@ -23400,8 +23365,8 @@ ORAL USE for C. difficile: Vancomycin (PO) or metronidazole (PO) is currently th
   Society for Healthcare Epidemiology of America Clinical Practice Guidelines. Common
   adverse effects with oral vancomycin capsules in adults include nausea, abdominal pain,
   and hypokalemia.
-Pregnancy category “C” for the intravenous route and “B” for the oral route of administration.$hl_445$, 'pending-clinical-verification'),
-  ($hl_446_id$vanzacaftor-tezacaftor-deutivacaftor$hl_446_id$, $hl_446_name$VANZACAFTOR + TEZACAFTOR + DEUTIVACAFTOR$hl_446_name$, $hl_446_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_446_source$, 4470646, $hl_446$VANZACAFTOR + TEZACAFTOR + DEUTIVACAFTOR
+Pregnancy category “C” for the intravenous route and “B” for the oral route of administration.$hl_467$, 'pending-clinical-verification'),
+  ($hl_468_id$vanzacaftor-tezacaftor-deutivacaftor$hl_468_id$, $hl_468_name$VANZACAFTOR + TEZACAFTOR + DEUTIVACAFTOR$hl_468_name$, $hl_468_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_468_source$, 4470646, $hl_468$VANZACAFTOR + TEZACAFTOR + DEUTIVACAFTOR
   Alyftrek
 
 
@@ -23504,8 +23469,8 @@ All three components of this medication are substrates for CYP3A4 and inhibit P-
 Administer all doses with high-fat foods to ensure absorption. If a dose is missed within 6 hr
    of a scheduled dose, administer a dose immediately. If the missed dose is >6 hr, skip the
    missed dose and continue on the original schedule the next day. Never take a double dose
-   for a missed dose.$hl_446$, 'pending-clinical-verification'),
-  ($hl_447_id$varicella-zoster-immune-globulin-human$hl_447_id$, $hl_447_name$VARICELLA-ZOSTER IMMUNE GLOBULIN (HUMAN)$hl_447_name$, $hl_447_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_447_source$, 4477697, $hl_447$VARICELLA-ZOSTER IMMUNE GLOBULIN (HUMAN)
+   for a missed dose.$hl_468$, 'pending-clinical-verification'),
+  ($hl_469_id$varicella-zoster-immune-globulin-human$hl_469_id$, $hl_469_name$VARICELLA-ZOSTER IMMUNE GLOBULIN (HUMAN)$hl_469_name$, $hl_469_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_469_source$, 4477697, $hl_469$VARICELLA-ZOSTER IMMUNE GLOBULIN (HUMAN)
   VariZig, VZIG
   Hyperimmune globulin, varicella-zoster
                                                                       C       1      No       No     No
@@ -23543,8 +23508,8 @@ Hyperviscosity of the blood may increase risk for thrombotic events. Interferes 
   of live vaccines 6 mo or longer after VZIG dose. See latest American Academy of Pediatrics
   Red Book for additional information.
 Avoid IM injection into the gluteal region due to risk for sciatic nerve damage and do not
-  exceed age-specific single max. IM injection volume.$hl_447$, 'pending-clinical-verification'),
-  ($hl_448_id$vasopressin$hl_448_id$, $hl_448_name$VASOPRESSIN$hl_448_name$, $hl_448_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_448_source$, 4479632, $hl_448$VASOPRESSIN
+  exceed age-specific single max. IM injection volume.$hl_469$, 'pending-clinical-verification'),
+  ($hl_470_id$vasopressin$hl_470_id$, $hl_470_name$VASOPRESSIN$hl_470_name$, $hl_470_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_470_source$, 4479632, $hl_470$VASOPRESSIN
   Vasostrict and generics, 8-Arginine Vasopressin;
   previously available as Pitressin
                                                                     C       2      No     Yes    No
@@ -23593,8 +23558,8 @@ VASOPRESSIN continued
                                                                                                           FORMULARY
 Do not abruptly discontinue IV infusion (taper dose). Patients with variceal hemorrhage and
   hepatic insufficiency may respond to lower dosages. Monitor fluid intake and output, urine
-  specific gravity, urine and serum osmolality, plasma osmolality, and sodium.$hl_448$, 'pending-clinical-verification'),
-  ($hl_449_id$vecuronium-bromide$hl_449_id$, $hl_449_name$VECURONIUM BROMIDE$hl_449_name$, $hl_449_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_449_source$, 4482673, $hl_449$VECURONIUM BROMIDE
+  specific gravity, urine and serum osmolality, plasma osmolality, and sodium.$hl_470$, 'pending-clinical-verification'),
+  ($hl_471_id$vecuronium-bromide$hl_471_id$, $hl_471_name$VECURONIUM BROMIDE$hl_471_name$, $hl_471_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_471_source$, 4482673, $hl_471$VECURONIUM BROMIDE
   Various generics; previously available as Norcuron
   Nondepolarizing neuromuscular blocking agent
                                                                   C       ?      Yes       Yes    No
@@ -23630,8 +23595,8 @@ Sugammadex is considered the primary antidote. Neostigmine, pyridostigmine, or
 
 
 
-                                                                                                        For explanation of icons, see p. 814$hl_449$, 'pending-clinical-verification'),
-  ($hl_450_id$vigabatrin$hl_450_id$, $hl_450_name$VIGABATRIN$hl_450_name$, $hl_450_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_450_source$, 4484763, $hl_450$VIGABATRIN
+                                                                                                        For explanation of icons, see p. 814$hl_471$, 'pending-clinical-verification'),
+  ($hl_472_id$vigabatrin$hl_472_id$, $hl_472_name$VIGABATRIN$hl_472_name$, $hl_472_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_472_source$, 4484763, $hl_472$VIGABATRIN
   Sabril, Vigadrone, Vigafyde, Vigpoder, and generics
   Anticonvulsant
                                                                   C       2      Yes       Yes    No
@@ -23700,8 +23665,8 @@ Access to this medication is restricted to prescribers and pharmacies registered
 
 
 
-                                                                                                          FORMULARY$hl_450$, 'pending-clinical-verification'),
-  ($hl_451_id$vitamin-a$hl_451_id$, $hl_451_name$VITAMIN A$hl_451_name$, $hl_451_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_451_source$, 4489120, $hl_451$VITAMIN A
+                                                                                                          FORMULARY$hl_472$, 'pending-clinical-verification'),
+  ($hl_473_id$vitamin-a$hl_473_id$, $hl_473_name$VITAMIN A$hl_473_name$, $hl_473_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_473_source$, 4489120, $hl_473$VITAMIN A
   Aquasol A and many generics
   Vitamin, fat soluble
                                                                     A/X     2      No       No    No
@@ -23743,42 +23708,17 @@ High doses above the US RDA are teratogenic (category X). The use of vitamin A i
 
 
                                                                                                         For explanation of icons, see p. 814
-  acute inflammatory condition because falsely low levels have been reported.
-
-
-  VITAMIN B1 See Thiamine.
-
-
-
-  VITAMIN B2 See Riboflavin.
-1274          Part IV      Formulary
-
-
-  VITAMIN B3 See Niacin.
-
-
-
-  VITAMIN B6 See Pyridoxine.
-
-
-
-  VITAMIN B12 See Cyanocobalamin.
-
-
-
-  VITAMIN C See Ascorbic Acid.
-
-
-
-  VITAMIN D2 See Ergocalciferol.
-
-
-
-  VITAMIN D3 See Cholecalciferol.
-
-
-
-  VITAMIN E/a-TOCOPHEROL
+  acute inflammatory condition because falsely low levels have been reported.$hl_473$, 'pending-clinical-verification'),
+  ($hl_474_id$vitamin-b1$hl_474_id$, $hl_474_name$VITAMIN B1$hl_474_name$, $hl_474_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_474_source$, 4491524, $hl_474$VITAMIN B1 See Thiamine.$hl_474$, 'pending-clinical-verification'),
+  ($hl_475_id$vitamin-b2$hl_475_id$, $hl_475_name$VITAMIN B2$hl_475_name$, $hl_475_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_475_source$, 4491554, $hl_475$VITAMIN B2 See Riboflavin.
+1274          Part IV      Formulary$hl_475$, 'pending-clinical-verification'),
+  ($hl_476_id$vitamin-b3$hl_476_id$, $hl_476_name$VITAMIN B3$hl_476_name$, $hl_476_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_476_source$, 4491623, $hl_476$VITAMIN B3 See Niacin.$hl_476$, 'pending-clinical-verification'),
+  ($hl_477_id$vitamin-b6$hl_477_id$, $hl_477_name$VITAMIN B6$hl_477_name$, $hl_477_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_477_source$, 4491651, $hl_477$VITAMIN B6 See Pyridoxine.$hl_477$, 'pending-clinical-verification'),
+  ($hl_478_id$vitamin-b12$hl_478_id$, $hl_478_name$VITAMIN B12$hl_478_name$, $hl_478_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_478_source$, 4491683, $hl_478$VITAMIN B12 See Cyanocobalamin.$hl_478$, 'pending-clinical-verification'),
+  ($hl_479_id$vitamin-c$hl_479_id$, $hl_479_name$VITAMIN C$hl_479_name$, $hl_479_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_479_source$, 4491720, $hl_479$VITAMIN C See Ascorbic Acid.$hl_479$, 'pending-clinical-verification'),
+  ($hl_480_id$vitamin-d2$hl_480_id$, $hl_480_name$VITAMIN D2$hl_480_name$, $hl_480_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_480_source$, 4491754, $hl_480$VITAMIN D2 See Ergocalciferol.$hl_480$, 'pending-clinical-verification'),
+  ($hl_481_id$vitamin-d3$hl_481_id$, $hl_481_name$VITAMIN D3$hl_481_name$, $hl_481_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_481_source$, 4491790, $hl_481$VITAMIN D3 See Cholecalciferol.$hl_481$, 'pending-clinical-verification'),
+  ($hl_482_id$vitamin-e-a-tocopherol$hl_482_id$, $hl_482_name$VITAMIN E/a-TOCOPHEROL$hl_482_name$, $hl_482_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_482_source$, 4491827, $hl_482$VITAMIN E/a-TOCOPHEROL
   Many brand names, including generics
   Vitamin, fat soluble
                                                                   A/C     2      No     No     No
@@ -23807,9 +23747,9 @@ Pregnancy category changes to “C” if used in doses above the US RDA.
 
 
 
-                                                                                                             FORMULARY
-  VITAMIN K See Phytonadione.$hl_451$, 'pending-clinical-verification'),
-  ($hl_452_id$voriconazole$hl_452_id$, $hl_452_name$VORICONAZOLE$hl_452_name$, $hl_452_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_452_source$, 4493555, $hl_452$VORICONAZOLE
+                                                                                                             FORMULARY$hl_482$, 'pending-clinical-verification'),
+  ($hl_483_id$vitamin-k$hl_483_id$, $hl_483_name$VITAMIN K$hl_483_name$, $hl_483_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_483_source$, 4493522, $hl_483$VITAMIN K See Phytonadione.$hl_483$, 'pending-clinical-verification'),
+  ($hl_484_id$voriconazole$hl_484_id$, $hl_484_name$VORICONAZOLE$hl_484_name$, $hl_484_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_484_source$, 4493555, $hl_484$VORICONAZOLE
   Vfend and generics
   Antifungal, triazole
                                                                    D       3      Yes       Yes   Yes
@@ -23943,8 +23883,8 @@ Oral bioequivalence of the oral suspension and tablet has not been evaluated in 
    Administer IV over 1–2 hr with a max. rate of 3 mg/kg/hr at a concentration ≤5 mg/mL.
    Administer oral doses 1 hr before or 1 hr after meals.
 
- W$hl_452$, 'pending-clinical-verification'),
-  ($hl_453_id$warfarin$hl_453_id$, $hl_453_name$WARFARIN$hl_453_name$, $hl_453_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_453_source$, 4502666, $hl_453$WARFARIN
+ W$hl_484$, 'pending-clinical-verification'),
+  ($hl_485_id$warfarin$hl_485_id$, $hl_485_name$WARFARIN$hl_485_name$, $hl_485_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_485_source$, 4502666, $hl_485$WARFARIN
   Jantoven and generics; previously available as
   Coumadin
                                                                      X       1      Yes       Yes   Yes
@@ -24053,8 +23993,8 @@ Lower doses should be considered for patients with pharmacogenetic variations in
   European ancestry. Elderly and/or debilitated patients and patients with a potential to exhibit
   greater than expected PT/INR response to warfarin should also consider using lower doses.
 
- Z$hl_453$, 'pending-clinical-verification'),
-  ($hl_454_id$zidovudine$hl_454_id$, $hl_454_name$ZIDOVUDINE$hl_454_name$, $hl_454_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_454_source$, 4509436, $hl_454$ZIDOVUDINE
+ Z$hl_485$, 'pending-clinical-verification'),
+  ($hl_486_id$zidovudine$hl_486_id$, $hl_486_name$ZIDOVUDINE$hl_486_name$, $hl_486_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_486_source$, 4509436, $hl_486$ZIDOVUDINE
   Retrovir, AZT, and generics
   Antiviral agent, nucleoside analogue reverse
                                                                        C        2      Yes       Yes    No
@@ -24146,8 +24086,8 @@ ZIDOVUDINE continued
 Do not administer IM. IV form is incompatible with blood product infusions and should be
   infused over 1 hr (intermittent IV dosing). Despite manufacturer recommendations of
   administering oral doses 30 min prior to or 1 hr after meals, doses may be administered
-  with food.$hl_454$, 'pending-clinical-verification'),
-  ($hl_455_id$zinc-salts-systemic$hl_455_id$, $hl_455_name$ZINC SALTS, SYSTEMIC$hl_455_name$, $hl_455_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_455_source$, 4515643, $hl_455$ZINC SALTS, SYSTEMIC
+  with food.$hl_486$, 'pending-clinical-verification'),
+  ($hl_487_id$zinc-salts-systemic$hl_487_id$, $hl_487_name$ZINC SALTS, SYSTEMIC$hl_487_name$, $hl_487_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_487_source$, 4515643, $hl_487$ZINC SALTS, SYSTEMIC
   Galzin, Orazinc, and generics
   Trace mineral
                                                                     A/C      2      Yes       No    No
@@ -24190,8 +24130,8 @@ Parenteral products contain trace amounts of aluminum as a by-product; use with 
   administration can cause copper deficiency.
 Approximately 20%–30% of oral dose is absorbed. Oral doses may be administered with food
   if GI upset occurs. Pregnancy category is A for zinc acetate and C for all other salt forms.
-1282           Part IV     Formulary$hl_455$, 'pending-clinical-verification'),
-  ($hl_456_id$zolmitriptan$hl_456_id$, $hl_456_name$ZOLMITRIPTAN$hl_456_name$, $hl_456_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_456_source$, 4518048, $hl_456$ZOLMITRIPTAN
+1282           Part IV     Formulary$hl_487$, 'pending-clinical-verification'),
+  ($hl_488_id$zolmitriptan$hl_488_id$, $hl_488_name$ZOLMITRIPTAN$hl_488_name$, $hl_488_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_488_source$, 4518048, $hl_488$ZOLMITRIPTAN
   Zomig and generics previously available as Zomig ZMT
   Antimigraine agent, selective serotonin agonist
                                                                      C        3     Yes     Yes    No
@@ -24248,8 +24188,8 @@ ZOLMITRIPTAN continued
 
                                                                                                              FORMULARY
 When using the ODT, place the whole tablet on the tongue, allow the tablet to dissolve, and
-  swallow with saliva. Administration with liquids is optional. Do not break the ODT tablet.$hl_456$, 'pending-clinical-verification'),
-  ($hl_457_id$zonisamide$hl_457_id$, $hl_457_name$ZONISAMIDE$hl_457_name$, $hl_457_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_457_source$, 4521753, $hl_457$ZONISAMIDE
+  swallow with saliva. Administration with liquids is optional. Do not break the ODT tablet.$hl_488$, 'pending-clinical-verification'),
+  ($hl_489_id$zonisamide$hl_489_id$, $hl_489_name$ZONISAMIDE$hl_489_name$, $hl_489_source$20260915-141516-bab95c5c-53d-The Harrit lane 24th ed. 2027.pdf$hl_489_source$, 4521753, $hl_489$ZONISAMIDE
   Zonegran, Zonisade, and generics
   Anticonvulsant
                                                                     C        3      Yes       Yes    No
@@ -24998,10 +24938,10 @@ REFERENCES
  1. Schwartz GJ, Muñoz A, Schneider MF, et al. New equations to estimate GFR in
     children with CKD. J Am Soc Nephrol. 2009;20(3):629–637. https://doi.org/
     10.1681/ASN.2008030287.
- 2. Zovirax� (acyclovir sodium) for injection. Package Insert. GlaxoSmithKline;
+ 2. Zovirax® (acyclovir sodium) for injection. Package Insert. GlaxoSmithKline;
     2005. https://www.accessdata.fda.gov/drugsatfda_docs/label/2004/
     18603slr027_zovirax_lbl.pdf.
- 3. Symmetrel� (amantadine hydrochloride, USP) tablets and syrup. Package
+ 3. Symmetrel® (amantadine hydrochloride, USP) tablets and syrup. Package
     Insert. Endo Pharmaceuticals; 2009. https://www.accessdata.fda.gov/
     drugsatfda_docs/label/2009/016023s041,018101s016lbl.pdf.
  4. Veltri MA, Neu AM, Fivush BA, Parekh RS, Furth SL. Drug dosing during
@@ -25013,19 +24953,19 @@ REFERENCES
  6. Pediatric Lexicomp: Taketomo CK. Pediatric and Neonatal Dosage Handbook:
     An Extensive Resource for Clinicians Treating Pediatric and Neonatal Patients.
     Lexicomp/Wolters Kluwer; 2024.
- 7. Augmentin� (amoxicillin/clavulanate potassium). Package Insert]. Dr.
+ 7. Augmentin® (amoxicillin/clavulanate potassium). Package Insert]. Dr.
     Reddy’s Laboratories, Inc.; 2013. https://www.accessdata.fda.gov/drugsatfda_
     docs/label/2013/050564s053s055,050575s040s042,050597s047s049,
     050720s026s028,050725s028s030,050726s022s024lbl.pdf.
- 8. AmBisome� (amphotericin B). Package Insert. Gilead Sciences, Inc.; 2012.
+ 8. AmBisome® (amphotericin B). Package Insert. Gilead Sciences, Inc.; 2012.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/050740s021lbl.
     pdf.
  9. Aronoff GR, Bennett WM, Berns JS, et al. Drug Prescribing in Renal Failure:
     Dosing Guidelines for Adults and Children. 5th ed. American College of
     Physicians; 2007.
-10. Unasyn� (ampicillin sodium/sulbactam sodium). Package Insert. Pfizer Inc.;
+10. Unasyn® (ampicillin sodium/sulbactam sodium). Package Insert. Pfizer Inc.;
     2024. https://labeling.pfizer.com/ShowLabeling.aspx?format=PDF&id=653.
-11. Azactam� (aztreonam, USP). Package Insert. Bristol-Myers Squibb company;
+11. Azactam® (aztreonam, USP). Package Insert. Bristol-Myers Squibb company;
     2021. https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/
     050580Orig1s046lbl.pdf.
 12. Cefazolin. Package Insert. Baxter Healthcare Corporation; 2021. https://www.
@@ -25033,47 +24973,47 @@ REFERENCES
 13. Cefdinir (USP) for oral suspension. Package Insert. Lupin Pharmaceuticals,
     Inc.; 2009. https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?
     setid=2c3705f2-0b44-4d38-a7f9-4b392d0a1a45&type=display.
-14. Maxipime� (cefepime hydrochloride, USP) for injection. Package Insert.
+14. Maxipime® (cefepime hydrochloride, USP) for injection. Package Insert.
     Hospira, Inc.; 2012. https://www.accessdata.fda.gov/drugsatfda_docs/label/
     2012/050679s036lbl.pdf.
-15. Fetroja� (cefiderocol) for injection. Package Insert. Shionogi Inc.; 2021.
+15. Fetroja® (cefiderocol) for injection. Package Insert. Shionogi Inc.; 2021.
     https://www.shionogi.com/content/dam/shionogi/si/products/pdf/fetroja.pdf.
-16. Suprax� (cefixime). Package Insert. Lupid Pharmaceuticals, Inc.; 2017. https://
+16. Suprax® (cefixime). Package Insert. Lupid Pharmaceuticals, Inc.; 2017. https://
     www.accessdata.fda.gov/drugsatfda_docs/label/2017/
     202091s005,203195s006lbl.pdf.
-17. Cefotan� (cefotetan for injection, USP). Package Insert. Teligent Pharma, Inc.;
+17. Cefotan® (cefotetan for injection, USP). Package Insert. Teligent Pharma, Inc.;
     2017. https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/
     050588s032lbl.pdf.
 1296.e2      Part IV    Formulary
 
-18. Mefoxin� (cefoxitin for injection). Package Insert. Mylan Institutional, LLC;
+18. Mefoxin® (cefoxitin for injection). Package Insert. Mylan Institutional, LLC;
     2017. https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/
     050517s053lbl.pdf.
-19. Vantin� (cefpodoxime). Package Insert. Pharmacia & Upjohn Company;
+19. Vantin® (cefpodoxime). Package Insert. Pharmacia & Upjohn Company;
     2013. https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/
     050674s015,050675s018lbl.pdf.
-20. Cefzil� (cefprozil). Package Insert. Bristol-Myers Squibb Company; 2016.
+20. Cefzil® (cefprozil). Package Insert. Bristol-Myers Squibb Company; 2016.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/
     050664s026,050665s026lbl.pdf.
-21. Teflaro� (ceftaroline fosamil). Package Insert. Actavis, Inc.; 2015. https://www.
+21. Teflaro® (ceftaroline fosamil). Package Insert. Actavis, Inc.; 2015. https://www.
     accessdata.fda.gov/drugsatfda_docs/label/2015/200327s015lbl.pdf.
-22. Fortaz� (ceftazidime). Package Insert. Teligent Pharma, Inc.; 2018. https://
+22. Fortaz® (ceftazidime). Package Insert. Teligent Pharma, Inc.; 2018. https://
     www.accessdata.fda.gov/drugsatfda_docs/label/2020/050578s062lbl.pdf.
-23. Zerbaxa� (ceftolozane and tazobactam). Package Insert. Merck & Co., Inc.;
+23. Zerbaxa® (ceftolozane and tazobactam). Package Insert. Merck & Co., Inc.;
     2022. https://www.merck.com/product/usa/pi_circulars/z/zerbaxa/zerbaxa_pi.
     pdf.
-24. Ceftin� (cefuroxime axetil). Package Insert. GlaxoSmithKline; 2015. https://
+24. Ceftin® (cefuroxime axetil). Package Insert. GlaxoSmithKline; 2015. https://
     www.accessdata.fda.gov/drugsatfda_docs/label/2015/
     050605s048,050672s034lbl.pdf.
-25. Zinacef� (cefuroxime). Package Insert. Covis Pharmaceuticals, Inc.; 2013.
+25. Zinacef® (cefuroxime). Package Insert. Covis Pharmaceuticals, Inc.; 2013.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/
     050558s069,050643s022lbl.pdf.
-26. Biaxin� (clarithromycin filmtabs, USP). Package Insert. AbbVie, Inc.; 2017.
+26. Biaxin® (clarithromycin filmtabs, USP). Package Insert. AbbVie, Inc.; 2017.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/
     050662s058,050698s038,050775s026lbl.pdf.
-27. Invanz� (ertapenem). Package Insert. Merck & Co., Inc.; 2012. https://www.
+27. Invanz® (ertapenem). Package Insert. Merck & Co., Inc.; 2012. https://www.
     accessdata.fda.gov/drugsatfda_docs/label/2012/021337s038lbl.pdf.
-28. Erythrocin� lactobionate (erythromycin lactobionate). Package Insert.
+28. Erythrocin® lactobionate (erythromycin lactobionate). Package Insert.
     Hospira, Inc.; 2022. https://labeling.pfizer.com/ShowLabeling.aspx?id=4441.
 29. Czock D, Spitaletta M, Keller F. Suboptimal antimicrobial drug exposure in
     patients with renal impairment. Int J Clin Pharm. 2015;37(5):906–916. https://
@@ -25083,7 +25023,7 @@ REFERENCES
     America clinical practice guidelines: treatment of drug-susceptible
     tuberculosis. Clin Infect Dis. 2016;63(7):e147–e195. https://doi.org/10.1093/
     cid/ciw376.
-31. Famvir� (famciclovir). Package Insert. Novartis Pharmaceuticals Corporation;
+31. Famvir® (famciclovir). Package Insert. Novartis Pharmaceuticals Corporation;
     2011. https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/
     020363s037lbl.pdf.
 32. Panel on Guidelines for the Prevention and Treatment of Opportunistic
@@ -25100,34 +25040,34 @@ REFERENCES
     pediatric-oi/guidelines-pediatric-oi.pdf. Accessed November 26, 2024.
                           Chapter 32     Drugs in Kidney Failure         1296.e3
 
-34. Foscavir� (foscarnet sodium). Package Insert. Fresenius Kabi Austria GmbH;
+34. Foscavir® (foscarnet sodium). Package Insert. Fresenius Kabi Austria GmbH;
     2011. https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/
     020068s018lbl.pdf.
 35. Ganciclovir. Package Insert. Exela, Inc.; 2017. https://www.accessdata.fda.gov/
     drugsatfda_docs/label/2017/209347lbl.pdf.
-36. Primaxin� (imipenem and cilastatin) for injection. Package Insert. Merck &
+36. Primaxin® (imipenem and cilastatin) for injection. Package Insert. Merck &
     Co., Inc.; 2016. https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/
     050587s074lbl.pdf.
-37. Cresemba� (isavuconazole). Package Insert. Pfizer Inc.; 2024. https://labeling.
+37. Cresemba® (isavuconazole). Package Insert. Pfizer Inc.; 2024. https://labeling.
     pfizer.com/ShowLabeling.aspx?id=15034.
 38. Panel on Antiretroviral Guidelines for Adults and Adolescents. Guidelines for
     the Use of Antiretroviral Agents in Adults and Adolescents with HIV.
     Department of Health and Human Services; 2024. https://clinicalinfo.hiv.gov/
     sites/default/files/guidelines/documents/adult-adolescent-arv/guidelines-
     adult-adolescent-arv.pdf. Accessed November 26, 2024.
-39. Prevymis� (letermovir). Package Insert. Merck Sharp & Dohme LLC; 2024.
+39. Prevymis® (letermovir). Package Insert. Merck Sharp & Dohme LLC; 2024.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/219104s000lbl.
     pdf.
-40. Levaquin� (levofloxacin). Package Insert. Hospira, Inc.; 2008. https://www.
+40. Levaquin® (levofloxacin). Package Insert. Hospira, Inc.; 2008. https://www.
     accessdata.fda.gov/drugsatfda_docs/label/2008/021721s020_020635s57_
     020634s52_lbl.pdf.
-41. Meronem� (meropenem). Package Insert. Pfizer Inc.; 2024. https://labeling.
+41. Meronem® (meropenem). Package Insert. Pfizer Inc.; 2024. https://labeling.
     pfizer.com/ShowLabeling.aspx?id=15033.
 42. Goldstein SL, Murry DJ, May S, Aleksic A, Sowinski KM, Blaney S.
     Meropenem pharmacokinetics in children and adolescents receiving
     hemodialysis. Pediatr Nephrol. 2001;16(12):1015–1018. https://doi.org/
     10.1007/s004670100015.
-43. Flagyl� (metronidazole). Package Insert. Pfizer Inc.; 2024. https://labeling.
+43. Flagyl® (metronidazole). Package Insert. Pfizer Inc.; 2024. https://labeling.
     pfizer.com/showlabeling.aspx?id=570.
 44. Tamiflu (oseltamivir phosphate) [package insert]. genentech, inc ; published
     2019. https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/
@@ -25135,17 +25075,17 @@ REFERENCES
 45. Penicillin VK, St Peter WL, Redic-Kill KA, Halstenson CE. Clinical
     pharmacokinetics of antibiotics in patients with impaired renal function. Clin
     Pharmacokinet. 1992;22:169–210.
-46. Zosyn� (piperacillin and tazobactam). Package Insert. Pfizer Inc.; 2017.
+46. Zosyn® (piperacillin and tazobactam). Package Insert. Pfizer Inc.; 2017.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/050684s88s89s90_
     050750s37s38s39lbl.pdf.
-47. Noxafil� (posaconazole). Package Insert. Merck & Co., Inc.; 2015. https://
+47. Noxafil® (posaconazole). Package Insert. Merck & Co., Inc.; 2015. https://
     www.accessdata.fda.gov/drugsatfda_docs/label/2015/
     022003s018s020,0205053s002s004,0205596s001s003lbl.pdf.
-48. Mycobutin� (rifabutin). Package Insert. Pfizer Inc.; 2014. https://www.
+48. Mycobutin® (rifabutin). Package Insert. Pfizer Inc.; 2014. https://www.
     accessdata.fda.gov/drugsatfda_docs/label/2014/050689Orig1s018lbl.pdf.
 49. Streptomycin. Package Insert. X-Gen Pharmaceuticals; 2011. https://www.
     accessdata.fda.gov/drugsatfda_docs/label/2012/064210s009lbl.pdf.
-50. Bactrim� (sulfamethoxazole and trimethoprim). Package Insert. Sun
+50. Bactrim® (sulfamethoxazole and trimethoprim). Package Insert. Sun
     Pharmaceutical Industries, Inc.; 2017. https://www.accessdata.fda.gov/
     drugsatfda_docs/label/2017/018374s025lbl.pdf.
 51. Stathoulopoulou F, Dhillon S, Thodis H, Stathakis C, Vargemezis V.
@@ -25154,10 +25094,10 @@ REFERENCES
     10.1159/000057621.
 1296.e4      Part IV   Formulary
 
-52. Valtrex� (valacyclovir hydrochloride). Package Insert. GlaxoSmithKline; 2008.
+52. Valtrex® (valacyclovir hydrochloride). Package Insert. GlaxoSmithKline; 2008.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/020487s014lbl.
     pdf.
-53. Valcyte� (valganciclovir hydrochloride). Package Insert. Genentech USA, Inc.;
+53. Valcyte® (valganciclovir hydrochloride). Package Insert. Genentech USA, Inc.;
     2017. https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/
     021304s012,022257s007lbl.pdf.
 54. Lucas GM, Ross MJ, Stock PG, et al. HIV medicine association of the
@@ -25175,13 +25115,13 @@ REFERENCES
     high-grade obstruction following therapy with epsilon-aminocaproic acid. Am
     J Kidney Dis. 1986;8(6):441–444. https://doi.org/10.1016/s0272-6386(86)
     80172-x.
-58. Kineret� (anakinra). Package Insert. Swedish Orphan Biovitrum AB (publ);
+58. Kineret® (anakinra). Package Insert. Swedish Orphan Biovitrum AB (publ);
     2020. https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/
     103950s5189lbl.pdf.
 59. Golightly LK, Teitelbaum I, Simendinger BA, Kiser TH, Barber GR,
     Stolpman NM. Renal Pharmacotherapy: Dosage Adjustment of Medications
     Eliminated by the Kidneys. 2nd ed. Springer; 2022.
-60. Tracleer� (bosentan). Package Insert. Actelion Pharmaceuticals US, Inc.; 2017.
+60. Tracleer® (bosentan). Package Insert. Actelion Pharmaceuticals US, Inc.; 2017.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209279s000lbl.
     pdf.
 61. McAlister L, Pugh P, Greenbaum L, et al. The dietary management of calcium
@@ -25192,41 +25132,41 @@ REFERENCES
 62. Mora Rodriguez KA, Benbadis SR. Managing antiepileptic medication in
     dialysis patients. Curr Treat Options Neurol. 2018;20(11):45. https://doi.org/
     10.1007/s11940-018-0530-5.
-63. Diuril� (chlorthiazide). Package Insert. Salix Pharmaceuticals, Inc.; 2008.
+63. Diuril® (chlorthiazide). Package Insert. Salix Pharmaceuticals, Inc.; 2008.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2009/011870s040lbl.
     pdf.
-64. Onfi� (clobazam). Package Insert. Lundbeck; 2024. https://www.lundbeck.
+64. Onfi® (clobazam). Package Insert. Lundbeck; 2024. https://www.lundbeck.
     com/content/dam/lundbeck-com/americas/united-states/products/neurology/
     onfi_pi_us_en.pdf.
-65. Pradaxa� (dabigatran etexilate). Package Insert. Boehringer Ingelheim
+65. Pradaxa® (dabigatran etexilate). Package Insert. Boehringer Ingelheim
     Pharmaceuticals, Inc.; 2023. https://www.accessdata.fda.gov/drugsatfda_docs/
     label/2024/022512s047lbl.pdf.
-66. Clarinex� (desloratadine). Package Insert. Merck & Co., Inc.; 2014. https://
+66. Clarinex® (desloratadine). Package Insert. Merck & Co., Inc.; 2014. https://
     www.accessdata.fda.gov/drugsatfda_docs/label/2014/021165s017,021300s014,
     021312s015,021563s003lbl.pdf.
-67. Norpace� (disopyramide phosphate). Package Insert. Pfizer Inc.; 2006. https://
+67. Norpace® (disopyramide phosphate). Package Insert. Pfizer Inc.; 2006. https://
     cdn.pfizer.com/pfizercom/products/uspi_norpace.pdf.
                           Chapter 32     Drugs in Kidney Failure          1296.e5
 
 68. Calcium Disodium Versenate (edetate calcium disodium). Package Insert.
     Graceway Pharmaceuticals, LLC; 2009. https://www.accessdata.fda.gov/
     drugsatfda_docs/label/2009/008922s016lbl.pdf.
-69. Epaned� (enalapril maleate). Package Insert. Silvergate Pharmaceuticals, Inc.;
+69. Epaned® (enalapril maleate). Package Insert. Silvergate Pharmaceuticals, Inc.;
     2017. https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/
     204308s006lbl.pdf.
 70. Moffett BS, Lee-Kim Y, Galati M, et al. Population pharmacokinetics of
     enoxaparin in pediatric patients. Ann Pharmacother. 2018;52(2):140–146.
     https://doi.org/10.1177/1060028017734234.
-71. Veletri� (epoprostenol). Package Insert. Acetelion Pharmceuticals US, Inc.;
+71. Veletri® (epoprostenol). Package Insert. Acetelion Pharmceuticals US, Inc.;
     2012. https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/
     022260s005lbl.pdf.
-72. Pepcid� (famotidine). Package Insert. Valeant Pharmaceuticals, Inc.; 2018.
+72. Pepcid® (famotidine). Package Insert. Valeant Pharmaceuticals, Inc.; 2018.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/019462s039lbl.
     pdf.
-73. Felbatol� (felbamate). Package Insert. Meda Pharmaceuticals Inc.; 2012.
+73. Felbatol® (felbamate). Package Insert. Meda Pharmaceuticals Inc.; 2012.
     https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/020189s027lbl.
     pdf.
-74. Duragesic� (fentanyl transdermal system). Package Insert. Janssen
+74. Duragesic® (fentanyl transdermal system). Package Insert. Janssen
     Pharmaceuticals, Inc.; 2021. https://www.accessdata.fda.gov/drugsatfda_docs/
     label/2021/019813s081lbl.pdf.
 75. Niscola P, Scaramucci L, Vischini G, et al. The use of major analgesics in
@@ -25244,29 +25184,29 @@ REFERENCES
     (2):5–16.
 79. Furosemide. Package Insert. Hospira, Inc.; 2024. https://labeling.pfizer.com/
     ShowLabeling.aspx?id=4630.
-80. Neurontin� (gabapentin). Package Insert. Pfizer Inc.; 2020. https://www.
+80. Neurontin® (gabapentin). Package Insert. Pfizer Inc.; 2020. https://www.
     accessdata.fda.gov/drugsatfda_docs/label/2020/020235s068,020882s049,
     021129s049lbl.pdf.
-81. Ventavis� (iloprost) inhalation solution. Package Insert. Janssen
+81. Ventavis® (iloprost) inhalation solution. Package Insert. Janssen
     Pharmaceuticals, Inc.; 2022. https://www.janssenlabels.com/package-insert/
     product-monograph/prescribing-information/VENTAVIS-pi.pdf.
-82. Remicade� (infliximab). Package Insert. Janssen Biotech, Inc.; 2013. https://
+82. Remicade® (infliximab). Package Insert. Janssen Biotech, Inc.; 2013. https://
     www.accessdata.fda.gov/drugsatfda_docs/label/2013/103772s5359lbl.pdf.
 83. Rajput R, Sinha B, Majumdar S, Shunmugavelu M, Bajaj S. Consensus
     statement on insulin therapy in chronic kidney disease. Diabetes Res Clin Pract.
     2017;127:10–20. https://doi.org/10.1016/j.diabres.2017.02.032.
-84. Kalydeco� (ivacaftor). Package Insert. Vertex Pharmaceuticals; 2023.
+84. Kalydeco® (ivacaftor). Package Insert. Vertex Pharmaceuticals; 2023.
     Incorporated https://pi.vrtx.com/files/uspi_ivacaftor.pdf.
-85. Vimpat� (lacosamide). Package Insert. UCB, Inc.; 2022. https://www.ucb-usa.
+85. Vimpat® (lacosamide). Package Insert. UCB, Inc.; 2022. https://www.ucb-usa.
     com/vimpat-prescribing-information.pdf.
 1296.e6        Part IV   Formulary
 
- 86. Keppra XR� (levetiracetam) extended-release tablets. Package Insert. UCB,
+ 86. Keppra XR® (levetiracetam) extended-release tablets. Package Insert. UCB,
      Inc.; 2017. https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/
      022285s025lbl.pdf.
- 87. Keppra� (levetiracetam). Package Insert. UCB, Inc.; 2017. https://www.
+ 87. Keppra® (levetiracetam). Package Insert. UCB, Inc.; 2017. https://www.
      accessdata.fda.gov/drugsatfda_docs/label/2017/021035s099,021505s038lbl.pdf.
- 88. Qbrelis� (lisnopril). Package Insert. Azurity Pharmaceuticals; 2023. https://
+ 88. Qbrelis® (lisnopril). Package Insert. Azurity Pharmaceuticals; 2023. https://
      qbrelis.com/Qbrelis-Prescribing-Info.pdf.
  89. Haussmann R, Bauer M, von Bonin S, Grof P, Lewitzka U. Treatment of
      lithium intoxication: facing the need for evidence. IntJ Bipolar Disord. 2015;3
@@ -25274,7 +25214,7 @@ REFERENCES
  90. McGrane IR, Omar FA, Morgan NF, Shuman MD. Lithium therapy in patients
      on dialysis: a systematic review. IntJ Psychiatry Med. 2022;57(3):187–201.
      https://doi.org/10.1177/00912174211028544.
- 91. Orkambi� (lumacaftor and ivacaftor) tablets. Package Insert. Vertex
+ 91. Orkambi® (lumacaftor and ivacaftor) tablets. Package Insert. Vertex
      Pharmaceuticals Incorporated; 2022. https://www.accessdata.fda.gov/
      drugsatfda_docs/label/2022/206038s016lbl.pdf.
  92. Bauer TM, Ritz R, Haberthür C, et al. Prolonged sedation due to accumulation
@@ -25288,15 +25228,15 @@ REFERENCES
  95. Niesters M, Overdyk F, Smith T, Aarts L, Dahan A. Opioid-induced
      respiratory depression in paediatrics: a review of case reports. Br J Anaesth.
      2013;110(2):175–182. https://doi.org/10.1093/bja/aes447.
- 96. Trileptal� (oxcarbazepine). Package Insert. Novartis Pharmaceuticals
+ 96. Trileptal® (oxcarbazepine). Package Insert. Novartis Pharmaceuticals
      corporation; 2017. https://www.accessdata.fda.gov/drugsatfda_docs/label/
      2017/021014s036lbl.pdf.
- 97. Oxtellar XR� (oxcarbazepine) extended-release tablets. Package Insert.
+ 97. Oxtellar XR® (oxcarbazepine) extended-release tablets. Package Insert.
      Supernus Pharmaceuticals, Inc.; 2018. https://www.accessdata.fda.gov/
      drugsatfda_docs/label/2018/202810s010lbl.pdf.
  98. Porto I, John EG, Heilliczer J. Removal of phenobarbital during continuous
      cycling peritoneal dialysis in a child. Pharmacotherapy. 1997;17(4):832–835.
- 99. Ammonul� (sodium phenylacetate and sodium benzoate) injection. Package
+ 99. Ammonul® (sodium phenylacetate and sodium benzoate) injection. Package
      Insert. Ucyclyd Pharma, Inc.; 2011. https://www.accessdata.fda.gov/
      drugsatfda_docs/label/2011/020645s008lbl.pdf.
 100. Terbutaline sulfate injection. Package Insert. Fresenius Kabi; 2022. http://
@@ -25305,24 +25245,24 @@ REFERENCES
 101. Bastiansen A, Eggert S, Pedersen E. Pharmacokinetics of terbutaline in chronic
      kidney disease. Eur J Clin Pharmacol. 2013;69(11):1951–1954. https://doi.org/
      10.1007/s00228-013-1566-9.
-102. Symdeko� (tezacaftor/ivacaftor) tablets. Package Insert. Vertex
+102. Symdeko® (tezacaftor/ivacaftor) tablets. Package Insert. Vertex
      Pharmaceuticals Incorporated; 2018. https://www.accessdata.fda.gov/
      drugsatfda_docs/label/2018/210491lbl.pdf.
-103. Remodulin� (treprostinil) injection. Package Insert. United Therapeutics
+103. Remodulin® (treprostinil) injection. Package Insert. United Therapeutics
      Corp; 2011. https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/
      021272s015lbl.pdf.
                           Chapter 32     Drugs in Kidney Failure        1296.e7
 
-104. Orenitram� (treprostinil) extended-release tablets. Package Insert. United
+104. Orenitram® (treprostinil) extended-release tablets. Package Insert. United
      Therapeutics Corp; 2019. https://www.accessdata.fda.gov/drugsatfda_docs/
      label/2019/203496s011lbl.pdf.
-105. Sabril� (vigabatrin). Package Insert. Lundbeck; 2017. https://www.accessdata.
+105. Sabril® (vigabatrin). Package Insert. Lundbeck; 2017. https://www.accessdata.
      fda.gov/drugsatfda_docs/label/2018/022006s020,020427s018lbl.pdf.
 106. nirsevimab Beyfortus(R). Package Insert. AstraZeneca; 2023. https://www.
      accessdata.fda.gov/drugsatfda_docs/label/2023/761328s000lbl.pdf.
 107. Alyftrek(R). Package Insert. Vertex Pharmaceuticals Incorporated; 2024.
      https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218730s000lbl.
-     pdf.$hl_457$, 'pending-clinical-verification')
+     pdf.$hl_489$, 'pending-clinical-verification')
 ON CONFLICT (source_id) DO UPDATE SET
   name = EXCLUDED.name,
   source_file = EXCLUDED.source_file,

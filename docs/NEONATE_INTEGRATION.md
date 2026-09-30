@@ -18,7 +18,7 @@ full-text seed file for the **Neonate** reference (drug dosing for infants
 The supplied Harriet Lane PDF was extracted with `pdftotext` into a private
 local workspace. The extractor detects drug monograph headings (ALL-CAPS lines
 in the Part IV Formulary, page 840 onward, up to Chapter 32) and produces
-**458 drug monograph entries** covering the full Chapter 31 drug dosage
+**490 drug monograph entries** covering the full Chapter 31 drug dosage
 monographs. Entries include full dosing text (including neonatal/preterm and
 term-specific dosing where given), indications, and precautions.
 
@@ -100,3 +100,8 @@ seed is institution-authorized content and must remain in the private repository
 with repository access restricted to approved users. Do not place it in public
 static hosting, client bundles, analytics, logs, screenshots, or public object
 storage. The authorized PDF must not be committed.
+
+
+## 2026-09-30 extraction-gap and encoding repair
+
+A verification pass recovered 32 monographs whose headings had been missed (indented four+ spaces, containing "±", or lowercase-styled) and whose text had been absorbed into neighboring records; 63 undecoded "®" symbols in the zonisamide references were also restored. The index and seed now contain **490** records; per-record source-slice integrity was re-verified against the private extraction.

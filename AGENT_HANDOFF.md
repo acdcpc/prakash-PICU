@@ -220,6 +220,16 @@ The frontend is deployable to Vercel or Netlify with no dashboard configuration:
   Supabase Auth URL configuration set (site_url + redirect allowlist) and
   email confirmation disabled so sign-ups work instantly; re-enable it after
   custom SMTP is configured. Sign-up -> login verified end-to-end.
+- 2026-09-30 drug-data verification: full audit of both formularies
+  against the private extracts. All 737 records (Teddy 247, Neonate 490)
+  are exact source slices; 41 monographs the original heading detectors
+  missed (en-dash / multi-line / lowercase-styled names, four-plus space
+  indents, "+-" names, "See" aliases) were recovered from their absorbing
+  neighbors with reviewer-verified conservation (+9 Teddy, +32 Neonate);
+  63 undecoded (R) marks in zonisamide references restored; 38 stray BEL
+  glyphs replaced; one truncated name completed. All records remain
+  pending-clinical-verification. Counts/seeds/review indexes/tests/docs
+  updated to 247 / 490.
 - Deployment does not replace governance: the owner-scoped patient RLS model,
   the manual payment review flow, and the clinical content licensing position
   all still need institutional sign-off before real patient data is entered.

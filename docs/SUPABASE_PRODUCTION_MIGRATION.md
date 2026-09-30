@@ -53,7 +53,7 @@ export DATABASE_URL
 npm run import:teddy-seed -- sql/teddy_bear_monographs_seed.sql
 ```
 
-The importer requires an SSL connection, stops on the first SQL error, and verifies exactly 238 full monograph rows with zero empty-content rows. Verify that rows are pending clinical verification before opening the review route. Then seed approved unit memberships using a separately reviewed statement. Do not commit UUIDs to the repository:
+The importer requires an SSL connection, stops on the first SQL error, and verifies exactly 247 full monograph rows with zero empty-content rows. Verify that rows are pending clinical verification before opening the review route. Then seed approved unit memberships using a separately reviewed statement. Do not commit UUIDs to the repository:
 
 ```sql
 INSERT INTO public.unit_memberships (user_id, unit_name)
@@ -133,7 +133,7 @@ SELECT count(*) AS monograph_count,
 FROM public.teddy_bear_monographs;
 ```
 
-The expected initial result is 238 rows, 238 pending rows, and zero empty-content rows on a fresh import. If approved records already exist, the pending count will be lower because the seed intentionally preserves approved review status. Confirm that the authenticated `/teddy-bear-review` route can search headings, open full content, save review metadata, and does not expose the table through a public route. Approval must not automatically modify Emergency Mode or Clinical Tools dose data.
+The expected initial result is 247 rows, 247 pending rows, and zero empty-content rows on a fresh import. If approved records already exist, the pending count will be lower because the seed intentionally preserves approved review status. Confirm that the authenticated `/teddy-bear-review` route can search headings, open full content, save review metadata, and does not expose the table through a public route. Approval must not automatically modify Emergency Mode or Clinical Tools dose data.
 
 ## Audit-event verification
 

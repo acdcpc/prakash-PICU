@@ -149,6 +149,13 @@ export const TEDDY_BEAR_REVIEW_INDEX = [
     "source": "Teddy bear.pdf"
   },
   {
+    "id": "ampicillin-sodium-sulbactam-sodium",
+    "name": "Ampicillin Sodium–Sulbactam Sodium",
+    "sourceOffset": 327738,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
     "id": "anidulafungin",
     "name": "Anidulafungin",
     "sourceOffset": 337447,
@@ -215,6 +222,13 @@ export const TEDDY_BEAR_REVIEW_INDEX = [
     "id": "asparaginase-erwinia",
     "name": "Asparaginase (Erwinia)",
     "sourceOffset": 461505,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
+    "id": "asparaginase-pegylated-pegaspargase",
+    "name": "Asparaginase–Pegylated (Pegaspargase)",
+    "sourceOffset": 470209,
     "reviewStatus": "pending-clinical-verification",
     "source": "Teddy bear.pdf"
   },
@@ -432,6 +446,13 @@ export const TEDDY_BEAR_REVIEW_INDEX = [
     "id": "clofarabine",
     "name": "Clofarabine",
     "sourceOffset": 844801,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
+    "id": "co-trimoxazole-trimethoprim-sulfamethoxazole",
+    "name": "Co-Trimoxazole (Trimethoprim–Sulfamethoxazole)",
+    "sourceOffset": 854190,
     "reviewStatus": "pending-clinical-verification",
     "source": "Teddy bear.pdf"
   },
@@ -926,6 +947,13 @@ export const TEDDY_BEAR_REVIEW_INDEX = [
     "source": "Teddy bear.pdf"
   },
   {
+    "id": "imipenem-cilastatin-sodium",
+    "name": "Imipenem–Cilastatin Sodium",
+    "sourceOffset": 1814915,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
     "id": "immune-globulin-intravenous",
     "name": "Immune Globulin Intravenous",
     "sourceOffset": 1825481,
@@ -1139,6 +1167,13 @@ export const TEDDY_BEAR_REVIEW_INDEX = [
     "id": "metoclopramide-hcl",
     "name": "Metoclopramide HCl",
     "sourceOffset": 2291703,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
+    "id": "metronidazole",
+    "name": "metroNIDAZOLE",
+    "sourceOffset": 2312273,
     "reviewStatus": "pending-clinical-verification",
     "source": "Teddy bear.pdf"
   },
@@ -1374,6 +1409,13 @@ export const TEDDY_BEAR_REVIEW_INDEX = [
     "source": "Teddy bear.pdf"
   },
   {
+    "id": "piperacillin-sodium-tazobactam-sodium",
+    "name": "Piperacillin Sodium–Tazobactam Sodium",
+    "sourceOffset": 2730702,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
     "id": "potassium-chloride",
     "name": "Potassium Chloride",
     "sourceOffset": 2743349,
@@ -1556,9 +1598,23 @@ export const TEDDY_BEAR_REVIEW_INDEX = [
     "source": "Teddy bear.pdf"
   },
   {
+    "id": "ticarcillin-disodium-clavulanate-potassium",
+    "name": "Ticarcillin Disodium–Clavulanate Potassium",
+    "sourceOffset": 3056968,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
     "id": "tigecycline",
     "name": "Tigecycline",
     "sourceOffset": 3067629,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
+    "id": "tissue-plasminogen-activator-t-pa-alteplase",
+    "name": "Tissue Plasminogen Activator (t-PA)–Alteplase",
+    "sourceOffset": 3075443,
     "reviewStatus": "pending-clinical-verification",
     "source": "Teddy bear.pdf"
   },
@@ -1650,6 +1706,13 @@ export const TEDDY_BEAR_REVIEW_INDEX = [
     "id": "vitamin-a",
     "name": "Vitamin A",
     "sourceOffset": 3302221,
+    "reviewStatus": "pending-clinical-verification",
+    "source": "Teddy bear.pdf"
+  },
+  {
+    "id": "vitamin-k1-phytonadione",
+    "name": "Vitamin K1–Phytonadione",
+    "sourceOffset": 3309623,
     "reviewStatus": "pending-clinical-verification",
     "source": "Teddy bear.pdf"
   },
