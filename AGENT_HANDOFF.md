@@ -199,6 +199,13 @@ The frontend is deployable to Vercel or Netlify with no dashboard configuration:
 - Required environment variables on either host: `VITE_SUPABASE_URL`,
   `VITE_SUPABASE_ANON_KEY`. Optional: `VITE_SITE_ORIGIN`,
   `VITE_ERROR_MONITORING_DSN` or `VITE_ERROR_MONITORING_ENDPOINT`.
+- Live deployment (2026-09-29): https://picu-app.vercel.app (Vercel project
+  `picu-app`, scope alok-35bc; production alias). Project env vars
+  `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` are set in Vercel for
+  production and preview. Still open on the Supabase side: Auth URL
+  configuration (Site URL + redirect allowlist) must include the Vercel URL
+  before email confirmation links, magic links, and password resets redirect
+  correctly; the Google provider is not enabled yet.
 - Deployment does not replace governance: the owner-scoped patient RLS model,
   the manual payment review flow, and the clinical content licensing position
   all still need institutional sign-off before real patient data is entered.

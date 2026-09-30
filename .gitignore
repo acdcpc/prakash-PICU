@@ -38,3 +38,5 @@ supabase/.temp/
 
 # Agent cluster scratch workspace
 .cluster/
+.vercel
+.env*
