@@ -206,6 +206,14 @@ The frontend is deployable to Vercel or Netlify with no dashboard configuration:
   configuration (Site URL + redirect allowlist) must include the Vercel URL
   before email confirmation links, magic links, and password resets redirect
   correctly; the Google provider is not enabled yet.
+- 2026-09-30 auth pass: web sign-in errors now map to actionable messages
+  (alisha-kit playbook), the create-account form shows the password rule, the
+  admin profile/password form was fixed (it had blocked password changes via
+  column drift), and the About page query was repaired. Commit d8e9c41.
+  Redeploy pending: the Vercel team scope for this project requires the owner
+  to re-authenticate before CLI/API deploys resume. Sign-ups remain gated by
+  email confirmation until the Supabase Auth URL configuration is set
+  (Site URL + redirect allowlist for https://picu-app.vercel.app).
 - Deployment does not replace governance: the owner-scoped patient RLS model,
   the manual payment review flow, and the clinical content licensing position
   all still need institutional sign-off before real patient data is entered.
