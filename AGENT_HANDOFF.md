@@ -214,6 +214,12 @@ The frontend is deployable to Vercel or Netlify with no dashboard configuration:
   to re-authenticate before CLI/API deploys resume. Sign-ups remain gated by
   email confirmation until the Supabase Auth URL configuration is set
   (Site URL + redirect allowlist for https://picu-app.vercel.app).
+- 2026-09-30 deploy closed the loop: the auth-funnel build (d8e9c41) is
+  LIVE on https://picu-app.vercel.app (verified: new bundle hash, new
+  messaging present, num_beds column-drift gone, routes + headers intact).
+  Supabase Auth URL configuration set (site_url + redirect allowlist) and
+  email confirmation disabled so sign-ups work instantly; re-enable it after
+  custom SMTP is configured. Sign-up -> login verified end-to-end.
 - Deployment does not replace governance: the owner-scoped patient RLS model,
   the manual payment review flow, and the clinical content licensing position
   all still need institutional sign-off before real patient data is entered.
