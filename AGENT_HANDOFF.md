@@ -225,7 +225,7 @@ The frontend is deployable to Vercel or Netlify with no dashboard configuration:
   are exact source slices; 41 monographs the original heading detectors
   missed (en-dash / multi-line / lowercase-styled names, four-plus space
   indents, "+-" names, "See" aliases) were recovered from their absorbing
-  neighbors with reviewer-verified conservation (+9 Teddy, +32 Neonate);
+  neighbors with reviewer-verified conservation (+9 Teddy, +32 Neonate; final adversarial review PASS: 0 unexplained changes, 0 lost fragments);
   63 undecoded (R) marks in zonisamide references restored; 38 stray BEL
   glyphs replaced; one truncated name completed. All records remain
   pending-clinical-verification. Counts/seeds/review indexes/tests/docs
