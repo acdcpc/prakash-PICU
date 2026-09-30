@@ -11,24 +11,13 @@ export default function About() {
 
   async function fetchData() {
     setLoading(true);
-    // Try fetching doctor info from education table first
-    const { data: edu } = await supabase
-      .from('education')
-      .select('doctor_name, designation, hospital, about_text')
+    // Public profile details live on the profiles row.
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('full_name, designation, hospital')
       .limit(1)
       .single();
-
-    if (edu) {
-      setDoctor(edu);
-    } else {
-      // Fallback to profiles
-      const { data: profile } = await supabase
-        .from('profiles')
-        .select('doctor_name, designation, hospital')
-        .limit(1)
-        .single();
-      if (profile) setDoctor(profile);
-    }
+    if (profile) setDoctor(profile);
     setLoading(false);
   }
 
@@ -72,7 +61,7 @@ export default function About() {
           <div className="card-body">
             <div className="rrow">
               <div className="rlbl">Lead Clinician</div>
-              <div className="rval">{doctor.doctor_name || '—'}</div>
+              <div className="rval">{doctor.full_name || '—'}</div>
             </div>
             {doctor.designation && (
               <div className="rrow">

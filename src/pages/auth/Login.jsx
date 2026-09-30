@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ArrowRight, Eye, EyeOff, KeyRound, Mail, ShieldCheck, Sparkles, Stethoscope } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
+import { friendlyAuthMessage, isDuplicateEmailError } from '../../lib/authMessages';
 
 export default function Login() {
   const { signIn, signUp, signInWithGoogle, signInWithMagicLink, resetPassword, authError, clearAuthError } = useAuth();
@@ -57,7 +58,9 @@ export default function Login() {
         await signIn(email, password);
       }
     } catch (authFailure) {
-      setError(authFailure.message || 'Authentication failed.');
+      const message = friendlyAuthMessage(authFailure, 'Authentication failed. Please try again.');
+      if (mode === 'signup' && isDuplicateEmailError(authFailure)) switchMode('signin');
+      setError(message);
     } finally {
       setLoading(false);
     }
@@ -71,7 +74,7 @@ export default function Login() {
     try {
       await signInWithGoogle();
     } catch (authFailure) {
-      setError(authFailure.message || 'Google sign-in failed.');
+      setError(friendlyAuthMessage(authFailure, 'Google sign-in failed.'));
       setLoading(false);
     }
   }
@@ -85,7 +88,7 @@ export default function Login() {
       await signInWithMagicLink(magicEmail);
       setMagicSent(true);
     } catch (authFailure) {
-      setError(authFailure.message || 'Failed to send the magic link.');
+      setError(friendlyAuthMessage(authFailure, 'Failed to send the magic link.'));
     } finally {
       setMagicLoading(false);
     }
@@ -101,7 +104,7 @@ export default function Login() {
       setInfo('Password reset link sent. Check your email.');
       setShowForgot(false);
     } catch (authFailure) {
-      setError(authFailure.message || 'Failed to send the reset link.');
+      setError(friendlyAuthMessage(authFailure, 'Failed to send the reset link.'));
     } finally {
       setLoading(false);
     }
@@ -128,7 +131,7 @@ export default function Login() {
         <form onSubmit={handleSubmit} className="auth-form">
           {mode === 'signup' && <div className="form-group"><label className="form-label" htmlFor="fullname">Full name</label><input id="fullname" type="text" className="form-input" placeholder="Dr. Jane Smith" value={fullName} onChange={(event) => setFullName(event.target.value)} autoComplete="name" required /></div>}
           <div className="form-group"><label className="form-label" htmlFor="email">Work email</label><div className="auth-input-wrap"><Mail size={17} /><input id="email" type="email" className="form-input" placeholder="you@hospital.org" value={email} onChange={(event) => setEmail(event.target.value)} autoComplete="email" required /></div></div>
-          <div className="form-group"><div className="auth-label-row"><label className="form-label" htmlFor="password">Password</label>{mode === 'signin' && <button type="button" className="auth-inline-button" onClick={() => { setShowForgot(true); setResetEmail(email); setError(''); }}>Forgot password?</button>}</div><div className="auth-password-wrap"><input id="password" type={showPassword ? 'text' : 'password'} className="form-input" placeholder={mode === 'signup' ? 'At least 6 characters' : 'Your password'} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete={mode === 'signup' ? 'new-password' : 'current-password'} required /><button type="button" className="auth-password-toggle" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}>{showPassword ? <EyeOff size={17} /> : <Eye size={17} />}</button></div></div>
+          <div className="form-group"><div className="auth-label-row"><label className="form-label" htmlFor="password">Password</label>{mode === 'signin' && <button type="button" className="auth-inline-button" onClick={() => { setShowForgot(true); setResetEmail(email); setError(''); }}>Forgot password?</button>}</div><div className="auth-password-wrap"><input id="password" type={showPassword ? 'text' : 'password'} className="form-input" placeholder={mode === 'signup' ? 'At least 6 characters' : 'Your password'} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete={mode === 'signup' ? 'new-password' : 'current-password'} required /><button type="button" className="auth-password-toggle" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}>{showPassword ? <EyeOff size={17} /> : <Eye size={17} />}</button></div>{mode === 'signup' && <p className="text-sm text-muted mt-1">Choose at least 6 characters — a short phrase you can remember works well.</p>}</div>
           {mode === 'signup' && <div className="form-group"><label className="form-label" htmlFor="confirm">Confirm password</label><input id="confirm" type="password" className="form-input" placeholder="Re-enter your password" value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} autoComplete="new-password" required /></div>}
           <button type="submit" className="btn btn-primary btn-block auth-submit" disabled={loading}>{loading ? 'Please wait…' : mode === 'signin' ? 'Sign in securely' : 'Create my workspace'} <ArrowRight size={17} /></button>
         </form>

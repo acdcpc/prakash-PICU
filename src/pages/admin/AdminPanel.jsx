@@ -28,11 +28,12 @@ export default function AdminPanel() {
 
   // Profile / PICU settings
   const [profile, setProfile] = useState({
-    doctor_name: '',
+    id: '',
+    full_name: '',
     designation: '',
     hospital: '',
     unit_name: '',
-    num_beds: '',
+    beds: '',
   });
   const [newPassword, setNewPassword] = useState('');
 
@@ -78,11 +79,12 @@ export default function AdminPanel() {
     const { data } = await supabase.from('profiles').select('*').limit(1).single();
     if (data) {
       setProfile({
-        doctor_name: data.doctor_name || '',
+        id: data.id || '',
+        full_name: data.full_name || '',
         designation: data.designation || '',
         hospital: data.hospital || '',
         unit_name: data.unit_name || '',
-        num_beds: data.num_beds || '',
+        beds: data.beds ?? '',
       });
     }
   }
@@ -128,14 +130,19 @@ export default function AdminPanel() {
 
   // ── PROFILE ──
   async function saveProfile() {
+    if (newPassword && newPassword.length < 6) {
+      return showMsg('New password must be at least 6 characters.', 'danger');
+    }
+    const beds = profile.beds === '' ? null : Number(profile.beds);
     const { error } = await supabase
       .from('profiles')
       .upsert({
-        doctor_name: profile.doctor_name,
+        ...(profile.id ? { id: profile.id } : {}),
+        full_name: profile.full_name,
         designation: profile.designation,
         hospital: profile.hospital,
         unit_name: profile.unit_name,
-        num_beds: profile.num_beds,
+        beds: Number.isFinite(beds) ? beds : null,
       });
     if (error) return showMsg(error.message, 'danger');
     showMsg('Profile saved successfully');
@@ -320,11 +327,11 @@ export default function AdminPanel() {
           <div className="card-head"><strong>Doctor Profile</strong></div>
           <div className="card-body">
             <div className="form-group">
-              <label className="form-label">Doctor Name</label>
+              <label className="form-label">Full Name</label>
               <input
                 className="form-input"
-                value={profile.doctor_name}
-                onChange={(e) => setProfile({ ...profile, doctor_name: e.target.value })}
+                value={profile.full_name}
+                onChange={(e) => setProfile({ ...profile, full_name: e.target.value })}
               />
             </div>
             <div className="form-group">
@@ -344,7 +351,7 @@ export default function AdminPanel() {
               />
             </div>
             <div className="form-group">
-              <label className="form-label">New Password (leave blank to keep current)</label>
+              <label className="form-label">New Password (at least 6 characters — leave blank to keep current)</label>
               <input
                 type="password"
                 className="form-input"
@@ -382,8 +389,8 @@ export default function AdminPanel() {
               <input
                 type="number"
                 className="form-input"
-                value={profile.num_beds}
-                onChange={(e) => setProfile({ ...profile, num_beds: e.target.value })}
+                value={profile.beds}
+                onChange={(e) => setProfile({ ...profile, beds: e.target.value })}
                 placeholder="e.g. 8"
               />
             </div>
